@@ -1,0 +1,1325 @@
+2019-02-23 23:57:11,544 INFO  DownloadService - Downloading "https://github.com/eo/bluetooth-state-view/archive/master.zip", attempt 3
+2019-02-23 23:57:14,507 INFO  DownloadService - Downloaded https://github.com/eo/bluetooth-state-view/archive/master.zip, attempt 3
+2019-02-23 23:57:14,507 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/master.zip": 464 KB
+2019-02-23 23:57:14,507 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-23 23:57:14,509 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/master.zip: true
+2019-02-23 23:57:14,509 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src'.
+2019-02-23 23:57:14,549 INFO  FullProcessService - Size of directory with sources: 510 KB
+2019-02-23 23:57:14,549 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src]
+2019-02-23 23:57:14,575 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/.git/
+
+2019-02-23 23:57:14,580 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/gradlew
+2019-02-23 23:57:14,587 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/avd-connecting/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/avd-searching/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/avd-turningonoff/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/bluetoothstate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/vd-bluetooth/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/vd-connected/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/vd-onoff/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/vd-search/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/build.gradle
+2019-02-23 23:57:14,592 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/avd-turningonoff/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/vd-connected/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/avd-searching/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/vd-search/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/vd-onoff/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/bintray-upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/vd-bluetooth/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/avd-connecting/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/bluetoothstate/build.gradle
+2019-02-23 23:57:14,593 INFO  ProjectBuildService - Remote scripts: none
+2019-02-23 23:57:14,593 INFO  ProjectFixService - Fixing project...
+2019-02-23 23:57:14,608 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/avd-connecting/local.properties
+2019-02-23 23:57:14,615 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/avd-connecting/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-23 23:57:14,615 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/avd-connecting/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-23 23:57:14,616 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/avd-searching/local.properties
+2019-02-23 23:57:14,622 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/avd-searching/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-23 23:57:14,622 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/avd-searching/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-23 23:57:14,623 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/avd-turningonoff/local.properties
+2019-02-23 23:57:14,630 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/avd-turningonoff/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-23 23:57:14,630 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/avd-turningonoff/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-23 23:57:14,631 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/bluetoothstate/local.properties
+2019-02-23 23:57:14,637 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/bluetoothstate/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-23 23:57:14,637 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/bluetoothstate/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-23 23:57:14,638 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/sample/local.properties
+2019-02-23 23:57:14,644 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-23 23:57:14,644 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-23 23:57:14,645 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/vd-bluetooth/local.properties
+2019-02-23 23:57:14,651 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/vd-bluetooth/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-23 23:57:14,651 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/vd-bluetooth/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-23 23:57:14,652 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/vd-connected/local.properties
+2019-02-23 23:57:14,658 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/vd-connected/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-23 23:57:14,658 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/vd-connected/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-23 23:57:14,659 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/vd-onoff/local.properties
+2019-02-23 23:57:14,665 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/vd-onoff/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-23 23:57:14,665 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/vd-onoff/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-23 23:57:14,666 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/vd-search/local.properties
+2019-02-23 23:57:14,672 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/vd-search/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-23 23:57:14,672 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/vd-search/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-23 23:57:14,673 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/local.properties
+2019-02-23 23:57:14,674 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-02-23 23:57:14,674 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-02-23 23:57:14,680 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-02-23 23:57:14,680 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-02-23 23:57:14,681 INFO  ProjectFixService - Project was maybe fixed
+2019-02-23 23:57:14,682 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-23 23:57:14,682 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/avd-connecting/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-23 23:57:24,670 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-02-23 23:57:24,670 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-02-23 23:57:24,670 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/avd-connecting/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-02-23 23:57:37,938 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :avd-connecting:preBuild UP-TO-DATE
+> Task :avd-connecting:preDebugBuild UP-TO-DATE
+> Task :vd-bluetooth:preBuild UP-TO-DATE
+> Task :vd-bluetooth:preDebugBuild UP-TO-DATE
+> Task :vd-connected:preBuild UP-TO-DATE
+> Task :vd-connected:preDebugBuild UP-TO-DATE
+> Task :vd-connected:packageDebugRenderscript NO-SOURCE
+> Task :avd-connecting:checkDebugManifest
+> Task :avd-connecting:generateDebugBuildConfig
+> Task :avd-connecting:generateDebugResValues
+> Task :avd-connecting:processDebugManifest
+> Task :vd-bluetooth:generateDebugResValues
+> Task :vd-bluetooth:compileDebugAidl NO-SOURCE
+> Task :vd-connected:compileDebugAidl NO-SOURCE
+> Task :avd-connecting:compileDebugAidl NO-SOURCE
+> Task :avd-connecting:compileDebugRenderscript NO-SOURCE
+> Task :avd-connecting:generateDebugResources
+> Task :avd-connecting:packageDebugResources
+> Task :vd-bluetooth:compileDebugRenderscript NO-SOURCE
+> Task :vd-bluetooth:generateDebugResources
+> Task :vd-bluetooth:packageDebugResources
+> Task :vd-bluetooth:checkDebugManifest
+> Task :vd-bluetooth:processDebugManifest
+> Task :vd-bluetooth:generateDebugRFile
+> Task :vd-bluetooth:packageDebugRenderscript NO-SOURCE
+> Task :vd-connected:compileDebugRenderscript NO-SOURCE
+> Task :vd-connected:generateDebugResValues
+> Task :vd-connected:generateDebugResources
+> Task :vd-connected:packageDebugResources
+> Task :vd-connected:checkDebugManifest
+> Task :vd-connected:processDebugManifest
+> Task :vd-connected:generateDebugRFile
+> Task :avd-connecting:generateDebugRFile
+> Task :avd-connecting:prepareLintJar
+> Task :avd-connecting:generateDebugSources
+> Task :vd-bluetooth:generateDebugBuildConfig
+> Task :vd-bluetooth:prepareLintJar
+> Task :vd-bluetooth:generateDebugSources
+> Task :vd-bluetooth:javaPreCompileDebug
+> Task :vd-bluetooth:compileDebugJavaWithJavac
+> Task :vd-bluetooth:bundleLibCompileDebug
+> Task :vd-connected:generateDebugBuildConfig
+> Task :vd-connected:prepareLintJar
+> Task :vd-connected:generateDebugSources
+> Task :vd-connected:javaPreCompileDebug
+> Task :vd-connected:compileDebugJavaWithJavac
+> Task :vd-connected:bundleLibCompileDebug
+> Task :avd-connecting:javaPreCompileDebug
+> Task :avd-connecting:compileDebugJavaWithJavac
+> Task :avd-connecting:extractDebugAnnotations
+> Task :avd-connecting:mergeDebugConsumerProguardFiles
+> Task :avd-connecting:mergeDebugShaders
+> Task :avd-connecting:compileDebugShaders
+> Task :avd-connecting:generateDebugAssets
+> Task :avd-connecting:packageDebugAssets
+> Task :avd-connecting:packageDebugRenderscript NO-SOURCE
+> Task :avd-connecting:processDebugJavaRes NO-SOURCE
+> Task :avd-connecting:transformResourcesWithMergeJavaResForDebug
+> Task :avd-connecting:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :avd-connecting:mergeDebugJniLibFolders
+> Task :avd-connecting:transformNativeLibsWithMergeJniLibsForDebug
+> Task :avd-connecting:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :avd-connecting:transformNativeLibsWithSyncJniLibsForDebug
+> Task :avd-connecting:bundleDebugAar
+> Task :avd-connecting:compileDebugSources
+> Task :avd-connecting:assembleDebug
+> Task :avd-connecting:preReleaseBuild UP-TO-DATE
+> Task :vd-bluetooth:preReleaseBuild UP-TO-DATE
+> Task :vd-bluetooth:compileReleaseAidl NO-SOURCE
+> Task :vd-connected:preReleaseBuild UP-TO-DATE
+> Task :vd-connected:compileReleaseAidl NO-SOURCE
+> Task :avd-connecting:compileReleaseAidl NO-SOURCE
+> Task :vd-connected:packageReleaseRenderscript NO-SOURCE
+> Task :avd-connecting:compileReleaseRenderscript NO-SOURCE
+> Task :avd-connecting:checkReleaseManifest
+> Task :avd-connecting:generateReleaseBuildConfig
+> Task :avd-connecting:generateReleaseResValues
+> Task :avd-connecting:generateReleaseResources
+> Task :avd-connecting:packageReleaseResources
+> Task :avd-connecting:processReleaseManifest
+> Task :vd-bluetooth:compileReleaseRenderscript NO-SOURCE
+> Task :vd-bluetooth:generateReleaseResValues
+> Task :vd-bluetooth:generateReleaseResources
+> Task :vd-bluetooth:packageReleaseResources
+> Task :vd-bluetooth:checkReleaseManifest
+> Task :vd-bluetooth:processReleaseManifest
+> Task :vd-bluetooth:generateReleaseRFile
+> Task :vd-bluetooth:packageReleaseRenderscript NO-SOURCE
+> Task :vd-connected:compileReleaseRenderscript NO-SOURCE
+> Task :vd-connected:generateReleaseResValues
+> Task :vd-connected:generateReleaseResources
+> Task :vd-connected:packageReleaseResources
+> Task :vd-connected:checkReleaseManifest
+> Task :vd-connected:processReleaseManifest
+> Task :vd-connected:generateReleaseRFile
+> Task :avd-connecting:generateReleaseRFile
+> Task :avd-connecting:generateReleaseSources
+> Task :vd-bluetooth:generateReleaseBuildConfig
+> Task :vd-bluetooth:generateReleaseSources
+> Task :vd-bluetooth:javaPreCompileRelease
+> Task :vd-bluetooth:compileReleaseJavaWithJavac
+> Task :vd-bluetooth:bundleLibCompileRelease
+> Task :vd-connected:generateReleaseBuildConfig
+> Task :vd-connected:generateReleaseSources
+> Task :vd-connected:javaPreCompileRelease
+> Task :vd-connected:compileReleaseJavaWithJavac
+> Task :vd-connected:bundleLibCompileRelease
+> Task :avd-connecting:javaPreCompileRelease
+> Task :avd-connecting:compileReleaseJavaWithJavac
+> Task :avd-connecting:extractReleaseAnnotations
+> Task :avd-connecting:mergeReleaseConsumerProguardFiles
+> Task :avd-connecting:mergeReleaseShaders
+> Task :avd-connecting:compileReleaseShaders
+> Task :avd-connecting:generateReleaseAssets
+> Task :avd-connecting:packageReleaseAssets
+> Task :avd-connecting:packageReleaseRenderscript NO-SOURCE
+> Task :avd-connecting:processReleaseJavaRes NO-SOURCE
+> Task :avd-connecting:transformResourcesWithMergeJavaResForRelease
+> Task :avd-connecting:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :avd-connecting:mergeReleaseJniLibFolders
+> Task :avd-connecting:transformNativeLibsWithMergeJniLibsForRelease
+> Task :avd-connecting:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :avd-connecting:transformNativeLibsWithSyncJniLibsForRelease
+> Task :avd-connecting:bundleReleaseAar
+> Task :avd-connecting:compileReleaseSources
+> Task :avd-connecting:javadoc SKIPPED
+> Task :avd-connecting:javadocJar
+> Task :avd-connecting:mergeReleaseResources
+> Task :avd-connecting:verifyReleaseResources
+> Task :avd-connecting:assembleRelease
+> Task :avd-connecting:sourcesJar
+> Task :avd-connecting:assemble
+> Task :avd-connecting:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 12s
+83 actionable tasks: 83 executed
+
+2019-02-23 23:57:37,996 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-23 23:57:37,996 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/avd-searching/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-23 23:57:46,022 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-02-23 23:57:46,022 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-02-23 23:57:46,022 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/avd-searching/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-02-23 23:57:57,550 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :avd-searching:preBuild UP-TO-DATE
+> Task :avd-searching:preDebugBuild UP-TO-DATE
+> Task :vd-bluetooth:preBuild UP-TO-DATE
+> Task :vd-bluetooth:preDebugBuild UP-TO-DATE
+> Task :vd-search:preBuild UP-TO-DATE
+> Task :vd-search:preDebugBuild UP-TO-DATE
+> Task :vd-search:packageDebugRenderscript NO-SOURCE
+> Task :avd-searching:checkDebugManifest
+> Task :avd-searching:generateDebugBuildConfig
+> Task :avd-searching:generateDebugResValues
+> Task :vd-bluetooth:compileDebugAidl NO-SOURCE
+> Task :vd-search:compileDebugAidl NO-SOURCE
+> Task :avd-searching:compileDebugAidl NO-SOURCE
+> Task :avd-searching:compileDebugRenderscript NO-SOURCE
+> Task :avd-searching:generateDebugResources
+> Task :avd-searching:packageDebugResources
+> Task :avd-searching:processDebugManifest
+> Task :vd-bluetooth:compileDebugRenderscript NO-SOURCE
+> Task :vd-bluetooth:generateDebugResValues UP-TO-DATE
+> Task :vd-bluetooth:generateDebugResources UP-TO-DATE
+> Task :vd-bluetooth:packageDebugResources UP-TO-DATE
+> Task :vd-bluetooth:checkDebugManifest UP-TO-DATE
+> Task :vd-bluetooth:processDebugManifest UP-TO-DATE
+> Task :vd-bluetooth:generateDebugRFile UP-TO-DATE
+> Task :vd-bluetooth:packageDebugRenderscript NO-SOURCE
+> Task :vd-search:compileDebugRenderscript NO-SOURCE
+> Task :vd-search:generateDebugResValues
+> Task :vd-search:generateDebugResources
+> Task :vd-search:packageDebugResources
+> Task :vd-search:checkDebugManifest
+> Task :vd-search:processDebugManifest
+> Task :vd-search:generateDebugRFile
+> Task :avd-searching:generateDebugRFile
+> Task :avd-searching:prepareLintJar
+> Task :avd-searching:generateDebugSources
+> Task :vd-bluetooth:generateDebugBuildConfig UP-TO-DATE
+> Task :vd-bluetooth:prepareLintJar UP-TO-DATE
+> Task :vd-bluetooth:generateDebugSources UP-TO-DATE
+> Task :vd-bluetooth:javaPreCompileDebug UP-TO-DATE
+> Task :vd-bluetooth:compileDebugJavaWithJavac UP-TO-DATE
+> Task :vd-bluetooth:bundleLibCompileDebug UP-TO-DATE
+> Task :vd-search:generateDebugBuildConfig
+> Task :vd-search:prepareLintJar
+> Task :vd-search:generateDebugSources
+> Task :vd-search:javaPreCompileDebug
+> Task :vd-search:compileDebugJavaWithJavac
+> Task :vd-search:bundleLibCompileDebug
+> Task :avd-searching:javaPreCompileDebug
+> Task :avd-searching:compileDebugJavaWithJavac
+> Task :avd-searching:extractDebugAnnotations
+> Task :avd-searching:mergeDebugConsumerProguardFiles
+> Task :avd-searching:mergeDebugShaders
+> Task :avd-searching:compileDebugShaders
+> Task :avd-searching:generateDebugAssets
+> Task :avd-searching:packageDebugAssets
+> Task :avd-searching:packageDebugRenderscript NO-SOURCE
+> Task :avd-searching:processDebugJavaRes NO-SOURCE
+> Task :avd-searching:transformResourcesWithMergeJavaResForDebug
+> Task :avd-searching:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :avd-searching:mergeDebugJniLibFolders
+> Task :avd-searching:transformNativeLibsWithMergeJniLibsForDebug
+> Task :avd-searching:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :avd-searching:transformNativeLibsWithSyncJniLibsForDebug
+> Task :avd-searching:bundleDebugAar
+> Task :avd-searching:compileDebugSources
+> Task :avd-searching:assembleDebug
+> Task :avd-searching:preReleaseBuild UP-TO-DATE
+> Task :vd-bluetooth:preReleaseBuild UP-TO-DATE
+> Task :vd-bluetooth:compileReleaseAidl NO-SOURCE
+> Task :vd-search:preReleaseBuild UP-TO-DATE
+> Task :vd-search:compileReleaseAidl NO-SOURCE
+> Task :avd-searching:compileReleaseAidl NO-SOURCE
+> Task :vd-search:packageReleaseRenderscript NO-SOURCE
+> Task :avd-searching:compileReleaseRenderscript NO-SOURCE
+> Task :avd-searching:checkReleaseManifest
+> Task :avd-searching:generateReleaseBuildConfig
+> Task :avd-searching:generateReleaseResValues
+> Task :avd-searching:generateReleaseResources
+> Task :avd-searching:packageReleaseResources
+> Task :avd-searching:processReleaseManifest
+> Task :vd-bluetooth:compileReleaseRenderscript NO-SOURCE
+> Task :vd-bluetooth:generateReleaseResValues UP-TO-DATE
+> Task :vd-bluetooth:generateReleaseResources UP-TO-DATE
+> Task :vd-bluetooth:packageReleaseResources UP-TO-DATE
+> Task :vd-bluetooth:checkReleaseManifest UP-TO-DATE
+> Task :vd-bluetooth:processReleaseManifest UP-TO-DATE
+> Task :vd-bluetooth:generateReleaseRFile UP-TO-DATE
+> Task :vd-bluetooth:packageReleaseRenderscript NO-SOURCE
+> Task :vd-search:compileReleaseRenderscript NO-SOURCE
+> Task :vd-search:generateReleaseResValues
+> Task :vd-search:generateReleaseResources
+> Task :vd-search:packageReleaseResources
+> Task :vd-search:checkReleaseManifest
+> Task :vd-search:processReleaseManifest
+> Task :vd-search:generateReleaseRFile
+> Task :avd-searching:generateReleaseRFile
+> Task :avd-searching:generateReleaseSources
+> Task :vd-bluetooth:generateReleaseBuildConfig UP-TO-DATE
+> Task :vd-bluetooth:generateReleaseSources UP-TO-DATE
+> Task :vd-bluetooth:javaPreCompileRelease UP-TO-DATE
+> Task :vd-bluetooth:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :vd-bluetooth:bundleLibCompileRelease UP-TO-DATE
+> Task :vd-search:generateReleaseBuildConfig
+> Task :vd-search:generateReleaseSources
+> Task :vd-search:javaPreCompileRelease
+> Task :vd-search:compileReleaseJavaWithJavac
+> Task :vd-search:bundleLibCompileRelease
+> Task :avd-searching:javaPreCompileRelease
+> Task :avd-searching:compileReleaseJavaWithJavac
+> Task :avd-searching:extractReleaseAnnotations
+> Task :avd-searching:mergeReleaseConsumerProguardFiles
+> Task :avd-searching:mergeReleaseShaders
+> Task :avd-searching:compileReleaseShaders
+> Task :avd-searching:generateReleaseAssets
+> Task :avd-searching:packageReleaseAssets
+> Task :avd-searching:packageReleaseRenderscript NO-SOURCE
+> Task :avd-searching:processReleaseJavaRes NO-SOURCE
+> Task :avd-searching:transformResourcesWithMergeJavaResForRelease
+> Task :avd-searching:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :avd-searching:mergeReleaseJniLibFolders
+> Task :avd-searching:transformNativeLibsWithMergeJniLibsForRelease
+> Task :avd-searching:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :avd-searching:transformNativeLibsWithSyncJniLibsForRelease
+> Task :avd-searching:bundleReleaseAar
+> Task :avd-searching:compileReleaseSources
+> Task :avd-searching:javadoc SKIPPED
+> Task :avd-searching:javadocJar
+> Task :avd-searching:mergeReleaseResources
+> Task :avd-searching:verifyReleaseResources
+> Task :avd-searching:assembleRelease
+> Task :avd-searching:sourcesJar
+> Task :avd-searching:assemble
+> Task :avd-searching:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 11s
+83 actionable tasks: 64 executed, 19 up-to-date
+
+2019-02-23 23:57:57,640 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-23 23:57:57,640 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/avd-turningonoff/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-23 23:58:04,730 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-02-23 23:58:04,730 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-02-23 23:58:04,730 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/avd-turningonoff/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-02-23 23:58:16,462 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :avd-turningonoff:preBuild UP-TO-DATE
+> Task :avd-turningonoff:preDebugBuild UP-TO-DATE
+> Task :vd-onoff:preBuild UP-TO-DATE
+> Task :vd-onoff:preDebugBuild UP-TO-DATE
+> Task :vd-onoff:packageDebugRenderscript NO-SOURCE
+> Task :avd-turningonoff:checkDebugManifest
+> Task :avd-turningonoff:generateDebugBuildConfig
+> Task :vd-onoff:compileDebugAidl NO-SOURCE
+> Task :avd-turningonoff:compileDebugAidl NO-SOURCE
+> Task :avd-turningonoff:compileDebugRenderscript NO-SOURCE
+> Task :avd-turningonoff:generateDebugResValues
+> Task :avd-turningonoff:generateDebugResources
+> Task :avd-turningonoff:packageDebugResources
+> Task :avd-turningonoff:processDebugManifest
+> Task :vd-onoff:compileDebugRenderscript NO-SOURCE
+> Task :vd-onoff:generateDebugResValues
+> Task :vd-onoff:generateDebugResources
+> Task :vd-onoff:packageDebugResources
+> Task :vd-onoff:checkDebugManifest
+> Task :vd-onoff:processDebugManifest
+> Task :vd-onoff:generateDebugRFile
+> Task :avd-turningonoff:generateDebugRFile
+> Task :avd-turningonoff:prepareLintJar
+> Task :avd-turningonoff:generateDebugSources
+> Task :vd-onoff:generateDebugBuildConfig
+> Task :vd-onoff:prepareLintJar
+> Task :vd-onoff:generateDebugSources
+> Task :vd-onoff:javaPreCompileDebug
+> Task :vd-onoff:compileDebugJavaWithJavac
+> Task :vd-onoff:bundleLibCompileDebug
+> Task :avd-turningonoff:javaPreCompileDebug
+> Task :avd-turningonoff:compileDebugJavaWithJavac
+> Task :avd-turningonoff:extractDebugAnnotations
+> Task :avd-turningonoff:mergeDebugConsumerProguardFiles
+> Task :avd-turningonoff:mergeDebugShaders
+> Task :avd-turningonoff:compileDebugShaders
+> Task :avd-turningonoff:generateDebugAssets
+> Task :avd-turningonoff:packageDebugAssets
+> Task :avd-turningonoff:packageDebugRenderscript NO-SOURCE
+> Task :avd-turningonoff:processDebugJavaRes NO-SOURCE
+> Task :avd-turningonoff:transformResourcesWithMergeJavaResForDebug
+> Task :avd-turningonoff:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :avd-turningonoff:mergeDebugJniLibFolders
+> Task :avd-turningonoff:transformNativeLibsWithMergeJniLibsForDebug
+> Task :avd-turningonoff:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :avd-turningonoff:transformNativeLibsWithSyncJniLibsForDebug
+> Task :avd-turningonoff:bundleDebugAar
+> Task :avd-turningonoff:compileDebugSources
+> Task :avd-turningonoff:assembleDebug
+> Task :avd-turningonoff:preReleaseBuild UP-TO-DATE
+> Task :vd-onoff:preReleaseBuild UP-TO-DATE
+> Task :vd-onoff:compileReleaseAidl NO-SOURCE
+> Task :avd-turningonoff:compileReleaseAidl NO-SOURCE
+> Task :vd-onoff:packageReleaseRenderscript NO-SOURCE
+> Task :avd-turningonoff:compileReleaseRenderscript NO-SOURCE
+> Task :avd-turningonoff:checkReleaseManifest
+> Task :avd-turningonoff:generateReleaseBuildConfig
+> Task :avd-turningonoff:generateReleaseResValues
+> Task :avd-turningonoff:generateReleaseResources
+> Task :avd-turningonoff:packageReleaseResources
+> Task :avd-turningonoff:processReleaseManifest
+> Task :vd-onoff:compileReleaseRenderscript NO-SOURCE
+> Task :vd-onoff:generateReleaseResValues
+> Task :vd-onoff:generateReleaseResources
+> Task :vd-onoff:packageReleaseResources
+> Task :vd-onoff:checkReleaseManifest
+> Task :vd-onoff:processReleaseManifest
+> Task :vd-onoff:generateReleaseRFile
+> Task :avd-turningonoff:generateReleaseRFile
+> Task :avd-turningonoff:generateReleaseSources
+> Task :vd-onoff:generateReleaseBuildConfig
+> Task :vd-onoff:generateReleaseSources
+> Task :vd-onoff:javaPreCompileRelease
+> Task :vd-onoff:compileReleaseJavaWithJavac
+> Task :vd-onoff:bundleLibCompileRelease
+> Task :avd-turningonoff:javaPreCompileRelease
+> Task :avd-turningonoff:compileReleaseJavaWithJavac
+> Task :avd-turningonoff:extractReleaseAnnotations
+> Task :avd-turningonoff:mergeReleaseConsumerProguardFiles
+> Task :avd-turningonoff:mergeReleaseShaders
+> Task :avd-turningonoff:compileReleaseShaders
+> Task :avd-turningonoff:generateReleaseAssets
+> Task :avd-turningonoff:packageReleaseAssets
+> Task :avd-turningonoff:packageReleaseRenderscript NO-SOURCE
+> Task :avd-turningonoff:processReleaseJavaRes NO-SOURCE
+> Task :avd-turningonoff:transformResourcesWithMergeJavaResForRelease
+> Task :avd-turningonoff:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :avd-turningonoff:mergeReleaseJniLibFolders
+> Task :avd-turningonoff:transformNativeLibsWithMergeJniLibsForRelease
+> Task :avd-turningonoff:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :avd-turningonoff:transformNativeLibsWithSyncJniLibsForRelease
+> Task :avd-turningonoff:bundleReleaseAar
+> Task :avd-turningonoff:compileReleaseSources
+> Task :avd-turningonoff:javadoc SKIPPED
+> Task :avd-turningonoff:javadocJar
+> Task :avd-turningonoff:mergeReleaseResources
+> Task :avd-turningonoff:verifyReleaseResources
+> Task :avd-turningonoff:assembleRelease
+> Task :avd-turningonoff:sourcesJar
+> Task :avd-turningonoff:assemble
+> Task :avd-turningonoff:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 11s
+64 actionable tasks: 64 executed
+
+2019-02-23 23:58:16,603 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-23 23:58:16,603 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/bluetoothstate/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-23 23:58:23,941 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-02-23 23:58:23,941 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-02-23 23:58:23,941 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/bluetoothstate/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-02-23 23:58:43,913 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :avd-connecting:preBuild UP-TO-DATE
+> Task :avd-connecting:preDebugBuild UP-TO-DATE
+> Task :vd-bluetooth:preBuild UP-TO-DATE
+> Task :vd-bluetooth:preDebugBuild UP-TO-DATE
+> Task :vd-connected:preBuild UP-TO-DATE
+> Task :vd-connected:preDebugBuild UP-TO-DATE
+> Task :avd-searching:preBuild UP-TO-DATE
+> Task :avd-searching:preDebugBuild UP-TO-DATE
+> Task :vd-search:preBuild UP-TO-DATE
+> Task :vd-search:preDebugBuild UP-TO-DATE
+> Task :avd-turningonoff:preBuild UP-TO-DATE
+> Task :avd-turningonoff:preDebugBuild UP-TO-DATE
+> Task :vd-onoff:preBuild UP-TO-DATE
+> Task :vd-onoff:preDebugBuild UP-TO-DATE
+> Task :bluetoothstate:preBuild UP-TO-DATE
+> Task :bluetoothstate:preDebugBuild UP-TO-DATE
+> Task :vd-connected:packageDebugRenderscript NO-SOURCE
+> Task :avd-connecting:checkDebugManifest UP-TO-DATE
+> Task :avd-connecting:generateDebugBuildConfig UP-TO-DATE
+> Task :vd-bluetooth:compileDebugAidl NO-SOURCE
+> Task :vd-connected:compileDebugAidl NO-SOURCE
+> Task :avd-connecting:compileDebugAidl NO-SOURCE
+> Task :vd-search:compileDebugAidl NO-SOURCE
+> Task :avd-searching:compileDebugAidl NO-SOURCE
+> Task :vd-onoff:compileDebugAidl NO-SOURCE
+> Task :avd-turningonoff:compileDebugAidl NO-SOURCE
+> Task :bluetoothstate:compileDebugAidl NO-SOURCE
+> Task :avd-connecting:compileDebugRenderscript NO-SOURCE
+> Task :avd-connecting:generateDebugResValues UP-TO-DATE
+> Task :avd-connecting:generateDebugResources UP-TO-DATE
+> Task :avd-connecting:processDebugManifest UP-TO-DATE
+> Task :avd-connecting:packageDebugResources UP-TO-DATE
+> Task :vd-bluetooth:compileDebugRenderscript NO-SOURCE
+> Task :vd-bluetooth:generateDebugResValues UP-TO-DATE
+> Task :vd-bluetooth:generateDebugResources UP-TO-DATE
+> Task :vd-bluetooth:packageDebugResources UP-TO-DATE
+> Task :vd-bluetooth:checkDebugManifest UP-TO-DATE
+> Task :vd-bluetooth:processDebugManifest UP-TO-DATE
+> Task :vd-bluetooth:generateDebugRFile UP-TO-DATE
+> Task :vd-bluetooth:packageDebugRenderscript NO-SOURCE
+> Task :vd-connected:compileDebugRenderscript NO-SOURCE
+> Task :vd-connected:generateDebugResValues UP-TO-DATE
+> Task :vd-connected:generateDebugResources UP-TO-DATE
+> Task :vd-connected:packageDebugResources UP-TO-DATE
+> Task :vd-connected:checkDebugManifest UP-TO-DATE
+> Task :vd-connected:processDebugManifest UP-TO-DATE
+> Task :vd-connected:generateDebugRFile UP-TO-DATE
+> Task :avd-connecting:generateDebugRFile UP-TO-DATE
+> Task :avd-connecting:prepareLintJar UP-TO-DATE
+> Task :avd-connecting:generateDebugSources UP-TO-DATE
+> Task :vd-bluetooth:generateDebugBuildConfig UP-TO-DATE
+> Task :vd-bluetooth:prepareLintJar UP-TO-DATE
+> Task :vd-bluetooth:generateDebugSources UP-TO-DATE
+> Task :vd-bluetooth:javaPreCompileDebug UP-TO-DATE
+> Task :vd-bluetooth:compileDebugJavaWithJavac UP-TO-DATE
+> Task :vd-bluetooth:bundleLibCompileDebug UP-TO-DATE
+> Task :vd-connected:generateDebugBuildConfig UP-TO-DATE
+> Task :vd-connected:prepareLintJar UP-TO-DATE
+> Task :vd-connected:generateDebugSources UP-TO-DATE
+> Task :vd-connected:javaPreCompileDebug UP-TO-DATE
+> Task :vd-connected:compileDebugJavaWithJavac UP-TO-DATE
+> Task :vd-connected:bundleLibCompileDebug UP-TO-DATE
+> Task :avd-connecting:javaPreCompileDebug UP-TO-DATE
+> Task :avd-connecting:compileDebugJavaWithJavac UP-TO-DATE
+> Task :avd-connecting:bundleLibCompileDebug
+> Task :vd-search:packageDebugRenderscript NO-SOURCE
+> Task :avd-searching:compileDebugRenderscript NO-SOURCE
+> Task :avd-searching:checkDebugManifest UP-TO-DATE
+> Task :avd-searching:generateDebugBuildConfig UP-TO-DATE
+> Task :avd-searching:generateDebugResValues UP-TO-DATE
+> Task :avd-searching:generateDebugResources UP-TO-DATE
+> Task :avd-searching:packageDebugResources UP-TO-DATE
+> Task :avd-searching:processDebugManifest UP-TO-DATE
+> Task :vd-search:compileDebugRenderscript NO-SOURCE
+> Task :vd-search:generateDebugResValues UP-TO-DATE
+> Task :vd-search:generateDebugResources UP-TO-DATE
+> Task :vd-search:packageDebugResources UP-TO-DATE
+> Task :vd-search:checkDebugManifest UP-TO-DATE
+> Task :vd-search:processDebugManifest UP-TO-DATE
+> Task :vd-search:generateDebugRFile UP-TO-DATE
+> Task :avd-searching:generateDebugRFile UP-TO-DATE
+> Task :avd-searching:prepareLintJar UP-TO-DATE
+> Task :avd-searching:generateDebugSources UP-TO-DATE
+> Task :vd-search:generateDebugBuildConfig UP-TO-DATE
+> Task :vd-search:prepareLintJar UP-TO-DATE
+> Task :vd-search:generateDebugSources UP-TO-DATE
+> Task :vd-search:javaPreCompileDebug UP-TO-DATE
+> Task :vd-search:compileDebugJavaWithJavac UP-TO-DATE
+> Task :vd-search:bundleLibCompileDebug UP-TO-DATE
+> Task :avd-searching:javaPreCompileDebug UP-TO-DATE
+> Task :avd-searching:compileDebugJavaWithJavac UP-TO-DATE
+> Task :avd-searching:bundleLibCompileDebug
+> Task :vd-onoff:packageDebugRenderscript NO-SOURCE
+> Task :avd-turningonoff:compileDebugRenderscript NO-SOURCE
+> Task :avd-turningonoff:checkDebugManifest UP-TO-DATE
+> Task :avd-turningonoff:generateDebugBuildConfig UP-TO-DATE
+> Task :avd-turningonoff:generateDebugResValues UP-TO-DATE
+> Task :avd-turningonoff:generateDebugResources UP-TO-DATE
+> Task :avd-turningonoff:packageDebugResources UP-TO-DATE
+> Task :avd-turningonoff:processDebugManifest UP-TO-DATE
+> Task :vd-onoff:compileDebugRenderscript NO-SOURCE
+> Task :vd-onoff:generateDebugResValues UP-TO-DATE
+> Task :vd-onoff:generateDebugResources UP-TO-DATE
+> Task :vd-onoff:packageDebugResources UP-TO-DATE
+> Task :vd-onoff:checkDebugManifest UP-TO-DATE
+> Task :vd-onoff:processDebugManifest UP-TO-DATE
+> Task :vd-onoff:generateDebugRFile UP-TO-DATE
+> Task :avd-turningonoff:generateDebugRFile UP-TO-DATE
+> Task :avd-turningonoff:prepareLintJar UP-TO-DATE
+> Task :avd-turningonoff:generateDebugSources UP-TO-DATE
+> Task :vd-onoff:generateDebugBuildConfig UP-TO-DATE
+> Task :vd-onoff:prepareLintJar UP-TO-DATE
+> Task :vd-onoff:generateDebugSources UP-TO-DATE
+> Task :vd-onoff:javaPreCompileDebug UP-TO-DATE
+> Task :vd-onoff:compileDebugJavaWithJavac UP-TO-DATE
+> Task :vd-onoff:bundleLibCompileDebug UP-TO-DATE
+> Task :avd-turningonoff:javaPreCompileDebug UP-TO-DATE
+> Task :avd-turningonoff:compileDebugJavaWithJavac UP-TO-DATE
+> Task :avd-turningonoff:bundleLibCompileDebug
+> Task :avd-connecting:packageDebugRenderscript NO-SOURCE
+> Task :avd-searching:packageDebugRenderscript NO-SOURCE
+> Task :avd-turningonoff:packageDebugRenderscript NO-SOURCE
+> Task :bluetoothstate:compileDebugRenderscript NO-SOURCE
+> Task :bluetoothstate:checkDebugManifest
+> Task :bluetoothstate:generateDebugBuildConfig
+> Task :bluetoothstate:generateDebugResValues
+> Task :bluetoothstate:generateDebugResources
+> Task :bluetoothstate:packageDebugResources
+> Task :bluetoothstate:processDebugManifest
+> Task :bluetoothstate:generateDebugRFile
+> Task :bluetoothstate:compileDebugKotlin
+> Task :bluetoothstate:prepareLintJar
+> Task :bluetoothstate:generateDebugSources
+> Task :bluetoothstate:javaPreCompileDebug
+> Task :bluetoothstate:compileDebugJavaWithJavac
+> Task :bluetoothstate:extractDebugAnnotations
+> Task :bluetoothstate:mergeDebugConsumerProguardFiles
+> Task :bluetoothstate:mergeDebugShaders
+> Task :bluetoothstate:compileDebugShaders
+> Task :bluetoothstate:generateDebugAssets
+> Task :bluetoothstate:packageDebugAssets
+> Task :bluetoothstate:packageDebugRenderscript NO-SOURCE
+> Task :bluetoothstate:processDebugJavaRes NO-SOURCE
+> Task :bluetoothstate:transformResourcesWithMergeJavaResForDebug
+> Task :bluetoothstate:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :bluetoothstate:mergeDebugJniLibFolders
+> Task :bluetoothstate:transformNativeLibsWithMergeJniLibsForDebug
+> Task :bluetoothstate:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :bluetoothstate:transformNativeLibsWithSyncJniLibsForDebug
+> Task :bluetoothstate:bundleDebugAar
+> Task :bluetoothstate:compileDebugSources
+> Task :bluetoothstate:assembleDebug
+> Task :avd-connecting:preReleaseBuild UP-TO-DATE
+> Task :vd-bluetooth:preReleaseBuild UP-TO-DATE
+> Task :vd-bluetooth:compileReleaseAidl NO-SOURCE
+> Task :vd-connected:preReleaseBuild UP-TO-DATE
+> Task :vd-connected:compileReleaseAidl NO-SOURCE
+> Task :avd-connecting:compileReleaseAidl NO-SOURCE
+> Task :avd-searching:preReleaseBuild UP-TO-DATE
+> Task :vd-search:preReleaseBuild UP-TO-DATE
+> Task :vd-search:compileReleaseAidl NO-SOURCE
+> Task :avd-searching:compileReleaseAidl NO-SOURCE
+> Task :avd-turningonoff:preReleaseBuild UP-TO-DATE
+> Task :vd-onoff:preReleaseBuild UP-TO-DATE
+> Task :vd-onoff:compileReleaseAidl NO-SOURCE
+> Task :avd-turningonoff:compileReleaseAidl NO-SOURCE
+> Task :bluetoothstate:preReleaseBuild UP-TO-DATE
+> Task :bluetoothstate:compileReleaseAidl NO-SOURCE
+> Task :vd-connected:packageReleaseRenderscript NO-SOURCE
+> Task :avd-connecting:compileReleaseRenderscript NO-SOURCE
+> Task :avd-connecting:checkReleaseManifest UP-TO-DATE
+> Task :avd-connecting:generateReleaseBuildConfig UP-TO-DATE
+> Task :avd-connecting:generateReleaseResValues UP-TO-DATE
+> Task :avd-connecting:generateReleaseResources UP-TO-DATE
+> Task :avd-connecting:packageReleaseResources UP-TO-DATE
+> Task :avd-connecting:processReleaseManifest UP-TO-DATE
+> Task :vd-bluetooth:compileReleaseRenderscript NO-SOURCE
+> Task :vd-bluetooth:generateReleaseResValues UP-TO-DATE
+> Task :vd-bluetooth:generateReleaseResources UP-TO-DATE
+> Task :vd-bluetooth:packageReleaseResources UP-TO-DATE
+> Task :vd-bluetooth:checkReleaseManifest UP-TO-DATE
+> Task :vd-bluetooth:processReleaseManifest UP-TO-DATE
+> Task :vd-bluetooth:generateReleaseRFile UP-TO-DATE
+> Task :vd-bluetooth:packageReleaseRenderscript NO-SOURCE
+> Task :vd-connected:compileReleaseRenderscript NO-SOURCE
+> Task :vd-connected:generateReleaseResValues UP-TO-DATE
+> Task :vd-connected:generateReleaseResources UP-TO-DATE
+> Task :vd-connected:packageReleaseResources UP-TO-DATE
+> Task :vd-connected:checkReleaseManifest UP-TO-DATE
+> Task :vd-connected:processReleaseManifest UP-TO-DATE
+> Task :vd-connected:generateReleaseRFile UP-TO-DATE
+> Task :avd-connecting:generateReleaseRFile UP-TO-DATE
+> Task :avd-connecting:generateReleaseSources UP-TO-DATE
+> Task :vd-bluetooth:generateReleaseBuildConfig UP-TO-DATE
+> Task :vd-bluetooth:generateReleaseSources UP-TO-DATE
+> Task :vd-bluetooth:javaPreCompileRelease UP-TO-DATE
+> Task :vd-bluetooth:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :vd-bluetooth:bundleLibCompileRelease UP-TO-DATE
+> Task :vd-connected:generateReleaseBuildConfig UP-TO-DATE
+> Task :vd-connected:generateReleaseSources UP-TO-DATE
+> Task :vd-connected:javaPreCompileRelease UP-TO-DATE
+> Task :vd-connected:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :vd-connected:bundleLibCompileRelease UP-TO-DATE
+> Task :avd-connecting:javaPreCompileRelease UP-TO-DATE
+> Task :avd-connecting:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :avd-connecting:bundleLibCompileRelease
+> Task :vd-search:packageReleaseRenderscript NO-SOURCE
+> Task :avd-searching:compileReleaseRenderscript NO-SOURCE
+> Task :avd-searching:checkReleaseManifest UP-TO-DATE
+> Task :avd-searching:generateReleaseBuildConfig UP-TO-DATE
+> Task :avd-searching:generateReleaseResValues UP-TO-DATE
+> Task :avd-searching:generateReleaseResources UP-TO-DATE
+> Task :avd-searching:packageReleaseResources UP-TO-DATE
+> Task :avd-searching:processReleaseManifest UP-TO-DATE
+> Task :vd-search:compileReleaseRenderscript NO-SOURCE
+> Task :vd-search:generateReleaseResValues UP-TO-DATE
+> Task :vd-search:generateReleaseResources UP-TO-DATE
+> Task :vd-search:packageReleaseResources UP-TO-DATE
+> Task :vd-search:checkReleaseManifest UP-TO-DATE
+> Task :vd-search:processReleaseManifest UP-TO-DATE
+> Task :vd-search:generateReleaseRFile UP-TO-DATE
+> Task :avd-searching:generateReleaseRFile UP-TO-DATE
+> Task :avd-searching:generateReleaseSources UP-TO-DATE
+> Task :vd-search:generateReleaseBuildConfig UP-TO-DATE
+> Task :vd-search:generateReleaseSources UP-TO-DATE
+> Task :vd-search:javaPreCompileRelease UP-TO-DATE
+> Task :vd-search:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :vd-search:bundleLibCompileRelease UP-TO-DATE
+> Task :avd-searching:javaPreCompileRelease UP-TO-DATE
+> Task :avd-searching:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :avd-searching:bundleLibCompileRelease
+> Task :vd-onoff:packageReleaseRenderscript NO-SOURCE
+> Task :avd-turningonoff:compileReleaseRenderscript NO-SOURCE
+> Task :avd-turningonoff:checkReleaseManifest UP-TO-DATE
+> Task :avd-turningonoff:generateReleaseBuildConfig UP-TO-DATE
+> Task :avd-turningonoff:generateReleaseResValues UP-TO-DATE
+> Task :avd-turningonoff:generateReleaseResources UP-TO-DATE
+> Task :avd-turningonoff:packageReleaseResources UP-TO-DATE
+> Task :avd-turningonoff:processReleaseManifest UP-TO-DATE
+> Task :vd-onoff:compileReleaseRenderscript NO-SOURCE
+> Task :vd-onoff:generateReleaseResValues UP-TO-DATE
+> Task :vd-onoff:generateReleaseResources UP-TO-DATE
+> Task :vd-onoff:packageReleaseResources UP-TO-DATE
+> Task :vd-onoff:checkReleaseManifest UP-TO-DATE
+> Task :vd-onoff:processReleaseManifest UP-TO-DATE
+> Task :vd-onoff:generateReleaseRFile UP-TO-DATE
+> Task :avd-turningonoff:generateReleaseRFile UP-TO-DATE
+> Task :avd-turningonoff:generateReleaseSources UP-TO-DATE
+> Task :vd-onoff:generateReleaseBuildConfig UP-TO-DATE
+> Task :vd-onoff:generateReleaseSources UP-TO-DATE
+> Task :vd-onoff:javaPreCompileRelease UP-TO-DATE
+> Task :vd-onoff:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :vd-onoff:bundleLibCompileRelease UP-TO-DATE
+> Task :avd-turningonoff:javaPreCompileRelease UP-TO-DATE
+> Task :avd-turningonoff:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :avd-turningonoff:bundleLibCompileRelease
+> Task :avd-connecting:packageReleaseRenderscript NO-SOURCE
+> Task :avd-searching:packageReleaseRenderscript NO-SOURCE
+> Task :avd-turningonoff:packageReleaseRenderscript NO-SOURCE
+> Task :bluetoothstate:compileReleaseRenderscript NO-SOURCE
+> Task :bluetoothstate:checkReleaseManifest
+> Task :bluetoothstate:generateReleaseBuildConfig
+> Task :bluetoothstate:generateReleaseResValues
+> Task :bluetoothstate:generateReleaseResources
+> Task :bluetoothstate:packageReleaseResources
+> Task :bluetoothstate:processReleaseManifest
+> Task :bluetoothstate:generateReleaseRFile
+> Task :bluetoothstate:compileReleaseKotlin
+> Task :bluetoothstate:generateReleaseSources
+> Task :bluetoothstate:javaPreCompileRelease
+> Task :bluetoothstate:compileReleaseJavaWithJavac
+> Task :bluetoothstate:extractReleaseAnnotations
+> Task :bluetoothstate:mergeReleaseConsumerProguardFiles
+> Task :bluetoothstate:mergeReleaseShaders
+> Task :bluetoothstate:compileReleaseShaders
+> Task :bluetoothstate:generateReleaseAssets
+> Task :bluetoothstate:packageReleaseAssets
+> Task :bluetoothstate:packageReleaseRenderscript NO-SOURCE
+> Task :bluetoothstate:processReleaseJavaRes NO-SOURCE
+> Task :bluetoothstate:transformResourcesWithMergeJavaResForRelease
+> Task :bluetoothstate:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :bluetoothstate:mergeReleaseJniLibFolders
+> Task :bluetoothstate:transformNativeLibsWithMergeJniLibsForRelease
+> Task :bluetoothstate:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :bluetoothstate:transformNativeLibsWithSyncJniLibsForRelease
+> Task :bluetoothstate:bundleReleaseAar
+> Task :bluetoothstate:compileReleaseSources
+> Task :bluetoothstate:javadoc SKIPPED
+> Task :bluetoothstate:javadocJar
+> Task :bluetoothstate:mergeReleaseResources
+> Task :bluetoothstate:verifyReleaseResources
+> Task :bluetoothstate:assembleRelease
+> Task :bluetoothstate:sourcesJar
+> Task :bluetoothstate:assemble
+> Task :bluetoothstate:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 19s
+180 actionable tasks: 53 executed, 127 up-to-date
+
+2019-02-23 23:58:44,069 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-23 23:58:44,069 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-23 23:58:50,873 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-02-23 23:58:50,874 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-23 23:58:50,874 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-23 23:59:34,870 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :avd-connecting:preBuild UP-TO-DATE
+> Task :avd-connecting:preDebugBuild UP-TO-DATE
+> Task :vd-bluetooth:preBuild UP-TO-DATE
+> Task :vd-bluetooth:preDebugBuild UP-TO-DATE
+> Task :vd-connected:preBuild UP-TO-DATE
+> Task :vd-connected:preDebugBuild UP-TO-DATE
+> Task :vd-connected:packageDebugRenderscript NO-SOURCE
+> Task :avd-connecting:checkDebugManifest UP-TO-DATE
+> Task :vd-bluetooth:compileDebugAidl NO-SOURCE
+> Task :vd-connected:compileDebugAidl NO-SOURCE
+> Task :avd-connecting:compileDebugAidl NO-SOURCE
+> Task :avd-connecting:compileDebugRenderscript NO-SOURCE
+> Task :avd-connecting:generateDebugBuildConfig UP-TO-DATE
+> Task :avd-connecting:generateDebugResValues UP-TO-DATE
+> Task :avd-connecting:generateDebugResources UP-TO-DATE
+> Task :avd-connecting:processDebugManifest UP-TO-DATE
+> Task :avd-connecting:packageDebugResources UP-TO-DATE
+> Task :vd-bluetooth:compileDebugRenderscript NO-SOURCE
+> Task :vd-bluetooth:generateDebugResValues UP-TO-DATE
+> Task :vd-bluetooth:generateDebugResources UP-TO-DATE
+> Task :vd-bluetooth:packageDebugResources UP-TO-DATE
+> Task :vd-bluetooth:checkDebugManifest UP-TO-DATE
+> Task :vd-bluetooth:processDebugManifest UP-TO-DATE
+> Task :vd-bluetooth:generateDebugRFile UP-TO-DATE
+> Task :vd-bluetooth:packageDebugRenderscript NO-SOURCE
+> Task :vd-connected:compileDebugRenderscript NO-SOURCE
+> Task :vd-connected:generateDebugResValues UP-TO-DATE
+> Task :vd-connected:generateDebugResources UP-TO-DATE
+> Task :vd-connected:packageDebugResources UP-TO-DATE
+> Task :vd-connected:checkDebugManifest UP-TO-DATE
+> Task :vd-connected:processDebugManifest UP-TO-DATE
+> Task :vd-connected:generateDebugRFile UP-TO-DATE
+> Task :avd-connecting:generateDebugRFile UP-TO-DATE
+> Task :avd-connecting:prepareLintJar UP-TO-DATE
+> Task :avd-connecting:generateDebugSources UP-TO-DATE
+> Task :vd-bluetooth:generateDebugBuildConfig UP-TO-DATE
+> Task :vd-bluetooth:prepareLintJar UP-TO-DATE
+> Task :vd-bluetooth:generateDebugSources UP-TO-DATE
+> Task :vd-bluetooth:javaPreCompileDebug UP-TO-DATE
+> Task :vd-bluetooth:compileDebugJavaWithJavac UP-TO-DATE
+> Task :vd-bluetooth:bundleLibCompileDebug UP-TO-DATE
+> Task :vd-connected:generateDebugBuildConfig UP-TO-DATE
+> Task :vd-connected:prepareLintJar UP-TO-DATE
+> Task :vd-connected:generateDebugSources UP-TO-DATE
+> Task :vd-connected:javaPreCompileDebug UP-TO-DATE
+> Task :vd-connected:compileDebugJavaWithJavac UP-TO-DATE
+> Task :vd-connected:bundleLibCompileDebug UP-TO-DATE
+> Task :avd-connecting:javaPreCompileDebug UP-TO-DATE
+> Task :avd-connecting:compileDebugJavaWithJavac UP-TO-DATE
+> Task :avd-connecting:bundleLibCompileDebug UP-TO-DATE
+> Task :avd-searching:preBuild UP-TO-DATE
+> Task :avd-searching:preDebugBuild UP-TO-DATE
+> Task :vd-search:preBuild UP-TO-DATE
+> Task :vd-search:preDebugBuild UP-TO-DATE
+> Task :vd-search:compileDebugAidl NO-SOURCE
+> Task :avd-searching:compileDebugAidl NO-SOURCE
+> Task :vd-search:packageDebugRenderscript NO-SOURCE
+> Task :avd-searching:compileDebugRenderscript NO-SOURCE
+> Task :avd-searching:checkDebugManifest UP-TO-DATE
+> Task :avd-searching:generateDebugBuildConfig UP-TO-DATE
+> Task :avd-searching:generateDebugResValues UP-TO-DATE
+> Task :avd-searching:generateDebugResources UP-TO-DATE
+> Task :avd-searching:packageDebugResources UP-TO-DATE
+> Task :avd-searching:processDebugManifest UP-TO-DATE
+> Task :vd-search:compileDebugRenderscript NO-SOURCE
+> Task :vd-search:generateDebugResValues UP-TO-DATE
+> Task :vd-search:generateDebugResources UP-TO-DATE
+> Task :vd-search:packageDebugResources UP-TO-DATE
+> Task :vd-search:checkDebugManifest UP-TO-DATE
+> Task :vd-search:processDebugManifest UP-TO-DATE
+> Task :vd-search:generateDebugRFile UP-TO-DATE
+> Task :avd-searching:generateDebugRFile UP-TO-DATE
+> Task :avd-searching:prepareLintJar UP-TO-DATE
+> Task :avd-searching:generateDebugSources UP-TO-DATE
+> Task :vd-search:generateDebugBuildConfig UP-TO-DATE
+> Task :vd-search:prepareLintJar UP-TO-DATE
+> Task :vd-search:generateDebugSources UP-TO-DATE
+> Task :vd-search:javaPreCompileDebug UP-TO-DATE
+> Task :vd-search:compileDebugJavaWithJavac UP-TO-DATE
+> Task :vd-search:bundleLibCompileDebug UP-TO-DATE
+> Task :avd-searching:javaPreCompileDebug UP-TO-DATE
+> Task :avd-searching:compileDebugJavaWithJavac UP-TO-DATE
+> Task :avd-searching:bundleLibCompileDebug UP-TO-DATE
+> Task :avd-turningonoff:preBuild UP-TO-DATE
+> Task :avd-turningonoff:preDebugBuild UP-TO-DATE
+> Task :vd-onoff:preBuild UP-TO-DATE
+> Task :vd-onoff:preDebugBuild UP-TO-DATE
+> Task :vd-onoff:compileDebugAidl NO-SOURCE
+> Task :avd-turningonoff:compileDebugAidl NO-SOURCE
+> Task :vd-onoff:packageDebugRenderscript NO-SOURCE
+> Task :avd-turningonoff:compileDebugRenderscript NO-SOURCE
+> Task :avd-turningonoff:checkDebugManifest UP-TO-DATE
+> Task :avd-turningonoff:generateDebugBuildConfig UP-TO-DATE
+> Task :avd-turningonoff:generateDebugResValues UP-TO-DATE
+> Task :avd-turningonoff:generateDebugResources UP-TO-DATE
+> Task :avd-turningonoff:packageDebugResources UP-TO-DATE
+> Task :avd-turningonoff:processDebugManifest UP-TO-DATE
+> Task :vd-onoff:compileDebugRenderscript NO-SOURCE
+> Task :vd-onoff:generateDebugResValues UP-TO-DATE
+> Task :vd-onoff:generateDebugResources UP-TO-DATE
+> Task :vd-onoff:packageDebugResources UP-TO-DATE
+> Task :vd-onoff:checkDebugManifest UP-TO-DATE
+> Task :vd-onoff:processDebugManifest UP-TO-DATE
+> Task :vd-onoff:generateDebugRFile UP-TO-DATE
+> Task :avd-turningonoff:generateDebugRFile UP-TO-DATE
+> Task :avd-turningonoff:prepareLintJar UP-TO-DATE
+> Task :avd-turningonoff:generateDebugSources UP-TO-DATE
+> Task :vd-onoff:generateDebugBuildConfig UP-TO-DATE
+> Task :vd-onoff:prepareLintJar UP-TO-DATE
+> Task :vd-onoff:generateDebugSources UP-TO-DATE
+> Task :vd-onoff:javaPreCompileDebug UP-TO-DATE
+> Task :vd-onoff:compileDebugJavaWithJavac UP-TO-DATE
+> Task :vd-onoff:bundleLibCompileDebug UP-TO-DATE
+> Task :avd-turningonoff:javaPreCompileDebug UP-TO-DATE
+> Task :avd-turningonoff:compileDebugJavaWithJavac UP-TO-DATE
+> Task :avd-turningonoff:bundleLibCompileDebug UP-TO-DATE
+> Task :bluetoothstate:preBuild UP-TO-DATE
+> Task :bluetoothstate:preDebugBuild UP-TO-DATE
+> Task :bluetoothstate:compileDebugAidl NO-SOURCE
+> Task :avd-connecting:packageDebugRenderscript NO-SOURCE
+> Task :avd-searching:packageDebugRenderscript NO-SOURCE
+> Task :avd-turningonoff:packageDebugRenderscript NO-SOURCE
+> Task :bluetoothstate:compileDebugRenderscript NO-SOURCE
+> Task :bluetoothstate:checkDebugManifest UP-TO-DATE
+> Task :bluetoothstate:generateDebugBuildConfig UP-TO-DATE
+> Task :bluetoothstate:generateDebugResValues UP-TO-DATE
+> Task :bluetoothstate:generateDebugResources UP-TO-DATE
+> Task :bluetoothstate:packageDebugResources UP-TO-DATE
+> Task :bluetoothstate:processDebugManifest UP-TO-DATE
+> Task :bluetoothstate:generateDebugRFile UP-TO-DATE
+> Task :bluetoothstate:compileDebugKotlin UP-TO-DATE
+> Task :bluetoothstate:prepareLintJar UP-TO-DATE
+> Task :bluetoothstate:generateDebugSources UP-TO-DATE
+> Task :bluetoothstate:javaPreCompileDebug UP-TO-DATE
+> Task :bluetoothstate:compileDebugJavaWithJavac UP-TO-DATE
+> Task :bluetoothstate:bundleLibCompileDebug
+> Task :sample:preBuild UP-TO-DATE
+> Task :bluetoothstate:packageDebugRenderscript NO-SOURCE
+> Task :sample:preDebugBuild
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :sample:compileDebugRenderscript NO-SOURCE
+> Task :sample:checkDebugManifest
+> Task :sample:generateDebugBuildConfig
+> Task :sample:mainApkListPersistenceDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:mergeDebugResources
+> Task :sample:processDebugManifest
+> Task :sample:processDebugResources
+> Task :sample:kaptGenerateStubsDebugKotlin
+> Task :sample:kaptDebugKotlin
+> Task :sample:compileDebugKotlin
+> Task :sample:prepareLintJar
+> Task :sample:generateDebugSources
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
+> Task :avd-connecting:mergeDebugShaders UP-TO-DATE
+> Task :avd-connecting:compileDebugShaders UP-TO-DATE
+> Task :avd-connecting:generateDebugAssets UP-TO-DATE
+> Task :avd-connecting:packageDebugAssets UP-TO-DATE
+> Task :avd-searching:mergeDebugShaders UP-TO-DATE
+> Task :avd-searching:compileDebugShaders UP-TO-DATE
+> Task :avd-searching:generateDebugAssets UP-TO-DATE
+> Task :avd-searching:packageDebugAssets UP-TO-DATE
+> Task :avd-turningonoff:mergeDebugShaders UP-TO-DATE
+> Task :avd-turningonoff:compileDebugShaders UP-TO-DATE
+> Task :avd-turningonoff:generateDebugAssets UP-TO-DATE
+> Task :avd-turningonoff:packageDebugAssets UP-TO-DATE
+> Task :bluetoothstate:mergeDebugShaders UP-TO-DATE
+> Task :bluetoothstate:compileDebugShaders UP-TO-DATE
+> Task :bluetoothstate:generateDebugAssets UP-TO-DATE
+> Task :bluetoothstate:packageDebugAssets UP-TO-DATE
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders
+> Task :sample:generateDebugAssets
+> Task :vd-bluetooth:mergeDebugShaders
+> Task :vd-bluetooth:compileDebugShaders
+> Task :vd-bluetooth:generateDebugAssets
+> Task :vd-bluetooth:packageDebugAssets
+> Task :vd-connected:mergeDebugShaders
+> Task :vd-connected:compileDebugShaders
+> Task :vd-connected:generateDebugAssets
+> Task :vd-connected:packageDebugAssets
+> Task :vd-onoff:mergeDebugShaders
+> Task :vd-onoff:compileDebugShaders
+> Task :vd-onoff:generateDebugAssets
+> Task :vd-onoff:packageDebugAssets
+> Task :vd-search:mergeDebugShaders
+> Task :vd-search:compileDebugShaders
+> Task :vd-search:generateDebugAssets
+> Task :vd-search:packageDebugAssets
+> Task :sample:mergeDebugAssets
+> Task :vd-bluetooth:processDebugJavaRes NO-SOURCE
+> Task :vd-bluetooth:bundleLibResDebug
+> Task :vd-bluetooth:bundleLibRuntimeDebug
+> Task :vd-bluetooth:createFullJarDebug
+> Task :vd-onoff:processDebugJavaRes NO-SOURCE
+> Task :vd-onoff:bundleLibResDebug
+> Task :vd-onoff:bundleLibRuntimeDebug
+> Task :vd-onoff:createFullJarDebug
+> Task :vd-search:processDebugJavaRes NO-SOURCE
+> Task :vd-search:bundleLibResDebug
+> Task :vd-search:bundleLibRuntimeDebug
+> Task :vd-search:createFullJarDebug
+> Task :vd-connected:processDebugJavaRes NO-SOURCE
+> Task :vd-connected:bundleLibResDebug
+> Task :vd-connected:bundleLibRuntimeDebug
+> Task :vd-connected:createFullJarDebug
+> Task :avd-turningonoff:processDebugJavaRes NO-SOURCE
+> Task :avd-turningonoff:bundleLibResDebug
+> Task :avd-turningonoff:bundleLibRuntimeDebug
+> Task :avd-turningonoff:createFullJarDebug
+> Task :avd-searching:processDebugJavaRes NO-SOURCE
+> Task :avd-searching:bundleLibResDebug
+> Task :avd-searching:bundleLibRuntimeDebug
+> Task :avd-searching:createFullJarDebug
+> Task :avd-connecting:processDebugJavaRes NO-SOURCE
+> Task :avd-connecting:bundleLibResDebug
+> Task :avd-connecting:bundleLibRuntimeDebug
+> Task :avd-connecting:createFullJarDebug
+> Task :bluetoothstate:processDebugJavaRes NO-SOURCE
+> Task :bluetoothstate:bundleLibResDebug
+> Task :bluetoothstate:bundleLibRuntimeDebug
+> Task :bluetoothstate:createFullJarDebug
+> Task :sample:checkDebugDuplicateClasses
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:validateSigningDebug
+> Task :sample:signingConfigWriterDebug
+> Task :avd-connecting:mergeDebugJniLibFolders UP-TO-DATE
+> Task :avd-connecting:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :avd-connecting:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :avd-connecting:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :avd-searching:mergeDebugJniLibFolders UP-TO-DATE
+> Task :avd-searching:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :avd-searching:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :avd-searching:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :avd-turningonoff:mergeDebugJniLibFolders UP-TO-DATE
+> Task :avd-turningonoff:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :avd-turningonoff:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :avd-turningonoff:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :bluetoothstate:mergeDebugJniLibFolders UP-TO-DATE
+> Task :bluetoothstate:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :bluetoothstate:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :bluetoothstate:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :sample:mergeDebugJniLibFolders
+> Task :vd-bluetooth:mergeDebugJniLibFolders
+> Task :vd-bluetooth:transformNativeLibsWithMergeJniLibsForDebug
+> Task :vd-bluetooth:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :vd-bluetooth:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :vd-connected:mergeDebugJniLibFolders
+> Task :vd-connected:transformNativeLibsWithMergeJniLibsForDebug
+> Task :vd-connected:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :vd-connected:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :vd-onoff:mergeDebugJniLibFolders
+> Task :vd-onoff:transformNativeLibsWithMergeJniLibsForDebug
+> Task :vd-onoff:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :vd-onoff:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :vd-search:mergeDebugJniLibFolders
+> Task :vd-search:transformNativeLibsWithMergeJniLibsForDebug
+> Task :vd-search:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :vd-search:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForDebug
+> Task :avd-connecting:preReleaseBuild UP-TO-DATE
+> Task :vd-bluetooth:preReleaseBuild UP-TO-DATE
+> Task :vd-bluetooth:compileReleaseAidl NO-SOURCE
+> Task :vd-connected:preReleaseBuild UP-TO-DATE
+> Task :vd-connected:compileReleaseAidl NO-SOURCE
+> Task :avd-connecting:compileReleaseAidl NO-SOURCE
+> Task :vd-connected:packageReleaseRenderscript NO-SOURCE
+> Task :avd-connecting:compileReleaseRenderscript NO-SOURCE
+> Task :avd-connecting:checkReleaseManifest UP-TO-DATE
+> Task :avd-connecting:generateReleaseBuildConfig UP-TO-DATE
+> Task :avd-connecting:generateReleaseResValues UP-TO-DATE
+> Task :avd-connecting:generateReleaseResources UP-TO-DATE
+> Task :avd-connecting:packageReleaseResources UP-TO-DATE
+> Task :avd-connecting:processReleaseManifest UP-TO-DATE
+> Task :vd-bluetooth:compileReleaseRenderscript NO-SOURCE
+> Task :vd-bluetooth:generateReleaseResValues UP-TO-DATE
+> Task :vd-bluetooth:generateReleaseResources UP-TO-DATE
+> Task :vd-bluetooth:packageReleaseResources UP-TO-DATE
+> Task :vd-bluetooth:checkReleaseManifest UP-TO-DATE
+> Task :vd-bluetooth:processReleaseManifest UP-TO-DATE
+> Task :vd-bluetooth:generateReleaseRFile UP-TO-DATE
+> Task :vd-bluetooth:packageReleaseRenderscript NO-SOURCE
+> Task :vd-connected:compileReleaseRenderscript NO-SOURCE
+> Task :vd-connected:generateReleaseResValues UP-TO-DATE
+> Task :vd-connected:generateReleaseResources UP-TO-DATE
+> Task :vd-connected:packageReleaseResources UP-TO-DATE
+> Task :vd-connected:checkReleaseManifest UP-TO-DATE
+> Task :vd-connected:processReleaseManifest UP-TO-DATE
+> Task :vd-connected:generateReleaseRFile UP-TO-DATE
+> Task :avd-connecting:generateReleaseRFile UP-TO-DATE
+> Task :avd-connecting:generateReleaseSources UP-TO-DATE
+> Task :vd-bluetooth:generateReleaseBuildConfig UP-TO-DATE
+> Task :vd-bluetooth:generateReleaseSources UP-TO-DATE
+> Task :vd-bluetooth:javaPreCompileRelease UP-TO-DATE
+> Task :vd-bluetooth:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :vd-bluetooth:bundleLibCompileRelease UP-TO-DATE
+> Task :vd-connected:generateReleaseBuildConfig UP-TO-DATE
+> Task :vd-connected:generateReleaseSources UP-TO-DATE
+> Task :vd-connected:javaPreCompileRelease UP-TO-DATE
+> Task :vd-connected:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :vd-connected:bundleLibCompileRelease UP-TO-DATE
+> Task :avd-connecting:javaPreCompileRelease UP-TO-DATE
+> Task :avd-connecting:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :avd-connecting:bundleLibCompileRelease UP-TO-DATE
+> Task :avd-searching:preReleaseBuild UP-TO-DATE
+> Task :vd-search:preReleaseBuild UP-TO-DATE
+> Task :vd-search:compileReleaseAidl NO-SOURCE
+> Task :avd-searching:compileReleaseAidl NO-SOURCE
+> Task :vd-search:packageReleaseRenderscript NO-SOURCE
+> Task :avd-searching:compileReleaseRenderscript NO-SOURCE
+> Task :avd-searching:checkReleaseManifest UP-TO-DATE
+> Task :avd-searching:generateReleaseBuildConfig UP-TO-DATE
+> Task :avd-searching:generateReleaseResValues UP-TO-DATE
+> Task :avd-searching:generateReleaseResources UP-TO-DATE
+> Task :avd-searching:packageReleaseResources UP-TO-DATE
+> Task :avd-searching:processReleaseManifest UP-TO-DATE
+> Task :vd-search:compileReleaseRenderscript NO-SOURCE
+> Task :vd-search:generateReleaseResValues UP-TO-DATE
+> Task :vd-search:generateReleaseResources UP-TO-DATE
+> Task :vd-search:packageReleaseResources UP-TO-DATE
+> Task :vd-search:checkReleaseManifest UP-TO-DATE
+> Task :vd-search:processReleaseManifest UP-TO-DATE
+> Task :vd-search:generateReleaseRFile UP-TO-DATE
+> Task :avd-searching:generateReleaseRFile UP-TO-DATE
+> Task :avd-searching:generateReleaseSources UP-TO-DATE
+> Task :vd-search:generateReleaseBuildConfig UP-TO-DATE
+> Task :vd-search:generateReleaseSources UP-TO-DATE
+> Task :vd-search:javaPreCompileRelease UP-TO-DATE
+> Task :vd-search:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :vd-search:bundleLibCompileRelease UP-TO-DATE
+> Task :avd-searching:javaPreCompileRelease UP-TO-DATE
+> Task :avd-searching:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :avd-searching:bundleLibCompileRelease UP-TO-DATE
+> Task :avd-turningonoff:preReleaseBuild UP-TO-DATE
+> Task :vd-onoff:preReleaseBuild UP-TO-DATE
+> Task :vd-onoff:compileReleaseAidl NO-SOURCE
+> Task :avd-turningonoff:compileReleaseAidl NO-SOURCE
+> Task :vd-onoff:packageReleaseRenderscript NO-SOURCE
+> Task :avd-turningonoff:compileReleaseRenderscript NO-SOURCE
+> Task :avd-turningonoff:checkReleaseManifest UP-TO-DATE
+> Task :avd-turningonoff:generateReleaseBuildConfig UP-TO-DATE
+> Task :avd-turningonoff:generateReleaseResValues UP-TO-DATE
+> Task :avd-turningonoff:generateReleaseResources UP-TO-DATE
+> Task :avd-turningonoff:packageReleaseResources UP-TO-DATE
+> Task :avd-turningonoff:processReleaseManifest UP-TO-DATE
+> Task :vd-onoff:compileReleaseRenderscript NO-SOURCE
+> Task :vd-onoff:generateReleaseResValues UP-TO-DATE
+> Task :vd-onoff:generateReleaseResources UP-TO-DATE
+> Task :vd-onoff:packageReleaseResources UP-TO-DATE
+> Task :vd-onoff:checkReleaseManifest UP-TO-DATE
+> Task :vd-onoff:processReleaseManifest UP-TO-DATE
+> Task :vd-onoff:generateReleaseRFile UP-TO-DATE
+> Task :avd-turningonoff:generateReleaseRFile UP-TO-DATE
+> Task :avd-turningonoff:generateReleaseSources UP-TO-DATE
+> Task :vd-onoff:generateReleaseBuildConfig UP-TO-DATE
+> Task :vd-onoff:generateReleaseSources UP-TO-DATE
+> Task :vd-onoff:javaPreCompileRelease UP-TO-DATE
+> Task :vd-onoff:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :vd-onoff:bundleLibCompileRelease UP-TO-DATE
+> Task :avd-turningonoff:javaPreCompileRelease UP-TO-DATE
+> Task :avd-turningonoff:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :avd-turningonoff:bundleLibCompileRelease UP-TO-DATE
+> Task :bluetoothstate:preReleaseBuild UP-TO-DATE
+> Task :bluetoothstate:compileReleaseAidl NO-SOURCE
+> Task :avd-connecting:packageReleaseRenderscript NO-SOURCE
+> Task :avd-searching:packageReleaseRenderscript NO-SOURCE
+> Task :avd-turningonoff:packageReleaseRenderscript NO-SOURCE
+> Task :bluetoothstate:compileReleaseRenderscript NO-SOURCE
+> Task :bluetoothstate:checkReleaseManifest UP-TO-DATE
+> Task :bluetoothstate:generateReleaseBuildConfig UP-TO-DATE
+> Task :bluetoothstate:generateReleaseResValues UP-TO-DATE
+> Task :bluetoothstate:generateReleaseResources UP-TO-DATE
+> Task :bluetoothstate:packageReleaseResources UP-TO-DATE
+> Task :bluetoothstate:processReleaseManifest UP-TO-DATE
+> Task :bluetoothstate:generateReleaseRFile UP-TO-DATE
+> Task :bluetoothstate:compileReleaseKotlin UP-TO-DATE
+> Task :bluetoothstate:generateReleaseSources UP-TO-DATE
+> Task :bluetoothstate:javaPreCompileRelease UP-TO-DATE
+> Task :bluetoothstate:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :bluetoothstate:bundleLibCompileRelease
+> Task :sample:extractProguardFiles
+> Task :sample:preReleaseBuild
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :bluetoothstate:packageReleaseRenderscript NO-SOURCE
+> Task :sample:compileReleaseRenderscript NO-SOURCE
+> Task :sample:checkReleaseManifest
+> Task :sample:generateReleaseBuildConfig
+> Task :sample:mainApkListPersistenceRelease
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :sample:mergeReleaseResources
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
+> Task :sample:processReleaseResources
+> Task :sample:mergeExtDexDebug
+> Task :sample:mergeDexDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :sample:kaptGenerateStubsReleaseKotlin
+> Task :sample:kaptReleaseKotlin
+> Task :sample:compileReleaseKotlin
+> Task :sample:generateReleaseSources
+> Task :sample:javaPreCompileRelease
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseSources
+> Task :avd-connecting:prepareLintJarForPublish
+> Task :avd-searching:prepareLintJarForPublish
+> Task :avd-turningonoff:prepareLintJarForPublish
+> Task :bluetoothstate:prepareLintJarForPublish
+> Task :vd-bluetooth:prepareLintJarForPublish
+> Task :vd-connected:prepareLintJarForPublish
+> Task :vd-onoff:prepareLintJarForPublish
+> Task :vd-search:prepareLintJarForPublish
+
+> Task :sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/2ae8fc889482bebd6922df228c7312f8/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :avd-connecting:mergeReleaseShaders UP-TO-DATE
+> Task :avd-connecting:compileReleaseShaders UP-TO-DATE
+> Task :avd-connecting:generateReleaseAssets UP-TO-DATE
+> Task :avd-connecting:packageReleaseAssets UP-TO-DATE
+> Task :avd-searching:mergeReleaseShaders UP-TO-DATE
+> Task :avd-searching:compileReleaseShaders UP-TO-DATE
+> Task :avd-searching:generateReleaseAssets UP-TO-DATE
+> Task :avd-searching:packageReleaseAssets UP-TO-DATE
+> Task :avd-turningonoff:mergeReleaseShaders UP-TO-DATE
+> Task :avd-turningonoff:compileReleaseShaders UP-TO-DATE
+> Task :avd-turningonoff:generateReleaseAssets UP-TO-DATE
+> Task :avd-turningonoff:packageReleaseAssets UP-TO-DATE
+> Task :bluetoothstate:mergeReleaseShaders UP-TO-DATE
+> Task :bluetoothstate:compileReleaseShaders UP-TO-DATE
+> Task :bluetoothstate:generateReleaseAssets UP-TO-DATE
+> Task :bluetoothstate:packageReleaseAssets UP-TO-DATE
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders
+> Task :sample:generateReleaseAssets
+> Task :vd-bluetooth:mergeReleaseShaders
+> Task :vd-bluetooth:compileReleaseShaders
+> Task :vd-bluetooth:generateReleaseAssets
+> Task :vd-bluetooth:packageReleaseAssets
+> Task :vd-connected:mergeReleaseShaders
+> Task :vd-connected:compileReleaseShaders
+> Task :vd-connected:generateReleaseAssets
+> Task :vd-connected:packageReleaseAssets
+> Task :vd-onoff:mergeReleaseShaders
+> Task :vd-onoff:compileReleaseShaders
+> Task :vd-onoff:generateReleaseAssets
+> Task :vd-onoff:packageReleaseAssets
+> Task :vd-search:mergeReleaseShaders
+> Task :vd-search:compileReleaseShaders
+> Task :vd-search:generateReleaseAssets
+> Task :vd-search:packageReleaseAssets
+> Task :sample:mergeReleaseAssets
+> Task :sample:signingConfigWriterRelease
+> Task :avd-connecting:bundleLibRuntimeRelease
+> Task :avd-connecting:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :avd-searching:bundleLibRuntimeRelease
+> Task :avd-searching:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :avd-turningonoff:bundleLibRuntimeRelease
+> Task :avd-turningonoff:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :bluetoothstate:bundleLibRuntimeRelease
+> Task :bluetoothstate:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :avd-connecting:processReleaseJavaRes NO-SOURCE
+> Task :avd-connecting:bundleLibResRelease
+> Task :avd-searching:processReleaseJavaRes NO-SOURCE
+> Task :avd-searching:bundleLibResRelease
+> Task :avd-turningonoff:processReleaseJavaRes NO-SOURCE
+> Task :avd-turningonoff:bundleLibResRelease
+> Task :bluetoothstate:processReleaseJavaRes NO-SOURCE
+> Task :bluetoothstate:bundleLibResRelease
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :vd-bluetooth:processReleaseJavaRes NO-SOURCE
+> Task :vd-bluetooth:bundleLibResRelease
+> Task :vd-connected:processReleaseJavaRes NO-SOURCE
+> Task :vd-connected:bundleLibResRelease
+> Task :vd-onoff:processReleaseJavaRes NO-SOURCE
+> Task :vd-onoff:bundleLibResRelease
+> Task :vd-search:processReleaseJavaRes NO-SOURCE
+> Task :vd-search:bundleLibResRelease
+> Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :vd-bluetooth:bundleLibRuntimeRelease
+> Task :vd-bluetooth:mergeReleaseConsumerProguardFiles
+> Task :vd-connected:bundleLibRuntimeRelease
+> Task :vd-connected:mergeReleaseConsumerProguardFiles
+> Task :vd-onoff:bundleLibRuntimeRelease
+> Task :vd-onoff:mergeReleaseConsumerProguardFiles
+> Task :vd-search:bundleLibRuntimeRelease
+> Task :vd-search:mergeReleaseConsumerProguardFiles
+D8: The rule `-keep public class * extends androidx.versionedparcelable.VersionedParcelable {
+  <init>();
+}` uses extends but actually matches implements.
+
+> Task :sample:transformClassesAndResourcesWithR8ForRelease
+R8 is an experimental feature. If you experience any issues, please file a bug at
+https://issuetracker.google.com, using 'Shrinker (R8)' as component name. You can
+disable R8 by updating gradle.properties with 'android.enableR8=false'.
+
+
+> Task :avd-connecting:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :avd-connecting:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :avd-connecting:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :avd-connecting:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :avd-searching:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :avd-searching:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :avd-searching:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :avd-searching:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :avd-turningonoff:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :avd-turningonoff:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :avd-turningonoff:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :avd-turningonoff:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :bluetoothstate:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :bluetoothstate:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :bluetoothstate:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :bluetoothstate:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :sample:mergeReleaseJniLibFolders
+> Task :vd-bluetooth:mergeReleaseJniLibFolders
+> Task :vd-bluetooth:transformNativeLibsWithMergeJniLibsForRelease
+> Task :vd-bluetooth:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :vd-bluetooth:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :vd-connected:mergeReleaseJniLibFolders
+> Task :vd-connected:transformNativeLibsWithMergeJniLibsForRelease
+> Task :vd-connected:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :vd-connected:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :vd-onoff:mergeReleaseJniLibFolders
+> Task :vd-onoff:transformNativeLibsWithMergeJniLibsForRelease
+> Task :vd-onoff:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :vd-onoff:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :vd-search:mergeReleaseJniLibFolders
+> Task :vd-search:transformNativeLibsWithMergeJniLibsForRelease
+> Task :vd-search:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :vd-search:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 43s
+377 actionable tasks: 173 executed, 204 up-to-date
+
+2019-02-23 23:59:35,116 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550941031536-0/src/bluetooth-state-view-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

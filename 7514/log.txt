@@ -1,0 +1,169 @@
+2019-02-23 23:43:59,493 INFO  DownloadService - Downloading "https://github.com/aabhasr1/OtpView/archive/master.zip", attempt 3
+2019-02-23 23:44:09,156 INFO  DownloadService - Downloaded https://github.com/aabhasr1/OtpView/archive/master.zip, attempt 3
+2019-02-23 23:44:09,157 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940239488-0/master.zip": 2 MB
+2019-02-23 23:44:09,157 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-02-23 23:44:09,157 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940239488-0/master.zip: true
+2019-02-23 23:44:09,158 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940239488-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940239488-0/src'.
+2019-02-23 23:44:09,205 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-02-23 23:44:09,205 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940239488-0/src]
+2019-02-23 23:44:09,224 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940239488-0/src/.git/
+
+2019-02-23 23:44:09,228 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940239488-0/src/OtpView-master/gradlew
+2019-02-23 23:44:09,232 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940239488-0/src/OtpView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940239488-0/src/OtpView-master/otptextview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940239488-0/src/OtpView-master/build.gradle
+2019-02-23 23:44:09,236 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940239488-0/src/OtpView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940239488-0/src/OtpView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940239488-0/src/OtpView-master/otptextview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940239488-0/src/OtpView-master/settings.gradle
+2019-02-23 23:44:09,237 INFO  ProjectBuildService - Remote scripts: none
+2019-02-23 23:44:09,237 INFO  ProjectFixService - Fixing project...
+2019-02-23 23:44:09,246 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940239488-0/src/OtpView-master/app/local.properties
+2019-02-23 23:44:09,246 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940239488-0/src/OtpView-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-02-23 23:44:09,247 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940239488-0/src/OtpView-master/otptextview/local.properties
+2019-02-23 23:44:09,247 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940239488-0/src/OtpView-master/otptextview/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-02-23 23:44:09,248 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940239488-0/src/OtpView-master/local.properties
+2019-02-23 23:44:09,248 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-02-23 23:44:09,249 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-02-23 23:44:09,250 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940239488-0/src/OtpView-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-02-23 23:44:09,250 INFO  ProjectFixService - Project was maybe fixed
+2019-02-23 23:44:09,250 INFO  ProjectTaskService - Detecting possible tasks...
+2019-02-23 23:44:09,251 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940239488-0/src/OtpView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940239488-0/src/OtpView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-02-23 23:44:16,065 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-02-23 23:44:16,065 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-02-23 23:44:16,065 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940239488-0/src/OtpView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940239488-0/src/OtpView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-02-23 23:44:46,029 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:otptextview:preBuild UP-TO-DATE
+:otptextview:preDebugBuild UP-TO-DATE
+:otptextview:checkDebugManifest
+:otptextview:processDebugManifest
+:app:preDebugBuild
+:otptextview:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:otptextview:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:otptextview:compileDebugRenderscript
+:otptextview:generateDebugResValues
+:otptextview:generateDebugResources
+:otptextview:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:otptextview:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:otptextview:generateDebugBuildConfig
+:otptextview:prepareLintJar
+:otptextview:generateDebugSources
+:otptextview:javaPreCompileDebug
+:otptextview:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940239488-0/src/OtpView-master/otptextview/src/main/java/in/aabhasjindal/otptextview/OTPChildEditText.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:otptextview:processDebugJavaRes NO-SOURCE
+:otptextview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940239488-0/src/OtpView-master/app/src/main/java/in/aabhasjindal/otpview/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:otptextview:mergeDebugShaders
+:otptextview:compileDebugShaders
+:otptextview:generateDebugAssets
+:otptextview:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:otptextview:compileDebugNdk NO-SOURCE
+:otptextview:mergeDebugJniLibFolders
+:otptextview:transformNativeLibsWithMergeJniLibsForDebug
+:otptextview:transformNativeLibsWithStripDebugSymbolForDebug
+:otptextview:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:otptextview:preReleaseBuild UP-TO-DATE
+:otptextview:checkReleaseManifest
+:otptextview:processReleaseManifest
+:app:preReleaseBuild
+:otptextview:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:otptextview:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:otptextview:compileReleaseRenderscript
+:otptextview:generateReleaseResValues
+:otptextview:generateReleaseResources
+:otptextview:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:otptextview:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:otptextview:generateReleaseBuildConfig
+:otptextview:generateReleaseSources
+:otptextview:javaPreCompileRelease
+:otptextview:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940239488-0/src/OtpView-master/otptextview/src/main/java/in/aabhasjindal/otptextview/OTPChildEditText.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:otptextview:processReleaseJavaRes NO-SOURCE
+:otptextview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940239488-0/src/OtpView-master/app/src/main/java/in/aabhasjindal/otpview/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:otptextview:mergeReleaseShaders
+:otptextview:compileReleaseShaders
+:otptextview:generateReleaseAssets
+:otptextview:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:otptextview:compileReleaseNdk NO-SOURCE
+:otptextview:mergeReleaseJniLibFolders
+:otptextview:transformNativeLibsWithMergeJniLibsForRelease
+:otptextview:transformNativeLibsWithStripDebugSymbolForRelease
+:otptextview:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 29s
+90 actionable tasks: 90 executed
+
+2019-02-23 23:44:46,140 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940239488-0/src/OtpView-master/app/build/outputs/apk/debug/app-debug.apk
