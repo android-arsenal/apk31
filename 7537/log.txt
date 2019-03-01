@@ -1,0 +1,165 @@
+2019-03-01 10:49:35,376 INFO  DownloadService - Downloading "https://github.com/Pradyuman7/Pager/archive/master.zip", attempt 3
+2019-03-01 10:49:37,943 INFO  DownloadService - Downloaded https://github.com/Pradyuman7/Pager/archive/master.zip, attempt 3
+2019-03-01 10:49:37,944 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412175372-0/master.zip": 626 KB
+2019-03-01 10:49:37,944 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-01 10:49:37,950 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412175372-0/master.zip: true
+2019-03-01 10:49:37,950 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412175372-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412175372-0/src'.
+2019-03-01 10:49:37,984 INFO  FullProcessService - Size of directory with sources: 683 KB
+2019-03-01 10:49:37,984 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412175372-0/src]
+2019-03-01 10:49:38,006 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412175372-0/src/.git/
+
+2019-03-01 10:49:38,011 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412175372-0/src/Pager-master/gradlew
+2019-03-01 10:49:38,016 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412175372-0/src/Pager-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412175372-0/src/Pager-master/pager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412175372-0/src/Pager-master/build.gradle
+2019-03-01 10:49:38,021 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412175372-0/src/Pager-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412175372-0/src/Pager-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412175372-0/src/Pager-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412175372-0/src/Pager-master/pager/build.gradle
+2019-03-01 10:49:38,022 INFO  ProjectBuildService - Remote scripts: none
+2019-03-01 10:49:38,022 INFO  ProjectFixService - Fixing project...
+2019-03-01 10:49:38,034 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412175372-0/src/Pager-master/app/local.properties
+2019-03-01 10:49:38,035 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412175372-0/src/Pager-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-01 10:49:38,035 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412175372-0/src/Pager-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-01 10:49:38,036 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412175372-0/src/Pager-master/pager/local.properties
+2019-03-01 10:49:38,037 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412175372-0/src/Pager-master/pager/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-01 10:49:38,038 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412175372-0/src/Pager-master/pager/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-01 10:49:38,039 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412175372-0/src/Pager-master/local.properties
+2019-03-01 10:49:38,040 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-03-01 10:49:38,040 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-03-01 10:49:38,043 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412175372-0/src/Pager-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-01 10:49:38,043 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412175372-0/src/Pager-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-01 10:49:38,044 INFO  ProjectFixService - Project was maybe fixed
+2019-03-01 10:49:38,044 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-01 10:49:38,045 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412175372-0/src/Pager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412175372-0/src/Pager-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-01 10:49:46,641 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-03-01 10:49:46,642 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-01 10:49:46,642 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412175372-0/src/Pager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412175372-0/src/Pager-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-01 10:50:12,366 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:pager:preBuild UP-TO-DATE
+:pager:preDebugBuild UP-TO-DATE
+:pager:checkDebugManifest
+:pager:processDebugManifest
+:app:preDebugBuild
+:pager:compileDebugAidl
+:app:compileDebugAidl
+:pager:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:pager:compileDebugRenderscript
+:pager:generateDebugResValues
+:pager:generateDebugResources
+:pager:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:pager:platformAttrExtractor
+:pager:generateDebugBuildConfig
+:pager:prepareLintJar
+:pager:javaPreCompileDebug
+:pager:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:pager:mergeDebugShaders
+:pager:compileDebugShaders
+:pager:generateDebugAssets
+:pager:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:pager:compileDebugNdk NO-SOURCE
+:pager:mergeDebugJniLibFolders
+:pager:transformNativeLibsWithMergeJniLibsForDebug
+:pager:transformNativeLibsWithStripDebugSymbolForDebug
+:pager:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:pager:preReleaseBuild UP-TO-DATE
+:pager:checkReleaseManifest
+:pager:processReleaseManifest
+:app:preReleaseBuild
+:pager:compileReleaseAidl
+:app:compileReleaseAidl
+:pager:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:pager:compileReleaseRenderscript
+:pager:generateReleaseResValues
+:pager:generateReleaseResources
+:pager:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:pager:generateReleaseBuildConfig
+:pager:javaPreCompileRelease
+:pager:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:pager:mergeReleaseShaders
+:pager:compileReleaseShaders
+:pager:generateReleaseAssets
+:pager:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:pager:compileReleaseNdk NO-SOURCE
+:pager:mergeReleaseJniLibFolders
+:pager:transformNativeLibsWithMergeJniLibsForRelease
+:pager:transformNativeLibsWithStripDebugSymbolForRelease
+:pager:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:pager:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:pager:generateDebugSources
+:pager:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412175372-0/src/Pager-master/pager/src/main/java/com/pd/pager/PagerLayout.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:pager:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:pager:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:pager:generateReleaseSources
+:pager:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412175372-0/src/Pager-master/pager/src/main/java/com/pd/pager/PagerLayout.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:pager:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 24s
+91 actionable tasks: 91 executed
+
+2019-03-01 10:50:12,463 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412175372-0/src/Pager-master/app/build/outputs/apk/debug/app-debug.apk

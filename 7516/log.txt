@@ -1,36 +1,36 @@
-2019-02-23 23:43:05,573 INFO  DownloadService - Downloading "https://github.com/baldraider/SwipeDownToFinish/archive/master.zip", attempt 3
-2019-02-23 23:43:07,862 INFO  DownloadService - Downloaded https://github.com/baldraider/SwipeDownToFinish/archive/master.zip, attempt 3
-2019-02-23 23:43:07,862 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940185569-0/master.zip": 143 KB
-2019-02-23 23:43:07,862 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-02-23 23:43:07,863 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940185569-0/master.zip: true
-2019-02-23 23:43:07,863 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940185569-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940185569-0/src'.
-2019-02-23 23:43:07,884 INFO  FullProcessService - Size of directory with sources: 160 KB
-2019-02-23 23:43:07,884 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940185569-0/src]
-2019-02-23 23:43:07,906 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940185569-0/src/.git/
+2019-03-01 10:51:59,189 INFO  DownloadService - Downloading "https://github.com/baldraider/SwipeDownToFinish/archive/master.zip", attempt 3
+2019-03-01 10:52:01,218 INFO  DownloadService - Downloaded https://github.com/baldraider/SwipeDownToFinish/archive/master.zip, attempt 3
+2019-03-01 10:52:01,219 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412319186-0/master.zip": 143 KB
+2019-03-01 10:52:01,219 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-01 10:52:01,219 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412319186-0/master.zip: true
+2019-03-01 10:52:01,219 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412319186-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412319186-0/src'.
+2019-03-01 10:52:01,237 INFO  FullProcessService - Size of directory with sources: 160 KB
+2019-03-01 10:52:01,237 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412319186-0/src]
+2019-03-01 10:52:01,255 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412319186-0/src/.git/
 
-2019-02-23 23:43:07,909 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940185569-0/src/SwipeDownToFinish-master/gradlew
-2019-02-23 23:43:07,913 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940185569-0/src/SwipeDownToFinish-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940185569-0/src/SwipeDownToFinish-master/swipedowntofinish/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940185569-0/src/SwipeDownToFinish-master/build.gradle
-2019-02-23 23:43:07,916 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940185569-0/src/SwipeDownToFinish-master/swipedowntofinish/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940185569-0/src/SwipeDownToFinish-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940185569-0/src/SwipeDownToFinish-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940185569-0/src/SwipeDownToFinish-master/settings.gradle
-2019-02-23 23:43:07,916 INFO  ProjectBuildService - Remote scripts: none
-2019-02-23 23:43:07,916 INFO  ProjectFixService - Fixing project...
-2019-02-23 23:43:07,923 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940185569-0/src/SwipeDownToFinish-master/sample/local.properties
-2019-02-23 23:43:07,924 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940185569-0/src/SwipeDownToFinish-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2019-02-23 23:43:07,924 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940185569-0/src/SwipeDownToFinish-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2019-02-23 23:43:07,925 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940185569-0/src/SwipeDownToFinish-master/swipedowntofinish/local.properties
-2019-02-23 23:43:07,926 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940185569-0/src/SwipeDownToFinish-master/swipedowntofinish/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2019-02-23 23:43:07,926 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940185569-0/src/SwipeDownToFinish-master/swipedowntofinish/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2019-02-23 23:43:07,927 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940185569-0/src/SwipeDownToFinish-master/local.properties
-2019-02-23 23:43:07,927 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-02-23 23:43:07,928 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-02-23 23:43:07,929 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940185569-0/src/SwipeDownToFinish-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2019-02-23 23:43:07,929 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940185569-0/src/SwipeDownToFinish-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2019-02-23 23:43:07,929 INFO  ProjectFixService - Project was maybe fixed
-2019-02-23 23:43:07,929 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-23 23:43:07,929 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940185569-0/src/SwipeDownToFinish-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940185569-0/src/SwipeDownToFinish-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-23 23:43:14,817 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-02-23 23:43:14,818 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-02-23 23:43:14,818 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940185569-0/src/SwipeDownToFinish-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940185569-0/src/SwipeDownToFinish-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-02-23 23:43:27,488 ERROR SysUtils - Could not process external command
+2019-03-01 10:52:01,258 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412319186-0/src/SwipeDownToFinish-master/gradlew
+2019-03-01 10:52:01,261 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412319186-0/src/SwipeDownToFinish-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412319186-0/src/SwipeDownToFinish-master/swipedowntofinish/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412319186-0/src/SwipeDownToFinish-master/build.gradle
+2019-03-01 10:52:01,263 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412319186-0/src/SwipeDownToFinish-master/swipedowntofinish/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412319186-0/src/SwipeDownToFinish-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412319186-0/src/SwipeDownToFinish-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412319186-0/src/SwipeDownToFinish-master/settings.gradle
+2019-03-01 10:52:01,264 INFO  ProjectBuildService - Remote scripts: none
+2019-03-01 10:52:01,264 INFO  ProjectFixService - Fixing project...
+2019-03-01 10:52:01,271 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412319186-0/src/SwipeDownToFinish-master/sample/local.properties
+2019-03-01 10:52:01,272 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412319186-0/src/SwipeDownToFinish-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2019-03-01 10:52:01,272 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412319186-0/src/SwipeDownToFinish-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2019-03-01 10:52:01,273 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412319186-0/src/SwipeDownToFinish-master/swipedowntofinish/local.properties
+2019-03-01 10:52:01,274 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412319186-0/src/SwipeDownToFinish-master/swipedowntofinish/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2019-03-01 10:52:01,274 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412319186-0/src/SwipeDownToFinish-master/swipedowntofinish/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2019-03-01 10:52:01,275 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412319186-0/src/SwipeDownToFinish-master/local.properties
+2019-03-01 10:52:01,276 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-03-01 10:52:01,276 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-03-01 10:52:01,277 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412319186-0/src/SwipeDownToFinish-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2019-03-01 10:52:01,278 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412319186-0/src/SwipeDownToFinish-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2019-03-01 10:52:01,278 INFO  ProjectFixService - Project was maybe fixed
+2019-03-01 10:52:01,278 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-01 10:52:01,278 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412319186-0/src/SwipeDownToFinish-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412319186-0/src/SwipeDownToFinish-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-01 10:52:07,072 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-03-01 10:52:07,072 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-01 10:52:07,073 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412319186-0/src/SwipeDownToFinish-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412319186-0/src/SwipeDownToFinish-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-01 10:52:15,619 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -58,7 +58,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-02-23 23:43:27,489 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-01 10:52:15,620 INFO  SysUtils - Configuration on demand is an incubating feature.
 :sample:preBuild UP-TO-DATE
 :swipedowntofinish:preBuild UP-TO-DATE
 :swipedowntofinish:preReleaseBuild UP-TO-DATE
@@ -105,7 +105,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 :sample:mergeReleaseJniLibFolders
 :swipedowntofinish:generateReleaseRFile
 :swipedowntofinish:generateReleaseSources
-:swipedowntofinish:compileReleaseJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940185569-0/src/SwipeDownToFinish-master/swipedowntofinish/src/main/java/com/github/hangonsushant/swipedowntofinish/SwipeDownToFinishActivity.java:13: error: class SwipeDownDownToFinishActivity is public, should be declared in a file named SwipeDownDownToFinishActivity.java
+:swipedowntofinish:compileReleaseJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412319186-0/src/SwipeDownToFinish-master/swipedowntofinish/src/main/java/com/github/hangonsushant/swipedowntofinish/SwipeDownToFinishActivity.java:13: error: class SwipeDownDownToFinishActivity is public, should be declared in a file named SwipeDownDownToFinishActivity.java
 public class SwipeDownDownToFinishActivity extends AppCompatActivity implements SwipeDownLayout.SwipeDownListener {
        ^
 1 error
@@ -181,15 +181,15 @@ Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Com
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 12s
+BUILD FAILED in 8s
 36 actionable tasks: 36 executed
 
-2019-02-23 23:43:27,502 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-23 23:43:27,502 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940185569-0/src/SwipeDownToFinish-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940185569-0/src/SwipeDownToFinish-master/swipedowntofinish/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-23 23:43:35,618 INFO  ProjectTaskService - Detected possible tasks: 64
-2019-02-23 23:43:35,618 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-02-23 23:43:35,619 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940185569-0/src/SwipeDownToFinish-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940185569-0/src/SwipeDownToFinish-master/swipedowntofinish/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-02-23 23:43:44,351 ERROR SysUtils - Could not process external command
+2019-03-01 10:52:15,632 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-01 10:52:15,632 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412319186-0/src/SwipeDownToFinish-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412319186-0/src/SwipeDownToFinish-master/swipedowntofinish/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-01 10:52:21,769 INFO  ProjectTaskService - Detected possible tasks: 64
+2019-03-01 10:52:21,769 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-01 10:52:21,769 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412319186-0/src/SwipeDownToFinish-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412319186-0/src/SwipeDownToFinish-master/swipedowntofinish/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-01 10:52:28,890 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -217,7 +217,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-02-23 23:43:44,351 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-01 10:52:28,890 INFO  SysUtils - Configuration on demand is an incubating feature.
 :swipedowntofinish:preBuild UP-TO-DATE
 :swipedowntofinish:preDebugBuild UP-TO-DATE
 :swipedowntofinish:compileDebugAidl
@@ -233,7 +233,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 :swipedowntofinish:prepareLintJar UP-TO-DATE
 :swipedowntofinish:generateDebugSources
 :swipedowntofinish:javaPreCompileDebug
-:swipedowntofinish:compileDebugJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940185569-0/src/SwipeDownToFinish-master/swipedowntofinish/src/main/java/com/github/hangonsushant/swipedowntofinish/SwipeDownToFinishActivity.java:13: error: class SwipeDownDownToFinishActivity is public, should be declared in a file named SwipeDownDownToFinishActivity.java
+:swipedowntofinish:compileDebugJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412319186-0/src/SwipeDownToFinish-master/swipedowntofinish/src/main/java/com/github/hangonsushant/swipedowntofinish/SwipeDownToFinishActivity.java:13: error: class SwipeDownDownToFinishActivity is public, should be declared in a file named SwipeDownDownToFinishActivity.java
 public class SwipeDownDownToFinishActivity extends AppCompatActivity implements SwipeDownLayout.SwipeDownListener {
        ^
 1 error
@@ -309,15 +309,15 @@ Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Com
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 8s
+BUILD FAILED in 6s
 12 actionable tasks: 10 executed, 2 up-to-date
 
-2019-02-23 23:43:44,368 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-23 23:43:44,368 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940185569-0/src/SwipeDownToFinish-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940185569-0/src/SwipeDownToFinish-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-23 23:43:51,123 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-02-23 23:43:51,123 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-02-23 23:43:51,123 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940185569-0/src/SwipeDownToFinish-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940185569-0/src/SwipeDownToFinish-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-02-23 23:43:59,393 ERROR SysUtils - Could not process external command
+2019-03-01 10:52:28,905 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-01 10:52:28,905 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412319186-0/src/SwipeDownToFinish-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412319186-0/src/SwipeDownToFinish-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-01 10:52:34,674 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-03-01 10:52:34,675 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-01 10:52:34,675 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412319186-0/src/SwipeDownToFinish-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412319186-0/src/SwipeDownToFinish-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-01 10:52:41,834 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -345,7 +345,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-02-23 23:43:59,393 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-01 10:52:41,834 INFO  SysUtils - Configuration on demand is an incubating feature.
 :sample:preBuild UP-TO-DATE
 :swipedowntofinish:preBuild UP-TO-DATE
 :swipedowntofinish:preReleaseBuild UP-TO-DATE
@@ -362,7 +362,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 :swipedowntofinish:prepareLintJar UP-TO-DATE
 :swipedowntofinish:generateReleaseSources UP-TO-DATE
 :swipedowntofinish:javaPreCompileRelease UP-TO-DATE
-:swipedowntofinish:compileReleaseJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550940185569-0/src/SwipeDownToFinish-master/swipedowntofinish/src/main/java/com/github/hangonsushant/swipedowntofinish/SwipeDownToFinishActivity.java:13: error: class SwipeDownDownToFinishActivity is public, should be declared in a file named SwipeDownDownToFinishActivity.java
+:swipedowntofinish:compileReleaseJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551412319186-0/src/SwipeDownToFinish-master/swipedowntofinish/src/main/java/com/github/hangonsushant/swipedowntofinish/SwipeDownToFinishActivity.java:13: error: class SwipeDownDownToFinishActivity is public, should be declared in a file named SwipeDownDownToFinishActivity.java
 public class SwipeDownDownToFinishActivity extends AppCompatActivity implements SwipeDownLayout.SwipeDownListener {
        ^
 1 error
@@ -438,8 +438,8 @@ Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Com
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 7s
+BUILD FAILED in 6s
 12 actionable tasks: 1 executed, 11 up-to-date
 
-2019-02-23 23:43:59,410 ERROR FullProcessService - Project build has not produced APK file
-2019-02-23 23:43:59,425 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-01 10:52:41,851 ERROR FullProcessService - Project build has not produced APK file
+2019-03-01 10:52:41,867 ERROR FullProcessService - Could not find generated or existed APK file
