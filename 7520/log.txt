@@ -1,36 +1,36 @@
-2019-02-23 23:37:20,925 INFO  DownloadService - Downloading "https://github.com/samigehi/AsyncSocket/archive/master.zip", attempt 3
-2019-02-23 23:37:23,337 INFO  DownloadService - Downloaded https://github.com/samigehi/AsyncSocket/archive/master.zip, attempt 3
-2019-02-23 23:37:23,337 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939840921-0/master.zip": 247 KB
-2019-02-23 23:37:23,337 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-02-23 23:37:23,343 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939840921-0/master.zip: true
-2019-02-23 23:37:23,343 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939840921-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939840921-0/src'.
-2019-02-23 23:37:23,383 INFO  FullProcessService - Size of directory with sources: 324 KB
-2019-02-23 23:37:23,384 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939840921-0/src]
-2019-02-23 23:37:23,429 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939840921-0/src/.git/
+2019-03-02 14:19:43,436 INFO  DownloadService - Downloading "https://github.com/samigehi/AsyncSocket/archive/master.zip", attempt 3
+2019-03-02 14:19:43,921 INFO  DownloadService - Downloaded https://github.com/samigehi/AsyncSocket/archive/master.zip, attempt 3
+2019-03-02 14:19:43,921 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511183432-0/master.zip": 247 KB
+2019-03-02 14:19:43,921 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-02 14:19:43,927 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511183432-0/master.zip: true
+2019-03-02 14:19:43,927 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511183432-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511183432-0/src'.
+2019-03-02 14:19:43,957 INFO  FullProcessService - Size of directory with sources: 324 KB
+2019-03-02 14:19:43,957 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511183432-0/src]
+2019-03-02 14:19:43,975 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511183432-0/src/.git/
 
-2019-02-23 23:37:23,435 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939840921-0/src/AsyncSocket-master/gradlew
-2019-02-23 23:37:23,441 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939840921-0/src/AsyncSocket-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939840921-0/src/AsyncSocket-master/socket/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939840921-0/src/AsyncSocket-master/build.gradle
-2019-02-23 23:37:23,447 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939840921-0/src/AsyncSocket-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939840921-0/src/AsyncSocket-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939840921-0/src/AsyncSocket-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939840921-0/src/AsyncSocket-master/socket/build.gradle
-2019-02-23 23:37:23,448 INFO  ProjectBuildService - Remote scripts: none
-2019-02-23 23:37:23,448 INFO  ProjectFixService - Fixing project...
-2019-02-23 23:37:23,465 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939840921-0/src/AsyncSocket-master/app/local.properties
-2019-02-23 23:37:23,467 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939840921-0/src/AsyncSocket-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-02-23 23:37:23,468 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939840921-0/src/AsyncSocket-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-02-23 23:37:23,470 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939840921-0/src/AsyncSocket-master/socket/local.properties
-2019-02-23 23:37:23,473 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939840921-0/src/AsyncSocket-master/socket/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-02-23 23:37:23,473 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939840921-0/src/AsyncSocket-master/socket/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-02-23 23:37:23,475 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939840921-0/src/AsyncSocket-master/local.properties
-2019-02-23 23:37:23,476 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-02-23 23:37:23,477 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-02-23 23:37:23,480 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939840921-0/src/AsyncSocket-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-02-23 23:37:23,480 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939840921-0/src/AsyncSocket-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-02-23 23:37:23,482 INFO  ProjectFixService - Project was maybe fixed
-2019-02-23 23:37:23,482 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-23 23:37:23,482 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939840921-0/src/AsyncSocket-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939840921-0/src/AsyncSocket-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-23 23:37:33,342 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-02-23 23:37:33,343 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-02-23 23:37:33,343 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939840921-0/src/AsyncSocket-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939840921-0/src/AsyncSocket-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-02-23 23:38:00,039 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-02 14:19:43,979 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511183432-0/src/AsyncSocket-master/gradlew
+2019-03-02 14:19:43,983 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511183432-0/src/AsyncSocket-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511183432-0/src/AsyncSocket-master/socket/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511183432-0/src/AsyncSocket-master/build.gradle
+2019-03-02 14:19:43,987 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511183432-0/src/AsyncSocket-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511183432-0/src/AsyncSocket-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511183432-0/src/AsyncSocket-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511183432-0/src/AsyncSocket-master/socket/build.gradle
+2019-03-02 14:19:43,988 INFO  ProjectBuildService - Remote scripts: none
+2019-03-02 14:19:43,988 INFO  ProjectFixService - Fixing project...
+2019-03-02 14:19:43,999 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511183432-0/src/AsyncSocket-master/app/local.properties
+2019-03-02 14:19:44,000 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511183432-0/src/AsyncSocket-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-02 14:19:44,001 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511183432-0/src/AsyncSocket-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-02 14:19:44,001 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511183432-0/src/AsyncSocket-master/socket/local.properties
+2019-03-02 14:19:44,003 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511183432-0/src/AsyncSocket-master/socket/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-02 14:19:44,003 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511183432-0/src/AsyncSocket-master/socket/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-02 14:19:44,004 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511183432-0/src/AsyncSocket-master/local.properties
+2019-03-02 14:19:44,005 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-03-02 14:19:44,006 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-03-02 14:19:44,007 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511183432-0/src/AsyncSocket-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-02 14:19:44,007 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511183432-0/src/AsyncSocket-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-02 14:19:44,008 INFO  ProjectFixService - Project was maybe fixed
+2019-03-02 14:19:44,008 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-02 14:19:44,008 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511183432-0/src/AsyncSocket-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511183432-0/src/AsyncSocket-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-02 14:19:50,066 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-03-02 14:19:50,066 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-02 14:19:50,067 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511183432-0/src/AsyncSocket-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511183432-0/src/AsyncSocket-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-02 14:20:13,261 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild
 > Task :app:compileDebugAidl NO-SOURCE
@@ -104,7 +104,7 @@
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 25s
+BUILD SUCCESSFUL in 22s
 53 actionable tasks: 53 executed
 
-2019-02-23 23:38:00,117 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939840921-0/src/AsyncSocket-master/app/build/outputs/apk/debug/app-debug.apk
+2019-03-02 14:20:13,340 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1551511183432-0/src/AsyncSocket-master/app/build/outputs/apk/debug/app-debug.apk
