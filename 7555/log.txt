@@ -1,0 +1,175 @@
+2019-03-09 02:03:43,878 INFO  DownloadService - Downloading "https://github.com/mahimrocky/ShowMoreText/archive/master.zip", attempt 3
+2019-03-09 02:03:46,925 INFO  DownloadService - Downloaded https://github.com/mahimrocky/ShowMoreText/archive/master.zip, attempt 3
+2019-03-09 02:03:46,926 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552071823784-0/master.zip": 243 KB
+2019-03-09 02:03:46,926 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-09 02:03:46,938 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552071823784-0/master.zip: true
+2019-03-09 02:03:46,938 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552071823784-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552071823784-0/src'.
+2019-03-09 02:03:46,984 INFO  FullProcessService - Size of directory with sources: 270 KB
+2019-03-09 02:03:46,988 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552071823784-0/src]
+2019-03-09 02:03:47,094 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552071823784-0/src/.git/
+
+2019-03-09 02:03:47,118 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552071823784-0/src/ShowMoreText-master/gradlew
+2019-03-09 02:03:47,135 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552071823784-0/src/ShowMoreText-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552071823784-0/src/ShowMoreText-master/showmoretextview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552071823784-0/src/ShowMoreText-master/build.gradle
+2019-03-09 02:03:47,144 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552071823784-0/src/ShowMoreText-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552071823784-0/src/ShowMoreText-master/showmoretextview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552071823784-0/src/ShowMoreText-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552071823784-0/src/ShowMoreText-master/settings.gradle
+2019-03-09 02:03:47,147 INFO  ProjectBuildService - Remote scripts: none
+2019-03-09 02:03:47,148 INFO  ProjectFixService - Fixing project...
+2019-03-09 02:03:47,209 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2019-03-09 02:03:47,209 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
+2019-03-09 02:03:47,213 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 21.1.0 28.0.0 18.1.0 19.1.0 18.1.1
+2019-03-09 02:03:47,218 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 28.0.0-rc1 28.0.0-rc2
+2019-03-09 02:03:47,222 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 11 27 18 20 21 26 19 10 17 28 6 8 9 7
+2019-03-09 02:03:47,222 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28
+2019-03-09 02:03:47,223 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552071823784-0/src/ShowMoreText-master/app/local.properties
+2019-03-09 02:03:47,234 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552071823784-0/src/ShowMoreText-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-09 02:03:47,238 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552071823784-0/src/ShowMoreText-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-09 02:03:47,240 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552071823784-0/src/ShowMoreText-master/showmoretextview/local.properties
+2019-03-09 02:03:47,242 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552071823784-0/src/ShowMoreText-master/showmoretextview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-09 02:03:47,243 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552071823784-0/src/ShowMoreText-master/showmoretextview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-09 02:03:47,245 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552071823784-0/src/ShowMoreText-master/local.properties
+2019-03-09 02:03:47,253 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-03-09 02:03:47,254 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-03-09 02:03:47,256 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552071823784-0/src/ShowMoreText-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-09 02:03:47,257 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552071823784-0/src/ShowMoreText-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-09 02:03:47,258 INFO  ProjectFixService - Project was maybe fixed
+2019-03-09 02:03:47,261 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-09 02:03:47,261 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552071823784-0/src/ShowMoreText-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552071823784-0/src/ShowMoreText-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-09 02:04:07,902 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-03-09 02:04:07,902 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-09 02:04:07,902 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552071823784-0/src/ShowMoreText-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552071823784-0/src/ShowMoreText-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-09 02:05:03,210 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :showmoretextview:preBuild UP-TO-DATE
+> Task :showmoretextview:preDebugBuild UP-TO-DATE
+> Task :showmoretextview:checkDebugManifest
+> Task :showmoretextview:processDebugManifest
+> Task :app:preDebugBuild
+> Task :showmoretextview:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :showmoretextview:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :showmoretextview:compileDebugRenderscript
+> Task :showmoretextview:generateDebugBuildConfig
+> Task :showmoretextview:generateDebugResValues
+> Task :showmoretextview:generateDebugResources
+> Task :showmoretextview:packageDebugResources
+> Task :showmoretextview:generateDebugRFile
+> Task :showmoretextview:prepareLintJar
+> Task :showmoretextview:generateDebugSources
+> Task :showmoretextview:javaPreCompileDebug
+> Task :showmoretextview:compileDebugJavaWithJavac
+> Task :showmoretextview:processDebugJavaRes NO-SOURCE
+> Task :showmoretextview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :app:javaPreCompileDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:processDebugResources
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugNdk NO-SOURCE
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :showmoretextview:mergeDebugShaders
+> Task :showmoretextview:compileDebugShaders
+> Task :showmoretextview:generateDebugAssets
+> Task :showmoretextview:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :showmoretextview:createFullJarDebug
+> Transform full.jar (project :showmoretextview) with IdentityTransform
+> Task :app:mergeExtDexDebug
+> Transform full.jar (project :showmoretextview) with DexingTransform
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:mergeDexDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :showmoretextview:compileDebugNdk NO-SOURCE
+> Task :showmoretextview:mergeDebugJniLibFolders
+> Task :showmoretextview:transformNativeLibsWithMergeJniLibsForDebug
+> Task :showmoretextview:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :showmoretextview:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :showmoretextview:preReleaseBuild UP-TO-DATE
+> Task :showmoretextview:checkReleaseManifest
+> Task :showmoretextview:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :showmoretextview:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :showmoretextview:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:generateReleaseSources
+> Task :showmoretextview:compileReleaseRenderscript
+> Task :showmoretextview:generateReleaseBuildConfig
+> Task :showmoretextview:generateReleaseResValues
+> Task :showmoretextview:generateReleaseResources
+> Task :showmoretextview:packageReleaseResources
+> Task :showmoretextview:generateReleaseRFile
+> Task :showmoretextview:generateReleaseSources
+> Task :showmoretextview:javaPreCompileRelease
+> Task :showmoretextview:compileReleaseJavaWithJavac
+> Task :showmoretextview:processReleaseJavaRes NO-SOURCE
+> Task :showmoretextview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :app:javaPreCompileRelease
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:processReleaseResources
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseNdk NO-SOURCE
+> Task :app:compileReleaseSources
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/be7a3df690bbb5655b9d045a27fd4628/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :showmoretextview:createFullJarRelease
+> Transform full.jar (project :showmoretextview) with IdentityTransform
+> Task :app:mergeExtDexRelease
+> Transform full.jar (project :showmoretextview) with DexingTransform
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeDexRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :showmoretextview:mergeReleaseShaders
+> Task :showmoretextview:compileReleaseShaders
+> Task :showmoretextview:generateReleaseAssets
+> Task :showmoretextview:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :showmoretextview:compileReleaseNdk NO-SOURCE
+> Task :showmoretextview:mergeReleaseJniLibFolders
+> Task :showmoretextview:transformNativeLibsWithMergeJniLibsForRelease
+> Task :showmoretextview:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :showmoretextview:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 54s
+88 actionable tasks: 88 executed
+
+2019-03-09 02:05:03,353 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552071823784-0/src/ShowMoreText-master/app/build/outputs/apk/debug/app-debug.apk
