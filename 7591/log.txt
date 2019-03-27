@@ -1,0 +1,122 @@
+2019-03-27 14:58:09,200 INFO  DownloadService - Downloading "https://github.com/mohak1712/IncorrectPinCodeAnimation/archive/master.zip", attempt 3
+2019-03-27 14:58:09,718 INFO  DownloadService - Downloaded https://github.com/mohak1712/IncorrectPinCodeAnimation/archive/master.zip, attempt 3
+2019-03-27 14:58:09,718 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673489197-0/master.zip": 141 KB
+2019-03-27 14:58:09,718 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-27 14:58:09,720 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673489197-0/master.zip: true
+2019-03-27 14:58:09,720 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673489197-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673489197-0/src'.
+2019-03-27 14:58:09,738 INFO  FullProcessService - Size of directory with sources: 165 KB
+2019-03-27 14:58:09,738 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673489197-0/src]
+2019-03-27 14:58:09,754 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673489197-0/src/.git/
+
+2019-03-27 14:58:09,757 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673489197-0/src/IncorrectPinCodeAnimation-master/gradlew
+2019-03-27 14:58:09,760 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673489197-0/src/IncorrectPinCodeAnimation-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673489197-0/src/IncorrectPinCodeAnimation-master/build.gradle
+2019-03-27 14:58:09,762 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673489197-0/src/IncorrectPinCodeAnimation-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673489197-0/src/IncorrectPinCodeAnimation-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673489197-0/src/IncorrectPinCodeAnimation-master/settings.gradle
+2019-03-27 14:58:09,763 INFO  ProjectBuildService - Remote scripts: none
+2019-03-27 14:58:09,763 INFO  ProjectFixService - Fixing project...
+2019-03-27 14:58:09,772 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673489197-0/src/IncorrectPinCodeAnimation-master/app/local.properties
+2019-03-27 14:58:09,773 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673489197-0/src/IncorrectPinCodeAnimation-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-27 14:58:09,773 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673489197-0/src/IncorrectPinCodeAnimation-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-27 14:58:09,774 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673489197-0/src/IncorrectPinCodeAnimation-master/local.properties
+2019-03-27 14:58:09,775 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-03-27 14:58:09,775 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-03-27 14:58:09,777 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673489197-0/src/IncorrectPinCodeAnimation-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-27 14:58:09,777 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673489197-0/src/IncorrectPinCodeAnimation-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-27 14:58:09,777 INFO  ProjectFixService - Project was maybe fixed
+2019-03-27 14:58:09,777 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-27 14:58:09,778 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673489197-0/src/IncorrectPinCodeAnimation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673489197-0/src/IncorrectPinCodeAnimation-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-27 14:58:19,679 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-03-27 14:58:19,679 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-27 14:58:19,679 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673489197-0/src/IncorrectPinCodeAnimation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673489197-0/src/IncorrectPinCodeAnimation-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-27 14:59:13,947 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+Download https://dl.google.com/dl/android/maven2/androidx/transition/transition/1.1.0-alpha02/transition-1.1.0-alpha02.pom
+Download https://dl.google.com/dl/android/maven2/androidx/transition/transition/1.1.0-alpha02/transition-1.1.0-alpha02.aar
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild
+:app:compileDebugAidl NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:app:processDebugResources
+:app:compileDebugKotlin
+:app:prepareLintJar
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:app:preReleaseBuild
+:app:compileReleaseAidl NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:app:processReleaseResources
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Download https://dl.google.com/dl/android/maven2/androidx/test/runner/1.1.2-alpha02/runner-1.1.2-alpha02.pom
+Download https://dl.google.com/dl/android/maven2/androidx/test/espresso/espresso-core/3.2.0-alpha02/espresso-core-3.2.0-alpha02.pom
+Download https://dl.google.com/dl/android/maven2/androidx/test/monitor/1.1.2-alpha02/monitor-1.1.2-alpha02.pom
+Download https://dl.google.com/dl/android/maven2/androidx/test/espresso/espresso-idling-resource/3.2.0-alpha02/espresso-idling-resource-3.2.0-alpha02.pom
+Download https://dl.google.com/dl/android/maven2/androidx/test/monitor/1.1.2-alpha02/monitor-1.1.2-alpha02.aar
+Download https://dl.google.com/dl/android/maven2/androidx/test/espresso/espresso-core/3.2.0-alpha02/espresso-core-3.2.0-alpha02.aar
+Download https://dl.google.com/dl/android/maven2/androidx/test/espresso/espresso-idling-resource/3.2.0-alpha02/espresso-idling-resource-3.2.0-alpha02.aar
+Download https://dl.google.com/dl/android/maven2/androidx/test/runner/1.1.2-alpha02/runner-1.1.2-alpha02.aar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/cea627ed7ed0241364ec3595f49e43e9/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 53s
+57 actionable tasks: 57 executed
+
+2019-03-27 14:59:14,030 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673489197-0/src/IncorrectPinCodeAnimation-master/app/build/outputs/apk/debug/app-debug.apk

@@ -1,42 +1,36 @@
-2019-03-10 21:02:12,458 INFO  DownloadService - Downloading "https://github.com/fevziomurtekin/custom-mapview/archive/master.zip", attempt 3
-2019-03-10 21:02:19,874 INFO  DownloadService - Downloaded https://github.com/fevziomurtekin/custom-mapview/archive/master.zip, attempt 3
-2019-03-10 21:02:19,874 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/master.zip": 5 MB
-2019-03-10 21:02:19,875 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-10 21:02:19,888 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/master.zip: true
-2019-03-10 21:02:19,889 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src'.
-2019-03-10 21:02:19,979 INFO  FullProcessService - Size of directory with sources: 5 MB
-2019-03-10 21:02:19,983 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src]
-2019-03-10 21:02:20,030 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/.git/
+2019-03-27 15:12:32,759 INFO  DownloadService - Downloading "https://github.com/fevziomurtekin/custom-mapview/archive/master.zip", attempt 3
+2019-03-27 15:12:36,072 INFO  DownloadService - Downloaded https://github.com/fevziomurtekin/custom-mapview/archive/master.zip, attempt 3
+2019-03-27 15:12:36,072 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/master.zip": 5 MB
+2019-03-27 15:12:36,072 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-27 15:12:36,074 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/master.zip: true
+2019-03-27 15:12:36,074 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src'.
+2019-03-27 15:12:36,128 INFO  FullProcessService - Size of directory with sources: 5 MB
+2019-03-27 15:12:36,129 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src]
+2019-03-27 15:12:36,146 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/.git/
 
-2019-03-10 21:02:20,048 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/gradlew
-2019-03-10 21:02:20,063 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/build.gradle
-2019-03-10 21:02:20,072 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/settings.gradle
-2019-03-10 21:02:20,075 INFO  ProjectBuildService - Remote scripts: none
-2019-03-10 21:02:20,076 INFO  ProjectFixService - Fixing project...
-2019-03-10 21:02:20,132 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
-2019-03-10 21:02:20,132 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
-2019-03-10 21:02:20,135 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 21.1.0 28.0.0 18.1.0 19.1.0 18.1.1
-2019-03-10 21:02:20,139 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 28.0.0-rc1 28.0.0-rc2
-2019-03-10 21:02:20,141 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 11 27 18 20 21 26 19 10 17 28 6 8 9 7
-2019-03-10 21:02:20,143 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28
-2019-03-10 21:02:20,144 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/app/local.properties
-2019-03-10 21:02:20,151 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-03-10 21:02:20,154 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-03-10 21:02:20,156 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/local.properties
-2019-03-10 21:02:20,158 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-03-10 21:02:20,158 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-03-10 21:02:20,160 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/local.properties
-2019-03-10 21:02:20,165 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-03-10 21:02:20,166 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-03-10 21:02:20,167 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-03-10 21:02:20,168 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-03-10 21:02:20,168 INFO  ProjectFixService - Project was maybe fixed
-2019-03-10 21:02:20,171 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-10 21:02:20,171 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-10 21:02:30,244 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-03-10 21:02:30,245 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-10 21:02:30,245 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-10 21:03:43,016 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-27 15:12:36,150 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/gradlew
+2019-03-27 15:12:36,154 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/build.gradle
+2019-03-27 15:12:36,159 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/settings.gradle
+2019-03-27 15:12:36,159 INFO  ProjectBuildService - Remote scripts: none
+2019-03-27 15:12:36,159 INFO  ProjectFixService - Fixing project...
+2019-03-27 15:12:36,170 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/app/local.properties
+2019-03-27 15:12:36,171 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-03-27 15:12:36,171 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-03-27 15:12:36,172 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/local.properties
+2019-03-27 15:12:36,173 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-03-27 15:12:36,173 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-03-27 15:12:36,174 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/local.properties
+2019-03-27 15:12:36,174 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-03-27 15:12:36,175 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-03-27 15:12:36,176 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-03-27 15:12:36,176 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-03-27 15:12:36,176 INFO  ProjectFixService - Project was maybe fixed
+2019-03-27 15:12:36,177 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-27 15:12:36,177 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-27 15:12:43,407 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-03-27 15:12:43,407 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-27 15:12:43,407 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-27 15:13:45,444 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
@@ -66,25 +60,25 @@
 > Task :library:kaptDebugKotlin
 
 > Task :library:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (28, 42): 'SimpleTarget<Z : Any!>' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (207, 45): Unnecessary non-null assertion (!!) on a non-null receiver of type LatLng
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (214, 36): 'SimpleTarget<Z : Any!>' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (242, 35): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (260, 30): Variable 'finishX' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (517, 32): 'SimpleTarget<Z : Any!>' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (532, 32): 'SimpleTarget<Z : Any!>' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (545, 32): 'SimpleTarget<Z : Any!>' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (626, 12): Condition 'tempPlaceList!=null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (627, 39): Unnecessary non-null assertion (!!) on a non-null receiver of type MutableList<Place>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (682, 13): Unnecessary safe call on a non-null receiver of type GoogleMap
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/adapter/MarkerAdapter.kt: (13, 5): Lateinit is unnecessary: definitely initialized in constructors
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/adapter/MarkerAdapter.kt: (14, 5): Lateinit is unnecessary: definitely initialized in constructors
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/adapter/MarkerAdapter.kt: (15, 5): Lateinit is unnecessary: definitely initialized in constructors
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/adapter/MarkerAdapter.kt: (16, 5): Lateinit is unnecessary: definitely initialized in constructors
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/adapter/MarkerAdapter.kt: (19, 13): Variable 'width' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/util/Dialogs.kt: (19, 9): Unsafe use of a nullable receiver of type Window?
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/util/Dialogs.kt: (24, 13): Variable 'txtTitle' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/util/Dialogs.kt: (25, 13): Variable 'txtInfo' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (28, 42): 'SimpleTarget<Z : Any!>' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (207, 45): Unnecessary non-null assertion (!!) on a non-null receiver of type LatLng
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (214, 36): 'SimpleTarget<Z : Any!>' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (242, 35): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (260, 30): Variable 'finishX' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (517, 32): 'SimpleTarget<Z : Any!>' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (532, 32): 'SimpleTarget<Z : Any!>' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (545, 32): 'SimpleTarget<Z : Any!>' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (626, 12): Condition 'tempPlaceList!=null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (627, 39): Unnecessary non-null assertion (!!) on a non-null receiver of type MutableList<Place>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (682, 13): Unnecessary safe call on a non-null receiver of type GoogleMap
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/adapter/MarkerAdapter.kt: (13, 5): Lateinit is unnecessary: definitely initialized in constructors
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/adapter/MarkerAdapter.kt: (14, 5): Lateinit is unnecessary: definitely initialized in constructors
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/adapter/MarkerAdapter.kt: (15, 5): Lateinit is unnecessary: definitely initialized in constructors
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/adapter/MarkerAdapter.kt: (16, 5): Lateinit is unnecessary: definitely initialized in constructors
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/adapter/MarkerAdapter.kt: (19, 13): Variable 'width' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/util/Dialogs.kt: (19, 9): Unsafe use of a nullable receiver of type Window?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/util/Dialogs.kt: (24, 13): Variable 'txtTitle' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/util/Dialogs.kt: (25, 13): Variable 'txtInfo' is never used
 
 > Task :library:prepareLintJar
 > Task :library:generateDebugSources
@@ -117,10 +111,10 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/
 > Task :app:mergeDebugJniLibFolders
 > Task :library:compileDebugNdk NO-SOURCE
 > Task :library:mergeDebugJniLibFolders
-> Task :library:transformNativeLibsWithMergeJniLibsForDebug
 > Transform full.jar (project :library) with DexingTransform
-> Task :library:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :library:transformNativeLibsWithMergeJniLibsForDebug
 > Task :app:mergeLibDexDebug
+> Task :library:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :library:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :app:transformNativeLibsWithMergeJniLibsForDebug
 > Task :app:transformNativeLibsWithStripDebugSymbolForDebug
@@ -155,25 +149,25 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/
 > Task :library:kaptReleaseKotlin
 
 > Task :library:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (28, 42): 'SimpleTarget<Z : Any!>' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (207, 45): Unnecessary non-null assertion (!!) on a non-null receiver of type LatLng
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (214, 36): 'SimpleTarget<Z : Any!>' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (242, 35): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (260, 30): Variable 'finishX' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (517, 32): 'SimpleTarget<Z : Any!>' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (532, 32): 'SimpleTarget<Z : Any!>' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (545, 32): 'SimpleTarget<Z : Any!>' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (626, 12): Condition 'tempPlaceList!=null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (627, 39): Unnecessary non-null assertion (!!) on a non-null receiver of type MutableList<Place>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (682, 13): Unnecessary safe call on a non-null receiver of type GoogleMap
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/adapter/MarkerAdapter.kt: (13, 5): Lateinit is unnecessary: definitely initialized in constructors
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/adapter/MarkerAdapter.kt: (14, 5): Lateinit is unnecessary: definitely initialized in constructors
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/adapter/MarkerAdapter.kt: (15, 5): Lateinit is unnecessary: definitely initialized in constructors
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/adapter/MarkerAdapter.kt: (16, 5): Lateinit is unnecessary: definitely initialized in constructors
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/adapter/MarkerAdapter.kt: (19, 13): Variable 'width' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/util/Dialogs.kt: (19, 9): Unsafe use of a nullable receiver of type Window?
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/util/Dialogs.kt: (24, 13): Variable 'txtTitle' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/util/Dialogs.kt: (25, 13): Variable 'txtInfo' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (28, 42): 'SimpleTarget<Z : Any!>' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (207, 45): Unnecessary non-null assertion (!!) on a non-null receiver of type LatLng
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (214, 36): 'SimpleTarget<Z : Any!>' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (242, 35): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (260, 30): Variable 'finishX' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (517, 32): 'SimpleTarget<Z : Any!>' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (532, 32): 'SimpleTarget<Z : Any!>' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (545, 32): 'SimpleTarget<Z : Any!>' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (626, 12): Condition 'tempPlaceList!=null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (627, 39): Unnecessary non-null assertion (!!) on a non-null receiver of type MutableList<Place>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/View.kt: (682, 13): Unnecessary safe call on a non-null receiver of type GoogleMap
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/adapter/MarkerAdapter.kt: (13, 5): Lateinit is unnecessary: definitely initialized in constructors
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/adapter/MarkerAdapter.kt: (14, 5): Lateinit is unnecessary: definitely initialized in constructors
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/adapter/MarkerAdapter.kt: (15, 5): Lateinit is unnecessary: definitely initialized in constructors
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/adapter/MarkerAdapter.kt: (16, 5): Lateinit is unnecessary: definitely initialized in constructors
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/adapter/MarkerAdapter.kt: (19, 13): Variable 'width' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/util/Dialogs.kt: (19, 9): Unsafe use of a nullable receiver of type Window?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/util/Dialogs.kt: (24, 13): Variable 'txtTitle' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/library/src/main/java/com/fevziomurtekin/custom_mapview/util/Dialogs.kt: (25, 13): Variable 'txtInfo' is never used
 
 > Task :library:generateReleaseSources
 > Task :library:javaPreCompileRelease
@@ -217,7 +211,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 1m 11s
+BUILD SUCCESSFUL in 1m 1s
 97 actionable tasks: 97 executed
 
-2019-03-10 21:03:43,179 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226532366-0/src/custom-mapview-master/app/build/outputs/apk/debug/app-debug.apk
+2019-03-27 15:13:45,564 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553674352754-0/src/custom-mapview-master/app/build/outputs/apk/debug/app-debug.apk

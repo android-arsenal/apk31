@@ -1,0 +1,267 @@
+2019-03-27 14:56:29,765 INFO  DownloadService - Downloading "https://github.com/anonymous-ME/OTPView/archive/master.zip", attempt 3
+2019-03-27 14:56:33,420 INFO  DownloadService - Downloaded https://github.com/anonymous-ME/OTPView/archive/master.zip, attempt 3
+2019-03-27 14:56:33,420 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673389687-0/master.zip": 408 KB
+2019-03-27 14:56:33,421 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-27 14:56:33,444 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673389687-0/master.zip: true
+2019-03-27 14:56:33,445 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673389687-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673389687-0/src'.
+2019-03-27 14:56:33,486 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-03-27 14:56:33,491 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673389687-0/src]
+2019-03-27 14:56:33,547 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673389687-0/src/.git/
+
+2019-03-27 14:56:33,567 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673389687-0/src/OTPView-master/gradlew
+2019-03-27 14:56:33,582 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673389687-0/src/OTPView-master/OTPView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673389687-0/src/OTPView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673389687-0/src/OTPView-master/build.gradle
+2019-03-27 14:56:33,588 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673389687-0/src/OTPView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673389687-0/src/OTPView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673389687-0/src/OTPView-master/OTPView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673389687-0/src/OTPView-master/settings.gradle
+2019-03-27 14:56:33,591 INFO  ProjectBuildService - Remote scripts: none
+2019-03-27 14:56:33,591 INFO  ProjectFixService - Fixing project...
+2019-03-27 14:56:33,647 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2019-03-27 14:56:33,647 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
+2019-03-27 14:56:33,668 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 21.1.0 28.0.0 18.1.0 19.1.0 18.1.1
+2019-03-27 14:56:33,671 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 28.0.0-rc1 28.0.0-rc2
+2019-03-27 14:56:33,691 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 11 27 18 20 21 26 19 10 17 28 6 8 9 7
+2019-03-27 14:56:33,692 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28
+2019-03-27 14:56:33,693 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673389687-0/src/OTPView-master/OTPView/local.properties
+2019-03-27 14:56:33,699 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673389687-0/src/OTPView-master/OTPView/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-27 14:56:33,703 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673389687-0/src/OTPView-master/OTPView/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-27 14:56:33,705 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673389687-0/src/OTPView-master/app/local.properties
+2019-03-27 14:56:33,706 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673389687-0/src/OTPView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-27 14:56:33,707 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673389687-0/src/OTPView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-27 14:56:33,708 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673389687-0/src/OTPView-master/local.properties
+2019-03-27 14:56:33,713 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-03-27 14:56:33,714 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-03-27 14:56:33,715 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673389687-0/src/OTPView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-27 14:56:33,716 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673389687-0/src/OTPView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-27 14:56:33,716 INFO  ProjectFixService - Project was maybe fixed
+2019-03-27 14:56:33,718 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-27 14:56:33,718 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673389687-0/src/OTPView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673389687-0/src/OTPView-master/OTPView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-27 14:56:47,031 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-03-27 14:56:47,031 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-27 14:56:47,032 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673389687-0/src/OTPView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673389687-0/src/OTPView-master/OTPView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-27 14:57:08,103 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :OTPView:preBuild UP-TO-DATE
+> Task :OTPView:preDebugBuild UP-TO-DATE
+> Task :OTPView:checkDebugManifest
+> Task :OTPView:generateDebugBuildConfig
+> Task :OTPView:compileDebugAidl NO-SOURCE
+> Task :OTPView:compileDebugRenderscript NO-SOURCE
+> Task :OTPView:generateDebugResValues
+> Task :OTPView:generateDebugResources
+> Task :OTPView:packageDebugResources
+> Task :OTPView:processDebugManifest
+> Task :OTPView:generateDebugRFile
+
+> Task :OTPView:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673389687-0/src/OTPView-master/OTPView/src/main/java/affan/ahmad/otp/OTPView.kt: (73, 53): 'getColor(Int): Int' is deprecated. Deprecated in Java
+
+> Task :OTPView:prepareLintJar
+> Task :OTPView:generateDebugSources
+> Task :OTPView:javaPreCompileDebug
+> Task :OTPView:compileDebugJavaWithJavac
+> Task :OTPView:extractDebugAnnotations
+> Task :OTPView:mergeDebugConsumerProguardFiles
+> Task :OTPView:mergeDebugShaders
+> Task :OTPView:compileDebugShaders
+> Task :OTPView:generateDebugAssets
+> Task :OTPView:packageDebugAssets
+> Task :OTPView:packageDebugRenderscript NO-SOURCE
+> Task :OTPView:processDebugJavaRes NO-SOURCE
+> Task :OTPView:transformResourcesWithMergeJavaResForDebug
+> Task :OTPView:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :OTPView:mergeDebugJniLibFolders
+> Task :OTPView:transformNativeLibsWithMergeJniLibsForDebug
+> Task :OTPView:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :OTPView:transformNativeLibsWithSyncJniLibsForDebug
+> Task :OTPView:bundleDebugAar
+> Task :OTPView:compileDebugSources
+> Task :OTPView:assembleDebug
+> Task :OTPView:preReleaseBuild UP-TO-DATE
+> Task :OTPView:compileReleaseAidl NO-SOURCE
+> Task :OTPView:compileReleaseRenderscript NO-SOURCE
+> Task :OTPView:checkReleaseManifest
+> Task :OTPView:generateReleaseBuildConfig
+> Task :OTPView:generateReleaseResValues
+> Task :OTPView:generateReleaseResources
+> Task :OTPView:packageReleaseResources
+> Task :OTPView:processReleaseManifest
+> Task :OTPView:generateReleaseRFile
+
+> Task :OTPView:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673389687-0/src/OTPView-master/OTPView/src/main/java/affan/ahmad/otp/OTPView.kt: (73, 53): 'getColor(Int): Int' is deprecated. Deprecated in Java
+
+> Task :OTPView:generateReleaseSources
+> Task :OTPView:javaPreCompileRelease
+> Task :OTPView:compileReleaseJavaWithJavac
+> Task :OTPView:extractReleaseAnnotations
+> Task :OTPView:mergeReleaseConsumerProguardFiles
+> Task :OTPView:mergeReleaseShaders
+> Task :OTPView:compileReleaseShaders
+> Task :OTPView:generateReleaseAssets
+> Task :OTPView:packageReleaseAssets
+> Task :OTPView:packageReleaseRenderscript NO-SOURCE
+> Task :OTPView:processReleaseJavaRes NO-SOURCE
+> Task :OTPView:transformResourcesWithMergeJavaResForRelease
+> Task :OTPView:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :OTPView:mergeReleaseJniLibFolders
+> Task :OTPView:transformNativeLibsWithMergeJniLibsForRelease
+> Task :OTPView:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :OTPView:transformNativeLibsWithSyncJniLibsForRelease
+> Task :OTPView:bundleReleaseAar
+> Task :OTPView:compileReleaseSources
+> Task :OTPView:mergeReleaseResources
+> Task :OTPView:verifyReleaseResources
+> Task :OTPView:assembleRelease
+> Task :OTPView:assemble
+> Task :OTPView:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 20s
+45 actionable tasks: 45 executed
+
+2019-03-27 14:57:08,173 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-27 14:57:08,174 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673389687-0/src/OTPView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673389687-0/src/OTPView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-27 14:57:15,593 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-03-27 14:57:15,593 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-27 14:57:15,594 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673389687-0/src/OTPView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673389687-0/src/OTPView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-27 14:57:50,955 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :OTPView:preBuild UP-TO-DATE
+> Task :OTPView:preDebugBuild UP-TO-DATE
+> Task :OTPView:checkDebugManifest UP-TO-DATE
+> Task :OTPView:processDebugManifest UP-TO-DATE
+> Task :app:preDebugBuild
+> Task :OTPView:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :OTPView:packageDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :OTPView:compileDebugRenderscript NO-SOURCE
+> Task :OTPView:generateDebugResValues UP-TO-DATE
+> Task :OTPView:generateDebugResources UP-TO-DATE
+> Task :OTPView:packageDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :OTPView:generateDebugRFile UP-TO-DATE
+> Task :app:processDebugResources
+> Task :OTPView:generateDebugBuildConfig UP-TO-DATE
+> Task :OTPView:compileDebugKotlin UP-TO-DATE
+> Task :OTPView:prepareLintJar UP-TO-DATE
+> Task :OTPView:generateDebugSources UP-TO-DATE
+> Task :OTPView:javaPreCompileDebug UP-TO-DATE
+> Task :OTPView:compileDebugJavaWithJavac UP-TO-DATE
+> Task :OTPView:bundleLibCompileDebug
+> Task :app:compileDebugKotlin
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :OTPView:mergeDebugShaders UP-TO-DATE
+> Task :OTPView:compileDebugShaders UP-TO-DATE
+> Task :OTPView:generateDebugAssets UP-TO-DATE
+> Task :OTPView:packageDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets
+> Task :OTPView:processDebugJavaRes NO-SOURCE
+> Task :OTPView:bundleLibResDebug
+> Task :OTPView:bundleLibRuntimeDebug
+> Task :OTPView:createFullJarDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:validateSigningDebug
+> Task :app:mergeExtDexDebug
+> Task :app:mergeDexDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :OTPView:mergeDebugJniLibFolders UP-TO-DATE
+> Task :OTPView:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :OTPView:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :OTPView:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :OTPView:preReleaseBuild UP-TO-DATE
+> Task :OTPView:checkReleaseManifest UP-TO-DATE
+> Task :OTPView:processReleaseManifest UP-TO-DATE
+> Task :app:preReleaseBuild
+> Task :OTPView:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :OTPView:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :OTPView:compileReleaseRenderscript NO-SOURCE
+> Task :OTPView:generateReleaseResValues UP-TO-DATE
+> Task :OTPView:generateReleaseResources UP-TO-DATE
+> Task :OTPView:packageReleaseResources UP-TO-DATE
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :OTPView:generateReleaseRFile UP-TO-DATE
+> Task :app:processReleaseResources
+> Task :OTPView:generateReleaseBuildConfig UP-TO-DATE
+> Task :OTPView:compileReleaseKotlin UP-TO-DATE
+> Task :OTPView:generateReleaseSources UP-TO-DATE
+> Task :OTPView:javaPreCompileRelease UP-TO-DATE
+> Task :OTPView:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :OTPView:bundleLibCompileRelease
+> Task :app:compileReleaseKotlin
+> Task :app:generateReleaseSources
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :OTPView:prepareLintJarForPublish
+> Task :app:lintVitalRelease
+> Task :OTPView:processReleaseJavaRes NO-SOURCE
+> Task :OTPView:bundleLibResRelease
+> Task :OTPView:bundleLibRuntimeRelease
+> Task :OTPView:createFullJarRelease
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :OTPView:mergeReleaseShaders UP-TO-DATE
+> Task :OTPView:compileReleaseShaders UP-TO-DATE
+> Task :OTPView:generateReleaseAssets UP-TO-DATE
+> Task :OTPView:packageReleaseAssets UP-TO-DATE
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :OTPView:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :OTPView:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :OTPView:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :OTPView:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 34s
+95 actionable tasks: 64 executed, 31 up-to-date
+
+2019-03-27 14:57:51,139 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553673389687-0/src/OTPView-master/app/build/outputs/apk/debug/app-debug.apk
