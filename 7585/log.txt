@@ -1,39 +1,33 @@
-2019-03-23 22:25:51,713 INFO  DownloadService - Downloading "https://github.com/tosinonikute/Carteasy/archive/master.zip", attempt 3
-2019-03-23 22:25:54,266 INFO  DownloadService - Downloaded https://github.com/tosinonikute/Carteasy/archive/master.zip, attempt 3
-2019-03-23 22:25:54,266 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/master.zip": 717 KB
-2019-03-23 22:25:54,267 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-23 22:25:54,278 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/master.zip: true
-2019-03-23 22:25:54,279 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src'.
-2019-03-23 22:25:54,336 INFO  FullProcessService - Size of directory with sources: 809 KB
-2019-03-23 22:25:54,339 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src]
-2019-03-23 22:25:54,377 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/.git/
+2019-04-06 14:47:53,222 INFO  DownloadService - Downloading "https://github.com/tosinonikute/Carteasy/archive/master.zip", attempt 3
+2019-04-06 14:47:56,098 INFO  DownloadService - Downloaded https://github.com/tosinonikute/Carteasy/archive/master.zip, attempt 3
+2019-04-06 14:47:56,098 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/master.zip": 718 KB
+2019-04-06 14:47:56,098 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-06 14:47:56,104 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/master.zip: true
+2019-04-06 14:47:56,105 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src'.
+2019-04-06 14:47:56,147 INFO  FullProcessService - Size of directory with sources: 810 KB
+2019-04-06 14:47:56,148 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src]
+2019-04-06 14:47:56,176 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/.git/
 
-2019-03-23 22:25:54,400 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/Carteasy-master/gradlew
-2019-03-23 22:25:54,418 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/Carteasy-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/Carteasy-master/carteasy/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/Carteasy-master/build.gradle
-2019-03-23 22:25:54,427 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/Carteasy-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/Carteasy-master/carteasy/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/Carteasy-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/Carteasy-master/settings.gradle
-2019-03-23 22:25:54,432 INFO  ProjectBuildService - Remote scripts: none
-2019-03-23 22:25:54,432 INFO  ProjectFixService - Fixing project...
-2019-03-23 22:25:54,495 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
-2019-03-23 22:25:54,496 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
-2019-03-23 22:25:54,508 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 21.1.0 28.0.0 18.1.0 19.1.0 18.1.1
-2019-03-23 22:25:54,511 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 28.0.0-rc1 28.0.0-rc2
-2019-03-23 22:25:54,514 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 11 27 18 20 21 26 19 10 17 28 6 8 9 7
-2019-03-23 22:25:54,515 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28
-2019-03-23 22:25:54,516 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/Carteasy-master/app/local.properties
-2019-03-23 22:25:54,521 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/Carteasy-master/app/build.gradle": [buildToolsVersion=28.0.0,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-23 22:25:54,524 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/Carteasy-master/carteasy/local.properties
-2019-03-23 22:25:54,525 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/Carteasy-master/carteasy/build.gradle": [buildToolsVersion=28.0.0,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-23 22:25:54,526 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/Carteasy-master/local.properties
-2019-03-23 22:25:54,531 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-03-23 22:25:54,532 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-03-23 22:25:54,534 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/Carteasy-master/build.gradle": [buildToolsVersion=28.0.0,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-23 22:25:54,534 INFO  ProjectFixService - Project was maybe fixed
-2019-03-23 22:25:54,536 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-23 22:25:54,536 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/Carteasy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/Carteasy-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-23 22:26:09,299 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-03-23 22:26:09,299 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-23 22:26:09,299 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/Carteasy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/Carteasy-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-23 22:26:15,719 ERROR SysUtils - Could not process external command
+2019-04-06 14:47:56,183 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/Carteasy-master/gradlew
+2019-04-06 14:47:56,189 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/Carteasy-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/Carteasy-master/carteasy/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/Carteasy-master/build.gradle
+2019-04-06 14:47:56,195 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/Carteasy-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/Carteasy-master/carteasy/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/Carteasy-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/Carteasy-master/settings.gradle
+2019-04-06 14:47:56,196 INFO  ProjectBuildService - Remote scripts: none
+2019-04-06 14:47:56,196 INFO  ProjectFixService - Fixing project...
+2019-04-06 14:47:56,211 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/Carteasy-master/app/local.properties
+2019-04-06 14:47:56,212 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/Carteasy-master/app/build.gradle": [buildToolsVersion=28.0.0,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 14:47:56,212 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/Carteasy-master/carteasy/local.properties
+2019-04-06 14:47:56,213 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/Carteasy-master/carteasy/build.gradle": [buildToolsVersion=28.0.0,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 14:47:56,214 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/Carteasy-master/local.properties
+2019-04-06 14:47:56,214 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-04-06 14:47:56,215 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-04-06 14:47:56,216 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/Carteasy-master/build.gradle": [buildToolsVersion=28.0.0,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 14:47:56,216 INFO  ProjectFixService - Project was maybe fixed
+2019-04-06 14:47:56,216 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 14:47:56,216 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/Carteasy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/Carteasy-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 14:48:03,189 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-04-06 14:48:03,189 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-04-06 14:48:03,190 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/Carteasy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/Carteasy-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-04-06 14:48:08,512 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -61,16 +55,16 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-23 22:26:15,720 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-06 14:48:08,513 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/Carteasy-master/carteasy/build.gradle' line: 34
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/Carteasy-master/carteasy/build.gradle' line: 34
 
 * What went wrong:
 A problem occurred evaluating project ':carteasy'.
-> Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/Carteasy-master/carteasy/install.gradle' as it does not exist.
+> Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/Carteasy-master/carteasy/install.gradle' as it does not exist.
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -196,7 +190,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ca
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
-Caused by: org.gradle.api.resources.MissingResourceException: Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/Carteasy-master/carteasy/install.gradle' as it does not exist.
+Caused by: org.gradle.api.resources.MissingResourceException: Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/Carteasy-master/carteasy/install.gradle' as it does not exist.
 	at org.gradle.internal.resource.UriTextResource.getAsReader(UriTextResource.java:114)
 	at org.gradle.internal.resource.UriTextResource.getText(UriTextResource.java:94)
 	at org.gradle.internal.resource.CachingTextResource.maybeFetch(CachingTextResource.java:89)
@@ -219,22 +213,22 @@ Caused by: org.gradle.api.resources.MissingResourceException: Could not read scr
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_1j7exlroxg4kweaq3j88fjh7z.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/Carteasy-master/carteasy/build.gradle:34)
+	at build_3wgofwe5h4krnzh12qeqomc1g.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/Carteasy-master/carteasy/build.gradle:34)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 118 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
+BUILD FAILED in 5s
 
-2019-03-23 22:26:15,738 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-23 22:26:15,738 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/Carteasy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/Carteasy-master/carteasy/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-23 22:26:20,888 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-23 22:26:20,888 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-23 22:26:20,888 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-23 22:26:20,889 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/Carteasy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/Carteasy-master/carteasy/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-23 22:26:25,789 ERROR SysUtils - Could not process external command
+2019-04-06 14:48:08,521 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 14:48:08,521 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/Carteasy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/Carteasy-master/carteasy/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 14:48:13,152 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-06 14:48:13,152 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-06 14:48:13,152 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-06 14:48:13,153 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/Carteasy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/Carteasy-master/carteasy/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-06 14:48:17,758 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -262,16 +256,16 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-23 22:26:25,789 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-06 14:48:17,758 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/Carteasy-master/carteasy/build.gradle' line: 34
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/Carteasy-master/carteasy/build.gradle' line: 34
 
 * What went wrong:
 A problem occurred evaluating project ':carteasy'.
-> Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/Carteasy-master/carteasy/install.gradle' as it does not exist.
+> Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/Carteasy-master/carteasy/install.gradle' as it does not exist.
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -376,7 +370,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ca
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
-Caused by: org.gradle.api.resources.MissingResourceException: Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/Carteasy-master/carteasy/install.gradle' as it does not exist.
+Caused by: org.gradle.api.resources.MissingResourceException: Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/Carteasy-master/carteasy/install.gradle' as it does not exist.
 	at org.gradle.internal.resource.UriTextResource.getAsReader(UriTextResource.java:114)
 	at org.gradle.internal.resource.UriTextResource.getText(UriTextResource.java:94)
 	at org.gradle.internal.resource.CachingTextResource.maybeFetch(CachingTextResource.java:89)
@@ -399,7 +393,7 @@ Caused by: org.gradle.api.resources.MissingResourceException: Could not read scr
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_1j7exlroxg4kweaq3j88fjh7z.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/Carteasy-master/carteasy/build.gradle:34)
+	at build_3wgofwe5h4krnzh12qeqomc1g.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/Carteasy-master/carteasy/build.gradle:34)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 97 more
 
@@ -408,13 +402,13 @@ Caused by: org.gradle.api.resources.MissingResourceException: Could not read scr
 
 BUILD FAILED in 4s
 
-2019-03-23 22:26:25,796 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-23 22:26:25,796 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/Carteasy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/Carteasy-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-23 22:26:31,268 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-23 22:26:31,269 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-23 22:26:31,269 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-23 22:26:31,269 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/Carteasy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/Carteasy-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-23 22:26:37,786 ERROR SysUtils - Could not process external command
+2019-04-06 14:48:17,765 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 14:48:17,766 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/Carteasy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/Carteasy-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 14:48:22,982 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-06 14:48:22,983 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-06 14:48:22,983 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-06 14:48:22,983 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/Carteasy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/Carteasy-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-06 14:48:28,159 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -442,16 +436,16 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-23 22:26:37,786 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-06 14:48:28,159 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/Carteasy-master/carteasy/build.gradle' line: 34
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/Carteasy-master/carteasy/build.gradle' line: 34
 
 * What went wrong:
 A problem occurred evaluating project ':carteasy'.
-> Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/Carteasy-master/carteasy/install.gradle' as it does not exist.
+> Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/Carteasy-master/carteasy/install.gradle' as it does not exist.
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -556,7 +550,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ca
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
-Caused by: org.gradle.api.resources.MissingResourceException: Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/Carteasy-master/carteasy/install.gradle' as it does not exist.
+Caused by: org.gradle.api.resources.MissingResourceException: Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/Carteasy-master/carteasy/install.gradle' as it does not exist.
 	at org.gradle.internal.resource.UriTextResource.getAsReader(UriTextResource.java:114)
 	at org.gradle.internal.resource.UriTextResource.getText(UriTextResource.java:94)
 	at org.gradle.internal.resource.CachingTextResource.maybeFetch(CachingTextResource.java:89)
@@ -579,14 +573,14 @@ Caused by: org.gradle.api.resources.MissingResourceException: Could not read scr
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_1j7exlroxg4kweaq3j88fjh7z.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553354751634-0/src/Carteasy-master/carteasy/build.gradle:34)
+	at build_3wgofwe5h4krnzh12qeqomc1g.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554536873219-0/src/Carteasy-master/carteasy/build.gradle:34)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 97 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
+BUILD FAILED in 4s
 
-2019-03-23 22:26:37,795 ERROR FullProcessService - Project build has not produced APK file
-2019-03-23 22:26:37,803 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-06 14:48:28,167 ERROR FullProcessService - Project build has not produced APK file
+2019-04-06 14:48:28,173 ERROR FullProcessService - Could not find generated or existed APK file
