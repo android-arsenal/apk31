@@ -1,0 +1,175 @@
+2019-04-07 22:31:55,333 INFO  DownloadService - Downloading "https://github.com/Gaineyj0349/Linker/archive/master.zip", attempt 3
+2019-04-07 22:31:57,888 INFO  DownloadService - Downloaded https://github.com/Gaineyj0349/Linker/archive/master.zip, attempt 3
+2019-04-07 22:31:57,889 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651115256-0/master.zip": 601 KB
+2019-04-07 22:31:57,889 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-07 22:31:57,901 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651115256-0/master.zip: true
+2019-04-07 22:31:57,902 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651115256-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651115256-0/src'.
+2019-04-07 22:31:57,940 INFO  FullProcessService - Size of directory with sources: 657 KB
+2019-04-07 22:31:57,944 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651115256-0/src]
+2019-04-07 22:31:57,974 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651115256-0/src/.git/
+
+2019-04-07 22:31:57,991 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651115256-0/src/Linker-master/gradlew
+2019-04-07 22:31:58,004 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651115256-0/src/Linker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651115256-0/src/Linker-master/linker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651115256-0/src/Linker-master/build.gradle
+2019-04-07 22:31:58,012 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651115256-0/src/Linker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651115256-0/src/Linker-master/linker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651115256-0/src/Linker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651115256-0/src/Linker-master/settings.gradle
+2019-04-07 22:31:58,014 INFO  ProjectBuildService - Remote scripts: none
+2019-04-07 22:31:58,015 INFO  ProjectFixService - Fixing project...
+2019-04-07 22:31:58,056 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2019-04-07 22:31:58,056 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
+2019-04-07 22:31:58,060 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 21.1.0 28.0.0 18.1.0 19.1.0 18.1.1
+2019-04-07 22:31:58,063 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 28.0.0-rc1 28.0.0-rc2
+2019-04-07 22:31:58,066 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 11 27 18 20 21 26 19 10 17 28 6 8 9 7
+2019-04-07 22:31:58,068 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28
+2019-04-07 22:31:58,069 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651115256-0/src/Linker-master/app/local.properties
+2019-04-07 22:31:58,076 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651115256-0/src/Linker-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-04-07 22:31:58,078 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651115256-0/src/Linker-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-04-07 22:31:58,080 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651115256-0/src/Linker-master/linker/local.properties
+2019-04-07 22:31:58,082 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651115256-0/src/Linker-master/linker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-04-07 22:31:58,082 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651115256-0/src/Linker-master/linker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-04-07 22:31:58,083 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651115256-0/src/Linker-master/local.properties
+2019-04-07 22:31:58,088 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-04-07 22:31:58,089 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-04-07 22:31:58,091 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651115256-0/src/Linker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-04-07 22:31:58,092 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651115256-0/src/Linker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-04-07 22:31:58,093 INFO  ProjectFixService - Project was maybe fixed
+2019-04-07 22:31:58,095 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-07 22:31:58,096 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651115256-0/src/Linker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651115256-0/src/Linker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-07 22:32:05,974 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-04-07 22:32:05,975 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-04-07 22:32:05,975 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651115256-0/src/Linker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651115256-0/src/Linker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-04-07 22:32:39,893 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :linker:preBuild UP-TO-DATE
+> Task :linker:preDebugBuild UP-TO-DATE
+> Task :linker:checkDebugManifest
+> Task :linker:processDebugManifest
+> Task :app:preDebugBuild
+> Task :linker:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :linker:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :linker:compileDebugRenderscript
+> Task :linker:generateDebugBuildConfig
+> Task :linker:generateDebugResValues
+> Task :linker:generateDebugResources
+> Task :linker:packageDebugResources
+> Task :linker:generateDebugRFile
+> Task :linker:prepareLintJar
+> Task :linker:generateDebugSources
+> Task :linker:javaPreCompileDebug
+> Task :linker:compileDebugJavaWithJavac
+> Task :linker:processDebugJavaRes NO-SOURCE
+> Task :linker:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :app:javaPreCompileDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:processDebugResources
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugNdk NO-SOURCE
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :linker:mergeDebugShaders
+> Task :linker:compileDebugShaders
+> Task :linker:generateDebugAssets
+> Task :linker:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :linker:createFullJarDebug
+> Transform full.jar (project :linker) with IdentityTransform
+> Task :app:mergeExtDexDebug
+> Transform full.jar (project :linker) with DexingTransform
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:mergeDexDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :linker:compileDebugNdk NO-SOURCE
+> Task :linker:mergeDebugJniLibFolders
+> Task :linker:transformNativeLibsWithMergeJniLibsForDebug
+> Task :linker:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :linker:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :linker:preReleaseBuild UP-TO-DATE
+> Task :linker:checkReleaseManifest
+> Task :linker:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :linker:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :linker:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:generateReleaseSources
+> Task :linker:compileReleaseRenderscript
+> Task :linker:generateReleaseBuildConfig
+> Task :linker:generateReleaseResValues
+> Task :linker:generateReleaseResources
+> Task :linker:packageReleaseResources
+> Task :linker:generateReleaseRFile
+> Task :linker:generateReleaseSources
+> Task :linker:javaPreCompileRelease
+> Task :linker:compileReleaseJavaWithJavac
+> Task :linker:processReleaseJavaRes NO-SOURCE
+> Task :linker:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :app:javaPreCompileRelease
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:processReleaseResources
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseNdk NO-SOURCE
+> Task :app:compileReleaseSources
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/3ca97c4acf32aae5355c48dce55a5451/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :linker:createFullJarRelease
+> Transform full.jar (project :linker) with IdentityTransform
+> Task :app:mergeExtDexRelease
+> Transform full.jar (project :linker) with DexingTransform
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeDexRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :linker:mergeReleaseShaders
+> Task :linker:compileReleaseShaders
+> Task :linker:generateReleaseAssets
+> Task :linker:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :linker:compileReleaseNdk NO-SOURCE
+> Task :linker:mergeReleaseJniLibFolders
+> Task :linker:transformNativeLibsWithMergeJniLibsForRelease
+> Task :linker:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :linker:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 33s
+88 actionable tasks: 88 executed
+
+2019-04-07 22:32:40,013 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554651115256-0/src/Linker-master/app/build/outputs/apk/debug/app-debug.apk
