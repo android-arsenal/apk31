@@ -1,36 +1,36 @@
-2019-03-31 21:28:25,152 INFO  DownloadService - Downloading "https://github.com/jrizani/JRSpinner/archive/master.zip", attempt 3
-2019-03-31 21:28:27,847 INFO  DownloadService - Downloaded https://github.com/jrizani/JRSpinner/archive/master.zip, attempt 3
-2019-03-31 21:28:27,847 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042505149-0/master.zip": 523 KB
-2019-03-31 21:28:27,847 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-31 21:28:27,848 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042505149-0/master.zip: true
-2019-03-31 21:28:27,848 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042505149-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042505149-0/src'.
-2019-03-31 21:28:27,880 INFO  FullProcessService - Size of directory with sources: 624 KB
-2019-03-31 21:28:27,880 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042505149-0/src]
-2019-03-31 21:28:27,903 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042505149-0/src/.git/
+2019-04-13 20:03:35,151 INFO  DownloadService - Downloading "https://github.com/jrizani/JRSpinner/archive/master.zip", attempt 3
+2019-04-13 20:03:37,987 INFO  DownloadService - Downloaded https://github.com/jrizani/JRSpinner/archive/master.zip, attempt 3
+2019-04-13 20:03:37,987 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555160615148-0/master.zip": 523 KB
+2019-04-13 20:03:37,988 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-13 20:03:37,993 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555160615148-0/master.zip: true
+2019-04-13 20:03:37,993 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555160615148-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555160615148-0/src'.
+2019-04-13 20:03:38,022 INFO  FullProcessService - Size of directory with sources: 624 KB
+2019-04-13 20:03:38,023 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555160615148-0/src]
+2019-04-13 20:03:38,046 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555160615148-0/src/.git/
 
-2019-03-31 21:28:27,907 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042505149-0/src/JRSpinner-master/gradlew
-2019-03-31 21:28:27,911 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042505149-0/src/JRSpinner-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042505149-0/src/JRSpinner-master/jrspinner/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042505149-0/src/JRSpinner-master/build.gradle
-2019-03-31 21:28:27,915 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042505149-0/src/JRSpinner-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042505149-0/src/JRSpinner-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042505149-0/src/JRSpinner-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042505149-0/src/JRSpinner-master/jrspinner/build.gradle
-2019-03-31 21:28:27,915 INFO  ProjectBuildService - Remote scripts: none
-2019-03-31 21:28:27,915 INFO  ProjectFixService - Fixing project...
-2019-03-31 21:28:27,927 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042505149-0/src/JRSpinner-master/example/local.properties
-2019-03-31 21:28:27,929 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042505149-0/src/JRSpinner-master/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-03-31 21:28:27,929 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042505149-0/src/JRSpinner-master/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-03-31 21:28:27,931 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042505149-0/src/JRSpinner-master/jrspinner/local.properties
-2019-03-31 21:28:27,933 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042505149-0/src/JRSpinner-master/jrspinner/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-03-31 21:28:27,933 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042505149-0/src/JRSpinner-master/jrspinner/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-03-31 21:28:27,935 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042505149-0/src/JRSpinner-master/local.properties
-2019-03-31 21:28:27,935 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-03-31 21:28:27,936 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-03-31 21:28:27,938 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042505149-0/src/JRSpinner-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-03-31 21:28:27,938 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042505149-0/src/JRSpinner-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-03-31 21:28:27,938 INFO  ProjectFixService - Project was maybe fixed
-2019-03-31 21:28:27,938 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-31 21:28:27,939 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042505149-0/src/JRSpinner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042505149-0/src/JRSpinner-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-31 21:28:56,049 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-03-31 21:28:56,049 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-31 21:28:56,050 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042505149-0/src/JRSpinner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042505149-0/src/JRSpinner-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-31 21:29:28,198 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-13 20:03:38,050 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555160615148-0/src/JRSpinner-master/gradlew
+2019-04-13 20:03:38,055 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555160615148-0/src/JRSpinner-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555160615148-0/src/JRSpinner-master/jrspinner/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555160615148-0/src/JRSpinner-master/build.gradle
+2019-04-13 20:03:38,059 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555160615148-0/src/JRSpinner-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555160615148-0/src/JRSpinner-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555160615148-0/src/JRSpinner-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555160615148-0/src/JRSpinner-master/jrspinner/build.gradle
+2019-04-13 20:03:38,060 INFO  ProjectBuildService - Remote scripts: none
+2019-04-13 20:03:38,060 INFO  ProjectFixService - Fixing project...
+2019-04-13 20:03:38,070 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555160615148-0/src/JRSpinner-master/example/local.properties
+2019-04-13 20:03:38,072 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555160615148-0/src/JRSpinner-master/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-04-13 20:03:38,072 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555160615148-0/src/JRSpinner-master/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-04-13 20:03:38,073 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555160615148-0/src/JRSpinner-master/jrspinner/local.properties
+2019-04-13 20:03:38,074 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555160615148-0/src/JRSpinner-master/jrspinner/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-04-13 20:03:38,075 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555160615148-0/src/JRSpinner-master/jrspinner/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-04-13 20:03:38,077 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555160615148-0/src/JRSpinner-master/local.properties
+2019-04-13 20:03:38,077 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-04-13 20:03:38,078 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-04-13 20:03:38,079 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555160615148-0/src/JRSpinner-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-04-13 20:03:38,079 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555160615148-0/src/JRSpinner-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-04-13 20:03:38,080 INFO  ProjectFixService - Project was maybe fixed
+2019-04-13 20:03:38,080 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-13 20:03:38,080 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555160615148-0/src/JRSpinner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555160615148-0/src/JRSpinner-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-13 20:03:44,899 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-04-13 20:03:44,899 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-04-13 20:03:44,900 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555160615148-0/src/JRSpinner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555160615148-0/src/JRSpinner-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-04-13 20:04:23,503 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :example:preBuild UP-TO-DATE
 > Task :jrspinner:preBuild UP-TO-DATE
 > Task :jrspinner:preDebugBuild UP-TO-DATE
@@ -56,7 +56,7 @@
 > Task :jrspinner:javaPreCompileDebug
 
 > Task :jrspinner:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042505149-0/src/JRSpinner-master/jrspinner/src/main/java/jrizani/jrspinner/JRSpinner.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555160615148-0/src/JRSpinner-master/jrspinner/src/main/java/jrizani/jrspinner/JRSpinner.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :jrspinner:processDebugJavaRes NO-SOURCE
@@ -121,7 +121,7 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :jrspinner:javaPreCompileRelease
 
 > Task :jrspinner:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042505149-0/src/JRSpinner-master/jrspinner/src/main/java/jrizani/jrspinner/JRSpinner.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555160615148-0/src/JRSpinner-master/jrspinner/src/main/java/jrizani/jrspinner/JRSpinner.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :jrspinner:processReleaseJavaRes NO-SOURCE
@@ -137,7 +137,10 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :example:compileReleaseJavaWithJavac
 > Task :example:compileReleaseNdk NO-SOURCE
 > Task :example:compileReleaseSources
+
 > Task :example:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/00d10bf04f34403e0087b5477a4a910e/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
 > Task :jrspinner:createFullJarRelease
 > Transform full.jar (project :jrspinner) with IdentityTransform
 > Task :example:mergeExtDexRelease
@@ -168,7 +171,7 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :example:assemble
 > Task :example:build
 
-BUILD SUCCESSFUL in 31s
+BUILD SUCCESSFUL in 37s
 88 actionable tasks: 88 executed
 
-2019-03-31 21:29:28,300 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042505149-0/src/JRSpinner-master/example/build/outputs/apk/release/example-release-unsigned.apk
+2019-04-13 20:04:23,604 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555160615148-0/src/JRSpinner-master/example/build/outputs/apk/release/example-release-unsigned.apk
