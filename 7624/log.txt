@@ -1,0 +1,190 @@
+2019-04-18 12:02:38,382 INFO  DownloadService - Downloading "https://github.com/mrabelwahed/photon/archive/master.zip", attempt 3
+2019-04-18 12:02:42,112 INFO  DownloadService - Downloaded https://github.com/mrabelwahed/photon/archive/master.zip, attempt 3
+2019-04-18 12:02:42,113 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555563758372-0/master.zip": 1 MB
+2019-04-18 12:02:42,113 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-18 12:02:42,118 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555563758372-0/master.zip: true
+2019-04-18 12:02:42,119 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555563758372-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555563758372-0/src'.
+2019-04-18 12:02:42,170 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-04-18 12:02:42,170 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555563758372-0/src]
+2019-04-18 12:02:42,198 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555563758372-0/src/.git/
+
+2019-04-18 12:02:42,202 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555563758372-0/src/photon-master/gradlew
+2019-04-18 12:02:42,207 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555563758372-0/src/photon-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555563758372-0/src/photon-master/photon/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555563758372-0/src/photon-master/build.gradle
+2019-04-18 12:02:42,211 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555563758372-0/src/photon-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555563758372-0/src/photon-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555563758372-0/src/photon-master/photon/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555563758372-0/src/photon-master/settings.gradle
+2019-04-18 12:02:42,212 INFO  ProjectBuildService - Remote scripts: none
+2019-04-18 12:02:42,212 INFO  ProjectFixService - Fixing project...
+2019-04-18 12:02:42,223 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555563758372-0/src/photon-master/app/local.properties
+2019-04-18 12:02:42,224 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555563758372-0/src/photon-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-18 12:02:42,224 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555563758372-0/src/photon-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-18 12:02:42,225 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555563758372-0/src/photon-master/photon/local.properties
+2019-04-18 12:02:42,226 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555563758372-0/src/photon-master/photon/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-18 12:02:42,226 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555563758372-0/src/photon-master/photon/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-18 12:02:42,227 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555563758372-0/src/photon-master/local.properties
+2019-04-18 12:02:42,228 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-04-18 12:02:42,228 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-04-18 12:02:42,230 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555563758372-0/src/photon-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-18 12:02:42,230 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555563758372-0/src/photon-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-18 12:02:42,231 INFO  ProjectFixService - Project was maybe fixed
+2019-04-18 12:02:42,231 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 12:02:42,231 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555563758372-0/src/photon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555563758372-0/src/photon-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 12:02:50,136 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-04-18 12:02:50,136 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-04-18 12:02:50,137 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555563758372-0/src/photon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555563758372-0/src/photon-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-04-18 12:03:53,582 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.0.5/rxjava-2.0.5.pom
+Download https://jcenter.bintray.com/com/squareup/okhttp3/logging-interceptor/3.8.0/logging-interceptor-3.8.0.pom
+Download https://jcenter.bintray.com/com/squareup/okhttp3/parent/3.8.0/parent-3.8.0.pom
+Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxandroid/2.0.1/rxandroid-2.0.1.aar
+Download https://jcenter.bintray.com/com/squareup/okhttp3/logging-interceptor/3.8.0/logging-interceptor-3.8.0.jar
+Download https://jcenter.bintray.com/com/squareup/retrofit2/adapter-rxjava2/2.3.0/adapter-rxjava2-2.3.0.jar
+Download https://jcenter.bintray.com/com/squareup/okhttp3/okhttp/3.8.0/okhttp-3.8.0.jar
+:app:preBuild UP-TO-DATE
+:photon:preBuild UP-TO-DATE
+:photon:preDebugBuild UP-TO-DATE
+:photon:checkDebugManifest
+:photon:processDebugManifest
+:app:preDebugBuild
+:photon:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:photon:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:photon:compileDebugRenderscript
+:photon:generateDebugResValues
+:photon:generateDebugResources
+:photon:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:photon:generateDebugRFile
+:app:processDebugResources
+:photon:generateDebugBuildConfig
+:photon:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555563758372-0/src/photon-master/photon/src/main/java/com/imageloadinglib/async/DownloadImageTask.kt: (21, 17): Name shadowed: url
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555563758372-0/src/photon-master/photon/src/main/java/com/imageloadinglib/core/Photon.kt: (27, 21): Condition 'placeholder != null' is always 'true'
+:photon:prepareLintJar
+:photon:generateDebugSources
+:photon:javaPreCompileDebug
+:photon:compileDebugJavaWithJavac
+:photon:processDebugJavaRes NO-SOURCE
+:photon:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:kaptGenerateStubsDebugKotlin
+:app:kaptDebugKotlin
+:app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555563758372-0/src/photon-master/app/src/main/java/com/ramadan/photon/data/FeedMapper.kt: (15, 17): Condition 'feed != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555563758372-0/src/photon-master/app/src/main/java/com/ramadan/photon/ui/MainActivity.kt: (61, 43): Type mismatch: inferred type is List<Feed>? but MutableCollection<out Feed!> was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555563758372-0/src/photon-master/app/src/main/java/com/ramadan/photon/ui/viewmodel/ViewModelFactory.kt: (11, 98): Unchecked cast: ViewModel? to T
+:app:prepareLintJar
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:photon:mergeDebugShaders
+:photon:compileDebugShaders
+:photon:generateDebugAssets
+:photon:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:photon:compileDebugNdk NO-SOURCE
+:photon:mergeDebugJniLibFolders
+:photon:transformNativeLibsWithMergeJniLibsForDebug
+:photon:transformNativeLibsWithStripDebugSymbolForDebug
+:photon:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:photon:preReleaseBuild UP-TO-DATE
+:photon:checkReleaseManifest
+:photon:processReleaseManifest
+:app:preReleaseBuild
+:photon:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:photon:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:photon:compileReleaseRenderscript
+:photon:generateReleaseResValues
+:photon:generateReleaseResources
+:photon:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:photon:generateReleaseRFile
+:app:processReleaseResources
+:photon:generateReleaseBuildConfig
+:photon:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555563758372-0/src/photon-master/photon/src/main/java/com/imageloadinglib/async/DownloadImageTask.kt: (21, 17): Name shadowed: url
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555563758372-0/src/photon-master/photon/src/main/java/com/imageloadinglib/core/Photon.kt: (27, 21): Condition 'placeholder != null' is always 'true'
+:photon:generateReleaseSources
+:photon:javaPreCompileRelease
+:photon:compileReleaseJavaWithJavac
+:photon:processReleaseJavaRes NO-SOURCE
+:photon:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:kaptGenerateStubsReleaseKotlin
+:app:kaptReleaseKotlin
+:app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555563758372-0/src/photon-master/app/src/main/java/com/ramadan/photon/data/FeedMapper.kt: (15, 17): Condition 'feed != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555563758372-0/src/photon-master/app/src/main/java/com/ramadan/photon/ui/MainActivity.kt: (61, 43): Type mismatch: inferred type is List<Feed>? but MutableCollection<out Feed!> was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555563758372-0/src/photon-master/app/src/main/java/com/ramadan/photon/ui/viewmodel/ViewModelFactory.kt: (11, 98): Unchecked cast: ViewModel? to T
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/dbb93b9fe1fd544bd436e958f4625061/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:photon:mergeReleaseShaders
+:photon:compileReleaseShaders
+:photon:generateReleaseAssets
+:photon:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:photon:compileReleaseNdk NO-SOURCE
+:photon:mergeReleaseJniLibFolders
+:photon:transformNativeLibsWithMergeJniLibsForRelease
+:photon:transformNativeLibsWithStripDebugSymbolForRelease
+:photon:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 1m 2s
+98 actionable tasks: 98 executed
+
+2019-04-18 12:03:53,705 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555563758372-0/src/photon-master/app/build/outputs/apk/debug/app-debug.apk

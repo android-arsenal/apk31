@@ -1,55 +1,55 @@
-2019-03-17 14:59:41,703 INFO  DownloadService - Downloading "https://github.com/ItzNotABug/CheckoutVerifier/archive/master.zip", attempt 3
-2019-03-17 14:59:42,208 INFO  DownloadService - Downloaded https://github.com/ItzNotABug/CheckoutVerifier/archive/master.zip, attempt 3
-2019-03-17 14:59:42,209 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809581693-0/master.zip": 68 KB
-2019-03-17 14:59:42,209 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-17 14:59:42,214 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809581693-0/master.zip: true
-2019-03-17 14:59:42,214 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809581693-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809581693-0/src'.
-2019-03-17 14:59:42,224 INFO  FullProcessService - Size of directory with sources: 89 KB
-2019-03-17 14:59:42,224 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809581693-0/src]
-2019-03-17 14:59:42,243 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809581693-0/src/.git/
+2019-04-18 12:09:16,537 INFO  DownloadService - Downloading "https://github.com/ItzNotABug/CheckoutVerifier/archive/master.zip", attempt 3
+2019-04-18 12:09:17,103 INFO  DownloadService - Downloaded https://github.com/ItzNotABug/CheckoutVerifier/archive/master.zip, attempt 3
+2019-04-18 12:09:17,103 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555564156534-0/master.zip": 68 KB
+2019-04-18 12:09:17,103 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-18 12:09:17,109 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555564156534-0/master.zip: true
+2019-04-18 12:09:17,109 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555564156534-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555564156534-0/src'.
+2019-04-18 12:09:17,120 INFO  FullProcessService - Size of directory with sources: 90 KB
+2019-04-18 12:09:17,120 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555564156534-0/src]
+2019-04-18 12:09:17,142 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555564156534-0/src/.git/
 
-2019-03-17 14:59:42,244 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809581693-0/src/CheckoutVerifier-master/gradlew
-2019-03-17 14:59:42,246 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809581693-0/src/CheckoutVerifier-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809581693-0/src/CheckoutVerifier-master/build.gradle
-2019-03-17 14:59:42,248 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809581693-0/src/CheckoutVerifier-master/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809581693-0/src/CheckoutVerifier-master/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809581693-0/src/CheckoutVerifier-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809581693-0/src/CheckoutVerifier-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809581693-0/src/CheckoutVerifier-master/settings.gradle
-2019-03-17 14:59:42,248 INFO  ProjectBuildService - Remote scripts: none
-2019-03-17 14:59:42,248 INFO  ProjectFixService - Fixing project...
-2019-03-17 14:59:42,254 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809581693-0/src/CheckoutVerifier-master/library/local.properties
-2019-03-17 14:59:42,255 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809581693-0/src/CheckoutVerifier-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-17 14:59:42,255 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809581693-0/src/CheckoutVerifier-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-17 14:59:42,256 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809581693-0/src/CheckoutVerifier-master/local.properties
-2019-03-17 14:59:42,257 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-03-17 14:59:42,258 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-03-17 14:59:42,260 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809581693-0/src/CheckoutVerifier-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-17 14:59:42,260 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809581693-0/src/CheckoutVerifier-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-17 14:59:42,261 INFO  ProjectFixService - Project was maybe fixed
-2019-03-17 14:59:42,261 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-17 14:59:42,261 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809581693-0/src/CheckoutVerifier-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809581693-0/src/CheckoutVerifier-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-17 14:59:49,201 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-03-17 14:59:49,202 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-03-17 14:59:49,202 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809581693-0/src/CheckoutVerifier-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809581693-0/src/CheckoutVerifier-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-03-17 15:00:04,049 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 12:09:17,144 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555564156534-0/src/CheckoutVerifier-master/gradlew
+2019-04-18 12:09:17,146 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555564156534-0/src/CheckoutVerifier-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555564156534-0/src/CheckoutVerifier-master/build.gradle
+2019-04-18 12:09:17,147 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555564156534-0/src/CheckoutVerifier-master/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555564156534-0/src/CheckoutVerifier-master/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555564156534-0/src/CheckoutVerifier-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555564156534-0/src/CheckoutVerifier-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555564156534-0/src/CheckoutVerifier-master/settings.gradle
+2019-04-18 12:09:17,148 INFO  ProjectBuildService - Remote scripts: none
+2019-04-18 12:09:17,148 INFO  ProjectFixService - Fixing project...
+2019-04-18 12:09:17,153 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555564156534-0/src/CheckoutVerifier-master/library/local.properties
+2019-04-18 12:09:17,154 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555564156534-0/src/CheckoutVerifier-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-04-18 12:09:17,155 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555564156534-0/src/CheckoutVerifier-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-04-18 12:09:17,155 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555564156534-0/src/CheckoutVerifier-master/local.properties
+2019-04-18 12:09:17,156 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-04-18 12:09:17,156 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-04-18 12:09:17,158 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555564156534-0/src/CheckoutVerifier-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-04-18 12:09:17,158 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555564156534-0/src/CheckoutVerifier-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-04-18 12:09:17,159 INFO  ProjectFixService - Project was maybe fixed
+2019-04-18 12:09:17,159 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 12:09:17,159 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555564156534-0/src/CheckoutVerifier-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555564156534-0/src/CheckoutVerifier-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 12:09:23,720 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-04-18 12:09:23,720 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-04-18 12:09:23,720 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555564156534-0/src/CheckoutVerifier-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555564156534-0/src/CheckoutVerifier-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-04-18 12:09:38,231 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
 > Task :library:compileDebugAidl NO-SOURCE
+> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21) with JetifyTransform
 > Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21) with JetifyTransform
+> Transform annotations.jar (org.jetbrains:annotations:13.0) with JetifyTransform
+> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.21) with JetifyTransform
 > Task :library:compileDebugRenderscript
+> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.21) with IdentityTransform
+> Transform annotations.jar (org.jetbrains:annotations:13.0) with IdentityTransform
+> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21) with IdentityTransform
 > Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21) with IdentityTransform
 > Task :library:checkDebugManifest
-> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21) with JetifyTransform
 > Task :library:generateDebugBuildConfig
-> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21) with IdentityTransform
 > Task :library:generateDebugResValues
 > Task :library:generateDebugResources
-> Transform annotations.jar (org.jetbrains:annotations:13.0) with JetifyTransform
 > Transform aapt2-osx.jar (com.android.tools.build:aapt2:3.3.2-5309881) with Aapt2Extractor
 > Task :library:processDebugManifest
-> Transform annotations.jar (org.jetbrains:annotations:13.0) with IdentityTransform
 > Task :library:packageDebugResources
-> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.21) with JetifyTransform
 > Task :library:generateDebugRFile
-> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.21) with IdentityTransform
-> Task :library:prepareLintJar
 > Task :library:compileDebugKotlin
+> Task :library:prepareLintJar
 > Task :library:generateDebugSources
 > Task :library:javaPreCompileDebug
 > Task :library:compileDebugJavaWithJavac
@@ -111,27 +111,27 @@
 > Task :library:assemble
 > Task :library:build
 
-BUILD SUCCESSFUL in 14s
+BUILD SUCCESSFUL in 13s
 49 actionable tasks: 49 executed
 
-2019-03-17 15:00:04,066 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-17 15:00:04,066 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809581693-0/src/CheckoutVerifier-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809581693-0/src/CheckoutVerifier-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-17 15:00:10,792 INFO  ProjectTaskService - Detected possible tasks: 67
-2019-03-17 15:00:10,793 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-03-17 15:00:10,793 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809581693-0/src/CheckoutVerifier-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809581693-0/src/CheckoutVerifier-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-03-17 15:00:18,006 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-18 12:09:38,248 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-18 12:09:38,248 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555564156534-0/src/CheckoutVerifier-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555564156534-0/src/CheckoutVerifier-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-18 12:09:44,673 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-04-18 12:09:44,673 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-04-18 12:09:44,673 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555564156534-0/src/CheckoutVerifier-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555564156534-0/src/CheckoutVerifier-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-04-18 12:09:51,998 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
 > Task :library:compileDebugAidl NO-SOURCE
-> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21) with JetifyTransform
 > Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21) with JetifyTransform
 > Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.21) with JetifyTransform
 > Transform annotations.jar (org.jetbrains:annotations:13.0) with JetifyTransform
+> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21) with JetifyTransform
 > Task :library:compileDebugRenderscript UP-TO-DATE
-> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21) with IdentityTransform
+> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.21) with IdentityTransform
 > Transform annotations.jar (org.jetbrains:annotations:13.0) with IdentityTransform
 > Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21) with IdentityTransform
-> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.21) with IdentityTransform
+> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21) with IdentityTransform
 > Task :library:checkDebugManifest UP-TO-DATE
 > Task :library:generateDebugBuildConfig UP-TO-DATE
 > Transform aapt2-osx.jar (com.android.tools.build:aapt2:3.3.2-5309881) with Aapt2Extractor
@@ -203,8 +203,8 @@ BUILD SUCCESSFUL in 14s
 > Task :library:assemble
 > Task :library:build
 
-BUILD SUCCESSFUL in 6s
+BUILD SUCCESSFUL in 7s
 49 actionable tasks: 1 executed, 48 up-to-date
 
-2019-03-17 15:00:18,024 ERROR FullProcessService - Project build has not produced APK file
-2019-03-17 15:00:18,040 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-18 12:09:52,015 ERROR FullProcessService - Project build has not produced APK file
+2019-04-18 12:09:52,029 ERROR FullProcessService - Could not find generated or existed APK file
