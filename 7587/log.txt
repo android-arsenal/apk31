@@ -1,36 +1,36 @@
-2019-04-07 21:25:42,930 INFO  DownloadService - Downloading "https://github.com/denzcoskun/ImageSlideshow/archive/master.zip", attempt 3
-2019-04-07 21:25:48,138 INFO  DownloadService - Downloaded https://github.com/denzcoskun/ImageSlideshow/archive/master.zip, attempt 3
-2019-04-07 21:25:48,138 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554647142926-0/master.zip": 979 KB
-2019-04-07 21:25:48,138 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-04-07 21:25:48,139 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554647142926-0/master.zip: true
-2019-04-07 21:25:48,139 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554647142926-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554647142926-0/src'.
-2019-04-07 21:25:48,175 INFO  FullProcessService - Size of directory with sources: 1017 KB
-2019-04-07 21:25:48,175 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554647142926-0/src]
-2019-04-07 21:25:48,195 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554647142926-0/src/.git/
+2019-04-29 14:25:24,883 INFO  DownloadService - Downloading "https://github.com/denzcoskun/ImageSlideshow/archive/master.zip", attempt 3
+2019-04-29 14:25:29,274 INFO  DownloadService - Downloaded https://github.com/denzcoskun/ImageSlideshow/archive/master.zip, attempt 3
+2019-04-29 14:25:29,274 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556522724880-0/master.zip": 1 MB
+2019-04-29 14:25:29,275 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-29 14:25:29,280 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556522724880-0/master.zip: true
+2019-04-29 14:25:29,281 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556522724880-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556522724880-0/src'.
+2019-04-29 14:25:29,312 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-04-29 14:25:29,313 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556522724880-0/src]
+2019-04-29 14:25:29,341 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556522724880-0/src/.git/
 
-2019-04-07 21:25:48,201 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554647142926-0/src/ImageSlideshow-master/gradlew
-2019-04-07 21:25:48,206 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554647142926-0/src/ImageSlideshow-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554647142926-0/src/ImageSlideshow-master/imageslider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554647142926-0/src/ImageSlideshow-master/build.gradle
-2019-04-07 21:25:48,211 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554647142926-0/src/ImageSlideshow-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554647142926-0/src/ImageSlideshow-master/imageslider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554647142926-0/src/ImageSlideshow-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554647142926-0/src/ImageSlideshow-master/settings.gradle
-2019-04-07 21:25:48,211 INFO  ProjectBuildService - Remote scripts: none
-2019-04-07 21:25:48,211 INFO  ProjectFixService - Fixing project...
-2019-04-07 21:25:48,222 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554647142926-0/src/ImageSlideshow-master/app/local.properties
-2019-04-07 21:25:48,223 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554647142926-0/src/ImageSlideshow-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-04-07 21:25:48,224 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554647142926-0/src/ImageSlideshow-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-04-07 21:25:48,225 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554647142926-0/src/ImageSlideshow-master/imageslider/local.properties
-2019-04-07 21:25:48,226 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554647142926-0/src/ImageSlideshow-master/imageslider/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-04-07 21:25:48,226 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554647142926-0/src/ImageSlideshow-master/imageslider/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-04-07 21:25:48,227 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554647142926-0/src/ImageSlideshow-master/local.properties
-2019-04-07 21:25:48,228 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-04-07 21:25:48,228 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-04-07 21:25:48,230 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554647142926-0/src/ImageSlideshow-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-04-07 21:25:48,230 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554647142926-0/src/ImageSlideshow-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-04-07 21:25:48,231 INFO  ProjectFixService - Project was maybe fixed
-2019-04-07 21:25:48,231 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-07 21:25:48,231 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554647142926-0/src/ImageSlideshow-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554647142926-0/src/ImageSlideshow-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-07 21:25:56,718 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-04-07 21:25:56,719 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-04-07 21:25:56,719 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554647142926-0/src/ImageSlideshow-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554647142926-0/src/ImageSlideshow-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-04-07 21:26:36,128 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-29 14:25:29,344 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556522724880-0/src/ImageSlideshow-master/gradlew
+2019-04-29 14:25:29,350 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556522724880-0/src/ImageSlideshow-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556522724880-0/src/ImageSlideshow-master/imageslider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556522724880-0/src/ImageSlideshow-master/build.gradle
+2019-04-29 14:25:29,354 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556522724880-0/src/ImageSlideshow-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556522724880-0/src/ImageSlideshow-master/imageslider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556522724880-0/src/ImageSlideshow-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556522724880-0/src/ImageSlideshow-master/settings.gradle
+2019-04-29 14:25:29,355 INFO  ProjectBuildService - Remote scripts: none
+2019-04-29 14:25:29,355 INFO  ProjectFixService - Fixing project...
+2019-04-29 14:25:29,365 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556522724880-0/src/ImageSlideshow-master/app/local.properties
+2019-04-29 14:25:29,365 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556522724880-0/src/ImageSlideshow-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-04-29 14:25:29,366 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556522724880-0/src/ImageSlideshow-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-04-29 14:25:29,367 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556522724880-0/src/ImageSlideshow-master/imageslider/local.properties
+2019-04-29 14:25:29,368 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556522724880-0/src/ImageSlideshow-master/imageslider/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-04-29 14:25:29,368 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556522724880-0/src/ImageSlideshow-master/imageslider/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-04-29 14:25:29,369 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556522724880-0/src/ImageSlideshow-master/local.properties
+2019-04-29 14:25:29,369 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-04-29 14:25:29,369 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-04-29 14:25:29,371 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556522724880-0/src/ImageSlideshow-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-04-29 14:25:29,371 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556522724880-0/src/ImageSlideshow-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-04-29 14:25:29,371 INFO  ProjectFixService - Project was maybe fixed
+2019-04-29 14:25:29,371 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-29 14:25:29,372 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556522724880-0/src/ImageSlideshow-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556522724880-0/src/ImageSlideshow-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-29 14:25:37,783 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-04-29 14:25:37,783 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-04-29 14:25:37,783 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556522724880-0/src/ImageSlideshow-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556522724880-0/src/ImageSlideshow-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-04-29 14:26:22,414 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:checkDebugClasspath
 :app:preBuild UP-TO-DATE
 :imageslider:preBuild UP-TO-DATE
@@ -59,7 +59,7 @@
 :app:processDebugResources
 :imageslider:generateDebugBuildConfig
 :imageslider:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554647142926-0/src/ImageSlideshow-master/imageslider/src/main/java/com/denzcoskun/imageslider/transformation/RoundedTransformation.kt: (57, 13): 'when' is exhaustive so 'else' is redundant here
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556522724880-0/src/ImageSlideshow-master/imageslider/src/main/java/com/denzcoskun/imageslider/transformation/RoundedTransformation.kt: (57, 13): 'when' is exhaustive so 'else' is redundant here
 :imageslider:prepareLintJar
 :imageslider:generateDebugSources
 :imageslider:javaPreCompileDebug
@@ -82,6 +82,14 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554647142926-0/src/
 :imageslider:packageDebugAssets
 :app:mergeDebugAssets
 :app:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.71/d9717625bb3c731561251f8dd2c67a1011d6764c/kotlin-stdlib-1.2.71.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.71/d9717625bb3c731561251f8dd2c67a1011d6764c/kotlin-stdlib-1.2.71.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.collections.SlidingWindowKt$windowedIterator$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
 :app:transformDexArchiveWithExternalLibsDexMergerForDebug
 :app:transformDexArchiveWithDexMergerForDebug
 :app:mergeDebugJniLibFolders
@@ -124,7 +132,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554647142926-0/src/
 :app:processReleaseResources
 :imageslider:generateReleaseBuildConfig
 :imageslider:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554647142926-0/src/ImageSlideshow-master/imageslider/src/main/java/com/denzcoskun/imageslider/transformation/RoundedTransformation.kt: (57, 13): 'when' is exhaustive so 'else' is redundant here
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556522724880-0/src/ImageSlideshow-master/imageslider/src/main/java/com/denzcoskun/imageslider/transformation/RoundedTransformation.kt: (57, 13): 'when' is exhaustive so 'else' is redundant here
 :imageslider:generateReleaseSources
 :imageslider:javaPreCompileRelease
 :imageslider:compileReleaseJavaWithJavac
@@ -137,6 +145,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554647142926-0/src/
 :app:compileReleaseNdk NO-SOURCE
 :app:compileReleaseSources
 :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/37c1024913587bb4ed9485eb8792f1ac/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 :app:mergeReleaseShaders
 :app:compileReleaseShaders
 :app:generateReleaseAssets
@@ -164,7 +173,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554647142926-0/src/
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 38s
+BUILD SUCCESSFUL in 43s
 94 actionable tasks: 94 executed
 
-2019-04-07 21:26:36,224 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554647142926-0/src/ImageSlideshow-master/app/build/outputs/apk/debug/app-debug.apk
+2019-04-29 14:26:22,516 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556522724880-0/src/ImageSlideshow-master/app/build/outputs/apk/debug/app-debug.apk
