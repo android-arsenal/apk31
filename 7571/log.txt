@@ -1,39 +1,37 @@
-2019-04-12 12:13:17,289 INFO  DownloadService - Downloading "https://github.com/DichotoMe/ProfileBar/archive/master.zip", attempt 3
-2019-04-12 12:13:19,204 INFO  DownloadService - Downloaded https://github.com/DichotoMe/ProfileBar/archive/master.zip, attempt 3
-2019-04-12 12:13:19,204 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/master.zip": 2 MB
-2019-04-12 12:13:19,204 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-04-12 12:13:19,205 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/master.zip: true
-2019-04-12 12:13:19,205 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src'.
-2019-04-12 12:13:19,276 INFO  FullProcessService - Size of directory with sources: 2 MB
-2019-04-12 12:13:19,276 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src]
-2019-04-12 12:13:19,305 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/.git/
+2019-05-14 12:47:47,214 INFO  DownloadService - Downloading "https://github.com/DichotoMe/ProfileBar/archive/master.zip", attempt 3
+2019-05-14 12:47:48,925 INFO  DownloadService - Downloaded https://github.com/DichotoMe/ProfileBar/archive/master.zip, attempt 3
+2019-05-14 12:47:48,925 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/master.zip": 817 KB
+2019-05-14 12:47:48,925 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-14 12:47:48,927 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/master.zip: true
+2019-05-14 12:47:48,928 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src'.
+2019-05-14 12:47:48,979 INFO  FullProcessService - Size of directory with sources: 891 KB
+2019-05-14 12:47:48,979 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src]
+2019-05-14 12:47:48,997 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/.git/
 
-2019-04-12 12:13:19,315 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/gradlew
-2019-04-12 12:13:19,330 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilePhoto/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profileShared/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/build.gradle
-2019-04-12 12:13:19,344 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profileShared/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilePhoto/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebar/build.gradle
-2019-04-12 12:13:19,346 INFO  ProjectBuildService - Remote scripts: none
-2019-04-12 12:13:19,346 INFO  ProjectFixService - Fixing project...
-2019-04-12 12:13:19,369 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/app/local.properties
-2019-04-12 12:13:19,370 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-04-12 12:13:19,371 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilePhoto/local.properties
-2019-04-12 12:13:19,372 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilePhoto/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-04-12 12:13:19,372 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profileShared/local.properties
-2019-04-12 12:13:19,373 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profileShared/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-04-12 12:13:19,374 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebar/local.properties
-2019-04-12 12:13:19,374 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebar/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-04-12 12:13:19,375 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/local.properties
-2019-04-12 12:13:19,376 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-04-12 12:13:19,377 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/local.properties
-2019-04-12 12:13:19,378 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-04-12 12:13:19,378 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-04-12 12:13:19,380 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-04-12 12:13:19,380 INFO  ProjectFixService - Project was maybe fixed
-2019-04-12 12:13:19,381 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-12 12:13:19,381 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-12 12:13:29,167 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-04-12 12:13:29,167 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-04-12 12:13:29,167 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-04-12 12:15:16,478 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-14 12:47:49,004 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/gradlew
+2019-05-14 12:47:49,011 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profileShared/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/build.gradle
+2019-05-14 12:47:49,018 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profileShared/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebar/build.gradle
+2019-05-14 12:47:49,018 INFO  ProjectBuildService - Remote scripts: none
+2019-05-14 12:47:49,018 INFO  ProjectFixService - Fixing project...
+2019-05-14 12:47:49,034 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/app/local.properties
+2019-05-14 12:47:49,034 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-05-14 12:47:49,034 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profileShared/local.properties
+2019-05-14 12:47:49,035 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profileShared/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-05-14 12:47:49,035 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebar/local.properties
+2019-05-14 12:47:49,036 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebar/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-05-14 12:47:49,036 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/local.properties
+2019-05-14 12:47:49,037 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-05-14 12:47:49,037 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/local.properties
+2019-05-14 12:47:49,037 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-05-14 12:47:49,038 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-05-14 12:47:49,039 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-05-14 12:47:49,039 INFO  ProjectFixService - Project was maybe fixed
+2019-05-14 12:47:49,039 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-14 12:47:49,039 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-14 12:48:00,081 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-05-14 12:48:00,081 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-05-14 12:48:00,081 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-05-14 12:49:33,896 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Transform artifact error_prone_annotations.jar (com.google.errorprone:error_prone_annotations:2.1.3) with JetifyTransform
 ERROR: [TAG] Failed to resolve variable '${junit.version}'
@@ -47,53 +45,33 @@ ERROR: [TAG] Failed to resolve variable '${junit.version}'
 > Task :profilebarBinding:preDebugBuild UP-TO-DATE
 > Task :profilebarBinding:checkDebugManifest
 > Task :profilebarBinding:processDebugManifest
-
-> Transform artifact antlr4.jar (org.antlr:antlr4:4.5.3) with JetifyTransform
-ERROR: [TAG] Failed to resolve variable '${project.version}'
-
-> Task :profilePhoto:preBuild UP-TO-DATE
-> Task :profilePhoto:preDebugBuild UP-TO-DATE
-> Task :profilePhoto:checkDebugManifest
-> Task :profilePhoto:processDebugManifest
 > Task :profileShared:preBuild UP-TO-DATE
 > Task :profileShared:preDebugBuild UP-TO-DATE
 > Task :profileShared:checkDebugManifest
 > Task :profileShared:processDebugManifest
-> Task :app:preDebugBuild
 > Task :profileShared:compileDebugAidl NO-SOURCE
-> Task :profilePhoto:compileDebugAidl NO-SOURCE
 > Task :profilebar:packageDebugRenderscript NO-SOURCE
 > Task :profilebarBinding:packageDebugRenderscript NO-SOURCE
-> Task :profilePhoto:packageDebugRenderscript NO-SOURCE
 > Task :profileShared:packageDebugRenderscript NO-SOURCE
+> Task :app:prepareLintJar
+> Task :app:preDebugBuild
 > Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
-> Task :app:prepareLintJar
 > Task :profilebar:generateDebugBuildConfig
 > Task :profilebar:generateDebugResValues
-> Task :profilePhoto:compileDebugRenderscript NO-SOURCE
-> Task :profilePhoto:generateDebugResValues
-> Task :profilePhoto:generateDebugResources
 > Task :profileShared:compileDebugRenderscript NO-SOURCE
 > Task :profileShared:generateDebugResValues
 > Task :profileShared:generateDebugResources
-> Task :profilePhoto:generateDebugBuildConfig
 > Task :profileShared:generateDebugBuildConfig
 > Task :profilebarBinding:generateDebugBuildConfig
 > Task :profilebarBinding:prepareLintJar
 > Task :profilebarBinding:generateDebugResValues
+
+> Transform artifact antlr4.jar (org.antlr:antlr4:4.5.3) with JetifyTransform
+ERROR: [TAG] Failed to resolve variable '${project.version}'
+
 > Task :app:generateDebugResValues
-> Task :app:generateDebugResources
-> Task :app:dataBindingExportFeaturePackageIdsDebug
-> Task :profilePhoto:packageDebugResources
-
-> Transform artifact guava.jar (com.google.guava:guava:26.0-jre) with JetifyTransform
-ERROR: [TAG] Failed to resolve variable '${animal.sniffer.version}'
-
-> Task :profileShared:packageDebugResources
-> Task :profileShared:generateDebugRFile
-> Task :profilePhoto:generateDebugRFile
 > Task :profilebar:compileDebugAidl NO-SOURCE
 > Task :profilebarBinding:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
@@ -101,168 +79,21 @@ ERROR: [TAG] Failed to resolve variable '${animal.sniffer.version}'
 > Task :app:dataBindingExportBuildInfoDebug
 > Task :profilebar:compileDebugRenderscript NO-SOURCE
 > Task :profilebar:generateDebugResources
-> Task :profilebar:packageDebugResources
-> Task :profilebar:generateDebugRFile
-> Task :profileShared:kaptGenerateStubsDebugKotlin
-> Task :profileShared:kaptDebugKotlin
-> Task :profileShared:compileDebugKotlin
-> Task :profileShared:javaPreCompileDebug
-> Task :profileShared:compileDebugJavaWithJavac
-> Task :profileShared:bundleLibCompileDebug
-> Task :profilePhoto:kaptGenerateStubsDebugKotlin
-> Task :profilePhoto:kaptDebugKotlin
-
-> Task :profilePhoto:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilePhoto/src/main/java/com/dichotome/profilephoto/ui/ZoomingImageView.kt: (105, 30): Parameter 'v' is never used, could be renamed to _
-
-> Task :profilePhoto:javaPreCompileDebug
-> Task :profilePhoto:compileDebugJavaWithJavac
-> Task :profilePhoto:bundleLibCompileDebug
-> Task :profilebar:kaptGenerateStubsDebugKotlin
-> Task :profilebar:kaptDebugKotlin
-> Task :profilebar:compileDebugKotlin
-> Task :profilebar:javaPreCompileDebug
-> Task :profilebar:compileDebugJavaWithJavac
-> Task :profilebar:bundleLibCompileDebug
 > Task :profilebarBinding:compileDebugRenderscript NO-SOURCE
 > Task :profilebarBinding:generateDebugSources
 > Task :profilebarBinding:dataBindingExportBuildInfoDebug
-> Task :profilebarBinding:generateDebugResources
-> Task :profilebarBinding:packageDebugResources
 > Task :profilebarBinding:dataBindingMergeDependencyArtifactsDebug
+> Task :profilebarBinding:generateDebugResources
+> Task :app:generateDebugResources
+> Task :app:dataBindingExportFeaturePackageIdsDebug
 > Task :profilebarBinding:dataBindingMergeGenClassesDebug
-> Task :profilebarBinding:mergeDebugResources
-> Task :profilebarBinding:dataBindingGenBaseClassesDebug
-> Task :profilebarBinding:generateDebugRFile
-> Task :profilebarBinding:kaptGenerateStubsDebugKotlin
-
-> Task :profilebarBinding:kaptDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:9: warning: Application namespace for attribute app:isOwnProfile will be ignored.
-    public static final void setIsOwnProfile(@org.jetbrains.annotations.NotNull()
-                             ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:15: warning: Application namespace for attribute app:isFollowed will be ignored.
-    public static final void setIsFollowed(@org.jetbrains.annotations.NotNull()
-                             ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:21: warning: Application namespace for attribute app:isTitleEditable will be ignored.
-    public static final void setIsTitleEditable(@org.jetbrains.annotations.NotNull()
-                             ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:27: warning: Application namespace for attribute app:photoSource will be ignored.
-    public static final void setPhotoSource(@org.jetbrains.annotations.NotNull()
-                             ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:33: warning: Application namespace for attribute app:wallpaperSource will be ignored.
-    public static final void setWallpaperSource(@org.jetbrains.annotations.NotNull()
-                             ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:39: warning: Application namespace for attribute app:title will be ignored.
-    public static final void setTitle(@org.jetbrains.annotations.NotNull()
-                             ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:45: warning: Application namespace for attribute app:titleSize will be ignored.
-    public static final void setTitleSize(@org.jetbrains.annotations.NotNull()
-                             ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:51: warning: Application namespace for attribute app:subtitle will be ignored.
-    public static final void setSubtitle(@org.jetbrains.annotations.NotNull()
-                             ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:57: warning: Application namespace for attribute app:subtitleSize will be ignored.
-    public static final void setSubtitleSize(@org.jetbrains.annotations.NotNull()
-                             ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:63: warning: Application namespace for attribute app:tabsEnabled will be ignored.
-    public static final void setEnableTabs(@org.jetbrains.annotations.NotNull()
-                             ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:69: warning: Application namespace for attribute app:barScrollFlags will be ignored.
-    public static final void setScrollFlags(@org.jetbrains.annotations.NotNull()
-                             ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:75: warning: Application namespace for attribute app:dimDrawable will be ignored.
-    public static final void setDimDrawable(@org.jetbrains.annotations.NotNull()
-                             ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:81: warning: Application namespace for attribute app:bottomGlowDrawable will be ignored.
-    public static final void setBottomGlowDrawable(@org.jetbrains.annotations.NotNull()
-                             ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:87: warning: Application namespace for attribute app:frameDrawable will be ignored.
-    public static final void setFrameDrawable(@org.jetbrains.annotations.NotNull()
-                             ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:93: warning: Application namespace for attribute app:onPhotoChange will be ignored.
-    public static final void setOnChangePhoto(@org.jetbrains.annotations.NotNull()
-                             ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:99: warning: Application namespace for attribute app:onWallpaperChange will be ignored.
-    public static final void setOnChangeWallpaper(@org.jetbrains.annotations.NotNull()
-                             ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:105: warning: Application namespace for attribute app:onUsernameChange will be ignored.
-    public static final void setOnChangeUsername(@org.jetbrains.annotations.NotNull()
-                             ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:111: warning: Application namespace for attribute app:onLogOut will be ignored.
-    public static final void setOnLogOut(@org.jetbrains.annotations.NotNull()
-                             ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:117: warning: Application namespace for attribute app:onUsernameChangeFinished will be ignored.
-    public static final void setUsernameChangeFinished(@org.jetbrains.annotations.NotNull()
-                             ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:123: warning: Application namespace for attribute app:onFollowed will be ignored.
-    public static final void setOnFollowed(@org.jetbrains.annotations.NotNull()
-                             ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:129: warning: Application namespace for attribute app:onUsernameChangeCanceled will be ignored.
-    public static final void setOnUsernameChangeCanceled(@org.jetbrains.annotations.NotNull()
-                             ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:9: warning: Application namespace for attribute app:photo will be ignored.
-    public static final void setPhoto(@org.jetbrains.annotations.NotNull()
-                             ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:16: warning: Application namespace for attribute app:wallpaper will be ignored.
-    public static final void setWallpaper(@org.jetbrains.annotations.NotNull()
-                             ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:23: warning: Application namespace for attribute app:fontColor will be ignored.
-    public static final void setFontColor(@org.jetbrains.annotations.NotNull()
-                             ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:30: warning: Application namespace for attribute app:title will be ignored.
-    public static final void setTitle(@org.jetbrains.annotations.NotNull()
-                             ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:37: warning: Application namespace for attribute app:subtitle will be ignored.
-    public static final void setSubtitle(@org.jetbrains.annotations.NotNull()
-                             ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:44: warning: Application namespace for attribute app:tabSelectedColor will be ignored.
-    public static final void setTabSelectedColor(@org.jetbrains.annotations.NotNull()
-                             ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:51: warning: Application namespace for attribute app:frameColor will be ignored.
-    public static final void setFrameColor(@org.jetbrains.annotations.NotNull()
-                             ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:58: warning: Application namespace for attribute app:frameDrawable will be ignored.
-    public static final void setFrameDrawable(@org.jetbrains.annotations.NotNull()
-                             ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:65: warning: Application namespace for attribute app:tabUnselectedColor will be ignored.
-    public static final void setTabUnselectedColor(@org.jetbrains.annotations.NotNull()
-                             ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:72: warning: Application namespace for attribute app:tabIndicatorColor will be ignored.
-    public static final void setTabIndicatorColor(@org.jetbrains.annotations.NotNull()
-                             ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:79: warning: Application namespace for attribute app:dimDrawable will be ignored.
-    public static final void setDimDrawable(@org.jetbrains.annotations.NotNull()
-                             ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:86: warning: Application namespace for attribute app:bottomGlowDrawable will be ignored.
-    public static final void setBottomGlowDrawable(@org.jetbrains.annotations.NotNull()
-                             ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfilePagerAdaptersKt.java:9: warning: Application namespace for attribute app:fragments will be ignored.
-    public static final void setFragments(@org.jetbrains.annotations.NotNull()
-                             ^
-
-> Task :profilebarBinding:compileDebugKotlin
-> Task :profilebarBinding:javaPreCompileDebug
-> Task :profilebarBinding:compileDebugJavaWithJavac
-> Task :app:dataBindingMergeDependencyArtifactsDebug
-> Task :app:dataBindingMergeGenClassesDebug
-> Task :app:mergeDebugResources
-> Task :app:dataBindingGenBaseClassesDebug
 > Task :app:mainApkListPersistenceDebug
 > Task :app:createDebugCompatibleScreenManifests
+
+> Transform artifact guava.jar (com.google.guava:guava:26.0-jre) with JetifyTransform
+ERROR: [TAG] Failed to resolve variable '${animal.sniffer.version}'
+
 > Task :app:processDebugManifest
-> Task :app:processDebugResources
-> Task :profilebarBinding:bundleLibCompileDebug
-> Task :app:kaptGenerateStubsDebugKotlin
-> Task :app:kaptDebugKotlin
-
-> Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/app/src/main/java/com/dichotome/profilebarapp/ui/main/ProfileActivity.kt: (22, 13): Variable 'photo' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/app/src/main/java/com/dichotome/profilebarapp/ui/main/ProfileActivity.kt: (23, 13): Variable 'wallpaper' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/app/src/main/java/com/dichotome/profilebarapp/ui/mainBinding/ProfileBindingLogic.kt: (26, 34): Parameter 'text' is never used
-
-> Task :app:javaPreCompileDebug
-> Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugSources
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
@@ -274,10 +105,6 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/
 > Task :profilebarBinding:compileDebugShaders
 > Task :profilebarBinding:generateDebugAssets
 > Task :profilebarBinding:packageDebugAssets
-> Task :profilePhoto:mergeDebugShaders
-> Task :profilePhoto:compileDebugShaders
-> Task :profilePhoto:generateDebugAssets
-> Task :profilePhoto:packageDebugAssets
 > Task :profileShared:mergeDebugShaders
 > Task :profileShared:compileDebugShaders
 > Task :profileShared:generateDebugAssets
@@ -285,19 +112,161 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/
 > Task :app:mergeDebugAssets
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :profilebar:processDebugJavaRes NO-SOURCE
-> Task :profilebar:bundleLibResDebug
 > Task :profilebarBinding:processDebugJavaRes NO-SOURCE
-> Task :profilebarBinding:bundleLibResDebug
-> Task :profilePhoto:processDebugJavaRes NO-SOURCE
-> Task :profilePhoto:bundleLibResDebug
 > Task :profileShared:processDebugJavaRes NO-SOURCE
+> Task :profilebar:packageDebugResources
+> Task :profileShared:packageDebugResources
+> Task :profileShared:generateDebugRFile
+> Task :profilebar:generateDebugRFile
+> Task :profileShared:kaptGenerateStubsDebugKotlin
+> Task :profileShared:kaptDebugKotlin
+> Task :profileShared:compileDebugKotlin
+> Task :profileShared:javaPreCompileDebug
+> Task :profileShared:compileDebugJavaWithJavac
+> Task :profileShared:bundleLibCompileDebug
+> Task :profilebar:kaptGenerateStubsDebugKotlin
+> Task :profilebar:kaptDebugKotlin
+> Task :profilebar:compileDebugKotlin
+> Task :profilebar:javaPreCompileDebug
+> Task :profilebar:compileDebugJavaWithJavac
+> Task :profilebar:bundleLibCompileDebug
+> Task :profilebarBinding:mergeDebugResources
+> Task :profilebarBinding:dataBindingGenBaseClassesDebug
+> Task :profilebarBinding:packageDebugResources
+> Task :profilebarBinding:generateDebugRFile
+> Task :profilebarBinding:kaptGenerateStubsDebugKotlin
+
+> Task :profilebarBinding:kaptDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:9: warning: Application namespace for attribute app:isOwnProfile will be ignored.
+    public static final void setIsOwnProfile(@org.jetbrains.annotations.NotNull()
+                             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:15: warning: Application namespace for attribute app:isFollowed will be ignored.
+    public static final void setIsFollowed(@org.jetbrains.annotations.NotNull()
+                             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:21: warning: Application namespace for attribute app:isTitleEditable will be ignored.
+    public static final void setIsTitleEditable(@org.jetbrains.annotations.NotNull()
+                             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:27: warning: Application namespace for attribute app:photoSource will be ignored.
+    public static final void setPhotoSource(@org.jetbrains.annotations.NotNull()
+                             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:33: warning: Application namespace for attribute app:wallpaperSource will be ignored.
+    public static final void setWallpaperSource(@org.jetbrains.annotations.NotNull()
+                             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:39: warning: Application namespace for attribute app:title will be ignored.
+    public static final void setTitle(@org.jetbrains.annotations.NotNull()
+                             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:45: warning: Application namespace for attribute app:titleSize will be ignored.
+    public static final void setTitleSize(@org.jetbrains.annotations.NotNull()
+                             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:51: warning: Application namespace for attribute app:subtitle will be ignored.
+    public static final void setSubtitle(@org.jetbrains.annotations.NotNull()
+                             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:57: warning: Application namespace for attribute app:subtitleSize will be ignored.
+    public static final void setSubtitleSize(@org.jetbrains.annotations.NotNull()
+                             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:63: warning: Application namespace for attribute app:tabsEnabled will be ignored.
+    public static final void setEnableTabs(@org.jetbrains.annotations.NotNull()
+                             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:69: warning: Application namespace for attribute app:scrollFlags will be ignored.
+    public static final void setScrollFlags(@org.jetbrains.annotations.NotNull()
+                             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:75: warning: Application namespace for attribute app:dimDrawable will be ignored.
+    public static final void setDimDrawable(@org.jetbrains.annotations.NotNull()
+                             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:81: warning: Application namespace for attribute app:bottomGlowDrawable will be ignored.
+    public static final void setBottomGlowDrawable(@org.jetbrains.annotations.NotNull()
+                             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:87: warning: Application namespace for attribute app:frameDrawable will be ignored.
+    public static final void setFrameDrawable(@org.jetbrains.annotations.NotNull()
+                             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:93: warning: Application namespace for attribute app:onPhotoChange will be ignored.
+    public static final void setOnChangePhoto(@org.jetbrains.annotations.NotNull()
+                             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:99: warning: Application namespace for attribute app:onWallpaperChange will be ignored.
+    public static final void setOnChangeWallpaper(@org.jetbrains.annotations.NotNull()
+                             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:105: warning: Application namespace for attribute app:onUsernameChange will be ignored.
+    public static final void setOnChangeUsername(@org.jetbrains.annotations.NotNull()
+                             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:111: warning: Application namespace for attribute app:onLogOut will be ignored.
+    public static final void setOnLogOut(@org.jetbrains.annotations.NotNull()
+                             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:117: warning: Application namespace for attribute app:onUsernameChangeFinished will be ignored.
+    public static final void setUsernameChangeFinished(@org.jetbrains.annotations.NotNull()
+                             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:123: warning: Application namespace for attribute app:onFollowed will be ignored.
+    public static final void setOnFollowed(@org.jetbrains.annotations.NotNull()
+                             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:129: warning: Application namespace for attribute app:onUsernameChangeCanceled will be ignored.
+    public static final void setOnUsernameChangeCanceled(@org.jetbrains.annotations.NotNull()
+                             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:9: warning: Application namespace for attribute app:photo will be ignored.
+    public static final void setPhoto(@org.jetbrains.annotations.NotNull()
+                             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:16: warning: Application namespace for attribute app:wallpaper will be ignored.
+    public static final void setWallpaper(@org.jetbrains.annotations.NotNull()
+                             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:23: warning: Application namespace for attribute app:fontColor will be ignored.
+    public static final void setFontColor(@org.jetbrains.annotations.NotNull()
+                             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:30: warning: Application namespace for attribute app:title will be ignored.
+    public static final void setTitle(@org.jetbrains.annotations.NotNull()
+                             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:37: warning: Application namespace for attribute app:subtitle will be ignored.
+    public static final void setSubtitle(@org.jetbrains.annotations.NotNull()
+                             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:44: warning: Application namespace for attribute app:tabSelectedColor will be ignored.
+    public static final void setTabSelectedColor(@org.jetbrains.annotations.NotNull()
+                             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:51: warning: Application namespace for attribute app:frameColor will be ignored.
+    public static final void setFrameColor(@org.jetbrains.annotations.NotNull()
+                             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:58: warning: Application namespace for attribute app:frameDrawable will be ignored.
+    public static final void setFrameDrawable(@org.jetbrains.annotations.NotNull()
+                             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:65: warning: Application namespace for attribute app:tabUnselectedColor will be ignored.
+    public static final void setTabUnselectedColor(@org.jetbrains.annotations.NotNull()
+                             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:72: warning: Application namespace for attribute app:tabIndicatorColor will be ignored.
+    public static final void setTabIndicatorColor(@org.jetbrains.annotations.NotNull()
+                             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:79: warning: Application namespace for attribute app:dimDrawable will be ignored.
+    public static final void setDimDrawable(@org.jetbrains.annotations.NotNull()
+                             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:86: warning: Application namespace for attribute app:bottomGlowDrawable will be ignored.
+    public static final void setBottomGlowDrawable(@org.jetbrains.annotations.NotNull()
+                             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/debug/com/dichotome/profilebarbinding/bindingAdapters/ProfilePagerAdaptersKt.java:9: warning: Application namespace for attribute app:offscreenPageLimit will be ignored.
+    public static final void setOffscreenPageLimit(@org.jetbrains.annotations.NotNull()
+                             ^
+
+> Task :profilebarBinding:compileDebugKotlin
+> Task :profilebarBinding:javaPreCompileDebug
+> Task :profilebarBinding:compileDebugJavaWithJavac
+> Task :app:dataBindingMergeDependencyArtifactsDebug
+> Task :app:dataBindingMergeGenClassesDebug
+> Task :app:mergeDebugResources
+> Task :app:dataBindingGenBaseClassesDebug
+> Task :app:processDebugResources
+> Task :profilebarBinding:bundleLibCompileDebug
+> Task :app:kaptGenerateStubsDebugKotlin
+> Task :app:kaptDebugKotlin
+
+> Task :app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/app/src/main/java/com/dichotome/profilebarapp/ui/main/ProfileActivity.kt: (22, 13): Variable 'photo' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/app/src/main/java/com/dichotome/profilebarapp/ui/main/ProfileActivity.kt: (23, 13): Variable 'wallpaper' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/app/src/main/java/com/dichotome/profilebarapp/ui/mainBinding/ProfileBindingLogic.kt: (26, 34): Parameter 'text' is never used
+
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :profilebar:bundleLibResDebug
+> Task :profilebarBinding:bundleLibResDebug
 > Task :profileShared:bundleLibResDebug
 > Task :app:mergeDebugJavaResource
 > Task :profileShared:bundleLibRuntimeDebug
 > Task :app:checkDebugDuplicateClasses
 > Task :profileShared:createFullJarDebug
-> Task :profilePhoto:bundleLibRuntimeDebug
-> Task :profilePhoto:createFullJarDebug
 > Task :profilebar:bundleLibRuntimeDebug
 > Task :profilebar:createFullJarDebug
 > Task :profilebarBinding:bundleLibRuntimeDebug
@@ -316,10 +285,6 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/
 > Task :profilebarBinding:transformNativeLibsWithMergeJniLibsForDebug
 > Task :profilebarBinding:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :profilebarBinding:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :profilePhoto:mergeDebugJniLibFolders
-> Task :profilePhoto:transformNativeLibsWithMergeJniLibsForDebug
-> Task :profilePhoto:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :profilePhoto:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :profileShared:mergeDebugJniLibFolders
 > Task :profileShared:transformNativeLibsWithMergeJniLibsForDebug
 > Task :profileShared:transformNativeLibsWithStripDebugSymbolForDebug
@@ -332,21 +297,16 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/
 > Task :profilebarBinding:preReleaseBuild UP-TO-DATE
 > Task :profilebarBinding:checkReleaseManifest
 > Task :profilebarBinding:processReleaseManifest
-> Task :profilePhoto:preReleaseBuild UP-TO-DATE
-> Task :profilePhoto:checkReleaseManifest
-> Task :profilePhoto:processReleaseManifest
 > Task :profileShared:preReleaseBuild UP-TO-DATE
 > Task :profileShared:checkReleaseManifest
 > Task :profileShared:processReleaseManifest
 > Task :app:preReleaseBuild
 > Task :profileShared:compileReleaseAidl NO-SOURCE
-> Task :profilePhoto:compileReleaseAidl NO-SOURCE
 > Task :profilebar:compileReleaseAidl NO-SOURCE
 > Task :profilebarBinding:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :profilebar:packageReleaseRenderscript NO-SOURCE
 > Task :profilebarBinding:packageReleaseRenderscript NO-SOURCE
-> Task :profilePhoto:packageReleaseRenderscript NO-SOURCE
 > Task :profileShared:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:checkReleaseManifest
@@ -358,18 +318,12 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/
 > Task :profilebar:generateReleaseResValues
 > Task :profilebar:generateReleaseResources
 > Task :profilebar:packageReleaseResources
-> Task :profilePhoto:compileReleaseRenderscript NO-SOURCE
-> Task :profilePhoto:generateReleaseResValues
-> Task :profilePhoto:generateReleaseResources
-> Task :profilePhoto:packageReleaseResources
 > Task :profileShared:compileReleaseRenderscript NO-SOURCE
 > Task :profileShared:generateReleaseResValues
 > Task :profileShared:generateReleaseResources
 > Task :profileShared:packageReleaseResources
 > Task :profileShared:generateReleaseRFile
-> Task :profilePhoto:generateReleaseRFile
 > Task :profilebar:generateReleaseRFile
-> Task :profilePhoto:generateReleaseBuildConfig
 > Task :profileShared:generateReleaseBuildConfig
 > Task :profileShared:kaptGenerateStubsReleaseKotlin
 > Task :profileShared:kaptReleaseKotlin
@@ -377,21 +331,12 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/
 > Task :profileShared:javaPreCompileRelease
 > Task :profileShared:compileReleaseJavaWithJavac
 > Task :profileShared:bundleLibCompileRelease
-> Task :profilePhoto:kaptGenerateStubsReleaseKotlin
-> Task :app:mergeExtDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
-> Task :profilePhoto:kaptReleaseKotlin
-
-> Task :profilePhoto:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilePhoto/src/main/java/com/dichotome/profilephoto/ui/ZoomingImageView.kt: (105, 30): Parameter 'v' is never used, could be renamed to _
-
-> Task :profilePhoto:javaPreCompileRelease
-> Task :profilePhoto:compileReleaseJavaWithJavac
-> Task :profilePhoto:bundleLibCompileRelease
 > Task :profilebar:kaptGenerateStubsReleaseKotlin
 > Task :profilebar:kaptReleaseKotlin
 > Task :profilebar:compileReleaseKotlin
+> Task :app:mergeExtDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :profilebar:javaPreCompileRelease
 > Task :profilebar:compileReleaseJavaWithJavac
 > Task :profilebar:bundleLibCompileRelease
@@ -410,107 +355,107 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/
 > Task :profilebarBinding:kaptGenerateStubsReleaseKotlin
 
 > Task :profilebarBinding:kaptReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:9: warning: Application namespace for attribute app:isOwnProfile will be ignored.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:9: warning: Application namespace for attribute app:isOwnProfile will be ignored.
     public static final void setIsOwnProfile(@org.jetbrains.annotations.NotNull()
                              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:15: warning: Application namespace for attribute app:isFollowed will be ignored.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:15: warning: Application namespace for attribute app:isFollowed will be ignored.
     public static final void setIsFollowed(@org.jetbrains.annotations.NotNull()
                              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:21: warning: Application namespace for attribute app:isTitleEditable will be ignored.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:21: warning: Application namespace for attribute app:isTitleEditable will be ignored.
     public static final void setIsTitleEditable(@org.jetbrains.annotations.NotNull()
                              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:27: warning: Application namespace for attribute app:photoSource will be ignored.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:27: warning: Application namespace for attribute app:photoSource will be ignored.
     public static final void setPhotoSource(@org.jetbrains.annotations.NotNull()
                              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:33: warning: Application namespace for attribute app:wallpaperSource will be ignored.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:33: warning: Application namespace for attribute app:wallpaperSource will be ignored.
     public static final void setWallpaperSource(@org.jetbrains.annotations.NotNull()
                              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:39: warning: Application namespace for attribute app:title will be ignored.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:39: warning: Application namespace for attribute app:title will be ignored.
     public static final void setTitle(@org.jetbrains.annotations.NotNull()
                              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:45: warning: Application namespace for attribute app:titleSize will be ignored.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:45: warning: Application namespace for attribute app:titleSize will be ignored.
     public static final void setTitleSize(@org.jetbrains.annotations.NotNull()
                              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:51: warning: Application namespace for attribute app:subtitle will be ignored.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:51: warning: Application namespace for attribute app:subtitle will be ignored.
     public static final void setSubtitle(@org.jetbrains.annotations.NotNull()
                              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:57: warning: Application namespace for attribute app:subtitleSize will be ignored.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:57: warning: Application namespace for attribute app:subtitleSize will be ignored.
     public static final void setSubtitleSize(@org.jetbrains.annotations.NotNull()
                              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:63: warning: Application namespace for attribute app:tabsEnabled will be ignored.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:63: warning: Application namespace for attribute app:tabsEnabled will be ignored.
     public static final void setEnableTabs(@org.jetbrains.annotations.NotNull()
                              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:69: warning: Application namespace for attribute app:barScrollFlags will be ignored.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:69: warning: Application namespace for attribute app:scrollFlags will be ignored.
     public static final void setScrollFlags(@org.jetbrains.annotations.NotNull()
                              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:75: warning: Application namespace for attribute app:dimDrawable will be ignored.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:75: warning: Application namespace for attribute app:dimDrawable will be ignored.
     public static final void setDimDrawable(@org.jetbrains.annotations.NotNull()
                              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:81: warning: Application namespace for attribute app:bottomGlowDrawable will be ignored.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:81: warning: Application namespace for attribute app:bottomGlowDrawable will be ignored.
     public static final void setBottomGlowDrawable(@org.jetbrains.annotations.NotNull()
                              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:87: warning: Application namespace for attribute app:frameDrawable will be ignored.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:87: warning: Application namespace for attribute app:frameDrawable will be ignored.
     public static final void setFrameDrawable(@org.jetbrains.annotations.NotNull()
                              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:93: warning: Application namespace for attribute app:onPhotoChange will be ignored.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:93: warning: Application namespace for attribute app:onPhotoChange will be ignored.
     public static final void setOnChangePhoto(@org.jetbrains.annotations.NotNull()
                              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:99: warning: Application namespace for attribute app:onWallpaperChange will be ignored.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:99: warning: Application namespace for attribute app:onWallpaperChange will be ignored.
     public static final void setOnChangeWallpaper(@org.jetbrains.annotations.NotNull()
                              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:105: warning: Application namespace for attribute app:onUsernameChange will be ignored.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:105: warning: Application namespace for attribute app:onUsernameChange will be ignored.
     public static final void setOnChangeUsername(@org.jetbrains.annotations.NotNull()
                              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:111: warning: Application namespace for attribute app:onLogOut will be ignored.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:111: warning: Application namespace for attribute app:onLogOut will be ignored.
     public static final void setOnLogOut(@org.jetbrains.annotations.NotNull()
                              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:117: warning: Application namespace for attribute app:onUsernameChangeFinished will be ignored.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:117: warning: Application namespace for attribute app:onUsernameChangeFinished will be ignored.
     public static final void setUsernameChangeFinished(@org.jetbrains.annotations.NotNull()
                              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:123: warning: Application namespace for attribute app:onFollowed will be ignored.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:123: warning: Application namespace for attribute app:onFollowed will be ignored.
     public static final void setOnFollowed(@org.jetbrains.annotations.NotNull()
                              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:129: warning: Application namespace for attribute app:onUsernameChangeCanceled will be ignored.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarAdaptersKt.java:129: warning: Application namespace for attribute app:onUsernameChangeCanceled will be ignored.
     public static final void setOnUsernameChangeCanceled(@org.jetbrains.annotations.NotNull()
                              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:9: warning: Application namespace for attribute app:photo will be ignored.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:9: warning: Application namespace for attribute app:photo will be ignored.
     public static final void setPhoto(@org.jetbrains.annotations.NotNull()
                              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:16: warning: Application namespace for attribute app:wallpaper will be ignored.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:16: warning: Application namespace for attribute app:wallpaper will be ignored.
     public static final void setWallpaper(@org.jetbrains.annotations.NotNull()
                              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:23: warning: Application namespace for attribute app:fontColor will be ignored.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:23: warning: Application namespace for attribute app:fontColor will be ignored.
     public static final void setFontColor(@org.jetbrains.annotations.NotNull()
                              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:30: warning: Application namespace for attribute app:title will be ignored.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:30: warning: Application namespace for attribute app:title will be ignored.
     public static final void setTitle(@org.jetbrains.annotations.NotNull()
                              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:37: warning: Application namespace for attribute app:subtitle will be ignored.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:37: warning: Application namespace for attribute app:subtitle will be ignored.
     public static final void setSubtitle(@org.jetbrains.annotations.NotNull()
                              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:44: warning: Application namespace for attribute app:tabSelectedColor will be ignored.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:44: warning: Application namespace for attribute app:tabSelectedColor will be ignored.
     public static final void setTabSelectedColor(@org.jetbrains.annotations.NotNull()
                              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:51: warning: Application namespace for attribute app:frameColor will be ignored.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:51: warning: Application namespace for attribute app:frameColor will be ignored.
     public static final void setFrameColor(@org.jetbrains.annotations.NotNull()
                              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:58: warning: Application namespace for attribute app:frameDrawable will be ignored.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:58: warning: Application namespace for attribute app:frameDrawable will be ignored.
     public static final void setFrameDrawable(@org.jetbrains.annotations.NotNull()
                              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:65: warning: Application namespace for attribute app:tabUnselectedColor will be ignored.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:65: warning: Application namespace for attribute app:tabUnselectedColor will be ignored.
     public static final void setTabUnselectedColor(@org.jetbrains.annotations.NotNull()
                              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:72: warning: Application namespace for attribute app:tabIndicatorColor will be ignored.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:72: warning: Application namespace for attribute app:tabIndicatorColor will be ignored.
     public static final void setTabIndicatorColor(@org.jetbrains.annotations.NotNull()
                              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:79: warning: Application namespace for attribute app:dimDrawable will be ignored.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:79: warning: Application namespace for attribute app:dimDrawable will be ignored.
     public static final void setDimDrawable(@org.jetbrains.annotations.NotNull()
                              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:86: warning: Application namespace for attribute app:bottomGlowDrawable will be ignored.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfileBarResAdaptersKt.java:86: warning: Application namespace for attribute app:bottomGlowDrawable will be ignored.
     public static final void setBottomGlowDrawable(@org.jetbrains.annotations.NotNull()
                              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfilePagerAdaptersKt.java:9: warning: Application namespace for attribute app:fragments will be ignored.
-    public static final void setFragments(@org.jetbrains.annotations.NotNull()
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/profilebarBinding/build/tmp/kapt3/stubs/release/com/dichotome/profilebarbinding/bindingAdapters/ProfilePagerAdaptersKt.java:9: warning: Application namespace for attribute app:offscreenPageLimit will be ignored.
+    public static final void setOffscreenPageLimit(@org.jetbrains.annotations.NotNull()
                              ^
 
 > Task :profilebarBinding:compileReleaseKotlin
@@ -532,16 +477,15 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/
 > Task :app:kaptReleaseKotlin
 
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/app/src/main/java/com/dichotome/profilebarapp/ui/main/ProfileActivity.kt: (22, 13): Variable 'photo' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/app/src/main/java/com/dichotome/profilebarapp/ui/main/ProfileActivity.kt: (23, 13): Variable 'wallpaper' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/app/src/main/java/com/dichotome/profilebarapp/ui/mainBinding/ProfileBindingLogic.kt: (26, 34): Parameter 'text' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/app/src/main/java/com/dichotome/profilebarapp/ui/main/ProfileActivity.kt: (22, 13): Variable 'photo' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/app/src/main/java/com/dichotome/profilebarapp/ui/main/ProfileActivity.kt: (23, 13): Variable 'wallpaper' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/app/src/main/java/com/dichotome/profilebarapp/ui/mainBinding/ProfileBindingLogic.kt: (26, 34): Parameter 'text' is never used
 
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
 > Task :profilebar:prepareLintJarForPublish
 > Task :profilebarBinding:prepareLintJarForPublish
-> Task :profilePhoto:prepareLintJarForPublish
 > Task :profileShared:prepareLintJarForPublish
 
 > Task :app:lintVitalRelease
@@ -551,10 +495,6 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :profileShared:bundleLibResRelease
 > Task :profileShared:bundleLibRuntimeRelease
 > Task :profileShared:createFullJarRelease
-> Task :profilePhoto:processReleaseJavaRes NO-SOURCE
-> Task :profilePhoto:bundleLibResRelease
-> Task :profilePhoto:bundleLibRuntimeRelease
-> Task :profilePhoto:createFullJarRelease
 > Task :profilebar:processReleaseJavaRes NO-SOURCE
 > Task :profilebar:bundleLibResRelease
 > Task :profilebar:bundleLibRuntimeRelease
@@ -576,10 +516,6 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :profilebarBinding:compileReleaseShaders
 > Task :profilebarBinding:generateReleaseAssets
 > Task :profilebarBinding:packageReleaseAssets
-> Task :profilePhoto:mergeReleaseShaders
-> Task :profilePhoto:compileReleaseShaders
-> Task :profilePhoto:generateReleaseAssets
-> Task :profilePhoto:packageReleaseAssets
 > Task :profileShared:mergeReleaseShaders
 > Task :profileShared:compileReleaseShaders
 > Task :profileShared:generateReleaseAssets
@@ -597,10 +533,6 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :profilebarBinding:transformNativeLibsWithMergeJniLibsForRelease
 > Task :profilebarBinding:transformNativeLibsWithStripDebugSymbolForRelease
 > Task :profilebarBinding:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :profilePhoto:mergeReleaseJniLibFolders
-> Task :profilePhoto:transformNativeLibsWithMergeJniLibsForRelease
-> Task :profilePhoto:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :profilePhoto:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :profileShared:mergeReleaseJniLibFolders
 > Task :profileShared:transformNativeLibsWithMergeJniLibsForRelease
 > Task :profileShared:transformNativeLibsWithStripDebugSymbolForRelease
@@ -614,7 +546,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 1m 46s
-259 actionable tasks: 259 executed
+BUILD SUCCESSFUL in 1m 32s
+214 actionable tasks: 214 executed
 
-2019-04-12 12:15:16,710 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555045997281-0/src/ProfileBar-master/app/build/outputs/apk/debug/app-debug.apk
+2019-05-14 12:49:34,100 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812867211-0/src/ProfileBar-master/app/build/outputs/apk/debug/app-debug.apk

@@ -1,168 +1,180 @@
-2019-02-23 23:34:04,914 INFO  DownloadService - Downloading "https://github.com/2hamed/ProgressCircula/archive/master.zip", attempt 3
-2019-02-23 23:34:08,172 INFO  DownloadService - Downloaded https://github.com/2hamed/ProgressCircula/archive/master.zip, attempt 3
-2019-02-23 23:34:08,173 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939644910-0/master.zip": 362 KB
-2019-02-23 23:34:08,173 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-02-23 23:34:08,178 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939644910-0/master.zip: true
-2019-02-23 23:34:08,179 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939644910-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939644910-0/src'.
-2019-02-23 23:34:08,203 INFO  FullProcessService - Size of directory with sources: 464 KB
-2019-02-23 23:34:08,203 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939644910-0/src]
-2019-02-23 23:34:08,227 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939644910-0/src/.git/
+2019-05-14 13:04:15,038 INFO  DownloadService - Downloading "https://github.com/2hamed/ProgressCircula/archive/master.zip", attempt 3
+2019-05-14 13:04:17,744 INFO  DownloadService - Downloaded https://github.com/2hamed/ProgressCircula/archive/master.zip, attempt 3
+2019-05-14 13:04:17,744 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557813855031-0/master.zip": 362 KB
+2019-05-14 13:04:17,744 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-14 13:04:17,744 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557813855031-0/master.zip: true
+2019-05-14 13:04:17,745 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557813855031-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557813855031-0/src'.
+2019-05-14 13:04:17,767 INFO  FullProcessService - Size of directory with sources: 463 KB
+2019-05-14 13:04:17,767 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557813855031-0/src]
+2019-05-14 13:04:17,784 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557813855031-0/src/.git/
 
-2019-02-23 23:34:08,230 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939644910-0/src/ProgressCircula-master/gradlew
-2019-02-23 23:34:08,235 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939644910-0/src/ProgressCircula-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939644910-0/src/ProgressCircula-master/progresscircula/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939644910-0/src/ProgressCircula-master/build.gradle
-2019-02-23 23:34:08,239 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939644910-0/src/ProgressCircula-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939644910-0/src/ProgressCircula-master/progresscircula/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939644910-0/src/ProgressCircula-master/progresscircula/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939644910-0/src/ProgressCircula-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939644910-0/src/ProgressCircula-master/settings.gradle
-2019-02-23 23:34:08,243 INFO  ProjectBuildService - Remote scripts: none
-2019-02-23 23:34:08,243 INFO  ProjectFixService - Fixing project...
-2019-02-23 23:34:08,253 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939644910-0/src/ProgressCircula-master/app/local.properties
-2019-02-23 23:34:08,255 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939644910-0/src/ProgressCircula-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-02-23 23:34:08,255 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939644910-0/src/ProgressCircula-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-02-23 23:34:08,256 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939644910-0/src/ProgressCircula-master/progresscircula/local.properties
-2019-02-23 23:34:08,258 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939644910-0/src/ProgressCircula-master/progresscircula/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-02-23 23:34:08,258 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939644910-0/src/ProgressCircula-master/progresscircula/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-02-23 23:34:08,259 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939644910-0/src/ProgressCircula-master/local.properties
-2019-02-23 23:34:08,260 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-02-23 23:34:08,261 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-02-23 23:34:08,263 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939644910-0/src/ProgressCircula-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-02-23 23:34:08,263 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939644910-0/src/ProgressCircula-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-02-23 23:34:08,263 INFO  ProjectFixService - Project was maybe fixed
-2019-02-23 23:34:08,263 INFO  ProjectTaskService - Detecting possible tasks...
-2019-02-23 23:34:08,264 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939644910-0/src/ProgressCircula-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939644910-0/src/ProgressCircula-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-02-23 23:34:16,446 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-02-23 23:34:16,446 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-02-23 23:34:16,446 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939644910-0/src/ProgressCircula-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939644910-0/src/ProgressCircula-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-02-23 23:35:00,346 INFO  SysUtils - Configuration on demand is an incubating feature.
-:app:checkDebugClasspath
-:app:preBuild UP-TO-DATE
-:progresscircula:preBuild UP-TO-DATE
-:progresscircula:preDebugBuild UP-TO-DATE
-:progresscircula:checkDebugManifest
-:progresscircula:processDebugManifest
-:app:preDebugBuild
-:progresscircula:compileDebugAidl NO-SOURCE
-:app:compileDebugAidl NO-SOURCE
-:progresscircula:packageDebugRenderscript NO-SOURCE
-:app:compileDebugRenderscript
-:app:checkDebugManifest
-:app:generateDebugBuildConfig
-:app:mainApkListPersistenceDebug
-:app:generateDebugResValues
-:app:generateDebugResources
-:progresscircula:compileDebugRenderscript
-:progresscircula:generateDebugResValues
-:progresscircula:generateDebugResources
-:progresscircula:packageDebugResources
-:app:mergeDebugResources
-:app:createDebugCompatibleScreenManifests
-:app:processDebugManifest
-:app:splitsDiscoveryTaskDebug
-:progresscircula:generateDebugRFile
-:app:processDebugResources
-:progresscircula:generateDebugBuildConfig
-:progresscircula:compileDebugKotlin
-:progresscircula:prepareLintJar
-:progresscircula:generateDebugSources
-:progresscircula:javaPreCompileDebug
-:progresscircula:compileDebugJavaWithJavac
-:progresscircula:processDebugJavaRes NO-SOURCE
-:progresscircula:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:app:compileDebugKotlin
-:app:prepareLintJar
-:app:generateDebugSources
-:app:javaPreCompileDebug
-:app:compileDebugJavaWithJavac
-:app:compileDebugNdk NO-SOURCE
-:app:compileDebugSources
-:app:mergeDebugShaders
-:app:compileDebugShaders
-:app:generateDebugAssets
-:progresscircula:mergeDebugShaders
-:progresscircula:compileDebugShaders
-:progresscircula:generateDebugAssets
-:progresscircula:packageDebugAssets
-:app:mergeDebugAssets
-:app:transformClassesWithDexBuilderForDebug
-:app:transformDexArchiveWithExternalLibsDexMergerForDebug
-:app:transformDexArchiveWithDexMergerForDebug
-:app:mergeDebugJniLibFolders
-:progresscircula:compileDebugNdk NO-SOURCE
-:progresscircula:mergeDebugJniLibFolders
-:progresscircula:transformNativeLibsWithMergeJniLibsForDebug
-:progresscircula:transformNativeLibsWithStripDebugSymbolForDebug
-:progresscircula:transformNativeLibsWithIntermediateJniLibsForDebug
-:app:transformNativeLibsWithMergeJniLibsForDebug
-:app:transformNativeLibsWithStripDebugSymbolForDebug
-:app:checkDebugLibraries
-:app:processDebugJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForDebug
-:app:validateSigningDebug
-:app:packageDebug
-:app:assembleDebug
-:app:checkReleaseClasspath
-:progresscircula:preReleaseBuild UP-TO-DATE
-:progresscircula:checkReleaseManifest
-:progresscircula:processReleaseManifest
-:app:preReleaseBuild
-:progresscircula:compileReleaseAidl NO-SOURCE
-:app:compileReleaseAidl NO-SOURCE
-:progresscircula:packageReleaseRenderscript NO-SOURCE
-:app:compileReleaseRenderscript
-:app:checkReleaseManifest
-:app:generateReleaseBuildConfig
-:app:mainApkListPersistenceRelease
-:app:generateReleaseResValues
-:app:generateReleaseResources
-:progresscircula:compileReleaseRenderscript
-:progresscircula:generateReleaseResValues
-:progresscircula:generateReleaseResources
-:progresscircula:packageReleaseResources
-:app:mergeReleaseResources
-:app:createReleaseCompatibleScreenManifests
-:app:processReleaseManifest
-:app:splitsDiscoveryTaskRelease
-:progresscircula:generateReleaseRFile
-:app:processReleaseResources
-:progresscircula:generateReleaseBuildConfig
-:progresscircula:compileReleaseKotlin
-:progresscircula:generateReleaseSources
-:progresscircula:javaPreCompileRelease
-:progresscircula:compileReleaseJavaWithJavac
-:progresscircula:processReleaseJavaRes NO-SOURCE
-:progresscircula:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:app:compileReleaseKotlin
-:app:generateReleaseSources
-:app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavac
-:app:compileReleaseNdk NO-SOURCE
-:app:compileReleaseSources
-:app:lintVitalRelease
-:app:mergeReleaseShaders
-:app:compileReleaseShaders
-:app:generateReleaseAssets
-:progresscircula:mergeReleaseShaders
-:progresscircula:compileReleaseShaders
-:progresscircula:generateReleaseAssets
-:progresscircula:packageReleaseAssets
-:app:mergeReleaseAssets
-:app:transformClassesWithDexBuilderForRelease
-:app:transformDexArchiveWithExternalLibsDexMergerForRelease
-:app:transformDexArchiveWithDexMergerForRelease
-:app:mergeReleaseJniLibFolders
-:progresscircula:compileReleaseNdk NO-SOURCE
-:progresscircula:mergeReleaseJniLibFolders
-:progresscircula:transformNativeLibsWithMergeJniLibsForRelease
-:progresscircula:transformNativeLibsWithStripDebugSymbolForRelease
-:progresscircula:transformNativeLibsWithIntermediateJniLibsForRelease
-:app:transformNativeLibsWithMergeJniLibsForRelease
-:app:transformNativeLibsWithStripDebugSymbolForRelease
-:app:checkReleaseLibraries
-:app:processReleaseJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForRelease
-:app:packageRelease
-:app:assembleRelease
-:app:assemble
-:app:build
+2019-05-14 13:04:17,788 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557813855031-0/src/ProgressCircula-master/gradlew
+2019-05-14 13:04:17,792 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557813855031-0/src/ProgressCircula-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557813855031-0/src/ProgressCircula-master/progresscircula/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557813855031-0/src/ProgressCircula-master/build.gradle
+2019-05-14 13:04:17,795 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557813855031-0/src/ProgressCircula-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557813855031-0/src/ProgressCircula-master/progresscircula/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557813855031-0/src/ProgressCircula-master/progresscircula/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557813855031-0/src/ProgressCircula-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557813855031-0/src/ProgressCircula-master/settings.gradle
+2019-05-14 13:04:17,795 INFO  ProjectBuildService - Remote scripts: none
+2019-05-14 13:04:17,795 INFO  ProjectFixService - Fixing project...
+2019-05-14 13:04:17,806 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557813855031-0/src/ProgressCircula-master/app/local.properties
+2019-05-14 13:04:17,807 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557813855031-0/src/ProgressCircula-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-05-14 13:04:17,808 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557813855031-0/src/ProgressCircula-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-05-14 13:04:17,809 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557813855031-0/src/ProgressCircula-master/progresscircula/local.properties
+2019-05-14 13:04:17,810 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557813855031-0/src/ProgressCircula-master/progresscircula/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-05-14 13:04:17,810 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557813855031-0/src/ProgressCircula-master/progresscircula/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-05-14 13:04:17,811 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557813855031-0/src/ProgressCircula-master/local.properties
+2019-05-14 13:04:17,811 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-05-14 13:04:17,811 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-05-14 13:04:17,813 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557813855031-0/src/ProgressCircula-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-05-14 13:04:17,813 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557813855031-0/src/ProgressCircula-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-05-14 13:04:17,813 INFO  ProjectFixService - Project was maybe fixed
+2019-05-14 13:04:17,813 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-14 13:04:17,814 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557813855031-0/src/ProgressCircula-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557813855031-0/src/ProgressCircula-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-14 13:04:26,596 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-05-14 13:04:26,596 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-05-14 13:04:26,596 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557813855031-0/src/ProgressCircula-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557813855031-0/src/ProgressCircula-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-05-14 13:05:17,418 INFO  SysUtils - Configuration on demand is an incubating feature.
 
-BUILD SUCCESSFUL in 43s
-94 actionable tasks: 94 executed
+> Configure project :progresscircula
+WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
 
-2019-02-23 23:35:00,428 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1550939644910-0/src/ProgressCircula-master/app/build/outputs/apk/debug/app-debug.apk
+> Task :app:preBuild UP-TO-DATE
+> Task :progresscircula:preBuild UP-TO-DATE
+> Task :progresscircula:preDebugBuild UP-TO-DATE
+> Task :progresscircula:checkDebugManifest
+> Task :progresscircula:processDebugManifest
+> Task :app:preDebugBuild
+> Task :progresscircula:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :progresscircula:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :progresscircula:compileDebugRenderscript
+> Task :progresscircula:generateDebugResValues
+> Task :progresscircula:generateDebugResources
+> Task :progresscircula:packageDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :progresscircula:generateDebugRFile
+> Task :app:processDebugResources
+> Task :progresscircula:generateDebugBuildConfig
+> Task :progresscircula:compileDebugKotlin
+> Task :progresscircula:prepareLintJar
+> Task :progresscircula:generateDebugSources
+> Task :progresscircula:javaPreCompileDebug
+> Task :progresscircula:compileDebugJavaWithJavac
+> Task :progresscircula:processDebugJavaRes NO-SOURCE
+> Task :progresscircula:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :app:compileDebugKotlin
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugNdk NO-SOURCE
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :progresscircula:mergeDebugShaders
+> Task :progresscircula:compileDebugShaders
+> Task :progresscircula:generateDebugAssets
+> Task :progresscircula:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :progresscircula:createFullJarDebug
+> Transform full.jar (project :progresscircula) with IdentityTransform
+> Task :app:mergeExtDexDebug
+> Transform full.jar (project :progresscircula) with DexingTransform
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:mergeDexDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :progresscircula:compileDebugNdk NO-SOURCE
+> Task :progresscircula:mergeDebugJniLibFolders
+> Task :progresscircula:transformNativeLibsWithMergeJniLibsForDebug
+> Task :progresscircula:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :progresscircula:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :progresscircula:preReleaseBuild UP-TO-DATE
+> Task :progresscircula:checkReleaseManifest
+> Task :progresscircula:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :progresscircula:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :progresscircula:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :progresscircula:compileReleaseRenderscript
+> Task :progresscircula:generateReleaseResValues
+> Task :progresscircula:generateReleaseResources
+> Task :progresscircula:packageReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :progresscircula:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :progresscircula:generateReleaseBuildConfig
+> Task :progresscircula:compileReleaseKotlin
+> Task :progresscircula:generateReleaseSources
+> Task :progresscircula:javaPreCompileRelease
+> Task :progresscircula:compileReleaseJavaWithJavac
+> Task :progresscircula:processReleaseJavaRes NO-SOURCE
+> Task :progresscircula:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :app:compileReleaseKotlin
+> Task :app:generateReleaseSources
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseNdk NO-SOURCE
+> Task :app:compileReleaseSources
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/33ffb67e403c069978802d62b3e53a4f/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :progresscircula:createFullJarRelease
+> Transform full.jar (project :progresscircula) with IdentityTransform
+> Task :app:mergeExtDexRelease
+> Transform full.jar (project :progresscircula) with DexingTransform
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeDexRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :progresscircula:mergeReleaseShaders
+> Task :progresscircula:compileReleaseShaders
+> Task :progresscircula:generateReleaseAssets
+> Task :progresscircula:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :progresscircula:compileReleaseNdk NO-SOURCE
+> Task :progresscircula:mergeReleaseJniLibFolders
+> Task :progresscircula:transformNativeLibsWithMergeJniLibsForRelease
+> Task :progresscircula:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :progresscircula:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 50s
+92 actionable tasks: 92 executed
+
+2019-05-14 13:05:17,512 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557813855031-0/src/ProgressCircula-master/app/build/outputs/apk/debug/app-debug.apk

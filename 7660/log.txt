@@ -1,0 +1,271 @@
+2019-05-14 12:28:13,971 INFO  DownloadService - Downloading "https://github.com/grumpyshoe/android-module-bonjourconnect/archive/master.zip", attempt 3
+2019-05-14 12:28:16,336 INFO  DownloadService - Downloaded https://github.com/grumpyshoe/android-module-bonjourconnect/archive/master.zip, attempt 3
+2019-05-14 12:28:16,336 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/master.zip": 151 KB
+2019-05-14 12:28:16,336 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-14 12:28:16,342 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/master.zip: true
+2019-05-14 12:28:16,342 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src'.
+2019-05-14 12:28:16,365 INFO  FullProcessService - Size of directory with sources: 156 KB
+2019-05-14 12:28:16,365 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src]
+2019-05-14 12:28:16,396 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/.git/
+
+2019-05-14 12:28:16,400 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/gradlew
+2019-05-14 12:28:16,405 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/bonjourconnect/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/build.gradle
+2019-05-14 12:28:16,408 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/bonjourconnect/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/settings.gradle
+2019-05-14 12:28:16,409 INFO  ProjectBuildService - Remote scripts: none
+2019-05-14 12:28:16,409 INFO  ProjectFixService - Fixing project...
+2019-05-14 12:28:16,419 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/bonjourconnect/local.properties
+2019-05-14 12:28:16,421 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/bonjourconnect/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=28]
+2019-05-14 12:28:16,421 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/bonjourconnect/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-05-14 12:28:16,422 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/sample/local.properties
+2019-05-14 12:28:16,424 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=28]
+2019-05-14 12:28:16,424 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-05-14 12:28:16,425 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/local.properties
+2019-05-14 12:28:16,426 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-05-14 12:28:16,426 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-05-14 12:28:16,428 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=28]
+2019-05-14 12:28:16,428 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-05-14 12:28:16,428 INFO  ProjectFixService - Project was maybe fixed
+2019-05-14 12:28:16,428 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-14 12:28:16,429 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/bonjourconnect/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-14 12:28:23,427 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-05-14 12:28:23,427 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-14 12:28:23,427 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/bonjourconnect/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-14 12:28:45,624 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :bonjourconnect:preBuild UP-TO-DATE
+> Task :bonjourconnect:preDebugBuild UP-TO-DATE
+> Task :bonjourconnect:checkDebugManifest
+> Task :bonjourconnect:generateDebugBuildConfig
+> Task :bonjourconnect:generateDebugResValues
+> Task :bonjourconnect:processDebugManifest
+> Task :bonjourconnect:prepareLintJar
+> Task :bonjourconnect:mergeDebugConsumerProguardFiles
+> Task :bonjourconnect:mergeDebugShaders
+> Task :bonjourconnect:compileDebugShaders
+> Task :bonjourconnect:generateDebugAssets
+> Task :bonjourconnect:packageDebugAssets
+> Task :bonjourconnect:packageDebugRenderscript NO-SOURCE
+> Task :bonjourconnect:prepareLintJarForPublish
+> Task :bonjourconnect:processDebugJavaRes NO-SOURCE
+> Task :bonjourconnect:mergeDebugJniLibFolders
+> Task :bonjourconnect:transformNativeLibsWithMergeJniLibsForDebug
+> Task :bonjourconnect:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :bonjourconnect:compileDebugAidl NO-SOURCE
+> Task :bonjourconnect:compileDebugRenderscript NO-SOURCE
+> Task :bonjourconnect:generateDebugResources
+> Task :bonjourconnect:packageDebugResources
+> Task :bonjourconnect:generateDebugRFile
+> Task :bonjourconnect:kaptGenerateStubsDebugKotlin
+> Task :bonjourconnect:kaptDebugKotlin
+> Task :bonjourconnect:compileDebugKotlin
+> Task :bonjourconnect:generateDebugSources
+> Task :bonjourconnect:javaPreCompileDebug
+> Task :bonjourconnect:compileDebugJavaWithJavac
+> Task :bonjourconnect:extractDebugAnnotations
+> Task :bonjourconnect:transformResourcesWithMergeJavaResForDebug
+> Task :bonjourconnect:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :bonjourconnect:transformNativeLibsWithSyncJniLibsForDebug
+> Task :bonjourconnect:bundleDebugAar
+> Task :bonjourconnect:compileDebugSources
+> Task :bonjourconnect:assembleDebug
+> Task :bonjourconnect:preReleaseBuild UP-TO-DATE
+> Task :bonjourconnect:compileReleaseAidl NO-SOURCE
+> Task :bonjourconnect:compileReleaseRenderscript NO-SOURCE
+> Task :bonjourconnect:checkReleaseManifest
+> Task :bonjourconnect:generateReleaseBuildConfig
+> Task :bonjourconnect:generateReleaseResValues
+> Task :bonjourconnect:generateReleaseResources
+> Task :bonjourconnect:packageReleaseResources
+> Task :bonjourconnect:processReleaseManifest
+> Task :bonjourconnect:generateReleaseRFile
+> Task :bonjourconnect:kaptGenerateStubsReleaseKotlin
+> Task :bonjourconnect:kaptReleaseKotlin
+> Task :bonjourconnect:compileReleaseKotlin
+> Task :bonjourconnect:generateReleaseSources
+> Task :bonjourconnect:javaPreCompileRelease
+> Task :bonjourconnect:compileReleaseJavaWithJavac
+> Task :bonjourconnect:extractReleaseAnnotations
+> Task :bonjourconnect:mergeReleaseConsumerProguardFiles
+> Task :bonjourconnect:mergeReleaseShaders
+> Task :bonjourconnect:compileReleaseShaders
+> Task :bonjourconnect:generateReleaseAssets
+> Task :bonjourconnect:packageReleaseAssets
+> Task :bonjourconnect:packageReleaseRenderscript NO-SOURCE
+> Task :bonjourconnect:processReleaseJavaRes NO-SOURCE
+> Task :bonjourconnect:transformResourcesWithMergeJavaResForRelease
+> Task :bonjourconnect:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :bonjourconnect:mergeReleaseJniLibFolders
+> Task :bonjourconnect:transformNativeLibsWithMergeJniLibsForRelease
+> Task :bonjourconnect:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :bonjourconnect:transformNativeLibsWithSyncJniLibsForRelease
+> Task :bonjourconnect:bundleReleaseAar
+> Task :bonjourconnect:compileReleaseSources
+> Task :bonjourconnect:mergeReleaseResources
+> Task :bonjourconnect:verifyReleaseResources
+> Task :bonjourconnect:assembleRelease
+> Task :bonjourconnect:assemble
+> Task :bonjourconnect:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 21s
+50 actionable tasks: 50 executed
+
+2019-05-14 12:28:45,675 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-14 12:28:45,676 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-14 12:28:52,373 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-05-14 12:28:52,373 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-05-14 12:28:52,373 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-05-14 12:29:35,171 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :bonjourconnect:preBuild UP-TO-DATE
+> Task :bonjourconnect:preDebugBuild UP-TO-DATE
+> Task :bonjourconnect:compileDebugAidl NO-SOURCE
+> Task :bonjourconnect:checkDebugManifest UP-TO-DATE
+> Task :bonjourconnect:compileDebugRenderscript NO-SOURCE
+> Task :bonjourconnect:generateDebugBuildConfig UP-TO-DATE
+> Task :bonjourconnect:generateDebugResValues UP-TO-DATE
+> Task :bonjourconnect:generateDebugResources UP-TO-DATE
+> Task :bonjourconnect:processDebugManifest UP-TO-DATE
+> Task :bonjourconnect:packageDebugResources UP-TO-DATE
+> Task :bonjourconnect:generateDebugRFile UP-TO-DATE
+> Task :bonjourconnect:kaptGenerateStubsDebugKotlin UP-TO-DATE
+> Task :bonjourconnect:kaptDebugKotlin UP-TO-DATE
+> Task :bonjourconnect:compileDebugKotlin UP-TO-DATE
+> Task :bonjourconnect:prepareLintJar UP-TO-DATE
+> Task :bonjourconnect:generateDebugSources UP-TO-DATE
+> Task :bonjourconnect:javaPreCompileDebug UP-TO-DATE
+> Task :bonjourconnect:compileDebugJavaWithJavac UP-TO-DATE
+> Task :bonjourconnect:bundleLibCompileDebug
+> Task :sample:preBuild UP-TO-DATE
+> Task :bonjourconnect:packageDebugRenderscript NO-SOURCE
+> Task :sample:preDebugBuild
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :sample:compileDebugRenderscript NO-SOURCE
+> Task :sample:checkDebugManifest
+> Task :sample:generateDebugBuildConfig
+> Task :sample:mainApkListPersistenceDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :sample:mergeDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:processDebugManifest
+> Task :sample:processDebugResources
+> Task :sample:kaptGenerateStubsDebugKotlin
+> Task :sample:kaptDebugKotlin
+> Task :sample:compileDebugKotlin
+> Task :sample:prepareLintJar
+> Task :sample:generateDebugSources
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
+> Task :bonjourconnect:mergeDebugShaders UP-TO-DATE
+> Task :bonjourconnect:compileDebugShaders UP-TO-DATE
+> Task :bonjourconnect:generateDebugAssets UP-TO-DATE
+> Task :bonjourconnect:packageDebugAssets UP-TO-DATE
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders
+> Task :sample:generateDebugAssets
+> Task :sample:mergeDebugAssets
+> Task :bonjourconnect:processDebugJavaRes NO-SOURCE
+> Task :bonjourconnect:bundleLibResDebug
+> Task :bonjourconnect:bundleLibRuntimeDebug
+> Task :bonjourconnect:createFullJarDebug
+> Task :sample:checkDebugDuplicateClasses
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:validateSigningDebug
+> Task :sample:signingConfigWriterDebug
+> Task :bonjourconnect:mergeDebugJniLibFolders UP-TO-DATE
+> Task :bonjourconnect:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :bonjourconnect:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :bonjourconnect:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :sample:mergeDebugJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForDebug
+> Task :bonjourconnect:preReleaseBuild UP-TO-DATE
+> Task :bonjourconnect:compileReleaseAidl NO-SOURCE
+> Task :bonjourconnect:compileReleaseRenderscript NO-SOURCE
+> Task :bonjourconnect:checkReleaseManifest UP-TO-DATE
+> Task :bonjourconnect:generateReleaseBuildConfig UP-TO-DATE
+> Task :bonjourconnect:generateReleaseResValues UP-TO-DATE
+> Task :bonjourconnect:generateReleaseResources UP-TO-DATE
+> Task :bonjourconnect:packageReleaseResources UP-TO-DATE
+> Task :bonjourconnect:processReleaseManifest UP-TO-DATE
+> Task :bonjourconnect:generateReleaseRFile UP-TO-DATE
+> Task :bonjourconnect:kaptGenerateStubsReleaseKotlin UP-TO-DATE
+> Task :bonjourconnect:kaptReleaseKotlin UP-TO-DATE
+> Task :bonjourconnect:compileReleaseKotlin UP-TO-DATE
+> Task :bonjourconnect:generateReleaseSources UP-TO-DATE
+> Task :bonjourconnect:javaPreCompileRelease UP-TO-DATE
+> Task :bonjourconnect:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :bonjourconnect:bundleLibCompileRelease
+> Task :sample:preReleaseBuild
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :bonjourconnect:packageReleaseRenderscript NO-SOURCE
+> Task :sample:compileReleaseRenderscript NO-SOURCE
+> Task :sample:checkReleaseManifest
+> Task :sample:generateReleaseBuildConfig
+> Task :sample:mainApkListPersistenceRelease
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :sample:mergeReleaseResources
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
+> Task :sample:processReleaseResources
+> Task :sample:kaptGenerateStubsReleaseKotlin
+> Task :sample:mergeExtDexDebug
+> Task :sample:mergeDexDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :sample:kaptReleaseKotlin
+> Task :sample:compileReleaseKotlin
+> Task :sample:generateReleaseSources
+> Task :sample:javaPreCompileRelease
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseSources
+> Task :bonjourconnect:prepareLintJarForPublish UP-TO-DATE
+
+> Task :sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/53c3a12fb6e497103c2a512d24ee6cdd/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :bonjourconnect:processReleaseJavaRes NO-SOURCE
+> Task :bonjourconnect:bundleLibResRelease
+> Task :bonjourconnect:bundleLibRuntimeRelease
+> Task :bonjourconnect:createFullJarRelease
+> Task :sample:checkReleaseDuplicateClasses
+> Task :sample:transformClassesWithDexBuilderForRelease
+> Task :bonjourconnect:mergeReleaseShaders UP-TO-DATE
+> Task :bonjourconnect:compileReleaseShaders UP-TO-DATE
+> Task :bonjourconnect:generateReleaseAssets UP-TO-DATE
+> Task :bonjourconnect:packageReleaseAssets UP-TO-DATE
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders
+> Task :sample:generateReleaseAssets
+> Task :sample:mergeReleaseAssets
+> Task :sample:signingConfigWriterRelease
+> Task :bonjourconnect:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :bonjourconnect:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :bonjourconnect:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :bonjourconnect:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :sample:mergeReleaseJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :sample:mergeExtDexRelease
+> Task :sample:mergeDexRelease
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 42s
+103 actionable tasks: 67 executed, 36 up-to-date
+
+2019-05-14 12:29:35,315 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
