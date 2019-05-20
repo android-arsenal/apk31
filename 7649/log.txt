@@ -1,40 +1,44 @@
-2019-05-06 17:24:21,612 INFO  DownloadService - Downloading "https://github.com/Drabu/FormValidator/archive/master.zip", attempt 3
-2019-05-06 17:24:25,921 INFO  DownloadService - Downloaded https://github.com/Drabu/FormValidator/archive/master.zip, attempt 3
-2019-05-06 17:24:25,921 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138261608-0/master.zip": 2 MB
-2019-05-06 17:24:25,922 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-06 17:24:25,927 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138261608-0/master.zip: true
-2019-05-06 17:24:25,928 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138261608-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138261608-0/src'.
-2019-05-06 17:24:25,977 INFO  FullProcessService - Size of directory with sources: 2 MB
-2019-05-06 17:24:25,977 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138261608-0/src]
-2019-05-06 17:24:25,997 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138261608-0/src/.git/
+2019-05-20 12:46:37,260 INFO  DownloadService - Downloading "https://github.com/Drabu/FormValidator/archive/master.zip", attempt 3
+2019-05-20 12:46:38,909 INFO  DownloadService - Downloaded https://github.com/Drabu/FormValidator/archive/master.zip, attempt 3
+2019-05-20 12:46:38,910 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331197257-0/master.zip": 2 MB
+2019-05-20 12:46:38,910 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-20 12:46:38,916 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331197257-0/master.zip: true
+2019-05-20 12:46:38,916 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331197257-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331197257-0/src'.
+2019-05-20 12:46:38,964 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-05-20 12:46:38,964 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331197257-0/src]
+2019-05-20 12:46:38,997 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331197257-0/src/.git/
 
-2019-05-06 17:24:26,001 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138261608-0/src/FormValidator-master/gradlew
-2019-05-06 17:24:26,006 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138261608-0/src/FormValidator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138261608-0/src/FormValidator-master/validation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138261608-0/src/FormValidator-master/build.gradle
-2019-05-06 17:24:26,010 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138261608-0/src/FormValidator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138261608-0/src/FormValidator-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138261608-0/src/FormValidator-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138261608-0/src/FormValidator-master/validation/build.gradle
-2019-05-06 17:24:26,014 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/quangctkm9207/template-files/master/android/gradle/bintray.gradle", attempt 3
-2019-05-06 17:24:26,717 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/quangctkm9207/template-files/master/android/gradle/bintray.gradle, attempt 3
-2019-05-06 17:24:26,718 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/quangctkm9207/template-files/master/android/gradle/install.gradle", attempt 3
-2019-05-06 17:24:27,090 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/quangctkm9207/template-files/master/android/gradle/install.gradle, attempt 3
-2019-05-06 17:24:27,091 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/quangctkm9207/template-files/master/android/gradle/bintray.gradle https://raw.githubusercontent.com/quangctkm9207/template-files/master/android/gradle/install.gradle
-2019-05-06 17:24:27,091 INFO  ProjectFixService - Fixing project...
-2019-05-06 17:24:27,105 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138261608-0/src/FormValidator-master/app/local.properties
-2019-05-06 17:24:27,106 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138261608-0/src/FormValidator-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-06 17:24:27,108 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138261608-0/src/FormValidator-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-06 17:24:27,109 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138261608-0/src/FormValidator-master/validation/local.properties
-2019-05-06 17:24:27,111 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138261608-0/src/FormValidator-master/validation/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-06 17:24:27,111 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138261608-0/src/FormValidator-master/validation/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-06 17:24:27,112 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138261608-0/src/FormValidator-master/local.properties
-2019-05-06 17:24:27,113 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-05-06 17:24:27,113 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-05-06 17:24:27,115 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138261608-0/src/FormValidator-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-06 17:24:27,115 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138261608-0/src/FormValidator-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-06 17:24:27,116 INFO  ProjectFixService - Project was maybe fixed
-2019-05-06 17:24:27,116 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-06 17:24:27,116 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138261608-0/src/FormValidator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138261608-0/src/FormValidator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-06 17:24:37,973 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-05-06 17:24:37,973 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-06 17:24:37,973 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138261608-0/src/FormValidator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138261608-0/src/FormValidator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-06 17:24:44,316 ERROR SysUtils - Could not process external command
+2019-05-20 12:46:39,001 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331197257-0/src/FormValidator-master/gradlew
+2019-05-20 12:46:39,006 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331197257-0/src/FormValidator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331197257-0/src/FormValidator-master/validation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331197257-0/src/FormValidator-master/build.gradle
+2019-05-20 12:46:39,009 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331197257-0/src/FormValidator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331197257-0/src/FormValidator-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331197257-0/src/FormValidator-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331197257-0/src/FormValidator-master/validation/build.gradle
+2019-05-20 12:46:39,016 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/quangctkm9207/template-files/master/android/gradle/bintray.gradle", attempt 3
+2019-05-20 12:46:39,749 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/quangctkm9207/template-files/master/android/gradle/bintray.gradle, attempt 3
+2019-05-20 12:46:39,750 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-05-20 12:46:40,065 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-05-20 12:46:40,065 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/quangctkm9207/template-files/master/android/gradle/install.gradle", attempt 3
+2019-05-20 12:46:40,379 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/quangctkm9207/template-files/master/android/gradle/install.gradle, attempt 3
+2019-05-20 12:46:40,379 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-05-20 12:46:40,684 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-05-20 12:46:40,685 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/quangctkm9207/template-files/master/android/gradle/bintray.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/quangctkm9207/template-files/master/android/gradle/install.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-05-20 12:46:40,685 INFO  ProjectFixService - Fixing project...
+2019-05-20 12:46:40,701 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331197257-0/src/FormValidator-master/app/local.properties
+2019-05-20 12:46:40,702 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331197257-0/src/FormValidator-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-20 12:46:40,702 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331197257-0/src/FormValidator-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-20 12:46:40,703 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331197257-0/src/FormValidator-master/validation/local.properties
+2019-05-20 12:46:40,707 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331197257-0/src/FormValidator-master/validation/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-20 12:46:40,707 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331197257-0/src/FormValidator-master/validation/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-20 12:46:40,709 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331197257-0/src/FormValidator-master/local.properties
+2019-05-20 12:46:40,709 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-05-20 12:46:40,710 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-05-20 12:46:40,712 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331197257-0/src/FormValidator-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-20 12:46:40,712 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331197257-0/src/FormValidator-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-20 12:46:40,713 INFO  ProjectFixService - Project was maybe fixed
+2019-05-20 12:46:40,713 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-20 12:46:40,713 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331197257-0/src/FormValidator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331197257-0/src/FormValidator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-20 12:46:49,097 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-05-20 12:46:49,100 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-05-20 12:46:49,100 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331197257-0/src/FormValidator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331197257-0/src/FormValidator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-05-20 12:46:55,756 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -62,7 +66,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-05-06 17:24:44,317 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-20 12:46:55,757 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -157,11 +161,11 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 6s
 
-2019-05-06 17:24:44,317 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-05-06 17:24:44,317 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138261608-0/src/FormValidator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138261608-0/src/FormValidator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-05-06 17:26:08,428 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-20 12:46:55,757 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-05-20 12:46:55,757 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331197257-0/src/FormValidator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331197257-0/src/FormValidator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-05-20 12:48:22,812 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :validation:preBuild UP-TO-DATE
 > Task :validation:preDebugBuild UP-TO-DATE
@@ -312,11 +316,10 @@ Consider setting the experimental feature flag android.enableSeparateAnnotationP
 > Task :app:assemble
 
 > Task :app:lint
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/ced92d29967273c1771a4f1a559e0481/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 Ran lint on variant debug: 16 issues found
 Ran lint on variant release: 16 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138261608-0/src/FormValidator-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138261608-0/src/FormValidator-master/app/build/reports/lint-results.xml
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331197257-0/src/FormValidator-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331197257-0/src/FormValidator-master/app/build/reports/lint-results.xml
 
 > Task :app:compileDebugUnitTestKotlin
 > Task :app:generateDebugUnitTestSources
@@ -340,7 +343,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 23s
+BUILD SUCCESSFUL in 1m 26s
 113 actionable tasks: 113 executed
 
-2019-05-06 17:26:08,547 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138261608-0/src/FormValidator-master/app/build/outputs/apk/debug/app-debug.apk
+2019-05-20 12:48:22,942 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331197257-0/src/FormValidator-master/app/build/outputs/apk/debug/app-debug.apk
