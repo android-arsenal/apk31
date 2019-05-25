@@ -1,37 +1,37 @@
-2019-05-14 12:35:04,955 INFO  DownloadService - Downloading "https://github.com/savepopulation/peanut/archive/master.zip", attempt 3
-2019-05-14 12:35:07,052 INFO  DownloadService - Downloaded https://github.com/savepopulation/peanut/archive/master.zip, attempt 3
-2019-05-14 12:35:07,052 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812104952-0/master.zip": 141 KB
-2019-05-14 12:35:07,052 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-14 12:35:07,052 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812104952-0/master.zip: true
-2019-05-14 12:35:07,053 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812104952-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812104952-0/src'.
-2019-05-14 12:35:07,074 INFO  FullProcessService - Size of directory with sources: 147 KB
-2019-05-14 12:35:07,074 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812104952-0/src]
-2019-05-14 12:35:07,112 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812104952-0/src/.git/
+2019-05-25 19:24:49,423 INFO  DownloadService - Downloading "https://github.com/savepopulation/peanut/archive/master.zip", attempt 3
+2019-05-25 19:24:51,470 INFO  DownloadService - Downloaded https://github.com/savepopulation/peanut/archive/master.zip, attempt 3
+2019-05-25 19:24:51,470 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558787089415-0/master.zip": 141 KB
+2019-05-25 19:24:51,470 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-25 19:24:51,476 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558787089415-0/master.zip: true
+2019-05-25 19:24:51,476 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558787089415-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558787089415-0/src'.
+2019-05-25 19:24:51,493 INFO  FullProcessService - Size of directory with sources: 147 KB
+2019-05-25 19:24:51,493 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558787089415-0/src]
+2019-05-25 19:24:51,509 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558787089415-0/src/.git/
 
-2019-05-14 12:35:07,115 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812104952-0/src/peanut-master/gradlew
-2019-05-14 12:35:07,119 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812104952-0/src/peanut-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812104952-0/src/peanut-master/peanut/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812104952-0/src/peanut-master/build.gradle
-2019-05-14 12:35:07,122 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812104952-0/src/peanut-master/peanut/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812104952-0/src/peanut-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812104952-0/src/peanut-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812104952-0/src/peanut-master/settings.gradle
-2019-05-14 12:35:07,123 INFO  ProjectBuildService - Remote scripts: none
-2019-05-14 12:35:07,123 INFO  ProjectFixService - Fixing project...
-2019-05-14 12:35:07,131 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812104952-0/src/peanut-master/app/local.properties
-2019-05-14 12:35:07,132 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812104952-0/src/peanut-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=17,targetSdkVersion=26]
-2019-05-14 12:35:07,132 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812104952-0/src/peanut-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=17,targetSdkVersion=26]
-2019-05-14 12:35:07,133 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812104952-0/src/peanut-master/peanut/local.properties
-2019-05-14 12:35:07,134 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812104952-0/src/peanut-master/peanut/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=17,targetSdkVersion=26]
-2019-05-14 12:35:07,134 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812104952-0/src/peanut-master/peanut/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=17,targetSdkVersion=26]
-2019-05-14 12:35:07,135 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812104952-0/src/peanut-master/local.properties
-2019-05-14 12:35:07,135 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2019-05-14 12:35:07,136 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2019-05-14 12:35:07,137 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812104952-0/src/peanut-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=17,targetSdkVersion=26]
-2019-05-14 12:35:07,137 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812104952-0/src/peanut-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=17,targetSdkVersion=26]
-2019-05-14 12:35:07,137 INFO  ProjectFixService - Project was maybe fixed
-2019-05-14 12:35:07,137 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-14 12:35:07,137 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812104952-0/src/peanut-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812104952-0/src/peanut-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-14 12:35:25,957 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-05-14 12:35:25,957 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-05-14 12:35:25,957 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-05-14 12:35:25,958 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812104952-0/src/peanut-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812104952-0/src/peanut-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-05-14 12:35:31,902 ERROR SysUtils - Could not process external command
+2019-05-25 19:24:51,512 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558787089415-0/src/peanut-master/gradlew
+2019-05-25 19:24:51,514 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558787089415-0/src/peanut-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558787089415-0/src/peanut-master/peanut/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558787089415-0/src/peanut-master/build.gradle
+2019-05-25 19:24:51,517 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558787089415-0/src/peanut-master/peanut/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558787089415-0/src/peanut-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558787089415-0/src/peanut-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558787089415-0/src/peanut-master/settings.gradle
+2019-05-25 19:24:51,517 INFO  ProjectBuildService - Remote scripts: none
+2019-05-25 19:24:51,517 INFO  ProjectFixService - Fixing project...
+2019-05-25 19:24:51,523 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558787089415-0/src/peanut-master/app/local.properties
+2019-05-25 19:24:51,524 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558787089415-0/src/peanut-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=17,targetSdkVersion=26]
+2019-05-25 19:24:51,524 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558787089415-0/src/peanut-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=17,targetSdkVersion=26]
+2019-05-25 19:24:51,524 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558787089415-0/src/peanut-master/peanut/local.properties
+2019-05-25 19:24:51,525 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558787089415-0/src/peanut-master/peanut/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=17,targetSdkVersion=26]
+2019-05-25 19:24:51,525 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558787089415-0/src/peanut-master/peanut/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=17,targetSdkVersion=26]
+2019-05-25 19:24:51,526 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558787089415-0/src/peanut-master/local.properties
+2019-05-25 19:24:51,527 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-05-25 19:24:51,527 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-05-25 19:24:51,528 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558787089415-0/src/peanut-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=17,targetSdkVersion=26]
+2019-05-25 19:24:51,528 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558787089415-0/src/peanut-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=17,targetSdkVersion=26]
+2019-05-25 19:24:51,529 INFO  ProjectFixService - Project was maybe fixed
+2019-05-25 19:24:51,529 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-25 19:24:51,529 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558787089415-0/src/peanut-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558787089415-0/src/peanut-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-25 19:47:47,622 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 143 (Exit value: 143)
+2019-05-25 19:47:47,622 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-05-25 19:47:47,622 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-05-25 19:47:47,623 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558787089415-0/src/peanut-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558787089415-0/src/peanut-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-05-25 19:48:00,761 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -59,7 +59,9 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-05-14 12:35:31,902 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-25 19:48:00,762 INFO  SysUtils - Configuration on demand is an incubating feature.
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-reflect/1.2.21/kotlin-reflect-1.2.21.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.2.21/kotlin-compiler-embeddable-1.2.21.jar
 
 FAILURE: Build failed with an exception.
 
@@ -195,15 +197,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 12s
 
-2019-05-14 12:35:31,907 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-14 12:35:31,908 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812104952-0/src/peanut-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812104952-0/src/peanut-master/peanut/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-14 12:35:39,080 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-05-14 12:35:39,080 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-05-14 12:35:39,080 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-05-14 12:35:39,080 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812104952-0/src/peanut-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812104952-0/src/peanut-master/peanut/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-05-14 12:35:44,689 ERROR SysUtils - Could not process external command
+2019-05-25 19:48:00,766 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-25 19:48:00,766 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558787089415-0/src/peanut-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558787089415-0/src/peanut-master/peanut/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-25 19:48:05,747 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-05-25 19:48:05,747 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-05-25 19:48:05,747 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-05-25 19:48:05,747 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558787089415-0/src/peanut-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558787089415-0/src/peanut-master/peanut/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-05-25 19:48:10,777 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -231,7 +233,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-05-14 12:35:44,689 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-25 19:48:10,777 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -360,22 +362,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
 	... 85 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 4s
 
-2019-05-14 12:35:44,694 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-14 12:35:44,694 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812104952-0/src/peanut-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812104952-0/src/peanut-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-14 12:35:50,057 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-05-14 12:35:50,057 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-05-14 12:35:50,058 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-05-14 12:35:50,058 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812104952-0/src/peanut-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557812104952-0/src/peanut-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-05-14 12:35:55,534 ERROR SysUtils - Could not process external command
+2019-05-25 19:48:10,781 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-25 19:48:10,781 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558787089415-0/src/peanut-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558787089415-0/src/peanut-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-25 19:48:16,439 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-05-25 19:48:16,439 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-05-25 19:48:16,439 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-05-25 19:48:16,439 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558787089415-0/src/peanut-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558787089415-0/src/peanut-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-05-25 19:48:22,150 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -403,7 +405,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-05-14 12:35:55,534 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-25 19:48:22,150 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -541,5 +543,5 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED in 5s
 
-2019-05-14 12:35:55,540 ERROR FullProcessService - Project build has not produced APK file
-2019-05-14 12:35:55,546 ERROR FullProcessService - Could not find generated or existed APK file
+2019-05-25 19:48:22,154 ERROR FullProcessService - Project build has not produced APK file
+2019-05-25 19:48:22,157 ERROR FullProcessService - Could not find generated or existed APK file
