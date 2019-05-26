@@ -1,43 +1,58 @@
-2019-05-14 12:28:13,971 INFO  DownloadService - Downloading "https://github.com/grumpyshoe/android-module-bonjourconnect/archive/master.zip", attempt 3
-2019-05-14 12:28:16,336 INFO  DownloadService - Downloaded https://github.com/grumpyshoe/android-module-bonjourconnect/archive/master.zip, attempt 3
-2019-05-14 12:28:16,336 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/master.zip": 151 KB
-2019-05-14 12:28:16,336 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-14 12:28:16,342 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/master.zip: true
-2019-05-14 12:28:16,342 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src'.
-2019-05-14 12:28:16,365 INFO  FullProcessService - Size of directory with sources: 156 KB
-2019-05-14 12:28:16,365 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src]
-2019-05-14 12:28:16,396 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/.git/
+2019-05-26 16:30:36,021 INFO  DownloadService - Downloading "https://github.com/grumpyshoe/android-module-bonjourconnect/archive/master.zip", attempt 3
+2019-05-26 16:30:38,060 INFO  DownloadService - Downloaded https://github.com/grumpyshoe/android-module-bonjourconnect/archive/master.zip, attempt 3
+2019-05-26 16:30:38,060 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863036017-0/master.zip": 152 KB
+2019-05-26 16:30:38,061 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-26 16:30:38,066 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863036017-0/master.zip: true
+2019-05-26 16:30:38,066 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863036017-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863036017-0/src'.
+2019-05-26 16:30:38,085 INFO  FullProcessService - Size of directory with sources: 157 KB
+2019-05-26 16:30:38,086 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863036017-0/src]
+2019-05-26 16:30:38,110 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863036017-0/src/.git/
 
-2019-05-14 12:28:16,400 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/gradlew
-2019-05-14 12:28:16,405 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/bonjourconnect/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/build.gradle
-2019-05-14 12:28:16,408 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/bonjourconnect/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/settings.gradle
-2019-05-14 12:28:16,409 INFO  ProjectBuildService - Remote scripts: none
-2019-05-14 12:28:16,409 INFO  ProjectFixService - Fixing project...
-2019-05-14 12:28:16,419 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/bonjourconnect/local.properties
-2019-05-14 12:28:16,421 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/bonjourconnect/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=28]
-2019-05-14 12:28:16,421 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/bonjourconnect/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-14 12:28:16,422 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/sample/local.properties
-2019-05-14 12:28:16,424 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=28]
-2019-05-14 12:28:16,424 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-14 12:28:16,425 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/local.properties
-2019-05-14 12:28:16,426 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-05-14 12:28:16,426 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-05-14 12:28:16,428 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=28]
-2019-05-14 12:28:16,428 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-14 12:28:16,428 INFO  ProjectFixService - Project was maybe fixed
-2019-05-14 12:28:16,428 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-14 12:28:16,429 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/bonjourconnect/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-14 12:28:23,427 INFO  ProjectTaskService - Detected possible tasks: 63
-2019-05-14 12:28:23,427 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-05-14 12:28:23,427 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/bonjourconnect/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-05-14 12:28:45,624 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-26 16:30:38,113 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863036017-0/src/android-module-bonjourconnect-master/gradlew
+2019-05-26 16:30:38,116 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863036017-0/src/android-module-bonjourconnect-master/bonjourconnect/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863036017-0/src/android-module-bonjourconnect-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863036017-0/src/android-module-bonjourconnect-master/build.gradle
+2019-05-26 16:30:38,119 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863036017-0/src/android-module-bonjourconnect-master/bonjourconnect/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863036017-0/src/android-module-bonjourconnect-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863036017-0/src/android-module-bonjourconnect-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863036017-0/src/android-module-bonjourconnect-master/settings.gradle
+2019-05-26 16:30:38,119 INFO  ProjectBuildService - Remote scripts: none
+2019-05-26 16:30:38,119 INFO  ProjectFixService - Fixing project...
+2019-05-26 16:30:38,127 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863036017-0/src/android-module-bonjourconnect-master/bonjourconnect/local.properties
+2019-05-26 16:30:38,129 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863036017-0/src/android-module-bonjourconnect-master/bonjourconnect/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=28]
+2019-05-26 16:30:38,129 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863036017-0/src/android-module-bonjourconnect-master/bonjourconnect/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-05-26 16:30:38,131 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863036017-0/src/android-module-bonjourconnect-master/sample/local.properties
+2019-05-26 16:30:38,133 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863036017-0/src/android-module-bonjourconnect-master/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=28]
+2019-05-26 16:30:38,134 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863036017-0/src/android-module-bonjourconnect-master/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-05-26 16:30:38,135 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863036017-0/src/android-module-bonjourconnect-master/local.properties
+2019-05-26 16:30:38,136 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-05-26 16:30:38,136 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-05-26 16:30:38,137 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863036017-0/src/android-module-bonjourconnect-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=28]
+2019-05-26 16:30:38,137 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863036017-0/src/android-module-bonjourconnect-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-05-26 16:30:38,138 INFO  ProjectFixService - Project was maybe fixed
+2019-05-26 16:30:38,138 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-26 16:30:38,138 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863036017-0/src/android-module-bonjourconnect-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863036017-0/src/android-module-bonjourconnect-master/bonjourconnect/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-26 16:30:46,423 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-05-26 16:30:46,423 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-26 16:30:46,424 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863036017-0/src/android-module-bonjourconnect-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863036017-0/src/android-module-bonjourconnect-master/bonjourconnect/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-26 16:31:13,327 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :bonjourconnect:preBuild UP-TO-DATE
 > Task :bonjourconnect:preDebugBuild UP-TO-DATE
 > Task :bonjourconnect:checkDebugManifest
 > Task :bonjourconnect:generateDebugBuildConfig
+> Task :bonjourconnect:compileDebugAidl NO-SOURCE
+> Task :bonjourconnect:compileDebugRenderscript NO-SOURCE
 > Task :bonjourconnect:generateDebugResValues
+> Task :bonjourconnect:generateDebugResources
 > Task :bonjourconnect:processDebugManifest
+> Task :bonjourconnect:packageDebugResources
+> Task :bonjourconnect:generateDebugRFile
+> Task :bonjourconnect:kaptGenerateStubsDebugKotlin
+> Task :bonjourconnect:kaptDebugKotlin
+
+> Task :bonjourconnect:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863036017-0/src/android-module-bonjourconnect-master/bonjourconnect/src/main/java/com/grumpyshoe/module/bonjourconnect/impl/BonjourConnectImpl.kt: (27, 9): The corresponding parameter in the supertype 'BonjourConnect' is named 'type'. This may cause problems when calling this function with named arguments.
+
 > Task :bonjourconnect:prepareLintJar
+> Task :bonjourconnect:generateDebugSources
+> Task :bonjourconnect:javaPreCompileDebug
+> Task :bonjourconnect:compileDebugJavaWithJavac
+> Task :bonjourconnect:extractDebugAnnotations
 > Task :bonjourconnect:mergeDebugConsumerProguardFiles
 > Task :bonjourconnect:mergeDebugShaders
 > Task :bonjourconnect:compileDebugShaders
@@ -46,23 +61,11 @@
 > Task :bonjourconnect:packageDebugRenderscript NO-SOURCE
 > Task :bonjourconnect:prepareLintJarForPublish
 > Task :bonjourconnect:processDebugJavaRes NO-SOURCE
+> Task :bonjourconnect:transformResourcesWithMergeJavaResForDebug
+> Task :bonjourconnect:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :bonjourconnect:mergeDebugJniLibFolders
 > Task :bonjourconnect:transformNativeLibsWithMergeJniLibsForDebug
 > Task :bonjourconnect:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :bonjourconnect:compileDebugAidl NO-SOURCE
-> Task :bonjourconnect:compileDebugRenderscript NO-SOURCE
-> Task :bonjourconnect:generateDebugResources
-> Task :bonjourconnect:packageDebugResources
-> Task :bonjourconnect:generateDebugRFile
-> Task :bonjourconnect:kaptGenerateStubsDebugKotlin
-> Task :bonjourconnect:kaptDebugKotlin
-> Task :bonjourconnect:compileDebugKotlin
-> Task :bonjourconnect:generateDebugSources
-> Task :bonjourconnect:javaPreCompileDebug
-> Task :bonjourconnect:compileDebugJavaWithJavac
-> Task :bonjourconnect:extractDebugAnnotations
-> Task :bonjourconnect:transformResourcesWithMergeJavaResForDebug
-> Task :bonjourconnect:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :bonjourconnect:transformNativeLibsWithSyncJniLibsForDebug
 > Task :bonjourconnect:bundleDebugAar
 > Task :bonjourconnect:compileDebugSources
@@ -79,7 +82,10 @@
 > Task :bonjourconnect:generateReleaseRFile
 > Task :bonjourconnect:kaptGenerateStubsReleaseKotlin
 > Task :bonjourconnect:kaptReleaseKotlin
+
 > Task :bonjourconnect:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863036017-0/src/android-module-bonjourconnect-master/bonjourconnect/src/main/java/com/grumpyshoe/module/bonjourconnect/impl/BonjourConnectImpl.kt: (27, 9): The corresponding parameter in the supertype 'BonjourConnect' is named 'type'. This may cause problems when calling this function with named arguments.
+
 > Task :bonjourconnect:generateReleaseSources
 > Task :bonjourconnect:javaPreCompileRelease
 > Task :bonjourconnect:compileReleaseJavaWithJavac
@@ -109,25 +115,25 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 21s
+BUILD SUCCESSFUL in 26s
 50 actionable tasks: 50 executed
 
-2019-05-14 12:28:45,675 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-14 12:28:45,676 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-14 12:28:52,373 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-05-14 12:28:52,373 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-14 12:28:52,373 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-14 12:29:35,171 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-26 16:31:13,373 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-26 16:31:13,374 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863036017-0/src/android-module-bonjourconnect-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863036017-0/src/android-module-bonjourconnect-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-26 16:31:21,484 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-05-26 16:31:21,484 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-05-26 16:31:21,485 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863036017-0/src/android-module-bonjourconnect-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863036017-0/src/android-module-bonjourconnect-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-05-26 16:32:05,333 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :bonjourconnect:preBuild UP-TO-DATE
 > Task :bonjourconnect:preDebugBuild UP-TO-DATE
-> Task :bonjourconnect:compileDebugAidl NO-SOURCE
 > Task :bonjourconnect:checkDebugManifest UP-TO-DATE
+> Task :bonjourconnect:compileDebugAidl NO-SOURCE
 > Task :bonjourconnect:compileDebugRenderscript NO-SOURCE
 > Task :bonjourconnect:generateDebugBuildConfig UP-TO-DATE
 > Task :bonjourconnect:generateDebugResValues UP-TO-DATE
 > Task :bonjourconnect:generateDebugResources UP-TO-DATE
-> Task :bonjourconnect:processDebugManifest UP-TO-DATE
 > Task :bonjourconnect:packageDebugResources UP-TO-DATE
+> Task :bonjourconnect:processDebugManifest UP-TO-DATE
 > Task :bonjourconnect:generateDebugRFile UP-TO-DATE
 > Task :bonjourconnect:kaptGenerateStubsDebugKotlin UP-TO-DATE
 > Task :bonjourconnect:kaptDebugKotlin UP-TO-DATE
@@ -226,12 +232,9 @@ BUILD SUCCESSFUL in 21s
 > Task :sample:compileReleaseJavaWithJavac
 > Task :sample:compileReleaseSources
 > Task :bonjourconnect:prepareLintJarForPublish UP-TO-DATE
-
-> Task :sample:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/53c3a12fb6e497103c2a512d24ee6cdd/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-
 > Task :bonjourconnect:processReleaseJavaRes NO-SOURCE
 > Task :bonjourconnect:bundleLibResRelease
+> Task :sample:lintVitalRelease
 > Task :bonjourconnect:bundleLibRuntimeRelease
 > Task :bonjourconnect:createFullJarRelease
 > Task :sample:checkReleaseDuplicateClasses
@@ -265,7 +268,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 42s
+BUILD SUCCESSFUL in 43s
 103 actionable tasks: 67 executed, 36 up-to-date
 
-2019-05-14 12:29:35,315 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557811693963-0/src/android-module-bonjourconnect-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-05-26 16:32:05,427 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558863036017-0/src/android-module-bonjourconnect-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
