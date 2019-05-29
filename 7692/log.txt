@@ -1,0 +1,189 @@
+2019-05-29 13:50:51,635 INFO  DownloadService - Downloading "https://github.com/lopspower/CircleView/archive/master.zip", attempt 3
+2019-05-29 13:50:55,014 INFO  DownloadService - Downloaded https://github.com/lopspower/CircleView/archive/master.zip, attempt 3
+2019-05-29 13:50:55,015 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112651541-0/master.zip": 1 MB
+2019-05-29 13:50:55,015 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-29 13:50:55,034 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112651541-0/master.zip: true
+2019-05-29 13:50:55,035 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112651541-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112651541-0/src'.
+2019-05-29 13:50:55,071 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-05-29 13:50:55,076 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112651541-0/src]
+2019-05-29 13:50:55,116 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112651541-0/src/.git/
+
+2019-05-29 13:50:55,130 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112651541-0/src/CircleView-master/gradlew
+2019-05-29 13:50:55,144 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112651541-0/src/CircleView-master/circleview-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112651541-0/src/CircleView-master/circleview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112651541-0/src/CircleView-master/build.gradle
+2019-05-29 13:50:55,151 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112651541-0/src/CircleView-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112651541-0/src/CircleView-master/circleview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112651541-0/src/CircleView-master/circleview-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112651541-0/src/CircleView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112651541-0/src/CircleView-master/settings.gradle
+2019-05-29 13:50:55,157 INFO  ProjectBuildService - Remote scripts: none
+2019-05-29 13:50:55,157 INFO  ProjectFixService - Fixing project...
+2019-05-29 13:50:55,170 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2019-05-29 13:50:55,171 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
+2019-05-29 13:50:55,173 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 21.1.0 28.0.0 18.1.0 19.1.0 18.1.1
+2019-05-29 13:50:55,176 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 28.0.0-rc1 28.0.0-rc2
+2019-05-29 13:50:55,180 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 11 27 18 20 21 26 19 10 17 28 6 8 9 7
+2019-05-29 13:50:55,181 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28
+2019-05-29 13:50:55,216 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112651541-0/src/CircleView-master/circleview-example/local.properties
+2019-05-29 13:50:55,226 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112651541-0/src/CircleView-master/circleview-example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-05-29 13:50:55,230 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112651541-0/src/CircleView-master/circleview-example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-05-29 13:50:55,231 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112651541-0/src/CircleView-master/circleview/local.properties
+2019-05-29 13:50:55,235 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112651541-0/src/CircleView-master/circleview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-05-29 13:50:55,235 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112651541-0/src/CircleView-master/circleview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-05-29 13:50:55,236 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112651541-0/src/CircleView-master/local.properties
+2019-05-29 13:50:55,250 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-05-29 13:50:55,251 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-05-29 13:50:55,254 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112651541-0/src/CircleView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-05-29 13:50:55,254 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112651541-0/src/CircleView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-05-29 13:50:55,255 INFO  ProjectFixService - Project was maybe fixed
+2019-05-29 13:50:55,257 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-29 13:50:55,258 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112651541-0/src/CircleView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112651541-0/src/CircleView-master/circleview-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-29 13:51:06,018 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-05-29 13:51:06,019 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-05-29 13:51:06,019 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112651541-0/src/CircleView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112651541-0/src/CircleView-master/circleview-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-05-29 13:52:06,854 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :circleview
+WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
+> Task :circleview:preBuild UP-TO-DATE
+> Task :circleview:preDebugBuild UP-TO-DATE
+> Task :circleview:compileDebugAidl NO-SOURCE
+> Task :circleview:compileDebugRenderscript NO-SOURCE
+> Task :circleview:checkDebugManifest
+> Task :circleview:generateDebugBuildConfig
+> Task :circleview:generateDebugResValues
+> Task :circleview:generateDebugResources
+> Task :circleview:packageDebugResources
+> Task :circleview:processDebugManifest
+> Task :circleview:generateDebugRFile
+> Task :circleview:compileDebugKotlin
+> Task :circleview:prepareLintJar
+> Task :circleview:generateDebugSources
+> Task :circleview:javaPreCompileDebug
+> Task :circleview:compileDebugJavaWithJavac
+> Task :circleview:bundleLibCompileDebug
+> Task :circleview-example:preBuild UP-TO-DATE
+> Task :circleview-example:preDebugBuild
+> Task :circleview-example:compileDebugAidl NO-SOURCE
+> Task :circleview:packageDebugRenderscript NO-SOURCE
+> Task :circleview-example:compileDebugRenderscript NO-SOURCE
+> Task :circleview-example:checkDebugManifest
+> Task :circleview-example:generateDebugBuildConfig
+> Task :circleview-example:mainApkListPersistenceDebug
+> Task :circleview-example:generateDebugResValues
+> Task :circleview-example:generateDebugResources
+> Task :circleview-example:mergeDebugResources
+> Task :circleview-example:createDebugCompatibleScreenManifests
+> Task :circleview-example:processDebugManifest
+> Task :circleview-example:processDebugResources
+> Task :circleview-example:compileDebugKotlin
+> Task :circleview-example:prepareLintJar
+> Task :circleview-example:generateDebugSources
+> Task :circleview-example:javaPreCompileDebug
+> Task :circleview-example:compileDebugJavaWithJavac
+> Task :circleview-example:compileDebugSources
+> Task :circleview:mergeDebugShaders
+> Task :circleview:compileDebugShaders
+> Task :circleview:generateDebugAssets
+> Task :circleview:packageDebugAssets
+> Task :circleview-example:mergeDebugShaders
+> Task :circleview-example:compileDebugShaders
+> Task :circleview-example:generateDebugAssets
+> Task :circleview-example:mergeDebugAssets
+> Task :circleview:processDebugJavaRes NO-SOURCE
+> Task :circleview:bundleLibResDebug
+> Task :circleview:bundleLibRuntimeDebug
+> Task :circleview:createFullJarDebug
+> Task :circleview-example:checkDebugDuplicateClasses
+> Task :circleview-example:mergeExtDexDebug
+> Task :circleview-example:transformClassesWithDexBuilderForDebug
+> Task :circleview-example:mergeDexDebug
+> Task :circleview-example:validateSigningDebug
+> Task :circleview-example:signingConfigWriterDebug
+> Task :circleview:mergeDebugJniLibFolders
+> Task :circleview:transformNativeLibsWithMergeJniLibsForDebug
+> Task :circleview:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :circleview:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :circleview-example:mergeDebugJniLibFolders
+> Task :circleview-example:transformNativeLibsWithMergeJniLibsForDebug
+> Task :circleview-example:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :circleview-example:processDebugJavaRes NO-SOURCE
+> Task :circleview-example:transformResourcesWithMergeJavaResForDebug
+> Task :circleview-example:packageDebug
+> Task :circleview-example:assembleDebug
+> Task :circleview:preReleaseBuild UP-TO-DATE
+> Task :circleview:compileReleaseAidl NO-SOURCE
+> Task :circleview:compileReleaseRenderscript NO-SOURCE
+> Task :circleview:checkReleaseManifest
+> Task :circleview:generateReleaseBuildConfig
+> Task :circleview:generateReleaseResValues
+> Task :circleview:generateReleaseResources
+> Task :circleview:packageReleaseResources
+> Task :circleview:processReleaseManifest
+> Task :circleview:generateReleaseRFile
+> Task :circleview:compileReleaseKotlin
+> Task :circleview:generateReleaseSources
+> Task :circleview:javaPreCompileRelease
+> Task :circleview:compileReleaseJavaWithJavac
+> Task :circleview:bundleLibCompileRelease
+> Task :circleview-example:preReleaseBuild
+> Task :circleview-example:compileReleaseAidl NO-SOURCE
+> Task :circleview:packageReleaseRenderscript NO-SOURCE
+> Task :circleview-example:compileReleaseRenderscript NO-SOURCE
+> Task :circleview-example:checkReleaseManifest
+> Task :circleview-example:generateReleaseBuildConfig
+> Task :circleview-example:mainApkListPersistenceRelease
+> Task :circleview-example:generateReleaseResValues
+> Task :circleview-example:generateReleaseResources
+> Task :circleview-example:mergeReleaseResources
+> Task :circleview-example:createReleaseCompatibleScreenManifests
+> Task :circleview-example:processReleaseManifest
+> Task :circleview-example:processReleaseResources
+> Task :circleview-example:compileReleaseKotlin
+> Task :circleview-example:generateReleaseSources
+> Task :circleview-example:javaPreCompileRelease
+> Task :circleview-example:compileReleaseJavaWithJavac
+> Task :circleview-example:compileReleaseSources
+> Task :circleview:prepareLintJarForPublish
+
+> Task :circleview-example:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/d3995e64927757fe62a01626664b4d82/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :circleview:processReleaseJavaRes NO-SOURCE
+> Task :circleview:bundleLibResRelease
+> Task :circleview:bundleLibRuntimeRelease
+> Task :circleview:createFullJarRelease
+> Task :circleview-example:checkReleaseDuplicateClasses
+> Task :circleview-example:mergeExtDexRelease
+> Task :circleview-example:transformClassesWithDexBuilderForRelease
+> Task :circleview-example:mergeDexRelease
+> Task :circleview:mergeReleaseShaders
+> Task :circleview:compileReleaseShaders
+> Task :circleview:generateReleaseAssets
+> Task :circleview:packageReleaseAssets
+> Task :circleview-example:mergeReleaseShaders
+> Task :circleview-example:compileReleaseShaders
+> Task :circleview-example:generateReleaseAssets
+> Task :circleview-example:mergeReleaseAssets
+> Task :circleview-example:signingConfigWriterRelease
+> Task :circleview:mergeReleaseJniLibFolders
+> Task :circleview:transformNativeLibsWithMergeJniLibsForRelease
+> Task :circleview:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :circleview:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :circleview-example:mergeReleaseJniLibFolders
+> Task :circleview-example:transformNativeLibsWithMergeJniLibsForRelease
+> Task :circleview-example:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :circleview-example:processReleaseJavaRes NO-SOURCE
+> Task :circleview-example:transformResourcesWithMergeJavaResForRelease
+> Task :circleview-example:packageRelease
+> Task :circleview-example:assembleRelease
+> Task :circleview-example:assemble
+> Task :circleview-example:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1m 0s
+95 actionable tasks: 95 executed
+
+2019-05-29 13:52:06,942 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559112651541-0/src/CircleView-master/circleview-example/build/outputs/apk/release/circleview-example-release-unsigned.apk
