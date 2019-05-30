@@ -1,0 +1,251 @@
+2019-05-30 19:30:48,657 INFO  DownloadService - Downloading "https://github.com/vivchar/RendererRecyclerViewAdapter/archive/master.zip", attempt 3
+2019-05-30 19:30:54,887 INFO  DownloadService - Downloaded https://github.com/vivchar/RendererRecyclerViewAdapter/archive/master.zip, attempt 3
+2019-05-30 19:30:54,888 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559219448571-0/master.zip": 4 MB
+2019-05-30 19:30:54,889 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-30 19:30:54,904 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559219448571-0/master.zip: true
+2019-05-30 19:30:54,905 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559219448571-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559219448571-0/src'.
+2019-05-30 19:30:55,004 INFO  FullProcessService - Size of directory with sources: 5 MB
+2019-05-30 19:30:55,008 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559219448571-0/src]
+2019-05-30 19:30:55,046 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559219448571-0/src/.git/
+
+2019-05-30 19:30:55,067 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559219448571-0/src/RendererRecyclerViewAdapter-master/gradlew
+2019-05-30 19:30:55,080 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559219448571-0/src/RendererRecyclerViewAdapter-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559219448571-0/src/RendererRecyclerViewAdapter-master/network/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559219448571-0/src/RendererRecyclerViewAdapter-master/rendererrecyclerviewadapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559219448571-0/src/RendererRecyclerViewAdapter-master/build.gradle
+2019-05-30 19:30:55,087 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559219448571-0/src/RendererRecyclerViewAdapter-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559219448571-0/src/RendererRecyclerViewAdapter-master/network/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559219448571-0/src/RendererRecyclerViewAdapter-master/rendererrecyclerviewadapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559219448571-0/src/RendererRecyclerViewAdapter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559219448571-0/src/RendererRecyclerViewAdapter-master/maven.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559219448571-0/src/RendererRecyclerViewAdapter-master/settings.gradle
+2019-05-30 19:30:55,093 INFO  ProjectBuildService - Remote scripts: none
+2019-05-30 19:30:55,093 INFO  ProjectFixService - Fixing project...
+2019-05-30 19:30:55,158 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2019-05-30 19:30:55,159 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
+2019-05-30 19:30:55,161 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 21.1.0 28.0.0 18.1.0 19.1.0 18.1.1
+2019-05-30 19:30:55,163 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 28.0.0-rc1 28.0.0-rc2
+2019-05-30 19:30:55,166 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 11 27 18 20 21 26 19 10 17 28 6 8 9 7
+2019-05-30 19:30:55,167 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28
+2019-05-30 19:30:55,168 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559219448571-0/src/RendererRecyclerViewAdapter-master/example/local.properties
+2019-05-30 19:30:55,181 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559219448571-0/src/RendererRecyclerViewAdapter-master/example/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-05-30 19:30:55,185 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559219448571-0/src/RendererRecyclerViewAdapter-master/network/local.properties
+2019-05-30 19:30:55,188 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559219448571-0/src/RendererRecyclerViewAdapter-master/network/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-05-30 19:30:55,189 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559219448571-0/src/RendererRecyclerViewAdapter-master/rendererrecyclerviewadapter/local.properties
+2019-05-30 19:30:55,192 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559219448571-0/src/RendererRecyclerViewAdapter-master/rendererrecyclerviewadapter/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-05-30 19:30:55,192 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559219448571-0/src/RendererRecyclerViewAdapter-master/local.properties
+2019-05-30 19:30:55,193 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-05-30 19:30:55,194 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-05-30 19:30:55,194 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559219448571-0/src/RendererRecyclerViewAdapter-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-05-30 19:30:55,195 INFO  ProjectFixService - Project was maybe fixed
+2019-05-30 19:30:55,197 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-30 19:30:55,197 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559219448571-0/src/RendererRecyclerViewAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559219448571-0/src/RendererRecyclerViewAdapter-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-30 19:31:04,278 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-05-30 19:31:04,281 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-05-30 19:31:04,281 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559219448571-0/src/RendererRecyclerViewAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559219448571-0/src/RendererRecyclerViewAdapter-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-05-30 19:32:05,308 INFO  SysUtils - Configuration on demand is an incubating feature.
+RELEASE BUILD
+:example:checkDebugClasspath
+Download https://dl.google.com/dl/android/maven2/androidx/percentlayout/percentlayout/1.0.0/percentlayout-1.0.0.aar
+Download https://jcenter.bintray.com/com/github/bumptech/glide/annotations/4.0.0/annotations-4.0.0.jar
+Download https://jcenter.bintray.com/com/github/bumptech/glide/disklrucache/4.0.0/disklrucache-4.0.0.jar
+Download https://jcenter.bintray.com/com/github/bumptech/glide/gifdecoder/4.0.0/gifdecoder-4.0.0.jar
+Download https://jcenter.bintray.com/jp/wasabeef/glide-transformations/3.0.1/glide-transformations-3.0.1.aar
+Download https://jcenter.bintray.com/com/github/bumptech/glide/glide/4.0.0/glide-4.0.0.jar
+ERROR: [TAG] Failed to resolve variable '${project.groupId}'
+ERROR: [TAG] Failed to resolve variable '${project.version}'
+:example:preBuild UP-TO-DATE
+:network:preBuild UP-TO-DATE
+:network:preDebugBuild UP-TO-DATE
+:network:checkDebugManifest
+:network:processDebugManifest
+:rendererrecyclerviewadapter:preBuild UP-TO-DATE
+:rendererrecyclerviewadapter:preDebugBuild UP-TO-DATE
+:rendererrecyclerviewadapter:checkDebugManifest
+:rendererrecyclerviewadapter:processDebugManifest
+:example:preDebugBuild
+:network:compileDebugAidl NO-SOURCE
+:rendererrecyclerviewadapter:compileDebugAidl NO-SOURCE
+:example:compileDebugAidl NO-SOURCE
+:network:packageDebugRenderscript NO-SOURCE
+:rendererrecyclerviewadapter:packageDebugRenderscript NO-SOURCE
+:example:compileDebugRenderscript
+:example:checkDebugManifest
+:example:generateDebugBuildConfig
+:example:prepareLintJar
+:example:mainApkListPersistenceDebug
+:example:generateDebugResValues
+:example:generateDebugResources
+:network:compileDebugRenderscript
+:network:generateDebugResValues
+:network:generateDebugResources
+:network:packageDebugResources
+:rendererrecyclerviewadapter:compileDebugRenderscript
+:rendererrecyclerviewadapter:generateDebugResValues
+:rendererrecyclerviewadapter:generateDebugResources
+:rendererrecyclerviewadapter:packageDebugResources
+:example:mergeDebugResources
+:example:createDebugCompatibleScreenManifests
+:example:processDebugManifest
+:example:splitsDiscoveryTaskDebug
+:network:generateDebugRFile
+:rendererrecyclerviewadapter:generateDebugRFile
+:example:processDebugResources
+:example:generateDebugSources
+:network:generateDebugBuildConfig
+:network:prepareLintJar
+:network:generateDebugSources
+:network:javaPreCompileDebug
+:network:compileDebugJavaWithJavac
+:network:processDebugJavaRes NO-SOURCE
+:network:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:rendererrecyclerviewadapter:generateDebugBuildConfig
+:rendererrecyclerviewadapter:prepareLintJar
+:rendererrecyclerviewadapter:generateDebugSources
+:rendererrecyclerviewadapter:javaPreCompileDebug
+:rendererrecyclerviewadapter:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:rendererrecyclerviewadapter:processDebugJavaRes NO-SOURCE
+:rendererrecyclerviewadapter:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:example:javaPreCompileDebug
+Download https://jcenter.bintray.com/com/github/bumptech/glide/compiler/4.0.0/compiler-4.0.0.jar
+ERROR: [TAG] Failed to resolve variable '${animal.sniffer.version}'
+:example:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:example:compileDebugNdk NO-SOURCE
+:example:compileDebugSources
+:example:mergeDebugShaders
+:example:compileDebugShaders
+:example:generateDebugAssets
+:network:mergeDebugShaders
+:network:compileDebugShaders
+:network:generateDebugAssets
+:network:packageDebugAssets
+:rendererrecyclerviewadapter:mergeDebugShaders
+:rendererrecyclerviewadapter:compileDebugShaders
+:rendererrecyclerviewadapter:generateDebugAssets
+:rendererrecyclerviewadapter:packageDebugAssets
+:example:mergeDebugAssets
+:example:transformClassesWithDexBuilderForDebug
+:example:transformDexArchiveWithExternalLibsDexMergerForDebug
+:example:transformDexArchiveWithDexMergerForDebug
+:example:mergeDebugJniLibFolders
+:network:compileDebugNdk NO-SOURCE
+:network:mergeDebugJniLibFolders
+:network:transformNativeLibsWithMergeJniLibsForDebug
+:network:transformNativeLibsWithStripDebugSymbolForDebug
+:network:transformNativeLibsWithIntermediateJniLibsForDebug
+:rendererrecyclerviewadapter:compileDebugNdk NO-SOURCE
+:rendererrecyclerviewadapter:mergeDebugJniLibFolders
+:rendererrecyclerviewadapter:transformNativeLibsWithMergeJniLibsForDebug
+:rendererrecyclerviewadapter:transformNativeLibsWithStripDebugSymbolForDebug
+:rendererrecyclerviewadapter:transformNativeLibsWithIntermediateJniLibsForDebug
+:example:transformNativeLibsWithMergeJniLibsForDebug
+:example:transformNativeLibsWithStripDebugSymbolForDebug
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559219448571-0/src/RendererRecyclerViewAdapter-master/example/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/libgpuimage-library.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559219448571-0/src/RendererRecyclerViewAdapter-master/example/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips64/libgpuimage-library.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559219448571-0/src/RendererRecyclerViewAdapter-master/example/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libgpuimage-library.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+:example:checkDebugLibraries
+:example:processDebugJavaRes NO-SOURCE
+:example:transformResourcesWithMergeJavaResForDebug
+:example:validateSigningDebug
+:example:packageDebug
+:example:assembleDebug
+:example:checkReleaseClasspath
+:network:preReleaseBuild UP-TO-DATE
+:network:checkReleaseManifest
+:network:processReleaseManifest
+:rendererrecyclerviewadapter:preReleaseBuild UP-TO-DATE
+:rendererrecyclerviewadapter:checkReleaseManifest
+:rendererrecyclerviewadapter:processReleaseManifest
+:example:preReleaseBuild
+:network:compileReleaseAidl NO-SOURCE
+:rendererrecyclerviewadapter:compileReleaseAidl NO-SOURCE
+:example:compileReleaseAidl NO-SOURCE
+:network:packageReleaseRenderscript NO-SOURCE
+:rendererrecyclerviewadapter:packageReleaseRenderscript NO-SOURCE
+:example:compileReleaseRenderscript
+:example:checkReleaseManifest
+:example:generateReleaseBuildConfig
+:example:mainApkListPersistenceRelease
+:example:generateReleaseResValues
+:example:generateReleaseResources
+:network:compileReleaseRenderscript
+:network:generateReleaseResValues
+:network:generateReleaseResources
+:network:packageReleaseResources
+:rendererrecyclerviewadapter:compileReleaseRenderscript
+:rendererrecyclerviewadapter:generateReleaseResValues
+:rendererrecyclerviewadapter:generateReleaseResources
+:rendererrecyclerviewadapter:packageReleaseResources
+:example:mergeReleaseResources
+:example:createReleaseCompatibleScreenManifests
+:example:processReleaseManifest
+:example:splitsDiscoveryTaskRelease
+:network:generateReleaseRFile
+:rendererrecyclerviewadapter:generateReleaseRFile
+:example:processReleaseResources
+:example:generateReleaseSources
+:network:generateReleaseBuildConfig
+:network:generateReleaseSources
+:network:javaPreCompileRelease
+:network:compileReleaseJavaWithJavac
+:network:processReleaseJavaRes NO-SOURCE
+:network:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:rendererrecyclerviewadapter:generateReleaseBuildConfig
+:rendererrecyclerviewadapter:generateReleaseSources
+:rendererrecyclerviewadapter:javaPreCompileRelease
+:rendererrecyclerviewadapter:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:rendererrecyclerviewadapter:processReleaseJavaRes NO-SOURCE
+:rendererrecyclerviewadapter:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:example:javaPreCompileRelease
+:example:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:example:compileReleaseNdk NO-SOURCE
+:example:compileReleaseSources
+:example:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/26d0d7b3fbfef90854ce41025c6d9020/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:example:mergeReleaseShaders
+:example:compileReleaseShaders
+:example:generateReleaseAssets
+:network:mergeReleaseShaders
+:network:compileReleaseShaders
+:network:generateReleaseAssets
+:network:packageReleaseAssets
+:rendererrecyclerviewadapter:mergeReleaseShaders
+:rendererrecyclerviewadapter:compileReleaseShaders
+:rendererrecyclerviewadapter:generateReleaseAssets
+:rendererrecyclerviewadapter:packageReleaseAssets
+:example:mergeReleaseAssets
+:example:transformClassesWithDexBuilderForRelease
+:example:transformDexArchiveWithExternalLibsDexMergerForRelease
+:example:transformDexArchiveWithDexMergerForRelease
+:example:mergeReleaseJniLibFolders
+:network:compileReleaseNdk NO-SOURCE
+:network:mergeReleaseJniLibFolders
+:network:transformNativeLibsWithMergeJniLibsForRelease
+:network:transformNativeLibsWithStripDebugSymbolForRelease
+:network:transformNativeLibsWithIntermediateJniLibsForRelease
+:rendererrecyclerviewadapter:compileReleaseNdk NO-SOURCE
+:rendererrecyclerviewadapter:mergeReleaseJniLibFolders
+:rendererrecyclerviewadapter:transformNativeLibsWithMergeJniLibsForRelease
+:rendererrecyclerviewadapter:transformNativeLibsWithStripDebugSymbolForRelease
+:rendererrecyclerviewadapter:transformNativeLibsWithIntermediateJniLibsForRelease
+:example:transformNativeLibsWithMergeJniLibsForRelease
+:example:transformNativeLibsWithStripDebugSymbolForRelease
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559219448571-0/src/RendererRecyclerViewAdapter-master/example/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/libgpuimage-library.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559219448571-0/src/RendererRecyclerViewAdapter-master/example/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips64/libgpuimage-library.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559219448571-0/src/RendererRecyclerViewAdapter-master/example/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi/libgpuimage-library.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+:example:checkReleaseLibraries
+:example:processReleaseJavaRes NO-SOURCE
+:example:transformResourcesWithMergeJavaResForRelease
+:example:packageRelease
+:example:assembleRelease
+:example:assemble
+:example:build
+
+BUILD SUCCESSFUL in 1m 0s
+125 actionable tasks: 125 executed
+
+2019-05-30 19:32:05,432 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559219448571-0/src/RendererRecyclerViewAdapter-master/example/build/outputs/apk/release/example-release-unsigned.apk
