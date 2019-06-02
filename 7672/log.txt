@@ -1,42 +1,36 @@
-2019-05-19 17:22:39,847 INFO  DownloadService - Downloading "https://github.com/TayfunCesur/Stepper/archive/master.zip", attempt 3
-2019-05-19 17:22:56,812 INFO  DownloadService - Downloaded https://github.com/TayfunCesur/Stepper/archive/master.zip, attempt 3
-2019-05-19 17:22:56,812 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261359763-0/master.zip": 836 KB
-2019-05-19 17:22:56,813 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-19 17:22:56,834 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261359763-0/master.zip: true
-2019-05-19 17:22:56,835 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261359763-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261359763-0/src'.
-2019-05-19 17:22:56,879 INFO  FullProcessService - Size of directory with sources: 947 KB
-2019-05-19 17:22:56,883 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261359763-0/src]
-2019-05-19 17:22:56,919 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261359763-0/src/.git/
+2019-06-02 22:15:05,285 INFO  DownloadService - Downloading "https://github.com/TayfunCesur/Stepper/archive/master.zip", attempt 3
+2019-06-02 22:15:08,040 INFO  DownloadService - Downloaded https://github.com/TayfunCesur/Stepper/archive/master.zip, attempt 3
+2019-06-02 22:15:08,040 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559488505275-0/master.zip": 836 KB
+2019-06-02 22:15:08,040 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-02 22:15:08,046 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559488505275-0/master.zip: true
+2019-06-02 22:15:08,046 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559488505275-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559488505275-0/src'.
+2019-06-02 22:15:08,073 INFO  FullProcessService - Size of directory with sources: 947 KB
+2019-06-02 22:15:08,073 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559488505275-0/src]
+2019-06-02 22:15:08,128 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559488505275-0/src/.git/
 
-2019-05-19 17:22:56,937 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261359763-0/src/Stepper-master/gradlew
-2019-05-19 17:22:56,950 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261359763-0/src/Stepper-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261359763-0/src/Stepper-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261359763-0/src/Stepper-master/build.gradle
-2019-05-19 17:22:56,956 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261359763-0/src/Stepper-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261359763-0/src/Stepper-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261359763-0/src/Stepper-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261359763-0/src/Stepper-master/settings.gradle
-2019-05-19 17:22:56,958 INFO  ProjectBuildService - Remote scripts: none
-2019-05-19 17:22:56,959 INFO  ProjectFixService - Fixing project...
-2019-05-19 17:22:57,010 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
-2019-05-19 17:22:57,010 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
-2019-05-19 17:22:57,013 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 21.1.0 28.0.0 18.1.0 19.1.0 18.1.1
-2019-05-19 17:22:57,017 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 28.0.0-rc1 28.0.0-rc2
-2019-05-19 17:22:57,019 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 11 27 18 20 21 26 19 10 17 28 6 8 9 7
-2019-05-19 17:22:57,021 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28
-2019-05-19 17:22:57,021 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261359763-0/src/Stepper-master/app/local.properties
-2019-05-19 17:22:57,028 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261359763-0/src/Stepper-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-19 17:22:57,032 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261359763-0/src/Stepper-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-19 17:22:57,033 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261359763-0/src/Stepper-master/lib/local.properties
-2019-05-19 17:22:57,035 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261359763-0/src/Stepper-master/lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-19 17:22:57,035 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261359763-0/src/Stepper-master/lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-19 17:22:57,037 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261359763-0/src/Stepper-master/local.properties
-2019-05-19 17:22:57,042 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-05-19 17:22:57,042 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-05-19 17:22:57,044 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261359763-0/src/Stepper-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-19 17:22:57,045 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261359763-0/src/Stepper-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-19 17:22:57,046 INFO  ProjectFixService - Project was maybe fixed
-2019-05-19 17:22:57,047 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-19 17:22:57,048 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261359763-0/src/Stepper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261359763-0/src/Stepper-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-19 17:23:06,244 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-05-19 17:23:06,244 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-19 17:23:06,244 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261359763-0/src/Stepper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261359763-0/src/Stepper-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-19 17:24:04,158 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-02 22:15:08,131 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559488505275-0/src/Stepper-master/gradlew
+2019-06-02 22:15:08,134 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559488505275-0/src/Stepper-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559488505275-0/src/Stepper-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559488505275-0/src/Stepper-master/build.gradle
+2019-06-02 22:15:08,136 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559488505275-0/src/Stepper-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559488505275-0/src/Stepper-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559488505275-0/src/Stepper-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559488505275-0/src/Stepper-master/settings.gradle
+2019-06-02 22:15:08,136 INFO  ProjectBuildService - Remote scripts: none
+2019-06-02 22:15:08,136 INFO  ProjectFixService - Fixing project...
+2019-06-02 22:15:08,142 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559488505275-0/src/Stepper-master/app/local.properties
+2019-06-02 22:15:08,143 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559488505275-0/src/Stepper-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-06-02 22:15:08,143 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559488505275-0/src/Stepper-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-06-02 22:15:08,144 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559488505275-0/src/Stepper-master/lib/local.properties
+2019-06-02 22:15:08,145 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559488505275-0/src/Stepper-master/lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-06-02 22:15:08,146 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559488505275-0/src/Stepper-master/lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-06-02 22:15:08,146 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559488505275-0/src/Stepper-master/local.properties
+2019-06-02 22:15:08,147 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-06-02 22:15:08,148 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-06-02 22:15:08,149 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559488505275-0/src/Stepper-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-06-02 22:15:08,149 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559488505275-0/src/Stepper-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-06-02 22:15:08,149 INFO  ProjectFixService - Project was maybe fixed
+2019-06-02 22:15:08,150 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-02 22:15:08,150 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559488505275-0/src/Stepper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559488505275-0/src/Stepper-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-02 22:15:15,985 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-06-02 22:15:15,986 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-06-02 22:15:15,986 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559488505275-0/src/Stepper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559488505275-0/src/Stepper-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-06-02 22:16:05,629 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :lib:preBuild UP-TO-DATE
 > Task :lib:preDebugBuild UP-TO-DATE
@@ -173,7 +167,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 57s
+BUILD SUCCESSFUL in 48s
 92 actionable tasks: 92 executed
 
-2019-05-19 17:24:04,288 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261359763-0/src/Stepper-master/app/build/outputs/apk/debug/app-debug.apk
+2019-06-02 22:16:05,706 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559488505275-0/src/Stepper-master/app/build/outputs/apk/debug/app-debug.apk
