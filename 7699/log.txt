@@ -1,0 +1,175 @@
+2019-06-09 19:39:51,300 INFO  DownloadService - Downloading "https://github.com/andreasagap/LoadingButtonLibrary/archive/master.zip", attempt 3
+2019-06-09 19:39:53,850 INFO  DownloadService - Downloaded https://github.com/andreasagap/LoadingButtonLibrary/archive/master.zip, attempt 3
+2019-06-09 19:39:53,851 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560083991184-0/master.zip": 338 KB
+2019-06-09 19:39:53,852 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-09 19:39:53,867 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560083991184-0/master.zip: true
+2019-06-09 19:39:53,868 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560083991184-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560083991184-0/src'.
+2019-06-09 19:39:53,911 INFO  FullProcessService - Size of directory with sources: 631 KB
+2019-06-09 19:39:53,915 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560083991184-0/src]
+2019-06-09 19:39:53,961 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560083991184-0/src/.git/
+
+2019-06-09 19:39:53,984 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560083991184-0/src/LoadingButtonLibrary-master/gradlew
+2019-06-09 19:39:54,001 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560083991184-0/src/LoadingButtonLibrary-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560083991184-0/src/LoadingButtonLibrary-master/loadingbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560083991184-0/src/LoadingButtonLibrary-master/build.gradle
+2019-06-09 19:39:54,010 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560083991184-0/src/LoadingButtonLibrary-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560083991184-0/src/LoadingButtonLibrary-master/loadingbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560083991184-0/src/LoadingButtonLibrary-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560083991184-0/src/LoadingButtonLibrary-master/settings.gradle
+2019-06-09 19:39:54,014 INFO  ProjectBuildService - Remote scripts: none
+2019-06-09 19:39:54,015 INFO  ProjectFixService - Fixing project...
+2019-06-09 19:39:54,076 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2019-06-09 19:39:54,077 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
+2019-06-09 19:39:54,105 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 21.1.0 28.0.0 18.1.0 19.1.0 18.1.1
+2019-06-09 19:39:54,109 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 28.0.0-rc1 28.0.0-rc2
+2019-06-09 19:39:54,139 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 11 27 18 20 21 26 19 10 17 28 6 8 9 7
+2019-06-09 19:39:54,140 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28
+2019-06-09 19:39:54,140 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560083991184-0/src/LoadingButtonLibrary-master/app/local.properties
+2019-06-09 19:39:54,149 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560083991184-0/src/LoadingButtonLibrary-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-06-09 19:39:54,154 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560083991184-0/src/LoadingButtonLibrary-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-06-09 19:39:54,157 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560083991184-0/src/LoadingButtonLibrary-master/loadingbutton/local.properties
+2019-06-09 19:39:54,161 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560083991184-0/src/LoadingButtonLibrary-master/loadingbutton/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-06-09 19:39:54,161 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560083991184-0/src/LoadingButtonLibrary-master/loadingbutton/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-06-09 19:39:54,163 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560083991184-0/src/LoadingButtonLibrary-master/local.properties
+2019-06-09 19:39:54,169 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-06-09 19:39:54,170 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-06-09 19:39:54,172 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560083991184-0/src/LoadingButtonLibrary-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-06-09 19:39:54,172 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560083991184-0/src/LoadingButtonLibrary-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-06-09 19:39:54,173 INFO  ProjectFixService - Project was maybe fixed
+2019-06-09 19:39:54,175 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-09 19:39:54,176 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560083991184-0/src/LoadingButtonLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560083991184-0/src/LoadingButtonLibrary-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-09 19:40:04,742 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-06-09 19:40:04,742 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-06-09 19:40:04,743 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560083991184-0/src/LoadingButtonLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560083991184-0/src/LoadingButtonLibrary-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-06-09 19:40:44,099 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:loadingbutton:preBuild UP-TO-DATE
+:loadingbutton:preDebugBuild UP-TO-DATE
+:loadingbutton:checkDebugManifest
+:loadingbutton:processDebugManifest
+:app:preDebugBuild
+:loadingbutton:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:loadingbutton:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:loadingbutton:compileDebugRenderscript
+:loadingbutton:generateDebugResValues
+:loadingbutton:generateDebugResources
+:loadingbutton:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:loadingbutton:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:loadingbutton:generateDebugBuildConfig
+:loadingbutton:prepareLintJar
+:loadingbutton:generateDebugSources
+:loadingbutton:javaPreCompileDebug
+:loadingbutton:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560083991184-0/src/LoadingButtonLibrary-master/loadingbutton/src/main/java/andreasagap/loadingbutton/ButtonLoading.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:loadingbutton:processDebugJavaRes NO-SOURCE
+:loadingbutton:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:loadingbutton:mergeDebugShaders
+:loadingbutton:compileDebugShaders
+:loadingbutton:generateDebugAssets
+:loadingbutton:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformClassesWithMultidexlistForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:loadingbutton:compileDebugNdk NO-SOURCE
+:loadingbutton:mergeDebugJniLibFolders
+:loadingbutton:transformNativeLibsWithMergeJniLibsForDebug
+:loadingbutton:transformNativeLibsWithStripDebugSymbolForDebug
+:loadingbutton:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:loadingbutton:preReleaseBuild UP-TO-DATE
+:loadingbutton:checkReleaseManifest
+:loadingbutton:processReleaseManifest
+:app:preReleaseBuild
+:loadingbutton:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:loadingbutton:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:loadingbutton:compileReleaseRenderscript
+:loadingbutton:generateReleaseResValues
+:loadingbutton:generateReleaseResources
+:loadingbutton:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:loadingbutton:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:loadingbutton:generateReleaseBuildConfig
+:loadingbutton:generateReleaseSources
+:loadingbutton:javaPreCompileRelease
+:loadingbutton:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560083991184-0/src/LoadingButtonLibrary-master/loadingbutton/src/main/java/andreasagap/loadingbutton/ButtonLoading.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:loadingbutton:processReleaseJavaRes NO-SOURCE
+:loadingbutton:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/1ffc82ae0ee857e3ecaeb1359293ab76/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:loadingbutton:mergeReleaseShaders
+:loadingbutton:compileReleaseShaders
+:loadingbutton:generateReleaseAssets
+:loadingbutton:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformClassesWithMultidexlistForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:loadingbutton:compileReleaseNdk NO-SOURCE
+:loadingbutton:mergeReleaseJniLibFolders
+:loadingbutton:transformNativeLibsWithMergeJniLibsForRelease
+:loadingbutton:transformNativeLibsWithStripDebugSymbolForRelease
+:loadingbutton:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 38s
+90 actionable tasks: 90 executed
+
+2019-06-09 19:40:44,204 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560083991184-0/src/LoadingButtonLibrary-master/app/build/outputs/apk/debug/app-debug.apk

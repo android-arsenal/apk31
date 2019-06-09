@@ -1,0 +1,261 @@
+2019-06-09 19:43:05,725 INFO  DownloadService - Downloading "https://github.com/ParkSangGwon/TedImagePicker/archive/master.zip", attempt 3
+2019-06-09 19:43:16,869 INFO  DownloadService - Downloaded https://github.com/ParkSangGwon/TedImagePicker/archive/master.zip, attempt 3
+2019-06-09 19:43:16,870 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084185717-0/master.zip": 17 MB
+2019-06-09 19:43:16,870 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-09 19:43:16,871 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084185717-0/master.zip: true
+2019-06-09 19:43:16,872 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084185717-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084185717-0/src'.
+2019-06-09 19:43:17,046 INFO  FullProcessService - Size of directory with sources: 17 MB
+2019-06-09 19:43:17,046 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084185717-0/src]
+2019-06-09 19:43:17,061 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084185717-0/src/.git/
+
+2019-06-09 19:43:17,064 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084185717-0/src/TedImagePicker-master/gradlew
+2019-06-09 19:43:17,068 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084185717-0/src/TedImagePicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084185717-0/src/TedImagePicker-master/tedimagepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084185717-0/src/TedImagePicker-master/build.gradle
+2019-06-09 19:43:17,071 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084185717-0/src/TedImagePicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084185717-0/src/TedImagePicker-master/tedimagepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084185717-0/src/TedImagePicker-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084185717-0/src/TedImagePicker-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084185717-0/src/TedImagePicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084185717-0/src/TedImagePicker-master/settings.gradle
+2019-06-09 19:43:17,071 INFO  ProjectBuildService - Remote scripts: none
+2019-06-09 19:43:17,071 INFO  ProjectFixService - Fixing project...
+2019-06-09 19:43:17,081 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084185717-0/src/TedImagePicker-master/app/local.properties
+2019-06-09 19:43:17,084 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084185717-0/src/TedImagePicker-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-06-09 19:43:17,085 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084185717-0/src/TedImagePicker-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-09 19:43:17,086 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084185717-0/src/TedImagePicker-master/tedimagepicker/local.properties
+2019-06-09 19:43:17,089 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084185717-0/src/TedImagePicker-master/tedimagepicker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-06-09 19:43:17,089 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084185717-0/src/TedImagePicker-master/tedimagepicker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-09 19:43:17,090 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084185717-0/src/TedImagePicker-master/local.properties
+2019-06-09 19:43:17,091 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-06-09 19:43:17,091 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-06-09 19:43:17,094 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084185717-0/src/TedImagePicker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-06-09 19:43:17,094 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084185717-0/src/TedImagePicker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-09 19:43:17,095 INFO  ProjectFixService - Project was maybe fixed
+2019-06-09 19:43:17,095 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-09 19:43:17,095 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084185717-0/src/TedImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084185717-0/src/TedImagePicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-09 19:43:26,815 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-06-09 19:43:26,816 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-06-09 19:43:26,816 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084185717-0/src/TedImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084185717-0/src/TedImagePicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-06-09 19:45:10,947 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :app
+app: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.github.bumptech.glide:compiler:4.9.0'.
+
+> Configure project :tedimagepicker
+tedimagepicker: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.github.bumptech.glide:compiler:4.9.0'.
+WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :tedimagepicker:preBuild UP-TO-DATE
+> Task :tedimagepicker:preDebugBuild UP-TO-DATE
+> Task :tedimagepicker:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :tedimagepicker:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:prepareLintJar
+> Task :app:prepareLintJarForPublish
+> Task :app:generateDebugSources
+> Task :app:dataBindingExportBuildInfoDebug
+> Task :tedimagepicker:checkDebugManifest
+> Task :tedimagepicker:compileDebugRenderscript NO-SOURCE
+> Task :tedimagepicker:generateDebugBuildConfig
+> Task :tedimagepicker:prepareLintJar
+> Task :tedimagepicker:prepareLintJarForPublish
+> Task :tedimagepicker:generateDebugSources
+> Task :tedimagepicker:dataBindingExportBuildInfoDebug
+> Task :tedimagepicker:dataBindingMergeDependencyArtifactsDebug
+> Task :tedimagepicker:generateDebugResValues
+> Task :tedimagepicker:generateDebugResources
+> Task :tedimagepicker:dataBindingMergeGenClassesDebug
+> Task :tedimagepicker:mergeDebugResources
+> Task :tedimagepicker:dataBindingGenBaseClassesDebug
+> Task :tedimagepicker:packageDebugResources
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :tedimagepicker:parseDebugLibraryResources
+> Task :app:dataBindingExportFeaturePackageIdsDebug
+> Task :app:dataBindingMergeGenClassesDebug
+> Task :tedimagepicker:processDebugManifest
+> Task :app:mainApkListPersistenceDebug
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:mergeDebugResources
+> Task :tedimagepicker:generateDebugRFile
+> Task :tedimagepicker:kaptGenerateStubsDebugKotlin
+
+> Task :tedimagepicker:kaptDebugKotlin
+w: warning: Binding adapter AK(android.widget.ImageView, android.net.Uri) already exists for imageUri! Overriding gun0912.tedimagepicker.binding.DataBindingAdapter.Companion#loadImage with gun0912.tedimagepicker.binding.DataBindingAdapter#loadImage
+w: warning: Binding adapter AK(android.widget.ImageView, android.net.Uri) already exists for imageUri! Overriding gun0912.tedimagepicker.binding.DataBindingAdapter.Companion#loadImage with gun0912.tedimagepicker.binding.DataBindingAdapter#loadImage
+w: warning: Binding adapter AK(androidx.recyclerview.widget.RecyclerView, java.util.List) already exists for replaceAll! Overriding gun0912.tedimagepicker.binding.DataBindingAdapter.Companion#replaceAll with gun0912.tedimagepicker.binding.DataBindingAdapter#replaceAll
+w: warning: Binding adapter AK(androidx.recyclerview.widget.RecyclerView, java.util.List) already exists for replaceAll! Overriding gun0912.tedimagepicker.binding.DataBindingAdapter.Companion#replaceAll with gun0912.tedimagepicker.binding.DataBindingAdapter#replaceAll
+w: warning: Binding adapter AK(android.view.View, boolean) already exists for animateTranslationY! Overriding gun0912.tedimagepicker.binding.DataBindingAdapter.Companion#animateTranslationY with gun0912.tedimagepicker.binding.DataBindingAdapter#animateTranslationY
+w: warning: Binding adapter AK(android.view.View, boolean) already exists for animateTranslationY! Overriding gun0912.tedimagepicker.binding.DataBindingAdapter.Companion#animateTranslationY with gun0912.tedimagepicker.binding.DataBindingAdapter#animateTranslationY
+
+> Task :tedimagepicker:compileDebugKotlin
+> Task :app:processDebugResources
+> Task :tedimagepicker:javaPreCompileDebug
+> Task :tedimagepicker:compileDebugJavaWithJavac
+> Task :app:dataBindingMergeDependencyArtifactsDebug
+> Task :app:dataBindingGenBaseClassesDebug
+> Task :tedimagepicker:bundleLibCompileDebug
+> Task :app:kaptGenerateStubsDebugKotlin
+> Task :app:kaptDebugKotlin
+> Task :app:compileDebugKotlin
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :tedimagepicker:mergeDebugShaders
+> Task :tedimagepicker:compileDebugShaders
+> Task :tedimagepicker:generateDebugAssets
+> Task :tedimagepicker:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :tedimagepicker:processDebugJavaRes NO-SOURCE
+> Task :tedimagepicker:bundleLibResDebug
+> Task :app:mergeDebugJavaResource
+
+> Transform artifact gesture-views.aar (com.alexvasilkov:gesture-views:2.5.2) with DexingWithDesugarTransform
+AGPBI: {"kind":"warning","text":"Interface `androidx.viewpager.widget.ViewPager$OnPageChangeListener` not found. It's needed to make sure desugaring of `com.alexvasilkov.gestures.transition.internal.IntoViewPagerListener$PagerListener` is correct. Desugaring will assume that this interface has no default method.","sources":[{"file":"/Users/vbauer/.gradle/caches/transforms-2/files-2.1/009d465f6e9010a9caf1c21da092dbe2/jetified-gesture-views-2.5.2/jars/classes.jar"}],"tool":"D8"}
+AGPBI: {"kind":"warning","text":"Interface `androidx.recyclerview.widget.RecyclerView$OnChildAttachStateChangeListener` not found. It's needed to make sure desugaring of `com.alexvasilkov.gestures.transition.internal.FromRecyclerViewListener$1` is correct. Desugaring will assume that this interface has no default method.","sources":[{"file":"/Users/vbauer/.gradle/caches/transforms-2/files-2.1/009d465f6e9010a9caf1c21da092dbe2/jetified-gesture-views-2.5.2/jars/classes.jar"}],"tool":"D8"}
+AGPBI: {"kind":"warning","text":"Interface `androidx.viewpager.widget.ViewPager$PageTransformer` not found. It's needed to make sure desugaring of `com.alexvasilkov.gestures.commons.DepthPageTransformer` is correct. Desugaring will assume that this interface has no default method.","sources":[{"file":"/Users/vbauer/.gradle/caches/transforms-2/files-2.1/009d465f6e9010a9caf1c21da092dbe2/jetified-gesture-views-2.5.2/jars/classes.jar"}],"tool":"D8"}
+
+> Transform artifact glide.aar (com.github.bumptech.glide:glide:4.9.0) with DexingWithDesugarTransform
+AGPBI: {"kind":"warning","text":"Type `androidx.appcompat.content.res.AppCompatResources` was not found, it is required for default or static interface methods desugaring of `android.graphics.drawable.Drawable com.bumptech.glide.load.resource.drawable.DrawableDecoderCompat.loadDrawableV7(android.content.Context, int, android.content.res.Resources$Theme)`","sources":[{"file":"/Users/vbauer/.gradle/caches/transforms-2/files-2.1/714b719067bb46382f447678fbebfbf2/jetified-glide-4.9.0/jars/classes.jar"}],"tool":"D8"}
+
+> Task :tedimagepicker:bundleLibRuntimeDebug
+> Task :tedimagepicker:createFullJarDebug
+
+> Transform artifact databinding-runtime.aar (androidx.databinding:databinding-runtime:3.5.0-beta02) with DexingWithDesugarTransform
+AGPBI: {"kind":"warning","text":"Interface `androidx.lifecycle.Observer` not found. It's needed to make sure desugaring of `androidx.databinding.ViewDataBinding$LiveDataListener` is correct. Desugaring will assume that this interface has no default method.","sources":[{"file":"/Users/vbauer/.gradle/caches/transforms-2/files-2.1/7885d7495dcada3c2d9f7438ca609611/databinding-runtime-3.5.0-beta02/jars/classes.jar"}],"tool":"D8"}
+
+> Task :app:desugarDebugFileDependencies
+> Task :app:checkDebugDuplicateClasses
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :tedimagepicker:mergeDebugJniLibFolders
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :tedimagepicker:preReleaseBuild UP-TO-DATE
+> Task :tedimagepicker:compileReleaseAidl NO-SOURCE
+> Task :tedimagepicker:packageReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :tedimagepicker:compileReleaseRenderscript NO-SOURCE
+> Task :tedimagepicker:checkReleaseManifest
+> Task :tedimagepicker:generateReleaseBuildConfig
+> Task :tedimagepicker:generateReleaseSources
+> Task :tedimagepicker:dataBindingExportBuildInfoRelease
+> Task :tedimagepicker:mergeDebugNativeLibs
+> Task :tedimagepicker:stripDebugDebugSymbols
+> Task :tedimagepicker:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :tedimagepicker:dataBindingMergeDependencyArtifactsRelease
+> Task :tedimagepicker:dataBindingMergeGenClassesRelease
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :app:generateReleaseSources
+> Task :app:dataBindingExportBuildInfoRelease
+> Task :tedimagepicker:generateReleaseResValues
+> Task :tedimagepicker:generateReleaseResources
+> Task :tedimagepicker:mergeReleaseResources
+> Task :tedimagepicker:dataBindingGenBaseClassesRelease
+> Task :tedimagepicker:packageReleaseResources
+> Task :app:multiDexListDebug
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :app:dataBindingMergeGenClassesRelease
+> Task :tedimagepicker:parseReleaseLibraryResources
+> Task :app:mainApkListPersistenceRelease
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :tedimagepicker:processReleaseManifest
+> Task :app:dataBindingExportFeaturePackageIdsRelease
+> Task :app:processReleaseManifest
+> Task :app:mergeReleaseResources
+> Task :tedimagepicker:generateReleaseRFile
+> Task :tedimagepicker:kaptGenerateStubsReleaseKotlin
+
+> Task :tedimagepicker:kaptReleaseKotlin
+w: warning: Binding adapter AK(android.widget.ImageView, android.net.Uri) already exists for imageUri! Overriding gun0912.tedimagepicker.binding.DataBindingAdapter.Companion#loadImage with gun0912.tedimagepicker.binding.DataBindingAdapter#loadImage
+w: warning: Binding adapter AK(android.widget.ImageView, android.net.Uri) already exists for imageUri! Overriding gun0912.tedimagepicker.binding.DataBindingAdapter.Companion#loadImage with gun0912.tedimagepicker.binding.DataBindingAdapter#loadImage
+w: warning: Binding adapter AK(androidx.recyclerview.widget.RecyclerView, java.util.List) already exists for replaceAll! Overriding gun0912.tedimagepicker.binding.DataBindingAdapter.Companion#replaceAll with gun0912.tedimagepicker.binding.DataBindingAdapter#replaceAll
+w: warning: Binding adapter AK(androidx.recyclerview.widget.RecyclerView, java.util.List) already exists for replaceAll! Overriding gun0912.tedimagepicker.binding.DataBindingAdapter.Companion#replaceAll with gun0912.tedimagepicker.binding.DataBindingAdapter#replaceAll
+w: warning: Binding adapter AK(android.view.View, boolean) already exists for animateTranslationY! Overriding gun0912.tedimagepicker.binding.DataBindingAdapter.Companion#animateTranslationY with gun0912.tedimagepicker.binding.DataBindingAdapter#animateTranslationY
+w: warning: Binding adapter AK(android.view.View, boolean) already exists for animateTranslationY! Overriding gun0912.tedimagepicker.binding.DataBindingAdapter.Companion#animateTranslationY with gun0912.tedimagepicker.binding.DataBindingAdapter#animateTranslationY
+
+> Task :tedimagepicker:compileReleaseKotlin
+> Task :app:processReleaseResources
+> Task :tedimagepicker:javaPreCompileRelease
+> Task :tedimagepicker:compileReleaseJavaWithJavac
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :tedimagepicker:bundleLibCompileRelease
+> Task :app:dataBindingMergeDependencyArtifactsRelease
+> Task :app:dataBindingGenBaseClassesRelease
+> Task :app:kaptGenerateStubsReleaseKotlin
+> Task :app:kaptReleaseKotlin
+> Task :app:compileReleaseKotlin
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/4f1d4e57eca7b18329a028503dd08183/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Transform artifact gesture-views.aar (com.alexvasilkov:gesture-views:2.5.2) with DexingWithDesugarTransform
+AGPBI: {"kind":"warning","text":"Interface `androidx.viewpager.widget.ViewPager$OnPageChangeListener` not found. It's needed to make sure desugaring of `com.alexvasilkov.gestures.transition.internal.IntoViewPagerListener$PagerListener` is correct. Desugaring will assume that this interface has no default method.","sources":[{"file":"/Users/vbauer/.gradle/caches/transforms-2/files-2.1/009d465f6e9010a9caf1c21da092dbe2/jetified-gesture-views-2.5.2/jars/classes.jar"}],"tool":"D8"}
+AGPBI: {"kind":"warning","text":"Interface `androidx.recyclerview.widget.RecyclerView$OnChildAttachStateChangeListener` not found. It's needed to make sure desugaring of `com.alexvasilkov.gestures.transition.internal.FromRecyclerViewListener$1` is correct. Desugaring will assume that this interface has no default method.","sources":[{"file":"/Users/vbauer/.gradle/caches/transforms-2/files-2.1/009d465f6e9010a9caf1c21da092dbe2/jetified-gesture-views-2.5.2/jars/classes.jar"}],"tool":"D8"}
+AGPBI: {"kind":"warning","text":"Interface `androidx.viewpager.widget.ViewPager$PageTransformer` not found. It's needed to make sure desugaring of `com.alexvasilkov.gestures.commons.DepthPageTransformer` is correct. Desugaring will assume that this interface has no default method.","sources":[{"file":"/Users/vbauer/.gradle/caches/transforms-2/files-2.1/009d465f6e9010a9caf1c21da092dbe2/jetified-gesture-views-2.5.2/jars/classes.jar"}],"tool":"D8"}
+
+> Task :tedimagepicker:processReleaseJavaRes NO-SOURCE
+> Task :tedimagepicker:bundleLibResRelease
+
+> Transform artifact glide.aar (com.github.bumptech.glide:glide:4.9.0) with DexingWithDesugarTransform
+AGPBI: {"kind":"warning","text":"Type `androidx.appcompat.content.res.AppCompatResources` was not found, it is required for default or static interface methods desugaring of `android.graphics.drawable.Drawable com.bumptech.glide.load.resource.drawable.DrawableDecoderCompat.loadDrawableV7(android.content.Context, int, android.content.res.Resources$Theme)`","sources":[{"file":"/Users/vbauer/.gradle/caches/transforms-2/files-2.1/714b719067bb46382f447678fbebfbf2/jetified-glide-4.9.0/jars/classes.jar"}],"tool":"D8"}
+
+> Transform artifact databinding-runtime.aar (androidx.databinding:databinding-runtime:3.5.0-beta02) with DexingWithDesugarTransform
+AGPBI: {"kind":"warning","text":"Interface `androidx.lifecycle.Observer` not found. It's needed to make sure desugaring of `androidx.databinding.ViewDataBinding$LiveDataListener` is correct. Desugaring will assume that this interface has no default method.","sources":[{"file":"/Users/vbauer/.gradle/caches/transforms-2/files-2.1/7885d7495dcada3c2d9f7438ca609611/databinding-runtime-3.5.0-beta02/jars/classes.jar"}],"tool":"D8"}
+
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:desugarReleaseFileDependencies
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :tedimagepicker:mergeReleaseShaders
+> Task :tedimagepicker:compileReleaseShaders
+> Task :tedimagepicker:generateReleaseAssets
+> Task :tedimagepicker:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :tedimagepicker:bundleLibRuntimeRelease
+> Task :tedimagepicker:createFullJarRelease
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :tedimagepicker:mergeReleaseJniLibFolders
+> Task :tedimagepicker:mergeReleaseNativeLibs
+> Task :tedimagepicker:stripReleaseDebugSymbols
+> Task :tedimagepicker:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeReleaseJavaResource
+> Task :app:multiDexListRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1m 43s
+126 actionable tasks: 126 executed
+
+2019-06-09 19:45:11,098 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084185717-0/src/TedImagePicker-master/app/build/outputs/apk/debug/app-debug.apk

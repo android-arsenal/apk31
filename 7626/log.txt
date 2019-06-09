@@ -1,30 +1,30 @@
-2019-05-06 17:33:05,389 INFO  DownloadService - Downloading "https://github.com/xmartlabs/android-snapshot-publisher/archive/master.zip", attempt 3
-2019-05-06 17:33:07,595 INFO  DownloadService - Downloaded https://github.com/xmartlabs/android-snapshot-publisher/archive/master.zip, attempt 3
-2019-05-06 17:33:07,595 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138785384-0/master.zip": 299 KB
-2019-05-06 17:33:07,595 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-06 17:33:07,600 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138785384-0/master.zip: true
-2019-05-06 17:33:07,601 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138785384-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138785384-0/src'.
-2019-05-06 17:33:07,623 INFO  FullProcessService - Size of directory with sources: 493 KB
-2019-05-06 17:33:07,624 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138785384-0/src]
-2019-05-06 17:33:07,642 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138785384-0/src/.git/
+2019-06-09 19:53:45,105 INFO  DownloadService - Downloading "https://github.com/xmartlabs/android-snapshot-publisher/archive/master.zip", attempt 3
+2019-06-09 19:53:47,302 INFO  DownloadService - Downloaded https://github.com/xmartlabs/android-snapshot-publisher/archive/master.zip, attempt 3
+2019-06-09 19:53:47,303 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084825096-0/master.zip": 299 KB
+2019-06-09 19:53:47,303 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-09 19:53:47,308 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084825096-0/master.zip: true
+2019-06-09 19:53:47,309 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084825096-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084825096-0/src'.
+2019-06-09 19:53:47,326 INFO  FullProcessService - Size of directory with sources: 493 KB
+2019-06-09 19:53:47,326 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084825096-0/src]
+2019-06-09 19:53:47,341 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084825096-0/src/.git/
 
-2019-05-06 17:33:07,645 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138785384-0/src/android-snapshot-publisher-master/gradlew
-2019-05-06 17:33:07,647 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138785384-0/src/android-snapshot-publisher-master/build.gradle
-2019-05-06 17:33:07,650 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138785384-0/src/android-snapshot-publisher-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138785384-0/src/android-snapshot-publisher-master/settings.gradle
-2019-05-06 17:33:07,650 INFO  ProjectBuildService - Remote scripts: none
-2019-05-06 17:33:07,650 INFO  ProjectFixService - Fixing project...
-2019-05-06 17:33:07,656 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138785384-0/src/android-snapshot-publisher-master/local.properties
-2019-05-06 17:33:07,657 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.2-all.zip
-2019-05-06 17:33:07,657 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.2-bin.zip)
-2019-05-06 17:33:07,658 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138785384-0/src/android-snapshot-publisher-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-05-06 17:33:07,658 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138785384-0/src/android-snapshot-publisher-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-05-06 17:33:07,659 INFO  ProjectFixService - Project was maybe fixed
-2019-05-06 17:33:07,659 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-06 17:33:07,659 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138785384-0/src/android-snapshot-publisher-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138785384-0/src/android-snapshot-publisher-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-06 17:33:13,971 INFO  ProjectTaskService - Detected possible tasks: 74
-2019-05-06 17:33:13,971 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-05-06 17:33:13,971 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138785384-0/src/android-snapshot-publisher-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557138785384-0/src/android-snapshot-publisher-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-05-06 17:33:27,127 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.2/userguide/gradle_daemon.html.
+2019-06-09 19:53:47,343 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084825096-0/src/android-snapshot-publisher-master/gradlew
+2019-06-09 19:53:47,345 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084825096-0/src/android-snapshot-publisher-master/build.gradle
+2019-06-09 19:53:47,347 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084825096-0/src/android-snapshot-publisher-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084825096-0/src/android-snapshot-publisher-master/settings.gradle
+2019-06-09 19:53:47,347 INFO  ProjectBuildService - Remote scripts: none
+2019-06-09 19:53:47,347 INFO  ProjectFixService - Fixing project...
+2019-06-09 19:53:47,352 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084825096-0/src/android-snapshot-publisher-master/local.properties
+2019-06-09 19:53:47,352 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.2-all.zip
+2019-06-09 19:53:47,352 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.2-bin.zip)
+2019-06-09 19:53:47,353 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084825096-0/src/android-snapshot-publisher-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-06-09 19:53:47,353 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084825096-0/src/android-snapshot-publisher-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-09 19:53:47,354 INFO  ProjectFixService - Project was maybe fixed
+2019-06-09 19:53:47,354 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-09 19:53:47,354 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084825096-0/src/android-snapshot-publisher-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084825096-0/src/android-snapshot-publisher-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-09 19:53:55,839 INFO  ProjectTaskService - Detected possible tasks: 74
+2019-06-09 19:53:55,839 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-06-09 19:53:55,839 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084825096-0/src/android-snapshot-publisher-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560084825096-0/src/android-snapshot-publisher-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-06-09 19:54:16,855 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.2/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
@@ -60,8 +60,8 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.2/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 12s
+BUILD SUCCESSFUL in 20s
 8 actionable tasks: 8 executed
 
-2019-05-06 17:33:27,134 ERROR FullProcessService - Project build has not produced APK file
-2019-05-06 17:33:27,141 ERROR FullProcessService - Could not find generated or existed APK file
+2019-06-09 19:54:16,861 ERROR FullProcessService - Project build has not produced APK file
+2019-06-09 19:54:16,866 ERROR FullProcessService - Could not find generated or existed APK file
