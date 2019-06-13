@@ -1,30 +1,30 @@
-2019-05-25 19:11:51,763 INFO  DownloadService - Downloading "https://github.com/SaeedMasoumi/sweep-gson/archive/master.zip", attempt 3
-2019-05-25 19:11:53,565 INFO  DownloadService - Downloaded https://github.com/SaeedMasoumi/sweep-gson/archive/master.zip, attempt 3
-2019-05-25 19:11:53,566 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786311759-0/master.zip": 81 KB
-2019-05-25 19:11:53,566 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-25 19:11:53,571 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786311759-0/master.zip: true
-2019-05-25 19:11:53,571 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786311759-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786311759-0/src'.
-2019-05-25 19:11:53,586 INFO  FullProcessService - Size of directory with sources: 118 KB
-2019-05-25 19:11:53,587 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786311759-0/src]
-2019-05-25 19:11:53,645 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786311759-0/src/.git/
+2019-06-13 10:50:58,552 INFO  DownloadService - Downloading "https://github.com/SaeedMasoumi/sweep-gson/archive/master.zip", attempt 3
+2019-06-13 10:50:59,233 INFO  DownloadService - Downloaded https://github.com/SaeedMasoumi/sweep-gson/archive/master.zip, attempt 3
+2019-06-13 10:50:59,234 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560397858548-0/master.zip": 81 KB
+2019-06-13 10:50:59,234 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-13 10:50:59,235 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560397858548-0/master.zip: true
+2019-06-13 10:50:59,236 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560397858548-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560397858548-0/src'.
+2019-06-13 10:50:59,250 INFO  FullProcessService - Size of directory with sources: 118 KB
+2019-06-13 10:50:59,251 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560397858548-0/src]
+2019-06-13 10:50:59,269 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560397858548-0/src/.git/
 
-2019-05-25 19:11:53,647 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786311759-0/src/sweep-gson-master/gradlew
-2019-05-25 19:11:53,649 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786311759-0/src/sweep-gson-master/build.gradle
-2019-05-25 19:11:53,651 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786311759-0/src/sweep-gson-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786311759-0/src/sweep-gson-master/settings.gradle
-2019-05-25 19:11:53,652 INFO  ProjectBuildService - Remote scripts: none
-2019-05-25 19:11:53,652 INFO  ProjectFixService - Fixing project...
-2019-05-25 19:11:53,657 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786311759-0/src/sweep-gson-master/local.properties
-2019-05-25 19:11:53,657 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.2-all.zip
-2019-05-25 19:11:53,658 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.2-bin.zip)
-2019-05-25 19:11:53,659 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786311759-0/src/sweep-gson-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-05-25 19:11:53,659 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786311759-0/src/sweep-gson-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-05-25 19:11:53,660 INFO  ProjectFixService - Project was maybe fixed
-2019-05-25 19:11:53,660 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-25 19:11:53,660 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786311759-0/src/sweep-gson-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786311759-0/src/sweep-gson-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-25 19:12:16,594 INFO  ProjectTaskService - Detected possible tasks: 54
-2019-05-25 19:12:16,595 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-05-25 19:12:16,595 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786311759-0/src/sweep-gson-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786311759-0/src/sweep-gson-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-05-25 19:12:31,277 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-13 10:50:59,273 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560397858548-0/src/sweep-gson-master/gradlew
+2019-06-13 10:50:59,276 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560397858548-0/src/sweep-gson-master/build.gradle
+2019-06-13 10:50:59,278 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560397858548-0/src/sweep-gson-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560397858548-0/src/sweep-gson-master/settings.gradle
+2019-06-13 10:50:59,279 INFO  ProjectBuildService - Remote scripts: none
+2019-06-13 10:50:59,279 INFO  ProjectFixService - Fixing project...
+2019-06-13 10:50:59,288 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560397858548-0/src/sweep-gson-master/local.properties
+2019-06-13 10:50:59,288 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.2-all.zip
+2019-06-13 10:50:59,289 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.2-bin.zip)
+2019-06-13 10:50:59,291 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560397858548-0/src/sweep-gson-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-06-13 10:50:59,291 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560397858548-0/src/sweep-gson-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-13 10:50:59,292 INFO  ProjectFixService - Project was maybe fixed
+2019-06-13 10:50:59,292 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-13 10:50:59,292 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560397858548-0/src/sweep-gson-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560397858548-0/src/sweep-gson-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-13 10:51:11,285 INFO  ProjectTaskService - Detected possible tasks: 54
+2019-06-13 10:51:11,285 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-06-13 10:51:11,286 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560397858548-0/src/sweep-gson-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560397858548-0/src/sweep-gson-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-06-13 10:51:25,623 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :compileKotlin
 > Task :compileJava
 > Task :processResources NO-SOURCE
@@ -34,8 +34,8 @@
 > Task :assemble
 > Task :build
 
-BUILD SUCCESSFUL in 14s
+BUILD SUCCESSFUL in 13s
 4 actionable tasks: 4 executed
 
-2019-05-25 19:12:31,283 ERROR FullProcessService - Project build has not produced APK file
-2019-05-25 19:12:31,288 ERROR FullProcessService - Could not find generated or existed APK file
+2019-06-13 10:51:25,630 ERROR FullProcessService - Project build has not produced APK file
+2019-06-13 10:51:25,637 ERROR FullProcessService - Could not find generated or existed APK file
