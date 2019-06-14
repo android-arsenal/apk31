@@ -1,31 +1,31 @@
-2019-05-26 16:27:02,630 INFO  DownloadService - Downloading "https://github.com/koushikcse/LoadingButton/archive/master.zip", attempt 3
-2019-05-26 16:27:05,198 INFO  DownloadService - Downloaded https://github.com/koushikcse/LoadingButton/archive/master.zip, attempt 3
-2019-05-26 16:27:05,198 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862822626-0/master.zip": 488 KB
-2019-05-26 16:27:05,198 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-26 16:27:05,199 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862822626-0/master.zip: true
-2019-05-26 16:27:05,199 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862822626-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862822626-0/src'.
-2019-05-26 16:27:05,211 INFO  FullProcessService - Size of directory with sources: 534 KB
-2019-05-26 16:27:05,211 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862822626-0/src]
-2019-05-26 16:27:05,239 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862822626-0/src/.git/
+2019-06-14 11:29:07,554 INFO  DownloadService - Downloading "https://github.com/koushikcse/LoadingButton/archive/master.zip", attempt 3
+2019-06-14 11:29:08,612 INFO  DownloadService - Downloaded https://github.com/koushikcse/LoadingButton/archive/master.zip, attempt 3
+2019-06-14 11:29:08,612 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486547549-0/master.zip": 488 KB
+2019-06-14 11:29:08,612 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-14 11:29:08,617 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486547549-0/master.zip: true
+2019-06-14 11:29:08,618 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486547549-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486547549-0/src'.
+2019-06-14 11:29:08,632 INFO  FullProcessService - Size of directory with sources: 534 KB
+2019-06-14 11:29:08,632 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486547549-0/src]
+2019-06-14 11:29:08,648 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486547549-0/src/.git/
 
-2019-05-26 16:27:05,243 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862822626-0/src/LoadingButton-master/gradlew
-2019-05-26 16:27:05,247 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862822626-0/src/LoadingButton-master/loadingbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862822626-0/src/LoadingButton-master/build.gradle
-2019-05-26 16:27:05,249 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862822626-0/src/LoadingButton-master/loadingbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862822626-0/src/LoadingButton-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862822626-0/src/LoadingButton-master/settings.gradle
-2019-05-26 16:27:05,250 INFO  ProjectBuildService - Remote scripts: none
-2019-05-26 16:27:05,250 INFO  ProjectFixService - Fixing project...
-2019-05-26 16:27:05,256 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862822626-0/src/LoadingButton-master/loadingbutton/local.properties
-2019-05-26 16:27:05,257 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862822626-0/src/LoadingButton-master/loadingbutton/build.gradle": [buildToolsVersion=28.0.0,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-05-26 16:27:05,258 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862822626-0/src/LoadingButton-master/local.properties
-2019-05-26 16:27:05,259 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-05-26 16:27:05,260 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-05-26 16:27:05,261 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862822626-0/src/LoadingButton-master/build.gradle": [buildToolsVersion=28.0.0,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-05-26 16:27:05,261 INFO  ProjectFixService - Project was maybe fixed
-2019-05-26 16:27:05,261 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-26 16:27:05,261 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862822626-0/src/LoadingButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862822626-0/src/LoadingButton-master/loadingbutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-26 16:27:13,488 INFO  ProjectTaskService - Detected possible tasks: 64
-2019-05-26 16:27:13,488 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-05-26 16:27:13,489 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862822626-0/src/LoadingButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862822626-0/src/LoadingButton-master/loadingbutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-05-26 16:27:27,263 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-14 11:29:08,650 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486547549-0/src/LoadingButton-master/gradlew
+2019-06-14 11:29:08,652 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486547549-0/src/LoadingButton-master/loadingbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486547549-0/src/LoadingButton-master/build.gradle
+2019-06-14 11:29:08,653 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486547549-0/src/LoadingButton-master/loadingbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486547549-0/src/LoadingButton-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486547549-0/src/LoadingButton-master/settings.gradle
+2019-06-14 11:29:08,654 INFO  ProjectBuildService - Remote scripts: none
+2019-06-14 11:29:08,654 INFO  ProjectFixService - Fixing project...
+2019-06-14 11:29:08,658 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486547549-0/src/LoadingButton-master/loadingbutton/local.properties
+2019-06-14 11:29:08,658 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486547549-0/src/LoadingButton-master/loadingbutton/build.gradle": [buildToolsVersion=28.0.0,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-06-14 11:29:08,659 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486547549-0/src/LoadingButton-master/local.properties
+2019-06-14 11:29:08,659 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-06-14 11:29:08,660 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-06-14 11:29:08,661 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486547549-0/src/LoadingButton-master/build.gradle": [buildToolsVersion=28.0.0,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-06-14 11:29:08,661 INFO  ProjectFixService - Project was maybe fixed
+2019-06-14 11:29:08,661 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-14 11:29:08,661 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486547549-0/src/LoadingButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486547549-0/src/LoadingButton-master/loadingbutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-14 11:29:16,933 INFO  ProjectTaskService - Detected possible tasks: 64
+2019-06-14 11:29:16,933 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-06-14 11:29:16,933 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486547549-0/src/LoadingButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486547549-0/src/LoadingButton-master/loadingbutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-06-14 11:29:28,934 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :loadingbutton
 WARNING: The specified Android SDK Build Tools version (28.0.0) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.3.0.
@@ -48,7 +48,7 @@ To suppress this warning, remove "buildToolsVersion '28.0.0'" from your build.gr
 > Task :loadingbutton:javaPreCompileDebug
 
 > Task :loadingbutton:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862822626-0/src/LoadingButton-master/loadingbutton/src/main/java/com/kusu/loadingbutton/LoadingButton.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486547549-0/src/LoadingButton-master/loadingbutton/src/main/java/com/kusu/loadingbutton/LoadingButton.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :loadingbutton:extractDebugAnnotations
@@ -83,7 +83,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :loadingbutton:javaPreCompileRelease
 
 > Task :loadingbutton:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862822626-0/src/LoadingButton-master/loadingbutton/src/main/java/com/kusu/loadingbutton/LoadingButton.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486547549-0/src/LoadingButton-master/loadingbutton/src/main/java/com/kusu/loadingbutton/LoadingButton.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :loadingbutton:extractReleaseAnnotations
@@ -109,15 +109,15 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :loadingbutton:assemble
 > Task :loadingbutton:build
 
-BUILD SUCCESSFUL in 13s
+BUILD SUCCESSFUL in 11s
 45 actionable tasks: 45 executed
 
-2019-05-26 16:27:27,293 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-26 16:27:27,294 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862822626-0/src/LoadingButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862822626-0/src/LoadingButton-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-26 16:27:33,248 INFO  ProjectTaskService - Detected possible tasks: 64
-2019-05-26 16:27:33,248 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-05-26 16:27:33,249 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862822626-0/src/LoadingButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862822626-0/src/LoadingButton-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-05-26 16:27:40,131 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-14 11:29:28,973 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-14 11:29:28,974 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486547549-0/src/LoadingButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486547549-0/src/LoadingButton-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-14 11:29:34,983 INFO  ProjectTaskService - Detected possible tasks: 64
+2019-06-14 11:29:34,983 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-06-14 11:29:34,984 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486547549-0/src/LoadingButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486547549-0/src/LoadingButton-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-06-14 11:29:41,685 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :loadingbutton
 WARNING: The specified Android SDK Build Tools version (28.0.0) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.3.0.
@@ -196,5 +196,5 @@ To suppress this warning, remove "buildToolsVersion '28.0.0'" from your build.gr
 BUILD SUCCESSFUL in 6s
 45 actionable tasks: 45 up-to-date
 
-2019-05-26 16:27:40,165 ERROR FullProcessService - Project build has not produced APK file
-2019-05-26 16:27:40,194 ERROR FullProcessService - Could not find generated or existed APK file
+2019-06-14 11:29:41,719 ERROR FullProcessService - Project build has not produced APK file
+2019-06-14 11:29:41,754 ERROR FullProcessService - Could not find generated or existed APK file
