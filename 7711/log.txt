@@ -1,0 +1,172 @@
+2019-06-17 10:46:30,618 INFO  DownloadService - Downloading "https://github.com/iamporus/TypedTextView/archive/master.zip", attempt 3
+2019-06-17 10:46:33,733 INFO  DownloadService - Downloaded https://github.com/iamporus/TypedTextView/archive/master.zip, attempt 3
+2019-06-17 10:46:33,734 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743190613-0/master.zip": 1 MB
+2019-06-17 10:46:33,734 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-17 10:46:33,734 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743190613-0/master.zip: true
+2019-06-17 10:46:33,734 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743190613-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743190613-0/src'.
+2019-06-17 10:46:33,765 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-06-17 10:46:33,765 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743190613-0/src]
+2019-06-17 10:46:33,788 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743190613-0/src/.git/
+
+2019-06-17 10:46:33,791 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743190613-0/src/TypedTextView-master/gradlew
+2019-06-17 10:46:33,793 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743190613-0/src/TypedTextView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743190613-0/src/TypedTextView-master/typedtextview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743190613-0/src/TypedTextView-master/build.gradle
+2019-06-17 10:46:33,796 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743190613-0/src/TypedTextView-master/typedtextview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743190613-0/src/TypedTextView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743190613-0/src/TypedTextView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743190613-0/src/TypedTextView-master/settings.gradle
+2019-06-17 10:46:33,797 INFO  ProjectBuildService - Remote scripts: none
+2019-06-17 10:46:33,797 INFO  ProjectFixService - Fixing project...
+2019-06-17 10:46:33,804 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743190613-0/src/TypedTextView-master/sample/local.properties
+2019-06-17 10:46:33,805 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743190613-0/src/TypedTextView-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-06-17 10:46:33,805 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743190613-0/src/TypedTextView-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-06-17 10:46:33,806 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743190613-0/src/TypedTextView-master/typedtextview/local.properties
+2019-06-17 10:46:33,807 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743190613-0/src/TypedTextView-master/typedtextview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-06-17 10:46:33,807 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743190613-0/src/TypedTextView-master/typedtextview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-06-17 10:46:33,808 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743190613-0/src/TypedTextView-master/local.properties
+2019-06-17 10:46:33,809 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-06-17 10:46:33,809 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-06-17 10:46:33,811 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743190613-0/src/TypedTextView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-06-17 10:46:33,811 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743190613-0/src/TypedTextView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-06-17 10:46:33,812 INFO  ProjectFixService - Project was maybe fixed
+2019-06-17 10:46:33,812 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-17 10:46:33,812 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743190613-0/src/TypedTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743190613-0/src/TypedTextView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-17 10:46:41,432 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-06-17 10:46:41,432 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-06-17 10:46:41,432 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743190613-0/src/TypedTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743190613-0/src/TypedTextView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-06-17 10:47:42,660 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :sample:preBuild UP-TO-DATE
+> Task :typedtextview:preBuild UP-TO-DATE
+> Task :typedtextview:preDebugBuild UP-TO-DATE
+> Task :typedtextview:checkDebugManifest
+> Task :typedtextview:processDebugManifest
+> Task :sample:preDebugBuild
+> Task :typedtextview:compileDebugAidl NO-SOURCE
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :typedtextview:packageDebugRenderscript NO-SOURCE
+> Task :sample:compileDebugRenderscript NO-SOURCE
+> Task :sample:checkDebugManifest
+> Task :sample:generateDebugBuildConfig
+> Task :sample:prepareLintJar
+> Task :sample:generateDebugSources
+> Task :typedtextview:compileDebugRenderscript NO-SOURCE
+> Task :typedtextview:generateDebugBuildConfig
+> Task :typedtextview:generateDebugResValues
+> Task :typedtextview:generateDebugResources
+> Task :typedtextview:packageDebugResources
+> Task :typedtextview:generateDebugRFile
+> Task :typedtextview:prepareLintJar
+> Task :typedtextview:generateDebugSources
+> Task :typedtextview:javaPreCompileDebug
+> Task :typedtextview:compileDebugJavaWithJavac
+> Task :typedtextview:bundleLibCompileDebug
+> Task :sample:javaPreCompileDebug
+> Task :sample:mainApkListPersistenceDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :sample:mergeDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:processDebugManifest
+> Task :sample:processDebugResources
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders
+> Task :sample:generateDebugAssets
+> Task :typedtextview:mergeDebugShaders
+> Task :typedtextview:compileDebugShaders
+> Task :typedtextview:generateDebugAssets
+> Task :typedtextview:packageDebugAssets
+> Task :sample:mergeDebugAssets
+> Task :typedtextview:processDebugJavaRes NO-SOURCE
+> Task :typedtextview:bundleLibResDebug
+> Task :typedtextview:bundleLibRuntimeDebug
+> Task :typedtextview:createFullJarDebug
+> Task :sample:checkDebugDuplicateClasses
+> Task :sample:mergeExtDexDebug
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:mergeDexDebug
+> Task :sample:validateSigningDebug
+> Task :sample:signingConfigWriterDebug
+> Task :sample:mergeDebugJniLibFolders
+> Task :typedtextview:mergeDebugJniLibFolders
+> Task :typedtextview:transformNativeLibsWithMergeJniLibsForDebug
+> Task :typedtextview:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :typedtextview:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :typedtextview:preReleaseBuild UP-TO-DATE
+> Task :typedtextview:checkReleaseManifest
+> Task :typedtextview:processReleaseManifest
+> Task :sample:preReleaseBuild
+> Task :typedtextview:compileReleaseAidl NO-SOURCE
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :typedtextview:packageReleaseRenderscript NO-SOURCE
+> Task :sample:compileReleaseRenderscript NO-SOURCE
+> Task :sample:checkReleaseManifest
+> Task :sample:generateReleaseBuildConfig
+> Task :sample:generateReleaseSources
+> Task :typedtextview:compileReleaseRenderscript NO-SOURCE
+> Task :typedtextview:generateReleaseBuildConfig
+> Task :typedtextview:generateReleaseResValues
+> Task :typedtextview:generateReleaseResources
+> Task :typedtextview:packageReleaseResources
+> Task :typedtextview:generateReleaseRFile
+> Task :typedtextview:generateReleaseSources
+> Task :typedtextview:javaPreCompileRelease
+> Task :typedtextview:compileReleaseJavaWithJavac
+> Task :typedtextview:bundleLibCompileRelease
+> Task :sample:javaPreCompileRelease
+> Task :sample:mainApkListPersistenceRelease
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :sample:mergeReleaseResources
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
+> Task :sample:processReleaseResources
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseSources
+> Task :typedtextview:prepareLintJarForPublish
+
+> Task :sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/f64b53e993840c0d794adde80dd2e9db/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :typedtextview:processReleaseJavaRes NO-SOURCE
+> Task :typedtextview:bundleLibResRelease
+> Task :typedtextview:bundleLibRuntimeRelease
+> Task :typedtextview:createFullJarRelease
+> Task :sample:checkReleaseDuplicateClasses
+> Task :sample:mergeExtDexRelease
+> Task :sample:transformClassesWithDexBuilderForRelease
+> Task :sample:mergeDexRelease
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders
+> Task :sample:generateReleaseAssets
+> Task :typedtextview:mergeReleaseShaders
+> Task :typedtextview:compileReleaseShaders
+> Task :typedtextview:generateReleaseAssets
+> Task :typedtextview:packageReleaseAssets
+> Task :sample:mergeReleaseAssets
+> Task :sample:signingConfigWriterRelease
+> Task :sample:mergeReleaseJniLibFolders
+> Task :typedtextview:mergeReleaseJniLibFolders
+> Task :typedtextview:transformNativeLibsWithMergeJniLibsForRelease
+> Task :typedtextview:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :typedtextview:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1m 0s
+91 actionable tasks: 91 executed
+
+2019-06-17 10:47:42,725 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743190613-0/src/TypedTextView-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

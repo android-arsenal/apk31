@@ -1,0 +1,430 @@
+2019-06-17 10:44:11,340 INFO  DownloadService - Downloading "https://github.com/tiper/MaterialSpinner/archive/master.zip", attempt 3
+2019-06-17 10:44:13,717 INFO  DownloadService - Downloaded https://github.com/tiper/MaterialSpinner/archive/master.zip, attempt 3
+2019-06-17 10:44:13,718 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/master.zip": 182 KB
+2019-06-17 10:44:13,718 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-17 10:44:13,718 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/master.zip: true
+2019-06-17 10:44:13,719 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/src'.
+2019-06-17 10:44:13,742 INFO  FullProcessService - Size of directory with sources: 231 KB
+2019-06-17 10:44:13,742 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/src]
+2019-06-17 10:44:13,765 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/src/.git/
+
+2019-06-17 10:44:13,769 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/src/MaterialSpinner-master/gradlew
+2019-06-17 10:44:13,773 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/src/MaterialSpinner-master/materialspinner/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/src/MaterialSpinner-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/src/MaterialSpinner-master/build.gradle
+2019-06-17 10:44:13,776 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/src/MaterialSpinner-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/src/MaterialSpinner-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/src/MaterialSpinner-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/src/MaterialSpinner-master/materialspinner/build.gradle
+2019-06-17 10:44:13,786 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/Commit451/gradle-android-javadocs/1.0.0/gradle-android-javadocs.gradle", attempt 3
+2019-06-17 10:44:14,486 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/Commit451/gradle-android-javadocs/1.0.0/gradle-android-javadocs.gradle, attempt 3
+2019-06-17 10:44:14,486 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/Commit451/gradle-android-javadocs/1.0.0/gradle-android-javadocs.gradle
+2019-06-17 10:44:14,487 INFO  ProjectFixService - Fixing project...
+2019-06-17 10:44:14,497 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/src/MaterialSpinner-master/materialspinner/local.properties
+2019-06-17 10:44:14,501 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/src/MaterialSpinner-master/materialspinner/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2019-06-17 10:44:14,501 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/src/MaterialSpinner-master/materialspinner/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-06-17 10:44:14,503 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/src/MaterialSpinner-master/sample/local.properties
+2019-06-17 10:44:14,506 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/src/MaterialSpinner-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2019-06-17 10:44:14,506 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/src/MaterialSpinner-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-06-17 10:44:14,507 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/src/MaterialSpinner-master/local.properties
+2019-06-17 10:44:14,508 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-06-17 10:44:14,508 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-06-17 10:44:14,511 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/src/MaterialSpinner-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2019-06-17 10:44:14,511 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/src/MaterialSpinner-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-06-17 10:44:14,512 INFO  ProjectFixService - Project was maybe fixed
+2019-06-17 10:44:14,512 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-17 10:44:14,513 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/src/MaterialSpinner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/src/MaterialSpinner-master/materialspinner/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-17 10:44:24,262 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-06-17 10:44:24,262 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-06-17 10:44:24,263 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/src/MaterialSpinner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/src/MaterialSpinner-master/materialspinner/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-06-17 10:44:46,903 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :materialspinner
+WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
+> Task :materialspinner:preBuild UP-TO-DATE
+> Task :materialspinner:preDebugBuild UP-TO-DATE
+> Task :materialspinner:compileDebugAidl NO-SOURCE
+> Task :materialspinner:compileDebugRenderscript NO-SOURCE
+> Task :materialspinner:checkDebugManifest
+> Task :materialspinner:generateDebugBuildConfig
+> Task :materialspinner:generateDebugResValues
+> Task :materialspinner:generateDebugResources
+> Task :materialspinner:packageDebugResources
+> Task :materialspinner:processDebugManifest
+> Task :materialspinner:generateDebugRFile
+
+> Task :materialspinner:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/src/MaterialSpinner-master/materialspinner/src/main/java/com/tiper/MaterialSpinner.kt: (363, 38): Parameter 'parent' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/src/MaterialSpinner-master/materialspinner/src/main/java/com/tiper/MaterialSpinner.kt: (363, 59): Parameter 'id' is never used, could be renamed to _
+
+> Task :materialspinner:prepareLintJar
+> Task :materialspinner:generateDebugSources
+> Task :materialspinner:javaPreCompileDebug
+> Task :materialspinner:compileDebugJavaWithJavac
+> Task :materialspinner:extractDebugAnnotations
+> Task :materialspinner:mergeDebugConsumerProguardFiles
+> Task :materialspinner:mergeDebugShaders
+> Task :materialspinner:compileDebugShaders
+> Task :materialspinner:generateDebugAssets
+> Task :materialspinner:packageDebugAssets
+> Task :materialspinner:packageDebugRenderscript NO-SOURCE
+> Task :materialspinner:prepareLintJarForPublish
+> Task :materialspinner:processDebugJavaRes NO-SOURCE
+> Task :materialspinner:transformResourcesWithMergeJavaResForDebug
+> Task :materialspinner:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :materialspinner:mergeDebugJniLibFolders
+> Task :materialspinner:transformNativeLibsWithMergeJniLibsForDebug
+> Task :materialspinner:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :materialspinner:transformNativeLibsWithSyncJniLibsForDebug
+> Task :materialspinner:bundleDebugAar
+> Task :materialspinner:compileDebugSources
+> Task :materialspinner:assembleDebug
+> Task :materialspinner:preReleaseBuild UP-TO-DATE
+> Task :materialspinner:compileReleaseAidl NO-SOURCE
+> Task :materialspinner:compileReleaseRenderscript NO-SOURCE
+> Task :materialspinner:checkReleaseManifest
+> Task :materialspinner:generateReleaseBuildConfig
+> Task :materialspinner:generateReleaseResValues
+> Task :materialspinner:generateReleaseResources
+> Task :materialspinner:packageReleaseResources
+> Task :materialspinner:processReleaseManifest
+> Task :materialspinner:generateReleaseRFile
+
+> Task :materialspinner:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/src/MaterialSpinner-master/materialspinner/src/main/java/com/tiper/MaterialSpinner.kt: (363, 38): Parameter 'parent' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/src/MaterialSpinner-master/materialspinner/src/main/java/com/tiper/MaterialSpinner.kt: (363, 59): Parameter 'id' is never used, could be renamed to _
+
+> Task :materialspinner:generateReleaseSources
+> Task :materialspinner:javaPreCompileRelease
+> Task :materialspinner:compileReleaseJavaWithJavac
+> Task :materialspinner:extractReleaseAnnotations
+> Task :materialspinner:mergeReleaseConsumerProguardFiles
+> Task :materialspinner:mergeReleaseShaders
+> Task :materialspinner:compileReleaseShaders
+> Task :materialspinner:generateReleaseAssets
+> Task :materialspinner:packageReleaseAssets
+> Task :materialspinner:packageReleaseRenderscript NO-SOURCE
+> Task :materialspinner:processReleaseJavaRes NO-SOURCE
+> Task :materialspinner:transformResourcesWithMergeJavaResForRelease
+> Task :materialspinner:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :materialspinner:mergeReleaseJniLibFolders
+> Task :materialspinner:transformNativeLibsWithMergeJniLibsForRelease
+> Task :materialspinner:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :materialspinner:transformNativeLibsWithSyncJniLibsForRelease
+> Task :materialspinner:bundleReleaseAar
+> Task :materialspinner:compileReleaseSources
+> Task :materialspinner:mergeReleaseResources
+> Task :materialspinner:verifyReleaseResources
+> Task :materialspinner:assembleRelease
+> Task :materialspinner:assemble
+> Task :materialspinner:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 21s
+46 actionable tasks: 46 executed
+
+2019-06-17 10:44:46,944 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-17 10:44:46,945 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/src/MaterialSpinner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/src/MaterialSpinner-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-17 10:44:54,270 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-06-17 10:44:54,270 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-06-17 10:44:54,271 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/src/MaterialSpinner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/src/MaterialSpinner-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-06-17 10:45:01,628 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-06-17 10:45:01,629 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Task 'javadocJar' not found in project ':sample'.
+
+* Try:
+Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in project ':sample'.
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:116)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:66)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:57)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$200(DefaultBuildConfigurationActionExecuter.java:26)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.run(DefaultBuildConfigurationActionExecuter.java:43)
+	at org.gradle.internal.Factories$1.create(Factories.java:25)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry.withLenientState(DefaultProjectStateRegistry.java:132)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry.withLenientState(DefaultProjectStateRegistry.java:124)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:39)
+	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:333)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:218)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:155)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:134)
+	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:58)
+	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:55)
+	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:82)
+	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:183)
+	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:40)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:75)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:55)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:31)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcomeReportingBuildActionRunner.java:58)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.BuildCompletionNotifyingBuildActionRunner.run(BuildCompletionNotifyingBuildActionRunner.java:39)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:49)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:44)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:315)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:305)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:101)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:44)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:49)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:46)
+	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:78)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:31)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:42)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:28)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:52)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:68)
+	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:38)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:37)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:60)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:55)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:41)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:48)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:32)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:55)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:207)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:403)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:376)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:37)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:23)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:369)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:299)
+	at org.gradle.launcher.Main.doAction(Main.java:36)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 7s
+
+2019-06-17 10:45:01,629 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-06-17 10:45:01,629 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/src/MaterialSpinner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/src/MaterialSpinner-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-06-17 10:46:18,462 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :materialspinner
+WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
+> Task :materialspinner:preBuild UP-TO-DATE
+> Task :materialspinner:preDebugBuild UP-TO-DATE
+> Task :materialspinner:compileDebugAidl NO-SOURCE
+> Task :materialspinner:compileDebugRenderscript NO-SOURCE
+> Task :materialspinner:checkDebugManifest UP-TO-DATE
+> Task :materialspinner:generateDebugBuildConfig UP-TO-DATE
+> Task :materialspinner:generateDebugResValues UP-TO-DATE
+> Task :materialspinner:generateDebugResources UP-TO-DATE
+> Task :materialspinner:packageDebugResources UP-TO-DATE
+> Task :materialspinner:processDebugManifest UP-TO-DATE
+> Task :materialspinner:generateDebugRFile UP-TO-DATE
+> Task :materialspinner:compileDebugKotlin UP-TO-DATE
+> Task :materialspinner:prepareLintJar UP-TO-DATE
+> Task :materialspinner:generateDebugSources UP-TO-DATE
+> Task :materialspinner:javaPreCompileDebug UP-TO-DATE
+> Task :materialspinner:compileDebugJavaWithJavac UP-TO-DATE
+> Task :materialspinner:bundleLibCompileDebug
+> Task :sample:preBuild UP-TO-DATE
+> Task :sample:preDebugBuild
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :materialspinner:packageDebugRenderscript NO-SOURCE
+> Task :sample:compileDebugRenderscript NO-SOURCE
+> Task :sample:checkDebugManifest
+> Task :sample:generateDebugBuildConfig
+> Task :sample:mainApkListPersistenceDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :sample:mergeDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:processDebugManifest
+> Task :sample:processDebugResources
+> Task :sample:compileDebugKotlin
+> Task :sample:prepareLintJar
+> Task :sample:generateDebugSources
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
+> Task :materialspinner:mergeDebugShaders UP-TO-DATE
+> Task :materialspinner:compileDebugShaders UP-TO-DATE
+> Task :materialspinner:generateDebugAssets UP-TO-DATE
+> Task :materialspinner:packageDebugAssets UP-TO-DATE
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders
+> Task :sample:generateDebugAssets
+> Task :sample:mergeDebugAssets
+> Task :materialspinner:processDebugJavaRes NO-SOURCE
+> Task :materialspinner:bundleLibResDebug
+> Task :materialspinner:bundleLibRuntimeDebug
+> Task :materialspinner:createFullJarDebug
+> Task :sample:checkDebugDuplicateClasses
+> Task :sample:mergeExtDexDebug
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:mergeDexDebug
+> Task :sample:validateSigningDebug
+> Task :sample:signingConfigWriterDebug
+> Task :materialspinner:mergeDebugJniLibFolders UP-TO-DATE
+> Task :materialspinner:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :materialspinner:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :materialspinner:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :sample:mergeDebugJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :materialspinner:preReleaseBuild UP-TO-DATE
+> Task :materialspinner:compileReleaseAidl NO-SOURCE
+> Task :materialspinner:compileReleaseRenderscript NO-SOURCE
+> Task :materialspinner:checkReleaseManifest UP-TO-DATE
+> Task :materialspinner:generateReleaseBuildConfig UP-TO-DATE
+> Task :materialspinner:generateReleaseResValues UP-TO-DATE
+> Task :materialspinner:generateReleaseResources UP-TO-DATE
+> Task :materialspinner:packageReleaseResources UP-TO-DATE
+> Task :materialspinner:processReleaseManifest UP-TO-DATE
+> Task :materialspinner:generateReleaseRFile UP-TO-DATE
+> Task :materialspinner:compileReleaseKotlin UP-TO-DATE
+> Task :materialspinner:generateReleaseSources UP-TO-DATE
+> Task :materialspinner:javaPreCompileRelease UP-TO-DATE
+> Task :materialspinner:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :materialspinner:bundleLibCompileRelease
+> Task :sample:preReleaseBuild
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :materialspinner:packageReleaseRenderscript NO-SOURCE
+> Task :sample:compileReleaseRenderscript NO-SOURCE
+> Task :sample:checkReleaseManifest
+> Task :sample:generateReleaseBuildConfig
+> Task :sample:mainApkListPersistenceRelease
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :sample:mergeReleaseResources
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
+> Task :sample:processReleaseResources
+> Task :sample:compileReleaseKotlin
+> Task :sample:generateReleaseSources
+> Task :sample:javaPreCompileRelease
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseSources
+> Task :materialspinner:prepareLintJarForPublish UP-TO-DATE
+> Task :sample:lintVitalRelease SKIPPED
+> Task :materialspinner:processReleaseJavaRes NO-SOURCE
+> Task :materialspinner:bundleLibResRelease
+> Task :materialspinner:bundleLibRuntimeRelease
+> Task :materialspinner:createFullJarRelease
+> Task :sample:checkReleaseDuplicateClasses
+> Task :sample:mergeExtDexRelease
+> Task :sample:transformClassesWithDexBuilderForRelease
+> Task :sample:mergeDexRelease
+> Task :materialspinner:mergeReleaseShaders UP-TO-DATE
+> Task :materialspinner:compileReleaseShaders UP-TO-DATE
+> Task :materialspinner:generateReleaseAssets UP-TO-DATE
+> Task :materialspinner:packageReleaseAssets UP-TO-DATE
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders
+> Task :sample:generateReleaseAssets
+> Task :sample:mergeReleaseAssets
+> Task :sample:signingConfigWriterRelease
+> Task :materialspinner:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :materialspinner:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :materialspinner:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :materialspinner:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :sample:mergeReleaseJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+
+> Task :sample:lint
+Ran lint on variant release: 10 issues found
+Ran lint on variant debug: 10 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/src/MaterialSpinner-master/sample/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/src/MaterialSpinner-master/sample/build/reports/lint-results.xml
+
+> Task :sample:compileDebugUnitTestKotlin
+> Task :sample:generateDebugUnitTestSources
+> Task :sample:preDebugUnitTestBuild UP-TO-DATE
+> Task :sample:javaPreCompileDebugUnitTest
+> Task :sample:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :sample:processDebugUnitTestJavaRes NO-SOURCE
+> Task :sample:testDebugUnitTest
+> Task :sample:compileReleaseUnitTestKotlin
+> Task :sample:generateReleaseUnitTestSources
+> Task :sample:preReleaseUnitTestBuild UP-TO-DATE
+> Task :sample:javaPreCompileReleaseUnitTest
+> Task :sample:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :sample:processReleaseUnitTestJavaRes NO-SOURCE
+> Task :sample:testReleaseUnitTest
+> Task :sample:test
+> Task :sample:check
+> Task :sample:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1m 15s
+101 actionable tasks: 69 executed, 32 up-to-date
+
+2019-06-17 10:46:18,567 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560743051331-0/src/MaterialSpinner-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
