@@ -1,36 +1,36 @@
-2019-05-16 12:32:37,706 INFO  DownloadService - Downloading "https://github.com/savepopulation/beaver/archive/master.zip", attempt 3
-2019-05-16 12:32:40,016 INFO  DownloadService - Downloaded https://github.com/savepopulation/beaver/archive/master.zip, attempt 3
-2019-05-16 12:32:40,016 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984757703-0/master.zip": 298 KB
-2019-05-16 12:32:40,016 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-16 12:32:40,017 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984757703-0/master.zip: true
-2019-05-16 12:32:40,018 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984757703-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984757703-0/src'.
-2019-05-16 12:32:40,053 INFO  FullProcessService - Size of directory with sources: 318 KB
-2019-05-16 12:32:40,053 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984757703-0/src]
-2019-05-16 12:32:40,079 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984757703-0/src/.git/
+2019-06-17 21:27:05,441 INFO  DownloadService - Downloading "https://github.com/savepopulation/beaver/archive/master.zip", attempt 3
+2019-06-17 21:27:06,312 INFO  DownloadService - Downloaded https://github.com/savepopulation/beaver/archive/master.zip, attempt 3
+2019-06-17 21:27:06,312 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781625433-0/master.zip": 298 KB
+2019-06-17 21:27:06,312 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-17 21:27:06,318 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781625433-0/master.zip: true
+2019-06-17 21:27:06,318 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781625433-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781625433-0/src'.
+2019-06-17 21:27:06,342 INFO  FullProcessService - Size of directory with sources: 318 KB
+2019-06-17 21:27:06,342 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781625433-0/src]
+2019-06-17 21:27:06,358 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781625433-0/src/.git/
 
-2019-05-16 12:32:40,083 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984757703-0/src/beaver-master/gradlew
-2019-05-16 12:32:40,088 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984757703-0/src/beaver-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984757703-0/src/beaver-master/beaverlib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984757703-0/src/beaver-master/build.gradle
-2019-05-16 12:32:40,093 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984757703-0/src/beaver-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984757703-0/src/beaver-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984757703-0/src/beaver-master/beaverlib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984757703-0/src/beaver-master/settings.gradle
-2019-05-16 12:32:40,094 INFO  ProjectBuildService - Remote scripts: none
-2019-05-16 12:32:40,094 INFO  ProjectFixService - Fixing project...
-2019-05-16 12:32:40,106 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984757703-0/src/beaver-master/app/local.properties
-2019-05-16 12:32:40,107 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984757703-0/src/beaver-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-16 12:32:40,108 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984757703-0/src/beaver-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-16 12:32:40,109 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984757703-0/src/beaver-master/beaverlib/local.properties
-2019-05-16 12:32:40,111 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984757703-0/src/beaver-master/beaverlib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-16 12:32:40,111 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984757703-0/src/beaver-master/beaverlib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-16 12:32:40,112 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984757703-0/src/beaver-master/local.properties
-2019-05-16 12:32:40,113 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-05-16 12:32:40,114 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-05-16 12:32:40,116 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984757703-0/src/beaver-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-16 12:32:40,117 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984757703-0/src/beaver-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-16 12:32:40,118 INFO  ProjectFixService - Project was maybe fixed
-2019-05-16 12:32:40,118 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-16 12:32:40,118 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984757703-0/src/beaver-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984757703-0/src/beaver-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-16 12:33:02,120 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-05-16 12:33:02,120 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-16 12:33:02,120 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984757703-0/src/beaver-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984757703-0/src/beaver-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-16 12:34:14,337 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-17 21:27:06,361 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781625433-0/src/beaver-master/gradlew
+2019-06-17 21:27:06,364 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781625433-0/src/beaver-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781625433-0/src/beaver-master/beaverlib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781625433-0/src/beaver-master/build.gradle
+2019-06-17 21:27:06,367 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781625433-0/src/beaver-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781625433-0/src/beaver-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781625433-0/src/beaver-master/beaverlib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781625433-0/src/beaver-master/settings.gradle
+2019-06-17 21:27:06,367 INFO  ProjectBuildService - Remote scripts: none
+2019-06-17 21:27:06,367 INFO  ProjectFixService - Fixing project...
+2019-06-17 21:27:06,375 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781625433-0/src/beaver-master/app/local.properties
+2019-06-17 21:27:06,376 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781625433-0/src/beaver-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-06-17 21:27:06,376 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781625433-0/src/beaver-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-06-17 21:27:06,377 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781625433-0/src/beaver-master/beaverlib/local.properties
+2019-06-17 21:27:06,378 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781625433-0/src/beaver-master/beaverlib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-06-17 21:27:06,378 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781625433-0/src/beaver-master/beaverlib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-06-17 21:27:06,379 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781625433-0/src/beaver-master/local.properties
+2019-06-17 21:27:06,380 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-06-17 21:27:06,380 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-06-17 21:27:06,382 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781625433-0/src/beaver-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-06-17 21:27:06,382 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781625433-0/src/beaver-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-06-17 21:27:06,383 INFO  ProjectFixService - Project was maybe fixed
+2019-06-17 21:27:06,383 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-17 21:27:06,383 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781625433-0/src/beaver-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781625433-0/src/beaver-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-17 21:27:12,927 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-06-17 21:27:12,927 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-06-17 21:27:12,927 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781625433-0/src/beaver-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781625433-0/src/beaver-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-06-17 21:28:07,400 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :beaverlib
 WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
@@ -44,23 +44,23 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :beaverlib:checkDebugManifest
 > Task :beaverlib:processDebugManifest
 > Task :beaverlib:packageDebugRenderscript NO-SOURCE
-> Task :beaverlib:compileDebugAidl NO-SOURCE
 > Task :beaverlib:generateDebugResValues
-> Task :beaverlib:compileDebugRenderscript NO-SOURCE
-> Task :beaverlib:generateDebugResources
 > Task :beaverlib:generateDebugBuildConfig
 > Task :app:preDebugBuild
-> Task :app:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugRenderscript NO-SOURCE
+> Task :beaverlib:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
 > Task :app:createDebugCompatibleScreenManifests
-> Task :app:processDebugManifest
+> Task :beaverlib:compileDebugRenderscript NO-SOURCE
+> Task :beaverlib:generateDebugResources
 > Task :beaverlib:packageDebugResources
 > Task :app:mergeDebugResources
+> Task :app:processDebugManifest
 > Task :beaverlib:generateDebugRFile
 > Task :app:processDebugResources
 > Task :beaverlib:prepareLintJar
@@ -80,13 +80,13 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :beaverlib:kaptGenerateStubsDebugKotlin
 
 > Task :beaverlib:kaptDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984757703-0/src/beaver-master/beaverlib/build/tmp/kapt3/stubs/debug/com/raqun/beaverlib/data/local/BeaverDb.java:7: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781625433-0/src/beaver-master/beaverlib/build/tmp/kapt3/stubs/debug/com/raqun/beaverlib/data/local/BeaverDb.java:7: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
 public abstract class BeaverDb extends androidx.room.RoomDatabase {
                 ^
 
 > Task :beaverlib:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984757703-0/src/beaver-master/beaverlib/src/main/java/com/raqun/beaverlib/util/UrlExt.kt: (14, 25): Variable 'uri' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984757703-0/src/beaver-master/beaverlib/src/main/java/com/raqun/beaverlib/util/UrlExt.kt: (30, 21): Variable 'uri' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781625433-0/src/beaver-master/beaverlib/src/main/java/com/raqun/beaverlib/util/UrlExt.kt: (14, 25): Variable 'uri' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781625433-0/src/beaver-master/beaverlib/src/main/java/com/raqun/beaverlib/util/UrlExt.kt: (30, 21): Variable 'uri' initializer is redundant
 
 > Task :beaverlib:javaPreCompileDebug
 > Task :beaverlib:compileDebugJavaWithJavac
@@ -136,7 +136,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984757703-0/src/
 > Task :beaverlib:kaptGenerateStubsReleaseKotlin
 
 > Task :beaverlib:kaptReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984757703-0/src/beaver-master/beaverlib/build/tmp/kapt3/stubs/release/com/raqun/beaverlib/data/local/BeaverDb.java:7: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781625433-0/src/beaver-master/beaverlib/build/tmp/kapt3/stubs/release/com/raqun/beaverlib/data/local/BeaverDb.java:7: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
 public abstract class BeaverDb extends androidx.room.RoomDatabase {
                 ^
 
@@ -146,8 +146,8 @@ public abstract class BeaverDb extends androidx.room.RoomDatabase {
 > Task :app:assembleDebug
 
 > Task :beaverlib:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984757703-0/src/beaver-master/beaverlib/src/main/java/com/raqun/beaverlib/util/UrlExt.kt: (14, 25): Variable 'uri' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984757703-0/src/beaver-master/beaverlib/src/main/java/com/raqun/beaverlib/util/UrlExt.kt: (30, 21): Variable 'uri' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781625433-0/src/beaver-master/beaverlib/src/main/java/com/raqun/beaverlib/util/UrlExt.kt: (14, 25): Variable 'uri' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781625433-0/src/beaver-master/beaverlib/src/main/java/com/raqun/beaverlib/util/UrlExt.kt: (30, 21): Variable 'uri' initializer is redundant
 
 > Task :beaverlib:generateReleaseSources
 > Task :beaverlib:javaPreCompileRelease
@@ -159,12 +159,9 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984757703-0/src/
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
 > Task :beaverlib:prepareLintJarForPublish
-
-> Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/369b172d5fd3a4f9b5e19b16c23900bc/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-
 > Task :beaverlib:processReleaseJavaRes NO-SOURCE
 > Task :beaverlib:bundleLibResRelease
+> Task :app:lintVitalRelease
 > Task :beaverlib:bundleLibRuntimeRelease
 > Task :beaverlib:createFullJarRelease
 > Task :app:checkReleaseDuplicateClasses
@@ -198,7 +195,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 11s
+BUILD SUCCESSFUL in 53s
 99 actionable tasks: 99 executed
 
-2019-05-16 12:34:14,470 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557984757703-0/src/beaver-master/app/build/outputs/apk/debug/app-debug.apk
+2019-06-17 21:28:07,477 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781625433-0/src/beaver-master/app/build/outputs/apk/debug/app-debug.apk

@@ -1,0 +1,218 @@
+2019-06-17 21:25:11,055 INFO  DownloadService - Downloading "https://github.com/manishkummar21/bluetoothscanning/archive/master.zip", attempt 3
+2019-06-17 21:25:13,502 INFO  DownloadService - Downloaded https://github.com/manishkummar21/bluetoothscanning/archive/master.zip, attempt 3
+2019-06-17 21:25:13,502 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781510958-0/master.zip": 297 KB
+2019-06-17 21:25:13,503 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-17 21:25:13,516 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781510958-0/master.zip: true
+2019-06-17 21:25:13,517 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781510958-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781510958-0/src'.
+2019-06-17 21:25:13,549 INFO  FullProcessService - Size of directory with sources: 325 KB
+2019-06-17 21:25:13,553 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781510958-0/src]
+2019-06-17 21:25:13,591 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781510958-0/src/.git/
+
+2019-06-17 21:25:13,609 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781510958-0/src/bluetoothscanning-master/gradlew
+2019-06-17 21:25:13,625 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781510958-0/src/bluetoothscanning-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781510958-0/src/bluetoothscanning-master/scanning/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781510958-0/src/bluetoothscanning-master/build.gradle
+2019-06-17 21:25:13,631 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781510958-0/src/bluetoothscanning-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781510958-0/src/bluetoothscanning-master/scanning/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781510958-0/src/bluetoothscanning-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781510958-0/src/bluetoothscanning-master/settings.gradle
+2019-06-17 21:25:13,633 INFO  ProjectBuildService - Remote scripts: none
+2019-06-17 21:25:13,634 INFO  ProjectFixService - Fixing project...
+2019-06-17 21:25:13,686 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2019-06-17 21:25:13,686 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
+2019-06-17 21:25:13,706 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 21.1.0 28.0.0 18.1.0 19.1.0 18.1.1
+2019-06-17 21:25:13,709 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 28.0.0-rc1 28.0.0-rc2
+2019-06-17 21:25:13,729 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 11 27 18 20 21 26 19 10 17 28 6 8 9 7
+2019-06-17 21:25:13,730 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28
+2019-06-17 21:25:13,731 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781510958-0/src/bluetoothscanning-master/app/local.properties
+2019-06-17 21:25:13,738 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781510958-0/src/bluetoothscanning-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-06-17 21:25:13,742 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781510958-0/src/bluetoothscanning-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-06-17 21:25:13,745 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781510958-0/src/bluetoothscanning-master/scanning/local.properties
+2019-06-17 21:25:13,748 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781510958-0/src/bluetoothscanning-master/scanning/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-06-17 21:25:13,748 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781510958-0/src/bluetoothscanning-master/scanning/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-06-17 21:25:13,751 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781510958-0/src/bluetoothscanning-master/local.properties
+2019-06-17 21:25:13,756 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-06-17 21:25:13,757 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-06-17 21:25:13,758 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781510958-0/src/bluetoothscanning-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-06-17 21:25:13,759 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781510958-0/src/bluetoothscanning-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-06-17 21:25:13,759 INFO  ProjectFixService - Project was maybe fixed
+2019-06-17 21:25:13,761 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-17 21:25:13,762 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781510958-0/src/bluetoothscanning-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781510958-0/src/bluetoothscanning-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-17 21:25:40,117 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-06-17 21:25:40,117 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-06-17 21:25:40,117 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781510958-0/src/bluetoothscanning-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781510958-0/src/bluetoothscanning-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-06-17 21:26:23,866 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :scanning:preBuild UP-TO-DATE
+> Task :scanning:preDebugBuild UP-TO-DATE
+> Task :scanning:checkDebugManifest
+> Task :scanning:processDebugManifest
+> Task :scanning:compileDebugAidl NO-SOURCE
+> Task :app:preDebugBuild
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :scanning:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :app:dataBindingExportBuildInfoDebug
+> Task :app:dataBindingExportFeaturePackageIdsDebug
+> Task :scanning:compileDebugRenderscript NO-SOURCE
+> Task :scanning:generateDebugBuildConfig
+> Task :scanning:prepareLintJar
+> Task :scanning:generateDebugSources
+> Task :scanning:dataBindingExportBuildInfoDebug
+> Task :scanning:dataBindingMergeDependencyArtifactsDebug
+> Task :scanning:dataBindingMergeGenClassesDebug
+> Task :scanning:generateDebugResValues
+> Task :scanning:generateDebugResources
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:mainApkListPersistenceDebug
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :scanning:mergeDebugResources
+> Task :scanning:dataBindingGenBaseClassesDebug
+> Task :scanning:packageDebugResources
+> Task :scanning:generateDebugRFile
+> Task :scanning:javaPreCompileDebug
+
+> Task :scanning:compileDebugJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: databinding-compiler-3.4.1.jar (androidx.databinding:databinding-compiler:3.4.1).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:dataBindingMergeDependencyArtifactsDebug
+> Task :app:dataBindingMergeGenClassesDebug
+> Task :app:mergeDebugResources
+> Task :app:dataBindingGenBaseClassesDebug
+> Task :scanning:bundleLibCompileDebug
+> Task :app:javaPreCompileDebug
+> Task :app:processDebugResources
+
+> Task :app:compileDebugJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: databinding-compiler-3.4.1.jar (androidx.databinding:databinding-compiler:3.4.1).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :scanning:mergeDebugShaders
+> Task :scanning:compileDebugShaders
+> Task :scanning:generateDebugAssets
+> Task :scanning:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :scanning:processDebugJavaRes NO-SOURCE
+> Task :scanning:bundleLibResDebug
+> Task :scanning:bundleLibRuntimeDebug
+> Task :scanning:createFullJarDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :scanning:mergeDebugJniLibFolders
+> Task :scanning:transformNativeLibsWithMergeJniLibsForDebug
+> Task :scanning:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :scanning:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :scanning:preReleaseBuild UP-TO-DATE
+> Task :scanning:checkReleaseManifest
+> Task :scanning:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :scanning:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :scanning:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:generateReleaseSources
+> Task :app:dataBindingExportBuildInfoRelease
+> Task :app:dataBindingExportFeaturePackageIdsRelease
+> Task :scanning:compileReleaseRenderscript NO-SOURCE
+> Task :scanning:generateReleaseBuildConfig
+> Task :scanning:generateReleaseSources
+> Task :scanning:dataBindingExportBuildInfoRelease
+> Task :scanning:dataBindingMergeDependencyArtifactsRelease
+> Task :scanning:dataBindingMergeGenClassesRelease
+> Task :scanning:generateReleaseResValues
+> Task :scanning:generateReleaseResources
+> Task :scanning:mergeReleaseResources
+> Task :scanning:dataBindingGenBaseClassesRelease
+> Task :scanning:packageReleaseResources
+> Task :scanning:generateReleaseRFile
+> Task :scanning:javaPreCompileRelease
+
+> Task :scanning:compileReleaseJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: databinding-compiler-3.4.1.jar (androidx.databinding:databinding-compiler:3.4.1).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:mergeExtDexDebug
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:dataBindingMergeDependencyArtifactsRelease
+> Task :app:dataBindingMergeGenClassesRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:dataBindingGenBaseClassesRelease
+> Task :scanning:bundleLibCompileRelease
+> Task :app:javaPreCompileRelease
+> Task :app:mainApkListPersistenceRelease
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:processReleaseResources
+
+> Task :app:compileReleaseJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: databinding-compiler-3.4.1.jar (androidx.databinding:databinding-compiler:3.4.1).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+
+> Task :app:compileReleaseSources
+> Task :scanning:prepareLintJarForPublish
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/f5fe547766fdad366b89922a9bb0c6cb/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :scanning:processReleaseJavaRes NO-SOURCE
+> Task :scanning:bundleLibResRelease
+> Task :scanning:bundleLibRuntimeRelease
+> Task :scanning:createFullJarRelease
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :scanning:mergeReleaseShaders
+> Task :scanning:compileReleaseShaders
+> Task :scanning:generateReleaseAssets
+> Task :scanning:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :scanning:mergeReleaseJniLibFolders
+> Task :scanning:transformNativeLibsWithMergeJniLibsForRelease
+> Task :scanning:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :scanning:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 42s
+111 actionable tasks: 111 executed
+
+2019-06-17 21:26:23,992 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781510958-0/src/bluetoothscanning-master/app/build/outputs/apk/debug/app-debug.apk
