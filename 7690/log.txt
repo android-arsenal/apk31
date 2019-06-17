@@ -1,45 +1,45 @@
-2019-05-29 11:38:47,959 INFO  DownloadService - Downloading "https://github.com/chhatrasal09/CoachMark/archive/master.zip", attempt 3
-2019-05-29 11:38:50,525 INFO  DownloadService - Downloaded https://github.com/chhatrasal09/CoachMark/archive/master.zip, attempt 3
-2019-05-29 11:38:50,526 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/master.zip": 382 KB
-2019-05-29 11:38:50,526 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-29 11:38:50,527 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/master.zip: true
-2019-05-29 11:38:50,528 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src'.
-2019-05-29 11:38:50,555 INFO  FullProcessService - Size of directory with sources: 498 KB
-2019-05-29 11:38:50,555 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src]
-2019-05-29 11:38:50,589 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/.git/
+2019-06-17 12:02:28,736 INFO  DownloadService - Downloading "https://github.com/chhatrasal09/CoachMark/archive/master.zip", attempt 3
+2019-06-17 12:02:31,160 INFO  DownloadService - Downloaded https://github.com/chhatrasal09/CoachMark/archive/master.zip, attempt 3
+2019-06-17 12:02:31,160 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/master.zip": 382 KB
+2019-06-17 12:02:31,160 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-17 12:02:31,161 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/master.zip: true
+2019-06-17 12:02:31,161 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src'.
+2019-06-17 12:02:31,189 INFO  FullProcessService - Size of directory with sources: 498 KB
+2019-06-17 12:02:31,189 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src]
+2019-06-17 12:02:31,209 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/.git/
 
-2019-05-29 11:38:50,592 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/gradlew
-2019-05-29 11:38:50,595 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/coachmark/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/build.gradle
-2019-05-29 11:38:50,598 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/coachmark/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/settings.gradle
-2019-05-29 11:38:50,598 INFO  ProjectBuildService - Remote scripts: none
-2019-05-29 11:38:50,599 INFO  ProjectFixService - Fixing project...
-2019-05-29 11:38:50,607 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/app/local.properties
-2019-05-29 11:38:50,609 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-05-29 11:38:50,610 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-05-29 11:38:50,612 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/coachmark/local.properties
-2019-05-29 11:38:50,613 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/coachmark/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-05-29 11:38:50,613 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/coachmark/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-05-29 11:38:50,614 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/local.properties
-2019-05-29 11:38:50,615 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-05-29 11:38:50,615 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-05-29 11:38:50,616 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-05-29 11:38:50,617 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-05-29 11:38:50,617 INFO  ProjectFixService - Project was maybe fixed
-2019-05-29 11:38:50,617 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-29 11:38:50,617 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-29 11:39:17,407 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-05-29 11:39:17,409 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-29 11:39:17,410 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-29 11:40:12,788 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-17 12:02:31,214 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/gradlew
+2019-06-17 12:02:31,219 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/coachmark/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/build.gradle
+2019-06-17 12:02:31,224 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/coachmark/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/settings.gradle
+2019-06-17 12:02:31,225 INFO  ProjectBuildService - Remote scripts: none
+2019-06-17 12:02:31,225 INFO  ProjectFixService - Fixing project...
+2019-06-17 12:02:31,234 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/app/local.properties
+2019-06-17 12:02:31,235 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-06-17 12:02:31,236 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-06-17 12:02:31,237 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/coachmark/local.properties
+2019-06-17 12:02:31,238 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/coachmark/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-06-17 12:02:31,238 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/coachmark/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-06-17 12:02:31,239 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/local.properties
+2019-06-17 12:02:31,240 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-06-17 12:02:31,240 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-06-17 12:02:31,242 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-06-17 12:02:31,242 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-06-17 12:02:31,242 INFO  ProjectFixService - Project was maybe fixed
+2019-06-17 12:02:31,242 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-17 12:02:31,243 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-17 12:02:39,691 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-06-17 12:02:39,691 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-06-17 12:02:39,692 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-06-17 12:03:36,917 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :coachmark:preBuild UP-TO-DATE
 > Task :coachmark:preDebugBuild UP-TO-DATE
 > Task :coachmark:checkDebugManifest
 > Task :coachmark:processDebugManifest
-> Task :app:preDebugBuild
 > Task :coachmark:packageDebugRenderscript NO-SOURCE
-> Task :app:checkDebugManifest
+> Task :app:preDebugBuild
 > Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
@@ -47,9 +47,45 @@
 > Task :coachmark:generateDebugResValues
 > Task :app:createDebugCompatibleScreenManifests
 > Task :app:processDebugManifest
+> Task :coachmark:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
 > Task :coachmark:generateDebugBuildConfig
+> Task :coachmark:compileDebugRenderscript NO-SOURCE
+> Task :coachmark:generateDebugResources
+> Task :coachmark:packageDebugResources
+> Task :app:mergeDebugResources
+> Task :coachmark:generateDebugRFile
+> Task :app:processDebugResources
+
+> Task :coachmark:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkInfo.kt: (91, 13): 'when' expression on enum is recommended to be exhaustive, add 'CENTER' branch or 'else' branch instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkInfo.kt: (187, 26): Parameter 'style' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkInfoToolTip.kt: (51, 9): 'when' expression on enum is recommended to be exhaustive, add 'BOX' branch or 'else' branch instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkOverlay.kt: (124, 9): 'when' expression on enum is recommended to be exhaustive, add 'TRIANGLE' branch or 'else' branch instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkOverlay.kt: (147, 17): 'when' expression on enum is recommended to be exhaustive, add 'TOP', 'BOTTOM' branches or 'else' branch instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkOverlay.kt: (177, 49): Unnecessary non-null assertion (!!) on a non-null receiver of type Rect
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkOverlay.kt: (178, 50): Unnecessary non-null assertion (!!) on a non-null receiver of type Rect
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkOverlay.kt: (221, 17): 'when' expression on enum is recommended to be exhaustive, add 'CENTER', 'START', 'END' branches or 'else' branch instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkOverlay.kt: (223, 25): 'when' expression on enum is recommended to be exhaustive, add 'BOX' branch or 'else' branch instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkOverlay.kt: (253, 25): 'when' expression on enum is recommended to be exhaustive, add 'BOX' branch or 'else' branch instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkOverlay.kt: (295, 17): 'when' expression on enum is recommended to be exhaustive, add 'CENTER', 'START', 'END' branches or 'else' branch instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/configuration/CoachMarkConfig.kt: (110, 33): Parameter 'height' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/configuration/CoachMarkSequence.kt: (55, 42): Unnecessary safe call on a non-null receiver of type SequenceListener
+
 > Task :coachmark:prepareLintJar
+> Task :coachmark:generateDebugSources
+> Task :coachmark:javaPreCompileDebug
+> Task :coachmark:compileDebugJavaWithJavac
+> Task :coachmark:bundleLibCompileDebug
+
+> Task :app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/app/src/main/java/com/android/app/coachmark/MainActivity.kt: (53, 70): The corresponding parameter in the supertype 'SequenceListener' is named 'coachMarkSequence'. This may cause problems when calling this function with named arguments.
+
 > Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
@@ -58,42 +94,6 @@
 > Task :coachmark:generateDebugAssets
 > Task :coachmark:packageDebugAssets
 > Task :app:mergeDebugAssets
-> Task :coachmark:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugAidl NO-SOURCE
-> Task :coachmark:compileDebugRenderscript NO-SOURCE
-> Task :coachmark:generateDebugResources
-> Task :coachmark:packageDebugResources
-> Task :app:mergeDebugResources
-> Task :coachmark:generateDebugSources
-> Task :app:generateDebugSources
-> Task :coachmark:generateDebugRFile
-> Task :app:processDebugResources
-
-> Task :coachmark:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkInfo.kt: (91, 13): 'when' expression on enum is recommended to be exhaustive, add 'CENTER' branch or 'else' branch instead
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkInfo.kt: (187, 26): Parameter 'style' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkInfoToolTip.kt: (51, 9): 'when' expression on enum is recommended to be exhaustive, add 'BOX' branch or 'else' branch instead
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkOverlay.kt: (124, 9): 'when' expression on enum is recommended to be exhaustive, add 'TRIANGLE' branch or 'else' branch instead
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkOverlay.kt: (147, 17): 'when' expression on enum is recommended to be exhaustive, add 'TOP', 'BOTTOM' branches or 'else' branch instead
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkOverlay.kt: (177, 49): Unnecessary non-null assertion (!!) on a non-null receiver of type Rect
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkOverlay.kt: (178, 50): Unnecessary non-null assertion (!!) on a non-null receiver of type Rect
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkOverlay.kt: (221, 17): 'when' expression on enum is recommended to be exhaustive, add 'CENTER', 'START', 'END' branches or 'else' branch instead
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkOverlay.kt: (223, 25): 'when' expression on enum is recommended to be exhaustive, add 'BOX' branch or 'else' branch instead
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkOverlay.kt: (253, 25): 'when' expression on enum is recommended to be exhaustive, add 'BOX' branch or 'else' branch instead
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkOverlay.kt: (295, 17): 'when' expression on enum is recommended to be exhaustive, add 'CENTER', 'START', 'END' branches or 'else' branch instead
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/configuration/CoachMarkConfig.kt: (110, 33): Parameter 'height' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/configuration/CoachMarkSequence.kt: (55, 42): Unnecessary safe call on a non-null receiver of type SequenceListener
-
-> Task :coachmark:javaPreCompileDebug
-> Task :coachmark:compileDebugJavaWithJavac
-> Task :coachmark:bundleLibCompileDebug
-
-> Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/app/src/main/java/com/android/app/coachmark/MainActivity.kt: (53, 70): The corresponding parameter in the supertype 'SequenceListener' is named 'coachMarkSequence'. This may cause problems when calling this function with named arguments.
-
-> Task :app:javaPreCompileDebug
-> Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugSources
 > Task :app:checkDebugDuplicateClasses
 > Task :coachmark:processDebugJavaRes NO-SOURCE
 > Task :coachmark:bundleLibResDebug
@@ -103,10 +103,10 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/
 > Task :app:mergeProjectDexDebug
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
-> Task :app:mergeLibDexDebug
 > Task :app:mergeDebugJniLibFolders
 > Task :coachmark:mergeDebugJniLibFolders
 > Task :coachmark:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:mergeLibDexDebug
 > Task :coachmark:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :coachmark:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :app:transformNativeLibsWithMergeJniLibsForDebug
@@ -138,19 +138,19 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/
 > Task :coachmark:generateReleaseBuildConfig
 
 > Task :coachmark:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkInfo.kt: (91, 13): 'when' expression on enum is recommended to be exhaustive, add 'CENTER' branch or 'else' branch instead
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkInfo.kt: (187, 26): Parameter 'style' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkInfoToolTip.kt: (51, 9): 'when' expression on enum is recommended to be exhaustive, add 'BOX' branch or 'else' branch instead
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkOverlay.kt: (124, 9): 'when' expression on enum is recommended to be exhaustive, add 'TRIANGLE' branch or 'else' branch instead
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkOverlay.kt: (147, 17): 'when' expression on enum is recommended to be exhaustive, add 'TOP', 'BOTTOM' branches or 'else' branch instead
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkOverlay.kt: (177, 49): Unnecessary non-null assertion (!!) on a non-null receiver of type Rect
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkOverlay.kt: (178, 50): Unnecessary non-null assertion (!!) on a non-null receiver of type Rect
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkOverlay.kt: (221, 17): 'when' expression on enum is recommended to be exhaustive, add 'CENTER', 'START', 'END' branches or 'else' branch instead
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkOverlay.kt: (223, 25): 'when' expression on enum is recommended to be exhaustive, add 'BOX' branch or 'else' branch instead
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkOverlay.kt: (253, 25): 'when' expression on enum is recommended to be exhaustive, add 'BOX' branch or 'else' branch instead
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkOverlay.kt: (295, 17): 'when' expression on enum is recommended to be exhaustive, add 'CENTER', 'START', 'END' branches or 'else' branch instead
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/configuration/CoachMarkConfig.kt: (110, 33): Parameter 'height' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/configuration/CoachMarkSequence.kt: (55, 42): Unnecessary safe call on a non-null receiver of type SequenceListener
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkInfo.kt: (91, 13): 'when' expression on enum is recommended to be exhaustive, add 'CENTER' branch or 'else' branch instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkInfo.kt: (187, 26): Parameter 'style' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkInfoToolTip.kt: (51, 9): 'when' expression on enum is recommended to be exhaustive, add 'BOX' branch or 'else' branch instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkOverlay.kt: (124, 9): 'when' expression on enum is recommended to be exhaustive, add 'TRIANGLE' branch or 'else' branch instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkOverlay.kt: (147, 17): 'when' expression on enum is recommended to be exhaustive, add 'TOP', 'BOTTOM' branches or 'else' branch instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkOverlay.kt: (177, 49): Unnecessary non-null assertion (!!) on a non-null receiver of type Rect
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkOverlay.kt: (178, 50): Unnecessary non-null assertion (!!) on a non-null receiver of type Rect
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkOverlay.kt: (221, 17): 'when' expression on enum is recommended to be exhaustive, add 'CENTER', 'START', 'END' branches or 'else' branch instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkOverlay.kt: (223, 25): 'when' expression on enum is recommended to be exhaustive, add 'BOX' branch or 'else' branch instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkOverlay.kt: (253, 25): 'when' expression on enum is recommended to be exhaustive, add 'BOX' branch or 'else' branch instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/components/CoachMarkOverlay.kt: (295, 17): 'when' expression on enum is recommended to be exhaustive, add 'CENTER', 'START', 'END' branches or 'else' branch instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/configuration/CoachMarkConfig.kt: (110, 33): Parameter 'height' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/coachmark/src/main/java/com/android/library/coachmark/configuration/CoachMarkSequence.kt: (55, 42): Unnecessary safe call on a non-null receiver of type SequenceListener
 
 > Task :app:mergeExtDexDebug
 > Task :app:packageDebug
@@ -161,14 +161,17 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/
 > Task :coachmark:bundleLibCompileRelease
 
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/app/src/main/java/com/android/app/coachmark/MainActivity.kt: (53, 70): The corresponding parameter in the supertype 'SequenceListener' is named 'coachMarkSequence'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/app/src/main/java/com/android/app/coachmark/MainActivity.kt: (53, 70): The corresponding parameter in the supertype 'SequenceListener' is named 'coachMarkSequence'. This may cause problems when calling this function with named arguments.
 
 > Task :app:generateReleaseSources
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
 > Task :coachmark:prepareLintJarForPublish
+
 > Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/53c3a12fb6e497103c2a512d24ee6cdd/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
 > Task :coachmark:processReleaseJavaRes NO-SOURCE
 > Task :coachmark:bundleLibResRelease
 > Task :coachmark:bundleLibRuntimeRelease
@@ -204,7 +207,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 54s
+BUILD SUCCESSFUL in 56s
 96 actionable tasks: 96 executed
 
-2019-05-29 11:40:12,873 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559104727956-0/src/CoachMark-master/app/build/outputs/apk/debug/app-debug.apk
+2019-06-17 12:03:36,991 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560747748733-0/src/CoachMark-master/app/build/outputs/apk/debug/app-debug.apk
