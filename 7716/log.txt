@@ -1,53 +1,61 @@
-2019-06-18 12:45:15,263 INFO  DownloadService - Downloading "https://github.com/TayfunCesur/CurvedBottomSheet/archive/master.zip", attempt 3
-2019-06-18 12:45:25,311 INFO  DownloadService - Downloaded https://github.com/TayfunCesur/CurvedBottomSheet/archive/master.zip, attempt 3
-2019-06-18 12:45:25,312 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/master.zip": 14 MB
-2019-06-18 12:45:25,312 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-06-18 12:45:25,313 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/master.zip: true
-2019-06-18 12:45:25,314 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src'.
-2019-06-18 12:45:25,409 INFO  FullProcessService - Size of directory with sources: 14 MB
-2019-06-18 12:45:25,409 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src]
-2019-06-18 12:45:25,437 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/.git/
+2019-06-30 20:07:53,891 INFO  DownloadService - Downloading "https://github.com/TayfunCesur/CurvedBottomSheet/archive/master.zip", attempt 3
+2019-06-30 20:08:03,615 INFO  DownloadService - Downloaded https://github.com/TayfunCesur/CurvedBottomSheet/archive/master.zip, attempt 3
+2019-06-30 20:08:03,615 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/master.zip": 14 MB
+2019-06-30 20:08:03,616 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-30 20:08:03,622 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/master.zip: true
+2019-06-30 20:08:03,623 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src'.
+2019-06-30 20:08:03,720 INFO  FullProcessService - Size of directory with sources: 14 MB
+2019-06-30 20:08:03,720 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src]
+2019-06-30 20:08:03,737 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/.git/
 
-2019-06-18 12:45:25,440 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/gradlew
-2019-06-18 12:45:25,444 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/build.gradle
-2019-06-18 12:45:25,446 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/settings.gradle
-2019-06-18 12:45:25,447 INFO  ProjectBuildService - Remote scripts: none
-2019-06-18 12:45:25,447 INFO  ProjectFixService - Fixing project...
-2019-06-18 12:45:25,454 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/app/local.properties
-2019-06-18 12:45:25,455 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-06-18 12:45:25,455 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-06-18 12:45:25,456 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/lib/local.properties
-2019-06-18 12:45:25,457 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-06-18 12:45:25,457 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-06-18 12:45:25,458 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/local.properties
-2019-06-18 12:45:25,459 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-06-18 12:45:25,460 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-06-18 12:45:25,461 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-06-18 12:45:25,462 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-06-18 12:45:25,462 INFO  ProjectFixService - Project was maybe fixed
-2019-06-18 12:45:25,462 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-18 12:45:25,463 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-18 12:45:31,707 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-06-18 12:45:31,708 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-06-18 12:45:31,708 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-06-18 12:46:17,901 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-30 20:08:03,740 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/gradlew
+2019-06-30 20:08:03,744 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/build.gradle
+2019-06-30 20:08:03,746 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/settings.gradle
+2019-06-30 20:08:03,747 INFO  ProjectBuildService - Remote scripts: none
+2019-06-30 20:08:03,747 INFO  ProjectFixService - Fixing project...
+2019-06-30 20:08:03,752 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/app/local.properties
+2019-06-30 20:08:03,753 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-06-30 20:08:03,753 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-06-30 20:08:03,754 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/lib/local.properties
+2019-06-30 20:08:03,755 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-06-30 20:08:03,755 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-06-30 20:08:03,756 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/local.properties
+2019-06-30 20:08:03,756 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-06-30 20:08:03,757 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-06-30 20:08:03,758 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-06-30 20:08:03,758 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-06-30 20:08:03,759 INFO  ProjectFixService - Project was maybe fixed
+2019-06-30 20:08:03,759 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-30 20:08:03,759 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-30 20:08:11,927 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-06-30 20:08:11,927 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-06-30 20:08:11,927 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-06-30 20:09:13,087 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :lib:preBuild UP-TO-DATE
 > Task :lib:preDebugBuild UP-TO-DATE
 > Task :lib:checkDebugManifest
 > Task :lib:processDebugManifest
-> Task :app:preDebugBuild
-> Task :lib:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugAidl NO-SOURCE
 > Task :lib:packageDebugRenderscript NO-SOURCE
-> Task :app:compileDebugRenderscript
+> Task :lib:generateDebugResValues
+> Task :lib:generateDebugBuildConfig
+> Task :lib:prepareLintJar
+> Task :app:prepareLintJar
+> Task :lib:mergeDebugShaders
+> Task :lib:compileDebugShaders
+> Task :lib:generateDebugAssets
+> Task :lib:packageDebugAssets
+> Task :lib:processDebugJavaRes NO-SOURCE
+> Task :lib:compileDebugAidl NO-SOURCE
+> Task :app:preDebugBuild
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :lib:compileDebugRenderscript
-> Task :lib:generateDebugResValues
+> Task :lib:compileDebugRenderscript NO-SOURCE
 > Task :lib:generateDebugResources
 > Task :lib:packageDebugResources
 > Task :app:mergeDebugResources
@@ -55,54 +63,43 @@
 > Task :app:processDebugManifest
 > Task :lib:generateDebugRFile
 > Task :app:processDebugResources
-> Task :lib:generateDebugBuildConfig
 
 > Task :lib:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (27, 30): 'ParcelableCompat' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (28, 30): 'ParcelableCompatCreatorCallbacks<T : Any!>' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (181, 20): 'VelocityTrackerCompat' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (181, 42): 'getYVelocity(VelocityTracker!, Int): Float' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (195, 50): 'canScrollVertically(View!, Int): Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (343, 24): 'setFitsSystemWindows(View!, Boolean): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (373, 40): 'getActionMasked(MotionEvent!): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (424, 40): 'getActionMasked(MotionEvent!): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (470, 29): 'canScrollVertically(View!, Int): Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (658, 59): 'ParcelableCompat' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (658, 76): 'newCreator(ParcelableCompatCreatorCallbacks<T!>!): Parcelable.Creator<T!>!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (659, 26): 'ParcelableCompatCreatorCallbacks<T : Any!>' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (715, 29): Unchecked cast: TopSheetBehavior<*> to TopSheetBehavior<V>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (26, 25): 'ParcelableCompat' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (27, 25): 'ParcelableCompatCreatorCallbacks<T : Any!>' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (177, 20): 'VelocityTrackerCompat' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (177, 42): 'getYVelocity(VelocityTracker!, Int): Float' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (191, 50): 'canScrollVertically(View!, Int): Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (338, 24): 'setFitsSystemWindows(View!, Boolean): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (368, 40): 'getActionMasked(MotionEvent!): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (419, 40): 'getActionMasked(MotionEvent!): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (465, 29): 'canScrollVertically(View!, Int): Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (653, 59): 'ParcelableCompat' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (653, 76): 'newCreator(ParcelableCompatCreatorCallbacks<T!>!): Parcelable.Creator<T!>!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (654, 26): 'ParcelableCompatCreatorCallbacks<T : Any!>' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (710, 29): Unchecked cast: TopSheetBehavior<*> to TopSheetBehavior<V>
 
-> Task :lib:prepareLintJar
 > Task :lib:generateDebugSources
 > Task :lib:javaPreCompileDebug
 > Task :lib:compileDebugJavaWithJavac
-> Task :lib:processDebugJavaRes NO-SOURCE
-> Task :lib:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :lib:bundleLibCompileDebug
 > Task :app:compileDebugKotlin
-> Task :app:prepareLintJar
 > Task :app:generateDebugSources
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugNdk NO-SOURCE
 > Task :app:compileDebugSources
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
-> Task :lib:mergeDebugShaders
-> Task :lib:compileDebugShaders
-> Task :lib:generateDebugAssets
-> Task :lib:packageDebugAssets
 > Task :app:mergeDebugAssets
+> Task :lib:bundleLibResDebug
+> Task :lib:bundleLibRuntimeDebug
 > Task :lib:createFullJarDebug
-> Transform full.jar (project :lib) with IdentityTransform
-> Task :app:mergeExtDexDebug
-> Transform full.jar (project :lib) with DexingTransform
+> Task :app:checkDebugDuplicateClasses
 > Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:mergeDexDebug
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
 > Task :app:mergeDebugJniLibFolders
-> Task :lib:compileDebugNdk NO-SOURCE
 > Task :lib:mergeDebugJniLibFolders
 > Task :lib:transformNativeLibsWithMergeJniLibsForDebug
 > Task :lib:transformNativeLibsWithStripDebugSymbolForDebug
@@ -111,8 +108,6 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/
 > Task :app:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :app:transformResourcesWithMergeJavaResForDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
 > Task :lib:preReleaseBuild UP-TO-DATE
 > Task :lib:checkReleaseManifest
 > Task :lib:processReleaseManifest
@@ -120,13 +115,13 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/
 > Task :lib:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :lib:packageReleaseRenderscript NO-SOURCE
-> Task :app:compileReleaseRenderscript
+> Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
-> Task :lib:compileReleaseRenderscript
+> Task :lib:compileReleaseRenderscript NO-SOURCE
 > Task :lib:generateReleaseResValues
 > Task :lib:generateReleaseResources
 > Task :lib:packageReleaseResources
@@ -138,41 +133,44 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/
 > Task :lib:generateReleaseBuildConfig
 
 > Task :lib:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (27, 30): 'ParcelableCompat' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (28, 30): 'ParcelableCompatCreatorCallbacks<T : Any!>' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (181, 20): 'VelocityTrackerCompat' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (181, 42): 'getYVelocity(VelocityTracker!, Int): Float' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (195, 50): 'canScrollVertically(View!, Int): Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (343, 24): 'setFitsSystemWindows(View!, Boolean): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (373, 40): 'getActionMasked(MotionEvent!): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (424, 40): 'getActionMasked(MotionEvent!): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (470, 29): 'canScrollVertically(View!, Int): Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (658, 59): 'ParcelableCompat' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (658, 76): 'newCreator(ParcelableCompatCreatorCallbacks<T!>!): Parcelable.Creator<T!>!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (659, 26): 'ParcelableCompatCreatorCallbacks<T : Any!>' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (715, 29): Unchecked cast: TopSheetBehavior<*> to TopSheetBehavior<V>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (26, 25): 'ParcelableCompat' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (27, 25): 'ParcelableCompatCreatorCallbacks<T : Any!>' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (177, 20): 'VelocityTrackerCompat' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (177, 42): 'getYVelocity(VelocityTracker!, Int): Float' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (191, 50): 'canScrollVertically(View!, Int): Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (338, 24): 'setFitsSystemWindows(View!, Boolean): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (368, 40): 'getActionMasked(MotionEvent!): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (419, 40): 'getActionMasked(MotionEvent!): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (465, 29): 'canScrollVertically(View!, Int): Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (653, 59): 'ParcelableCompat' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (653, 76): 'newCreator(ParcelableCompatCreatorCallbacks<T!>!): Parcelable.Creator<T!>!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (654, 26): 'ParcelableCompatCreatorCallbacks<T : Any!>' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/lib/src/main/java/com/tayfuncesur/curvedbottomsheet/TopSheetBehavior.kt: (710, 29): Unchecked cast: TopSheetBehavior<*> to TopSheetBehavior<V>
 
+> Task :app:mergeExtDexDebug
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :lib:generateReleaseSources
 > Task :lib:javaPreCompileRelease
 > Task :lib:compileReleaseJavaWithJavac
-> Task :lib:processReleaseJavaRes NO-SOURCE
-> Task :lib:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :lib:bundleLibCompileRelease
 > Task :app:compileReleaseKotlin
 > Task :app:generateReleaseSources
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
-> Task :app:compileReleaseNdk NO-SOURCE
 > Task :app:compileReleaseSources
+> Task :lib:prepareLintJarForPublish
 
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/4d7149ef91184317af72e048646c251d/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/cbe768b319b3c530e115dcbda44414ff/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
+> Task :lib:processReleaseJavaRes NO-SOURCE
+> Task :lib:bundleLibResRelease
+> Task :lib:bundleLibRuntimeRelease
 > Task :lib:createFullJarRelease
-> Transform full.jar (project :lib) with IdentityTransform
-> Task :app:mergeExtDexRelease
-> Transform full.jar (project :lib) with DexingTransform
+> Task :app:checkReleaseDuplicateClasses
 > Task :app:transformClassesWithDexBuilderForRelease
-> Task :app:mergeDexRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
@@ -183,7 +181,6 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:mergeReleaseAssets
 > Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
-> Task :lib:compileReleaseNdk NO-SOURCE
 > Task :lib:mergeReleaseJniLibFolders
 > Task :lib:transformNativeLibsWithMergeJniLibsForRelease
 > Task :lib:transformNativeLibsWithStripDebugSymbolForRelease
@@ -192,12 +189,18 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:transformNativeLibsWithStripDebugSymbolForRelease
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
 > Task :app:packageRelease
 > Task :app:assembleRelease
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 45s
-92 actionable tasks: 92 executed
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-2019-06-18 12:46:17,973 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836715252-0/src/CurvedBottomSheet-master/app/build/outputs/apk/debug/app-debug.apk
+BUILD SUCCESSFUL in 1m 0s
+95 actionable tasks: 95 executed
+
+2019-06-30 20:09:13,160 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561900073882-0/src/CurvedBottomSheet-master/app/build/outputs/apk/debug/app-debug.apk
