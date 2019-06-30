@@ -1,0 +1,302 @@
+2019-06-30 18:13:46,117 INFO  DownloadService - Downloading "https://github.com/arthur3486/bottomsheets/archive/master.zip", attempt 3
+2019-06-30 18:13:50,036 INFO  DownloadService - Downloaded https://github.com/arthur3486/bottomsheets/archive/master.zip, attempt 3
+2019-06-30 18:13:50,037 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/master.zip": 2 MB
+2019-06-30 18:13:50,037 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-30 18:13:50,038 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/master.zip: true
+2019-06-30 18:13:50,038 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src'.
+2019-06-30 18:13:50,097 INFO  FullProcessService - Size of directory with sources: 3 MB
+2019-06-30 18:13:50,097 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src]
+2019-06-30 18:13:50,114 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src/.git/
+
+2019-06-30 18:13:50,119 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src/bottomsheets-master/gradlew
+2019-06-30 18:13:50,125 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src/bottomsheets-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src/bottomsheets-master/bottomsheets-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src/bottomsheets-master/bottomsheets-ktx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src/bottomsheets-master/bottomsheets-sheets/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src/bottomsheets-master/build.gradle
+2019-06-30 18:13:50,130 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src/bottomsheets-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src/bottomsheets-master/bottomsheets-sheets/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src/bottomsheets-master/bottomsheets-ktx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src/bottomsheets-master/gradle/script/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src/bottomsheets-master/common/constants.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src/bottomsheets-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src/bottomsheets-master/bottomsheets-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src/bottomsheets-master/settings.gradle
+2019-06-30 18:13:50,131 INFO  ProjectBuildService - Remote scripts: none
+2019-06-30 18:13:50,131 INFO  ProjectFixService - Fixing project...
+2019-06-30 18:13:50,147 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src/bottomsheets-master/app/local.properties
+2019-06-30 18:13:50,151 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src/bottomsheets-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=18,targetSdkVersion=28]
+2019-06-30 18:13:50,152 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src/bottomsheets-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-06-30 18:13:50,153 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src/bottomsheets-master/bottomsheets-core/local.properties
+2019-06-30 18:13:50,157 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src/bottomsheets-master/bottomsheets-core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=18,targetSdkVersion=28]
+2019-06-30 18:13:50,158 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src/bottomsheets-master/bottomsheets-core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-06-30 18:13:50,159 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src/bottomsheets-master/bottomsheets-ktx/local.properties
+2019-06-30 18:13:50,163 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src/bottomsheets-master/bottomsheets-ktx/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=18,targetSdkVersion=28]
+2019-06-30 18:13:50,163 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src/bottomsheets-master/bottomsheets-ktx/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-06-30 18:13:50,164 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src/bottomsheets-master/bottomsheets-sheets/local.properties
+2019-06-30 18:13:50,168 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src/bottomsheets-master/bottomsheets-sheets/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=18,targetSdkVersion=28]
+2019-06-30 18:13:50,169 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src/bottomsheets-master/bottomsheets-sheets/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-06-30 18:13:50,170 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src/bottomsheets-master/local.properties
+2019-06-30 18:13:50,170 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-06-30 18:13:50,171 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-06-30 18:13:50,175 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src/bottomsheets-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=18,targetSdkVersion=28]
+2019-06-30 18:13:50,175 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src/bottomsheets-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-06-30 18:13:50,176 INFO  ProjectFixService - Project was maybe fixed
+2019-06-30 18:13:50,176 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-30 18:13:50,176 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src/bottomsheets-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src/bottomsheets-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-30 18:13:59,065 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-06-30 18:13:59,065 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-06-30 18:13:59,065 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src/bottomsheets-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src/bottomsheets-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-06-30 18:14:57,333 INFO  SysUtils - Configuration on demand is an incubating feature.
+Download https://jcenter.bintray.com/com/arthurivanets/adapster/adapster/1.0.9/adapster-1.0.9.pom
+Download https://jcenter.bintray.com/com/arthurivanets/adapster/adapster-ktx/1.0.9/adapster-ktx-1.0.9.pom
+Download https://jcenter.bintray.com/com/arthurivanets/adapster/adapster-databinding/1.0.9/adapster-databinding-1.0.9.pom
+:app:checkDebugClasspath
+Download https://jcenter.bintray.com/com/arthurivanets/adapster/adapster-ktx/1.0.9/adapster-ktx-1.0.9.aar
+Download https://jcenter.bintray.com/com/arthurivanets/adapster/adapster/1.0.9/adapster-1.0.9.aar
+Download https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-runtime/3.2.1/databinding-runtime-3.2.1.aar
+Download https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-adapters/3.2.1/databinding-adapters-3.2.1.aar
+Download https://jcenter.bintray.com/com/arthurivanets/adapster/adapster-databinding/1.0.9/adapster-databinding-1.0.9.aar
+:app:preBuild UP-TO-DATE
+:bottomsheets-core:preBuild UP-TO-DATE
+:bottomsheets-core:preDebugBuild UP-TO-DATE
+:bottomsheets-core:checkDebugManifest
+:bottomsheets-core:processDebugManifest
+:bottomsheets-ktx:preBuild UP-TO-DATE
+:bottomsheets-ktx:preDebugBuild UP-TO-DATE
+:bottomsheets-ktx:checkDebugManifest
+:bottomsheets-ktx:processDebugManifest
+:bottomsheets-sheets:preBuild UP-TO-DATE
+:bottomsheets-sheets:preDebugBuild UP-TO-DATE
+:bottomsheets-sheets:checkDebugManifest
+:bottomsheets-sheets:processDebugManifest
+:app:preDebugBuild
+:bottomsheets-core:compileDebugAidl NO-SOURCE
+:bottomsheets-sheets:compileDebugAidl NO-SOURCE
+:bottomsheets-ktx:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:bottomsheets-core:packageDebugRenderscript NO-SOURCE
+:bottomsheets-ktx:packageDebugRenderscript NO-SOURCE
+:bottomsheets-sheets:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:bottomsheets-core:compileDebugRenderscript
+:bottomsheets-core:generateDebugResValues
+:bottomsheets-core:generateDebugResources
+:bottomsheets-core:packageDebugResources
+:bottomsheets-ktx:compileDebugRenderscript
+:bottomsheets-ktx:generateDebugResValues
+:bottomsheets-ktx:generateDebugResources
+:bottomsheets-ktx:packageDebugResources
+:bottomsheets-sheets:compileDebugRenderscript
+:bottomsheets-sheets:generateDebugResValues
+:bottomsheets-sheets:generateDebugResources
+:bottomsheets-sheets:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:bottomsheets-core:generateDebugRFile
+:bottomsheets-sheets:generateDebugRFile
+:bottomsheets-ktx:generateDebugRFile
+:app:processDebugResources
+:bottomsheets-core:generateDebugBuildConfig
+:bottomsheets-core:prepareLintJar
+:bottomsheets-core:generateDebugSources
+:bottomsheets-core:javaPreCompileDebug
+:bottomsheets-core:compileDebugJavaWithJavac
+:bottomsheets-core:processDebugJavaRes NO-SOURCE
+:bottomsheets-core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:bottomsheets-ktx:generateDebugBuildConfig
+:bottomsheets-sheets:generateDebugBuildConfig
+:bottomsheets-sheets:prepareLintJar
+:bottomsheets-sheets:generateDebugSources
+:bottomsheets-sheets:javaPreCompileDebug
+:bottomsheets-sheets:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src/bottomsheets-master/bottomsheets-sheets/src/main/java/com/arthurivanets/bottomsheets/sheets/util/Utils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:bottomsheets-sheets:processDebugJavaRes NO-SOURCE
+:bottomsheets-sheets:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:bottomsheets-ktx:compileDebugKotlin
+:bottomsheets-ktx:prepareLintJar
+:bottomsheets-ktx:generateDebugSources
+:bottomsheets-ktx:javaPreCompileDebug
+:bottomsheets-ktx:compileDebugJavaWithJavac
+:bottomsheets-ktx:processDebugJavaRes NO-SOURCE
+:bottomsheets-ktx:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+:app:prepareLintJar
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:bottomsheets-core:mergeDebugShaders
+:bottomsheets-core:compileDebugShaders
+:bottomsheets-core:generateDebugAssets
+:bottomsheets-core:packageDebugAssets
+:bottomsheets-ktx:mergeDebugShaders
+:bottomsheets-ktx:compileDebugShaders
+:bottomsheets-ktx:generateDebugAssets
+:bottomsheets-ktx:packageDebugAssets
+:bottomsheets-sheets:mergeDebugShaders
+:bottomsheets-sheets:compileDebugShaders
+:bottomsheets-sheets:generateDebugAssets
+:bottomsheets-sheets:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 2 methods.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/4cbc5922a54376018307a731162ccaf3ef851a39/kotlin-stdlib-1.3.11.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.sequences.SequencesKt__SequencesKt$ifEmpty$1.invokeSuspend(java.lang.Object)
+  Attempt to read local this but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/4cbc5922a54376018307a731162ccaf3ef851a39/kotlin-stdlib-1.3.11.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2.invokeSuspend(java.lang.Object)
+  Attempt to read local this but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/4cbc5922a54376018307a731162ccaf3ef851a39/kotlin-stdlib-1.3.11.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.collections.SlidingWindowKt$windowedIterator$1.invokeSuspend(java.lang.Object)
+  Attempt to read local this but no local information was associated with the value being read.
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:bottomsheets-core:compileDebugNdk NO-SOURCE
+:bottomsheets-core:mergeDebugJniLibFolders
+:bottomsheets-core:transformNativeLibsWithMergeJniLibsForDebug
+:bottomsheets-core:transformNativeLibsWithStripDebugSymbolForDebug
+:bottomsheets-core:transformNativeLibsWithIntermediateJniLibsForDebug
+:bottomsheets-ktx:compileDebugNdk NO-SOURCE
+:bottomsheets-ktx:mergeDebugJniLibFolders
+:bottomsheets-ktx:transformNativeLibsWithMergeJniLibsForDebug
+:bottomsheets-ktx:transformNativeLibsWithStripDebugSymbolForDebug
+:bottomsheets-ktx:transformNativeLibsWithIntermediateJniLibsForDebug
+:bottomsheets-sheets:compileDebugNdk NO-SOURCE
+:bottomsheets-sheets:mergeDebugJniLibFolders
+:bottomsheets-sheets:transformNativeLibsWithMergeJniLibsForDebug
+:bottomsheets-sheets:transformNativeLibsWithStripDebugSymbolForDebug
+:bottomsheets-sheets:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:bottomsheets-core:preReleaseBuild UP-TO-DATE
+:bottomsheets-core:checkReleaseManifest
+:bottomsheets-core:processReleaseManifest
+:bottomsheets-ktx:preReleaseBuild UP-TO-DATE
+:bottomsheets-ktx:checkReleaseManifest
+:bottomsheets-ktx:processReleaseManifest
+:bottomsheets-sheets:preReleaseBuild UP-TO-DATE
+:bottomsheets-sheets:checkReleaseManifest
+:bottomsheets-sheets:processReleaseManifest
+:app:preReleaseBuild
+:bottomsheets-core:compileReleaseAidl NO-SOURCE
+:bottomsheets-sheets:compileReleaseAidl NO-SOURCE
+:bottomsheets-ktx:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:bottomsheets-core:packageReleaseRenderscript NO-SOURCE
+:bottomsheets-ktx:packageReleaseRenderscript NO-SOURCE
+:bottomsheets-sheets:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:bottomsheets-core:compileReleaseRenderscript
+:bottomsheets-core:generateReleaseResValues
+:bottomsheets-core:generateReleaseResources
+:bottomsheets-core:packageReleaseResources
+:bottomsheets-ktx:compileReleaseRenderscript
+:bottomsheets-ktx:generateReleaseResValues
+:bottomsheets-ktx:generateReleaseResources
+:bottomsheets-ktx:packageReleaseResources
+:bottomsheets-sheets:compileReleaseRenderscript
+:bottomsheets-sheets:generateReleaseResValues
+:bottomsheets-sheets:generateReleaseResources
+:bottomsheets-sheets:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:bottomsheets-core:generateReleaseRFile
+:bottomsheets-sheets:generateReleaseRFile
+:bottomsheets-ktx:generateReleaseRFile
+:app:processReleaseResources
+:bottomsheets-core:generateReleaseBuildConfig
+:bottomsheets-core:generateReleaseSources
+:bottomsheets-core:javaPreCompileRelease
+:bottomsheets-core:compileReleaseJavaWithJavac
+:bottomsheets-core:processReleaseJavaRes NO-SOURCE
+:bottomsheets-core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:bottomsheets-ktx:generateReleaseBuildConfig
+:bottomsheets-sheets:generateReleaseBuildConfig
+:bottomsheets-sheets:generateReleaseSources
+:bottomsheets-sheets:javaPreCompileRelease
+:bottomsheets-sheets:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src/bottomsheets-master/bottomsheets-sheets/src/main/java/com/arthurivanets/bottomsheets/sheets/util/Utils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:bottomsheets-sheets:processReleaseJavaRes NO-SOURCE
+:bottomsheets-sheets:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:bottomsheets-ktx:compileReleaseKotlin
+:bottomsheets-ktx:generateReleaseSources
+:bottomsheets-ktx:javaPreCompileRelease
+:bottomsheets-ktx:compileReleaseJavaWithJavac
+:bottomsheets-ktx:processReleaseJavaRes NO-SOURCE
+:bottomsheets-ktx:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/6e967f4942a84bc1b71e27abd630f897/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:bottomsheets-core:mergeReleaseShaders
+:bottomsheets-core:compileReleaseShaders
+:bottomsheets-core:generateReleaseAssets
+:bottomsheets-core:packageReleaseAssets
+:bottomsheets-ktx:mergeReleaseShaders
+:bottomsheets-ktx:compileReleaseShaders
+:bottomsheets-ktx:generateReleaseAssets
+:bottomsheets-ktx:packageReleaseAssets
+:bottomsheets-sheets:mergeReleaseShaders
+:bottomsheets-sheets:compileReleaseShaders
+:bottomsheets-sheets:generateReleaseAssets
+:bottomsheets-sheets:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:bottomsheets-core:compileReleaseNdk NO-SOURCE
+:bottomsheets-core:mergeReleaseJniLibFolders
+:bottomsheets-core:transformNativeLibsWithMergeJniLibsForRelease
+:bottomsheets-core:transformNativeLibsWithStripDebugSymbolForRelease
+:bottomsheets-core:transformNativeLibsWithIntermediateJniLibsForRelease
+:bottomsheets-ktx:compileReleaseNdk NO-SOURCE
+:bottomsheets-ktx:mergeReleaseJniLibFolders
+:bottomsheets-ktx:transformNativeLibsWithMergeJniLibsForRelease
+:bottomsheets-ktx:transformNativeLibsWithStripDebugSymbolForRelease
+:bottomsheets-ktx:transformNativeLibsWithIntermediateJniLibsForRelease
+:bottomsheets-sheets:compileReleaseNdk NO-SOURCE
+:bottomsheets-sheets:mergeReleaseJniLibFolders
+:bottomsheets-sheets:transformNativeLibsWithMergeJniLibsForRelease
+:bottomsheets-sheets:transformNativeLibsWithStripDebugSymbolForRelease
+:bottomsheets-sheets:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 57s
+164 actionable tasks: 164 executed
+
+2019-06-30 18:14:57,458 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561893226113-0/src/bottomsheets-master/app/build/outputs/apk/debug/app-debug.apk
