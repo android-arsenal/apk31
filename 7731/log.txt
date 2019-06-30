@@ -1,0 +1,190 @@
+2019-06-30 19:33:21,726 INFO  DownloadService - Downloading "https://github.com/iceboy1369/ArcRatingBar/archive/master.zip", attempt 3
+2019-06-30 19:33:22,746 INFO  DownloadService - Downloaded https://github.com/iceboy1369/ArcRatingBar/archive/master.zip, attempt 3
+2019-06-30 19:33:22,746 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898001722-0/master.zip": 149 KB
+2019-06-30 19:33:22,746 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-30 19:33:22,747 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898001722-0/master.zip: true
+2019-06-30 19:33:22,747 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898001722-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898001722-0/src'.
+2019-06-30 19:33:22,785 INFO  FullProcessService - Size of directory with sources: 168 KB
+2019-06-30 19:33:22,785 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898001722-0/src]
+2019-06-30 19:33:22,808 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898001722-0/src/.git/
+
+2019-06-30 19:33:22,812 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898001722-0/src/ArcRatingBar-master/gradlew
+2019-06-30 19:33:22,816 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898001722-0/src/ArcRatingBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898001722-0/src/ArcRatingBar-master/curvedratingbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898001722-0/src/ArcRatingBar-master/build.gradle
+2019-06-30 19:33:22,820 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898001722-0/src/ArcRatingBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898001722-0/src/ArcRatingBar-master/curvedratingbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898001722-0/src/ArcRatingBar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898001722-0/src/ArcRatingBar-master/settings.gradle
+2019-06-30 19:33:22,820 INFO  ProjectBuildService - Remote scripts: none
+2019-06-30 19:33:22,820 INFO  ProjectFixService - Fixing project...
+2019-06-30 19:33:22,829 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898001722-0/src/ArcRatingBar-master/app/local.properties
+2019-06-30 19:33:22,830 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898001722-0/src/ArcRatingBar-master/app/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-06-30 19:33:22,830 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898001722-0/src/ArcRatingBar-master/app/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-06-30 19:33:22,832 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898001722-0/src/ArcRatingBar-master/curvedratingbar/local.properties
+2019-06-30 19:33:22,833 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898001722-0/src/ArcRatingBar-master/curvedratingbar/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-06-30 19:33:22,833 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898001722-0/src/ArcRatingBar-master/curvedratingbar/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-06-30 19:33:22,834 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898001722-0/src/ArcRatingBar-master/local.properties
+2019-06-30 19:33:22,835 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-06-30 19:33:22,835 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-06-30 19:33:22,836 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898001722-0/src/ArcRatingBar-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-06-30 19:33:22,837 INFO  ProjectFixService - Project was maybe fixed
+2019-06-30 19:33:22,837 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-30 19:33:22,837 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898001722-0/src/ArcRatingBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898001722-0/src/ArcRatingBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-30 19:33:31,408 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-06-30 19:33:31,408 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-06-30 19:33:31,409 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898001722-0/src/ArcRatingBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898001722-0/src/ArcRatingBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-06-30 19:34:03,854 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :app
+WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.4.1.
+Android SDK Build Tools 28.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Configure project :curvedratingbar
+WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.4.1.
+Android SDK Build Tools 28.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Task :app:preBuild UP-TO-DATE
+> Task :curvedratingbar:preBuild UP-TO-DATE
+> Task :curvedratingbar:preDebugBuild UP-TO-DATE
+> Task :curvedratingbar:checkDebugManifest
+> Task :curvedratingbar:processDebugManifest
+> Task :curvedratingbar:packageDebugRenderscript NO-SOURCE
+> Task :app:prepareLintJar
+> Task :curvedratingbar:generateDebugBuildConfig
+> Task :curvedratingbar:generateDebugResValues
+> Task :curvedratingbar:prepareLintJar
+> Task :curvedratingbar:mergeDebugShaders
+> Task :curvedratingbar:compileDebugShaders
+> Task :app:preDebugBuild
+> Task :curvedratingbar:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:generateDebugSources
+> Task :curvedratingbar:compileDebugRenderscript NO-SOURCE
+> Task :curvedratingbar:generateDebugResources
+> Task :curvedratingbar:packageDebugResources
+> Task :curvedratingbar:generateDebugRFile
+> Task :curvedratingbar:generateDebugSources
+> Task :curvedratingbar:javaPreCompileDebug
+
+> Task :curvedratingbar:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898001722-0/src/ArcRatingBar-master/curvedratingbar/src/main/java/ir/icegroup/curvedratingbar/RatingBar.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :curvedratingbar:bundleLibCompileDebug
+> Task :app:javaPreCompileDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:processDebugResources
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :curvedratingbar:generateDebugAssets
+> Task :curvedratingbar:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :curvedratingbar:processDebugJavaRes NO-SOURCE
+> Task :curvedratingbar:bundleLibResDebug
+> Task :curvedratingbar:bundleLibRuntimeDebug
+> Task :curvedratingbar:createFullJarDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :curvedratingbar:mergeDebugJniLibFolders
+> Task :curvedratingbar:transformNativeLibsWithMergeJniLibsForDebug
+> Task :curvedratingbar:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :curvedratingbar:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :curvedratingbar:preReleaseBuild UP-TO-DATE
+> Task :curvedratingbar:checkReleaseManifest
+> Task :curvedratingbar:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :curvedratingbar:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :curvedratingbar:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:generateReleaseSources
+> Task :curvedratingbar:compileReleaseRenderscript NO-SOURCE
+> Task :curvedratingbar:generateReleaseBuildConfig
+> Task :curvedratingbar:generateReleaseResValues
+> Task :curvedratingbar:generateReleaseResources
+> Task :curvedratingbar:packageReleaseResources
+> Task :curvedratingbar:generateReleaseRFile
+> Task :curvedratingbar:generateReleaseSources
+> Task :curvedratingbar:javaPreCompileRelease
+
+> Task :curvedratingbar:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898001722-0/src/ArcRatingBar-master/curvedratingbar/src/main/java/ir/icegroup/curvedratingbar/RatingBar.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :curvedratingbar:bundleLibCompileRelease
+> Task :app:javaPreCompileRelease
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:processReleaseResources
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :curvedratingbar:prepareLintJarForPublish
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/e2d1f96ff4456f5b2179adc669c6e817/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+
+> Task :app:mergeExtDexDebug
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :curvedratingbar:processReleaseJavaRes NO-SOURCE
+> Task :curvedratingbar:bundleLibResRelease
+> Task :curvedratingbar:bundleLibRuntimeRelease
+> Task :curvedratingbar:createFullJarRelease
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :curvedratingbar:mergeReleaseShaders
+> Task :curvedratingbar:compileReleaseShaders
+> Task :curvedratingbar:generateReleaseAssets
+> Task :curvedratingbar:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :curvedratingbar:mergeReleaseJniLibFolders
+> Task :curvedratingbar:transformNativeLibsWithMergeJniLibsForRelease
+> Task :curvedratingbar:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :curvedratingbar:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 31s
+91 actionable tasks: 91 executed
+
+2019-06-30 19:34:03,931 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898001722-0/src/ArcRatingBar-master/app/build/outputs/apk/debug/app-debug.apk
