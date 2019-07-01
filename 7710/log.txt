@@ -1,45 +1,39 @@
-2019-06-16 15:55:32,352 INFO  DownloadService - Downloading "https://github.com/MatrixDev/flavorAlias/archive/master.zip", attempt 3
-2019-06-16 15:55:34,742 INFO  DownloadService - Downloaded https://github.com/MatrixDev/flavorAlias/archive/master.zip, attempt 3
-2019-06-16 15:55:34,743 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675332284-0/master.zip": 138 KB
-2019-06-16 15:55:34,743 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-06-16 15:55:34,752 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675332284-0/master.zip: true
-2019-06-16 15:55:34,752 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675332284-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675332284-0/src'.
-2019-06-16 15:55:34,781 INFO  FullProcessService - Size of directory with sources: 142 KB
-2019-06-16 15:55:34,783 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675332284-0/src]
-2019-06-16 15:55:34,812 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675332284-0/src/.git/
+2019-07-01 11:18:01,304 INFO  DownloadService - Downloading "https://github.com/MatrixDev/flavorAlias/archive/master.zip", attempt 3
+2019-07-01 11:18:01,874 INFO  DownloadService - Downloaded https://github.com/MatrixDev/flavorAlias/archive/master.zip, attempt 3
+2019-07-01 11:18:01,874 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954681302-0/master.zip": 138 KB
+2019-07-01 11:18:01,874 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-01 11:18:01,880 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954681302-0/master.zip: true
+2019-07-01 11:18:01,880 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954681302-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954681302-0/src'.
+2019-07-01 11:18:01,896 INFO  FullProcessService - Size of directory with sources: 143 KB
+2019-07-01 11:18:01,896 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954681302-0/src]
+2019-07-01 11:18:01,911 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954681302-0/src/.git/
 
-2019-06-16 15:55:34,829 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675332284-0/src/flavorAlias-master/gradlew
-2019-06-16 15:55:34,839 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675332284-0/src/flavorAlias-master/flavorAliasTest/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675332284-0/src/flavorAlias-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675332284-0/src/flavorAlias-master/flavorAliasCompiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675332284-0/src/flavorAlias-master/flavorAliasLib/build.gradle
-2019-06-16 15:55:34,845 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675332284-0/src/flavorAlias-master/flavorAliasTest/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675332284-0/src/flavorAlias-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675332284-0/src/flavorAlias-master/flavorAliasLib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675332284-0/src/flavorAlias-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675332284-0/src/flavorAlias-master/flavorAliasCompiler/build.gradle
-2019-06-16 15:55:34,847 INFO  ProjectBuildService - Remote scripts: none
-2019-06-16 15:55:34,848 INFO  ProjectFixService - Fixing project...
-2019-06-16 15:55:34,885 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
-2019-06-16 15:55:34,885 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
-2019-06-16 15:55:34,887 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 21.1.0 28.0.0 18.1.0 19.1.0 18.1.1
-2019-06-16 15:55:34,890 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 28.0.0-rc1 28.0.0-rc2
-2019-06-16 15:55:34,893 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 11 27 18 20 21 26 19 10 17 28 6 8 9 7
-2019-06-16 15:55:34,894 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28
-2019-06-16 15:55:34,895 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675332284-0/src/flavorAlias-master/flavorAliasTest/local.properties
-2019-06-16 15:55:34,903 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675332284-0/src/flavorAlias-master/flavorAliasTest/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-06-16 15:55:34,905 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675332284-0/src/flavorAlias-master/flavorAliasTest/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-06-16 15:55:34,907 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675332284-0/src/flavorAlias-master/local.properties
-2019-06-16 15:55:34,913 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-06-16 15:55:34,913 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-06-16 15:55:34,916 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675332284-0/src/flavorAlias-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-06-16 15:55:34,916 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675332284-0/src/flavorAlias-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-06-16 15:55:34,917 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675332284-0/src/flavorAlias-master/flavorAliasCompiler/local.properties
-2019-06-16 15:55:34,920 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675332284-0/src/flavorAlias-master/flavorAliasCompiler/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-06-16 15:55:34,920 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675332284-0/src/flavorAlias-master/flavorAliasCompiler/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-06-16 15:55:34,921 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675332284-0/src/flavorAlias-master/flavorAliasLib/local.properties
-2019-06-16 15:55:34,923 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675332284-0/src/flavorAlias-master/flavorAliasLib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-06-16 15:55:34,923 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675332284-0/src/flavorAlias-master/flavorAliasLib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-06-16 15:55:34,924 INFO  ProjectFixService - Project was maybe fixed
-2019-06-16 15:55:34,926 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-16 15:55:34,927 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675332284-0/src/flavorAlias-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675332284-0/src/flavorAlias-master/flavorAliasTest/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-16 15:55:43,061 INFO  ProjectTaskService - Detected possible tasks: 108
-2019-06-16 15:55:43,062 INFO  ProjectTaskService - Excluded tasks (8): deviceCheck lint deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest
-2019-06-16 15:55:43,062 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675332284-0/src/flavorAlias-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675332284-0/src/flavorAlias-master/flavorAliasTest/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, build]
-2019-06-16 15:56:33,518 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-01 11:18:01,915 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954681302-0/src/flavorAlias-master/gradlew
+2019-07-01 11:18:01,917 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954681302-0/src/flavorAlias-master/flavorAliasTest/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954681302-0/src/flavorAlias-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954681302-0/src/flavorAlias-master/flavorAliasCompiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954681302-0/src/flavorAlias-master/flavorAliasLib/build.gradle
+2019-07-01 11:18:01,919 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954681302-0/src/flavorAlias-master/flavorAliasTest/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954681302-0/src/flavorAlias-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954681302-0/src/flavorAlias-master/flavorAliasLib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954681302-0/src/flavorAlias-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954681302-0/src/flavorAlias-master/flavorAliasCompiler/build.gradle
+2019-07-01 11:18:01,919 INFO  ProjectBuildService - Remote scripts: none
+2019-07-01 11:18:01,919 INFO  ProjectFixService - Fixing project...
+2019-07-01 11:18:01,925 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954681302-0/src/flavorAlias-master/flavorAliasTest/local.properties
+2019-07-01 11:18:01,926 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954681302-0/src/flavorAlias-master/flavorAliasTest/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-01 11:18:01,926 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954681302-0/src/flavorAlias-master/flavorAliasTest/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-01 11:18:01,927 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954681302-0/src/flavorAlias-master/local.properties
+2019-07-01 11:18:01,927 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-07-01 11:18:01,927 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-07-01 11:18:01,928 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954681302-0/src/flavorAlias-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-01 11:18:01,928 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954681302-0/src/flavorAlias-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-01 11:18:01,929 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954681302-0/src/flavorAlias-master/flavorAliasCompiler/local.properties
+2019-07-01 11:18:01,930 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954681302-0/src/flavorAlias-master/flavorAliasCompiler/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-01 11:18:01,930 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954681302-0/src/flavorAlias-master/flavorAliasCompiler/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-01 11:18:01,931 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954681302-0/src/flavorAlias-master/flavorAliasLib/local.properties
+2019-07-01 11:18:01,931 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954681302-0/src/flavorAlias-master/flavorAliasLib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-01 11:18:01,932 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954681302-0/src/flavorAlias-master/flavorAliasLib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-01 11:18:01,932 INFO  ProjectFixService - Project was maybe fixed
+2019-07-01 11:18:01,932 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-01 11:18:01,932 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954681302-0/src/flavorAlias-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954681302-0/src/flavorAlias-master/flavorAliasTest/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-01 11:18:08,359 INFO  ProjectTaskService - Detected possible tasks: 108
+2019-07-01 11:18:08,359 INFO  ProjectTaskService - Excluded tasks (8): deviceCheck lint deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest
+2019-07-01 11:18:08,359 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954681302-0/src/flavorAlias-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954681302-0/src/flavorAlias-master/flavorAliasTest/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, build]
+2019-07-01 11:18:47,566 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :flavorAliasLib:compileKotlin
 > Task :flavorAliasLib:compileJava NO-SOURCE
 > Task :flavorAliasLib:processResources NO-SOURCE
@@ -184,7 +178,10 @@
 > Task :flavorAliasTest:javaPreCompileFlavor1Release
 > Task :flavorAliasTest:compileFlavor1ReleaseJavaWithJavac
 > Task :flavorAliasTest:compileFlavor1ReleaseSources
+
 > Task :flavorAliasTest:lintVitalFlavor1Release
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/2137091904249378b8ac151ff9a64077/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
 > Task :flavorAliasTest:checkFlavor1ReleaseDuplicateClasses
 > Task :flavorAliasTest:mergeExtDexFlavor1Release
 > Task :flavorAliasTest:transformClassesWithDexBuilderForFlavor1Release
@@ -284,7 +281,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 49s
+BUILD SUCCESSFUL in 38s
 178 actionable tasks: 178 executed
 
-2019-06-16 15:56:33,602 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560675332284-0/src/flavorAlias-master/flavorAliasTest/build/outputs/apk/flavor2/release/flavorAliasTest-flavor2-release-unsigned.apk
+2019-07-01 11:18:47,617 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954681302-0/src/flavorAlias-master/flavorAliasTest/build/outputs/apk/flavor2/release/flavorAliasTest-flavor2-release-unsigned.apk
