@@ -1,36 +1,36 @@
-2019-06-14 11:29:41,965 INFO  DownloadService - Downloading "https://github.com/draxdave/netWatch/archive/master.zip", attempt 3
-2019-06-14 11:29:42,990 INFO  DownloadService - Downloaded https://github.com/draxdave/netWatch/archive/master.zip, attempt 3
-2019-06-14 11:29:42,990 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486581957-0/master.zip": 555 KB
-2019-06-14 11:29:42,990 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-06-14 11:29:42,990 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486581957-0/master.zip: true
-2019-06-14 11:29:42,991 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486581957-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486581957-0/src'.
-2019-06-14 11:29:43,017 INFO  FullProcessService - Size of directory with sources: 623 KB
-2019-06-14 11:29:43,018 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486581957-0/src]
-2019-06-14 11:29:43,034 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486581957-0/src/.git/
+2019-07-01 19:30:48,075 INFO  DownloadService - Downloading "https://github.com/draxdave/netWatch/archive/master.zip", attempt 3
+2019-07-01 19:30:50,595 INFO  DownloadService - Downloaded https://github.com/draxdave/netWatch/archive/master.zip, attempt 3
+2019-07-01 19:30:50,596 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984248070-0/master.zip": 553 KB
+2019-07-01 19:30:50,596 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-01 19:30:50,601 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984248070-0/master.zip: true
+2019-07-01 19:30:50,602 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984248070-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984248070-0/src'.
+2019-07-01 19:30:50,626 INFO  FullProcessService - Size of directory with sources: 621 KB
+2019-07-01 19:30:50,626 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984248070-0/src]
+2019-07-01 19:30:50,651 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984248070-0/src/.git/
 
-2019-06-14 11:29:43,037 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486581957-0/src/netWatch-master/gradlew
-2019-06-14 11:29:43,041 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486581957-0/src/netWatch-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486581957-0/src/netWatch-master/netwatch/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486581957-0/src/netWatch-master/build.gradle
-2019-06-14 11:29:43,044 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486581957-0/src/netWatch-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486581957-0/src/netWatch-master/netwatch/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486581957-0/src/netWatch-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486581957-0/src/netWatch-master/settings.gradle
-2019-06-14 11:29:43,045 INFO  ProjectBuildService - Remote scripts: none
-2019-06-14 11:29:43,045 INFO  ProjectFixService - Fixing project...
-2019-06-14 11:29:43,052 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486581957-0/src/netWatch-master/app/local.properties
-2019-06-14 11:29:43,053 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486581957-0/src/netWatch-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=26]
-2019-06-14 11:29:43,053 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486581957-0/src/netWatch-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=26]
-2019-06-14 11:29:43,054 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486581957-0/src/netWatch-master/netwatch/local.properties
-2019-06-14 11:29:43,055 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486581957-0/src/netWatch-master/netwatch/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=26]
-2019-06-14 11:29:43,055 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486581957-0/src/netWatch-master/netwatch/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=26]
-2019-06-14 11:29:43,056 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486581957-0/src/netWatch-master/local.properties
-2019-06-14 11:29:43,057 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-06-14 11:29:43,057 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-06-14 11:29:43,058 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486581957-0/src/netWatch-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=26]
-2019-06-14 11:29:43,058 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486581957-0/src/netWatch-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=26]
-2019-06-14 11:29:43,059 INFO  ProjectFixService - Project was maybe fixed
-2019-06-14 11:29:43,059 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-14 11:29:43,059 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486581957-0/src/netWatch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486581957-0/src/netWatch-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-14 11:29:49,775 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-06-14 11:29:49,776 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-06-14 11:29:49,776 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486581957-0/src/netWatch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486581957-0/src/netWatch-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-06-14 11:30:36,673 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-01 19:30:50,654 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984248070-0/src/netWatch-master/gradlew
+2019-07-01 19:30:50,657 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984248070-0/src/netWatch-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984248070-0/src/netWatch-master/netwatch/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984248070-0/src/netWatch-master/build.gradle
+2019-07-01 19:30:50,659 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984248070-0/src/netWatch-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984248070-0/src/netWatch-master/netwatch/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984248070-0/src/netWatch-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984248070-0/src/netWatch-master/settings.gradle
+2019-07-01 19:30:50,660 INFO  ProjectBuildService - Remote scripts: none
+2019-07-01 19:30:50,660 INFO  ProjectFixService - Fixing project...
+2019-07-01 19:30:50,666 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984248070-0/src/netWatch-master/app/local.properties
+2019-07-01 19:30:50,667 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984248070-0/src/netWatch-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=26]
+2019-07-01 19:30:50,667 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984248070-0/src/netWatch-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=26]
+2019-07-01 19:30:50,667 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984248070-0/src/netWatch-master/netwatch/local.properties
+2019-07-01 19:30:50,668 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984248070-0/src/netWatch-master/netwatch/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=26]
+2019-07-01 19:30:50,668 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984248070-0/src/netWatch-master/netwatch/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=26]
+2019-07-01 19:30:50,669 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984248070-0/src/netWatch-master/local.properties
+2019-07-01 19:30:50,669 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-07-01 19:30:50,670 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-07-01 19:30:50,671 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984248070-0/src/netWatch-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=26]
+2019-07-01 19:30:50,671 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984248070-0/src/netWatch-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=26]
+2019-07-01 19:30:50,672 INFO  ProjectFixService - Project was maybe fixed
+2019-07-01 19:30:50,672 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-01 19:30:50,672 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984248070-0/src/netWatch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984248070-0/src/netWatch-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-01 19:30:58,968 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-01 19:30:58,968 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-01 19:30:58,968 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984248070-0/src/netWatch-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984248070-0/src/netWatch-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-01 19:31:25,893 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :netwatch:preBuild UP-TO-DATE
 > Task :netwatch:preDebugBuild UP-TO-DATE
@@ -56,7 +56,7 @@
 > Task :netwatch:javaPreCompileDebug
 
 > Task :netwatch:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486581957-0/src/netWatch-master/netwatch/src/main/java/ir/drax/netwatch/NetworkChangeReceiver.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984248070-0/src/netWatch-master/netwatch/src/main/java/ir/drax/netwatch/NetworkChangeReceiver.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :netwatch:processDebugJavaRes NO-SOURCE
@@ -71,7 +71,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:processDebugResources
 
 > Task :app:compileDebugJavaWithJavac
-Note: Some input files use or override a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984248070-0/src/netWatch-master/app/src/main/java/ir/drax/networkChangeNotifierSample/MainActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileDebugNdk NO-SOURCE
@@ -125,7 +125,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :netwatch:javaPreCompileRelease
 
 > Task :netwatch:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486581957-0/src/netWatch-master/netwatch/src/main/java/ir/drax/netwatch/NetworkChangeReceiver.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984248070-0/src/netWatch-master/netwatch/src/main/java/ir/drax/netwatch/NetworkChangeReceiver.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :netwatch:processReleaseJavaRes NO-SOURCE
@@ -140,7 +140,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:processReleaseResources
 
 > Task :app:compileReleaseJavaWithJavac
-Note: Some input files use or override a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984248070-0/src/netWatch-master/app/src/main/java/ir/drax/networkChangeNotifierSample/MainActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileReleaseNdk NO-SOURCE
@@ -148,6 +148,7 @@ Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:lintVitalRelease
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/3d80a2ee534db00f933a0a0e6bc56b0c/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/00d10bf04f34403e0087b5477a4a910e/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
 > Task :netwatch:createFullJarRelease
 > Transform full.jar (project :netwatch) with IdentityTransform
@@ -179,7 +180,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 46s
+BUILD SUCCESSFUL in 26s
 88 actionable tasks: 88 executed
 
-2019-06-14 11:30:36,752 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560486581957-0/src/netWatch-master/app/build/outputs/apk/debug/app-debug.apk
+2019-07-01 19:31:25,951 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984248070-0/src/netWatch-master/app/build/outputs/apk/debug/app-debug.apk
