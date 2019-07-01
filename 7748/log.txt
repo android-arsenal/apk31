@@ -1,0 +1,209 @@
+2019-07-01 13:47:31,171 INFO  DownloadService - Downloading "https://github.com/FarshadTahmasbi/EasyPermission/archive/master.zip", attempt 3
+2019-07-01 13:47:33,939 INFO  DownloadService - Downloaded https://github.com/FarshadTahmasbi/EasyPermission/archive/master.zip, attempt 3
+2019-07-01 13:47:33,939 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963651168-0/master.zip": 555 KB
+2019-07-01 13:47:33,939 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-01 13:47:33,940 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963651168-0/master.zip: true
+2019-07-01 13:47:33,940 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963651168-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963651168-0/src'.
+2019-07-01 13:47:33,964 INFO  FullProcessService - Size of directory with sources: 640 KB
+2019-07-01 13:47:33,964 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963651168-0/src]
+2019-07-01 13:47:33,999 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963651168-0/src/.git/
+
+2019-07-01 13:47:34,003 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963651168-0/src/EzPermission-master/gradlew
+2019-07-01 13:47:34,006 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963651168-0/src/EzPermission-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963651168-0/src/EzPermission-master/ezpermission/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963651168-0/src/EzPermission-master/build.gradle
+2019-07-01 13:47:34,010 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963651168-0/src/EzPermission-master/ezpermission/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963651168-0/src/EzPermission-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963651168-0/src/EzPermission-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963651168-0/src/EzPermission-master/settings.gradle
+2019-07-01 13:47:34,010 INFO  ProjectBuildService - Remote scripts: none
+2019-07-01 13:47:34,010 INFO  ProjectFixService - Fixing project...
+2019-07-01 13:47:34,020 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963651168-0/src/EzPermission-master/app/local.properties
+2019-07-01 13:47:34,031 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963651168-0/src/EzPermission-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-07-01 13:47:34,032 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963651168-0/src/EzPermission-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-07-01 13:47:34,033 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963651168-0/src/EzPermission-master/ezpermission/local.properties
+2019-07-01 13:47:34,034 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963651168-0/src/EzPermission-master/ezpermission/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-07-01 13:47:34,035 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963651168-0/src/EzPermission-master/ezpermission/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-07-01 13:47:34,036 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963651168-0/src/EzPermission-master/local.properties
+2019-07-01 13:47:34,036 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-07-01 13:47:34,037 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-07-01 13:47:34,039 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963651168-0/src/EzPermission-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-07-01 13:47:34,040 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963651168-0/src/EzPermission-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-07-01 13:47:34,041 INFO  ProjectFixService - Project was maybe fixed
+2019-07-01 13:47:34,041 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-01 13:47:34,041 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963651168-0/src/EzPermission-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963651168-0/src/EzPermission-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-01 13:47:41,351 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-01 13:47:41,352 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-01 13:47:41,352 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963651168-0/src/EzPermission-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963651168-0/src/EzPermission-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-01 13:48:40,501 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :ezpermission
+WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'variantOutput.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
+> Task :app:preBuild UP-TO-DATE
+> Task :ezpermission:preBuild UP-TO-DATE
+> Task :ezpermission:preDebugBuild UP-TO-DATE
+> Task :ezpermission:checkDebugManifest
+> Task :ezpermission:processDebugManifest
+> Task :ezpermission:compileDebugAidl NO-SOURCE
+> Task :app:preDebugBuild
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :ezpermission:packageDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :ezpermission:generateDebugResValues
+> Task :app:createDebugCompatibleScreenManifests
+> Task :ezpermission:compileDebugRenderscript NO-SOURCE
+> Task :ezpermission:generateDebugResources
+> Task :app:processDebugManifest
+> Task :ezpermission:packageDebugResources
+> Task :app:mergeDebugResources
+> Task :ezpermission:generateDebugRFile
+> Task :app:processDebugResources
+> Task :ezpermission:generateDebugBuildConfig
+> Task :ezpermission:prepareLintJar
+> Task :ezpermission:generateDebugSources
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :ezpermission:mergeDebugShaders
+> Task :ezpermission:compileDebugShaders
+> Task :ezpermission:generateDebugAssets
+> Task :ezpermission:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :ezpermission:processDebugJavaRes NO-SOURCE
+> Task :app:checkDebugDuplicateClasses
+
+> Task :ezpermission:compileDebugKotlin
+w: Runtime JAR files in the classpath have the version 1.2, which is older than the API version 1.3. Consider using the runtime of version 1.3, or pass '-api-version 1.2' explicitly to restrict the available APIs to the runtime of version 1.2. You can also pass '-language-version 1.2' instead, which will restrict not only the APIs to the specified version, but also the language features
+w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.50/6b19a2fcc29d34878b3aab33fd5fcf70458a73df/kotlin-stdlib-common-1.2.50.jar: Runtime JAR file has version 1.2 which is older than required for API version 1.3
+w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.50/66d47b004c5b8a1d2d1df9e463187390ed741316/kotlin-stdlib-1.2.50.jar: Runtime JAR file has version 1.2 which is older than required for API version 1.3
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963651168-0/src/EzPermission-master/ezpermission/src/main/java/com/androidisland/ezpermission/EzPermissionActivity.kt: (48, 9): Unsafe use of a nullable receiver of type Array<String!>?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963651168-0/src/EzPermission-master/ezpermission/src/main/java/com/androidisland/ezpermission/EzPermissionActivity.kt: (56, 9): Unsafe use of a nullable receiver of type Array<String!>?
+
+> Task :ezpermission:javaPreCompileDebug
+> Task :ezpermission:compileDebugJavaWithJavac
+> Task :ezpermission:bundleLibCompileDebug
+
+> Task :app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963651168-0/src/EzPermission-master/app/src/main/java/com/androidisland/ezpermission/sample/view/activity/SampleActivity.kt: (74, 44): Type mismatch: inferred type is MenuItem? but MenuItem was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963651168-0/src/EzPermission-master/app/src/main/java/com/androidisland/ezpermission/sample/view/activity/SampleActivity.kt: (83, 17): Parameter 'dialog' is never used, could be renamed to _
+
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :ezpermission:bundleLibResDebug
+> Task :ezpermission:bundleLibRuntimeDebug
+> Task :ezpermission:createFullJarDebug
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :ezpermission:mergeDebugJniLibFolders
+> Task :ezpermission:transformNativeLibsWithMergeJniLibsForDebug
+> Task :ezpermission:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :ezpermission:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :ezpermission:preReleaseBuild UP-TO-DATE
+> Task :ezpermission:checkReleaseManifest
+> Task :ezpermission:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :ezpermission:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :ezpermission:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :ezpermission:compileReleaseRenderscript NO-SOURCE
+> Task :ezpermission:generateReleaseResValues
+> Task :ezpermission:generateReleaseResources
+> Task :ezpermission:packageReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :ezpermission:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :ezpermission:generateReleaseBuildConfig
+
+> Task :ezpermission:compileReleaseKotlin
+w: Runtime JAR files in the classpath have the version 1.2, which is older than the API version 1.3. Consider using the runtime of version 1.3, or pass '-api-version 1.2' explicitly to restrict the available APIs to the runtime of version 1.2. You can also pass '-language-version 1.2' instead, which will restrict not only the APIs to the specified version, but also the language features
+w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.50/6b19a2fcc29d34878b3aab33fd5fcf70458a73df/kotlin-stdlib-common-1.2.50.jar: Runtime JAR file has version 1.2 which is older than required for API version 1.3
+w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.50/66d47b004c5b8a1d2d1df9e463187390ed741316/kotlin-stdlib-1.2.50.jar: Runtime JAR file has version 1.2 which is older than required for API version 1.3
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963651168-0/src/EzPermission-master/ezpermission/src/main/java/com/androidisland/ezpermission/EzPermissionActivity.kt: (48, 9): Unsafe use of a nullable receiver of type Array<String!>?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963651168-0/src/EzPermission-master/ezpermission/src/main/java/com/androidisland/ezpermission/EzPermissionActivity.kt: (56, 9): Unsafe use of a nullable receiver of type Array<String!>?
+
+> Task :app:mergeExtDexDebug
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :ezpermission:generateReleaseSources
+> Task :ezpermission:javaPreCompileRelease
+> Task :ezpermission:compileReleaseJavaWithJavac
+> Task :ezpermission:bundleLibCompileRelease
+
+> Task :app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963651168-0/src/EzPermission-master/app/src/main/java/com/androidisland/ezpermission/sample/view/activity/SampleActivity.kt: (74, 44): Type mismatch: inferred type is MenuItem? but MenuItem was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963651168-0/src/EzPermission-master/app/src/main/java/com/androidisland/ezpermission/sample/view/activity/SampleActivity.kt: (83, 17): Parameter 'dialog' is never used, could be renamed to _
+
+> Task :app:generateReleaseSources
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :ezpermission:prepareLintJarForPublish
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/f7c44de7a6aaf8de9322c5250374ad4a/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+
+> Task :ezpermission:processReleaseJavaRes NO-SOURCE
+> Task :ezpermission:bundleLibResRelease
+> Task :ezpermission:bundleLibRuntimeRelease
+> Task :ezpermission:createFullJarRelease
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :ezpermission:mergeReleaseShaders
+> Task :ezpermission:compileReleaseShaders
+> Task :ezpermission:generateReleaseAssets
+> Task :ezpermission:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :ezpermission:mergeReleaseJniLibFolders
+> Task :ezpermission:transformNativeLibsWithMergeJniLibsForRelease
+> Task :ezpermission:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :ezpermission:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 58s
+95 actionable tasks: 95 executed
+
+2019-07-01 13:48:40,612 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963651168-0/src/EzPermission-master/app/build/outputs/apk/debug/app-debug.apk

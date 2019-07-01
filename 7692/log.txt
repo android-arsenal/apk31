@@ -1,36 +1,36 @@
-2019-06-18 12:47:44,623 INFO  DownloadService - Downloading "https://github.com/lopspower/CircleView/archive/master.zip", attempt 3
-2019-06-18 12:47:48,177 INFO  DownloadService - Downloaded https://github.com/lopspower/CircleView/archive/master.zip, attempt 3
-2019-06-18 12:47:48,178 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836864618-0/master.zip": 1 MB
-2019-06-18 12:47:48,178 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-06-18 12:47:48,183 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836864618-0/master.zip: true
-2019-06-18 12:47:48,184 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836864618-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836864618-0/src'.
-2019-06-18 12:47:48,208 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-06-18 12:47:48,208 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836864618-0/src]
-2019-06-18 12:47:48,224 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836864618-0/src/.git/
+2019-07-01 14:01:48,961 INFO  DownloadService - Downloading "https://github.com/lopspower/CircleView/archive/master.zip", attempt 3
+2019-07-01 14:01:54,493 INFO  DownloadService - Downloaded https://github.com/lopspower/CircleView/archive/master.zip, attempt 3
+2019-07-01 14:01:54,494 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561964508955-0/master.zip": 1 MB
+2019-07-01 14:01:54,494 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-01 14:01:54,494 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561964508955-0/master.zip: true
+2019-07-01 14:01:54,494 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561964508955-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561964508955-0/src'.
+2019-07-01 14:01:54,515 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-07-01 14:01:54,516 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561964508955-0/src]
+2019-07-01 14:01:54,534 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561964508955-0/src/.git/
 
-2019-06-18 12:47:48,226 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836864618-0/src/CircleView-master/gradlew
-2019-06-18 12:47:48,228 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836864618-0/src/CircleView-master/circleview-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836864618-0/src/CircleView-master/circleview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836864618-0/src/CircleView-master/build.gradle
-2019-06-18 12:47:48,230 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836864618-0/src/CircleView-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836864618-0/src/CircleView-master/circleview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836864618-0/src/CircleView-master/circleview-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836864618-0/src/CircleView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836864618-0/src/CircleView-master/settings.gradle
-2019-06-18 12:47:48,230 INFO  ProjectBuildService - Remote scripts: none
-2019-06-18 12:47:48,230 INFO  ProjectFixService - Fixing project...
-2019-06-18 12:47:48,236 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836864618-0/src/CircleView-master/circleview-example/local.properties
-2019-06-18 12:47:48,238 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836864618-0/src/CircleView-master/circleview-example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-06-18 12:47:48,238 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836864618-0/src/CircleView-master/circleview-example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-06-18 12:47:48,239 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836864618-0/src/CircleView-master/circleview/local.properties
-2019-06-18 12:47:48,241 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836864618-0/src/CircleView-master/circleview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-06-18 12:47:48,241 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836864618-0/src/CircleView-master/circleview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-06-18 12:47:48,243 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836864618-0/src/CircleView-master/local.properties
-2019-06-18 12:47:48,243 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-06-18 12:47:48,244 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-06-18 12:47:48,245 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836864618-0/src/CircleView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-06-18 12:47:48,246 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836864618-0/src/CircleView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-06-18 12:47:48,246 INFO  ProjectFixService - Project was maybe fixed
-2019-06-18 12:47:48,246 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-18 12:47:48,246 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836864618-0/src/CircleView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836864618-0/src/CircleView-master/circleview-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-18 12:47:55,089 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-06-18 12:47:55,089 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-06-18 12:47:55,089 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836864618-0/src/CircleView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836864618-0/src/CircleView-master/circleview-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-06-18 12:48:40,935 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-01 14:01:54,536 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561964508955-0/src/CircleView-master/gradlew
+2019-07-01 14:01:54,538 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561964508955-0/src/CircleView-master/circleview-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561964508955-0/src/CircleView-master/circleview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561964508955-0/src/CircleView-master/build.gradle
+2019-07-01 14:01:54,540 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561964508955-0/src/CircleView-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561964508955-0/src/CircleView-master/circleview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561964508955-0/src/CircleView-master/circleview-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561964508955-0/src/CircleView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561964508955-0/src/CircleView-master/settings.gradle
+2019-07-01 14:01:54,540 INFO  ProjectBuildService - Remote scripts: none
+2019-07-01 14:01:54,540 INFO  ProjectFixService - Fixing project...
+2019-07-01 14:01:54,545 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561964508955-0/src/CircleView-master/circleview-example/local.properties
+2019-07-01 14:01:54,547 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561964508955-0/src/CircleView-master/circleview-example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-01 14:01:54,547 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561964508955-0/src/CircleView-master/circleview-example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-01 14:01:54,548 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561964508955-0/src/CircleView-master/circleview/local.properties
+2019-07-01 14:01:54,549 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561964508955-0/src/CircleView-master/circleview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-01 14:01:54,549 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561964508955-0/src/CircleView-master/circleview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-01 14:01:54,550 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561964508955-0/src/CircleView-master/local.properties
+2019-07-01 14:01:54,551 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-07-01 14:01:54,551 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-07-01 14:01:54,553 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561964508955-0/src/CircleView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-01 14:01:54,553 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561964508955-0/src/CircleView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-01 14:01:54,553 INFO  ProjectFixService - Project was maybe fixed
+2019-07-01 14:01:54,553 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-01 14:01:54,553 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561964508955-0/src/CircleView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561964508955-0/src/CircleView-master/circleview-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-01 14:02:02,235 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-01 14:02:02,236 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-01 14:02:02,236 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561964508955-0/src/CircleView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561964508955-0/src/CircleView-master/circleview-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-01 14:03:01,333 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :circleview
 WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
@@ -177,7 +177,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 45s
+BUILD SUCCESSFUL in 58s
 95 actionable tasks: 95 executed
 
-2019-06-18 12:48:40,996 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560836864618-0/src/CircleView-master/circleview-example/build/outputs/apk/release/circleview-example-release-unsigned.apk
+2019-07-01 14:03:01,396 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561964508955-0/src/CircleView-master/circleview-example/build/outputs/apk/release/circleview-example-release-unsigned.apk
