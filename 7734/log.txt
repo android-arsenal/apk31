@@ -1,40 +1,34 @@
-2019-06-30 19:32:41,310 INFO  DownloadService - Downloading "https://github.com/bartbergmans/GradientButton/archive/master.zip", attempt 3
-2019-06-30 19:32:43,591 INFO  DownloadService - Downloaded https://github.com/bartbergmans/GradientButton/archive/master.zip, attempt 3
-2019-06-30 19:32:43,592 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561897961251-0/master.zip": 100 KB
-2019-06-30 19:32:43,593 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-06-30 19:32:43,601 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561897961251-0/master.zip: true
-2019-06-30 19:32:43,602 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561897961251-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561897961251-0/src'.
-2019-06-30 19:32:43,628 INFO  FullProcessService - Size of directory with sources: 106 KB
-2019-06-30 19:32:43,631 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561897961251-0/src]
-2019-06-30 19:32:43,668 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561897961251-0/src/.git/
+2019-07-05 00:22:39,312 INFO  DownloadService - Downloading "https://github.com/bartbergmans/GradientButton/archive/master.zip", attempt 3
+2019-07-05 00:22:41,374 INFO  DownloadService - Downloaded https://github.com/bartbergmans/GradientButton/archive/master.zip, attempt 3
+2019-07-05 00:22:41,374 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562260959304-0/master.zip": 100 KB
+2019-07-05 00:22:41,374 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 00:22:41,380 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562260959304-0/master.zip: true
+2019-07-05 00:22:41,381 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562260959304-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562260959304-0/src'.
+2019-07-05 00:22:41,398 INFO  FullProcessService - Size of directory with sources: 107 KB
+2019-07-05 00:22:41,398 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562260959304-0/src]
+2019-07-05 00:22:41,414 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562260959304-0/src/.git/
 
-2019-06-30 19:32:43,681 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561897961251-0/src/GradientButton-master/gradlew
-2019-06-30 19:32:43,691 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561897961251-0/src/GradientButton-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561897961251-0/src/GradientButton-master/gradientbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561897961251-0/src/GradientButton-master/build.gradle
-2019-06-30 19:32:43,696 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561897961251-0/src/GradientButton-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561897961251-0/src/GradientButton-master/gradientbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561897961251-0/src/GradientButton-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561897961251-0/src/GradientButton-master/settings.gradle
-2019-06-30 19:32:43,698 INFO  ProjectBuildService - Remote scripts: none
-2019-06-30 19:32:43,698 INFO  ProjectFixService - Fixing project...
-2019-06-30 19:32:43,733 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
-2019-06-30 19:32:43,733 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
-2019-06-30 19:32:43,736 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 21.1.0 28.0.0 18.1.0 19.1.0 18.1.1
-2019-06-30 19:32:43,739 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 28.0.0-rc1 28.0.0-rc2
-2019-06-30 19:32:43,743 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 29 11 27 18 20 21 26 19 10 17 28 6 8 9 7
-2019-06-30 19:32:43,744 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
-2019-06-30 19:32:43,745 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561897961251-0/src/GradientButton-master/example/local.properties
-2019-06-30 19:32:43,749 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561897961251-0/src/GradientButton-master/example/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=19,targetSdkVersion=25]
-2019-06-30 19:32:43,751 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561897961251-0/src/GradientButton-master/gradientbutton/local.properties
-2019-06-30 19:32:43,752 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561897961251-0/src/GradientButton-master/gradientbutton/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=19,targetSdkVersion=25]
-2019-06-30 19:32:43,753 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561897961251-0/src/GradientButton-master/local.properties
-2019-06-30 19:32:43,757 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.2-all.zip
-2019-06-30 19:32:43,757 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.2-bin.zip)
-2019-06-30 19:32:43,759 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561897961251-0/src/GradientButton-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=19,targetSdkVersion=25]
-2019-06-30 19:32:43,759 INFO  ProjectFixService - Project was maybe fixed
-2019-06-30 19:32:43,761 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-30 19:32:43,761 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561897961251-0/src/GradientButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561897961251-0/src/GradientButton-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-30 19:32:56,175 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-06-30 19:32:56,175 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-06-30 19:32:56,175 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-06-30 19:32:56,176 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561897961251-0/src/GradientButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561897961251-0/src/GradientButton-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-06-30 19:33:01,314 ERROR SysUtils - Could not process external command
+2019-07-05 00:22:41,416 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562260959304-0/src/GradientButton-master/gradlew
+2019-07-05 00:22:41,419 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562260959304-0/src/GradientButton-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562260959304-0/src/GradientButton-master/gradientbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562260959304-0/src/GradientButton-master/build.gradle
+2019-07-05 00:22:41,421 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562260959304-0/src/GradientButton-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562260959304-0/src/GradientButton-master/gradientbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562260959304-0/src/GradientButton-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562260959304-0/src/GradientButton-master/settings.gradle
+2019-07-05 00:22:41,421 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 00:22:41,421 INFO  ProjectFixService - Fixing project...
+2019-07-05 00:22:41,427 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562260959304-0/src/GradientButton-master/example/local.properties
+2019-07-05 00:22:41,428 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562260959304-0/src/GradientButton-master/example/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=19,targetSdkVersion=25]
+2019-07-05 00:22:41,428 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562260959304-0/src/GradientButton-master/gradientbutton/local.properties
+2019-07-05 00:22:41,429 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562260959304-0/src/GradientButton-master/gradientbutton/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=19,targetSdkVersion=25]
+2019-07-05 00:22:41,429 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562260959304-0/src/GradientButton-master/local.properties
+2019-07-05 00:22:41,430 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.2-all.zip
+2019-07-05 00:22:41,430 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.2-bin.zip)
+2019-07-05 00:22:41,431 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562260959304-0/src/GradientButton-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=19,targetSdkVersion=25]
+2019-07-05 00:22:41,431 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 00:22:41,431 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 00:22:41,431 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562260959304-0/src/GradientButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562260959304-0/src/GradientButton-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 00:22:47,295 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 00:22:47,295 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 00:22:47,295 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 00:22:47,295 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562260959304-0/src/GradientButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562260959304-0/src/GradientButton-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 00:22:51,933 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -62,7 +56,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-06-30 19:33:01,314 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 00:22:51,933 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -234,15 +228,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 4.889 secs
+Total time: 4.399 secs
 
-2019-06-30 19:33:01,322 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-30 19:33:01,323 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561897961251-0/src/GradientButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561897961251-0/src/GradientButton-master/gradientbutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-30 19:33:06,397 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-06-30 19:33:06,397 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-06-30 19:33:06,397 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-06-30 19:33:06,397 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561897961251-0/src/GradientButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561897961251-0/src/GradientButton-master/gradientbutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-06-30 19:33:11,478 ERROR SysUtils - Could not process external command
+2019-07-05 00:22:51,937 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 00:22:51,937 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562260959304-0/src/GradientButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562260959304-0/src/GradientButton-master/gradientbutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 00:22:56,525 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 00:22:56,525 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 00:22:56,525 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 00:22:56,525 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562260959304-0/src/GradientButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562260959304-0/src/GradientButton-master/gradientbutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 00:23:01,041 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -270,7 +264,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-06-30 19:33:11,479 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 00:23:01,041 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -374,15 +368,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 4.827 secs
+Total time: 4.283 secs
 
-2019-06-30 19:33:11,485 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-30 19:33:11,486 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561897961251-0/src/GradientButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561897961251-0/src/GradientButton-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-30 19:33:16,663 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-06-30 19:33:16,663 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-06-30 19:33:16,663 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-06-30 19:33:16,663 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561897961251-0/src/GradientButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561897961251-0/src/GradientButton-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-06-30 19:33:21,677 ERROR SysUtils - Could not process external command
+2019-07-05 00:23:01,044 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 00:23:01,045 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562260959304-0/src/GradientButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562260959304-0/src/GradientButton-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 00:23:05,704 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 00:23:05,704 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 00:23:05,704 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 00:23:05,704 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562260959304-0/src/GradientButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562260959304-0/src/GradientButton-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 00:23:10,391 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -410,7 +404,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-06-30 19:33:21,677 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 00:23:10,392 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -582,7 +576,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 4.796 secs
+Total time: 4.397 secs
 
-2019-06-30 19:33:21,682 ERROR FullProcessService - Project build has not produced APK file
-2019-06-30 19:33:21,686 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-05 00:23:10,395 ERROR FullProcessService - Project build has not produced APK file
+2019-07-05 00:23:10,397 ERROR FullProcessService - Could not find generated or existed APK file
