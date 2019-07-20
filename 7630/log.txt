@@ -1,36 +1,36 @@
-2019-07-01 19:31:34,146 INFO  DownloadService - Downloading "https://github.com/manojbhadane/Holdy/archive/master.zip", attempt 3
-2019-07-01 19:31:34,666 INFO  DownloadService - Downloaded https://github.com/manojbhadane/Holdy/archive/master.zip, attempt 3
-2019-07-01 19:31:34,667 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984294143-0/master.zip": 168 KB
-2019-07-01 19:31:34,667 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-01 19:31:34,672 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984294143-0/master.zip: true
-2019-07-01 19:31:34,672 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984294143-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984294143-0/src'.
-2019-07-01 19:31:34,694 INFO  FullProcessService - Size of directory with sources: 202 KB
-2019-07-01 19:31:34,695 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984294143-0/src]
-2019-07-01 19:31:34,714 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984294143-0/src/.git/
+2019-07-20 12:44:20,212 INFO  DownloadService - Downloading "https://github.com/manojbhadane/Holdy/archive/master.zip", attempt 3
+2019-07-20 12:44:20,744 INFO  DownloadService - Downloaded https://github.com/manojbhadane/Holdy/archive/master.zip, attempt 3
+2019-07-20 12:44:20,744 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601460201-0/master.zip": 168 KB
+2019-07-20 12:44:20,744 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-20 12:44:20,745 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601460201-0/master.zip: true
+2019-07-20 12:44:20,745 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601460201-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601460201-0/src'.
+2019-07-20 12:44:20,770 INFO  FullProcessService - Size of directory with sources: 204 KB
+2019-07-20 12:44:20,770 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601460201-0/src]
+2019-07-20 12:44:20,787 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601460201-0/src/.git/
 
-2019-07-01 19:31:34,718 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984294143-0/src/Holdy-master/gradlew
-2019-07-01 19:31:34,722 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984294143-0/src/Holdy-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984294143-0/src/Holdy-master/holdy/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984294143-0/src/Holdy-master/build.gradle
-2019-07-01 19:31:34,726 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984294143-0/src/Holdy-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984294143-0/src/Holdy-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984294143-0/src/Holdy-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984294143-0/src/Holdy-master/holdy/build.gradle
-2019-07-01 19:31:34,726 INFO  ProjectBuildService - Remote scripts: none
-2019-07-01 19:31:34,727 INFO  ProjectFixService - Fixing project...
-2019-07-01 19:31:34,736 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984294143-0/src/Holdy-master/app/local.properties
-2019-07-01 19:31:34,738 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984294143-0/src/Holdy-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-07-01 19:31:34,738 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984294143-0/src/Holdy-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-07-01 19:31:34,739 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984294143-0/src/Holdy-master/holdy/local.properties
-2019-07-01 19:31:34,740 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984294143-0/src/Holdy-master/holdy/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-07-01 19:31:34,740 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984294143-0/src/Holdy-master/holdy/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-07-01 19:31:34,741 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984294143-0/src/Holdy-master/local.properties
-2019-07-01 19:31:34,742 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-07-01 19:31:34,742 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-07-01 19:31:34,743 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984294143-0/src/Holdy-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-07-01 19:31:34,744 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984294143-0/src/Holdy-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-07-01 19:31:34,744 INFO  ProjectFixService - Project was maybe fixed
-2019-07-01 19:31:34,744 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-01 19:31:34,745 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984294143-0/src/Holdy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984294143-0/src/Holdy-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-01 19:31:41,083 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-07-01 19:31:41,083 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-01 19:31:41,083 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984294143-0/src/Holdy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984294143-0/src/Holdy-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-01 19:32:12,996 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-20 12:44:20,790 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601460201-0/src/Holdy-master/gradlew
+2019-07-20 12:44:20,794 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601460201-0/src/Holdy-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601460201-0/src/Holdy-master/holdy/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601460201-0/src/Holdy-master/build.gradle
+2019-07-20 12:44:20,797 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601460201-0/src/Holdy-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601460201-0/src/Holdy-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601460201-0/src/Holdy-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601460201-0/src/Holdy-master/holdy/build.gradle
+2019-07-20 12:44:20,797 INFO  ProjectBuildService - Remote scripts: none
+2019-07-20 12:44:20,798 INFO  ProjectFixService - Fixing project...
+2019-07-20 12:44:20,806 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601460201-0/src/Holdy-master/app/local.properties
+2019-07-20 12:44:20,807 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601460201-0/src/Holdy-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-20 12:44:20,807 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601460201-0/src/Holdy-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-20 12:44:20,808 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601460201-0/src/Holdy-master/holdy/local.properties
+2019-07-20 12:44:20,808 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601460201-0/src/Holdy-master/holdy/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-20 12:44:20,809 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601460201-0/src/Holdy-master/holdy/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-20 12:44:20,809 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601460201-0/src/Holdy-master/local.properties
+2019-07-20 12:44:20,810 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-07-20 12:44:20,810 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-07-20 12:44:20,811 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601460201-0/src/Holdy-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-20 12:44:20,812 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601460201-0/src/Holdy-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-20 12:44:20,812 INFO  ProjectFixService - Project was maybe fixed
+2019-07-20 12:44:20,813 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-20 12:44:20,813 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601460201-0/src/Holdy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601460201-0/src/Holdy-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-20 12:44:30,676 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-20 12:44:30,677 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-20 12:44:30,677 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601460201-0/src/Holdy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601460201-0/src/Holdy-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-20 12:45:05,539 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :holdy:preBuild UP-TO-DATE
 > Task :holdy:preDebugBuild UP-TO-DATE
@@ -52,6 +52,8 @@
 > Task :holdy:prepareLintJar
 > Task :app:mainApkListPersistenceDebug
 > Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :holdy:javaPreCompileDebug
 > Task :holdy:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :app:generateDebugSources
@@ -63,11 +65,9 @@
 > Task :app:dataBindingGenBaseClassesDebug
 > Task :holdy:generateDebugRFile
 > Task :holdy:generateDebugSources
-> Task :holdy:javaPreCompileDebug
 > Task :holdy:compileDebugJavaWithJavac
 > Task :holdy:bundleLibCompileDebug
 > Task :app:javaPreCompileDebug
-> Task :app:processDebugManifest
 > Task :app:processDebugResources
 
 > Task :app:compileDebugJavaWithJavac
@@ -145,8 +145,8 @@ Consider setting the experimental feature flag android.enableSeparateAnnotationP
 
 > Task :app:compileReleaseSources
 > Task :holdy:prepareLintJarForPublish
-> Task :holdy:processReleaseJavaRes NO-SOURCE
 > Task :app:lintVitalRelease
+> Task :holdy:processReleaseJavaRes NO-SOURCE
 > Task :holdy:bundleLibResRelease
 > Task :holdy:bundleLibRuntimeRelease
 > Task :holdy:createFullJarRelease
@@ -181,7 +181,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 31s
+BUILD SUCCESSFUL in 34s
 101 actionable tasks: 101 executed
 
-2019-07-01 19:32:13,063 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984294143-0/src/Holdy-master/app/build/outputs/apk/debug/app-debug.apk
+2019-07-20 12:45:05,610 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601460201-0/src/Holdy-master/app/build/outputs/apk/debug/app-debug.apk
