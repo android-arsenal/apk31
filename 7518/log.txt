@@ -1,46 +1,39 @@
-2019-07-23 12:19:48,873 INFO  DownloadService - Downloading "https://github.com/andob/DobDroidMVVM/archive/master.zip", attempt 3
-2019-07-23 12:19:51,116 INFO  DownloadService - Downloaded https://github.com/andob/DobDroidMVVM/archive/master.zip, attempt 3
-2019-07-23 12:19:51,116 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/master.zip": 239 KB
-2019-07-23 12:19:51,116 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-23 12:19:51,117 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/master.zip: true
-2019-07-23 12:19:51,117 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src'.
-2019-07-23 12:19:51,157 INFO  FullProcessService - Size of directory with sources: 320 KB
-2019-07-23 12:19:51,157 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src]
-2019-07-23 12:19:51,182 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/.git/
+2019-08-06 12:26:06,384 INFO  DownloadService - Downloading "https://github.com/andob/DobDroidMVVM/archive/master.zip", attempt 3
+2019-08-06 12:26:08,844 INFO  DownloadService - Downloaded https://github.com/andob/DobDroidMVVM/archive/master.zip, attempt 3
+2019-08-06 12:26:08,845 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/master.zip": 238 KB
+2019-08-06 12:26:08,845 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-06 12:26:08,851 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/master.zip: true
+2019-08-06 12:26:08,851 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src'.
+2019-08-06 12:26:08,898 INFO  FullProcessService - Size of directory with sources: 318 KB
+2019-08-06 12:26:08,898 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src]
+2019-08-06 12:26:08,925 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/.git/
 
-2019-07-23 12:19:51,186 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/gradlew
-2019-07-23 12:19:51,190 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/mvvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/build.gradle
-2019-07-23 12:19:51,194 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/mvvm/build.gradle
-2019-07-23 12:19:51,195 INFO  ProjectBuildService - Remote scripts: none
-2019-07-23 12:19:51,195 INFO  ProjectFixService - Fixing project...
-2019-07-23 12:19:51,204 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/mvvm/local.properties
-2019-07-23 12:19:51,205 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/mvvm/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-07-23 12:19:51,205 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/mvvm/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-07-23 12:19:51,206 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/sample/local.properties
-2019-07-23 12:19:51,207 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-07-23 12:19:51,207 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-07-23 12:19:51,208 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/local.properties
-2019-07-23 12:19:51,208 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.8.1-all.zip
-2019-07-23 12:19:51,209 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.8.1-bin.zip)
-2019-07-23 12:19:51,210 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-07-23 12:19:51,210 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-07-23 12:19:51,210 INFO  ProjectFixService - Project was maybe fixed
-2019-07-23 12:19:51,210 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-23 12:19:51,211 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/mvvm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-23 12:20:06,454 INFO  ProjectTaskService - Detected possible tasks: 65
-2019-07-23 12:20:06,454 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-07-23 12:20:06,454 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/mvvm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-07-23 12:20:48,378 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-06 12:26:08,931 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/gradlew
+2019-08-06 12:26:08,936 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/mvvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/build.gradle
+2019-08-06 12:26:08,940 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/mvvm/build.gradle
+2019-08-06 12:26:08,941 INFO  ProjectBuildService - Remote scripts: none
+2019-08-06 12:26:08,941 INFO  ProjectFixService - Fixing project...
+2019-08-06 12:26:08,952 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/mvvm/local.properties
+2019-08-06 12:26:08,958 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/mvvm/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-08-06 12:26:08,958 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/mvvm/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-08-06 12:26:08,959 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/sample/local.properties
+2019-08-06 12:26:08,960 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-08-06 12:26:08,961 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-08-06 12:26:08,962 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/local.properties
+2019-08-06 12:26:08,963 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.8.1-all.zip
+2019-08-06 12:26:08,964 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.8.1-bin.zip)
+2019-08-06 12:26:08,966 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-08-06 12:26:08,966 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-08-06 12:26:08,967 INFO  ProjectFixService - Project was maybe fixed
+2019-08-06 12:26:08,967 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-06 12:26:08,967 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/mvvm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-06 12:26:17,297 INFO  ProjectTaskService - Detected possible tasks: 64
+2019-08-06 12:26:17,297 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-08-06 12:26:17,298 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/mvvm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-08-06 12:27:07,018 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :mvvm:preBuild UP-TO-DATE
 > Task :mvvm:preDebugBuild UP-TO-DATE
-Download https://jcenter.bintray.com/com/balysv/materialmenu/material-menu/2.0.0/material-menu-2.0.0.aar
-Download https://jcenter.bintray.com/net/yslibrary/keyboardvisibilityevent/keyboardvisibilityevent/2.2.0/keyboardvisibilityevent-2.2.0.aar
-Download https://jitpack.io/com/github/andob/BundleArgs/bundleargs-annotation/2.0.1/bundleargs-annotation-2.0.1.aar
-Download https://jitpack.io/com/github/andob/DeclarativeAdapter-kt/1.1.0/DeclarativeAdapter-kt-1.1.0.aar
-Download https://jcenter.bintray.com/net/danlew/android.joda/2.10.1.2/android.joda-2.10.1.2.aar
-Download https://jitpack.io/com/github/andob/DobDroidMiscUtils/v1.1.8/DobDroidMiscUtils-v1.1.8.aar
-Download https://jitpack.io/com/github/andob/LocaleChanger/0.9.3/LocaleChanger-0.9.3.aar
-Download https://jitpack.io/com/github/andob/MaterialSearchView/1.4.5/MaterialSearchView-1.4.5.aar
+Download https://jitpack.io/com/github/andob/ActivityResultEventBus/1.0.1/ActivityResultEventBus-1.0.1.aar
 > Task :mvvm:compileDebugAidl
 > Task :mvvm:compileDebugRenderscript
 > Task :mvvm:checkDebugManifest
@@ -87,43 +80,30 @@ Download https://jitpack.io/com/github/andob/MaterialSearchView/1.4.5/MaterialSe
 > Task :mvvm:verifyReleaseResources
 > Task :mvvm:platformAttrExtractor
 > Task :mvvm:generateDebugRFile
-Download https://jcenter.bintray.com/com/github/debop/koda-time/2.0.0/koda-time-2.0.0.jar
-Download https://jcenter.bintray.com/io/github/microutils/kotlin-logging/1.6.22/kotlin-logging-1.6.22.jar
-Download https://jcenter.bintray.com/io/github/microutils/kotlin-logging-common/1.6.22/kotlin-logging-common-1.6.22.jar
-Download https://jcenter.bintray.com/joda-time/joda-time/2.10.1/joda-time-2.10.1-no-tzdb.jar
-Download https://jitpack.io/com/github/andob/ROOM-Dynamic-Dao/basefilter/v1.0.8/basefilter-v1.0.8.jar
 > Task :mvvm:kaptGenerateStubsDebugKotlin
 > Task :mvvm:kaptDebugKotlin
 
 > Task :mvvm:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/chooser/ChooserCellView.kt: (17, 34): Unchecked cast: Context! to BaseContainerActivity<MODEL>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/details/BaseDetailsActivity.kt: (14, 59): Unchecked cast: Serializable? to MODEL
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/editor/BaseEditorActivity.kt: (17, 59): Unchecked cast: Serializable? to MODEL
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/list/BaseListActivity.kt: (27, 68): Unchecked cast: Serializable? to FILTER
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/list/BaseListActivity.kt: (93, 50): Unchecked cast: List<Any?>! to List<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/list/BaseListActivity.kt: (99, 50): Unchecked cast: List<Any?>! to List<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/list/BaseListFragment.kt: (33, 66): Unchecked cast: Serializable? to FILTER
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/list/BaseListFragment.kt: (99, 50): Unchecked cast: List<Any?>! to List<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/list/BaseListFragment.kt: (105, 50): Unchecked cast: List<Any?>! to List<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/list/item_decoration/DividerItemDecoration.kt: (30, 74): Elvis operator (?:) always returns the left operand of non-nullable type Float
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/multichooser/BaseMultichooseListActivity.kt: (25, 51): Unchecked cast: MutableList<Any> to List<MODEL>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/multichooser/MultiChooserCellView.kt: (24, 34): Unchecked cast: Context! to BaseContainerActivity<MODEL>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/multichooser/MultiChooserCellView.kt: (40, 30): Unchecked cast: Context! to BaseContainerActivity<MODEL>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/chooser/ChooserCellView.kt: (17, 34): Unchecked cast: Context! to BaseContainerActivity<MODEL>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/details/BaseDetailsActivity.kt: (14, 59): Unchecked cast: Serializable? to MODEL
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/editor/BaseEditorActivity.kt: (17, 59): Unchecked cast: Serializable? to MODEL
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/list/BaseListActivity.kt: (27, 68): Unchecked cast: Serializable? to FILTER
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/list/BaseListActivity.kt: (93, 50): Unchecked cast: List<Any?>! to List<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/list/BaseListActivity.kt: (99, 50): Unchecked cast: List<Any?>! to List<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/list/BaseListFragment.kt: (33, 66): Unchecked cast: Serializable? to FILTER
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/list/BaseListFragment.kt: (99, 50): Unchecked cast: List<Any?>! to List<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/list/BaseListFragment.kt: (105, 50): Unchecked cast: List<Any?>! to List<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/list/item_decoration/DividerItemDecoration.kt: (30, 74): Elvis operator (?:) always returns the left operand of non-nullable type Float
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/multichooser/BaseMultichooseListActivity.kt: (25, 51): Unchecked cast: MutableList<Any> to List<MODEL>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/multichooser/MultiChooserCellView.kt: (24, 34): Unchecked cast: Context! to BaseContainerActivity<MODEL>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/multichooser/MultiChooserCellView.kt: (40, 30): Unchecked cast: Context! to BaseContainerActivity<MODEL>
 
 > Task :mvvm:generateDebugSources
 > Task :mvvm:javaPreCompileDebug
 
 > Task :mvvm:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/list/item_decoration/StickyHeadersItemDecoration.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/list/item_decoration/StickyHeadersItemDecoration.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.1.1/lint-kotlin-26.1.1.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.1.1/lint-gradle-26.1.1.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.1.1/lint-26.1.1.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.1/lint-checks-26.1.1.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.1.1/lint-api-26.1.1.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.1/uast-26.1.1.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.1/intellij-core-26.1.1.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.1.1/kotlin-compiler-26.1.1.jar
 
 > Task :mvvm:extractDebugAnnotations
 > Task :mvvm:transformResourcesWithMergeJavaResForDebug
@@ -136,25 +116,25 @@ Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-
 > Task :mvvm:kaptReleaseKotlin
 
 > Task :mvvm:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/chooser/ChooserCellView.kt: (17, 34): Unchecked cast: Context! to BaseContainerActivity<MODEL>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/details/BaseDetailsActivity.kt: (14, 59): Unchecked cast: Serializable? to MODEL
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/editor/BaseEditorActivity.kt: (17, 59): Unchecked cast: Serializable? to MODEL
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/list/BaseListActivity.kt: (27, 68): Unchecked cast: Serializable? to FILTER
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/list/BaseListActivity.kt: (93, 50): Unchecked cast: List<Any?>! to List<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/list/BaseListActivity.kt: (99, 50): Unchecked cast: List<Any?>! to List<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/list/BaseListFragment.kt: (33, 66): Unchecked cast: Serializable? to FILTER
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/list/BaseListFragment.kt: (99, 50): Unchecked cast: List<Any?>! to List<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/list/BaseListFragment.kt: (105, 50): Unchecked cast: List<Any?>! to List<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/list/item_decoration/DividerItemDecoration.kt: (30, 74): Elvis operator (?:) always returns the left operand of non-nullable type Float
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/multichooser/BaseMultichooseListActivity.kt: (25, 51): Unchecked cast: MutableList<Any> to List<MODEL>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/multichooser/MultiChooserCellView.kt: (24, 34): Unchecked cast: Context! to BaseContainerActivity<MODEL>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/multichooser/MultiChooserCellView.kt: (40, 30): Unchecked cast: Context! to BaseContainerActivity<MODEL>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/chooser/ChooserCellView.kt: (17, 34): Unchecked cast: Context! to BaseContainerActivity<MODEL>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/details/BaseDetailsActivity.kt: (14, 59): Unchecked cast: Serializable? to MODEL
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/editor/BaseEditorActivity.kt: (17, 59): Unchecked cast: Serializable? to MODEL
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/list/BaseListActivity.kt: (27, 68): Unchecked cast: Serializable? to FILTER
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/list/BaseListActivity.kt: (93, 50): Unchecked cast: List<Any?>! to List<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/list/BaseListActivity.kt: (99, 50): Unchecked cast: List<Any?>! to List<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/list/BaseListFragment.kt: (33, 66): Unchecked cast: Serializable? to FILTER
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/list/BaseListFragment.kt: (99, 50): Unchecked cast: List<Any?>! to List<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/list/BaseListFragment.kt: (105, 50): Unchecked cast: List<Any?>! to List<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/list/item_decoration/DividerItemDecoration.kt: (30, 74): Elvis operator (?:) always returns the left operand of non-nullable type Float
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/multichooser/BaseMultichooseListActivity.kt: (25, 51): Unchecked cast: MutableList<Any> to List<MODEL>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/multichooser/MultiChooserCellView.kt: (24, 34): Unchecked cast: Context! to BaseContainerActivity<MODEL>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/multichooser/MultiChooserCellView.kt: (40, 30): Unchecked cast: Context! to BaseContainerActivity<MODEL>
 
 > Task :mvvm:generateReleaseSources
 > Task :mvvm:javaPreCompileRelease
 
 > Task :mvvm:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/list/item_decoration/StickyHeadersItemDecoration.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/mvvm/src/main/java/ro/dobrescuandrei/mvvm/list/item_decoration/StickyHeadersItemDecoration.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :mvvm:extractReleaseAnnotations
@@ -166,15 +146,15 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :mvvm:assemble
 > Task :mvvm:build
 
-BUILD SUCCESSFUL in 41s
+BUILD SUCCESSFUL in 48s
 54 actionable tasks: 54 executed
 
-2019-07-23 12:20:48,450 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-23 12:20:48,450 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-23 12:20:53,717 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-07-23 12:20:53,717 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-23 12:20:53,717 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-23 12:22:06,188 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-06 12:27:07,092 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-06 12:27:07,093 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-06 12:27:15,480 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-08-06 12:27:15,481 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-06 12:27:15,481 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-06 12:28:42,702 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :mvvm:preBuild UP-TO-DATE
 > Task :mvvm:preDebugBuild UP-TO-DATE
 > Task :mvvm:compileDebugAidl UP-TO-DATE
@@ -197,8 +177,6 @@ BUILD SUCCESSFUL in 41s
 > Task :mvvm:processDebugJavaRes NO-SOURCE
 > Task :mvvm:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 > Task :sample:preBuild UP-TO-DATE
-Download https://jcenter.bintray.com/com/afollestad/material-dialogs/core/2.6.0/core-2.6.0.aar
-Download https://jcenter.bintray.com/com/chibatching/kotpref/kotpref/2.7.0/kotpref-2.7.0.aar
 > Task :sample:preDebugBuild
 > Task :sample:compileDebugAidl
 > Task :mvvm:packageDebugRenderscript NO-SOURCE
@@ -213,24 +191,22 @@ Download https://jcenter.bintray.com/com/chibatching/kotpref/kotpref/2.7.0/kotpr
 > Task :sample:processDebugManifest
 > Task :sample:splitsDiscoveryTaskDebug
 > Task :sample:processDebugResources
-Download https://kotlin.bintray.com/kotlinx/org/jetbrains/kotlinx/kotlinx-serialization-runtime-common/0.10.0/kotlinx-serialization-runtime-common-0.10.0.jar
-Download https://jcenter.bintray.com/org/jetbrains/kotlinx/kotlinx-serialization-runtime/0.10.0/kotlinx-serialization-runtime-0.10.0.jar
 > Task :sample:kaptGenerateStubsDebugKotlin
 > Task :sample:kaptDebugKotlin
 
 > Task :sample:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/restaurant/editor/RestaurantEditorActivity.kt: (33, 36): Parameter 'value' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/restaurant/editor/RestaurantEditorAdapter.kt: (15, 23): The corresponding parameter in the supertype 'BaseEditorActivity' is named 'model'. This may cause problems when calling this function with named arguments.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/restaurant/editor/RestaurantEditorViewModel.kt: (10, 22): The corresponding parameter in the supertype 'BaseEditorViewModel' is named 'model'. This may cause problems when calling this function with named arguments.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/restaurant/editor/RestaurantEditorViewModel.kt: (13, 23): The corresponding parameter in the supertype 'BaseEditorViewModel' is named 'model'. This may cause problems when calling this function with named arguments.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/restaurant/list/RestaurantListActivity.kt: (20, 32): The corresponding parameter in the supertype 'BaseFragmentContainerActivity' is named 'item'. This may cause problems when calling this function with named arguments.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/restaurant/list/RestaurantListFragment.kt: (37, 29): Parameter 'index' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/restaurant/list/RestaurantListFragment.kt: (48, 36): Parameter 'value' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/restaurant/list/RestaurantListFragment.kt: (67, 17): Parameter 'command' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/restaurant/list/RestaurantPagedListActivity.kt: (19, 32): The corresponding parameter in the supertype 'BaseFragmentsContainerActivity' is named 'item'. This may cause problems when calling this function with named arguments.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/router/ShowDialog.kt: (21, 67): Parameter 'dialog' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/router/ShowDialog.kt: (21, 85): Parameter 'text' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/user/login/LoginActivity.kt: (35, 20): Parameter 'event' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/restaurant/editor/RestaurantEditorActivity.kt: (33, 36): Parameter 'value' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/restaurant/editor/RestaurantEditorAdapter.kt: (15, 23): The corresponding parameter in the supertype 'BaseEditorActivity' is named 'model'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/restaurant/editor/RestaurantEditorViewModel.kt: (10, 22): The corresponding parameter in the supertype 'BaseEditorViewModel' is named 'model'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/restaurant/editor/RestaurantEditorViewModel.kt: (13, 23): The corresponding parameter in the supertype 'BaseEditorViewModel' is named 'model'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/restaurant/list/RestaurantListActivity.kt: (20, 32): The corresponding parameter in the supertype 'BaseFragmentContainerActivity' is named 'item'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/restaurant/list/RestaurantListFragment.kt: (37, 29): Parameter 'index' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/restaurant/list/RestaurantListFragment.kt: (48, 36): Parameter 'value' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/restaurant/list/RestaurantListFragment.kt: (67, 17): Parameter 'command' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/restaurant/list/RestaurantPagedListActivity.kt: (19, 32): The corresponding parameter in the supertype 'BaseFragmentsContainerActivity' is named 'item'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/router/ShowDialog.kt: (21, 67): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/router/ShowDialog.kt: (21, 85): Parameter 'text' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/user/login/LoginActivity.kt: (35, 20): Parameter 'event' is never used
 
 > Task :sample:prepareLintJar
 > Task :sample:generateDebugSources
@@ -301,18 +277,18 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/
 > Task :sample:kaptReleaseKotlin
 
 > Task :sample:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/restaurant/editor/RestaurantEditorActivity.kt: (33, 36): Parameter 'value' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/restaurant/editor/RestaurantEditorAdapter.kt: (15, 23): The corresponding parameter in the supertype 'BaseEditorActivity' is named 'model'. This may cause problems when calling this function with named arguments.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/restaurant/editor/RestaurantEditorViewModel.kt: (10, 22): The corresponding parameter in the supertype 'BaseEditorViewModel' is named 'model'. This may cause problems when calling this function with named arguments.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/restaurant/editor/RestaurantEditorViewModel.kt: (13, 23): The corresponding parameter in the supertype 'BaseEditorViewModel' is named 'model'. This may cause problems when calling this function with named arguments.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/restaurant/list/RestaurantListActivity.kt: (20, 32): The corresponding parameter in the supertype 'BaseFragmentContainerActivity' is named 'item'. This may cause problems when calling this function with named arguments.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/restaurant/list/RestaurantListFragment.kt: (37, 29): Parameter 'index' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/restaurant/list/RestaurantListFragment.kt: (48, 36): Parameter 'value' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/restaurant/list/RestaurantListFragment.kt: (67, 17): Parameter 'command' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/restaurant/list/RestaurantPagedListActivity.kt: (19, 32): The corresponding parameter in the supertype 'BaseFragmentsContainerActivity' is named 'item'. This may cause problems when calling this function with named arguments.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/router/ShowDialog.kt: (21, 67): Parameter 'dialog' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/router/ShowDialog.kt: (21, 85): Parameter 'text' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/user/login/LoginActivity.kt: (35, 20): Parameter 'event' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/restaurant/editor/RestaurantEditorActivity.kt: (33, 36): Parameter 'value' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/restaurant/editor/RestaurantEditorAdapter.kt: (15, 23): The corresponding parameter in the supertype 'BaseEditorActivity' is named 'model'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/restaurant/editor/RestaurantEditorViewModel.kt: (10, 22): The corresponding parameter in the supertype 'BaseEditorViewModel' is named 'model'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/restaurant/editor/RestaurantEditorViewModel.kt: (13, 23): The corresponding parameter in the supertype 'BaseEditorViewModel' is named 'model'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/restaurant/list/RestaurantListActivity.kt: (20, 32): The corresponding parameter in the supertype 'BaseFragmentContainerActivity' is named 'item'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/restaurant/list/RestaurantListFragment.kt: (37, 29): Parameter 'index' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/restaurant/list/RestaurantListFragment.kt: (48, 36): Parameter 'value' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/restaurant/list/RestaurantListFragment.kt: (67, 17): Parameter 'command' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/restaurant/list/RestaurantPagedListActivity.kt: (19, 32): The corresponding parameter in the supertype 'BaseFragmentsContainerActivity' is named 'item'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/router/ShowDialog.kt: (21, 67): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/router/ShowDialog.kt: (21, 85): Parameter 'text' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/sample/src/main/java/ro/dobrescuandrei/demonewlibs/user/login/LoginActivity.kt: (35, 20): Parameter 'event' is never used
 
 > Task :sample:generateReleaseSources
 > Task :sample:javaPreCompileRelease
@@ -349,7 +325,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/
 > Task :sample:assemble
 > Task :sample:build
 
-BUILD SUCCESSFUL in 1m 11s
+BUILD SUCCESSFUL in 1m 26s
 109 actionable tasks: 69 executed, 40 up-to-date
 
-2019-07-23 12:22:06,365 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563859188871-0/src/DobDroidMVVM-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-08-06 12:28:42,897 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565069166381-0/src/DobDroidMVVM-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
