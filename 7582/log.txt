@@ -1,66 +1,44 @@
-2019-03-22 17:48:27,412 INFO  DownloadService - Downloading "https://github.com/mahimrocky/TagView/archive/master.zip", attempt 3
-2019-03-22 17:48:39,134 INFO  DownloadService - Downloaded https://github.com/mahimrocky/TagView/archive/master.zip, attempt 3
-2019-03-22 17:48:39,135 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553251707407-0/master.zip": 896 KB
-2019-03-22 17:48:39,135 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-22 17:48:39,136 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553251707407-0/master.zip: true
-2019-03-22 17:48:39,136 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553251707407-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553251707407-0/src'.
-2019-03-22 17:48:39,199 INFO  FullProcessService - Size of directory with sources: 3 MB
-2019-03-22 17:48:39,199 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553251707407-0/src]
-2019-03-22 17:48:39,234 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553251707407-0/src/.git/
+2019-08-27 10:54:12,584 INFO  DownloadService - Downloading "https://github.com/mahimrocky/TagView/archive/master.zip", attempt 3
+2019-08-27 10:54:15,575 INFO  DownloadService - Downloaded https://github.com/mahimrocky/TagView/archive/master.zip, attempt 3
+2019-08-27 10:54:15,576 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878052581-0/master.zip": 967 KB
+2019-08-27 10:54:15,576 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-27 10:54:15,576 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878052581-0/master.zip: true
+2019-08-27 10:54:15,576 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878052581-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878052581-0/src'.
+2019-08-27 10:54:15,628 INFO  FullProcessService - Size of directory with sources: 4 MB
+2019-08-27 10:54:15,628 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878052581-0/src]
+2019-08-27 10:54:15,644 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878052581-0/src/.git/
 
-2019-03-22 17:48:39,242 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553251707407-0/src/TagView-master/gradlew
-2019-03-22 17:48:39,249 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553251707407-0/src/TagView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553251707407-0/src/TagView-master/materialtagview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553251707407-0/src/TagView-master/build.gradle
-2019-03-22 17:48:39,255 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553251707407-0/src/TagView-master/materialtagview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553251707407-0/src/TagView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553251707407-0/src/TagView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553251707407-0/src/TagView-master/settings.gradle
-2019-03-22 17:48:39,256 INFO  ProjectBuildService - Remote scripts: none
-2019-03-22 17:48:39,256 INFO  ProjectFixService - Fixing project...
-2019-03-22 17:48:39,272 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553251707407-0/src/TagView-master/app/local.properties
-2019-03-22 17:48:39,274 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553251707407-0/src/TagView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-03-22 17:48:39,274 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553251707407-0/src/TagView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-03-22 17:48:39,275 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553251707407-0/src/TagView-master/materialtagview/local.properties
-2019-03-22 17:48:39,276 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553251707407-0/src/TagView-master/materialtagview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-03-22 17:48:39,276 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553251707407-0/src/TagView-master/materialtagview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-03-22 17:48:39,278 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553251707407-0/src/TagView-master/local.properties
-2019-03-22 17:48:39,279 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-03-22 17:48:39,279 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-03-22 17:48:39,281 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553251707407-0/src/TagView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-03-22 17:48:39,281 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553251707407-0/src/TagView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-03-22 17:48:39,281 INFO  ProjectFixService - Project was maybe fixed
-2019-03-22 17:48:39,282 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-22 17:48:39,282 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553251707407-0/src/TagView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553251707407-0/src/TagView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-22 17:48:47,001 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-03-22 17:48:47,001 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-22 17:48:47,001 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553251707407-0/src/TagView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553251707407-0/src/TagView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-22 17:49:26,875 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-27 10:54:15,648 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878052581-0/src/TagView-master/gradlew
+2019-08-27 10:54:15,652 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878052581-0/src/TagView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878052581-0/src/TagView-master/materialtagview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878052581-0/src/TagView-master/build.gradle
+2019-08-27 10:54:15,655 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878052581-0/src/TagView-master/materialtagview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878052581-0/src/TagView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878052581-0/src/TagView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878052581-0/src/TagView-master/settings.gradle
+2019-08-27 10:54:15,656 INFO  ProjectBuildService - Remote scripts: none
+2019-08-27 10:54:15,656 INFO  ProjectFixService - Fixing project...
+2019-08-27 10:54:15,666 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878052581-0/src/TagView-master/app/local.properties
+2019-08-27 10:54:15,667 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878052581-0/src/TagView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-08-27 10:54:15,667 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878052581-0/src/TagView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-08-27 10:54:15,668 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878052581-0/src/TagView-master/materialtagview/local.properties
+2019-08-27 10:54:15,669 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878052581-0/src/TagView-master/materialtagview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-08-27 10:54:15,669 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878052581-0/src/TagView-master/materialtagview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-08-27 10:54:15,670 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878052581-0/src/TagView-master/local.properties
+2019-08-27 10:54:15,671 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-08-27 10:54:15,672 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-08-27 10:54:15,673 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878052581-0/src/TagView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-08-27 10:54:15,674 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878052581-0/src/TagView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-08-27 10:54:15,674 INFO  ProjectFixService - Project was maybe fixed
+2019-08-27 10:54:15,675 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-27 10:54:15,675 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878052581-0/src/TagView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878052581-0/src/TagView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-27 10:54:25,261 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-08-27 10:54:25,261 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-27 10:54:25,262 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878052581-0/src/TagView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878052581-0/src/TagView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-27 10:54:59,819 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
-> Task :materialtagview:preBuild UP-TO-DATE
-> Task :materialtagview:preDebugBuild UP-TO-DATE
-> Task :materialtagview:checkDebugManifest
-> Task :materialtagview:processDebugManifest
 > Task :app:preDebugBuild
-> Task :materialtagview:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
-> Task :materialtagview:packageDebugRenderscript NO-SOURCE
 > Task :app:compileDebugRenderscript
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
 > Task :app:prepareLintJar UP-TO-DATE
 > Task :app:generateDebugSources
-> Task :materialtagview:compileDebugRenderscript
-> Task :materialtagview:generateDebugBuildConfig
-> Task :materialtagview:generateDebugResValues
-> Task :materialtagview:generateDebugResources
-> Task :materialtagview:packageDebugResources
-> Task :materialtagview:generateDebugRFile
-> Task :materialtagview:prepareLintJar UP-TO-DATE
-> Task :materialtagview:generateDebugSources
-> Task :materialtagview:javaPreCompileDebug
-
-> Task :materialtagview:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553251707407-0/src/TagView-master/materialtagview/src/main/java/com/skyhope/materialtagview/TagView.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
-> Task :materialtagview:processDebugJavaRes NO-SOURCE
-> Task :materialtagview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 > Task :app:javaPreCompileDebug
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
@@ -75,57 +53,25 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
-> Task :materialtagview:mergeDebugShaders
-> Task :materialtagview:compileDebugShaders
-> Task :materialtagview:generateDebugAssets
-> Task :materialtagview:packageDebugAssets
 > Task :app:mergeDebugAssets
-> Task :materialtagview:createFullJarDebug
-> Transform full.jar (project :materialtagview) with IdentityTransform
 > Task :app:mergeExtDexDebug
-> Transform full.jar (project :materialtagview) with DexingTransform
 > Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:mergeDexDebug
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
 > Task :app:mergeDebugJniLibFolders
-> Task :materialtagview:compileDebugNdk NO-SOURCE
-> Task :materialtagview:mergeDebugJniLibFolders
-> Task :materialtagview:transformNativeLibsWithMergeJniLibsForDebug
-> Task :materialtagview:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :materialtagview:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :app:transformNativeLibsWithMergeJniLibsForDebug
 > Task :app:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :app:transformResourcesWithMergeJavaResForDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
-> Task :materialtagview:preReleaseBuild UP-TO-DATE
-> Task :materialtagview:checkReleaseManifest
-> Task :materialtagview:processReleaseManifest
 > Task :app:preReleaseBuild
-> Task :materialtagview:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
-> Task :materialtagview:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript
 > Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
 > Task :app:generateReleaseSources
-> Task :materialtagview:compileReleaseRenderscript
-> Task :materialtagview:generateReleaseBuildConfig
-> Task :materialtagview:generateReleaseResValues
-> Task :materialtagview:generateReleaseResources
-> Task :materialtagview:packageReleaseResources
-> Task :materialtagview:generateReleaseRFile
-> Task :materialtagview:generateReleaseSources
-> Task :materialtagview:javaPreCompileRelease
-
-> Task :materialtagview:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553251707407-0/src/TagView-master/materialtagview/src/main/java/com/skyhope/materialtagview/TagView.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
-> Task :materialtagview:processReleaseJavaRes NO-SOURCE
-> Task :materialtagview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
 > Task :app:javaPreCompileRelease
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
@@ -137,28 +83,19 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseNdk NO-SOURCE
 > Task :app:compileReleaseSources
+
 > Task :app:lintVitalRelease
-> Task :materialtagview:createFullJarRelease
-> Transform full.jar (project :materialtagview) with IdentityTransform
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/be7a3df690bbb5655b9d045a27fd4628/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
 > Task :app:mergeExtDexRelease
-> Transform full.jar (project :materialtagview) with DexingTransform
 > Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeDexRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
-> Task :materialtagview:mergeReleaseShaders
-> Task :materialtagview:compileReleaseShaders
-> Task :materialtagview:generateReleaseAssets
-> Task :materialtagview:packageReleaseAssets
 > Task :app:mergeReleaseAssets
 > Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
-> Task :materialtagview:compileReleaseNdk NO-SOURCE
-> Task :materialtagview:mergeReleaseJniLibFolders
-> Task :materialtagview:transformNativeLibsWithMergeJniLibsForRelease
-> Task :materialtagview:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :materialtagview:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :app:transformNativeLibsWithMergeJniLibsForRelease
 > Task :app:transformNativeLibsWithStripDebugSymbolForRelease
 > Task :app:processReleaseJavaRes NO-SOURCE
@@ -168,7 +105,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 39s
-88 actionable tasks: 86 executed, 2 up-to-date
+BUILD SUCCESSFUL in 33s
+51 actionable tasks: 50 executed, 1 up-to-date
 
-2019-03-22 17:49:26,965 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553251707407-0/src/TagView-master/app/build/outputs/apk/debug/app-debug.apk
+2019-08-27 10:54:59,880 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566878052581-0/src/TagView-master/app/build/outputs/apk/debug/app-debug.apk
