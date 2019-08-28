@@ -1,65 +1,65 @@
-2019-08-04 20:15:07,387 INFO  DownloadService - Downloading "https://github.com/omtodkar/ShimmerRecyclerView/archive/master.zip", attempt 3
-2019-08-04 20:15:12,470 INFO  DownloadService - Downloaded https://github.com/omtodkar/ShimmerRecyclerView/archive/master.zip, attempt 3
-2019-08-04 20:15:12,470 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924507384-0/master.zip": 1 MB
-2019-08-04 20:15:12,470 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-04 20:15:12,477 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924507384-0/master.zip: true
-2019-08-04 20:15:12,477 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924507384-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924507384-0/src'.
-2019-08-04 20:15:12,513 INFO  FullProcessService - Size of directory with sources: 2 MB
-2019-08-04 20:15:12,514 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924507384-0/src]
-2019-08-04 20:15:12,538 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924507384-0/src/.git/
+2019-08-28 13:41:58,518 INFO  DownloadService - Downloading "https://github.com/omtodkar/ShimmerRecyclerView/archive/master.zip", attempt 3
+2019-08-28 13:42:03,133 INFO  DownloadService - Downloaded https://github.com/omtodkar/ShimmerRecyclerView/archive/master.zip, attempt 3
+2019-08-28 13:42:03,133 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566974518509-0/master.zip": 1 MB
+2019-08-28 13:42:03,133 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-28 13:42:03,140 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566974518509-0/master.zip: true
+2019-08-28 13:42:03,140 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566974518509-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566974518509-0/src'.
+2019-08-28 13:42:03,178 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-08-28 13:42:03,179 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566974518509-0/src]
+2019-08-28 13:42:03,216 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566974518509-0/src/.git/
 
-2019-08-04 20:15:12,541 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924507384-0/src/ShimmerRecyclerView-master/gradlew
-2019-08-04 20:15:12,544 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924507384-0/src/ShimmerRecyclerView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924507384-0/src/ShimmerRecyclerView-master/shimmer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924507384-0/src/ShimmerRecyclerView-master/build.gradle
-2019-08-04 20:15:12,548 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924507384-0/src/ShimmerRecyclerView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924507384-0/src/ShimmerRecyclerView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924507384-0/src/ShimmerRecyclerView-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924507384-0/src/ShimmerRecyclerView-master/shimmer/bintray-config.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924507384-0/src/ShimmerRecyclerView-master/shimmer/build.gradle
-2019-08-04 20:15:12,548 INFO  ProjectBuildService - Remote scripts: none
-2019-08-04 20:15:12,549 INFO  ProjectFixService - Fixing project...
-2019-08-04 20:15:12,556 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924507384-0/src/ShimmerRecyclerView-master/app/local.properties
-2019-08-04 20:15:12,557 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924507384-0/src/ShimmerRecyclerView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-08-04 20:15:12,557 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924507384-0/src/ShimmerRecyclerView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-08-04 20:15:12,558 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924507384-0/src/ShimmerRecyclerView-master/shimmer/local.properties
-2019-08-04 20:15:12,559 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924507384-0/src/ShimmerRecyclerView-master/shimmer/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-08-04 20:15:12,560 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924507384-0/src/ShimmerRecyclerView-master/shimmer/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-08-04 20:15:12,561 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924507384-0/src/ShimmerRecyclerView-master/local.properties
-2019-08-04 20:15:12,562 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-08-04 20:15:12,563 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-08-04 20:15:12,565 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924507384-0/src/ShimmerRecyclerView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-08-04 20:15:12,565 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924507384-0/src/ShimmerRecyclerView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-08-04 20:15:12,565 INFO  ProjectFixService - Project was maybe fixed
-2019-08-04 20:15:12,565 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-04 20:15:12,566 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924507384-0/src/ShimmerRecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924507384-0/src/ShimmerRecyclerView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-04 20:15:21,645 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-08-04 20:15:21,645 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-08-04 20:15:21,645 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924507384-0/src/ShimmerRecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924507384-0/src/ShimmerRecyclerView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-08-04 20:16:21,628 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-28 13:42:03,218 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566974518509-0/src/ShimmerRecyclerView-master/gradlew
+2019-08-28 13:42:03,221 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566974518509-0/src/ShimmerRecyclerView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566974518509-0/src/ShimmerRecyclerView-master/shimmer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566974518509-0/src/ShimmerRecyclerView-master/build.gradle
+2019-08-28 13:42:03,224 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566974518509-0/src/ShimmerRecyclerView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566974518509-0/src/ShimmerRecyclerView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566974518509-0/src/ShimmerRecyclerView-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566974518509-0/src/ShimmerRecyclerView-master/shimmer/bintray-config.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566974518509-0/src/ShimmerRecyclerView-master/shimmer/build.gradle
+2019-08-28 13:42:03,225 INFO  ProjectBuildService - Remote scripts: none
+2019-08-28 13:42:03,225 INFO  ProjectFixService - Fixing project...
+2019-08-28 13:42:03,232 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566974518509-0/src/ShimmerRecyclerView-master/app/local.properties
+2019-08-28 13:42:03,234 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566974518509-0/src/ShimmerRecyclerView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-08-28 13:42:03,234 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566974518509-0/src/ShimmerRecyclerView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-08-28 13:42:03,235 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566974518509-0/src/ShimmerRecyclerView-master/shimmer/local.properties
+2019-08-28 13:42:03,236 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566974518509-0/src/ShimmerRecyclerView-master/shimmer/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-08-28 13:42:03,236 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566974518509-0/src/ShimmerRecyclerView-master/shimmer/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-08-28 13:42:03,237 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566974518509-0/src/ShimmerRecyclerView-master/local.properties
+2019-08-28 13:42:03,238 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-08-28 13:42:03,238 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-08-28 13:42:03,239 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566974518509-0/src/ShimmerRecyclerView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-08-28 13:42:03,239 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566974518509-0/src/ShimmerRecyclerView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-08-28 13:42:03,240 INFO  ProjectFixService - Project was maybe fixed
+2019-08-28 13:42:03,240 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-28 13:42:03,240 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566974518509-0/src/ShimmerRecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566974518509-0/src/ShimmerRecyclerView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-28 13:42:10,481 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-08-28 13:42:10,482 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-28 13:42:10,482 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566974518509-0/src/ShimmerRecyclerView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566974518509-0/src/ShimmerRecyclerView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-28 13:42:47,393 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :shimmer:preBuild UP-TO-DATE
 > Task :shimmer:preDebugBuild UP-TO-DATE
 > Task :shimmer:checkDebugManifest
 > Task :shimmer:processDebugManifest
-> Task :shimmer:packageDebugRenderscript NO-SOURCE
-> Task :app:prepareLintJar
-> Task :shimmer:generateDebugResValues
-> Task :shimmer:compileDebugAidl NO-SOURCE
-> Task :shimmer:compileDebugRenderscript NO-SOURCE
-> Task :shimmer:generateDebugResources
-> Task :shimmer:packageDebugResources
-> Task :shimmer:generateDebugRFile
 > Task :app:preDebugBuild
-> Task :app:compileDebugAidl NO-SOURCE
+> Task :shimmer:packageDebugRenderscript NO-SOURCE
 > Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
-> Task :app:generateDebugSources
-> Task :app:dataBindingExportBuildInfoDebug
+> Task :app:prepareLintJar
 > Task :app:dataBindingMergeDependencyArtifactsDebug
-> Task :app:dataBindingMergeGenClassesDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
+> Task :shimmer:generateDebugResValues
+> Task :app:dataBindingMergeGenClassesDebug
+> Task :shimmer:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:generateDebugSources
+> Task :app:dataBindingExportBuildInfoDebug
+> Task :shimmer:compileDebugRenderscript NO-SOURCE
+> Task :shimmer:generateDebugResources
+> Task :shimmer:packageDebugResources
 > Task :app:mergeDebugResources
 > Task :app:dataBindingGenBaseClassesDebug
 > Task :app:mainApkListPersistenceDebug
 > Task :app:createDebugCompatibleScreenManifests
 > Task :app:processDebugManifest
+> Task :shimmer:generateDebugRFile
 > Task :app:processDebugResources
 > Task :shimmer:generateDebugBuildConfig
 > Task :shimmer:prepareLintJar
@@ -184,7 +184,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 59s
+BUILD SUCCESSFUL in 36s
 101 actionable tasks: 101 executed
 
-2019-08-04 20:16:21,707 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924507384-0/src/ShimmerRecyclerView-master/app/build/outputs/apk/debug/app-debug.apk
+2019-08-28 13:42:47,466 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566974518509-0/src/ShimmerRecyclerView-master/app/build/outputs/apk/debug/app-debug.apk
