@@ -1,36 +1,36 @@
-2019-08-11 17:20:02,102 INFO  DownloadService - Downloading "https://github.com/skydoves/Needs/archive/master.zip", attempt 3
-2019-08-11 17:20:04,393 INFO  DownloadService - Downloaded https://github.com/skydoves/Needs/archive/master.zip, attempt 3
-2019-08-11 17:20:04,393 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565518802097-0/master.zip": 189 KB
-2019-08-11 17:20:04,393 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-11 17:20:04,394 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565518802097-0/master.zip: true
-2019-08-11 17:20:04,394 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565518802097-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565518802097-0/src'.
-2019-08-11 17:20:04,422 INFO  FullProcessService - Size of directory with sources: 228 KB
-2019-08-11 17:20:04,422 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565518802097-0/src]
-2019-08-11 17:20:04,442 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565518802097-0/src/.git/
+2019-09-01 21:20:29,600 INFO  DownloadService - Downloading "https://github.com/skydoves/Needs/archive/master.zip", attempt 3
+2019-09-01 21:20:31,595 INFO  DownloadService - Downloaded https://github.com/skydoves/Needs/archive/master.zip, attempt 3
+2019-09-01 21:20:31,596 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347629591-0/master.zip": 193 KB
+2019-09-01 21:20:31,596 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-01 21:20:31,601 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347629591-0/master.zip: true
+2019-09-01 21:20:31,602 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347629591-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347629591-0/src'.
+2019-09-01 21:20:31,633 INFO  FullProcessService - Size of directory with sources: 234 KB
+2019-09-01 21:20:31,634 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347629591-0/src]
+2019-09-01 21:20:31,651 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347629591-0/src/.git/
 
-2019-08-11 17:20:04,446 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565518802097-0/src/Needs-master/gradlew
-2019-08-11 17:20:04,449 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565518802097-0/src/Needs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565518802097-0/src/Needs-master/needs/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565518802097-0/src/Needs-master/build.gradle
-2019-08-11 17:20:04,452 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565518802097-0/src/Needs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565518802097-0/src/Needs-master/needs/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565518802097-0/src/Needs-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565518802097-0/src/Needs-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565518802097-0/src/Needs-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565518802097-0/src/Needs-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565518802097-0/src/Needs-master/spotless.gradle
-2019-08-11 17:20:04,455 INFO  ProjectBuildService - Remote scripts: none
-2019-08-11 17:20:04,456 INFO  ProjectFixService - Fixing project...
-2019-08-11 17:20:04,464 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565518802097-0/src/Needs-master/app/local.properties
-2019-08-11 17:20:04,467 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565518802097-0/src/Needs-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-08-11 17:20:04,467 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565518802097-0/src/Needs-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-08-11 17:20:04,468 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565518802097-0/src/Needs-master/needs/local.properties
-2019-08-11 17:20:04,471 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565518802097-0/src/Needs-master/needs/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-08-11 17:20:04,471 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565518802097-0/src/Needs-master/needs/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-08-11 17:20:04,472 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565518802097-0/src/Needs-master/local.properties
-2019-08-11 17:20:04,473 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-08-11 17:20:04,473 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-08-11 17:20:04,476 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565518802097-0/src/Needs-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-08-11 17:20:04,476 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565518802097-0/src/Needs-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-08-11 17:20:04,477 INFO  ProjectFixService - Project was maybe fixed
-2019-08-11 17:20:04,477 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-11 17:20:04,477 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565518802097-0/src/Needs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565518802097-0/src/Needs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-11 17:20:12,670 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-08-11 17:20:12,670 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-08-11 17:20:12,670 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565518802097-0/src/Needs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565518802097-0/src/Needs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-08-11 17:21:11,277 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-01 21:20:31,654 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347629591-0/src/Needs-master/gradlew
+2019-09-01 21:20:31,657 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347629591-0/src/Needs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347629591-0/src/Needs-master/needs/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347629591-0/src/Needs-master/build.gradle
+2019-09-01 21:20:31,660 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347629591-0/src/Needs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347629591-0/src/Needs-master/needs/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347629591-0/src/Needs-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347629591-0/src/Needs-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347629591-0/src/Needs-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347629591-0/src/Needs-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347629591-0/src/Needs-master/spotless.gradle
+2019-09-01 21:20:31,661 INFO  ProjectBuildService - Remote scripts: none
+2019-09-01 21:20:31,661 INFO  ProjectFixService - Fixing project...
+2019-09-01 21:20:31,668 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347629591-0/src/Needs-master/app/local.properties
+2019-09-01 21:20:31,671 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347629591-0/src/Needs-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-09-01 21:20:31,671 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347629591-0/src/Needs-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-09-01 21:20:31,672 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347629591-0/src/Needs-master/needs/local.properties
+2019-09-01 21:20:31,674 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347629591-0/src/Needs-master/needs/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-09-01 21:20:31,674 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347629591-0/src/Needs-master/needs/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-09-01 21:20:31,675 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347629591-0/src/Needs-master/local.properties
+2019-09-01 21:20:31,676 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-09-01 21:20:31,676 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-09-01 21:20:31,678 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347629591-0/src/Needs-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-09-01 21:20:31,679 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347629591-0/src/Needs-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-09-01 21:20:31,679 INFO  ProjectFixService - Project was maybe fixed
+2019-09-01 21:20:31,679 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-01 21:20:31,679 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347629591-0/src/Needs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347629591-0/src/Needs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-01 21:20:39,668 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-09-01 21:20:39,668 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-09-01 21:20:39,668 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347629591-0/src/Needs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347629591-0/src/Needs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-09-01 21:21:29,113 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :needs
 Kotlin plugin should be enabled before 'kotlin-android-extensions'
@@ -59,12 +59,12 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
 > Task :needs:generateDebugResValues
+> Task :app:createDebugCompatibleScreenManifests
 > Task :needs:compileDebugRenderscript NO-SOURCE
 > Task :needs:generateDebugResources
-> Task :app:createDebugCompatibleScreenManifests
-> Task :app:processDebugManifest
 > Task :needs:packageDebugResources
 > Task :app:mergeDebugResources
+> Task :app:processDebugManifest
 > Task :needs:generateDebugRFile
 > Task :app:processDebugResources
 > Task :needs:generateDebugBuildConfig
@@ -125,14 +125,14 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :app:mergeReleaseResources
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:processReleaseManifest
-> Task :needs:generateReleaseRFile
-> Task :app:processReleaseResources
-> Task :needs:generateReleaseBuildConfig
-> Task :needs:compileReleaseKotlin
 > Task :app:mergeExtDexDebug
 > Task :app:mergeDexDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
+> Task :needs:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :needs:generateReleaseBuildConfig
+> Task :needs:compileReleaseKotlin
 > Task :needs:generateReleaseSources
 > Task :needs:javaPreCompileRelease
 > Task :needs:compileReleaseJavaWithJavac
@@ -143,10 +143,7 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
 > Task :needs:prepareLintJarForPublish
-
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/95bf912d720ab44fb44968dd99732e5a/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
-
 > Task :needs:processReleaseJavaRes NO-SOURCE
 > Task :needs:bundleLibResRelease
 > Task :needs:bundleLibRuntimeRelease
@@ -182,7 +179,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 57s
+BUILD SUCCESSFUL in 48s
 95 actionable tasks: 95 executed
 
-2019-08-11 17:21:11,361 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565518802097-0/src/Needs-master/app/build/outputs/apk/debug/app-debug.apk
+2019-09-01 21:21:29,187 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347629591-0/src/Needs-master/app/build/outputs/apk/debug/app-debug.apk
