@@ -1,74 +1,67 @@
-2019-05-14 14:07:18,876 INFO  DownloadService - Downloading "https://github.com/ivan200/PhotoBarcode/archive/master.zip", attempt 3
-2019-05-14 14:07:19,487 INFO  DownloadService - Downloaded https://github.com/ivan200/PhotoBarcode/archive/master.zip, attempt 3
-2019-05-14 14:07:19,487 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817638871-0/master.zip": 358 KB
-2019-05-14 14:07:19,487 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-14 14:07:19,488 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817638871-0/master.zip: true
-2019-05-14 14:07:19,488 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817638871-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817638871-0/src'.
-2019-05-14 14:07:19,526 INFO  FullProcessService - Size of directory with sources: 535 KB
-2019-05-14 14:07:19,526 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817638871-0/src]
-2019-05-14 14:07:19,544 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817638871-0/src/.git/
+2019-09-26 12:11:31,789 INFO  DownloadService - Downloading "https://github.com/ivan200/PhotoBarcode/archive/master.zip", attempt 3
+2019-09-26 12:11:35,470 INFO  DownloadService - Downloaded https://github.com/ivan200/PhotoBarcode/archive/master.zip, attempt 3
+2019-09-26 12:11:35,470 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474691785-0/master.zip": 360 KB
+2019-09-26 12:11:35,470 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-26 12:11:35,471 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474691785-0/master.zip: true
+2019-09-26 12:11:35,471 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474691785-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474691785-0/src'.
+2019-09-26 12:11:35,503 INFO  FullProcessService - Size of directory with sources: 540 KB
+2019-09-26 12:11:35,503 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474691785-0/src]
+2019-09-26 12:11:35,519 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474691785-0/src/.git/
 
-2019-05-14 14:07:19,548 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817638871-0/src/PhotoBarcode-master/gradlew
-2019-05-14 14:07:19,553 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817638871-0/src/PhotoBarcode-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817638871-0/src/PhotoBarcode-master/photobarcodelib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817638871-0/src/PhotoBarcode-master/build.gradle
-2019-05-14 14:07:19,558 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817638871-0/src/PhotoBarcode-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817638871-0/src/PhotoBarcode-master/photobarcodelib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817638871-0/src/PhotoBarcode-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817638871-0/src/PhotoBarcode-master/settings.gradle
-2019-05-14 14:07:19,559 INFO  ProjectBuildService - Remote scripts: none
-2019-05-14 14:07:19,559 INFO  ProjectFixService - Fixing project...
-2019-05-14 14:07:19,572 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817638871-0/src/PhotoBarcode-master/app/local.properties
-2019-05-14 14:07:19,573 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817638871-0/src/PhotoBarcode-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-14 14:07:19,573 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817638871-0/src/PhotoBarcode-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-14 14:07:19,574 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817638871-0/src/PhotoBarcode-master/photobarcodelib/local.properties
-2019-05-14 14:07:19,576 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817638871-0/src/PhotoBarcode-master/photobarcodelib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-14 14:07:19,576 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817638871-0/src/PhotoBarcode-master/photobarcodelib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-14 14:07:19,577 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817638871-0/src/PhotoBarcode-master/local.properties
-2019-05-14 14:07:19,578 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-05-14 14:07:19,578 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-05-14 14:07:19,579 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817638871-0/src/PhotoBarcode-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-14 14:07:19,580 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817638871-0/src/PhotoBarcode-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-14 14:07:19,580 INFO  ProjectFixService - Project was maybe fixed
-2019-05-14 14:07:19,580 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-14 14:07:19,580 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817638871-0/src/PhotoBarcode-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817638871-0/src/PhotoBarcode-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-14 14:07:26,135 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-05-14 14:07:26,135 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-14 14:07:26,135 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817638871-0/src/PhotoBarcode-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817638871-0/src/PhotoBarcode-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-14 14:08:16,263 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-26 12:11:35,523 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474691785-0/src/PhotoBarcode-master/gradlew
+2019-09-26 12:11:35,526 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474691785-0/src/PhotoBarcode-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474691785-0/src/PhotoBarcode-master/photobarcodelib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474691785-0/src/PhotoBarcode-master/build.gradle
+2019-09-26 12:11:35,529 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474691785-0/src/PhotoBarcode-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474691785-0/src/PhotoBarcode-master/photobarcodelib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474691785-0/src/PhotoBarcode-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474691785-0/src/PhotoBarcode-master/settings.gradle
+2019-09-26 12:11:35,530 INFO  ProjectBuildService - Remote scripts: none
+2019-09-26 12:11:35,530 INFO  ProjectFixService - Fixing project...
+2019-09-26 12:11:35,538 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474691785-0/src/PhotoBarcode-master/app/local.properties
+2019-09-26 12:11:35,538 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474691785-0/src/PhotoBarcode-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-09-26 12:11:35,539 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474691785-0/src/PhotoBarcode-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-09-26 12:11:35,539 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474691785-0/src/PhotoBarcode-master/photobarcodelib/local.properties
+2019-09-26 12:11:35,540 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474691785-0/src/PhotoBarcode-master/photobarcodelib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-09-26 12:11:35,540 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474691785-0/src/PhotoBarcode-master/photobarcodelib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-09-26 12:11:35,541 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474691785-0/src/PhotoBarcode-master/local.properties
+2019-09-26 12:11:35,541 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-09-26 12:11:35,542 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-09-26 12:11:35,543 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474691785-0/src/PhotoBarcode-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-09-26 12:11:35,543 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474691785-0/src/PhotoBarcode-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-09-26 12:11:35,543 INFO  ProjectFixService - Project was maybe fixed
+2019-09-26 12:11:35,543 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-26 12:11:35,543 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474691785-0/src/PhotoBarcode-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474691785-0/src/PhotoBarcode-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-26 12:11:42,895 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-09-26 12:11:42,895 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-09-26 12:11:42,895 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474691785-0/src/PhotoBarcode-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474691785-0/src/PhotoBarcode-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-09-26 12:12:32,012 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
 > Task :photobarcodelib:preBuild UP-TO-DATE
 > Task :photobarcodelib:preDebugBuild UP-TO-DATE
-> Task :photobarcodelib:checkDebugManifest
-> Task :photobarcodelib:processDebugManifest
+> Task :photobarcodelib:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
 > Task :photobarcodelib:packageDebugRenderscript NO-SOURCE
-> Task :app:prepareLintJar
+> Task :app:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :photobarcodelib:checkDebugManifest
+> Task :photobarcodelib:compileDebugRenderscript NO-SOURCE
 > Task :photobarcodelib:generateDebugBuildConfig
 > Task :photobarcodelib:generateDebugResValues
-> Task :photobarcodelib:prepareLintJar
-> Task :photobarcodelib:mergeDebugShaders
-> Task :photobarcodelib:compileDebugShaders
-> Task :photobarcodelib:generateDebugAssets
-> Task :photobarcodelib:packageDebugAssets
-> Task :photobarcodelib:compileDebugAidl NO-SOURCE
-> Task :app:preDebugBuild
-> Task :app:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugRenderscript NO-SOURCE
-> Task :app:checkDebugManifest
-> Task :app:generateDebugBuildConfig
-> Task :app:generateDebugSources
-> Task :photobarcodelib:compileDebugRenderscript NO-SOURCE
 > Task :photobarcodelib:generateDebugResources
 > Task :photobarcodelib:packageDebugResources
-> Task :photobarcodelib:generateDebugRFile
-> Task :photobarcodelib:generateDebugSources
+> Task :photobarcodelib:parseDebugLibraryResources
+> Task :app:mainApkListPersistenceDebug
+> Task :photobarcodelib:processDebugManifest
 > Task :photobarcodelib:javaPreCompileDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :photobarcodelib:generateDebugRFile
 
 > Task :photobarcodelib:compileDebugJavaWithJavac
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
+> Task :app:mergeDebugResources
 > Task :photobarcodelib:bundleLibCompileDebug
 > Task :app:javaPreCompileDebug
-> Task :app:mainApkListPersistenceDebug
-> Task :app:generateDebugResValues
-> Task :app:generateDebugResources
-> Task :app:mergeDebugResources
 > Task :app:createDebugCompatibleScreenManifests
 > Task :app:processDebugManifest
 > Task :app:processDebugResources
@@ -77,68 +70,80 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
+> Task :photobarcodelib:mergeDebugShaders
+> Task :photobarcodelib:compileDebugShaders
+> Task :photobarcodelib:generateDebugAssets
+> Task :photobarcodelib:packageDebugAssets
 > Task :app:mergeDebugAssets
-> Task :app:validateSigningDebug
-> Task :app:signingConfigWriterDebug
-> Task :photobarcodelib:bundleLibRuntimeDebug
-> Task :app:checkDebugDuplicateClasses
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/5d84a781dd273faa4d5dbcc3d55885f4/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.vision.zziu$zza.zza(long, byte)`
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/05ed67a167fdaeedcdfcd3804bca0141/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.clearcut.zzfd$zzb.zza(long, byte)`
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/5d84a781dd273faa4d5dbcc3d55885f4/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.vision.zziu$zzb.zza(long, byte)`
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/05ed67a167fdaeedcdfcd3804bca0141/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.clearcut.zzfd$zza.zza(long, byte)`
-> Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
-> Task :app:transformDexArchiveWithDexMergerForDebug
-> Task :app:mergeDebugJniLibFolders
+> Task :app:processDebugJavaRes NO-SOURCE
 > Task :photobarcodelib:processDebugJavaRes NO-SOURCE
 > Task :photobarcodelib:bundleLibResDebug
+> Task :photobarcodelib:bundleLibRuntimeDebug
+> Task :photobarcodelib:createFullJarDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeDebugJavaResource
+> Task :app:desugarDebugFileDependencies
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
 > Task :photobarcodelib:mergeDebugJniLibFolders
-> Task :photobarcodelib:transformNativeLibsWithMergeJniLibsForDebug
-> Task :photobarcodelib:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :photobarcodelib:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :app:transformNativeLibsWithMergeJniLibsForDebug
-> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
+> Task :app:preReleaseBuild UP-TO-DATE
 > Task :photobarcodelib:preReleaseBuild UP-TO-DATE
-> Task :photobarcodelib:checkReleaseManifest
-> Task :photobarcodelib:processReleaseManifest
-> Task :app:preReleaseBuild
 > Task :photobarcodelib:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :photobarcodelib:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
-> Task :app:generateReleaseSources
 > Task :photobarcodelib:compileReleaseRenderscript NO-SOURCE
+> Task :photobarcodelib:checkReleaseManifest
 > Task :photobarcodelib:generateReleaseBuildConfig
 > Task :photobarcodelib:generateReleaseResValues
 > Task :photobarcodelib:generateReleaseResources
 > Task :photobarcodelib:packageReleaseResources
-> Task :photobarcodelib:generateReleaseRFile
-> Task :photobarcodelib:generateReleaseSources
+> Task :photobarcodelib:mergeDebugNativeLibs
+> Task :photobarcodelib:stripDebugDebugSymbols
+> Task :photobarcodelib:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :photobarcodelib:parseReleaseLibraryResources
+> Task :photobarcodelib:processReleaseManifest
 > Task :photobarcodelib:javaPreCompileRelease
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :photobarcodelib:generateReleaseRFile
 
 > Task :photobarcodelib:compileReleaseJavaWithJavac
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
 > Task :photobarcodelib:bundleLibCompileRelease
-> Task :app:javaPreCompileRelease
-> Task :app:mainApkListPersistenceRelease
-> Task :app:generateReleaseResValues
-> Task :app:generateReleaseResources
 > Task :app:mergeReleaseResources
-> Task :app:createReleaseCompatibleScreenManifests
-> Task :app:processReleaseManifest
 > Task :app:processReleaseResources
+> Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
+> Task :app:mergeExtDexDebug
+> Task :app:prepareLintJar
+> Task :photobarcodelib:processReleaseJavaRes NO-SOURCE
+> Task :app:checkReleaseDuplicateClasses
+> Task :photobarcodelib:bundleLibResRelease
+> Task :photobarcodelib:bundleLibRuntimeRelease
+> Task :photobarcodelib:createFullJarRelease
 > Task :photobarcodelib:prepareLintJarForPublish
+
 > Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/e2656fb542f3178dab76659b651e8a88/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:desugarReleaseFileDependencies
+> Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
@@ -147,27 +152,18 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :photobarcodelib:generateReleaseAssets
 > Task :photobarcodelib:packageReleaseAssets
 > Task :app:mergeReleaseAssets
-> Task :app:signingConfigWriterRelease
-> Task :app:checkReleaseDuplicateClasses
-> Task :photobarcodelib:bundleLibRuntimeRelease
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/5d84a781dd273faa4d5dbcc3d55885f4/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.vision.zziu$zza.zza(long, byte)`
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/05ed67a167fdaeedcdfcd3804bca0141/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.clearcut.zzfd$zzb.zza(long, byte)`
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/5d84a781dd273faa4d5dbcc3d55885f4/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.vision.zziu$zzb.zza(long, byte)`
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/05ed67a167fdaeedcdfcd3804bca0141/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.clearcut.zzfd$zza.zza(long, byte)`
-> Task :app:transformClassesWithDexBuilderForRelease
-> Task :app:transformDexArchiveWithExternalLibsDexMergerForRelease
-> Task :app:transformDexArchiveWithDexMergerForRelease
-> Task :app:mergeReleaseJniLibFolders
-> Task :photobarcodelib:processReleaseJavaRes NO-SOURCE
-> Task :photobarcodelib:bundleLibResRelease
-> Task :photobarcodelib:mergeReleaseJniLibFolders
-> Task :photobarcodelib:transformNativeLibsWithMergeJniLibsForRelease
-> Task :photobarcodelib:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :photobarcodelib:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :app:transformNativeLibsWithMergeJniLibsForRelease
-> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
 > Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :photobarcodelib:mergeReleaseJniLibFolders
+> Task :photobarcodelib:mergeReleaseNativeLibs
+> Task :photobarcodelib:stripReleaseDebugSymbols
+> Task :photobarcodelib:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
 > Task :app:packageRelease
 > Task :app:assembleRelease
 > Task :app:assemble
@@ -175,9 +171,9 @@ Note: Recompile with -Xlint:deprecation for details.
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 49s
-89 actionable tasks: 89 executed
+BUILD SUCCESSFUL in 48s
+92 actionable tasks: 92 executed
 
-2019-05-14 14:08:16,373 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1557817638871-0/src/PhotoBarcode-master/app/build/outputs/apk/debug/app-debug.apk
+2019-09-26 12:12:32,094 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474691785-0/src/PhotoBarcode-master/app/build/outputs/apk/debug/app-debug.apk
