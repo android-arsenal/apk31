@@ -1,43 +1,36 @@
-2019-07-01 13:52:16,630 INFO  DownloadService - Downloading "https://github.com/illiashenkoo/startask-permissions/archive/master.zip", attempt 3
-2019-07-01 13:52:17,174 INFO  DownloadService - Downloaded https://github.com/illiashenkoo/startask-permissions/archive/master.zip, attempt 3
-2019-07-01 13:52:17,174 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963936626-0/master.zip": 217 KB
-2019-07-01 13:52:17,174 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-01 13:52:17,180 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963936626-0/master.zip: true
-2019-07-01 13:52:17,180 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963936626-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963936626-0/src'.
-2019-07-01 13:52:17,200 INFO  FullProcessService - Size of directory with sources: 259 KB
-2019-07-01 13:52:17,200 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963936626-0/src]
-2019-07-01 13:52:17,217 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963936626-0/src/.git/
+2019-10-22 11:05:01,724 INFO  DownloadService - Downloading "https://github.com/illiashenkoo/startask-permissions/archive/master.zip", attempt 3
+2019-10-22 11:05:04,328 INFO  DownloadService - Downloaded https://github.com/illiashenkoo/startask-permissions/archive/master.zip, attempt 3
+2019-10-22 11:05:04,329 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717101717-0/master.zip": 217 KB
+2019-10-22 11:05:04,329 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-22 11:05:04,330 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717101717-0/master.zip: true
+2019-10-22 11:05:04,331 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717101717-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717101717-0/src'.
+2019-10-22 11:05:04,351 INFO  FullProcessService - Size of directory with sources: 259 KB
+2019-10-22 11:05:04,351 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717101717-0/src]
+2019-10-22 11:05:04,371 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717101717-0/src/.git/
 
-2019-07-01 13:52:17,220 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963936626-0/src/startask-permissions-master/gradlew
-2019-07-01 13:52:17,223 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963936626-0/src/startask-permissions-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963936626-0/src/startask-permissions-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963936626-0/src/startask-permissions-master/build.gradle
-2019-07-01 13:52:17,225 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963936626-0/src/startask-permissions-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963936626-0/src/startask-permissions-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963936626-0/src/startask-permissions-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963936626-0/src/startask-permissions-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963936626-0/src/startask-permissions-master/settings.gradle
-2019-07-01 13:52:17,226 INFO  ProjectBuildService - Remote scripts: none
-2019-07-01 13:52:17,226 INFO  ProjectFixService - Fixing project...
-2019-07-01 13:52:17,233 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963936626-0/src/startask-permissions-master/library/local.properties
-2019-07-01 13:52:17,235 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963936626-0/src/startask-permissions-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-01 13:52:17,235 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963936626-0/src/startask-permissions-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-01 13:52:17,236 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963936626-0/src/startask-permissions-master/sample/local.properties
-2019-07-01 13:52:17,240 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963936626-0/src/startask-permissions-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-01 13:52:17,240 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963936626-0/src/startask-permissions-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-01 13:52:17,241 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963936626-0/src/startask-permissions-master/local.properties
-2019-07-01 13:52:17,241 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-07-01 13:52:17,242 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-07-01 13:52:17,245 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963936626-0/src/startask-permissions-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-01 13:52:17,245 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963936626-0/src/startask-permissions-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-01 13:52:17,246 INFO  ProjectFixService - Project was maybe fixed
-2019-07-01 13:52:17,246 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-01 13:52:17,246 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963936626-0/src/startask-permissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963936626-0/src/startask-permissions-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-01 13:52:26,100 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-07-01 13:52:26,100 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-07-01 13:52:26,100 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963936626-0/src/startask-permissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963936626-0/src/startask-permissions-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-07-01 13:52:44,752 INFO  SysUtils - Configuration on demand is an incubating feature.
-
-> Configure project :startask-permissions
-WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
-It will be removed at the end of 2019.
-For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
-
+2019-10-22 11:05:04,374 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717101717-0/src/startask-permissions-master/gradlew
+2019-10-22 11:05:04,376 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717101717-0/src/startask-permissions-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717101717-0/src/startask-permissions-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717101717-0/src/startask-permissions-master/build.gradle
+2019-10-22 11:05:04,379 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717101717-0/src/startask-permissions-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717101717-0/src/startask-permissions-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717101717-0/src/startask-permissions-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717101717-0/src/startask-permissions-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717101717-0/src/startask-permissions-master/settings.gradle
+2019-10-22 11:05:04,379 INFO  ProjectBuildService - Remote scripts: none
+2019-10-22 11:05:04,379 INFO  ProjectFixService - Fixing project...
+2019-10-22 11:05:04,386 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717101717-0/src/startask-permissions-master/library/local.properties
+2019-10-22 11:05:04,388 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717101717-0/src/startask-permissions-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-22 11:05:04,388 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717101717-0/src/startask-permissions-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-22 11:05:04,388 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717101717-0/src/startask-permissions-master/sample/local.properties
+2019-10-22 11:05:04,390 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717101717-0/src/startask-permissions-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-22 11:05:04,391 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717101717-0/src/startask-permissions-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-22 11:05:04,391 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717101717-0/src/startask-permissions-master/local.properties
+2019-10-22 11:05:04,391 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-10-22 11:05:04,392 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-10-22 11:05:04,394 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717101717-0/src/startask-permissions-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-22 11:05:04,394 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717101717-0/src/startask-permissions-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-22 11:05:04,394 INFO  ProjectFixService - Project was maybe fixed
+2019-10-22 11:05:04,394 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-22 11:05:04,394 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717101717-0/src/startask-permissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717101717-0/src/startask-permissions-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-22 11:05:10,253 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-10-22 11:05:10,254 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-10-22 11:05:10,254 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717101717-0/src/startask-permissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717101717-0/src/startask-permissions-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-10-22 11:05:29,810 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :startask-permissions:preBuild UP-TO-DATE
 > Task :startask-permissions:preDebugBuild UP-TO-DATE
 > Task :startask-permissions:compileDebugAidl NO-SOURCE
@@ -47,32 +40,14 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :startask-permissions:generateDebugResValues
 > Task :startask-permissions:generateDebugResources
 > Task :startask-permissions:packageDebugResources
-> Task :startask-permissions:processDebugManifest
-> Task :startask-permissions:generateDebugRFile
-> Task :startask-permissions:compileDebugKotlin
-> Task :startask-permissions:prepareLintJar
-> Task :startask-permissions:generateDebugSources
-> Task :startask-permissions:javaPreCompileDebug
-> Task :startask-permissions:compileDebugJavaWithJavac
-> Task :startask-permissions:extractDebugAnnotations
-> Task :startask-permissions:mergeDebugConsumerProguardFiles
 > Task :startask-permissions:mergeDebugShaders
 > Task :startask-permissions:compileDebugShaders
 > Task :startask-permissions:generateDebugAssets
 > Task :startask-permissions:packageDebugAssets
 > Task :startask-permissions:packageDebugRenderscript NO-SOURCE
-> Task :startask-permissions:prepareLintJarForPublish
 > Task :startask-permissions:processDebugJavaRes NO-SOURCE
-> Task :startask-permissions:transformResourcesWithMergeJavaResForDebug
-> Task :startask-permissions:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :startask-permissions:mergeDebugJniLibFolders
-> Task :startask-permissions:transformNativeLibsWithMergeJniLibsForDebug
-> Task :startask-permissions:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :startask-permissions:transformNativeLibsWithSyncJniLibsForDebug
-> Task :startask-permissions:bundleDebugAar
 > Task :startask-permissions:mergeDebugResources
-> Task :startask-permissions:compileDebugSources
-> Task :startask-permissions:assembleDebug
 > Task :startask-permissions:preReleaseBuild UP-TO-DATE
 > Task :startask-permissions:compileReleaseAidl NO-SOURCE
 > Task :startask-permissions:compileReleaseRenderscript NO-SOURCE
@@ -81,30 +56,49 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :startask-permissions:generateReleaseResValues
 > Task :startask-permissions:generateReleaseResources
 > Task :startask-permissions:packageReleaseResources
-> Task :startask-permissions:processReleaseManifest
-> Task :startask-permissions:generateReleaseRFile
-> Task :startask-permissions:compileReleaseKotlin
-> Task :startask-permissions:generateReleaseSources
-> Task :startask-permissions:javaPreCompileRelease
-> Task :startask-permissions:compileReleaseJavaWithJavac
-> Task :startask-permissions:extractReleaseAnnotations
-> Task :startask-permissions:mergeReleaseConsumerProguardFiles
+> Task :startask-permissions:prepareLintJarForPublish
+> Task :startask-permissions:processDebugManifest
 > Task :startask-permissions:mergeReleaseShaders
 > Task :startask-permissions:compileReleaseShaders
 > Task :startask-permissions:generateReleaseAssets
 > Task :startask-permissions:packageReleaseAssets
 > Task :startask-permissions:packageReleaseRenderscript NO-SOURCE
 > Task :startask-permissions:processReleaseJavaRes NO-SOURCE
-> Task :startask-permissions:transformResourcesWithMergeJavaResForRelease
-> Task :startask-permissions:transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :startask-permissions:mergeReleaseJniLibFolders
-> Task :startask-permissions:transformNativeLibsWithMergeJniLibsForRelease
-> Task :startask-permissions:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :startask-permissions:transformNativeLibsWithSyncJniLibsForRelease
-> Task :startask-permissions:bundleReleaseAar
+> Task :startask-permissions:mergeDebugNativeLibs
+> Task :startask-permissions:stripDebugDebugSymbols
+> Task :startask-permissions:transformNativeLibsWithSyncJniLibsForDebug
 > Task :startask-permissions:mergeReleaseResources
-> Task :startask-permissions:compileReleaseSources
+> Task :startask-permissions:mergeReleaseNativeLibs
+> Task :startask-permissions:stripReleaseDebugSymbols
+> Task :startask-permissions:transformNativeLibsWithSyncJniLibsForRelease
+> Task :startask-permissions:parseDebugLibraryResources
+> Task :startask-permissions:processReleaseManifest
+> Task :startask-permissions:parseReleaseLibraryResources
+> Task :startask-permissions:generateDebugRFile
+> Task :startask-permissions:compileDebugKotlin
 > Task :startask-permissions:verifyReleaseResources
+> Task :startask-permissions:generateReleaseRFile
+> Task :startask-permissions:compileReleaseKotlin
+> Task :startask-permissions:javaPreCompileDebug
+> Task :startask-permissions:compileDebugJavaWithJavac
+> Task :startask-permissions:extractDebugAnnotations
+> Task :startask-permissions:mergeDebugGeneratedProguardFiles
+> Task :startask-permissions:mergeDebugConsumerProguardFiles
+> Task :startask-permissions:compileDebugSources
+> Task :startask-permissions:javaPreCompileRelease
+> Task :startask-permissions:compileReleaseJavaWithJavac
+> Task :startask-permissions:extractReleaseAnnotations
+> Task :startask-permissions:mergeReleaseGeneratedProguardFiles
+> Task :startask-permissions:mergeReleaseConsumerProguardFiles
+> Task :startask-permissions:compileReleaseSources
+> Task :startask-permissions:mergeDebugJavaResource
+> Task :startask-permissions:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :startask-permissions:bundleDebugAar
+> Task :startask-permissions:assembleDebug
+> Task :startask-permissions:mergeReleaseJavaResource
+> Task :startask-permissions:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :startask-permissions:bundleReleaseAar
 > Task :startask-permissions:assembleRelease
 > Task :startask-permissions:assemble
 > Task :startask-permissions:build
@@ -113,33 +107,24 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 18s
-47 actionable tasks: 47 executed
+BUILD SUCCESSFUL in 19s
+50 actionable tasks: 50 executed
 
-2019-07-01 13:52:44,802 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-01 13:52:44,803 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963936626-0/src/startask-permissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963936626-0/src/startask-permissions-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-01 13:52:51,510 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-07-01 13:52:51,510 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-01 13:52:51,510 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963936626-0/src/startask-permissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963936626-0/src/startask-permissions-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-01 13:53:45,226 INFO  SysUtils - Configuration on demand is an incubating feature.
-
-> Configure project :startask-permissions
-WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
-It will be removed at the end of 2019.
-For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
-
+2019-10-22 11:05:29,860 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-22 11:05:29,860 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717101717-0/src/startask-permissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717101717-0/src/startask-permissions-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-22 11:05:35,917 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-10-22 11:05:35,917 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-22 11:05:35,918 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717101717-0/src/startask-permissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717101717-0/src/startask-permissions-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-22 11:06:21,086 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :sample:preBuild UP-TO-DATE
+> Task :sample:preDebugBuild UP-TO-DATE
 > Task :startask-permissions:preBuild UP-TO-DATE
 > Task :startask-permissions:preDebugBuild UP-TO-DATE
-> Task :startask-permissions:checkDebugManifest UP-TO-DATE
-> Task :startask-permissions:processDebugManifest UP-TO-DATE
-> Task :sample:preDebugBuild
 > Task :startask-permissions:compileDebugAidl NO-SOURCE
 > Task :sample:compileDebugAidl NO-SOURCE
 > Task :startask-permissions:packageDebugRenderscript NO-SOURCE
-> Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:checkDebugManifest
+> Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:generateDebugBuildConfig
 > Task :sample:mainApkListPersistenceDebug
 > Task :sample:generateDebugResValues
@@ -148,23 +133,22 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :startask-permissions:generateDebugResValues UP-TO-DATE
 > Task :startask-permissions:generateDebugResources UP-TO-DATE
 > Task :startask-permissions:packageDebugResources UP-TO-DATE
-> Task :sample:mergeDebugResources
 > Task :sample:createDebugCompatibleScreenManifests
+> Task :startask-permissions:checkDebugManifest UP-TO-DATE
+> Task :startask-permissions:processDebugManifest UP-TO-DATE
 > Task :sample:processDebugManifest
+> Task :startask-permissions:parseDebugLibraryResources UP-TO-DATE
 > Task :startask-permissions:generateDebugRFile UP-TO-DATE
-> Task :sample:processDebugResources
 > Task :startask-permissions:generateDebugBuildConfig UP-TO-DATE
 > Task :startask-permissions:compileDebugKotlin UP-TO-DATE
-> Task :startask-permissions:prepareLintJar UP-TO-DATE
-> Task :startask-permissions:generateDebugSources UP-TO-DATE
 > Task :startask-permissions:javaPreCompileDebug UP-TO-DATE
 > Task :startask-permissions:compileDebugJavaWithJavac UP-TO-DATE
+> Task :sample:mergeDebugResources
+> Task :sample:processDebugResources
 > Task :startask-permissions:bundleLibCompileDebug
 > Task :sample:kaptGenerateStubsDebugKotlin
 > Task :sample:kaptDebugKotlin
 > Task :sample:compileDebugKotlin
-> Task :sample:prepareLintJar
-> Task :sample:generateDebugSources
 > Task :sample:javaPreCompileDebug
 > Task :sample:compileDebugJavaWithJavac
 > Task :sample:compileDebugSources
@@ -176,31 +160,23 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :startask-permissions:generateDebugAssets UP-TO-DATE
 > Task :startask-permissions:packageDebugAssets UP-TO-DATE
 > Task :sample:mergeDebugAssets
+> Task :sample:processDebugJavaRes NO-SOURCE
 > Task :startask-permissions:processDebugJavaRes NO-SOURCE
 > Task :startask-permissions:bundleLibResDebug
 > Task :startask-permissions:bundleLibRuntimeDebug
 > Task :startask-permissions:createFullJarDebug
 > Task :sample:checkDebugDuplicateClasses
-> Task :sample:mergeExtDexDebug
+> Task :sample:mergeDebugJavaResource
 > Task :sample:transformClassesWithDexBuilderForDebug
-> Task :sample:mergeDexDebug
 > Task :sample:validateSigningDebug
 > Task :sample:signingConfigWriterDebug
 > Task :sample:mergeDebugJniLibFolders
 > Task :startask-permissions:mergeDebugJniLibFolders UP-TO-DATE
-> Task :startask-permissions:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
-> Task :startask-permissions:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :startask-permissions:mergeDebugNativeLibs UP-TO-DATE
+> Task :startask-permissions:stripDebugDebugSymbols UP-TO-DATE
 > Task :startask-permissions:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
-> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :sample:processDebugJavaRes NO-SOURCE
-> Task :sample:transformResourcesWithMergeJavaResForDebug
-> Task :sample:packageDebug
-> Task :sample:assembleDebug
+> Task :sample:preReleaseBuild UP-TO-DATE
 > Task :startask-permissions:preReleaseBuild UP-TO-DATE
-> Task :startask-permissions:checkReleaseManifest UP-TO-DATE
-> Task :startask-permissions:processReleaseManifest UP-TO-DATE
-> Task :sample:preReleaseBuild
 > Task :startask-permissions:compileReleaseAidl NO-SOURCE
 > Task :sample:compileReleaseAidl NO-SOURCE
 > Task :startask-permissions:packageReleaseRenderscript NO-SOURCE
@@ -214,37 +190,39 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :startask-permissions:generateReleaseResValues UP-TO-DATE
 > Task :startask-permissions:generateReleaseResources UP-TO-DATE
 > Task :startask-permissions:packageReleaseResources UP-TO-DATE
-> Task :sample:mergeReleaseResources
 > Task :sample:createReleaseCompatibleScreenManifests
+> Task :startask-permissions:checkReleaseManifest UP-TO-DATE
+> Task :startask-permissions:processReleaseManifest UP-TO-DATE
 > Task :sample:processReleaseManifest
+> Task :startask-permissions:parseReleaseLibraryResources UP-TO-DATE
 > Task :startask-permissions:generateReleaseRFile UP-TO-DATE
-> Task :sample:processReleaseResources
 > Task :startask-permissions:generateReleaseBuildConfig UP-TO-DATE
 > Task :startask-permissions:compileReleaseKotlin UP-TO-DATE
-> Task :startask-permissions:generateReleaseSources UP-TO-DATE
 > Task :startask-permissions:javaPreCompileRelease UP-TO-DATE
 > Task :startask-permissions:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :sample:mergeDebugNativeLibs
+> Task :sample:stripDebugDebugSymbols
 > Task :startask-permissions:bundleLibCompileRelease
+> Task :sample:mergeReleaseResources
+> Task :sample:processReleaseResources
 > Task :sample:kaptGenerateStubsReleaseKotlin
 > Task :sample:kaptReleaseKotlin
 > Task :sample:compileReleaseKotlin
-> Task :sample:generateReleaseSources
 > Task :sample:javaPreCompileRelease
 > Task :sample:compileReleaseJavaWithJavac
 > Task :sample:compileReleaseSources
+> Task :sample:prepareLintJar
 > Task :startask-permissions:prepareLintJarForPublish UP-TO-DATE
 
 > Task :sample:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/8893f34cb24f735fc147996541742218/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/43dfda458f06d231ce9ac4ae63d50f3f/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 
 > Task :startask-permissions:processReleaseJavaRes NO-SOURCE
+> Task :sample:checkReleaseDuplicateClasses
 > Task :startask-permissions:bundleLibResRelease
 > Task :startask-permissions:bundleLibRuntimeRelease
 > Task :startask-permissions:createFullJarRelease
-> Task :sample:checkReleaseDuplicateClasses
-> Task :sample:mergeExtDexRelease
 > Task :sample:transformClassesWithDexBuilderForRelease
-> Task :sample:mergeDexRelease
 > Task :sample:mergeReleaseShaders
 > Task :sample:compileReleaseShaders
 > Task :sample:generateReleaseAssets
@@ -253,16 +231,22 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :startask-permissions:generateReleaseAssets UP-TO-DATE
 > Task :startask-permissions:packageReleaseAssets UP-TO-DATE
 > Task :sample:mergeReleaseAssets
+> Task :sample:processReleaseJavaRes NO-SOURCE
 > Task :sample:signingConfigWriterRelease
 > Task :sample:mergeReleaseJniLibFolders
 > Task :startask-permissions:mergeReleaseJniLibFolders UP-TO-DATE
-> Task :startask-permissions:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
-> Task :startask-permissions:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :startask-permissions:mergeReleaseNativeLibs UP-TO-DATE
+> Task :startask-permissions:stripReleaseDebugSymbols UP-TO-DATE
 > Task :startask-permissions:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
-> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :sample:processReleaseJavaRes NO-SOURCE
-> Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :sample:mergeReleaseNativeLibs
+> Task :sample:stripReleaseDebugSymbols
+> Task :sample:mergeReleaseJavaResource
+> Task :sample:mergeExtDexDebug
+> Task :sample:mergeDexDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :sample:mergeExtDexRelease
+> Task :sample:mergeDexRelease
 > Task :sample:packageRelease
 > Task :sample:assembleRelease
 > Task :sample:assemble
@@ -272,7 +256,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 53s
-99 actionable tasks: 67 executed, 32 up-to-date
+BUILD SUCCESSFUL in 44s
+98 actionable tasks: 65 executed, 33 up-to-date
 
-2019-07-01 13:53:45,329 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561963936626-0/src/startask-permissions-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-10-22 11:06:21,189 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717101717-0/src/startask-permissions-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

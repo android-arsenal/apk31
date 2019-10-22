@@ -1,40 +1,40 @@
-2019-08-11 20:31:52,590 INFO  DownloadService - Downloading "https://github.com/smarteist/Android-Image-Slider/archive/master.zip", attempt 3
-2019-08-11 20:32:02,998 INFO  DownloadService - Downloaded https://github.com/smarteist/Android-Image-Slider/archive/master.zip, attempt 3
-2019-08-11 20:32:02,999 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530312586-0/master.zip": 8 MB
-2019-08-11 20:32:02,999 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-11 20:32:03,001 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530312586-0/master.zip: true
-2019-08-11 20:32:03,001 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530312586-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530312586-0/src'.
-2019-08-11 20:32:03,097 INFO  FullProcessService - Size of directory with sources: 8 MB
-2019-08-11 20:32:03,097 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530312586-0/src]
-2019-08-11 20:32:03,114 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530312586-0/src/.git/
+2019-10-22 11:11:39,435 INFO  DownloadService - Downloading "https://github.com/smarteist/Android-Image-Slider/archive/master.zip", attempt 3
+2019-10-22 11:11:45,772 INFO  DownloadService - Downloaded https://github.com/smarteist/Android-Image-Slider/archive/master.zip, attempt 3
+2019-10-22 11:11:45,772 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717499426-0/master.zip": 8 MB
+2019-10-22 11:11:45,772 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-22 11:11:45,773 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717499426-0/master.zip: true
+2019-10-22 11:11:45,773 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717499426-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717499426-0/src'.
+2019-10-22 11:11:45,893 INFO  FullProcessService - Size of directory with sources: 8 MB
+2019-10-22 11:11:45,894 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717499426-0/src]
+2019-10-22 11:11:45,937 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717499426-0/src/.git/
 
-2019-08-11 20:32:03,118 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530312586-0/src/Android-Image-Slider-master/gradlew
-2019-08-11 20:32:03,122 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530312586-0/src/Android-Image-Slider-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530312586-0/src/Android-Image-Slider-master/autoimageslider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530312586-0/src/Android-Image-Slider-master/build.gradle
-2019-08-11 20:32:03,126 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530312586-0/src/Android-Image-Slider-master/autoimageslider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530312586-0/src/Android-Image-Slider-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530312586-0/src/Android-Image-Slider-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530312586-0/src/Android-Image-Slider-master/settings.gradle
-2019-08-11 20:32:03,131 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/smarteist/bintrayUpload/master/bintray.gradle", attempt 3
-2019-08-11 20:32:03,963 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/smarteist/bintrayUpload/master/bintray.gradle, attempt 3
-2019-08-11 20:32:03,964 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/smarteist/bintrayUpload/master/install.gradle", attempt 3
-2019-08-11 20:32:04,323 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/smarteist/bintrayUpload/master/install.gradle, attempt 3
-2019-08-11 20:32:04,323 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/smarteist/bintrayUpload/master/bintray.gradle https://raw.githubusercontent.com/smarteist/bintrayUpload/master/install.gradle
-2019-08-11 20:32:04,323 INFO  ProjectFixService - Fixing project...
-2019-08-11 20:32:04,338 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530312586-0/src/Android-Image-Slider-master/app/local.properties
-2019-08-11 20:32:04,339 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530312586-0/src/Android-Image-Slider-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-08-11 20:32:04,339 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530312586-0/src/Android-Image-Slider-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-08-11 20:32:04,340 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530312586-0/src/Android-Image-Slider-master/autoimageslider/local.properties
-2019-08-11 20:32:04,344 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530312586-0/src/Android-Image-Slider-master/autoimageslider/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-08-11 20:32:04,344 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530312586-0/src/Android-Image-Slider-master/autoimageslider/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-08-11 20:32:04,346 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530312586-0/src/Android-Image-Slider-master/local.properties
-2019-08-11 20:32:04,346 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-08-11 20:32:04,346 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-08-11 20:32:04,348 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530312586-0/src/Android-Image-Slider-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-08-11 20:32:04,348 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530312586-0/src/Android-Image-Slider-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-08-11 20:32:04,349 INFO  ProjectFixService - Project was maybe fixed
-2019-08-11 20:32:04,349 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-11 20:32:04,349 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530312586-0/src/Android-Image-Slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530312586-0/src/Android-Image-Slider-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-11 20:32:10,967 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-08-11 20:32:10,967 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-08-11 20:32:10,967 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530312586-0/src/Android-Image-Slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530312586-0/src/Android-Image-Slider-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-08-11 20:32:16,293 ERROR SysUtils - Could not process external command
+2019-10-22 11:11:45,945 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717499426-0/src/Android-Image-Slider-master/gradlew
+2019-10-22 11:11:45,951 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717499426-0/src/Android-Image-Slider-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717499426-0/src/Android-Image-Slider-master/autoimageslider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717499426-0/src/Android-Image-Slider-master/build.gradle
+2019-10-22 11:11:45,958 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717499426-0/src/Android-Image-Slider-master/autoimageslider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717499426-0/src/Android-Image-Slider-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717499426-0/src/Android-Image-Slider-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717499426-0/src/Android-Image-Slider-master/settings.gradle
+2019-10-22 11:11:45,967 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/smarteist/bintrayUpload/master/bintray.gradle", attempt 3
+2019-10-22 11:11:46,820 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/smarteist/bintrayUpload/master/bintray.gradle, attempt 3
+2019-10-22 11:11:46,821 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/smarteist/bintrayUpload/master/install.gradle", attempt 3
+2019-10-22 11:11:47,073 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/smarteist/bintrayUpload/master/install.gradle, attempt 3
+2019-10-22 11:11:47,074 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/smarteist/bintrayUpload/master/bintray.gradle https://raw.githubusercontent.com/smarteist/bintrayUpload/master/install.gradle
+2019-10-22 11:11:47,074 INFO  ProjectFixService - Fixing project...
+2019-10-22 11:11:47,086 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717499426-0/src/Android-Image-Slider-master/app/local.properties
+2019-10-22 11:11:47,087 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717499426-0/src/Android-Image-Slider-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-10-22 11:11:47,087 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717499426-0/src/Android-Image-Slider-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-10-22 11:11:47,088 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717499426-0/src/Android-Image-Slider-master/autoimageslider/local.properties
+2019-10-22 11:11:47,089 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717499426-0/src/Android-Image-Slider-master/autoimageslider/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-10-22 11:11:47,089 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717499426-0/src/Android-Image-Slider-master/autoimageslider/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-10-22 11:11:47,090 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717499426-0/src/Android-Image-Slider-master/local.properties
+2019-10-22 11:11:47,090 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-10-22 11:11:47,091 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-10-22 11:11:47,092 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717499426-0/src/Android-Image-Slider-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-10-22 11:11:47,092 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717499426-0/src/Android-Image-Slider-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-10-22 11:11:47,093 INFO  ProjectFixService - Project was maybe fixed
+2019-10-22 11:11:47,093 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-22 11:11:47,094 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717499426-0/src/Android-Image-Slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717499426-0/src/Android-Image-Slider-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-22 11:11:53,704 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-10-22 11:11:53,705 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-22 11:11:53,705 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717499426-0/src/Android-Image-Slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717499426-0/src/Android-Image-Slider-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-22 11:11:59,815 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -55,14 +55,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-08-11 20:32:16,293 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-22 11:11:59,815 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -157,49 +157,49 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 4s
+BUILD FAILED in 5s
 
-2019-08-11 20:32:16,293 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-08-11 20:32:16,293 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530312586-0/src/Android-Image-Slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530312586-0/src/Android-Image-Slider-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-08-11 20:32:54,013 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-22 11:11:59,815 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-10-22 11:11:59,816 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717499426-0/src/Android-Image-Slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717499426-0/src/Android-Image-Slider-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-10-22 11:12:39,974 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :autoimageslider:preBuild UP-TO-DATE
 > Task :autoimageslider:preDebugBuild UP-TO-DATE
 > Task :autoimageslider:checkDebugManifest
 > Task :autoimageslider:processDebugManifest
-> Task :autoimageslider:compileDebugAidl NO-SOURCE
 > Task :autoimageslider:packageDebugRenderscript NO-SOURCE
 > Task :app:prepareLintJar
-> Task :autoimageslider:compileDebugRenderscript NO-SOURCE
+> Task :autoimageslider:generateDebugBuildConfig
+> Task :autoimageslider:compileDebugAidl NO-SOURCE
 > Task :app:preDebugBuild
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
 > Task :app:generateDebugSources
-> Task :autoimageslider:generateDebugBuildConfig
+> Task :autoimageslider:compileDebugRenderscript NO-SOURCE
 > Task :autoimageslider:generateDebugResValues
 > Task :autoimageslider:generateDebugResources
 > Task :autoimageslider:prepareLintJar
-> Task :autoimageslider:generateDebugSources
-> Task :autoimageslider:javaPreCompileDebug
-> Task :app:mainApkListPersistenceDebug
-> Task :app:generateDebugResValues
-> Task :app:generateDebugResources
-> Task :app:createDebugCompatibleScreenManifests
-> Task :app:processDebugManifest
 > Task :autoimageslider:packageDebugResources
 > Task :autoimageslider:generateDebugRFile
+> Task :autoimageslider:generateDebugSources
+> Task :autoimageslider:javaPreCompileDebug
 
 > Task :autoimageslider:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530312586-0/src/Android-Image-Slider-master/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/PageIndicatorView.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717499426-0/src/Android-Image-Slider-master/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/PageIndicatorView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530312586-0/src/Android-Image-Slider-master/autoimageslider/src/main/java/com/smarteist/autoimageslider/SliderViewAdapter.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717499426-0/src/Android-Image-Slider-master/autoimageslider/src/main/java/com/smarteist/autoimageslider/SliderViewAdapter.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :autoimageslider:bundleLibCompileDebug
 > Task :app:javaPreCompileDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
 > Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
 > Task :app:processDebugResources
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
@@ -249,9 +249,9 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :autoimageslider:javaPreCompileRelease
 
 > Task :autoimageslider:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530312586-0/src/Android-Image-Slider-master/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/PageIndicatorView.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717499426-0/src/Android-Image-Slider-master/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/PageIndicatorView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530312586-0/src/Android-Image-Slider-master/autoimageslider/src/main/java/com/smarteist/autoimageslider/SliderViewAdapter.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717499426-0/src/Android-Image-Slider-master/autoimageslider/src/main/java/com/smarteist/autoimageslider/SliderViewAdapter.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :autoimageslider:bundleLibCompileRelease
@@ -297,11 +297,10 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :app:transformResourcesWithMergeJavaResForRelease
 
 > Task :app:lint
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/fd4e13d14fe83788c23c2ef4be9e214f/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-Ran lint on variant release: 17 issues found
-Ran lint on variant debug: 17 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530312586-0/src/Android-Image-Slider-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530312586-0/src/Android-Image-Slider-master/app/build/reports/lint-results.xml
+Ran lint on variant release: 20 issues found
+Ran lint on variant debug: 20 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717499426-0/src/Android-Image-Slider-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717499426-0/src/Android-Image-Slider-master/app/build/reports/lint-results.xml
 
 > Task :app:mergeExtDexRelease
 > Task :app:mergeDexRelease
@@ -328,7 +327,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 37s
+BUILD SUCCESSFUL in 39s
 97 actionable tasks: 97 executed
 
-2019-08-11 20:32:54,088 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530312586-0/src/Android-Image-Slider-master/app/build/outputs/apk/debug/app-debug.apk
+2019-10-22 11:12:40,047 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717499426-0/src/Android-Image-Slider-master/app/build/outputs/apk/debug/app-debug.apk
