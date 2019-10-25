@@ -1,121 +1,108 @@
-2019-06-09 22:10:49,415 INFO  DownloadService - Downloading "https://github.com/bkhezry/weather/archive/master.zip", attempt 3
-2019-06-09 22:10:52,684 INFO  DownloadService - Downloaded https://github.com/bkhezry/weather/archive/master.zip, attempt 3
-2019-06-09 22:10:52,684 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093049332-0/master.zip": 1 MB
-2019-06-09 22:10:52,685 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-06-09 22:10:52,695 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093049332-0/master.zip: true
-2019-06-09 22:10:52,695 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093049332-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093049332-0/src'.
-2019-06-09 22:10:52,772 INFO  FullProcessService - Size of directory with sources: 2 MB
-2019-06-09 22:10:52,775 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093049332-0/src]
-2019-06-09 22:10:52,808 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093049332-0/src/.git/
+2019-10-25 15:30:33,144 INFO  DownloadService - Downloading "https://github.com/bkhezry/weather/archive/master.zip", attempt 3
+2019-10-25 15:30:42,248 INFO  DownloadService - Downloaded https://github.com/bkhezry/weather/archive/master.zip, attempt 3
+2019-10-25 15:30:42,248 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992233140-0/master.zip": 1 MB
+2019-10-25 15:30:42,248 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-25 15:30:42,254 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992233140-0/master.zip: true
+2019-10-25 15:30:42,255 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992233140-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992233140-0/src'.
+2019-10-25 15:30:42,325 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-10-25 15:30:42,325 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992233140-0/src]
+2019-10-25 15:30:42,390 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992233140-0/src/.git/
 
-2019-06-09 22:10:52,827 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093049332-0/src/weather-master/gradlew
-2019-06-09 22:10:52,843 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093049332-0/src/weather-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093049332-0/src/weather-master/build.gradle
-2019-06-09 22:10:52,850 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093049332-0/src/weather-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093049332-0/src/weather-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093049332-0/src/weather-master/settings.gradle
-2019-06-09 22:10:52,853 INFO  ProjectBuildService - Remote scripts: none
-2019-06-09 22:10:52,855 INFO  ProjectFixService - Fixing project...
-2019-06-09 22:10:52,912 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
-2019-06-09 22:10:52,912 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
-2019-06-09 22:10:52,915 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 21.1.0 28.0.0 18.1.0 19.1.0 18.1.1
-2019-06-09 22:10:52,919 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 28.0.0-rc1 28.0.0-rc2
-2019-06-09 22:10:52,922 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 11 27 18 20 21 26 19 10 17 28 6 8 9 7
-2019-06-09 22:10:52,923 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28
-2019-06-09 22:10:52,924 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093049332-0/src/weather-master/app/local.properties
-2019-06-09 22:10:52,933 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093049332-0/src/weather-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-06-09 22:10:52,937 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093049332-0/src/weather-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-06-09 22:10:52,940 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093049332-0/src/weather-master/local.properties
-2019-06-09 22:10:52,945 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-06-09 22:10:52,946 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-06-09 22:10:52,948 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093049332-0/src/weather-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-06-09 22:10:52,949 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093049332-0/src/weather-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-06-09 22:10:52,949 INFO  ProjectFixService - Project was maybe fixed
-2019-06-09 22:10:52,951 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-09 22:10:52,952 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093049332-0/src/weather-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093049332-0/src/weather-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-09 22:11:09,366 INFO  ProjectTaskService - Detected possible tasks: 74
-2019-06-09 22:11:09,366 INFO  ProjectTaskService - Excluded tasks (20): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test countDebugDexMethods check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug countReleaseDexMethods
-2019-06-09 22:11:09,367 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093049332-0/src/weather-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093049332-0/src/weather-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, countDebugDexMethods, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, -x, countReleaseDexMethods, build]
-2019-06-09 22:13:14,163 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-25 15:30:42,396 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992233140-0/src/weather-master/gradlew
+2019-10-25 15:30:42,401 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992233140-0/src/weather-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992233140-0/src/weather-master/build.gradle
+2019-10-25 15:30:42,405 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992233140-0/src/weather-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992233140-0/src/weather-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992233140-0/src/weather-master/settings.gradle
+2019-10-25 15:30:42,405 INFO  ProjectBuildService - Remote scripts: none
+2019-10-25 15:30:42,405 INFO  ProjectFixService - Fixing project...
+2019-10-25 15:30:42,421 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992233140-0/src/weather-master/app/local.properties
+2019-10-25 15:30:42,422 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992233140-0/src/weather-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-10-25 15:30:42,424 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992233140-0/src/weather-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-10-25 15:30:42,425 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992233140-0/src/weather-master/local.properties
+2019-10-25 15:30:42,425 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-10-25 15:30:42,426 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-10-25 15:30:42,427 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992233140-0/src/weather-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-10-25 15:30:42,427 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992233140-0/src/weather-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-10-25 15:30:42,428 INFO  ProjectFixService - Project was maybe fixed
+2019-10-25 15:30:42,428 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-25 15:30:42,428 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992233140-0/src/weather-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992233140-0/src/weather-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-25 15:30:59,764 INFO  ProjectTaskService - Detected possible tasks: 74
+2019-10-25 15:30:59,765 INFO  ProjectTaskService - Excluded tasks (20): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test countDebugDexMethods check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug countReleaseDexMethods
+2019-10-25 15:30:59,766 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992233140-0/src/weather-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992233140-0/src/weather-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, countDebugDexMethods, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, -x, countReleaseDexMethods, build]
+2019-10-25 15:33:34,161 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:objectboxPrepareBuild
 > Task :app:preBuild
 > Task :app:preDebugBuild
+> Task :app:compileDebugAidl NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:mergeDebugResources
+> Task :app:javaPreCompileDebug
 > Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:processDebugResources
+
+> Task :app:compileDebugJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: objectbox-processor-2.3.4.jar (io.objectbox:objectbox-processor:2.3.4).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+ID model file unchanged: default.json
+ObjectBox Generator
+Copyright 2017-2018 ObjectBox Ltd, objectbox.io. Licensed under GPL V3.
+This program comes with ABSOLUTELY NO WARRANTY
+Processing schema version 1...
+Written com.github.bkhezry.weather.model.db.MultipleDaysWeatherCursor.java
+Written com.github.bkhezry.weather.model.db.MultipleDaysWeather_.java
+Written com.github.bkhezry.weather.model.db.FiveDayWeatherCursor.java
+Written com.github.bkhezry.weather.model.db.FiveDayWeather_.java
+Written com.github.bkhezry.weather.model.db.CurrentWeatherCursor.java
+Written com.github.bkhezry.weather.model.db.CurrentWeather_.java
+Written com.github.bkhezry.weather.model.db.ItemHourlyDBCursor.java
+Written com.github.bkhezry.weather.model.db.ItemHourlyDB_.java
+Written com.github.bkhezry.weather.model.db.MyObjectBox.java
+Processed 4 entities in 96ms
+Note: [ObjectBox] Starting ObjectBox processor (debug: false)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:compileDebugSources
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
+> Task :app:mergeDebugAssets
 > Task :app:processDebugJavaRes NO-SOURCE
+
+> Task :app:transformClassesWithObjectBoxAndroidTransformForDebug
+Transformed 0 entities and copied 487 classes in 190 ms
+
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeDebugJavaResource
+> Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
+> Task :app:mergeLibDexDebug
 > Task :app:mergeDebugJniLibFolders
 > Task :app:extractProguardFiles
-> Task :app:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugRenderscript NO-SOURCE
-> Task :app:generateDebugResources
-> Task :app:processDebugManifest
-> Task :app:javaPreCompileDebug
-> Task :app:mergeDebugAssets
 > Task :app:preReleaseBuild
 > Task :app:compileReleaseAidl NO-SOURCE
-> Task :app:checkDebugDuplicateClasses
 > Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
+> Task :app:javaPreCompileRelease
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:processReleaseManifest
 > Task :app:mergeDebugNativeLibs
 > Task :app:stripDebugDebugSymbols
+> Task :app:mergeProjectDexDebug
 > Task :app:mergeReleaseResources
 > Task :app:processReleaseResources
-> Task :app:mergeDebugResources
-> Task :app:processDebugResources
-
-> Task :app:compileDebugJavaWithJavac
-Gradle may disable incremental compilation as the following annotation processors are not incremental: objectbox-processor-2.3.4.jar (io.objectbox:objectbox-processor:2.3.4), butterknife-compiler-10.1.0.jar (com.jakewharton:butterknife-compiler:10.1.0).
-Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
-ID model file unchanged: default.json
-ObjectBox Generator
-Copyright 2017-2018 ObjectBox Ltd, objectbox.io. Licensed under GPL V3.
-This program comes with ABSOLUTELY NO WARRANTY
-Processing schema version 1...
-Written com.github.bkhezry.weather.model.db.MultipleDaysWeatherCursor.java
-Written com.github.bkhezry.weather.model.db.MultipleDaysWeather_.java
-Written com.github.bkhezry.weather.model.db.FiveDayWeatherCursor.java
-Written com.github.bkhezry.weather.model.db.FiveDayWeather_.java
-Written com.github.bkhezry.weather.model.db.CurrentWeatherCursor.java
-Written com.github.bkhezry.weather.model.db.CurrentWeather_.java
-Written com.github.bkhezry.weather.model.db.ItemHourlyDBCursor.java
-Written com.github.bkhezry.weather.model.db.ItemHourlyDB_.java
-Written com.github.bkhezry.weather.model.db.MyObjectBox.java
-Processed 4 entities in 88ms
-Note: [ObjectBox] Starting ObjectBox processor (debug: false)
-Note: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
-> Task :app:compileDebugSources
-
-> Task :app:transformClassesWithObjectBoxAndroidTransformForDebug
-Transformed 0 entities and copied 506 classes in 202 ms
-
-> Task :app:transformClassesWithDexBuilderForDebug
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.5.0/713ce36037bf24a76a3974c05cb85c3f754b1cc3/retrofit-2.5.0.jar: D8: Type `kotlin.jvm.internal.Intrinsics` was not found, it is required for default or static interface methods desugaring of `java.lang.Object retrofit2.-KotlinExtensions.create(retrofit2.Retrofit)`
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/c9d46ee817075847991cf2a905be4ad7/jetified-firebase-perf-17.0.0/jars/classes.jar: D8: Interface `org.apache.http.client.ResponseHandler` not found. It's needed to make sure desugaring of `com.google.firebase.perf.network.zzg` is correct. Desugaring will assume that this interface has no default method.
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/1e44c83fe84a556ab12f5ba95a2f101c/jetified-play-services-clearcut-16.0.0/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.clearcut.zzfd$zzb.zza(long, byte)`
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/04b14c262c05381a47d1b756f9020554/jetified-play-services-measurement-impl-16.5.0/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.measurement.zzhv$zza.zza(long, byte)`
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/04b14c262c05381a47d1b756f9020554/jetified-play-services-measurement-impl-16.5.0/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.measurement.zzhv$zzc.zza(long, byte)`
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/1e44c83fe84a556ab12f5ba95a2f101c/jetified-play-services-clearcut-16.0.0/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.clearcut.zzfd$zza.zza(long, byte)`
-D8: synthesized for lambda desugaring: Type `butterknife.Unbinder$-CC` was not found, it is required for default or static interface methods desugaring of `void butterknife.-$$Lambda$Unbinder$aAZZEjRDCcxQlrGZAdKWmLXqruY.unbind()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.12.1/dc6d02e4e68514eff5631963e28ca7742ac69efe/okhttp-3.12.1.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `java.security.Provider okhttp3.internal.platform.ConscryptPlatform.getProvider()`
-
-> Task :app:mergeDebugJavaResource
-> Task :app:javaPreCompileRelease
 
 > Task :app:compileReleaseJavaWithJavac
-Gradle may disable incremental compilation as the following annotation processors are not incremental: objectbox-processor-2.3.4.jar (io.objectbox:objectbox-processor:2.3.4), butterknife-compiler-10.1.0.jar (com.jakewharton:butterknife-compiler:10.1.0).
+Gradle may disable incremental compilation as the following annotation processors are not incremental: objectbox-processor-2.3.4.jar (io.objectbox:objectbox-processor:2.3.4).
 Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
 ID model file unchanged: default.json
 ObjectBox Generator
@@ -131,17 +118,19 @@ Written com.github.bkhezry.weather.model.db.CurrentWeather_.java
 Written com.github.bkhezry.weather.model.db.ItemHourlyDBCursor.java
 Written com.github.bkhezry.weather.model.db.ItemHourlyDB_.java
 Written com.github.bkhezry.weather.model.db.MyObjectBox.java
+Processed 4 entities in 330ms
 Note: [ObjectBox] Starting ObjectBox processor (debug: false)
-Processed 4 entities in 63ms
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileReleaseSources
-> Task :app:multiDexListDebug
+> Task :app:mergeExtDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :app:prepareLintJar
 
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/b7cecd66f15a1d7bc33699bbdedbd739/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/97827844708b75aac0dcd8ba03a4a545/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
@@ -149,32 +138,19 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:mergeReleaseAssets
 > Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
-> Task :app:mergeReleaseNativeLibs
-> Task :app:stripReleaseDebugSymbols
 > Task :app:mergeReleaseGeneratedProguardFiles
 > Task :app:processReleaseJavaRes NO-SOURCE
 
 > Task :app:transformClassesWithObjectBoxAndroidTransformForRelease
-Transformed 0 entities and copied 506 classes in 140 ms
+Transformed 0 entities and copied 487 classes in 231 ms
 
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
 > Task :app:mergeReleaseJavaResource
-
 > Task :app:transformClassesAndResourcesWithR8ForRelease
-R8 is a new Android code shrinker. If you experience any issues, please file a bug at
-https://issuetracker.google.com, using 'Shrinker (R8)' as component name. You can
-disable R8 by updating gradle.properties with 'android.enableR8=false'.
-Current version is: 1.5.25 (build 6d99525417adc92659dea2318e949b8699cda625 from go/r8bot (luci-r8-ci-archive-0-clp3)).
-
-
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/1e44c83fe84a556ab12f5ba95a2f101c/jetified-play-services-clearcut-16.0.0/jars/classes.jar: R8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.clearcut.zzfd$zza.zza(long, byte)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.12.1/dc6d02e4e68514eff5631963e28ca7742ac69efe/okhttp-3.12.1.jar: R8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `void okhttp3.internal.platform.ConscryptPlatform.configureSslSocketFactory(javax.net.ssl.SSLSocketFactory)`
-R8: synthesized for lambda desugaring: Type `butterknife.Unbinder$-CC` was not found, it is required for default or static interface methods desugaring of `void butterknife.-$$Lambda$Unbinder$aAZZEjRDCcxQlrGZAdKWmLXqruY.unbind()`
 
 > Task :app:transformClassesAndDexWithShrinkResForRelease
-Removed unused resources: Binary resource data reduced from 1208KB to 1126KB: Removed 6%
+Removed unused resources: Binary resource data reduced from 1165KB to 1084KB: Removed 6%
 
 > Task :app:packageRelease
 > Task :app:assembleRelease
@@ -185,7 +161,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 2m 4s
-52 actionable tasks: 52 executed
+BUILD SUCCESSFUL in 2m 33s
+53 actionable tasks: 53 executed
 
-2019-06-09 22:13:14,348 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560093049332-0/src/weather-master/app/build/outputs/apk/release/Weather-release-1.9.0.apk
+2019-10-25 15:33:34,455 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571992233140-0/src/weather-master/app/build/outputs/apk/release/Weather-release-2.0.0.apk
