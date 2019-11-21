@@ -1,42 +1,63 @@
-2019-05-19 17:24:19,242 INFO  DownloadService - Downloading "https://github.com/Adnan865/MultiShapeBlurView/archive/master.zip", attempt 3
-2019-05-19 17:24:31,992 INFO  DownloadService - Downloaded https://github.com/Adnan865/MultiShapeBlurView/archive/master.zip, attempt 3
-2019-05-19 17:24:31,993 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261459233-0/master.zip": 19 MB
-2019-05-19 17:24:31,993 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-19 17:24:31,994 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261459233-0/master.zip: true
-2019-05-19 17:24:31,995 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261459233-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261459233-0/src'.
-2019-05-19 17:24:32,112 INFO  FullProcessService - Size of directory with sources: 19 MB
-2019-05-19 17:24:32,113 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261459233-0/src]
-2019-05-19 17:24:32,140 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261459233-0/src/.git/
+2019-11-21 13:06:03,993 INFO  DownloadService - Downloading "https://github.com/Adnan865/MultiShapeBlurView/archive/master.zip", attempt 3
+2019-11-21 13:06:22,424 INFO  DownloadService - Downloaded https://github.com/Adnan865/MultiShapeBlurView/archive/master.zip, attempt 3
+2019-11-21 13:06:22,425 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316363986-0/master.zip": 19 MB
+2019-11-21 13:06:22,425 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-11-21 13:06:22,426 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316363986-0/master.zip: true
+2019-11-21 13:06:22,426 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316363986-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316363986-0/src'.
+2019-11-21 13:06:22,535 INFO  FullProcessService - Size of directory with sources: 19 MB
+2019-11-21 13:06:22,535 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316363986-0/src]
+2019-11-21 13:06:22,560 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316363986-0/src/.git/
 
-2019-05-19 17:24:32,146 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261459233-0/src/MultiShapeBlurView-master/gradlew
-2019-05-19 17:24:32,152 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261459233-0/src/MultiShapeBlurView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261459233-0/src/MultiShapeBlurView-master/shapedblurlibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261459233-0/src/MultiShapeBlurView-master/build.gradle
-2019-05-19 17:24:32,157 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261459233-0/src/MultiShapeBlurView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261459233-0/src/MultiShapeBlurView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261459233-0/src/MultiShapeBlurView-master/shapedblurlibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261459233-0/src/MultiShapeBlurView-master/settings.gradle
-2019-05-19 17:24:32,157 INFO  ProjectBuildService - Remote scripts: none
-2019-05-19 17:24:32,157 INFO  ProjectFixService - Fixing project...
-2019-05-19 17:24:32,169 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261459233-0/src/MultiShapeBlurView-master/app/local.properties
-2019-05-19 17:24:32,171 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261459233-0/src/MultiShapeBlurView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-05-19 17:24:32,171 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261459233-0/src/MultiShapeBlurView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-05-19 17:24:32,172 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261459233-0/src/MultiShapeBlurView-master/shapedblurlibrary/local.properties
-2019-05-19 17:24:32,173 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261459233-0/src/MultiShapeBlurView-master/shapedblurlibrary/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-05-19 17:24:32,173 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261459233-0/src/MultiShapeBlurView-master/shapedblurlibrary/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-05-19 17:24:32,174 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261459233-0/src/MultiShapeBlurView-master/local.properties
-2019-05-19 17:24:32,175 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-05-19 17:24:32,176 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-05-19 17:24:32,177 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261459233-0/src/MultiShapeBlurView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-05-19 17:24:32,177 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261459233-0/src/MultiShapeBlurView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-05-19 17:24:32,178 INFO  ProjectFixService - Project was maybe fixed
-2019-05-19 17:24:32,178 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-19 17:24:32,178 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261459233-0/src/MultiShapeBlurView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261459233-0/src/MultiShapeBlurView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-19 17:24:40,588 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-05-19 17:24:40,588 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-19 17:24:40,588 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261459233-0/src/MultiShapeBlurView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261459233-0/src/MultiShapeBlurView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-19 17:25:08,293 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-11-21 13:06:22,563 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316363986-0/src/MultiShapeBlurView-master/gradlew
+2019-11-21 13:06:22,566 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316363986-0/src/MultiShapeBlurView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316363986-0/src/MultiShapeBlurView-master/shapedblurlibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316363986-0/src/MultiShapeBlurView-master/build.gradle
+2019-11-21 13:06:22,569 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316363986-0/src/MultiShapeBlurView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316363986-0/src/MultiShapeBlurView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316363986-0/src/MultiShapeBlurView-master/shapedblurlibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316363986-0/src/MultiShapeBlurView-master/settings.gradle
+2019-11-21 13:06:22,569 INFO  ProjectBuildService - Remote scripts: none
+2019-11-21 13:06:22,569 INFO  ProjectFixService - Fixing project...
+2019-11-21 13:06:22,577 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316363986-0/src/MultiShapeBlurView-master/app/local.properties
+2019-11-21 13:06:22,577 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316363986-0/src/MultiShapeBlurView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-11-21 13:06:22,578 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316363986-0/src/MultiShapeBlurView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-11-21 13:06:22,578 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316363986-0/src/MultiShapeBlurView-master/shapedblurlibrary/local.properties
+2019-11-21 13:06:22,579 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316363986-0/src/MultiShapeBlurView-master/shapedblurlibrary/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-11-21 13:06:22,579 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316363986-0/src/MultiShapeBlurView-master/shapedblurlibrary/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-11-21 13:06:22,580 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316363986-0/src/MultiShapeBlurView-master/local.properties
+2019-11-21 13:06:22,581 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-11-21 13:06:22,581 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-11-21 13:06:22,582 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316363986-0/src/MultiShapeBlurView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-11-21 13:06:22,582 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316363986-0/src/MultiShapeBlurView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-11-21 13:06:22,583 INFO  ProjectFixService - Project was maybe fixed
+2019-11-21 13:06:22,583 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-21 13:06:22,583 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316363986-0/src/MultiShapeBlurView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316363986-0/src/MultiShapeBlurView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-21 13:06:29,706 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-11-21 13:06:29,706 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-11-21 13:06:29,706 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316363986-0/src/MultiShapeBlurView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316363986-0/src/MultiShapeBlurView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-11-21 13:07:08,802 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :shapedblurlibrary:preBuild UP-TO-DATE
 :shapedblurlibrary:preDebugBuild UP-TO-DATE
 :shapedblurlibrary:checkDebugManifest
 :shapedblurlibrary:processDebugManifest
 :app:preDebugBuild
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/28.0.0-rc02/support-core-ui-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/28.0.0-rc02/support-core-utils-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/28.0.0-rc02/support-vector-drawable-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/28.0.0-rc02/support-fragment-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/28.0.0-rc02/appcompat-v7-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/coordinatorlayout/28.0.0-rc02/coordinatorlayout-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/viewpager/28.0.0-rc02/viewpager-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/slidingpanelayout/28.0.0-rc02/slidingpanelayout-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/loader/28.0.0-rc02/loader-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/customview/28.0.0-rc02/customview-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/drawerlayout/28.0.0-rc02/drawerlayout-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/swiperefreshlayout/28.0.0-rc02/swiperefreshlayout-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/asynclayoutinflater/28.0.0-rc02/asynclayoutinflater-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/28.0.0-rc02/support-compat-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/localbroadcastmanager/28.0.0-rc02/localbroadcastmanager-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/documentfile/28.0.0-rc02/documentfile-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/interpolator/28.0.0-rc02/interpolator-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/print/28.0.0-rc02/print-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/cursoradapter/28.0.0-rc02/cursoradapter-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/versionedparcelable/28.0.0-rc02/versionedparcelable-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/28.0.0-rc02/animated-vector-drawable-28.0.0-rc02.aar
 :shapedblurlibrary:compileDebugAidl
 :app:compileDebugAidl
 :shapedblurlibrary:packageDebugRenderscript NO-SOURCE
@@ -59,6 +80,8 @@
 :shapedblurlibrary:generateDebugBuildConfig
 :shapedblurlibrary:prepareLintJar
 :shapedblurlibrary:javaPreCompileDebug
+Download https://dl.google.com/dl/android/maven2/com/android/support/collections/28.0.0-rc02/collections-28.0.0-rc02.jar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/28.0.0-rc02/support-annotations-28.0.0-rc02.jar
 :shapedblurlibrary:processDebugJavaRes NO-SOURCE
 :app:compileDebugNdk NO-SOURCE
 :app:mergeDebugShaders
@@ -74,8 +97,8 @@
 :shapedblurlibrary:mergeDebugJniLibFolders
 :shapedblurlibrary:transformNativeLibsWithMergeJniLibsForDebug
 :shapedblurlibrary:transformNativeLibsWithStripDebugSymbolForDebug
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261459233-0/src/MultiShapeBlurView-master/shapedblurlibrary/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/libRSSupport.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261459233-0/src/MultiShapeBlurView-master/shapedblurlibrary/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/librsjni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316363986-0/src/MultiShapeBlurView-master/shapedblurlibrary/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/libRSSupport.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316363986-0/src/MultiShapeBlurView-master/shapedblurlibrary/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/librsjni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
 :shapedblurlibrary:transformNativeLibsWithIntermediateJniLibsForDebug
 :app:processDebugJavaRes NO-SOURCE
 :app:validateSigningDebug
@@ -114,20 +137,13 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 :app:mergeReleaseAssets
 :app:mergeReleaseJniLibFolders
 :shapedblurlibrary:compileReleaseNdk NO-SOURCE
-:shapedblurlibrary:mergeReleaseJniLibFolders
-:shapedblurlibrary:transformNativeLibsWithMergeJniLibsForRelease
-:shapedblurlibrary:transformNativeLibsWithStripDebugSymbolForRelease
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261459233-0/src/MultiShapeBlurView-master/shapedblurlibrary/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/libRSSupport.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261459233-0/src/MultiShapeBlurView-master/shapedblurlibrary/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/librsjni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-:shapedblurlibrary:transformNativeLibsWithIntermediateJniLibsForRelease
-:app:processReleaseJavaRes NO-SOURCE
 :shapedblurlibrary:generateDebugRFile
 :app:processDebugResources
 :app:generateDebugSources
 :shapedblurlibrary:generateDebugSources
 :shapedblurlibrary:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261459233-0/src/MultiShapeBlurView-master/shapedblurlibrary/src/main/java/com/contentarcade/adnan/shapedblurlibrary/GaussianBlur.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316363986-0/src/MultiShapeBlurView-master/shapedblurlibrary/src/main/java/com/contentarcade/adnan/shapedblurlibrary/GaussianBlur.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :shapedblurlibrary:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
@@ -139,8 +155,8 @@ Note: Recompile with -Xlint:unchecked for details.
 :app:transformDexArchiveWithDexMergerForDebug
 :app:transformNativeLibsWithMergeJniLibsForDebug
 :app:transformNativeLibsWithStripDebugSymbolForDebug
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261459233-0/src/MultiShapeBlurView-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/libRSSupport.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261459233-0/src/MultiShapeBlurView-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/librsjni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316363986-0/src/MultiShapeBlurView-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/libRSSupport.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316363986-0/src/MultiShapeBlurView-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/librsjni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
 :app:transformResourcesWithMergeJavaResForDebug
 :app:packageDebug
 :app:assembleDebug
@@ -150,7 +166,7 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 :shapedblurlibrary:generateReleaseSources
 :shapedblurlibrary:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261459233-0/src/MultiShapeBlurView-master/shapedblurlibrary/src/main/java/com/contentarcade/adnan/shapedblurlibrary/GaussianBlur.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316363986-0/src/MultiShapeBlurView-master/shapedblurlibrary/src/main/java/com/contentarcade/adnan/shapedblurlibrary/GaussianBlur.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :shapedblurlibrary:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
@@ -158,20 +174,35 @@ Note: Recompile with -Xlint:unchecked for details.
 :app:compileReleaseJavaWithJavac
 :app:compileReleaseSources
 :app:lintVitalRelease
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.1.4/lint-kotlin-26.1.4.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.1.4/lint-gradle-26.1.4.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.1.4/lint-26.1.4.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.1.4/lint-api-26.1.4.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.1.4/kotlin-compiler-26.1.4.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.4/lint-checks-26.1.4.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.4/uast-26.1.4.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.4/intellij-core-26.1.4.jar
 :app:transformClassesWithDexBuilderForRelease
 :app:transformDexArchiveWithExternalLibsDexMergerForRelease
 :app:transformDexArchiveWithDexMergerForRelease
+:shapedblurlibrary:mergeReleaseJniLibFolders
+:shapedblurlibrary:transformNativeLibsWithMergeJniLibsForRelease
+:shapedblurlibrary:transformNativeLibsWithStripDebugSymbolForRelease
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316363986-0/src/MultiShapeBlurView-master/shapedblurlibrary/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/libRSSupport.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316363986-0/src/MultiShapeBlurView-master/shapedblurlibrary/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/librsjni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+:shapedblurlibrary:transformNativeLibsWithIntermediateJniLibsForRelease
 :app:transformNativeLibsWithMergeJniLibsForRelease
 :app:transformNativeLibsWithStripDebugSymbolForRelease
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261459233-0/src/MultiShapeBlurView-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/libRSSupport.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261459233-0/src/MultiShapeBlurView-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/librsjni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316363986-0/src/MultiShapeBlurView-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/libRSSupport.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316363986-0/src/MultiShapeBlurView-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/librsjni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+:app:processReleaseJavaRes NO-SOURCE
 :app:transformResourcesWithMergeJavaResForRelease
 :app:packageRelease
 :app:assembleRelease
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 26s
+BUILD SUCCESSFUL in 38s
 91 actionable tasks: 91 executed
 
-2019-05-19 17:25:08,392 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558261459233-0/src/MultiShapeBlurView-master/app/build/outputs/apk/debug/app-debug.apk
+2019-11-21 13:07:08,874 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316363986-0/src/MultiShapeBlurView-master/app/build/outputs/apk/debug/app-debug.apk

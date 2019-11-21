@@ -1,35 +1,35 @@
-2019-05-25 19:17:11,963 INFO  DownloadService - Downloading "https://github.com/ahmedeltaher/Azan/archive/master.zip", attempt 3
-2019-05-25 19:17:12,501 INFO  DownloadService - Downloaded https://github.com/ahmedeltaher/Azan/archive/master.zip, attempt 3
-2019-05-25 19:17:12,502 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/master.zip": 196 KB
-2019-05-25 19:17:12,502 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-25 19:17:12,507 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/master.zip: true
-2019-05-25 19:17:12,507 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src'.
-2019-05-25 19:17:12,521 INFO  FullProcessService - Size of directory with sources: 268 KB
-2019-05-25 19:17:12,521 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src]
-2019-05-25 19:17:12,537 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/.git/
+2019-11-21 12:59:03,265 INFO  DownloadService - Downloading "https://github.com/ahmedeltaher/Azan/archive/master.zip", attempt 3
+2019-11-21 12:59:05,576 INFO  DownloadService - Downloaded https://github.com/ahmedeltaher/Azan/archive/master.zip, attempt 3
+2019-11-21 12:59:05,577 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/master.zip": 199 KB
+2019-11-21 12:59:05,577 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-11-21 12:59:05,577 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/master.zip: true
+2019-11-21 12:59:05,577 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src'.
+2019-11-21 12:59:05,602 INFO  FullProcessService - Size of directory with sources: 268 KB
+2019-11-21 12:59:05,602 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src]
+2019-11-21 12:59:05,632 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/.git/
 
-2019-05-25 19:17:12,539 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/gradlew
-2019-05-25 19:17:12,541 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/azan/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/build.gradle
-2019-05-25 19:17:12,543 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/azan/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/settings.gradle
-2019-05-25 19:17:12,544 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
-2019-05-25 19:17:12,618 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
-2019-05-25 19:17:12,618 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
-2019-05-25 19:17:12,618 INFO  ProjectFixService - Fixing project...
-2019-05-25 19:17:12,627 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/app/local.properties
-2019-05-25 19:17:12,627 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-25 19:17:12,628 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/azan/local.properties
-2019-05-25 19:17:12,628 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/azan/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-25 19:17:12,629 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/local.properties
-2019-05-25 19:17:12,630 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-05-25 19:17:12,630 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-05-25 19:17:12,631 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-25 19:17:12,632 INFO  ProjectFixService - Project was maybe fixed
-2019-05-25 19:17:12,632 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-25 19:17:12,632 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-25 19:17:25,989 INFO  ProjectTaskService - Detected possible tasks: 71
-2019-05-25 19:17:25,989 INFO  ProjectTaskService - Excluded tasks (21): lintDebug androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-25 19:17:25,990 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-25 19:17:30,948 ERROR SysUtils - Could not process external command
+2019-11-21 12:59:05,635 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/gradlew
+2019-11-21 12:59:05,638 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/azan/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/build.gradle
+2019-11-21 12:59:05,640 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/azan/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/settings.gradle
+2019-11-21 12:59:05,650 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
+2019-11-21 12:59:06,722 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
+2019-11-21 12:59:06,722 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
+2019-11-21 12:59:06,722 INFO  ProjectFixService - Fixing project...
+2019-11-21 12:59:06,730 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/app/local.properties
+2019-11-21 12:59:06,730 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-11-21 12:59:06,731 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/azan/local.properties
+2019-11-21 12:59:06,732 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/azan/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-11-21 12:59:06,733 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/local.properties
+2019-11-21 12:59:06,733 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-11-21 12:59:06,734 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-11-21 12:59:06,735 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-11-21 12:59:06,735 INFO  ProjectFixService - Project was maybe fixed
+2019-11-21 12:59:06,735 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-21 12:59:06,735 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-21 12:59:15,277 INFO  ProjectTaskService - Detected possible tasks: 71
+2019-11-21 12:59:15,278 INFO  ProjectTaskService - Excluded tasks (21): lintDebug androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-11-21 12:59:15,278 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-11-21 12:59:20,583 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -50,14 +50,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-05-25 19:17:30,949 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-11-21 12:59:20,584 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :app
 Kotlin plugin should be enabled before 'kotlin-android-extensions'
@@ -144,11 +144,11 @@ org.gradle.execution.TaskSelectionException: Task 'androidJavadocs' not found in
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 4s
+BUILD FAILED in 5s
 
-2019-05-25 19:17:30,949 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-05-25 19:17:30,949 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-05-25 19:18:36,584 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-11-21 12:59:20,584 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-11-21 12:59:20,584 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-11-21 13:00:27,739 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :app
 Kotlin plugin should be enabled before 'kotlin-android-extensions'
@@ -187,14 +187,14 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :azan:generateDebugBuildConfig
 
 > Task :azan:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/azan/src/main/java/com/azan/Azan.kt: (186, 28): Variable 'nGoodDay' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/azan/src/main/java/com/azan/Azan.kt: (187, 30): Variable 'exinterval' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/azan/src/main/java/com/azan/Azan.kt: (400, 13): Name shadowed: bs
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/azan/src/main/java/com/azan/Azan.kt: (614, 23): Variable 'ra0' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/azan/src/main/java/com/azan/Azan.kt: (615, 23): Variable 'ra2' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/azan/src/main/java/com/azan/Azan.kt: (730, 17): Name shadowed: day
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/azan/src/main/java/com/azan/astrologicalCalc/AstrologyFormulas.kt: (189, 21): Variable 'R4sum' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/azan/src/main/java/com/azan/astrologicalCalc/AstrologyFormulas.kt: (195, 21): Variable 'L5sum' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/azan/src/main/java/com/azan/Azan.kt: (186, 28): Variable 'nGoodDay' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/azan/src/main/java/com/azan/Azan.kt: (187, 30): Variable 'exinterval' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/azan/src/main/java/com/azan/Azan.kt: (400, 13): Name shadowed: bs
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/azan/src/main/java/com/azan/Azan.kt: (614, 23): Variable 'ra0' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/azan/src/main/java/com/azan/Azan.kt: (615, 23): Variable 'ra2' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/azan/src/main/java/com/azan/Azan.kt: (730, 17): Name shadowed: day
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/azan/src/main/java/com/azan/astrologicalCalc/AstrologyFormulas.kt: (189, 21): Variable 'R4sum' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/azan/src/main/java/com/azan/astrologicalCalc/AstrologyFormulas.kt: (195, 21): Variable 'L5sum' initializer is redundant
 
 > Task :azan:prepareLintJar
 > Task :azan:generateDebugSources
@@ -220,10 +220,10 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/
 > Task :azan:createFullJarDebug
 > Transform full.jar (project :azan) with IdentityTransform
 > Task :app:mergeExtDexDebug
-> Transform full.jar (project :azan) with DexingTransform
 > Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:mergeDexDebug
+> Transform full.jar (project :azan) with DexingTransform
 > Task :app:validateSigningDebug
+> Task :app:mergeDexDebug
 > Task :app:signingConfigWriterDebug
 > Task :app:mergeDebugJniLibFolders
 > Task :azan:compileDebugNdk NO-SOURCE
@@ -262,14 +262,14 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/
 > Task :azan:generateReleaseBuildConfig
 
 > Task :azan:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/azan/src/main/java/com/azan/Azan.kt: (186, 28): Variable 'nGoodDay' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/azan/src/main/java/com/azan/Azan.kt: (187, 30): Variable 'exinterval' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/azan/src/main/java/com/azan/Azan.kt: (400, 13): Name shadowed: bs
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/azan/src/main/java/com/azan/Azan.kt: (614, 23): Variable 'ra0' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/azan/src/main/java/com/azan/Azan.kt: (615, 23): Variable 'ra2' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/azan/src/main/java/com/azan/Azan.kt: (730, 17): Name shadowed: day
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/azan/src/main/java/com/azan/astrologicalCalc/AstrologyFormulas.kt: (189, 21): Variable 'R4sum' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/azan/src/main/java/com/azan/astrologicalCalc/AstrologyFormulas.kt: (195, 21): Variable 'L5sum' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/azan/src/main/java/com/azan/Azan.kt: (186, 28): Variable 'nGoodDay' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/azan/src/main/java/com/azan/Azan.kt: (187, 30): Variable 'exinterval' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/azan/src/main/java/com/azan/Azan.kt: (400, 13): Name shadowed: bs
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/azan/src/main/java/com/azan/Azan.kt: (614, 23): Variable 'ra0' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/azan/src/main/java/com/azan/Azan.kt: (615, 23): Variable 'ra2' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/azan/src/main/java/com/azan/Azan.kt: (730, 17): Name shadowed: day
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/azan/src/main/java/com/azan/astrologicalCalc/AstrologyFormulas.kt: (189, 21): Variable 'R4sum' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/azan/src/main/java/com/azan/astrologicalCalc/AstrologyFormulas.kt: (195, 21): Variable 'L5sum' initializer is redundant
 
 > Task :azan:generateReleaseSources
 > Task :azan:javaPreCompileRelease
@@ -314,10 +314,10 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/
 
 > Task :app:lint
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/5055b92e2bb36b12eeef4df4c13a5596/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-Ran lint on variant release: 2 issues found
-Ran lint on variant debug: 2 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/app/build/reports/lint-results.xml
+Ran lint on variant debug: 3 issues found
+Ran lint on variant release: 3 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/app/build/reports/lint-results.xml
 
 > Task :app:compileDebugUnitTestKotlin NO-SOURCE
 > Task :app:generateDebugUnitTestSources
@@ -337,7 +337,7 @@ Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgby
 > Task :app:check
 > Task :app:build
 
-BUILD SUCCESSFUL in 1m 4s
+BUILD SUCCESSFUL in 1m 6s
 94 actionable tasks: 94 executed
 
-2019-05-25 19:18:36,657 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558786631960-0/src/Azan-master/app/build/outputs/apk/debug/app-debug.apk
+2019-11-21 13:00:27,813 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315943261-0/src/Android-Prayer-Times-Azan-master/app/build/outputs/apk/debug/app-debug.apk
