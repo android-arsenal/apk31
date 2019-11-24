@@ -1,36 +1,36 @@
-2019-03-31 21:26:37,270 INFO  DownloadService - Downloading "https://github.com/jrizani/JRMapView/archive/master.zip", attempt 3
-2019-03-31 21:26:49,314 INFO  DownloadService - Downloaded https://github.com/jrizani/JRMapView/archive/master.zip, attempt 3
-2019-03-31 21:26:49,315 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042397264-0/master.zip": 4 MB
-2019-03-31 21:26:49,315 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-31 21:26:49,316 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042397264-0/master.zip: true
-2019-03-31 21:26:49,317 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042397264-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042397264-0/src'.
-2019-03-31 21:26:49,388 INFO  FullProcessService - Size of directory with sources: 4 MB
-2019-03-31 21:26:49,388 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042397264-0/src]
-2019-03-31 21:26:49,420 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042397264-0/src/.git/
+2019-11-24 21:17:52,874 INFO  DownloadService - Downloading "https://github.com/jrizani/JRMapView/archive/master.zip", attempt 3
+2019-11-24 21:17:57,975 INFO  DownloadService - Downloaded https://github.com/jrizani/JRMapView/archive/master.zip, attempt 3
+2019-11-24 21:17:57,976 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605072869-0/master.zip": 4 MB
+2019-11-24 21:17:57,976 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-11-24 21:17:57,977 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605072869-0/master.zip: true
+2019-11-24 21:17:57,977 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605072869-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605072869-0/src'.
+2019-11-24 21:17:58,017 INFO  FullProcessService - Size of directory with sources: 4 MB
+2019-11-24 21:17:58,017 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605072869-0/src]
+2019-11-24 21:17:58,039 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605072869-0/src/.git/
 
-2019-03-31 21:26:49,426 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042397264-0/src/JRMapView-master/gradlew
-2019-03-31 21:26:49,432 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042397264-0/src/JRMapView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042397264-0/src/JRMapView-master/jrmapview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042397264-0/src/JRMapView-master/build.gradle
-2019-03-31 21:26:49,438 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042397264-0/src/JRMapView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042397264-0/src/JRMapView-master/jrmapview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042397264-0/src/JRMapView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042397264-0/src/JRMapView-master/settings.gradle
-2019-03-31 21:26:49,440 INFO  ProjectBuildService - Remote scripts: none
-2019-03-31 21:26:49,440 INFO  ProjectFixService - Fixing project...
-2019-03-31 21:26:49,455 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042397264-0/src/JRMapView-master/app/local.properties
-2019-03-31 21:26:49,457 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042397264-0/src/JRMapView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-03-31 21:26:49,458 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042397264-0/src/JRMapView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-03-31 21:26:49,459 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042397264-0/src/JRMapView-master/jrmapview/local.properties
-2019-03-31 21:26:49,461 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042397264-0/src/JRMapView-master/jrmapview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-03-31 21:26:49,461 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042397264-0/src/JRMapView-master/jrmapview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-03-31 21:26:49,463 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042397264-0/src/JRMapView-master/local.properties
-2019-03-31 21:26:49,465 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-03-31 21:26:49,466 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-03-31 21:26:49,468 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042397264-0/src/JRMapView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-03-31 21:26:49,469 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042397264-0/src/JRMapView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-03-31 21:26:49,470 INFO  ProjectFixService - Project was maybe fixed
-2019-03-31 21:26:49,470 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-31 21:26:49,470 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042397264-0/src/JRMapView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042397264-0/src/JRMapView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-31 21:27:02,266 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-03-31 21:27:02,266 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-31 21:27:02,267 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042397264-0/src/JRMapView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042397264-0/src/JRMapView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-31 21:28:11,854 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-11-24 21:17:58,042 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605072869-0/src/JRMapView-master/gradlew
+2019-11-24 21:17:58,045 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605072869-0/src/JRMapView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605072869-0/src/JRMapView-master/jrmapview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605072869-0/src/JRMapView-master/build.gradle
+2019-11-24 21:17:58,048 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605072869-0/src/JRMapView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605072869-0/src/JRMapView-master/jrmapview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605072869-0/src/JRMapView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605072869-0/src/JRMapView-master/settings.gradle
+2019-11-24 21:17:58,048 INFO  ProjectBuildService - Remote scripts: none
+2019-11-24 21:17:58,048 INFO  ProjectFixService - Fixing project...
+2019-11-24 21:17:58,055 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605072869-0/src/JRMapView-master/app/local.properties
+2019-11-24 21:17:58,056 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605072869-0/src/JRMapView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-11-24 21:17:58,056 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605072869-0/src/JRMapView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-11-24 21:17:58,057 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605072869-0/src/JRMapView-master/jrmapview/local.properties
+2019-11-24 21:17:58,058 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605072869-0/src/JRMapView-master/jrmapview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-11-24 21:17:58,059 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605072869-0/src/JRMapView-master/jrmapview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-11-24 21:17:58,060 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605072869-0/src/JRMapView-master/local.properties
+2019-11-24 21:17:58,061 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-11-24 21:17:58,061 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-11-24 21:17:58,063 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605072869-0/src/JRMapView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-11-24 21:17:58,063 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605072869-0/src/JRMapView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-11-24 21:17:58,063 INFO  ProjectFixService - Project was maybe fixed
+2019-11-24 21:17:58,063 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-24 21:17:58,063 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605072869-0/src/JRMapView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605072869-0/src/JRMapView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-24 21:18:06,428 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-11-24 21:18:06,428 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-11-24 21:18:06,428 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605072869-0/src/JRMapView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605072869-0/src/JRMapView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-11-24 21:18:45,559 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :jrmapview:preBuild UP-TO-DATE
 > Task :jrmapview:preDebugBuild UP-TO-DATE
@@ -163,7 +163,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 1m 8s
+BUILD SUCCESSFUL in 38s
 88 actionable tasks: 88 executed
 
-2019-03-31 21:28:11,955 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554042397264-0/src/JRMapView-master/app/build/outputs/apk/debug/app-debug.apk
+2019-11-24 21:18:45,627 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605072869-0/src/JRMapView-master/app/build/outputs/apk/debug/app-debug.apk
