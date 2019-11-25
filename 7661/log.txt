@@ -1,175 +1,159 @@
-2019-05-26 16:28:51,969 INFO  DownloadService - Downloading "https://github.com/illiashenkoo/glide-barcode/archive/master.zip", attempt 3
-2019-05-26 16:28:53,948 INFO  DownloadService - Downloaded https://github.com/illiashenkoo/glide-barcode/archive/master.zip, attempt 3
-2019-05-26 16:28:53,948 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862931965-0/master.zip": 165 KB
-2019-05-26 16:28:53,949 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-26 16:28:53,954 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862931965-0/master.zip: true
-2019-05-26 16:28:53,954 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862931965-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862931965-0/src'.
-2019-05-26 16:28:53,975 INFO  FullProcessService - Size of directory with sources: 184 KB
-2019-05-26 16:28:53,975 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862931965-0/src]
-2019-05-26 16:28:53,993 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862931965-0/src/.git/
+2019-11-25 21:35:29,348 INFO  DownloadService - Downloading "https://github.com/illiashenkoo/glide-barcode/archive/master.zip", attempt 3
+2019-11-25 21:35:31,721 INFO  DownloadService - Downloaded https://github.com/illiashenkoo/glide-barcode/archive/master.zip, attempt 3
+2019-11-25 21:35:31,721 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692529344-0/master.zip": 165 KB
+2019-11-25 21:35:31,721 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-11-25 21:35:31,723 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692529344-0/master.zip: true
+2019-11-25 21:35:31,723 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692529344-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692529344-0/src'.
+2019-11-25 21:35:31,749 INFO  FullProcessService - Size of directory with sources: 184 KB
+2019-11-25 21:35:31,749 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692529344-0/src]
+2019-11-25 21:35:31,769 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692529344-0/src/.git/
 
-2019-05-26 16:28:53,996 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862931965-0/src/glide-barcode-master/gradlew
-2019-05-26 16:28:53,999 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862931965-0/src/glide-barcode-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862931965-0/src/glide-barcode-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862931965-0/src/glide-barcode-master/build.gradle
-2019-05-26 16:28:54,002 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862931965-0/src/glide-barcode-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862931965-0/src/glide-barcode-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862931965-0/src/glide-barcode-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862931965-0/src/glide-barcode-master/settings.gradle
-2019-05-26 16:28:54,002 INFO  ProjectBuildService - Remote scripts: none
-2019-05-26 16:28:54,002 INFO  ProjectFixService - Fixing project...
-2019-05-26 16:28:54,009 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862931965-0/src/glide-barcode-master/library/local.properties
-2019-05-26 16:28:54,010 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862931965-0/src/glide-barcode-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-05-26 16:28:54,010 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862931965-0/src/glide-barcode-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-05-26 16:28:54,011 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862931965-0/src/glide-barcode-master/sample/local.properties
-2019-05-26 16:28:54,012 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862931965-0/src/glide-barcode-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-05-26 16:28:54,012 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862931965-0/src/glide-barcode-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-05-26 16:28:54,013 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862931965-0/src/glide-barcode-master/local.properties
-2019-05-26 16:28:54,014 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-05-26 16:28:54,014 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-05-26 16:28:54,015 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862931965-0/src/glide-barcode-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-05-26 16:28:54,015 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862931965-0/src/glide-barcode-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-05-26 16:28:54,016 INFO  ProjectFixService - Project was maybe fixed
-2019-05-26 16:28:54,016 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-26 16:28:54,016 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862931965-0/src/glide-barcode-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862931965-0/src/glide-barcode-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-26 16:29:01,966 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-05-26 16:29:01,967 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-05-26 16:29:01,967 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862931965-0/src/glide-barcode-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862931965-0/src/glide-barcode-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-05-26 16:29:22,339 INFO  SysUtils - Configuration on demand is an incubating feature.
-
-> Configure project :library
-WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
-It will be removed at the end of 2019.
-For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
-
+2019-11-25 21:35:31,773 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692529344-0/src/glide-barcode-master/gradlew
+2019-11-25 21:35:31,776 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692529344-0/src/glide-barcode-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692529344-0/src/glide-barcode-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692529344-0/src/glide-barcode-master/build.gradle
+2019-11-25 21:35:31,779 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692529344-0/src/glide-barcode-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692529344-0/src/glide-barcode-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692529344-0/src/glide-barcode-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692529344-0/src/glide-barcode-master/settings.gradle
+2019-11-25 21:35:31,779 INFO  ProjectBuildService - Remote scripts: none
+2019-11-25 21:35:31,779 INFO  ProjectFixService - Fixing project...
+2019-11-25 21:35:31,786 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692529344-0/src/glide-barcode-master/library/local.properties
+2019-11-25 21:35:31,786 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692529344-0/src/glide-barcode-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-11-25 21:35:31,786 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692529344-0/src/glide-barcode-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-11-25 21:35:31,787 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692529344-0/src/glide-barcode-master/sample/local.properties
+2019-11-25 21:35:31,788 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692529344-0/src/glide-barcode-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-11-25 21:35:31,788 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692529344-0/src/glide-barcode-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-11-25 21:35:31,789 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692529344-0/src/glide-barcode-master/local.properties
+2019-11-25 21:35:31,789 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-11-25 21:35:31,789 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-11-25 21:35:31,790 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692529344-0/src/glide-barcode-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-11-25 21:35:31,790 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692529344-0/src/glide-barcode-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-11-25 21:35:31,791 INFO  ProjectFixService - Project was maybe fixed
+2019-11-25 21:35:31,791 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-25 21:35:31,791 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692529344-0/src/glide-barcode-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692529344-0/src/glide-barcode-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-25 21:35:38,487 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-11-25 21:35:38,487 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-11-25 21:35:38,487 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692529344-0/src/glide-barcode-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692529344-0/src/glide-barcode-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-11-25 21:36:03,123 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
 > Task :library:checkDebugManifest
 > Task :library:generateDebugBuildConfig
 > Task :library:generateDebugResValues
-> Task :library:processDebugManifest
-> Task :library:prepareLintJar
-> Task :library:mergeDebugConsumerProguardFiles
 > Task :library:mergeDebugShaders
 > Task :library:compileDebugShaders
 > Task :library:generateDebugAssets
 > Task :library:packageDebugAssets
 > Task :library:packageDebugRenderscript NO-SOURCE
-> Task :library:prepareLintJarForPublish
 > Task :library:processDebugJavaRes NO-SOURCE
 > Task :library:mergeDebugJniLibFolders
-> Task :library:transformNativeLibsWithMergeJniLibsForDebug
-> Task :library:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :library:transformNativeLibsWithSyncJniLibsForDebug
-> Task :library:preReleaseBuild UP-TO-DATE
-> Task :library:checkReleaseManifest
-> Task :library:generateReleaseBuildConfig
-> Task :library:generateReleaseResValues
-> Task :library:processReleaseManifest
-> Task :library:mergeReleaseConsumerProguardFiles
-> Task :library:mergeReleaseShaders
-> Task :library:compileReleaseShaders
+> Task :library:prepareLintJarForPublish
 > Task :library:compileDebugAidl NO-SOURCE
 > Task :library:compileDebugRenderscript NO-SOURCE
 > Task :library:generateDebugResources
 > Task :library:packageDebugResources
-> Task :library:generateDebugRFile
-> Task :library:kaptGenerateStubsDebugKotlin
-> Task :library:kaptDebugKotlin
-> Task :library:compileDebugKotlin
-> Task :library:generateDebugSources
-> Task :library:javaPreCompileDebug
-> Task :library:compileDebugJavaWithJavac
-> Task :library:extractDebugAnnotations
-> Task :library:transformResourcesWithMergeJavaResForDebug
-> Task :library:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :library:bundleDebugAar
-> Task :library:compileDebugSources
-> Task :library:assembleDebug
+> Task :library:processDebugManifest
+> Task :library:preReleaseBuild UP-TO-DATE
 > Task :library:compileReleaseAidl NO-SOURCE
 > Task :library:compileReleaseRenderscript NO-SOURCE
+> Task :library:checkReleaseManifest
+> Task :library:generateReleaseBuildConfig
+> Task :library:generateReleaseResValues
 > Task :library:generateReleaseResources
 > Task :library:packageReleaseResources
-> Task :library:generateReleaseRFile
-> Task :library:kaptGenerateStubsReleaseKotlin
-> Task :library:kaptReleaseKotlin
-> Task :library:compileReleaseKotlin
-> Task :library:generateReleaseSources
-> Task :library:javaPreCompileRelease
-> Task :library:compileReleaseJavaWithJavac
-> Task :library:extractReleaseAnnotations
+> Task :library:mergeReleaseShaders
+> Task :library:compileReleaseShaders
 > Task :library:generateReleaseAssets
 > Task :library:packageReleaseAssets
 > Task :library:packageReleaseRenderscript NO-SOURCE
 > Task :library:processReleaseJavaRes NO-SOURCE
-> Task :library:transformResourcesWithMergeJavaResForRelease
-> Task :library:transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :library:mergeReleaseJniLibFolders
-> Task :library:transformNativeLibsWithMergeJniLibsForRelease
-> Task :library:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :library:parseDebugLibraryResources
+> Task :library:mergeReleaseNativeLibs
+> Task :library:stripReleaseDebugSymbols
 > Task :library:transformNativeLibsWithSyncJniLibsForRelease
-> Task :library:bundleReleaseAar
-> Task :library:compileReleaseSources
+> Task :library:mergeDebugNativeLibs
+> Task :library:stripDebugDebugSymbols
+> Task :library:transformNativeLibsWithSyncJniLibsForDebug
+> Task :library:processReleaseManifest
+> Task :library:parseReleaseLibraryResources
 > Task :library:mergeReleaseResources
+> Task :library:generateReleaseRFile
+> Task :library:generateDebugRFile
 > Task :library:verifyReleaseResources
+> Task :library:kaptGenerateStubsDebugKotlin
+> Task :library:kaptDebugKotlin
+> Task :library:compileDebugKotlin
+> Task :library:kaptGenerateStubsReleaseKotlin
+> Task :library:kaptReleaseKotlin
+> Task :library:compileReleaseKotlin
+> Task :library:javaPreCompileDebug
+> Task :library:compileDebugJavaWithJavac
+> Task :library:extractDebugAnnotations
+> Task :library:mergeDebugGeneratedProguardFiles
+> Task :library:mergeDebugConsumerProguardFiles
+> Task :library:compileDebugSources
+> Task :library:javaPreCompileRelease
+> Task :library:compileReleaseJavaWithJavac
+> Task :library:extractReleaseAnnotations
+> Task :library:mergeReleaseGeneratedProguardFiles
+> Task :library:mergeReleaseConsumerProguardFiles
+> Task :library:compileReleaseSources
+> Task :library:mergeDebugJavaResource
+> Task :library:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :library:bundleDebugAar
+> Task :library:assembleDebug
+> Task :library:mergeReleaseJavaResource
+> Task :library:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :library:bundleReleaseAar
 > Task :library:assembleRelease
 > Task :library:assemble
 > Task :library:build
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 19s
-50 actionable tasks: 50 executed
+BUILD SUCCESSFUL in 23s
+53 actionable tasks: 53 executed
 
-2019-05-26 16:29:22,370 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-26 16:29:22,370 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862931965-0/src/glide-barcode-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862931965-0/src/glide-barcode-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-26 16:29:29,693 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-05-26 16:29:29,694 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-26 16:29:29,694 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862931965-0/src/glide-barcode-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862931965-0/src/glide-barcode-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-26 16:30:23,745 INFO  SysUtils - Configuration on demand is an incubating feature.
-
-> Configure project :library
-WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
-It will be removed at the end of 2019.
-For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
-
+2019-11-25 21:36:03,157 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-25 21:36:03,157 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692529344-0/src/glide-barcode-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692529344-0/src/glide-barcode-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-25 21:36:11,158 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-11-25 21:36:11,159 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-11-25 21:36:11,159 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692529344-0/src/glide-barcode-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692529344-0/src/glide-barcode-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-11-25 21:37:08,317 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
-> Task :library:compileDebugAidl NO-SOURCE
 > Task :library:checkDebugManifest UP-TO-DATE
-> Task :library:generateDebugBuildConfig UP-TO-DATE
+> Task :library:compileDebugAidl NO-SOURCE
 > Task :library:compileDebugRenderscript NO-SOURCE
+> Task :library:generateDebugBuildConfig UP-TO-DATE
 > Task :library:generateDebugResValues UP-TO-DATE
 > Task :library:generateDebugResources UP-TO-DATE
-> Task :library:processDebugManifest UP-TO-DATE
 > Task :library:packageDebugResources UP-TO-DATE
+> Task :library:parseDebugLibraryResources UP-TO-DATE
+> Task :library:processDebugManifest UP-TO-DATE
 > Task :library:generateDebugRFile UP-TO-DATE
-> Task :library:prepareLintJar UP-TO-DATE
-> Task :library:generateDebugSources UP-TO-DATE
 > Task :library:kaptGenerateStubsDebugKotlin UP-TO-DATE
 > Task :library:kaptDebugKotlin UP-TO-DATE
 > Task :library:compileDebugKotlin UP-TO-DATE
 > Task :library:javaPreCompileDebug UP-TO-DATE
 > Task :library:compileDebugJavaWithJavac UP-TO-DATE
-> Task :library:bundleLibCompileDebug
 > Task :sample:preBuild UP-TO-DATE
+> Task :sample:preDebugBuild UP-TO-DATE
 > Task :library:packageDebugRenderscript NO-SOURCE
-> Task :sample:preDebugBuild
 > Task :sample:compileDebugAidl NO-SOURCE
-> Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:checkDebugManifest
+> Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:generateDebugBuildConfig
+> Task :library:bundleLibCompileDebug
 > Task :sample:mainApkListPersistenceDebug
 > Task :sample:generateDebugResValues
 > Task :sample:generateDebugResources
 > Task :sample:createDebugCompatibleScreenManifests
-> Task :sample:mergeDebugResources
 > Task :sample:processDebugManifest
+> Task :sample:mergeDebugResources
 > Task :sample:processDebugResources
 > Task :sample:kaptGenerateStubsDebugKotlin
 > Task :sample:kaptDebugKotlin
 > Task :sample:compileDebugKotlin
-> Task :sample:prepareLintJar
-> Task :sample:generateDebugSources
 > Task :sample:javaPreCompileDebug
 > Task :sample:compileDebugJavaWithJavac
 > Task :sample:compileDebugSources
@@ -182,22 +166,20 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :sample:generateDebugAssets
 > Task :sample:mergeDebugAssets
 > Task :library:processDebugJavaRes NO-SOURCE
+> Task :sample:processDebugJavaRes NO-SOURCE
 > Task :library:bundleLibResDebug
 > Task :library:bundleLibRuntimeDebug
 > Task :library:createFullJarDebug
 > Task :sample:checkDebugDuplicateClasses
+> Task :sample:mergeDebugJavaResource
 > Task :sample:transformClassesWithDexBuilderForDebug
 > Task :sample:validateSigningDebug
 > Task :sample:signingConfigWriterDebug
 > Task :library:mergeDebugJniLibFolders UP-TO-DATE
-> Task :library:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
-> Task :library:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :library:mergeDebugNativeLibs UP-TO-DATE
+> Task :library:stripDebugDebugSymbols UP-TO-DATE
 > Task :library:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :sample:mergeDebugJniLibFolders
-> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
-> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :sample:processDebugJavaRes NO-SOURCE
-> Task :sample:transformResourcesWithMergeJavaResForDebug
 > Task :library:preReleaseBuild UP-TO-DATE
 > Task :library:compileReleaseAidl NO-SOURCE
 > Task :library:compileReleaseRenderscript NO-SOURCE
@@ -206,16 +188,15 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :library:generateReleaseResValues UP-TO-DATE
 > Task :library:generateReleaseResources UP-TO-DATE
 > Task :library:packageReleaseResources UP-TO-DATE
+> Task :library:parseReleaseLibraryResources UP-TO-DATE
 > Task :library:processReleaseManifest UP-TO-DATE
 > Task :library:generateReleaseRFile UP-TO-DATE
 > Task :library:kaptGenerateStubsReleaseKotlin UP-TO-DATE
 > Task :library:kaptReleaseKotlin UP-TO-DATE
 > Task :library:compileReleaseKotlin UP-TO-DATE
-> Task :library:generateReleaseSources UP-TO-DATE
 > Task :library:javaPreCompileRelease UP-TO-DATE
 > Task :library:compileReleaseJavaWithJavac UP-TO-DATE
-> Task :library:bundleLibCompileRelease
-> Task :sample:preReleaseBuild
+> Task :sample:preReleaseBuild UP-TO-DATE
 > Task :sample:compileReleaseAidl NO-SOURCE
 > Task :library:packageReleaseRenderscript NO-SOURCE
 > Task :sample:compileReleaseRenderscript NO-SOURCE
@@ -224,31 +205,35 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :sample:mainApkListPersistenceRelease
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
-> Task :sample:mergeReleaseResources
+> Task :library:bundleLibCompileRelease
 > Task :sample:createReleaseCompatibleScreenManifests
 > Task :sample:processReleaseManifest
+> Task :sample:mergeDebugNativeLibs
+> Task :sample:stripDebugDebugSymbols
+> Task :sample:mergeReleaseResources
 > Task :sample:processReleaseResources
 > Task :sample:kaptGenerateStubsReleaseKotlin
 > Task :sample:kaptReleaseKotlin
 > Task :sample:compileReleaseKotlin
-> Task :sample:mergeExtDexDebug
-> Task :sample:mergeDexDebug
-> Task :sample:packageDebug
-> Task :sample:assembleDebug
-> Task :sample:generateReleaseSources
+> Task :library:prepareLintJarForPublish UP-TO-DATE
+> Task :sample:prepareLintJar
+> Task :library:processReleaseJavaRes NO-SOURCE
 > Task :sample:javaPreCompileRelease
 > Task :sample:compileReleaseJavaWithJavac
 > Task :sample:compileReleaseSources
-> Task :library:prepareLintJarForPublish UP-TO-DATE
 
 > Task :sample:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/33f63df8135a934a9509049fdbf8c685/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/d3fbabd3292822558a9d12559659ce0a/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/daec4dc7b741495a4eebbd996d942b70/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 
-> Task :library:processReleaseJavaRes NO-SOURCE
+> Task :sample:mergeExtDexDebug
+> Task :sample:checkReleaseDuplicateClasses
 > Task :library:bundleLibResRelease
 > Task :library:bundleLibRuntimeRelease
 > Task :library:createFullJarRelease
-> Task :sample:checkReleaseDuplicateClasses
+> Task :sample:mergeDexDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
 > Task :sample:transformClassesWithDexBuilderForRelease
 > Task :library:mergeReleaseShaders UP-TO-DATE
 > Task :library:compileReleaseShaders UP-TO-DATE
@@ -258,16 +243,16 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :sample:compileReleaseShaders
 > Task :sample:generateReleaseAssets
 > Task :sample:mergeReleaseAssets
+> Task :sample:processReleaseJavaRes NO-SOURCE
 > Task :sample:signingConfigWriterRelease
 > Task :library:mergeReleaseJniLibFolders UP-TO-DATE
-> Task :library:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
-> Task :library:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :library:mergeReleaseNativeLibs UP-TO-DATE
+> Task :library:stripReleaseDebugSymbols UP-TO-DATE
 > Task :library:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :sample:mergeReleaseJniLibFolders
-> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
-> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :sample:processReleaseJavaRes NO-SOURCE
-> Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :sample:mergeReleaseNativeLibs
+> Task :sample:stripReleaseDebugSymbols
+> Task :sample:mergeReleaseJavaResource
 > Task :sample:mergeExtDexRelease
 > Task :sample:mergeDexRelease
 > Task :sample:packageRelease
@@ -277,9 +262,9 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 53s
-103 actionable tasks: 67 executed, 36 up-to-date
+BUILD SUCCESSFUL in 56s
+102 actionable tasks: 65 executed, 37 up-to-date
 
-2019-05-26 16:30:23,838 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558862931965-0/src/glide-barcode-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-11-25 21:37:08,407 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692529344-0/src/glide-barcode-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
