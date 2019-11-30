@@ -1,45 +1,43 @@
-2019-11-19 12:47:16,636 INFO  DownloadService - Downloading "https://github.com/arthur3486/bottomsheets/archive/master.zip", attempt 3
-2019-11-19 12:47:23,154 INFO  DownloadService - Downloaded https://github.com/arthur3486/bottomsheets/archive/master.zip, attempt 3
-2019-11-19 12:47:23,154 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/master.zip": 3 MB
-2019-11-19 12:47:23,154 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-11-19 12:47:23,155 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/master.zip: true
-2019-11-19 12:47:23,156 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src'.
-2019-11-19 12:47:23,221 INFO  FullProcessService - Size of directory with sources: 3 MB
-2019-11-19 12:47:23,221 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src]
-2019-11-19 12:47:23,243 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src/.git/
+2019-12-01 00:47:25,435 INFO  DownloadService - Downloading "https://github.com/arthur3486/bottomsheets/archive/master.zip", attempt 3
+2019-12-01 00:47:32,211 INFO  DownloadService - Downloaded https://github.com/arthur3486/bottomsheets/archive/master.zip, attempt 3
+2019-12-01 00:47:32,212 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/master.zip": 3 MB
+2019-12-01 00:47:32,212 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-12-01 00:47:32,217 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/master.zip: true
+2019-12-01 00:47:32,217 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src'.
+2019-12-01 00:47:32,282 INFO  FullProcessService - Size of directory with sources: 3 MB
+2019-12-01 00:47:32,282 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src]
+2019-12-01 00:47:32,307 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src/.git/
 
-2019-11-19 12:47:23,251 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src/bottomsheets-master/gradlew
-2019-11-19 12:47:23,257 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src/bottomsheets-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src/bottomsheets-master/bottomsheets-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src/bottomsheets-master/bottomsheets-ktx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src/bottomsheets-master/bottomsheets-sheets/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src/bottomsheets-master/build.gradle
-2019-11-19 12:47:23,262 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src/bottomsheets-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src/bottomsheets-master/bottomsheets-sheets/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src/bottomsheets-master/bottomsheets-ktx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src/bottomsheets-master/gradle/script/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src/bottomsheets-master/common/constants.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src/bottomsheets-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src/bottomsheets-master/bottomsheets-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src/bottomsheets-master/settings.gradle
-2019-11-19 12:47:23,263 INFO  ProjectBuildService - Remote scripts: none
-2019-11-19 12:47:23,263 INFO  ProjectFixService - Fixing project...
-2019-11-19 12:47:23,278 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src/bottomsheets-master/app/local.properties
-2019-11-19 12:47:23,285 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src/bottomsheets-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=18,targetSdkVersion=29]
-2019-11-19 12:47:23,285 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src/bottomsheets-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=29]
-2019-11-19 12:47:23,286 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src/bottomsheets-master/bottomsheets-core/local.properties
-2019-11-19 12:47:23,291 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src/bottomsheets-master/bottomsheets-core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=18,targetSdkVersion=29]
-2019-11-19 12:47:23,291 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src/bottomsheets-master/bottomsheets-core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=29]
-2019-11-19 12:47:23,292 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src/bottomsheets-master/bottomsheets-ktx/local.properties
-2019-11-19 12:47:23,297 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src/bottomsheets-master/bottomsheets-ktx/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=18,targetSdkVersion=29]
-2019-11-19 12:47:23,297 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src/bottomsheets-master/bottomsheets-ktx/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=29]
-2019-11-19 12:47:23,298 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src/bottomsheets-master/bottomsheets-sheets/local.properties
-2019-11-19 12:47:23,303 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src/bottomsheets-master/bottomsheets-sheets/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=18,targetSdkVersion=29]
-2019-11-19 12:47:23,303 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src/bottomsheets-master/bottomsheets-sheets/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=29]
-2019-11-19 12:47:23,304 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src/bottomsheets-master/local.properties
-2019-11-19 12:47:23,304 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-11-19 12:47:23,304 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-11-19 12:47:23,308 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src/bottomsheets-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=18,targetSdkVersion=29]
-2019-11-19 12:47:23,308 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src/bottomsheets-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=29]
-2019-11-19 12:47:23,309 INFO  ProjectFixService - Project was maybe fixed
-2019-11-19 12:47:23,309 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-19 12:47:23,309 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src/bottomsheets-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src/bottomsheets-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-19 12:47:32,330 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-11-19 12:47:32,330 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-11-19 12:47:32,331 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src/bottomsheets-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src/bottomsheets-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-11-19 12:48:36,773 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-01 00:47:32,315 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src/bottomsheets-master/gradlew
+2019-12-01 00:47:32,322 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src/bottomsheets-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src/bottomsheets-master/bottomsheets-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src/bottomsheets-master/bottomsheets-ktx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src/bottomsheets-master/bottomsheets-sheets/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src/bottomsheets-master/build.gradle
+2019-12-01 00:47:32,328 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src/bottomsheets-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src/bottomsheets-master/bottomsheets-sheets/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src/bottomsheets-master/bottomsheets-ktx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src/bottomsheets-master/gradle/script/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src/bottomsheets-master/common/constants.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src/bottomsheets-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src/bottomsheets-master/bottomsheets-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src/bottomsheets-master/settings.gradle
+2019-12-01 00:47:32,329 INFO  ProjectBuildService - Remote scripts: none
+2019-12-01 00:47:32,329 INFO  ProjectFixService - Fixing project...
+2019-12-01 00:47:32,344 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src/bottomsheets-master/app/local.properties
+2019-12-01 00:47:32,349 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src/bottomsheets-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=18,targetSdkVersion=29]
+2019-12-01 00:47:32,350 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src/bottomsheets-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=29]
+2019-12-01 00:47:32,351 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src/bottomsheets-master/bottomsheets-core/local.properties
+2019-12-01 00:47:32,355 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src/bottomsheets-master/bottomsheets-core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=18,targetSdkVersion=29]
+2019-12-01 00:47:32,356 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src/bottomsheets-master/bottomsheets-core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=29]
+2019-12-01 00:47:32,357 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src/bottomsheets-master/bottomsheets-ktx/local.properties
+2019-12-01 00:47:32,362 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src/bottomsheets-master/bottomsheets-ktx/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=18,targetSdkVersion=29]
+2019-12-01 00:47:32,362 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src/bottomsheets-master/bottomsheets-ktx/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=29]
+2019-12-01 00:47:32,364 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src/bottomsheets-master/bottomsheets-sheets/local.properties
+2019-12-01 00:47:32,368 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src/bottomsheets-master/bottomsheets-sheets/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=18,targetSdkVersion=29]
+2019-12-01 00:47:32,368 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src/bottomsheets-master/bottomsheets-sheets/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=29]
+2019-12-01 00:47:32,369 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src/bottomsheets-master/local.properties
+2019-12-01 00:47:32,369 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-12-01 00:47:32,370 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-12-01 00:47:32,373 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src/bottomsheets-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=18,targetSdkVersion=29]
+2019-12-01 00:47:32,374 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src/bottomsheets-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=29]
+2019-12-01 00:47:32,374 INFO  ProjectFixService - Project was maybe fixed
+2019-12-01 00:47:32,374 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-01 00:47:32,375 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src/bottomsheets-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src/bottomsheets-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-01 00:47:42,225 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-12-01 00:47:42,226 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-01 00:47:42,226 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src/bottomsheets-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src/bottomsheets-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-01 00:48:47,251 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:checkDebugClasspath
-Download https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-runtime/3.3.2/databinding-runtime-3.3.2.aar
-Download https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-adapters/3.3.2/databinding-adapters-3.3.2.aar
 :app:preBuild UP-TO-DATE
 :bottomsheets-core:preBuild UP-TO-DATE
 :bottomsheets-core:preDebugBuild UP-TO-DATE
@@ -99,7 +97,7 @@ Download https://dl.google.com/dl/android/maven2/androidx/databinding/databindin
 :bottomsheets-sheets:prepareLintJar
 :bottomsheets-sheets:generateDebugSources
 :bottomsheets-sheets:javaPreCompileDebug
-:bottomsheets-sheets:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src/bottomsheets-master/bottomsheets-sheets/src/main/java/com/arthurivanets/bottomsheets/sheets/util/Utils.java uses or overrides a deprecated API.
+:bottomsheets-sheets:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src/bottomsheets-master/bottomsheets-sheets/src/main/java/com/arthurivanets/bottomsheets/sheets/util/Utils.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :bottomsheets-sheets:processDebugJavaRes NO-SOURCE
@@ -215,7 +213,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :bottomsheets-sheets:generateReleaseBuildConfig
 :bottomsheets-sheets:generateReleaseSources
 :bottomsheets-sheets:javaPreCompileRelease
-:bottomsheets-sheets:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src/bottomsheets-master/bottomsheets-sheets/src/main/java/com/arthurivanets/bottomsheets/sheets/util/Utils.java uses or overrides a deprecated API.
+:bottomsheets-sheets:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src/bottomsheets-master/bottomsheets-sheets/src/main/java/com/arthurivanets/bottomsheets/sheets/util/Utils.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :bottomsheets-sheets:processReleaseJavaRes NO-SOURCE
@@ -279,7 +277,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 1m 3s
+BUILD SUCCESSFUL in 1m 4s
 164 actionable tasks: 164 executed
 
-2019-11-19 12:48:36,932 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142436627-0/src/bottomsheets-master/app/build/outputs/apk/debug/app-debug.apk
+2019-12-01 00:48:47,424 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136045431-0/src/bottomsheets-master/app/build/outputs/apk/debug/app-debug.apk

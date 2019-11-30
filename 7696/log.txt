@@ -1,53 +1,56 @@
-2019-11-19 12:52:42,751 INFO  DownloadService - Downloading "https://github.com/kizitonwose/CalendarView/archive/master.zip", attempt 3
-2019-11-19 12:52:46,547 INFO  DownloadService - Downloaded https://github.com/kizitonwose/CalendarView/archive/master.zip, attempt 3
-2019-11-19 12:52:46,547 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/master.zip": 2 MB
-2019-11-19 12:52:46,547 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-11-19 12:52:46,549 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/master.zip: true
-2019-11-19 12:52:46,550 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src'.
-2019-11-19 12:52:46,604 INFO  FullProcessService - Size of directory with sources: 2 MB
-2019-11-19 12:52:46,604 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src]
-2019-11-19 12:52:46,636 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/.git/
+2019-12-01 00:49:02,974 INFO  DownloadService - Downloading "https://github.com/kizitonwose/CalendarView/archive/master.zip", attempt 3
+2019-12-01 00:49:07,801 INFO  DownloadService - Downloaded https://github.com/kizitonwose/CalendarView/archive/master.zip, attempt 3
+2019-12-01 00:49:07,801 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/master.zip": 2 MB
+2019-12-01 00:49:07,802 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-12-01 00:49:07,802 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/master.zip: true
+2019-12-01 00:49:07,802 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src'.
+2019-12-01 00:49:07,865 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-12-01 00:49:07,866 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src]
+2019-12-01 00:49:07,886 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/.git/
 
-2019-11-19 12:52:46,640 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/gradlew
-2019-11-19 12:52:46,644 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/build.gradle
-2019-11-19 12:52:46,648 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/settings.gradle
-2019-11-19 12:52:46,648 INFO  ProjectBuildService - Remote scripts: none
-2019-11-19 12:52:46,648 INFO  ProjectFixService - Fixing project...
-2019-11-19 12:52:46,655 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/library/local.properties
-2019-11-19 12:52:46,657 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-11-19 12:52:46,657 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-11-19 12:52:46,658 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/sample/local.properties
-2019-11-19 12:52:46,660 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-11-19 12:52:46,660 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-11-19 12:52:46,661 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/local.properties
-2019-11-19 12:52:46,661 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-11-19 12:52:46,661 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-11-19 12:52:46,663 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-11-19 12:52:46,663 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-11-19 12:52:46,664 INFO  ProjectFixService - Project was maybe fixed
-2019-11-19 12:52:46,664 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-19 12:52:46,664 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-19 12:52:53,009 INFO  ProjectTaskService - Detected possible tasks: 63
-2019-11-19 12:52:53,009 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-11-19 12:52:53,009 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-11-19 12:53:18,658 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-01 00:49:07,890 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/gradlew
+2019-12-01 00:49:07,895 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/build.gradle
+2019-12-01 00:49:07,898 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/settings.gradle
+2019-12-01 00:49:07,899 INFO  ProjectBuildService - Remote scripts: none
+2019-12-01 00:49:07,899 INFO  ProjectFixService - Fixing project...
+2019-12-01 00:49:07,909 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/library/local.properties
+2019-12-01 00:49:07,911 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-12-01 00:49:07,911 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-12-01 00:49:07,912 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/sample/local.properties
+2019-12-01 00:49:07,914 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-12-01 00:49:07,914 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-12-01 00:49:07,915 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/local.properties
+2019-12-01 00:49:07,915 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-12-01 00:49:07,915 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-12-01 00:49:07,920 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-12-01 00:49:07,921 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-12-01 00:49:07,921 INFO  ProjectFixService - Project was maybe fixed
+2019-12-01 00:49:07,921 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-01 00:49:07,922 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-01 00:49:16,645 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-12-01 00:49:16,645 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-12-01 00:49:16,646 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-12-01 00:49:46,426 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
 > Task :library:checkDebugManifest
 > Task :library:generateDebugBuildConfig
 > Task :library:generateDebugResValues
 > Task :library:mergeDebugShaders
-> Task :library:compileDebugAidl NO-SOURCE
-> Task :library:compileDebugRenderscript NO-SOURCE
-> Task :library:generateDebugResources
-> Task :library:packageDebugResources
-> Task :library:processDebugManifest
 > Task :library:compileDebugShaders
 > Task :library:generateDebugAssets
 > Task :library:packageDebugAssets
 > Task :library:packageDebugRenderscript NO-SOURCE
 > Task :library:processDebugJavaRes NO-SOURCE
+> Task :library:prepareLintJarForPublish
 > Task :library:mergeDebugJniLibFolders
+> Task :library:compileDebugAidl NO-SOURCE
+> Task :library:compileDebugRenderscript NO-SOURCE
+> Task :library:generateDebugResources
+> Task :library:packageDebugResources
+> Task :library:mergeDebugNativeLibs
+> Task :library:stripDebugDebugSymbols
+> Task :library:transformNativeLibsWithSyncJniLibsForDebug
 > Task :library:preReleaseBuild UP-TO-DATE
 > Task :library:compileReleaseAidl NO-SOURCE
 > Task :library:compileReleaseRenderscript NO-SOURCE
@@ -56,7 +59,7 @@
 > Task :library:generateReleaseResValues
 > Task :library:generateReleaseResources
 > Task :library:packageReleaseResources
-> Task :library:prepareLintJarForPublish
+> Task :library:parseDebugLibraryResources
 > Task :library:mergeReleaseShaders
 > Task :library:compileReleaseShaders
 > Task :library:generateReleaseAssets
@@ -64,22 +67,19 @@
 > Task :library:packageReleaseRenderscript NO-SOURCE
 > Task :library:processReleaseJavaRes NO-SOURCE
 > Task :library:mergeReleaseJniLibFolders
-> Task :library:processReleaseManifest
-> Task :library:mergeDebugNativeLibs
-> Task :library:stripDebugDebugSymbols
-> Task :library:transformNativeLibsWithSyncJniLibsForDebug
+> Task :library:parseReleaseLibraryResources
+> Task :library:processDebugManifest
 > Task :library:mergeReleaseNativeLibs
 > Task :library:stripReleaseDebugSymbols
 > Task :library:transformNativeLibsWithSyncJniLibsForRelease
-> Task :library:parseDebugLibraryResources
+> Task :library:processReleaseManifest
 > Task :library:mergeReleaseResources
-> Task :library:parseReleaseLibraryResources
 > Task :library:generateDebugRFile
 
 > Task :library:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/ui/CalendarAdapter.kt: (113, 28): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/utils/Extensions.kt: (15, 10): Expected performance impact of inlining 'internal inline fun Boolean?.orFalse(): Boolean defined in com.kizitonwose.calendarview.utils in file Extensions.kt' is insignificant. Inlining works best for functions with parameters of functional types
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/utils/Extensions.kt: (17, 10): Expected performance impact of inlining 'internal inline fun Int?.orZero(): Int defined in com.kizitonwose.calendarview.utils in file Extensions.kt' is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/ui/CalendarAdapter.kt: (113, 28): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/utils/Extensions.kt: (15, 10): Expected performance impact of inlining 'internal inline fun Boolean?.orFalse(): Boolean defined in com.kizitonwose.calendarview.utils in file Extensions.kt' is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/utils/Extensions.kt: (17, 10): Expected performance impact of inlining 'internal inline fun Int?.orZero(): Int defined in com.kizitonwose.calendarview.utils in file Extensions.kt' is insignificant. Inlining works best for functions with parameters of functional types
 
 > Task :library:verifyReleaseResources
 > Task :library:javaPreCompileDebug
@@ -91,9 +91,9 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/
 > Task :library:generateReleaseRFile
 
 > Task :library:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/ui/CalendarAdapter.kt: (113, 28): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/utils/Extensions.kt: (15, 10): Expected performance impact of inlining 'internal inline fun Boolean?.orFalse(): Boolean defined in com.kizitonwose.calendarview.utils in file Extensions.kt' is insignificant. Inlining works best for functions with parameters of functional types
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/utils/Extensions.kt: (17, 10): Expected performance impact of inlining 'internal inline fun Int?.orZero(): Int defined in com.kizitonwose.calendarview.utils in file Extensions.kt' is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/ui/CalendarAdapter.kt: (113, 28): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/utils/Extensions.kt: (15, 10): Expected performance impact of inlining 'internal inline fun Boolean?.orFalse(): Boolean defined in com.kizitonwose.calendarview.utils in file Extensions.kt' is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/utils/Extensions.kt: (17, 10): Expected performance impact of inlining 'internal inline fun Int?.orZero(): Int defined in com.kizitonwose.calendarview.utils in file Extensions.kt' is insignificant. Inlining works best for functions with parameters of functional types
 
 > Task :library:mergeDebugJavaResource
 > Task :library:transformClassesAndResourcesWithSyncLibJarsForDebug
@@ -116,15 +116,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 25s
+BUILD SUCCESSFUL in 29s
 49 actionable tasks: 49 executed
 
-2019-11-19 12:53:18,684 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-19 12:53:18,684 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-19 12:53:24,745 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-11-19 12:53:24,745 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-11-19 12:53:24,745 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-11-19 12:54:32,675 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-01 00:49:46,458 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-01 00:49:46,458 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-01 00:49:54,621 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-12-01 00:49:54,622 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-01 00:49:54,622 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-01 00:51:24,280 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
 > Task :library:checkDebugManifest UP-TO-DATE
@@ -144,8 +144,8 @@ BUILD SUCCESSFUL in 25s
 > Task :sample:preDebugBuild UP-TO-DATE
 > Task :sample:compileDebugAidl NO-SOURCE
 > Task :library:packageDebugRenderscript NO-SOURCE
-> Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:checkDebugManifest
+> Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:generateDebugBuildConfig
 > Task :library:bundleLibCompileDebug
 > Task :sample:mainApkListPersistenceDebug
@@ -157,11 +157,11 @@ BUILD SUCCESSFUL in 25s
 > Task :sample:processDebugResources
 
 > Task :sample:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Example1Fragment.kt: (51, 55): Name shadowed: view
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Example1Fragment.kt: (151, 42): Name shadowed: animator
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Example2Fragment.kt: (44, 55): Name shadowed: view
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Example4Fragment.kt: (79, 55): Name shadowed: view
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Extensions.kt: (41, 10): Expected performance impact of inlining 'internal inline fun Boolean?.orFalse(): Boolean defined in com.kizitonwose.calendarviewsample in file Extensions.kt' is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Example1Fragment.kt: (51, 55): Name shadowed: view
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Example1Fragment.kt: (151, 42): Name shadowed: animator
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Example2Fragment.kt: (44, 55): Name shadowed: view
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Example4Fragment.kt: (73, 55): Name shadowed: view
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Extensions.kt: (41, 10): Expected performance impact of inlining 'internal inline fun Boolean?.orFalse(): Boolean defined in com.kizitonwose.calendarviewsample in file Extensions.kt' is insignificant. Inlining works best for functions with parameters of functional types
 
 > Task :sample:javaPreCompileDebug
 > Task :sample:compileDebugJavaWithJavac
@@ -183,9 +183,9 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/
 > Task :library:bundleLibRuntimeDebug
 > Task :library:createFullJarDebug
 > Task :sample:transformClassesWithDexBuilderForDebug
-> Task :sample:mergeLibDexDebug
 > Task :sample:validateSigningDebug
 > Task :sample:signingConfigWriterDebug
+> Task :sample:mergeLibDexDebug
 > Task :library:mergeDebugJniLibFolders UP-TO-DATE
 > Task :library:mergeDebugNativeLibs UP-TO-DATE
 > Task :library:stripDebugDebugSymbols UP-TO-DATE
@@ -214,39 +214,36 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/
 > Task :sample:mainApkListPersistenceRelease
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
-> Task :library:bundleLibCompileRelease
 > Task :sample:createReleaseCompatibleScreenManifests
 > Task :sample:processReleaseManifest
+> Task :sample:mergeProjectDexDebug
+> Task :library:bundleLibCompileRelease
 > Task :sample:mergeDebugNativeLibs
 > Task :sample:stripDebugDebugSymbols
+> Task :library:prepareLintJarForPublish UP-TO-DATE
+> Task :sample:prepareLintJar
+> Task :library:processReleaseJavaRes NO-SOURCE
+> Task :sample:checkReleaseDuplicateClasses
+> Task :library:bundleLibResRelease
 > Task :sample:mergeReleaseResources
 > Task :sample:processReleaseResources
 
 > Task :sample:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Example1Fragment.kt: (51, 55): Name shadowed: view
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Example1Fragment.kt: (151, 42): Name shadowed: animator
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Example2Fragment.kt: (44, 55): Name shadowed: view
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Example4Fragment.kt: (79, 55): Name shadowed: view
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Extensions.kt: (41, 10): Expected performance impact of inlining 'internal inline fun Boolean?.orFalse(): Boolean defined in com.kizitonwose.calendarviewsample in file Extensions.kt' is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Example1Fragment.kt: (51, 55): Name shadowed: view
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Example1Fragment.kt: (151, 42): Name shadowed: animator
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Example2Fragment.kt: (44, 55): Name shadowed: view
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Example4Fragment.kt: (73, 55): Name shadowed: view
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Extensions.kt: (41, 10): Expected performance impact of inlining 'internal inline fun Boolean?.orFalse(): Boolean defined in com.kizitonwose.calendarviewsample in file Extensions.kt' is insignificant. Inlining works best for functions with parameters of functional types
 
-> Task :sample:mergeProjectDexDebug
+> Task :library:bundleLibRuntimeRelease
+> Task :library:createFullJarRelease
 > Task :sample:javaPreCompileRelease
 > Task :sample:compileReleaseJavaWithJavac
 > Task :sample:compileReleaseSources
-> Task :library:prepareLintJarForPublish UP-TO-DATE
-> Task :sample:prepareLintJar
-
 > Task :sample:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/e5bcc856678d4e5a25783bb3137b22ab/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-
-> Task :library:processReleaseJavaRes NO-SOURCE
 > Task :sample:mergeExtDexDebug
 > Task :sample:packageDebug
 > Task :sample:assembleDebug
-> Task :sample:checkReleaseDuplicateClasses
-> Task :library:bundleLibRuntimeRelease
-> Task :library:bundleLibResRelease
-> Task :library:createFullJarRelease
 > Task :sample:desugarReleaseFileDependencies
 > Task :sample:transformClassesWithDexBuilderForRelease
 > Task :library:mergeReleaseShaders UP-TO-DATE
@@ -278,7 +275,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 7s
+BUILD SUCCESSFUL in 1m 28s
 97 actionable tasks: 64 executed, 33 up-to-date
 
-2019-11-19 12:54:32,764 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574142762748-0/src/CalendarView-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-12-01 00:51:24,395 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575136142971-0/src/CalendarView-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
