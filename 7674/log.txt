@@ -1,36 +1,36 @@
-2019-11-21 13:00:46,865 INFO  DownloadService - Downloading "https://github.com/MrNtlu/Toastie/archive/master.zip", attempt 3
-2019-11-21 13:00:49,125 INFO  DownloadService - Downloaded https://github.com/MrNtlu/Toastie/archive/master.zip, attempt 3
-2019-11-21 13:00:49,126 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/master.zip": 221 KB
-2019-11-21 13:00:49,126 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-11-21 13:00:49,127 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/master.zip: true
-2019-11-21 13:00:49,128 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src'.
-2019-11-21 13:00:49,150 INFO  FullProcessService - Size of directory with sources: 252 KB
-2019-11-21 13:00:49,151 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src]
-2019-11-21 13:00:49,178 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/.git/
+2019-12-01 23:49:06,948 INFO  DownloadService - Downloading "https://github.com/MrNtlu/Toastie/archive/master.zip", attempt 3
+2019-12-01 23:49:09,371 INFO  DownloadService - Downloaded https://github.com/MrNtlu/Toastie/archive/master.zip, attempt 3
+2019-12-01 23:49:09,371 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/master.zip": 221 KB
+2019-12-01 23:49:09,371 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-12-01 23:49:09,373 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/master.zip: true
+2019-12-01 23:49:09,373 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src'.
+2019-12-01 23:49:09,400 INFO  FullProcessService - Size of directory with sources: 252 KB
+2019-12-01 23:49:09,400 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src]
+2019-12-01 23:49:09,424 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/.git/
 
-2019-11-21 13:00:49,181 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/gradlew
-2019-11-21 13:00:49,184 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/toastie/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/build.gradle
-2019-11-21 13:00:49,186 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/toastie/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/settings.gradle
-2019-11-21 13:00:49,187 INFO  ProjectBuildService - Remote scripts: none
-2019-11-21 13:00:49,187 INFO  ProjectFixService - Fixing project...
-2019-11-21 13:00:49,197 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/app/local.properties
-2019-11-21 13:00:49,198 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-11-21 13:00:49,198 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-11-21 13:00:49,199 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/toastie/local.properties
-2019-11-21 13:00:49,200 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/toastie/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-11-21 13:00:49,200 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/toastie/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-11-21 13:00:49,201 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/local.properties
-2019-11-21 13:00:49,202 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-11-21 13:00:49,202 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-11-21 13:00:49,203 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-11-21 13:00:49,203 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-11-21 13:00:49,204 INFO  ProjectFixService - Project was maybe fixed
-2019-11-21 13:00:49,204 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-21 13:00:49,204 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-21 13:00:57,038 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-11-21 13:00:57,039 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-11-21 13:00:57,039 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-11-21 13:01:09,622 ERROR SysUtils - Could not process external command
+2019-12-01 23:49:09,428 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/gradlew
+2019-12-01 23:49:09,432 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/toastie/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/build.gradle
+2019-12-01 23:49:09,435 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/toastie/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/settings.gradle
+2019-12-01 23:49:09,436 INFO  ProjectBuildService - Remote scripts: none
+2019-12-01 23:49:09,436 INFO  ProjectFixService - Fixing project...
+2019-12-01 23:49:09,445 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/app/local.properties
+2019-12-01 23:49:09,446 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-12-01 23:49:09,446 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-12-01 23:49:09,447 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/toastie/local.properties
+2019-12-01 23:49:09,448 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/toastie/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-12-01 23:49:09,448 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/toastie/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-12-01 23:49:09,449 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/local.properties
+2019-12-01 23:49:09,450 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-12-01 23:49:09,450 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-12-01 23:49:09,451 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-12-01 23:49:09,452 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-12-01 23:49:09,452 INFO  ProjectFixService - Project was maybe fixed
+2019-12-01 23:49:09,452 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-01 23:49:09,453 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-01 23:49:16,657 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-12-01 23:49:16,657 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-01 23:49:16,657 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-01 23:49:28,198 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -58,7 +58,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-11-21 13:01:09,623 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-01 23:49:28,198 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:prepareLintJar
 > Task :app:preDebugBuild
@@ -77,23 +77,23 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :app:processDebugResources
 
 > Task :app:compileDebugJavaWithJavac FAILED
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/app/src/main/java/com/mrntlu/toastieexample/MainActivity.java:20: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/app/src/main/java/com/mrntlu/toastieexample/MainActivity.java:20: error: cannot find symbol
                 ToastieActivity.warningToast(MainActivity.this,"Warning Toast",Toast.LENGTH_SHORT).show();
                 ^
   symbol: variable ToastieActivity
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/app/src/main/java/com/mrntlu/toastieexample/MainActivity.java:27: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/app/src/main/java/com/mrntlu/toastieexample/MainActivity.java:27: error: cannot find symbol
                 ToastieActivity.successToast(MainActivity.this,"Success Toast",Toast.LENGTH_LONG).show();
                 ^
   symbol: variable ToastieActivity
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/app/src/main/java/com/mrntlu/toastieexample/MainActivity.java:34: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/app/src/main/java/com/mrntlu/toastieexample/MainActivity.java:34: error: cannot find symbol
                 ToastieActivity.makeAllCustomToast(MainActivity.this,"Fully custom toast. Ugly as ... :)",R.drawable.ic_info_black_36dp,
                 ^
   symbol: variable ToastieActivity
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/app/src/main/java/com/mrntlu/toastieexample/MainActivity.java:42: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/app/src/main/java/com/mrntlu/toastieexample/MainActivity.java:42: error: cannot find symbol
                 ToastieActivity.makeAllCustomToast(MainActivity.this)
                 ^
   symbol: variable ToastieActivity
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/app/src/main/java/com/mrntlu/toastieexample/MainActivity.java:60: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/app/src/main/java/com/mrntlu/toastieexample/MainActivity.java:60: error: cannot find symbol
                 ToastieActivity.errorToast(MainActivity.this,"Error Toast.",Toast.LENGTH_LONG).show();
                 ^
   symbol: variable ToastieActivity
@@ -211,21 +211,21 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 12s
+BUILD FAILED in 11s
 12 actionable tasks: 12 executed
 
-2019-11-21 13:01:09,645 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-21 13:01:09,645 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/toastie/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-21 13:01:15,754 INFO  ProjectTaskService - Detected possible tasks: 63
-2019-11-21 13:01:15,754 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-11-21 13:01:15,755 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/toastie/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-11-21 13:01:25,095 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-01 23:49:28,219 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-01 23:49:28,220 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/toastie/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-01 23:49:36,333 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-12-01 23:49:36,333 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-12-01 23:49:36,334 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/toastie/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-12-01 23:49:45,904 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :toastie:preBuild UP-TO-DATE
 > Task :toastie:preDebugBuild UP-TO-DATE
 > Task :toastie:checkDebugManifest
 > Task :toastie:generateDebugBuildConfig
-> Task :toastie:compileDebugRenderscript NO-SOURCE
 > Task :toastie:compileDebugAidl NO-SOURCE
+> Task :toastie:compileDebugRenderscript NO-SOURCE
 > Task :toastie:generateDebugResValues
 > Task :toastie:generateDebugResources
 > Task :toastie:packageDebugResources
@@ -236,7 +236,7 @@ BUILD FAILED in 12s
 > Task :toastie:javaPreCompileDebug
 
 > Task :toastie:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/toastie/src/main/java/com/mrntlu/toastie/Toastie.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/toastie/src/main/java/com/mrntlu/toastie/Toastie.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :toastie:extractDebugAnnotations
@@ -271,7 +271,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :toastie:javaPreCompileRelease
 
 > Task :toastie:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/toastie/src/main/java/com/mrntlu/toastie/Toastie.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/toastie/src/main/java/com/mrntlu/toastie/Toastie.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :toastie:extractReleaseAnnotations
@@ -303,12 +303,12 @@ See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:comm
 BUILD SUCCESSFUL in 9s
 44 actionable tasks: 44 executed
 
-2019-11-21 13:01:25,142 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-21 13:01:25,143 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-21 13:01:31,364 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-11-21 13:01:31,364 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-11-21 13:01:31,364 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-11-21 13:01:39,195 ERROR SysUtils - Could not process external command
+2019-12-01 23:49:45,945 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-01 23:49:45,946 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-01 23:49:53,179 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-12-01 23:49:53,180 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-01 23:49:53,180 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-01 23:50:01,332 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -336,7 +336,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-11-21 13:01:39,196 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-01 23:50:01,332 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:prepareLintJar UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
@@ -355,23 +355,23 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :app:processDebugResources UP-TO-DATE
 
 > Task :app:compileDebugJavaWithJavac FAILED
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/app/src/main/java/com/mrntlu/toastieexample/MainActivity.java:20: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/app/src/main/java/com/mrntlu/toastieexample/MainActivity.java:20: error: cannot find symbol
                 ToastieActivity.warningToast(MainActivity.this,"Warning Toast",Toast.LENGTH_SHORT).show();
                 ^
   symbol: variable ToastieActivity
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/app/src/main/java/com/mrntlu/toastieexample/MainActivity.java:27: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/app/src/main/java/com/mrntlu/toastieexample/MainActivity.java:27: error: cannot find symbol
                 ToastieActivity.successToast(MainActivity.this,"Success Toast",Toast.LENGTH_LONG).show();
                 ^
   symbol: variable ToastieActivity
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/app/src/main/java/com/mrntlu/toastieexample/MainActivity.java:34: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/app/src/main/java/com/mrntlu/toastieexample/MainActivity.java:34: error: cannot find symbol
                 ToastieActivity.makeAllCustomToast(MainActivity.this,"Fully custom toast. Ugly as ... :)",R.drawable.ic_info_black_36dp,
                 ^
   symbol: variable ToastieActivity
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/app/src/main/java/com/mrntlu/toastieexample/MainActivity.java:42: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/app/src/main/java/com/mrntlu/toastieexample/MainActivity.java:42: error: cannot find symbol
                 ToastieActivity.makeAllCustomToast(MainActivity.this)
                 ^
   symbol: variable ToastieActivity
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574316046862-0/src/Toastie-master/app/src/main/java/com/mrntlu/toastieexample/MainActivity.java:60: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575218946944-0/src/Toastie-master/app/src/main/java/com/mrntlu/toastieexample/MainActivity.java:60: error: cannot find symbol
                 ToastieActivity.errorToast(MainActivity.this,"Error Toast.",Toast.LENGTH_LONG).show();
                 ^
   symbol: variable ToastieActivity
@@ -568,5 +568,5 @@ See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:comm
 BUILD FAILED in 7s
 12 actionable tasks: 1 executed, 11 up-to-date
 
-2019-11-21 13:01:39,243 ERROR FullProcessService - Project build has not produced APK file
-2019-11-21 13:01:39,285 ERROR FullProcessService - Could not find generated or existed APK file
+2019-12-01 23:50:01,380 ERROR FullProcessService - Project build has not produced APK file
+2019-12-01 23:50:01,423 ERROR FullProcessService - Could not find generated or existed APK file
