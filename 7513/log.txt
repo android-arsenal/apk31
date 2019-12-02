@@ -1,36 +1,36 @@
-2019-11-24 21:28:45,980 INFO  DownloadService - Downloading "https://github.com/MohammedAlaaMorsi/ValueCounter/archive/master.zip", attempt 3
-2019-11-24 21:28:48,069 INFO  DownloadService - Downloaded https://github.com/MohammedAlaaMorsi/ValueCounter/archive/master.zip, attempt 3
-2019-11-24 21:28:48,069 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605725976-0/master.zip": 164 KB
-2019-11-24 21:28:48,069 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-11-24 21:28:48,069 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605725976-0/master.zip: true
-2019-11-24 21:28:48,070 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605725976-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605725976-0/src'.
-2019-11-24 21:28:48,092 INFO  FullProcessService - Size of directory with sources: 214 KB
-2019-11-24 21:28:48,092 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605725976-0/src]
-2019-11-24 21:28:48,117 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605725976-0/src/.git/
+2019-12-02 13:03:24,031 INFO  DownloadService - Downloading "https://github.com/MohammedAlaaMorsi/ValueCounter/archive/master.zip", attempt 3
+2019-12-02 13:03:26,158 INFO  DownloadService - Downloaded https://github.com/MohammedAlaaMorsi/ValueCounter/archive/master.zip, attempt 3
+2019-12-02 13:03:26,159 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266604023-0/master.zip": 164 KB
+2019-12-02 13:03:26,159 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-12-02 13:03:26,160 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266604023-0/master.zip: true
+2019-12-02 13:03:26,160 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266604023-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266604023-0/src'.
+2019-12-02 13:03:26,203 INFO  FullProcessService - Size of directory with sources: 214 KB
+2019-12-02 13:03:26,203 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266604023-0/src]
+2019-12-02 13:03:26,239 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266604023-0/src/.git/
 
-2019-11-24 21:28:48,120 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605725976-0/src/ValueCounter-master/gradlew
-2019-11-24 21:28:48,123 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605725976-0/src/ValueCounter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605725976-0/src/ValueCounter-master/valuecounterlib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605725976-0/src/ValueCounter-master/build.gradle
-2019-11-24 21:28:48,126 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605725976-0/src/ValueCounter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605725976-0/src/ValueCounter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605725976-0/src/ValueCounter-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605725976-0/src/ValueCounter-master/valuecounterlib/build.gradle
-2019-11-24 21:28:48,126 INFO  ProjectBuildService - Remote scripts: none
-2019-11-24 21:28:48,127 INFO  ProjectFixService - Fixing project...
-2019-11-24 21:28:48,136 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605725976-0/src/ValueCounter-master/app/local.properties
-2019-11-24 21:28:48,137 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605725976-0/src/ValueCounter-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-11-24 21:28:48,137 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605725976-0/src/ValueCounter-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-11-24 21:28:48,138 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605725976-0/src/ValueCounter-master/valuecounterlib/local.properties
-2019-11-24 21:28:48,138 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605725976-0/src/ValueCounter-master/valuecounterlib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-11-24 21:28:48,138 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605725976-0/src/ValueCounter-master/valuecounterlib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-11-24 21:28:48,139 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605725976-0/src/ValueCounter-master/local.properties
-2019-11-24 21:28:48,140 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-11-24 21:28:48,140 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-11-24 21:28:48,141 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605725976-0/src/ValueCounter-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-11-24 21:28:48,141 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605725976-0/src/ValueCounter-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-11-24 21:28:48,141 INFO  ProjectFixService - Project was maybe fixed
-2019-11-24 21:28:48,141 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-24 21:28:48,142 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605725976-0/src/ValueCounter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605725976-0/src/ValueCounter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-24 21:28:55,954 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-11-24 21:28:55,954 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-11-24 21:28:55,954 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605725976-0/src/ValueCounter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605725976-0/src/ValueCounter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-11-24 21:29:30,568 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-02 13:03:26,242 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266604023-0/src/ValueCounter-master/gradlew
+2019-12-02 13:03:26,246 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266604023-0/src/ValueCounter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266604023-0/src/ValueCounter-master/valuecounterlib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266604023-0/src/ValueCounter-master/build.gradle
+2019-12-02 13:03:26,250 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266604023-0/src/ValueCounter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266604023-0/src/ValueCounter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266604023-0/src/ValueCounter-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266604023-0/src/ValueCounter-master/valuecounterlib/build.gradle
+2019-12-02 13:03:26,251 INFO  ProjectBuildService - Remote scripts: none
+2019-12-02 13:03:26,251 INFO  ProjectFixService - Fixing project...
+2019-12-02 13:03:26,264 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266604023-0/src/ValueCounter-master/app/local.properties
+2019-12-02 13:03:26,266 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266604023-0/src/ValueCounter-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-12-02 13:03:26,266 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266604023-0/src/ValueCounter-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-12-02 13:03:26,267 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266604023-0/src/ValueCounter-master/valuecounterlib/local.properties
+2019-12-02 13:03:26,269 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266604023-0/src/ValueCounter-master/valuecounterlib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-12-02 13:03:26,269 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266604023-0/src/ValueCounter-master/valuecounterlib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-12-02 13:03:26,271 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266604023-0/src/ValueCounter-master/local.properties
+2019-12-02 13:03:26,271 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-12-02 13:03:26,272 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-12-02 13:03:26,274 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266604023-0/src/ValueCounter-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-12-02 13:03:26,274 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266604023-0/src/ValueCounter-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-12-02 13:03:26,275 INFO  ProjectFixService - Project was maybe fixed
+2019-12-02 13:03:26,275 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-02 13:03:26,275 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266604023-0/src/ValueCounter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266604023-0/src/ValueCounter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-02 13:03:36,201 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-12-02 13:03:36,201 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-02 13:03:36,202 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266604023-0/src/ValueCounter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266604023-0/src/ValueCounter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-02 13:04:15,007 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :app
 WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
@@ -61,7 +61,7 @@ It will be removed at the end of 2018. For more information see: http://d.androi
 > Task :valuecounterlib:javaPreCompileDebug
 
 > Task :valuecounterlib:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605725976-0/src/ValueCounter-master/valuecounterlib/src/main/java/com/mohammedalaa/valuecounterlib/ValueCounterView.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266604023-0/src/ValueCounter-master/valuecounterlib/src/main/java/com/mohammedalaa/valuecounterlib/ValueCounterView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :valuecounterlib:processDebugJavaRes NO-SOURCE
@@ -126,8 +126,6 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :valuecounterlib:javaPreCompileRelease
 
 > Task :valuecounterlib:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605725976-0/src/ValueCounter-master/valuecounterlib/src/main/java/com/mohammedalaa/valuecounterlib/ValueCounterView.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
 
 > Task :valuecounterlib:processReleaseJavaRes NO-SOURCE
 > Task :valuecounterlib:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
@@ -135,6 +133,8 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266604023-0/src/ValueCounter-master/valuecounterlib/src/main/java/com/mohammedalaa/valuecounterlib/ValueCounterView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
 > Task :app:mergeReleaseResources
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:processReleaseManifest
@@ -173,7 +173,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 33s
+BUILD SUCCESSFUL in 37s
 88 actionable tasks: 88 executed
 
-2019-11-24 21:29:30,638 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574605725976-0/src/ValueCounter-master/app/build/outputs/apk/debug/app-debug.apk
+2019-12-02 13:04:15,085 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266604023-0/src/ValueCounter-master/app/build/outputs/apk/debug/app-debug.apk
