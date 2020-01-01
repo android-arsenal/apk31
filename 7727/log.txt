@@ -1,33 +1,33 @@
-2019-07-01 19:25:14,339 INFO  DownloadService - Downloading "https://github.com/rehmanmuradali/android-security-guides/archive/master.zip", attempt 3
-2019-07-01 19:25:17,872 INFO  DownloadService - Downloaded https://github.com/rehmanmuradali/android-security-guides/archive/master.zip, attempt 3
-2019-07-01 19:25:17,873 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983914330-0/master.zip": 1 MB
-2019-07-01 19:25:17,873 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-01 19:25:17,879 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983914330-0/master.zip: true
-2019-07-01 19:25:17,879 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983914330-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983914330-0/src'.
-2019-07-01 19:25:17,916 INFO  FullProcessService - Size of directory with sources: 2 MB
-2019-07-01 19:25:17,916 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983914330-0/src]
-2019-07-01 19:25:17,942 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983914330-0/src/.git/
+2020-01-01 19:03:47,772 INFO  DownloadService - Downloading "https://github.com/rehmanmuradali/android-security-guides/archive/master.zip", attempt 3
+2020-01-01 19:03:50,602 INFO  DownloadService - Downloaded https://github.com/rehmanmuradali/android-security-guides/archive/master.zip, attempt 3
+2020-01-01 19:03:50,602 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880227769-0/master.zip": 1 MB
+2020-01-01 19:03:50,602 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-01 19:03:50,603 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880227769-0/master.zip: true
+2020-01-01 19:03:50,603 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880227769-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880227769-0/src'.
+2020-01-01 19:03:50,633 INFO  FullProcessService - Size of directory with sources: 2 MB
+2020-01-01 19:03:50,634 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880227769-0/src]
+2020-01-01 19:03:50,658 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880227769-0/src/.git/
 
-2019-07-01 19:25:17,944 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983914330-0/src/android-security-guides-master/gradlew
-2019-07-01 19:25:17,947 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983914330-0/src/android-security-guides-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983914330-0/src/android-security-guides-master/build.gradle
-2019-07-01 19:25:17,950 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983914330-0/src/android-security-guides-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983914330-0/src/android-security-guides-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983914330-0/src/android-security-guides-master/settings.gradle
-2019-07-01 19:25:17,950 INFO  ProjectBuildService - Remote scripts: none
-2019-07-01 19:25:17,950 INFO  ProjectFixService - Fixing project...
-2019-07-01 19:25:17,956 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983914330-0/src/android-security-guides-master/app/local.properties
-2019-07-01 19:25:17,957 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983914330-0/src/android-security-guides-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-07-01 19:25:17,957 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983914330-0/src/android-security-guides-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-07-01 19:25:17,958 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983914330-0/src/android-security-guides-master/local.properties
-2019-07-01 19:25:17,958 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-07-01 19:25:17,959 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-07-01 19:25:17,960 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983914330-0/src/android-security-guides-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-07-01 19:25:17,960 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983914330-0/src/android-security-guides-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-07-01 19:25:17,960 INFO  ProjectFixService - Project was maybe fixed
-2019-07-01 19:25:17,960 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-01 19:25:17,961 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983914330-0/src/android-security-guides-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983914330-0/src/android-security-guides-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-01 19:25:24,480 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-07-01 19:25:24,480 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-01 19:25:24,481 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983914330-0/src/android-security-guides-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983914330-0/src/android-security-guides-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-01 19:26:21,406 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-01 19:03:50,660 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880227769-0/src/android-security-guides-master/gradlew
+2020-01-01 19:03:50,663 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880227769-0/src/android-security-guides-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880227769-0/src/android-security-guides-master/build.gradle
+2020-01-01 19:03:50,665 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880227769-0/src/android-security-guides-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880227769-0/src/android-security-guides-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880227769-0/src/android-security-guides-master/settings.gradle
+2020-01-01 19:03:50,666 INFO  ProjectBuildService - Remote scripts: none
+2020-01-01 19:03:50,666 INFO  ProjectFixService - Fixing project...
+2020-01-01 19:03:50,672 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880227769-0/src/android-security-guides-master/app/local.properties
+2020-01-01 19:03:50,673 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880227769-0/src/android-security-guides-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-01-01 19:03:50,673 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880227769-0/src/android-security-guides-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-01-01 19:03:50,673 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880227769-0/src/android-security-guides-master/local.properties
+2020-01-01 19:03:50,674 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2020-01-01 19:03:50,674 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2020-01-01 19:03:50,675 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880227769-0/src/android-security-guides-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-01-01 19:03:50,675 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880227769-0/src/android-security-guides-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-01-01 19:03:50,676 INFO  ProjectFixService - Project was maybe fixed
+2020-01-01 19:03:50,676 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-01 19:03:50,676 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880227769-0/src/android-security-guides-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880227769-0/src/android-security-guides-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-01 19:03:59,431 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-01-01 19:03:59,431 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-01-01 19:03:59,432 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880227769-0/src/android-security-guides-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880227769-0/src/android-security-guides-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-01-01 19:05:19,348 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild
 > Task :app:compileDebugAidl NO-SOURCE
@@ -43,7 +43,7 @@
 > Task :app:processDebugResources
 
 > Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983914330-0/src/android-security-guides-master/app/src/main/java/com/android/androidsecurity/implementation/SslPinning.kt: (40, 13): Variable 'retrofit' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880227769-0/src/android-security-guides-master/app/src/main/java/com/android/androidsecurity/implementation/SslPinning.kt: (40, 13): Variable 'retrofit' is never used
 
 > Task :app:prepareLintJar
 > Task :app:generateDebugSources
@@ -73,6 +73,7 @@ Build keys armeabi-v7a
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
 > Task :app:checkDebugDuplicateClasses
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.12.0/b36f4a04584c0fb0d9af2d3401cdff8dacb1ea54/okhttp-3.12.0.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `java.security.Provider okhttp3.internal.platform.ConscryptPlatform.getProvider()`
 > Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
 > Task :app:transformDexArchiveWithDexMergerForDebug
@@ -98,7 +99,7 @@ Build keys armeabi-v7a
 > Task :app:processReleaseResources
 
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983914330-0/src/android-security-guides-master/app/src/main/java/com/android/androidsecurity/implementation/SslPinning.kt: (40, 13): Variable 'retrofit' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880227769-0/src/android-security-guides-master/app/src/main/java/com/android/androidsecurity/implementation/SslPinning.kt: (40, 13): Variable 'retrofit' is never used
 
 > Task :app:generateReleaseSources
 > Task :app:javaPreCompileRelease
@@ -120,7 +121,10 @@ Build keys armeabi-v7a
 [armeabi-v7a] SharedLibrary  : libkeys.so
 
 > Task :app:compileReleaseSources
+
 > Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/369b172d5fd3a4f9b5e19b16c23900bc/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
@@ -128,9 +132,6 @@ Build keys armeabi-v7a
 > Task :app:signingConfigWriterRelease
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :app:transformResourcesWithMergeJavaResForRelease
-D8: The rule `-keep public class * extends androidx.versionedparcelable.VersionedParcelable {
-  <init>();
-}` uses extends but actually matches implements.
 
 > Task :app:transformClassesAndResourcesWithR8ForRelease
 R8 is the new Android code shrinker. If you experience any issues, please file a bug at
@@ -139,6 +140,9 @@ disable R8 by updating gradle.properties with 'android.enableR8=false'.
 Current version is: 1.4.94 (build 390954928f0db9c3b888a367f7f128ce3bbfb160 from go/r8bot (luci-r8-ci-archive-0-5g74)).
 
 
+D8: The rule `-keep public class * extends androidx.versionedparcelable.VersionedParcelable {
+  <init>();
+}` uses extends but actually matches implements.
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.12.0/b36f4a04584c0fb0d9af2d3401cdff8dacb1ea54/okhttp-3.12.0.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `void okhttp3.internal.platform.ConscryptPlatform.configureSslSocketFactory(javax.net.ssl.SSLSocketFactory)`
 
 > Task :app:mergeReleaseJniLibFolders
@@ -153,7 +157,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 56s
+BUILD SUCCESSFUL in 1m 19s
 55 actionable tasks: 55 executed
 
-2019-07-01 19:26:21,476 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983914330-0/src/android-security-guides-master/app/build/outputs/apk/debug/app-debug.apk
+2020-01-01 19:05:19,418 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880227769-0/src/android-security-guides-master/app/build/outputs/apk/debug/app-debug.apk
