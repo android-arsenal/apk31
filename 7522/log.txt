@@ -1,33 +1,34 @@
-2019-12-22 21:45:46,874 INFO  DownloadService - Downloading "https://github.com/Dimowner/AudioRecorder/archive/master.zip", attempt 3
-2019-12-22 21:45:49,906 INFO  DownloadService - Downloaded https://github.com/Dimowner/AudioRecorder/archive/master.zip, attempt 3
-2019-12-22 21:45:49,906 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025946870-0/master.zip": 900 KB
-2019-12-22 21:45:49,906 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-12-22 21:45:49,913 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025946870-0/master.zip: true
-2019-12-22 21:45:49,913 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025946870-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025946870-0/src'.
-2019-12-22 21:45:49,979 INFO  FullProcessService - Size of directory with sources: 3 MB
-2019-12-22 21:45:49,980 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025946870-0/src]
-2019-12-22 21:45:50,000 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025946870-0/src/.git/
+2020-01-05 23:33:18,637 INFO  DownloadService - Downloading "https://github.com/Dimowner/AudioRecorder/archive/master.zip", attempt 3
+2020-01-05 23:33:21,437 INFO  DownloadService - Downloaded https://github.com/Dimowner/AudioRecorder/archive/master.zip, attempt 3
+2020-01-05 23:33:21,437 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241998632-0/master.zip": 901 KB
+2020-01-05 23:33:21,438 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-05 23:33:21,444 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241998632-0/master.zip: true
+2020-01-05 23:33:21,444 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241998632-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241998632-0/src'.
+2020-01-05 23:33:21,517 INFO  FullProcessService - Size of directory with sources: 3 MB
+2020-01-05 23:33:21,517 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241998632-0/src]
+2020-01-05 23:33:21,536 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241998632-0/src/.git/
 
-2019-12-22 21:45:50,004 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025946870-0/src/AudioRecorder-master/gradlew
-2019-12-22 21:45:50,009 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025946870-0/src/AudioRecorder-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025946870-0/src/AudioRecorder-master/build.gradle
-2019-12-22 21:45:50,013 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025946870-0/src/AudioRecorder-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025946870-0/src/AudioRecorder-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025946870-0/src/AudioRecorder-master/settings.gradle
-2019-12-22 21:45:50,013 INFO  ProjectBuildService - Remote scripts: none
-2019-12-22 21:45:50,013 INFO  ProjectFixService - Fixing project...
-2019-12-22 21:45:50,022 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025946870-0/src/AudioRecorder-master/app/local.properties
-2019-12-22 21:45:50,023 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025946870-0/src/AudioRecorder-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-12-22 21:45:50,023 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025946870-0/src/AudioRecorder-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-12-22 21:45:50,025 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025946870-0/src/AudioRecorder-master/local.properties
-2019-12-22 21:45:50,025 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-12-22 21:45:50,025 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-12-22 21:45:50,027 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025946870-0/src/AudioRecorder-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-12-22 21:45:50,027 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025946870-0/src/AudioRecorder-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-12-22 21:45:50,027 INFO  ProjectFixService - Project was maybe fixed
-2019-12-22 21:45:50,027 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-22 21:45:50,028 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025946870-0/src/AudioRecorder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025946870-0/src/AudioRecorder-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-22 21:45:56,155 INFO  ProjectTaskService - Detected possible tasks: 75
-2019-12-22 21:45:56,155 INFO  ProjectTaskService - Excluded tasks (8): deviceCheck lint deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest
-2019-12-22 21:45:56,155 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025946870-0/src/AudioRecorder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025946870-0/src/AudioRecorder-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, build]
-2019-12-22 21:46:25,318 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-05 23:33:21,540 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241998632-0/src/AudioRecorder-master/gradlew
+2020-01-05 23:33:21,544 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241998632-0/src/AudioRecorder-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241998632-0/src/AudioRecorder-master/build.gradle
+2020-01-05 23:33:21,549 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241998632-0/src/AudioRecorder-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241998632-0/src/AudioRecorder-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241998632-0/src/AudioRecorder-master/settings.gradle
+2020-01-05 23:33:21,549 INFO  ProjectBuildService - Remote scripts: none
+2020-01-05 23:33:21,549 INFO  ProjectFixService - Fixing project...
+2020-01-05 23:33:21,558 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241998632-0/src/AudioRecorder-master/app/local.properties
+2020-01-05 23:33:21,559 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241998632-0/src/AudioRecorder-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-01-05 23:33:21,560 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241998632-0/src/AudioRecorder-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-01-05 23:33:21,561 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241998632-0/src/AudioRecorder-master/local.properties
+2020-01-05 23:33:21,562 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2020-01-05 23:33:21,563 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2020-01-05 23:33:21,564 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241998632-0/src/AudioRecorder-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-01-05 23:33:21,564 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241998632-0/src/AudioRecorder-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-01-05 23:33:21,565 INFO  ProjectFixService - Project was maybe fixed
+2020-01-05 23:33:21,565 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-05 23:33:21,565 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241998632-0/src/AudioRecorder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241998632-0/src/AudioRecorder-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-05 23:33:29,120 INFO  ProjectTaskService - Detected possible tasks: 75
+2020-01-05 23:33:29,120 INFO  ProjectTaskService - Excluded tasks (8): deviceCheck lint deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest
+2020-01-05 23:33:29,121 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241998632-0/src/AudioRecorder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241998632-0/src/AudioRecorder-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, build]
+2020-01-05 23:33:30,305 INFO  VirusProcessorServiceImpl - Queued project 7569 to scan viruses
+2020-01-05 23:34:02,020 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugConfigDebugBuild
 > Task :app:compileDebugConfigDebugAidl NO-SOURCE
@@ -91,7 +92,10 @@ Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileReleaseConfigReleaseSources
+
 > Task :app:lintVitalReleaseConfigRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/f85379bb14387ce41a5cad89272db491/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
 > Task :app:mergeReleaseConfigReleaseShaders
 > Task :app:compileReleaseConfigReleaseShaders
 > Task :app:generateReleaseConfigReleaseAssets
@@ -132,8 +136,8 @@ Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/9bfe703
 Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/4b27f6db797a7aa57f836c1df864fb55/jars/classes.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/0f826b4cb27ace3709b17c24ca146d22/jars/classes.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025946870-0/src/AudioRecorder-master/app/build/intermediates/javac/releaseConfigRelease/compileReleaseConfigReleaseJavaWithJavac/classes] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025946870-0/src/AudioRecorder-master/app/build/intermediates/transforms/mergeJavaRes/releaseConfig/release/0.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241998632-0/src/AudioRecorder-master/app/build/intermediates/javac/releaseConfigRelease/compileReleaseConfigReleaseJavaWithJavac/classes] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241998632-0/src/AudioRecorder-master/app/build/intermediates/transforms/mergeJavaRes/releaseConfig/release/0.jar] (filtered)
 Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar]
 Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/org.apache.http.legacy.jar]
 Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.mock.jar]
@@ -146,15 +150,15 @@ Ignoring unused library classes...
 Printing kept classes, fields, and methods...
 Inlining subroutines...
 Shrinking...
-Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025946870-0/src/AudioRecorder-master/app/build/outputs/mapping/releaseConfig/release/usage.txt]...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241998632-0/src/AudioRecorder-master/app/build/outputs/mapping/releaseConfig/release/usage.txt]...
 Removing unused program classes and class elements...
-  Original number of program classes: 1320
-  Final number of program classes:    502
+  Original number of program classes: 1323
+  Final number of program classes:    505
 Obfuscating...
-Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025946870-0/src/AudioRecorder-master/app/build/outputs/mapping/releaseConfig/release/mapping.txt]...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241998632-0/src/AudioRecorder-master/app/build/outputs/mapping/releaseConfig/release/mapping.txt]...
 Preverifying...
 Writing output...
-Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025946870-0/src/AudioRecorder-master/app/build/intermediates/transforms/proguard/releaseConfig/release/0.jar]
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241998632-0/src/AudioRecorder-master/app/build/intermediates/transforms/proguard/releaseConfig/release/0.jar]
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/a3f6f7a8694a015eea60db6fa59e0785/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/0a72a8f827d2e26c977faa3f5a16d251/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/aa42ac93cbd24de13c0688fc59d1acf6/jars/classes.jar] (filtered)
@@ -183,13 +187,13 @@ Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/4b27f6db797a7aa57f836c1df864fb55/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/0f826b4cb27ace3709b17c24ca146d22/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025946870-0/src/AudioRecorder-master/app/build/intermediates/javac/releaseConfigRelease/compileReleaseConfigReleaseJavaWithJavac/classes] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025946870-0/src/AudioRecorder-master/app/build/intermediates/transforms/mergeJavaRes/releaseConfig/release/0.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241998632-0/src/AudioRecorder-master/app/build/intermediates/javac/releaseConfigRelease/compileReleaseConfigReleaseJavaWithJavac/classes] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241998632-0/src/AudioRecorder-master/app/build/intermediates/transforms/mergeJavaRes/releaseConfig/release/0.jar] (filtered)
 
 > Task :app:checkReleaseConfigReleaseDuplicateClasses
 > Task :app:transformClassesWithDexBuilderForReleaseConfigRelease
 > Task :app:transformDexArchiveWithDexMergerForReleaseConfigRelease
-Removed unused resources: Binary resource data reduced from 186KB to 183KB: Removed 1%
+Removed unused resources: Binary resource data reduced from 187KB to 184KB: Removed 1%
 > Task :app:transformClassesAndDexWithShrinkResForReleaseConfigRelease
 > Task :app:mergeReleaseConfigReleaseJniLibFolders
 > Task :app:transformNativeLibsWithMergeJniLibsForReleaseConfigRelease
@@ -205,7 +209,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 28s
+BUILD SUCCESSFUL in 32s
 55 actionable tasks: 55 executed
 
-2019-12-22 21:46:25,380 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025946870-0/src/AudioRecorder-master/app/build/outputs/apk/debugConfig/debug/app-debugConfig-debug.apk
+2020-01-05 23:34:02,084 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241998632-0/src/AudioRecorder-master/app/build/outputs/apk/debugConfig/debug/app-debugConfig-debug.apk
