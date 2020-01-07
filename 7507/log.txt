@@ -1,31 +1,32 @@
-2019-09-01 21:21:41,527 INFO  DownloadService - Downloading "https://github.com/AliAsadi/Android-MVP-Architecture/archive/master.zip", attempt 3
-2019-09-01 21:21:43,855 INFO  DownloadService - Downloaded https://github.com/AliAsadi/Android-MVP-Architecture/archive/master.zip, attempt 3
-2019-09-01 21:21:43,855 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347701521-0/master.zip": 513 KB
-2019-09-01 21:21:43,855 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-09-01 21:21:43,860 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347701521-0/master.zip: true
-2019-09-01 21:21:43,861 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347701521-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347701521-0/src'.
-2019-09-01 21:21:43,884 INFO  FullProcessService - Size of directory with sources: 576 KB
-2019-09-01 21:21:43,884 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347701521-0/src]
-2019-09-01 21:21:43,908 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347701521-0/src/.git/
+2020-01-06 20:16:25,985 INFO  DownloadService - Downloading "https://github.com/AliAsadi/Android-MVP-Architecture/archive/master.zip", attempt 3
+2020-01-06 20:16:26,844 INFO  DownloadService - Downloaded https://github.com/AliAsadi/Android-MVP-Architecture/archive/master.zip, attempt 3
+2020-01-06 20:16:26,844 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316585977-0/master.zip": 513 KB
+2020-01-06 20:16:26,844 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-06 20:16:26,845 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316585977-0/master.zip: true
+2020-01-06 20:16:26,846 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316585977-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316585977-0/src'.
+2020-01-06 20:16:26,871 INFO  FullProcessService - Size of directory with sources: 576 KB
+2020-01-06 20:16:26,871 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316585977-0/src]
+2020-01-06 20:16:26,893 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316585977-0/src/.git/
 
-2019-09-01 21:21:43,911 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347701521-0/src/Android-MVP-Architecture-master/gradlew
-2019-09-01 21:21:43,914 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347701521-0/src/Android-MVP-Architecture-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347701521-0/src/Android-MVP-Architecture-master/build.gradle
-2019-09-01 21:21:43,916 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347701521-0/src/Android-MVP-Architecture-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347701521-0/src/Android-MVP-Architecture-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347701521-0/src/Android-MVP-Architecture-master/settings.gradle
-2019-09-01 21:21:43,917 INFO  ProjectBuildService - Remote scripts: none
-2019-09-01 21:21:43,917 INFO  ProjectFixService - Fixing project...
-2019-09-01 21:21:43,925 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347701521-0/src/Android-MVP-Architecture-master/app/local.properties
-2019-09-01 21:21:43,926 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347701521-0/src/Android-MVP-Architecture-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-09-01 21:21:43,927 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347701521-0/src/Android-MVP-Architecture-master/local.properties
-2019-09-01 21:21:43,927 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-09-01 21:21:43,927 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-09-01 21:21:43,928 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347701521-0/src/Android-MVP-Architecture-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-09-01 21:21:43,928 INFO  ProjectFixService - Project was maybe fixed
-2019-09-01 21:21:43,929 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-01 21:21:43,929 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347701521-0/src/Android-MVP-Architecture-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347701521-0/src/Android-MVP-Architecture-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-01 21:21:50,651 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-09-01 21:21:50,652 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-09-01 21:21:50,652 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347701521-0/src/Android-MVP-Architecture-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347701521-0/src/Android-MVP-Architecture-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-09-01 21:22:38,072 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-06 20:16:26,897 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316585977-0/src/Android-MVP-Architecture-master/gradlew
+2020-01-06 20:16:26,901 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316585977-0/src/Android-MVP-Architecture-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316585977-0/src/Android-MVP-Architecture-master/build.gradle
+2020-01-06 20:16:26,905 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316585977-0/src/Android-MVP-Architecture-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316585977-0/src/Android-MVP-Architecture-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316585977-0/src/Android-MVP-Architecture-master/settings.gradle
+2020-01-06 20:16:26,905 INFO  ProjectBuildService - Remote scripts: none
+2020-01-06 20:16:26,905 INFO  ProjectFixService - Fixing project...
+2020-01-06 20:16:26,916 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316585977-0/src/Android-MVP-Architecture-master/app/local.properties
+2020-01-06 20:16:26,916 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316585977-0/src/Android-MVP-Architecture-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2020-01-06 20:16:26,917 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316585977-0/src/Android-MVP-Architecture-master/local.properties
+2020-01-06 20:16:26,918 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2020-01-06 20:16:26,919 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2020-01-06 20:16:26,920 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316585977-0/src/Android-MVP-Architecture-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2020-01-06 20:16:26,920 INFO  ProjectFixService - Project was maybe fixed
+2020-01-06 20:16:26,921 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-06 20:16:26,921 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316585977-0/src/Android-MVP-Architecture-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316585977-0/src/Android-MVP-Architecture-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-06 20:16:35,232 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-01-06 20:16:35,232 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-01-06 20:16:35,232 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316585977-0/src/Android-MVP-Architecture-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316585977-0/src/Android-MVP-Architecture-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-01-06 20:16:38,967 INFO  VirusProcessorServiceImpl - Queued project 8016 to scan viruses
+2020-01-06 20:17:28,042 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild
 > Task :app:compileDebugAidl NO-SOURCE
@@ -109,7 +110,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 46s
+BUILD SUCCESSFUL in 52s
 51 actionable tasks: 51 executed
 
-2019-09-01 21:22:38,140 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567347701521-0/src/Android-MVP-Architecture-master/app/build/outputs/apk/debug/app-debug.apk
+2020-01-06 20:17:28,122 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578316585977-0/src/Android-MVP-Architecture-master/app/build/outputs/apk/debug/app-debug.apk
