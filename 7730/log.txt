@@ -1,36 +1,37 @@
-2019-06-30 19:34:13,236 INFO  DownloadService - Downloading "https://github.com/dori871992/CryptoLight/archive/master.zip", attempt 3
-2019-06-30 19:34:14,257 INFO  DownloadService - Downloaded https://github.com/dori871992/CryptoLight/archive/master.zip, attempt 3
-2019-06-30 19:34:14,257 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898053232-0/master.zip": 166 KB
-2019-06-30 19:34:14,257 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-06-30 19:34:14,259 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898053232-0/master.zip: true
-2019-06-30 19:34:14,259 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898053232-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898053232-0/src'.
-2019-06-30 19:34:14,290 INFO  FullProcessService - Size of directory with sources: 244 KB
-2019-06-30 19:34:14,290 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898053232-0/src]
-2019-06-30 19:34:14,310 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898053232-0/src/.git/
+2020-01-24 14:44:36,937 INFO  DownloadService - Downloading "https://github.com/dori871992/CryptoLight/archive/master.zip", attempt 3
+2020-01-24 14:44:38,354 INFO  DownloadService - Downloaded https://github.com/dori871992/CryptoLight/archive/master.zip, attempt 3
+2020-01-24 14:44:38,354 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851876934-0/master.zip": 167 KB
+2020-01-24 14:44:38,354 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-24 14:44:38,356 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851876934-0/master.zip: true
+2020-01-24 14:44:38,356 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851876934-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851876934-0/src'.
+2020-01-24 14:44:38,377 INFO  FullProcessService - Size of directory with sources: 245 KB
+2020-01-24 14:44:38,377 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851876934-0/src]
+2020-01-24 14:44:38,404 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851876934-0/src/.git/
 
-2019-06-30 19:34:14,314 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898053232-0/src/CryptoLight-master/gradlew
-2019-06-30 19:34:14,320 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898053232-0/src/CryptoLight-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898053232-0/src/CryptoLight-master/cryptolight/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898053232-0/src/CryptoLight-master/build.gradle
-2019-06-30 19:34:14,324 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898053232-0/src/CryptoLight-master/cryptolight/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898053232-0/src/CryptoLight-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898053232-0/src/CryptoLight-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898053232-0/src/CryptoLight-master/settings.gradle
-2019-06-30 19:34:14,325 INFO  ProjectBuildService - Remote scripts: none
-2019-06-30 19:34:14,325 INFO  ProjectFixService - Fixing project...
-2019-06-30 19:34:14,337 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898053232-0/src/CryptoLight-master/app/local.properties
-2019-06-30 19:34:14,339 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898053232-0/src/CryptoLight-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-06-30 19:34:14,341 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898053232-0/src/CryptoLight-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-06-30 19:34:14,342 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898053232-0/src/CryptoLight-master/cryptolight/local.properties
-2019-06-30 19:34:14,344 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898053232-0/src/CryptoLight-master/cryptolight/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-06-30 19:34:14,344 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898053232-0/src/CryptoLight-master/cryptolight/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-06-30 19:34:14,346 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898053232-0/src/CryptoLight-master/local.properties
-2019-06-30 19:34:14,346 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-06-30 19:34:14,347 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-06-30 19:34:14,349 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898053232-0/src/CryptoLight-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-06-30 19:34:14,350 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898053232-0/src/CryptoLight-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-06-30 19:34:14,350 INFO  ProjectFixService - Project was maybe fixed
-2019-06-30 19:34:14,351 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-30 19:34:14,351 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898053232-0/src/CryptoLight-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898053232-0/src/CryptoLight-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-30 19:34:21,015 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-06-30 19:34:21,015 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-06-30 19:34:21,015 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898053232-0/src/CryptoLight-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898053232-0/src/CryptoLight-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-06-30 19:35:19,471 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-24 14:44:38,407 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851876934-0/src/CryptoLight-master/gradlew
+2020-01-24 14:44:38,410 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851876934-0/src/CryptoLight-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851876934-0/src/CryptoLight-master/cryptolight/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851876934-0/src/CryptoLight-master/build.gradle
+2020-01-24 14:44:38,413 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851876934-0/src/CryptoLight-master/cryptolight/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851876934-0/src/CryptoLight-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851876934-0/src/CryptoLight-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851876934-0/src/CryptoLight-master/settings.gradle
+2020-01-24 14:44:38,413 INFO  ProjectBuildService - Remote scripts: none
+2020-01-24 14:44:38,413 INFO  ProjectFixService - Fixing project...
+2020-01-24 14:44:38,420 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851876934-0/src/CryptoLight-master/app/local.properties
+2020-01-24 14:44:38,421 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851876934-0/src/CryptoLight-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-01-24 14:44:38,421 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851876934-0/src/CryptoLight-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-01-24 14:44:38,422 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851876934-0/src/CryptoLight-master/cryptolight/local.properties
+2020-01-24 14:44:38,422 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851876934-0/src/CryptoLight-master/cryptolight/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-01-24 14:44:38,422 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851876934-0/src/CryptoLight-master/cryptolight/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-01-24 14:44:38,423 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851876934-0/src/CryptoLight-master/local.properties
+2020-01-24 14:44:38,424 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2020-01-24 14:44:38,424 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2020-01-24 14:44:38,425 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851876934-0/src/CryptoLight-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-01-24 14:44:38,426 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851876934-0/src/CryptoLight-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-01-24 14:44:38,426 INFO  ProjectFixService - Project was maybe fixed
+2020-01-24 14:44:38,426 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-24 14:44:38,426 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851876934-0/src/CryptoLight-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851876934-0/src/CryptoLight-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-24 14:44:47,505 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-01-24 14:44:47,506 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-01-24 14:44:47,506 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851876934-0/src/CryptoLight-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851876934-0/src/CryptoLight-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-01-24 14:44:51,011 INFO  VirusProcessorServiceImpl - Queued project 7856 to scan viruses
+2020-01-24 14:45:56,303 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :cryptolight:preBuild UP-TO-DATE
 > Task :cryptolight:preDebugBuild UP-TO-DATE
@@ -68,9 +69,9 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:createDebugCompatibleScreenManifests
 
 > Task :app:processDebugManifest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898053232-0/src/CryptoLight-master/app/src/main/AndroidManifest.xml:6:5-8:48 Warning:
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851876934-0/src/CryptoLight-master/app/src/main/AndroidManifest.xml:6:5-8:48 Warning:
 	uses-permission#android.permission.WRITE_EXTERNAL_STORAGE@android:maxSdkVersion was tagged at AndroidManifest.xml:6 to remove other declarations but no other declaration present
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898053232-0/src/CryptoLight-master/app/src/main/AndroidManifest.xml:10:5-12:48 Warning:
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851876934-0/src/CryptoLight-master/app/src/main/AndroidManifest.xml:10:5-12:48 Warning:
 	uses-permission#android.permission.READ_EXTERNAL_STORAGE@android:maxSdkVersion was tagged at AndroidManifest.xml:10 to remove other declarations but no other declaration present
 
 > Task :app:processDebugResources
@@ -95,8 +96,8 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
 > Task :app:mergeDebugJniLibFolders
-> Task :app:mergeLibDexDebug
 > Task :cryptolight:mergeDebugJniLibFolders
+> Task :app:mergeLibDexDebug
 > Task :cryptolight:transformNativeLibsWithMergeJniLibsForDebug
 > Task :cryptolight:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :cryptolight:transformNativeLibsWithIntermediateJniLibsForDebug
@@ -139,19 +140,16 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:createReleaseCompatibleScreenManifests
 
 > Task :app:processReleaseManifest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898053232-0/src/CryptoLight-master/app/src/main/AndroidManifest.xml:6:5-8:48 Warning:
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851876934-0/src/CryptoLight-master/app/src/main/AndroidManifest.xml:6:5-8:48 Warning:
 	uses-permission#android.permission.WRITE_EXTERNAL_STORAGE@android:maxSdkVersion was tagged at AndroidManifest.xml:6 to remove other declarations but no other declaration present
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898053232-0/src/CryptoLight-master/app/src/main/AndroidManifest.xml:10:5-12:48 Warning:
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851876934-0/src/CryptoLight-master/app/src/main/AndroidManifest.xml:10:5-12:48 Warning:
 	uses-permission#android.permission.READ_EXTERNAL_STORAGE@android:maxSdkVersion was tagged at AndroidManifest.xml:10 to remove other declarations but no other declaration present
 
 > Task :app:processReleaseResources
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
 > Task :cryptolight:prepareLintJarForPublish
-
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/924370082e1e776270a5fc268d07f30e/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-
 > Task :cryptolight:processReleaseJavaRes NO-SOURCE
 > Task :cryptolight:bundleLibResRelease
 > Task :cryptolight:bundleLibRuntimeRelease
@@ -187,7 +185,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 58s
+BUILD SUCCESSFUL in 1m 8s
 92 actionable tasks: 92 executed
 
-2019-06-30 19:35:19,534 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561898053232-0/src/CryptoLight-master/app/build/outputs/apk/debug/app-debug.apk
+2020-01-24 14:45:56,365 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851876934-0/src/CryptoLight-master/app/build/outputs/apk/debug/app-debug.apk
