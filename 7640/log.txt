@@ -1,36 +1,36 @@
-2019-08-29 13:57:53,340 INFO  DownloadService - Downloading "https://github.com/guidovezzoni/repofactory/archive/master.zip", attempt 3
-2019-08-29 13:57:55,379 INFO  DownloadService - Downloaded https://github.com/guidovezzoni/repofactory/archive/master.zip, attempt 3
-2019-08-29 13:57:55,379 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/master.zip": 165 KB
-2019-08-29 13:57:55,379 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-29 13:57:55,379 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/master.zip: true
-2019-08-29 13:57:55,379 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src'.
-2019-08-29 13:57:55,400 INFO  FullProcessService - Size of directory with sources: 203 KB
-2019-08-29 13:57:55,400 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src]
-2019-08-29 13:57:55,421 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/.git/
+2020-02-16 19:34:14,684 INFO  DownloadService - Downloading "https://github.com/guidovezzoni/repofactory/archive/master.zip", attempt 3
+2020-02-16 19:34:16,756 INFO  DownloadService - Downloaded https://github.com/guidovezzoni/repofactory/archive/master.zip, attempt 3
+2020-02-16 19:34:16,757 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/master.zip": 165 KB
+2020-02-16 19:34:16,757 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-02-16 19:34:16,758 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/master.zip: true
+2020-02-16 19:34:16,758 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src'.
+2020-02-16 19:34:16,784 INFO  FullProcessService - Size of directory with sources: 203 KB
+2020-02-16 19:34:16,784 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src]
+2020-02-16 19:34:16,803 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/.git/
 
-2019-08-29 13:57:55,424 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/gradlew
-2019-08-29 13:57:55,427 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/repofactory/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/build.gradle
-2019-08-29 13:57:55,430 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/repofactory/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/settings.gradle
-2019-08-29 13:57:55,430 INFO  ProjectBuildService - Remote scripts: none
-2019-08-29 13:57:55,430 INFO  ProjectFixService - Fixing project...
-2019-08-29 13:57:55,438 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/app/local.properties
-2019-08-29 13:57:55,440 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-08-29 13:57:55,440 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-08-29 13:57:55,441 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/repofactory/local.properties
-2019-08-29 13:57:55,443 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/repofactory/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-08-29 13:57:55,444 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/repofactory/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-08-29 13:57:55,445 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/local.properties
-2019-08-29 13:57:55,445 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-08-29 13:57:55,446 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-08-29 13:57:55,449 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-08-29 13:57:55,449 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-08-29 13:57:55,450 INFO  ProjectFixService - Project was maybe fixed
-2019-08-29 13:57:55,450 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-29 13:57:55,451 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-29 13:58:03,738 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-08-29 13:58:03,738 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-08-29 13:58:03,738 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-08-29 13:58:11,665 ERROR SysUtils - Could not process external command
+2020-02-16 19:34:16,807 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/gradlew
+2020-02-16 19:34:16,810 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/repofactory/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/build.gradle
+2020-02-16 19:34:16,814 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/repofactory/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/settings.gradle
+2020-02-16 19:34:16,814 INFO  ProjectBuildService - Remote scripts: none
+2020-02-16 19:34:16,814 INFO  ProjectFixService - Fixing project...
+2020-02-16 19:34:16,821 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/app/local.properties
+2020-02-16 19:34:16,823 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-02-16 19:34:16,823 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-02-16 19:34:16,824 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/repofactory/local.properties
+2020-02-16 19:34:16,826 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/repofactory/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-02-16 19:34:16,826 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/repofactory/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-02-16 19:34:16,828 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/local.properties
+2020-02-16 19:34:16,828 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2020-02-16 19:34:16,829 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2020-02-16 19:34:16,831 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-02-16 19:34:16,831 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-02-16 19:34:16,832 INFO  ProjectFixService - Project was maybe fixed
+2020-02-16 19:34:16,832 INFO  ProjectTaskService - Detecting possible tasks...
+2020-02-16 19:34:16,832 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-02-16 19:34:24,418 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-02-16 19:34:24,418 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-02-16 19:34:24,418 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-02-16 19:34:34,874 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -49,16 +49,16 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-08-29 13:58:11,665 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-02-16 19:34:34,875 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild
 > Task :app:compileDebugAidl NO-SOURCE
@@ -79,11 +79,11 @@ FAILURE: Build failed with an exception.
 Execution failed for task ':app:processDebugResources'.
 > Android resource linking failed
   error: resource style/Theme.AppCompat.Light.DarkActionBar (aka com.guidovezzoni.repofactorylibrary:style/Theme.AppCompat.Light.DarkActionBar) not found.
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:9: AAPT: error: style attribute 'attr/colorPrimary (aka com.guidovezzoni.repofactorylibrary:attr/colorPrimary)' not found.
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:9: AAPT: error: style attribute 'attr/colorPrimary (aka com.guidovezzoni.repofactorylibrary:attr/colorPrimary)' not found.
       
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:10: AAPT: error: style attribute 'attr/colorPrimaryDark (aka com.guidovezzoni.repofactorylibrary:attr/colorPrimaryDark)' not found.
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:10: AAPT: error: style attribute 'attr/colorPrimaryDark (aka com.guidovezzoni.repofactorylibrary:attr/colorPrimaryDark)' not found.
       
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:11: AAPT: error: style attribute 'attr/colorAccent (aka com.guidovezzoni.repofactorylibrary:attr/colorAccent)' not found.
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:11: AAPT: error: style attribute 'attr/colorAccent (aka com.guidovezzoni.repofactorylibrary:attr/colorAccent)' not found.
       
   error: failed linking references.
 
@@ -127,11 +127,11 @@ org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:pro
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 Caused by: com.android.builder.internal.aapt.v2.Aapt2Exception: Android resource linking failed
 error: resource style/Theme.AppCompat.Light.DarkActionBar (aka com.guidovezzoni.repofactorylibrary:style/Theme.AppCompat.Light.DarkActionBar) not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:9: AAPT: error: style attribute 'attr/colorPrimary (aka com.guidovezzoni.repofactorylibrary:attr/colorPrimary)' not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:9: AAPT: error: style attribute 'attr/colorPrimary (aka com.guidovezzoni.repofactorylibrary:attr/colorPrimary)' not found.
     
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:10: AAPT: error: style attribute 'attr/colorPrimaryDark (aka com.guidovezzoni.repofactorylibrary:attr/colorPrimaryDark)' not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:10: AAPT: error: style attribute 'attr/colorPrimaryDark (aka com.guidovezzoni.repofactorylibrary:attr/colorPrimaryDark)' not found.
     
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:11: AAPT: error: style attribute 'attr/colorAccent (aka com.guidovezzoni.repofactorylibrary:attr/colorAccent)' not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:11: AAPT: error: style attribute 'attr/colorAccent (aka com.guidovezzoni.repofactorylibrary:attr/colorAccent)' not found.
     
 error: failed linking references.
 	at com.android.builder.internal.aapt.v2.Aapt2Exception$Companion.create(Aapt2Exception.kt:45)
@@ -180,9 +180,9 @@ error: failed linking references.
 	... 32 more
 Caused by: com.android.builder.internal.aapt.v2.Aapt2Exception: Android resource linking failed
 error: resource style/Theme.AppCompat.Light.DarkActionBar (aka com.guidovezzoni.repofactorylibrary:style/Theme.AppCompat.Light.DarkActionBar) not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:9: error: style attribute 'attr/colorPrimary (aka com.guidovezzoni.repofactorylibrary:attr/colorPrimary)' not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:10: error: style attribute 'attr/colorPrimaryDark (aka com.guidovezzoni.repofactorylibrary:attr/colorPrimaryDark)' not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:11: error: style attribute 'attr/colorAccent (aka com.guidovezzoni.repofactorylibrary:attr/colorAccent)' not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:9: error: style attribute 'attr/colorPrimary (aka com.guidovezzoni.repofactorylibrary:attr/colorPrimary)' not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:10: error: style attribute 'attr/colorPrimaryDark (aka com.guidovezzoni.repofactorylibrary:attr/colorPrimaryDark)' not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:11: error: style attribute 'attr/colorAccent (aka com.guidovezzoni.repofactorylibrary:attr/colorAccent)' not found.
 error: failed linking references.
 
 	at com.android.builder.internal.aapt.v2.Aapt2Exception$Companion.create(Aapt2Exception.kt:45)
@@ -201,15 +201,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 7s
+BUILD FAILED in 9s
 9 actionable tasks: 9 executed
 
-2019-08-29 13:58:11,672 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-29 13:58:11,672 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/repofactory/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-29 13:58:18,328 INFO  ProjectTaskService - Detected possible tasks: 63
-2019-08-29 13:58:18,328 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-08-29 13:58:18,328 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/repofactory/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-08-29 13:58:35,995 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-02-16 19:34:34,882 INFO  ProjectTaskService - Detecting possible tasks...
+2020-02-16 19:34:34,883 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/repofactory/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-02-16 19:34:44,956 INFO  ProjectTaskService - Detected possible tasks: 63
+2020-02-16 19:34:44,956 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-02-16 19:34:44,957 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/repofactory/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-02-16 19:35:06,046 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :repofactory:preBuild UP-TO-DATE
 > Task :repofactory:preDebugBuild UP-TO-DATE
 > Task :repofactory:compileDebugAidl NO-SOURCE
@@ -284,15 +284,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 17s
+BUILD SUCCESSFUL in 20s
 46 actionable tasks: 46 executed
 
-2019-08-29 13:58:36,014 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-29 13:58:36,014 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-29 13:58:42,251 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-08-29 13:58:42,251 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-08-29 13:58:42,251 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-08-29 13:58:50,790 ERROR SysUtils - Could not process external command
+2020-02-16 19:35:06,070 INFO  ProjectTaskService - Detecting possible tasks...
+2020-02-16 19:35:06,070 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-02-16 19:35:14,259 INFO  ProjectTaskService - Detected possible tasks: 68
+2020-02-16 19:35:14,259 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-02-16 19:35:14,259 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-02-16 19:35:24,503 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -311,16 +311,16 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-08-29 13:58:50,790 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-02-16 19:35:24,503 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :app:compileDebugAidl NO-SOURCE
@@ -341,11 +341,11 @@ FAILURE: Build failed with an exception.
 Execution failed for task ':app:processDebugResources'.
 > Android resource linking failed
   error: resource style/Theme.AppCompat.Light.DarkActionBar (aka com.guidovezzoni.repofactorylibrary:style/Theme.AppCompat.Light.DarkActionBar) not found.
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:9: AAPT: error: style attribute 'attr/colorPrimary (aka com.guidovezzoni.repofactorylibrary:attr/colorPrimary)' not found.
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:9: AAPT: error: style attribute 'attr/colorPrimary (aka com.guidovezzoni.repofactorylibrary:attr/colorPrimary)' not found.
       
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:10: AAPT: error: style attribute 'attr/colorPrimaryDark (aka com.guidovezzoni.repofactorylibrary:attr/colorPrimaryDark)' not found.
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:10: AAPT: error: style attribute 'attr/colorPrimaryDark (aka com.guidovezzoni.repofactorylibrary:attr/colorPrimaryDark)' not found.
       
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:11: AAPT: error: style attribute 'attr/colorAccent (aka com.guidovezzoni.repofactorylibrary:attr/colorAccent)' not found.
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:11: AAPT: error: style attribute 'attr/colorAccent (aka com.guidovezzoni.repofactorylibrary:attr/colorAccent)' not found.
       
   error: failed linking references.
 
@@ -389,11 +389,11 @@ org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:pro
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 Caused by: com.android.builder.internal.aapt.v2.Aapt2Exception: Android resource linking failed
 error: resource style/Theme.AppCompat.Light.DarkActionBar (aka com.guidovezzoni.repofactorylibrary:style/Theme.AppCompat.Light.DarkActionBar) not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:9: AAPT: error: style attribute 'attr/colorPrimary (aka com.guidovezzoni.repofactorylibrary:attr/colorPrimary)' not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:9: AAPT: error: style attribute 'attr/colorPrimary (aka com.guidovezzoni.repofactorylibrary:attr/colorPrimary)' not found.
     
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:10: AAPT: error: style attribute 'attr/colorPrimaryDark (aka com.guidovezzoni.repofactorylibrary:attr/colorPrimaryDark)' not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:10: AAPT: error: style attribute 'attr/colorPrimaryDark (aka com.guidovezzoni.repofactorylibrary:attr/colorPrimaryDark)' not found.
     
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:11: AAPT: error: style attribute 'attr/colorAccent (aka com.guidovezzoni.repofactorylibrary:attr/colorAccent)' not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:11: AAPT: error: style attribute 'attr/colorAccent (aka com.guidovezzoni.repofactorylibrary:attr/colorAccent)' not found.
     
 error: failed linking references.
 	at com.android.builder.internal.aapt.v2.Aapt2Exception$Companion.create(Aapt2Exception.kt:45)
@@ -442,9 +442,9 @@ error: failed linking references.
 	... 32 more
 Caused by: com.android.builder.internal.aapt.v2.Aapt2Exception: Android resource linking failed
 error: resource style/Theme.AppCompat.Light.DarkActionBar (aka com.guidovezzoni.repofactorylibrary:style/Theme.AppCompat.Light.DarkActionBar) not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:9: error: style attribute 'attr/colorPrimary (aka com.guidovezzoni.repofactorylibrary:attr/colorPrimary)' not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:10: error: style attribute 'attr/colorPrimaryDark (aka com.guidovezzoni.repofactorylibrary:attr/colorPrimaryDark)' not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567061873333-0/src/repofactory-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:11: error: style attribute 'attr/colorAccent (aka com.guidovezzoni.repofactorylibrary:attr/colorAccent)' not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:9: error: style attribute 'attr/colorPrimary (aka com.guidovezzoni.repofactorylibrary:attr/colorPrimary)' not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:10: error: style attribute 'attr/colorPrimaryDark (aka com.guidovezzoni.repofactorylibrary:attr/colorPrimaryDark)' not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856454680-0/src/repofactory-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:11: error: style attribute 'attr/colorAccent (aka com.guidovezzoni.repofactorylibrary:attr/colorAccent)' not found.
 error: failed linking references.
 
 	at com.android.builder.internal.aapt.v2.Aapt2Exception$Companion.create(Aapt2Exception.kt:45)
@@ -463,8 +463,8 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 8s
+BUILD FAILED in 9s
 9 actionable tasks: 1 executed, 8 up-to-date
 
-2019-08-29 13:58:50,809 ERROR FullProcessService - Project build has not produced APK file
-2019-08-29 13:58:50,825 ERROR FullProcessService - Could not find generated or existed APK file
+2020-02-16 19:35:24,518 ERROR FullProcessService - Project build has not produced APK file
+2020-02-16 19:35:24,534 ERROR FullProcessService - Could not find generated or existed APK file

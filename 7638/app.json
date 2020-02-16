@@ -5,6 +5,14 @@
     "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
     "versionName" : "1.0",
     "versionCode" : 1,
+    "revisionCode" : null,
+    "sharedUserId" : null,
+    "sharedUserLabel" : null,
+    "split" : null,
+    "configForSplit" : null,
+    "isFeatureSplit" : false,
+    "isSplitRequired" : false,
+    "isolatedSplits" : false,
     "installLocation" : null,
     "minSdkVersion" : "15",
     "targetSdkVersion" : "28",
@@ -20,7 +28,9 @@
     "largeScreens" : false,
     "usesPermissions" : [ ],
     "usesFeatures" : [ ],
-    "permissions" : [ ]
+    "permissions" : [ ],
+    "featureSplit" : false,
+    "splitRequired" : false
   },
   "icon" : {
     "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
@@ -28,11 +38,11 @@
     "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAC/UlEQVR42u2ZX0hTURzHV6vIjHzIl6CEbMnm3HZ3rzqlHvqjD/bvoTBQInpYKvRQEhlZsE2XBRXRXKNwzLnUrUGDDEJClIQISsmHevdhwppus9wffYhf5zc2WLGlbuveK9wDX85gO/f3/Zxzfnf8zhGJhMbjBu5GMUwc2cKpiIf1G9eLNqN4M5Hr8ZP6Q/BU7465mZKos2ofF8LY6CGdt3+ahzfMjmU3Y1l+yfiiLibApRIeLOhpVYjklxEX/YwMhBiP5B+g+oi1TRkBksnyc5gpjrpoPw4i/UrMRf+KOtWcKB6beMDJDDio+cm7sj2pXv8EIBmP/ZcnsoNhFx2KA+BDOJ559IAACw5q0X1dUp7qNS3AmE5aFnaqg3wEsF+RyNcGwNMVsLYdqMgrwJKzEoJDlRAYzE0k70i+sQwQJRp51ACdHRfhFupGdrpz8wJMm2sJBM0uQMRJg1l/Dhq07Tnp1OWr4DHUwPwAlXYV/htAmAD06s7mBWDodjX4+lUQ2ZAAWgLQKQAIAAKAACAACAACgAAgAAgA660HbN1noKmtFc63oFqyUnOrFjy6KvDbKXYBsPiYtVbB5AMGRrvV8LaLykrvjGr4alJAaFDNbkGDwbx2Dcw8rYEpkwY+Z6npXg3M9jEclJQEwGLIvaQ8ob0GDkM9LHBSUurzA2DqOApeqwpIXHYBzPrc30InCUBvAiDCJgBuoTkbDZ8eKmHcWA5jXdlp3CiHmccVZAuxnMTJVQi+UMePRHJRiDwj4uTgZC75NspZeT9a3MiHuxM9ZVK+Hu72t5cqMgMkLg1edUj2hofphWUeXXCsuBnw2VSBe80lpfFJ1qcBSLli2v7NVOHGBMWBCII9F0rGXiL/0h/vyzzEW8Fa7sjEh8p3yj/0SF97rcrgdzv1w9dPLWLPppIx52zK4HujdKRWWojbR7zWm8oCov31yqLjl44Vn246zI0wdp2iqA69rDr7f0M0ykXbyMdCol0cqxC9ZHXxjsky9ZzZyqUyJqzQeNJ+A2RnjIdyjjhuAAAAAElFTkSuQmCC",
     "file" : true
   },
-  "dexClasses" : 2235,
+  "dexClasses" : 2295,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.rbddevs.splashylibrary\" platformBuildVersionCode=\"28\" platformBuildVersionName=\"9\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0c0005\" android:label=\"Splashy\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.png\" android:appComponentFactory=\"android.support.v4.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.rbddevs.splashylibrary.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.rbddevs.splashy.SplashyActivity\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 2322635,
-  "crc32" : 1069010764,
-  "sha256" : "c50ccbacee5fb5c2778abfac6fcc206ef8ade2ef4fcf035f34c4567b8e1d3857",
-  "buildTime" : 1558868698000
+  "fileSize" : 2470356,
+  "crc32" : 3611618064,
+  "sha256" : "3ac92fa4739a5a258acd37458f39de605d2975ce0c9a2ce5b7beb242154154d0",
+  "buildTime" : 1581856610000
 }

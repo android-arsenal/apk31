@@ -1,40 +1,41 @@
-2019-12-28 19:46:40,619 INFO  DownloadService - Downloading "https://github.com/smarteist/Android-Image-Slider/archive/master.zip", attempt 3
-2019-12-28 19:46:44,550 INFO  DownloadService - Downloaded https://github.com/smarteist/Android-Image-Slider/archive/master.zip, attempt 3
-2019-12-28 19:46:44,550 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/master.zip": 8 MB
-2019-12-28 19:46:44,550 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-12-28 19:46:44,551 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/master.zip: true
-2019-12-28 19:46:44,551 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src'.
-2019-12-28 19:46:44,641 INFO  FullProcessService - Size of directory with sources: 8 MB
-2019-12-28 19:46:44,641 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src]
-2019-12-28 19:46:44,660 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/.git/
+2020-02-16 19:32:56,960 INFO  DownloadService - Downloading "https://github.com/smarteist/Android-Image-Slider/archive/master.zip", attempt 3
+2020-02-16 19:33:03,874 INFO  DownloadService - Downloaded https://github.com/smarteist/Android-Image-Slider/archive/master.zip, attempt 3
+2020-02-16 19:33:03,874 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/master.zip": 8 MB
+2020-02-16 19:33:03,874 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-02-16 19:33:03,880 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/master.zip: true
+2020-02-16 19:33:03,880 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src'.
+2020-02-16 19:33:03,977 INFO  FullProcessService - Size of directory with sources: 8 MB
+2020-02-16 19:33:03,977 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src]
+2020-02-16 19:33:03,995 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src/.git/
 
-2019-12-28 19:46:44,666 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/gradlew
-2019-12-28 19:46:44,671 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/autoimageslider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/build.gradle
-2019-12-28 19:46:44,676 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/autoimageslider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/settings.gradle
-2019-12-28 19:46:44,676 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/smarteist/bintrayUpload/master/bintray.gradle", attempt 3
-2019-12-28 19:46:44,910 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/smarteist/bintrayUpload/master/bintray.gradle, attempt 3
-2019-12-28 19:46:44,911 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/smarteist/bintrayUpload/master/install.gradle", attempt 3
-2019-12-28 19:46:45,136 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/smarteist/bintrayUpload/master/install.gradle, attempt 3
-2019-12-28 19:46:45,137 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/smarteist/bintrayUpload/master/bintray.gradle https://raw.githubusercontent.com/smarteist/bintrayUpload/master/install.gradle
-2019-12-28 19:46:45,137 INFO  ProjectFixService - Fixing project...
-2019-12-28 19:46:45,149 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/app/local.properties
-2019-12-28 19:46:45,150 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-12-28 19:46:45,150 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-12-28 19:46:45,151 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/autoimageslider/local.properties
-2019-12-28 19:46:45,152 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/autoimageslider/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-12-28 19:46:45,152 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/autoimageslider/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-12-28 19:46:45,153 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/local.properties
-2019-12-28 19:46:45,153 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-12-28 19:46:45,153 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-12-28 19:46:45,154 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-12-28 19:46:45,155 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-12-28 19:46:45,155 INFO  ProjectFixService - Project was maybe fixed
-2019-12-28 19:46:45,155 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-28 19:46:45,155 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-28 19:46:51,825 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-12-28 19:46:51,825 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-12-28 19:46:51,825 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-12-28 19:46:57,306 ERROR SysUtils - Could not process external command
+2020-02-16 19:33:03,999 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src/Android-Image-Slider-master/gradlew
+2020-02-16 19:33:04,004 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src/Android-Image-Slider-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src/Android-Image-Slider-master/autoimageslider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src/Android-Image-Slider-master/build.gradle
+2020-02-16 19:33:04,008 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src/Android-Image-Slider-master/autoimageslider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src/Android-Image-Slider-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src/Android-Image-Slider-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src/Android-Image-Slider-master/settings.gradle
+2020-02-16 19:33:04,009 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/smarteist/bintrayUpload/master/bintray.gradle", attempt 3
+2020-02-16 19:33:04,264 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/smarteist/bintrayUpload/master/bintray.gradle, attempt 3
+2020-02-16 19:33:04,264 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/smarteist/bintrayUpload/master/install.gradle", attempt 3
+2020-02-16 19:33:04,529 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/smarteist/bintrayUpload/master/install.gradle, attempt 3
+2020-02-16 19:33:04,529 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/smarteist/bintrayUpload/master/bintray.gradle https://raw.githubusercontent.com/smarteist/bintrayUpload/master/install.gradle
+2020-02-16 19:33:04,529 INFO  ProjectFixService - Fixing project...
+2020-02-16 19:33:04,543 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src/Android-Image-Slider-master/app/local.properties
+2020-02-16 19:33:04,544 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src/Android-Image-Slider-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-02-16 19:33:04,544 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src/Android-Image-Slider-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-02-16 19:33:04,545 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src/Android-Image-Slider-master/autoimageslider/local.properties
+2020-02-16 19:33:04,549 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src/Android-Image-Slider-master/autoimageslider/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-02-16 19:33:04,549 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src/Android-Image-Slider-master/autoimageslider/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-02-16 19:33:04,550 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src/Android-Image-Slider-master/local.properties
+2020-02-16 19:33:04,551 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2020-02-16 19:33:04,551 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2020-02-16 19:33:04,552 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src/Android-Image-Slider-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-02-16 19:33:04,553 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src/Android-Image-Slider-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-02-16 19:33:04,553 INFO  ProjectFixService - Project was maybe fixed
+2020-02-16 19:33:04,553 INFO  ProjectTaskService - Detecting possible tasks...
+2020-02-16 19:33:04,553 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src/Android-Image-Slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src/Android-Image-Slider-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-02-16 19:33:05,852 INFO  VirusProcessorServiceImpl - Queued project 7764 to scan viruses
+2020-02-16 19:33:11,328 INFO  ProjectTaskService - Detected possible tasks: 69
+2020-02-16 19:33:11,328 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-02-16 19:33:11,328 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src/Android-Image-Slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src/Android-Image-Slider-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-02-16 19:33:17,432 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -53,16 +54,16 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-12-28 19:46:57,306 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-02-16 19:33:17,432 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -159,9 +160,9 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 BUILD FAILED in 5s
 
-2019-12-28 19:46:57,307 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-12-28 19:46:57,307 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-12-28 19:47:07,832 ERROR SysUtils - Could not process external command
+2020-02-16 19:33:17,432 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2020-02-16 19:33:17,432 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src/Android-Image-Slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src/Android-Image-Slider-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-02-16 19:33:30,630 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -180,16 +181,16 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-12-28 19:47:07,832 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-02-16 19:33:30,630 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :autoimageslider:preBuild UP-TO-DATE
 > Task :autoimageslider:preDebugBuild UP-TO-DATE
@@ -198,31 +199,33 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :autoimageslider:packageDebugRenderscript NO-SOURCE
 > Task :app:prepareLintJar
 > Task :autoimageslider:generateDebugBuildConfig
-> Task :autoimageslider:generateDebugResValues
-> Task :autoimageslider:prepareLintJar
-> Task :app:preDebugBuild
 > Task :autoimageslider:compileDebugAidl NO-SOURCE
+> Task :autoimageslider:compileDebugRenderscript NO-SOURCE
+> Task :autoimageslider:generateDebugResValues
+> Task :app:preDebugBuild
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
 > Task :app:generateDebugSources
-> Task :autoimageslider:compileDebugRenderscript NO-SOURCE
 > Task :autoimageslider:generateDebugResources
-> Task :autoimageslider:packageDebugResources
-> Task :autoimageslider:generateDebugRFile
+> Task :autoimageslider:prepareLintJar
 > Task :autoimageslider:generateDebugSources
 > Task :autoimageslider:javaPreCompileDebug
+> Task :autoimageslider:packageDebugResources
+> Task :autoimageslider:generateDebugRFile
 
-> Task :autoimageslider:compileDebugJavaWithJavac FAILED
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/autoimageslider/src/main/java/com/smarteist/autoimageslider/SliderView.java:119: error: incomparable types: int and <null>
+> Task :autoimageslider:compileDebugJavaWithJavac
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src/Android-Image-Slider-master/autoimageslider/src/main/java/com/smarteist/autoimageslider/SliderView.java:133: error: incomparable types: int and <null>
         if(R.styleable.SliderView_sliderIndicatorMargin == null){
                                                         ^
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/PageIndicatorView.java uses or overrides a deprecated API.
+Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/autoimageslider/src/main/java/com/smarteist/autoimageslider/SliderViewAdapter.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src/Android-Image-Slider-master/autoimageslider/src/main/java/com/smarteist/autoimageslider/SliderViewAdapter.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 1 error
+
+> Task :autoimageslider:compileDebugJavaWithJavac FAILED
 
 FAILURE: Build failed with an exception.
 
@@ -336,15 +339,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 10s
+BUILD FAILED in 12s
 13 actionable tasks: 13 executed
 
-2019-12-28 19:47:07,842 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-28 19:47:07,842 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/autoimageslider/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-28 19:47:15,146 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-12-28 19:47:15,146 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-12-28 19:47:15,146 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/autoimageslider/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-12-28 19:47:24,106 ERROR SysUtils - Could not process external command
+2020-02-16 19:33:30,641 INFO  ProjectTaskService - Detecting possible tasks...
+2020-02-16 19:33:30,641 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src/Android-Image-Slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src/Android-Image-Slider-master/autoimageslider/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-02-16 19:33:40,013 INFO  ProjectTaskService - Detected possible tasks: 69
+2020-02-16 19:33:40,013 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-02-16 19:33:40,014 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src/Android-Image-Slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src/Android-Image-Slider-master/autoimageslider/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-02-16 19:33:53,905 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -363,42 +366,42 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-12-28 19:47:24,106 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-02-16 19:33:53,905 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :autoimageslider:preBuild UP-TO-DATE
 > Task :autoimageslider:preDebugBuild UP-TO-DATE
+> Task :autoimageslider:compileDebugAidl NO-SOURCE
 > Task :autoimageslider:checkDebugManifest UP-TO-DATE
+> Task :autoimageslider:compileDebugRenderscript NO-SOURCE
 > Task :autoimageslider:generateDebugBuildConfig UP-TO-DATE
 > Task :autoimageslider:generateDebugResValues UP-TO-DATE
-> Task :autoimageslider:processDebugManifest UP-TO-DATE
-> Task :autoimageslider:prepareLintJar UP-TO-DATE
-> Task :autoimageslider:mergeDebugConsumerProguardFiles
-> Task :autoimageslider:mergeDebugShaders
-> Task :autoimageslider:compileDebugAidl NO-SOURCE
-> Task :autoimageslider:compileDebugRenderscript NO-SOURCE
 > Task :autoimageslider:generateDebugResources UP-TO-DATE
+> Task :autoimageslider:processDebugManifest UP-TO-DATE
 > Task :autoimageslider:packageDebugResources UP-TO-DATE
 > Task :autoimageslider:generateDebugRFile UP-TO-DATE
+> Task :autoimageslider:prepareLintJar UP-TO-DATE
 > Task :autoimageslider:generateDebugSources UP-TO-DATE
 > Task :autoimageslider:javaPreCompileDebug UP-TO-DATE
 
-> Task :autoimageslider:compileDebugJavaWithJavac FAILED
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/autoimageslider/src/main/java/com/smarteist/autoimageslider/SliderView.java:119: error: incomparable types: int and <null>
+> Task :autoimageslider:compileDebugJavaWithJavac
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src/Android-Image-Slider-master/autoimageslider/src/main/java/com/smarteist/autoimageslider/SliderView.java:133: error: incomparable types: int and <null>
         if(R.styleable.SliderView_sliderIndicatorMargin == null){
                                                         ^
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/PageIndicatorView.java uses or overrides a deprecated API.
+Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/autoimageslider/src/main/java/com/smarteist/autoimageslider/SliderViewAdapter.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src/Android-Image-Slider-master/autoimageslider/src/main/java/com/smarteist/autoimageslider/SliderViewAdapter.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 1 error
+
+> Task :autoimageslider:compileDebugJavaWithJavac FAILED
 
 FAILURE: Build failed with an exception.
 
@@ -441,85 +444,9 @@ org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':autoima
 	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:202)
 	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.executeNextNode(DefaultPlanExecutor.java:193)
 	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:129)
-	at org.gradle.execution.plan.DefaultPlanExecutor.process(DefaultPlanExecutor.java:74)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph.executeWithServices(DefaultTaskExecutionGraph.java:178)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph.execute(DefaultTaskExecutionGraph.java:154)
-	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:41)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:40)
-	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:24)
-	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:46)
-	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:49)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:40)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:33)
-	at org.gradle.initialization.DefaultGradleLauncher$ExecuteTasks.run(DefaultGradleLauncher.java:383)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.initialization.DefaultGradleLauncher.runTasks(DefaultGradleLauncher.java:247)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:159)
-	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:134)
-	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:58)
-	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:55)
-	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:82)
-	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:75)
-	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:183)
-	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:40)
-	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:75)
-	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:55)
-	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:31)
-	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
-	at org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcomeReportingBuildActionRunner.java:58)
-	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
-	at org.gradle.launcher.exec.BuildCompletionNotifyingBuildActionRunner.run(BuildCompletionNotifyingBuildActionRunner.java:39)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:49)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:44)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:315)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:305)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:101)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:44)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:49)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:46)
-	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:78)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:46)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:31)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:42)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:28)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:52)
-	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:59)
-	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:36)
-	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:68)
-	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:38)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:37)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:26)
-	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
-	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:60)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:32)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:55)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:41)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:48)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:32)
-	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:55)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:207)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:403)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:376)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:37)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:23)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:369)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:299)
-	at org.gradle.launcher.Main.doAction(Main.java:36)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Compilation failed; see the compiler error output for details.
 	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:52)
 	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:36)
@@ -579,7 +506,7 @@ Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Com
 	at org.gradle.internal.execution.impl.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:36)
 	at org.gradle.internal.execution.impl.DefaultWorkExecutor.execute(DefaultWorkExecutor.java:34)
 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:91)
-	... 108 more
+	... 32 more
 
 
 * Get more help at https://help.gradle.org
@@ -588,15 +515,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 8s
-11 actionable tasks: 3 executed, 8 up-to-date
+BUILD FAILED in 13s
+9 actionable tasks: 1 executed, 8 up-to-date
 
-2019-12-28 19:47:24,117 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-28 19:47:24,118 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-28 19:47:32,798 INFO  ProjectTaskService - Detected possible tasks: 74
-2019-12-28 19:47:32,798 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-12-28 19:47:32,798 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-12-28 19:47:43,899 ERROR SysUtils - Could not process external command
+2020-02-16 19:33:53,919 INFO  ProjectTaskService - Detecting possible tasks...
+2020-02-16 19:33:53,919 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src/Android-Image-Slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src/Android-Image-Slider-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-02-16 19:34:03,876 INFO  ProjectTaskService - Detected possible tasks: 74
+2020-02-16 19:34:03,876 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-02-16 19:34:03,877 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src/Android-Image-Slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src/Android-Image-Slider-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-02-16 19:34:14,599 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -615,16 +542,16 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-12-28 19:47:43,900 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-02-16 19:34:14,599 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :autoimageslider:preBuild UP-TO-DATE
 > Task :autoimageslider:preDebugBuild UP-TO-DATE
@@ -643,19 +570,19 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :autoimageslider:generateDebugBuildConfig UP-TO-DATE
 > Task :autoimageslider:generateDebugResValues UP-TO-DATE
 > Task :autoimageslider:generateDebugResources UP-TO-DATE
-> Task :autoimageslider:prepareLintJar UP-TO-DATE
 > Task :autoimageslider:packageDebugResources UP-TO-DATE
 > Task :autoimageslider:generateDebugRFile UP-TO-DATE
+> Task :autoimageslider:prepareLintJar UP-TO-DATE
 > Task :autoimageslider:generateDebugSources UP-TO-DATE
 > Task :autoimageslider:javaPreCompileDebug UP-TO-DATE
 
 > Task :autoimageslider:compileDebugJavaWithJavac FAILED
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/autoimageslider/src/main/java/com/smarteist/autoimageslider/SliderView.java:119: error: incomparable types: int and <null>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src/Android-Image-Slider-master/autoimageslider/src/main/java/com/smarteist/autoimageslider/SliderView.java:133: error: incomparable types: int and <null>
         if(R.styleable.SliderView_sliderIndicatorMargin == null){
                                                         ^
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/autoimageslider/src/main/java/com/smarteist/autoimageslider/IndicatorView/PageIndicatorView.java uses or overrides a deprecated API.
+Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537200617-0/src/Android-Image-Slider-master/autoimageslider/src/main/java/com/smarteist/autoimageslider/SliderViewAdapter.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856376955-0/src/Android-Image-Slider-master/autoimageslider/src/main/java/com/smarteist/autoimageslider/SliderViewAdapter.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 1 error
 
@@ -770,9 +697,9 @@ Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Com
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
-13 actionable tasks: 1 executed, 12 up-to-date
 
 BUILD FAILED in 10s
+13 actionable tasks: 1 executed, 12 up-to-date
 
-2019-12-28 19:47:43,910 ERROR FullProcessService - Project build has not produced APK file
-2019-12-28 19:47:43,920 ERROR FullProcessService - Could not find generated or existed APK file
+2020-02-16 19:34:14,610 ERROR FullProcessService - Project build has not produced APK file
+2020-02-16 19:34:14,620 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,45 +1,47 @@
-2019-07-01 19:32:42,737 INFO  DownloadService - Downloading "https://github.com/adrielcafe/PufferDB/archive/master.zip", attempt 3
-2019-07-01 19:32:43,494 INFO  DownloadService - Downloaded https://github.com/adrielcafe/PufferDB/archive/master.zip, attempt 3
-2019-07-01 19:32:43,494 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/master.zip": 163 KB
-2019-07-01 19:32:43,494 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-01 19:32:43,500 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/master.zip: true
-2019-07-01 19:32:43,500 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src'.
-2019-07-01 19:32:43,522 INFO  FullProcessService - Size of directory with sources: 206 KB
-2019-07-01 19:32:43,523 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src]
-2019-07-01 19:32:43,538 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/.git/
+2020-02-16 19:36:52,998 INFO  DownloadService - Downloading "https://github.com/adrielcafe/PufferDB/archive/master.zip", attempt 3
+2020-02-16 19:36:55,005 INFO  DownloadService - Downloaded https://github.com/adrielcafe/PufferDB/archive/master.zip, attempt 3
+2020-02-16 19:36:55,006 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/master.zip": 165 KB
+2020-02-16 19:36:55,006 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-02-16 19:36:55,007 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/master.zip: true
+2020-02-16 19:36:55,007 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src'.
+2020-02-16 19:36:55,032 INFO  FullProcessService - Size of directory with sources: 209 KB
+2020-02-16 19:36:55,032 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src]
+2020-02-16 19:36:55,064 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/.git/
 
-2019-07-01 19:32:43,541 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/gradlew
-2019-07-01 19:32:43,545 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/coroutines/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/rxjava/build.gradle
-2019-07-01 19:32:43,548 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/rxjava/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/coroutines/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/settings.gradle
-2019-07-01 19:32:43,548 INFO  ProjectBuildService - Remote scripts: none
-2019-07-01 19:32:43,548 INFO  ProjectFixService - Fixing project...
-2019-07-01 19:32:43,556 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/android/local.properties
-2019-07-01 19:32:43,558 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-07-01 19:32:43,558 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-07-01 19:32:43,559 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/sample/local.properties
-2019-07-01 19:32:43,560 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-07-01 19:32:43,560 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-07-01 19:32:43,561 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/local.properties
-2019-07-01 19:32:43,561 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-07-01 19:32:43,562 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-07-01 19:32:43,564 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-07-01 19:32:43,564 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-07-01 19:32:43,564 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/core/local.properties
-2019-07-01 19:32:43,566 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-07-01 19:32:43,566 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-07-01 19:32:43,567 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/coroutines/local.properties
-2019-07-01 19:32:43,569 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/coroutines/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-07-01 19:32:43,569 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/coroutines/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-07-01 19:32:43,570 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/rxjava/local.properties
-2019-07-01 19:32:43,571 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/rxjava/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-07-01 19:32:43,571 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/rxjava/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-07-01 19:32:43,572 INFO  ProjectFixService - Project was maybe fixed
-2019-07-01 19:32:43,572 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-01 19:32:43,572 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-01 19:33:10,662 INFO  ProjectTaskService - Detected possible tasks: 79
-2019-07-01 19:33:10,662 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-07-01 19:33:10,663 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-07-01 19:33:42,042 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
+2020-02-16 19:36:55,067 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/gradlew
+2020-02-16 19:36:55,071 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/coroutines/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/rxjava/build.gradle
+2020-02-16 19:36:55,074 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/rxjava/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/coroutines/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/settings.gradle
+2020-02-16 19:36:55,074 INFO  ProjectBuildService - Remote scripts: none
+2020-02-16 19:36:55,074 INFO  ProjectFixService - Fixing project...
+2020-02-16 19:36:55,082 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/android/local.properties
+2020-02-16 19:36:55,083 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-02-16 19:36:55,084 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-02-16 19:36:55,084 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/local.properties
+2020-02-16 19:36:55,085 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-02-16 19:36:55,086 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-02-16 19:36:55,087 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/local.properties
+2020-02-16 19:36:55,087 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-bin.zip
+2020-02-16 19:36:55,089 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-02-16 19:36:55,089 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-02-16 19:36:55,089 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/core/local.properties
+2020-02-16 19:36:55,091 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-02-16 19:36:55,091 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-02-16 19:36:55,091 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/coroutines/local.properties
+2020-02-16 19:36:55,093 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/coroutines/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-02-16 19:36:55,093 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/coroutines/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-02-16 19:36:55,094 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/rxjava/local.properties
+2020-02-16 19:36:55,095 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/rxjava/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-02-16 19:36:55,096 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/rxjava/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-02-16 19:36:55,096 INFO  ProjectFixService - Project was maybe fixed
+2020-02-16 19:36:55,096 INFO  ProjectTaskService - Detecting possible tasks...
+2020-02-16 19:36:55,096 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-02-16 19:37:04,138 INFO  VirusProcessorServiceImpl - Queued project 7638 to scan viruses
+2020-02-16 19:37:27,972 INFO  ProjectTaskService - Detected possible tasks: 80
+2020-02-16 19:37:27,972 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-02-16 19:37:27,972 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-02-16 19:38:03,159 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.6.4/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+> Task :buildSrc:compileKotlin UP-TO-DATE
 > Task :buildSrc:compileJava NO-SOURCE
 > Task :buildSrc:compileGroovy NO-SOURCE
 > Task :buildSrc:pluginDescriptors UP-TO-DATE
@@ -64,11 +66,16 @@ Configuration on demand is an incubating feature.
 > Task :core:extractIncludeProto
 > Task :core:extractProto
 > Task :core:generateProto
+> Task :android:compileDebugAidl NO-SOURCE
 
 > Task :core:compileKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/core/src/main/kotlin/cafe/adriel/pufferdb/core/PufferDB.kt: (39, 26): This declaration is experimental and its usage should be marked with '@kotlinx.coroutines.ObsoleteCoroutinesApi' or '@UseExperimental(kotlinx.coroutines.ObsoleteCoroutinesApi::class)'
-
-> Task :android:compileDebugAidl NO-SOURCE
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/core/src/main/kotlin/cafe/adriel/pufferdb/core/PufferDB.kt: (42, 32): This declaration is experimental and its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@UseExperimental(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/core/src/main/kotlin/cafe/adriel/pufferdb/core/PufferDB.kt: (48, 14): This declaration is experimental and its usage should be marked with '@kotlinx.coroutines.FlowPreview' or '@UseExperimental(kotlinx.coroutines.FlowPreview::class)'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/core/src/main/kotlin/cafe/adriel/pufferdb/core/PufferDB.kt: (49, 14): This declaration is experimental and its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@UseExperimental(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/core/src/main/kotlin/cafe/adriel/pufferdb/core/PufferDB.kt: (51, 14): This declaration is experimental and its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@UseExperimental(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/core/src/main/kotlin/cafe/adriel/pufferdb/core/PufferDB.kt: (70, 26): This declaration is experimental and its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@UseExperimental(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/core/src/main/kotlin/cafe/adriel/pufferdb/core/PufferDB.kt: (84, 22): This declaration is experimental and its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@UseExperimental(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/core/src/main/kotlin/cafe/adriel/pufferdb/core/PufferDB.kt: (89, 22): This declaration is experimental and its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@UseExperimental(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
 
 > Task :core:compileJava
 Note: Some input files use unchecked or unsafe operations.
@@ -83,32 +90,14 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :android:generateDebugBuildConfig
 > Task :android:generateDebugResValues
 > Task :android:generateDebugResources
-> Task :android:processDebugManifest
 > Task :android:packageDebugResources
-> Task :android:generateDebugRFile
-> Task :android:compileDebugKotlin
-> Task :android:prepareLintJar
-> Task :android:generateDebugSources
-> Task :android:javaPreCompileDebug
-> Task :android:compileDebugJavaWithJavac
-> Task :android:extractDebugAnnotations
-> Task :android:mergeDebugConsumerProguardFiles
 > Task :android:mergeDebugShaders
 > Task :android:compileDebugShaders
 > Task :android:generateDebugAssets
 > Task :android:packageDebugAssets
 > Task :android:packageDebugRenderscript NO-SOURCE
-> Task :android:prepareLintJarForPublish
 > Task :android:processDebugJavaRes NO-SOURCE
-> Task :android:transformResourcesWithMergeJavaResForDebug
-> Task :android:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :android:mergeDebugJniLibFolders
-> Task :android:transformNativeLibsWithMergeJniLibsForDebug
-> Task :android:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :android:transformNativeLibsWithSyncJniLibsForDebug
-> Task :android:bundleDebugAar
-> Task :android:compileDebugSources
-> Task :android:assembleDebug
 > Task :android:preReleaseBuild UP-TO-DATE
 > Task :android:compileReleaseAidl NO-SOURCE
 > Task :android:compileReleaseRenderscript NO-SOURCE
@@ -117,47 +106,68 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :android:generateReleaseResValues
 > Task :android:generateReleaseResources
 > Task :android:packageReleaseResources
-> Task :android:processReleaseManifest
-> Task :android:generateReleaseRFile
-> Task :android:compileReleaseKotlin
-> Task :android:generateReleaseSources
-> Task :android:javaPreCompileRelease
-> Task :android:compileReleaseJavaWithJavac
-> Task :android:extractReleaseAnnotations
-> Task :android:mergeReleaseConsumerProguardFiles
+> Task :android:prepareLintJarForPublish
 > Task :android:mergeReleaseShaders
 > Task :android:compileReleaseShaders
 > Task :android:generateReleaseAssets
 > Task :android:packageReleaseAssets
 > Task :android:packageReleaseRenderscript NO-SOURCE
 > Task :android:processReleaseJavaRes NO-SOURCE
-> Task :android:transformResourcesWithMergeJavaResForRelease
-> Task :android:transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :android:mergeReleaseJniLibFolders
-> Task :android:transformNativeLibsWithMergeJniLibsForRelease
-> Task :android:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :android:parseReleaseLibraryResources
+> Task :android:parseDebugLibraryResources
+> Task :android:processReleaseManifest
+> Task :android:mergeReleaseNativeLibs
+> Task :android:stripReleaseDebugSymbols
 > Task :android:transformNativeLibsWithSyncJniLibsForRelease
+> Task :android:processDebugManifest
+> Task :android:mergeDebugNativeLibs
+> Task :android:stripDebugDebugSymbols
+> Task :android:transformNativeLibsWithSyncJniLibsForDebug
+> Task :android:mergeReleaseResources
+> Task :android:generateReleaseRFile
+> Task :android:compileReleaseKotlin
+> Task :android:verifyReleaseResources
+> Task :android:javaPreCompileRelease
+> Task :android:compileReleaseJavaWithJavac
+> Task :android:extractReleaseAnnotations
+> Task :android:mergeReleaseGeneratedProguardFiles
+> Task :android:mergeReleaseConsumerProguardFiles
+> Task :android:generateDebugRFile
+> Task :android:compileDebugKotlin
+> Task :android:mergeReleaseJavaResource
+> Task :android:transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :android:bundleReleaseAar
 > Task :android:compileReleaseSources
-> Task :android:mergeReleaseResources
-> Task :android:verifyReleaseResources
 > Task :android:assembleRelease
+> Task :android:javaPreCompileDebug
+> Task :android:compileDebugJavaWithJavac
+> Task :android:extractDebugAnnotations
+> Task :android:mergeDebugGeneratedProguardFiles
+> Task :android:mergeDebugConsumerProguardFiles
+> Task :android:compileDebugSources
+> Task :android:mergeDebugJavaResource
+> Task :android:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :android:bundleDebugAar
+> Task :android:assembleDebug
 > Task :android:assemble
 > Task :android:build
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.6.4/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 30s
-54 actionable tasks: 54 executed
+BUILD SUCCESSFUL in 34s
+57 actionable tasks: 57 executed
 
-2019-07-01 19:33:42,082 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-01 19:33:42,082 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-01 19:33:50,528 INFO  ProjectTaskService - Detected possible tasks: 80
-2019-07-01 19:33:50,528 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-01 19:33:50,528 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-01 19:34:48,538 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
+2020-02-16 19:38:03,214 INFO  ProjectTaskService - Detecting possible tasks...
+2020-02-16 19:38:03,214 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-02-16 19:38:12,613 INFO  ProjectTaskService - Detected possible tasks: 81
+2020-02-16 19:38:12,613 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-02-16 19:38:12,613 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-02-16 19:39:33,336 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.6.4/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+> Task :buildSrc:compileKotlin UP-TO-DATE
 > Task :buildSrc:compileJava NO-SOURCE
 > Task :buildSrc:compileGroovy NO-SOURCE
 > Task :buildSrc:pluginDescriptors UP-TO-DATE
@@ -206,35 +216,34 @@ Configuration on demand is an incubating feature.
 > Task :android:compileDebugRenderscript NO-SOURCE
 > Task :android:generateDebugResValues UP-TO-DATE
 > Task :android:generateDebugResources UP-TO-DATE
-> Task :android:processDebugManifest UP-TO-DATE
 > Task :android:packageDebugResources UP-TO-DATE
+> Task :android:parseDebugLibraryResources UP-TO-DATE
+> Task :android:processDebugManifest UP-TO-DATE
 > Task :android:generateDebugRFile UP-TO-DATE
 > Task :android:compileDebugKotlin UP-TO-DATE
-> Task :android:prepareLintJar UP-TO-DATE
-> Task :android:generateDebugSources UP-TO-DATE
 > Task :android:javaPreCompileDebug UP-TO-DATE
 > Task :android:compileDebugJavaWithJavac UP-TO-DATE
-> Task :android:bundleLibCompileDebug
 > Task :sample:preBuild UP-TO-DATE
-> Task :android:packageDebugRenderscript NO-SOURCE
-> Task :sample:preDebugBuild
+> Task :sample:preDebugBuild UP-TO-DATE
 > Task :sample:compileDebugAidl NO-SOURCE
+> Task :android:packageDebugRenderscript NO-SOURCE
 > Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:checkDebugManifest
 > Task :sample:generateDebugBuildConfig
+> Task :android:bundleLibCompileDebug
 > Task :sample:mainApkListPersistenceDebug
 > Task :sample:generateDebugResValues
 > Task :sample:generateDebugResources
-> Task :sample:mergeDebugResources
 > Task :sample:createDebugCompatibleScreenManifests
 > Task :sample:processDebugManifest
+> Task :sample:mergeDebugResources
 > Task :sample:processDebugResources
+
 > Task :sample:compileDebugKotlin
-> Task :sample:prepareLintJar
-> Task :sample:generateDebugSources
-> Task :sample:javaPreCompileDebug
-> Task :sample:compileDebugJavaWithJavac
-> Task :sample:compileDebugSources
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/src/main/kotlin/cafe/adriel/pufferdb/sample/Benchmark.kt: (5, 27): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/src/main/kotlin/cafe/adriel/pufferdb/sample/Benchmark.kt: (23, 37): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/src/main/kotlin/cafe/adriel/pufferdb/sample/Benchmark.kt: (23, 55): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
+
 > Task :android:mergeDebugShaders UP-TO-DATE
 > Task :android:compileDebugShaders UP-TO-DATE
 > Task :android:generateDebugAssets UP-TO-DATE
@@ -243,64 +252,24 @@ Configuration on demand is an incubating feature.
 > Task :sample:compileDebugShaders
 > Task :sample:generateDebugAssets
 > Task :sample:mergeDebugAssets
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
+> Task :android:processDebugJavaRes NO-SOURCE
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :android:bundleLibResDebug
+> Task :android:bundleLibRuntimeDebug
+> Task :sample:checkDebugDuplicateClasses
+> Task :sample:mergeDebugJavaResource
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:desugarDebugFileDependencies
 > Task :sample:validateSigningDebug
 > Task :sample:signingConfigWriterDebug
-> Task :android:bundleLibRuntimeDebug
-> Task :android:processDebugJavaRes NO-SOURCE
-> Task :android:bundleLibResDebug
 > Task :android:mergeDebugJniLibFolders UP-TO-DATE
-> Task :android:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
-> Task :android:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
-> Task :sample:checkDebugDuplicateClasses
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `sun.reflect.ReflectionFactory` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.KryoReflectionFactorySupport.<clinit>()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.google.common.collect.LinkedHashMultimap` was not found, it is required for default or static interface methods desugaring of `com.google.common.collect.LinkedHashMultimap de.javakaffee.kryoserializers.guava.LinkedHashMultimapSerializer.read(com.esotericsoftware.kryo.Kryo, com.esotericsoftware.kryo.io.Input, java.lang.Class)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.google.common.collect.TreeMultimap` was not found, it is required for default or static interface methods desugaring of `com.google.common.collect.TreeMultimap de.javakaffee.kryoserializers.guava.TreeMultimapSerializer.read(com.esotericsoftware.kryo.Kryo, com.esotericsoftware.kryo.io.Input, java.lang.Class)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.google.common.collect.ImmutableList` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.guava.ImmutableListSerializer.registerSerializers(com.esotericsoftware.kryo.Kryo)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.google.common.collect.Lists` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.guava.ImmutableListSerializer.registerSerializers(com.esotericsoftware.kryo.Kryo)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.google.common.collect.HashBasedTable` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.guava.ImmutableListSerializer.registerSerializers(com.esotericsoftware.kryo.Kryo)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.google.common.collect.ImmutableTable` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.guava.ImmutableListSerializer.registerSerializers(com.esotericsoftware.kryo.Kryo)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.google.common.collect.ImmutableSet` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.guava.ImmutableSetSerializer.registerSerializers(com.esotericsoftware.kryo.Kryo)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.google.common.collect.Sets` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.guava.ImmutableSetSerializer.registerSerializers(com.esotericsoftware.kryo.Kryo)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.google.common.collect.ImmutableMultimap` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.guava.ImmutableMultimapSerializer.registerSerializers(com.esotericsoftware.kryo.Kryo)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.google.common.collect.ImmutableMap` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.guava.ImmutableMultimapSerializer.write(com.esotericsoftware.kryo.Kryo, com.esotericsoftware.kryo.io.Output, com.google.common.collect.ImmutableMultimap)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.github.andrewoma.dexx.collection.Maps` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.dexx.MapSerializer.registerSerializers(com.esotericsoftware.kryo.Kryo)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.github.andrewoma.dexx.collection.Sets` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.dexx.SetSerializer.registerSerializers(com.esotericsoftware.kryo.Kryo)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.google.common.collect.HashMultimap` was not found, it is required for default or static interface methods desugaring of `com.google.common.collect.HashMultimap de.javakaffee.kryoserializers.guava.HashMultimapSerializer.read(com.esotericsoftware.kryo.Kryo, com.esotericsoftware.kryo.io.Input, java.lang.Class)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.github.andrewoma.dexx.collection.IndexedLists` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.dexx.ListSerializer.registerSerializers(com.esotericsoftware.kryo.Kryo)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.google.common.collect.LinkedListMultimap` was not found, it is required for default or static interface methods desugaring of `com.google.common.collect.LinkedListMultimap de.javakaffee.kryoserializers.guava.LinkedListMultimapSerializer.read(com.esotericsoftware.kryo.Kryo, com.esotericsoftware.kryo.io.Input, java.lang.Class)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `org.joda.time.chrono.ISOChronology` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.jodatime.IdentifiableChronology.<clinit>()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `org.joda.time.chrono.CopticChronology` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.jodatime.IdentifiableChronology.<clinit>()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `org.joda.time.chrono.EthiopicChronology` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.jodatime.IdentifiableChronology.<clinit>()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `org.joda.time.chrono.GregorianChronology` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.jodatime.IdentifiableChronology.<clinit>()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `org.joda.time.chrono.JulianChronology` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.jodatime.IdentifiableChronology.<clinit>()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `org.joda.time.chrono.IslamicChronology` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.jodatime.IdentifiableChronology.<clinit>()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `org.joda.time.chrono.BuddhistChronology` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.jodatime.IdentifiableChronology.<clinit>()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `org.joda.time.chrono.GJChronology` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.jodatime.IdentifiableChronology.<clinit>()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.google.common.collect.Lists` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.guava.ReverseListSerializer.registerSerializers(com.esotericsoftware.kryo.Kryo)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `org.joda.time.DateTimeZone` was not found, it is required for default or static interface methods desugaring of `org.joda.time.DateTimeZone de.javakaffee.kryoserializers.jodatime.JodaDateTimeSerializer.readTimeZone(com.esotericsoftware.kryo.io.Input)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.google.common.collect.ImmutableSortedSet` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.guava.ImmutableSortedSetSerializer.registerSerializers(com.esotericsoftware.kryo.Kryo)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `net.sf.cglib.proxy.Enhancer` was not found, it is required for default or static interface methods desugaring of `boolean de.javakaffee.kryoserializers.cglib.CGLibProxySerializer.canSerialize(java.lang.Class)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.google.common.collect.Lists` was not found, it is required for default or static interface methods desugaring of `java.util.List de.javakaffee.kryoserializers.guava.ReverseListSerializer$RandomAccessReverseList.read(com.esotericsoftware.kryo.Kryo, com.esotericsoftware.kryo.io.Input, java.lang.Class)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.google.common.collect.ImmutableMap` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.guava.ImmutableMapSerializer.registerSerializers(com.esotericsoftware.kryo.Kryo)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.google.common.collect.Maps` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.guava.ImmutableMapSerializer.write(com.esotericsoftware.kryo.Kryo, com.esotericsoftware.kryo.io.Output, com.google.common.collect.ImmutableMap)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.google.common.collect.ArrayListMultimap` was not found, it is required for default or static interface methods desugaring of `com.google.common.collect.ArrayListMultimap de.javakaffee.kryoserializers.guava.ArrayListMultimapSerializer.read(com.esotericsoftware.kryo.Kryo, com.esotericsoftware.kryo.io.Input, java.lang.Class)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.esotericsoftware/kryo/4.0.1/5053899c213a6ce50a800d4902c5a9de49fe0098/kryo-4.0.1.jar: D8: Type `java.beans.Introspector` was not found, it is required for default or static interface methods desugaring of `void com.esotericsoftware.kryo.serializers.BeanSerializer.<init>(com.esotericsoftware.kryo.Kryo, java.lang.Class)`
-> Task :sample:transformClassesWithDexBuilderForDebug
-> Task :sample:transformDexArchiveWithExternalLibsDexMergerForDebug
-> Task :sample:transformDexArchiveWithDexMergerForDebug
+> Task :android:mergeDebugNativeLibs UP-TO-DATE
+> Task :android:stripDebugDebugSymbols UP-TO-DATE
 > Task :android:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :sample:mergeDebugJniLibFolders
-> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
-
-> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/sample/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libmmkv.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/sample/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libc++_shared.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/sample/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libconceal.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
-
-> Task :sample:processDebugJavaRes NO-SOURCE
-> Task :sample:transformResourcesWithMergeJavaResForDebug
-> Task :sample:packageDebug
-> Task :sample:assembleDebug
 > Task :android:preReleaseBuild UP-TO-DATE
 > Task :android:compileReleaseAidl NO-SOURCE
 > Task :android:compileReleaseRenderscript NO-SOURCE
@@ -309,36 +278,52 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 > Task :android:generateReleaseResValues UP-TO-DATE
 > Task :android:generateReleaseResources UP-TO-DATE
 > Task :android:packageReleaseResources UP-TO-DATE
+> Task :android:parseReleaseLibraryResources UP-TO-DATE
 > Task :android:processReleaseManifest UP-TO-DATE
 > Task :android:generateReleaseRFile UP-TO-DATE
 > Task :android:compileReleaseKotlin UP-TO-DATE
-> Task :android:generateReleaseSources UP-TO-DATE
 > Task :android:javaPreCompileRelease UP-TO-DATE
 > Task :android:compileReleaseJavaWithJavac UP-TO-DATE
-> Task :android:bundleLibCompileRelease
-> Task :sample:preReleaseBuild
+> Task :sample:preReleaseBuild UP-TO-DATE
 > Task :sample:compileReleaseAidl NO-SOURCE
 > Task :android:packageReleaseRenderscript NO-SOURCE
+> Task :android:bundleLibCompileRelease
 > Task :sample:compileReleaseRenderscript NO-SOURCE
 > Task :sample:checkReleaseManifest
 > Task :sample:generateReleaseBuildConfig
 > Task :sample:mainApkListPersistenceRelease
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
-> Task :sample:mergeReleaseResources
+> Task :sample:mergeDebugNativeLibs
+
+> Task :sample:stripDebugDebugSymbols
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/build/intermediates/merged_native_libs/debug/out/lib/armeabi/libmmkv.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/build/intermediates/merged_native_libs/debug/out/lib/armeabi/libc++_shared.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/build/intermediates/merged_native_libs/debug/out/lib/armeabi/libconceal.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+
 > Task :sample:createReleaseCompatibleScreenManifests
 > Task :sample:processReleaseManifest
+> Task :sample:mergeReleaseResources
 > Task :sample:processReleaseResources
+
 > Task :sample:compileReleaseKotlin
-> Task :sample:generateReleaseSources
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/src/main/kotlin/cafe/adriel/pufferdb/sample/Benchmark.kt: (5, 27): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/src/main/kotlin/cafe/adriel/pufferdb/sample/Benchmark.kt: (23, 37): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/src/main/kotlin/cafe/adriel/pufferdb/sample/Benchmark.kt: (23, 55): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
+
 > Task :sample:javaPreCompileRelease
 > Task :sample:compileReleaseJavaWithJavac
 > Task :sample:compileReleaseSources
 > Task :android:prepareLintJarForPublish UP-TO-DATE
+> Task :sample:prepareLintJar
 
 > Task :sample:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/5cdd6549dd89dc4c4e27bfd094907709/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/5e6abaccee6c3e27fa2441e7f555f76e/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 
+> Task :sample:checkReleaseDuplicateClasses
+> Task :android:bundleLibRuntimeRelease
+> Task :sample:desugarReleaseFileDependencies
+> Task :sample:transformClassesWithDexBuilderForRelease
 > Task :android:mergeReleaseShaders UP-TO-DATE
 > Task :android:compileReleaseShaders UP-TO-DATE
 > Task :android:generateReleaseAssets UP-TO-DATE
@@ -347,61 +332,29 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :sample:compileReleaseShaders
 > Task :sample:generateReleaseAssets
 > Task :sample:mergeReleaseAssets
-> Task :sample:signingConfigWriterRelease
-> Task :sample:checkReleaseDuplicateClasses
-> Task :android:bundleLibRuntimeRelease
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `sun.reflect.ReflectionFactory` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.KryoReflectionFactorySupport.<clinit>()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.google.common.collect.ImmutableMultimap` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.guava.ImmutableMultimapSerializer.registerSerializers(com.esotericsoftware.kryo.Kryo)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.google.common.collect.ImmutableMap` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.guava.ImmutableMultimapSerializer.write(com.esotericsoftware.kryo.Kryo, com.esotericsoftware.kryo.io.Output, com.google.common.collect.ImmutableMultimap)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.google.common.collect.TreeMultimap` was not found, it is required for default or static interface methods desugaring of `com.google.common.collect.TreeMultimap de.javakaffee.kryoserializers.guava.TreeMultimapSerializer.read(com.esotericsoftware.kryo.Kryo, com.esotericsoftware.kryo.io.Input, java.lang.Class)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.github.andrewoma.dexx.collection.Sets` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.dexx.SetSerializer.registerSerializers(com.esotericsoftware.kryo.Kryo)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.github.andrewoma.dexx.collection.IndexedLists` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.dexx.ListSerializer.registerSerializers(com.esotericsoftware.kryo.Kryo)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.google.common.collect.Lists` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.guava.ReverseListSerializer.registerSerializers(com.esotericsoftware.kryo.Kryo)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `org.joda.time.DateTimeZone` was not found, it is required for default or static interface methods desugaring of `org.joda.time.DateTimeZone de.javakaffee.kryoserializers.jodatime.JodaDateTimeSerializer.readTimeZone(com.esotericsoftware.kryo.io.Input)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `net.sf.cglib.proxy.Enhancer` was not found, it is required for default or static interface methods desugaring of `boolean de.javakaffee.kryoserializers.cglib.CGLibProxySerializer.canSerialize(java.lang.Class)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `org.joda.time.chrono.ISOChronology` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.jodatime.IdentifiableChronology.<clinit>()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `org.joda.time.chrono.CopticChronology` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.jodatime.IdentifiableChronology.<clinit>()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `org.joda.time.chrono.EthiopicChronology` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.jodatime.IdentifiableChronology.<clinit>()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `org.joda.time.chrono.GregorianChronology` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.jodatime.IdentifiableChronology.<clinit>()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `org.joda.time.chrono.JulianChronology` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.jodatime.IdentifiableChronology.<clinit>()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `org.joda.time.chrono.IslamicChronology` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.jodatime.IdentifiableChronology.<clinit>()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `org.joda.time.chrono.BuddhistChronology` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.jodatime.IdentifiableChronology.<clinit>()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `org.joda.time.chrono.GJChronology` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.jodatime.IdentifiableChronology.<clinit>()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.google.common.collect.ImmutableMap` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.guava.ImmutableMapSerializer.registerSerializers(com.esotericsoftware.kryo.Kryo)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.google.common.collect.Maps` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.guava.ImmutableMapSerializer.write(com.esotericsoftware.kryo.Kryo, com.esotericsoftware.kryo.io.Output, com.google.common.collect.ImmutableMap)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.github.andrewoma.dexx.collection.Maps` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.dexx.MapSerializer.registerSerializers(com.esotericsoftware.kryo.Kryo)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.google.common.collect.ImmutableSortedSet` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.guava.ImmutableSortedSetSerializer.registerSerializers(com.esotericsoftware.kryo.Kryo)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.google.common.collect.ArrayListMultimap` was not found, it is required for default or static interface methods desugaring of `com.google.common.collect.ArrayListMultimap de.javakaffee.kryoserializers.guava.ArrayListMultimapSerializer.read(com.esotericsoftware.kryo.Kryo, com.esotericsoftware.kryo.io.Input, java.lang.Class)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.google.common.collect.HashMultimap` was not found, it is required for default or static interface methods desugaring of `com.google.common.collect.HashMultimap de.javakaffee.kryoserializers.guava.HashMultimapSerializer.read(com.esotericsoftware.kryo.Kryo, com.esotericsoftware.kryo.io.Input, java.lang.Class)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.google.common.collect.Lists` was not found, it is required for default or static interface methods desugaring of `java.util.List de.javakaffee.kryoserializers.guava.ReverseListSerializer$RandomAccessReverseList.read(com.esotericsoftware.kryo.Kryo, com.esotericsoftware.kryo.io.Input, java.lang.Class)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.google.common.collect.LinkedHashMultimap` was not found, it is required for default or static interface methods desugaring of `com.google.common.collect.LinkedHashMultimap de.javakaffee.kryoserializers.guava.LinkedHashMultimapSerializer.read(com.esotericsoftware.kryo.Kryo, com.esotericsoftware.kryo.io.Input, java.lang.Class)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.google.common.collect.ImmutableList` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.guava.ImmutableListSerializer.registerSerializers(com.esotericsoftware.kryo.Kryo)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.google.common.collect.Lists` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.guava.ImmutableListSerializer.registerSerializers(com.esotericsoftware.kryo.Kryo)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.google.common.collect.HashBasedTable` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.guava.ImmutableListSerializer.registerSerializers(com.esotericsoftware.kryo.Kryo)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.google.common.collect.ImmutableTable` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.guava.ImmutableListSerializer.registerSerializers(com.esotericsoftware.kryo.Kryo)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.google.common.collect.ImmutableSet` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.guava.ImmutableSetSerializer.registerSerializers(com.esotericsoftware.kryo.Kryo)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.google.common.collect.Sets` was not found, it is required for default or static interface methods desugaring of `void de.javakaffee.kryoserializers.guava.ImmutableSetSerializer.registerSerializers(com.esotericsoftware.kryo.Kryo)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar: D8: Type `com.google.common.collect.LinkedListMultimap` was not found, it is required for default or static interface methods desugaring of `com.google.common.collect.LinkedListMultimap de.javakaffee.kryoserializers.guava.LinkedListMultimapSerializer.read(com.esotericsoftware.kryo.Kryo, com.esotericsoftware.kryo.io.Input, java.lang.Class)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.esotericsoftware/kryo/4.0.1/5053899c213a6ce50a800d4902c5a9de49fe0098/kryo-4.0.1.jar: D8: Type `java.beans.Introspector` was not found, it is required for default or static interface methods desugaring of `void com.esotericsoftware.kryo.serializers.BeanSerializer.<init>(com.esotericsoftware.kryo.Kryo, java.lang.Class)`
-> Task :sample:transformClassesWithDexBuilderForRelease
-> Task :sample:transformDexArchiveWithExternalLibsDexMergerForRelease
-> Task :sample:transformDexArchiveWithDexMergerForRelease
 > Task :android:processReleaseJavaRes NO-SOURCE
-> Task :android:bundleLibResRelease
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:signingConfigWriterRelease
 > Task :android:mergeReleaseJniLibFolders UP-TO-DATE
-> Task :android:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
-> Task :android:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :android:mergeReleaseNativeLibs UP-TO-DATE
+> Task :android:stripReleaseDebugSymbols UP-TO-DATE
 > Task :android:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :sample:mergeReleaseJniLibFolders
-> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :android:bundleLibResRelease
+> Task :sample:mergeExtDexDebug
+> Task :sample:mergeReleaseNativeLibs
 
-> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/sample/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi/libmmkv.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/sample/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi/libc++_shared.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/sample/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi/libconceal.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+> Task :sample:stripReleaseDebugSymbols
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/build/intermediates/merged_native_libs/release/out/lib/armeabi/libmmkv.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/build/intermediates/merged_native_libs/release/out/lib/armeabi/libc++_shared.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/build/intermediates/merged_native_libs/release/out/lib/armeabi/libconceal.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
 
-> Task :sample:processReleaseJavaRes NO-SOURCE
-> Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :sample:mergeReleaseJavaResource
+> Task :sample:mergeDexDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :sample:mergeExtDexRelease
+> Task :sample:mergeDexRelease
 > Task :sample:packageRelease
 > Task :sample:assembleRelease
 > Task :sample:assemble
@@ -409,9 +362,9 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.6.4/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 57s
-107 actionable tasks: 67 executed, 40 up-to-date
+BUILD SUCCESSFUL in 1m 20s
+108 actionable tasks: 67 executed, 41 up-to-date
 
-2019-07-01 19:34:48,645 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561984362734-0/src/PufferDB-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2020-02-16 19:39:33,463 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
