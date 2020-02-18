@@ -1,36 +1,37 @@
-2019-10-22 11:14:09,006 INFO  DownloadService - Downloading "https://github.com/kibotu/StreamingAndroidLogger/archive/master.zip", attempt 3
-2019-10-22 11:14:11,837 INFO  DownloadService - Downloaded https://github.com/kibotu/StreamingAndroidLogger/archive/master.zip, attempt 3
-2019-10-22 11:14:11,837 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/master.zip": 778 KB
-2019-10-22 11:14:11,837 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-10-22 11:14:11,843 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/master.zip: true
-2019-10-22 11:14:11,843 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src'.
-2019-10-22 11:14:11,872 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-10-22 11:14:11,872 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src]
-2019-10-22 11:14:11,893 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/.git/
+2020-02-18 12:05:16,804 INFO  DownloadService - Downloading "https://github.com/kibotu/StreamingAndroidLogger/archive/master.zip", attempt 3
+2020-02-18 12:05:17,721 INFO  DownloadService - Downloaded https://github.com/kibotu/StreamingAndroidLogger/archive/master.zip, attempt 3
+2020-02-18 12:05:17,721 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/master.zip": 781 KB
+2020-02-18 12:05:17,721 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-02-18 12:05:17,727 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/master.zip: true
+2020-02-18 12:05:17,728 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src'.
+2020-02-18 12:05:17,755 INFO  FullProcessService - Size of directory with sources: 1 MB
+2020-02-18 12:05:17,755 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src]
+2020-02-18 12:05:17,779 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/.git/
 
-2019-10-22 11:14:11,895 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/gradlew
-2019-10-22 11:14:11,898 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/Logger/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/build.gradle
-2019-10-22 11:14:11,900 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/Logger/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/settings.gradle
-2019-10-22 11:14:11,901 INFO  ProjectBuildService - Remote scripts: none
-2019-10-22 11:14:11,901 INFO  ProjectFixService - Fixing project...
-2019-10-22 11:14:11,907 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/Logger/local.properties
-2019-10-22 11:14:11,909 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/Logger/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-22 11:14:11,909 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/Logger/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-22 11:14:11,910 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/app/local.properties
-2019-10-22 11:14:11,912 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-22 11:14:11,913 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-22 11:14:11,914 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/local.properties
-2019-10-22 11:14:11,914 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.1-bin.zip
-2019-10-22 11:14:11,916 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-22 11:14:11,916 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-22 11:14:11,917 INFO  ProjectFixService - Project was maybe fixed
-2019-10-22 11:14:11,917 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-22 11:14:11,917 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/Logger/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-22 11:14:16,302 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-10-22 11:14:16,302 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-10-22 11:14:16,302 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-10-22 11:14:16,302 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/Logger/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-10-22 11:14:19,607 ERROR SysUtils - Could not process external command
+2020-02-18 12:05:17,781 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/gradlew
+2020-02-18 12:05:17,784 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/Logger/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/build.gradle
+2020-02-18 12:05:17,786 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/Logger/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/settings.gradle
+2020-02-18 12:05:17,787 INFO  ProjectBuildService - Remote scripts: none
+2020-02-18 12:05:17,787 INFO  ProjectFixService - Fixing project...
+2020-02-18 12:05:17,795 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/Logger/local.properties
+2020-02-18 12:05:17,798 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/Logger/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-02-18 12:05:17,799 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/Logger/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-02-18 12:05:17,801 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/app/local.properties
+2020-02-18 12:05:17,804 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-02-18 12:05:17,804 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-02-18 12:05:17,806 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/local.properties
+2020-02-18 12:05:17,806 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-bin.zip
+2020-02-18 12:05:17,809 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-02-18 12:05:17,809 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-02-18 12:05:17,810 INFO  ProjectFixService - Project was maybe fixed
+2020-02-18 12:05:17,810 INFO  ProjectTaskService - Detecting possible tasks...
+2020-02-18 12:05:17,810 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/Logger/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-02-18 12:05:21,127 INFO  VirusProcessorServiceImpl - Queued project 7819 to scan viruses
+2020-02-18 12:05:33,168 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-02-18 12:05:33,168 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-02-18 12:05:33,169 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-02-18 12:05:33,169 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/Logger/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-02-18 12:05:37,031 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -49,27 +50,27 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-10-22 11:14:19,607 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.6.1/userguide/gradle_daemon.html.
+2020-02-18 12:05:37,031 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.1.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/build.gradle' line: 3
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/build.gradle' line: 3
 
 * What went wrong:
 A problem occurred evaluating root project 'StreamingAndroidLogger-master'.
-> Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/Android-Dependencies/dependencies.gradle' as it does not exist.
+> Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/Android-Dependencies/dependencies.gradle' as it does not exist.
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -77,7 +78,7 @@ Run with --info or --debug option to get more log output. Run with --scan to get
 * Exception is:
 org.gradle.api.GradleScriptException: A problem occurred evaluating root project 'StreamingAndroidLogger-master'.
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:93)
-	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:200)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:210)
 	at org.gradle.configuration.BuildOperationScriptPlugin$1$1.run(BuildOperationScriptPlugin.java:69)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
@@ -92,8 +93,8 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating root project
 	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:63)
 	at org.gradle.configuration.project.BuildScriptProcessor$1.run(BuildScriptProcessor.java:45)
 	at org.gradle.internal.Factories$1.create(Factories.java:26)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:201)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:187)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:212)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:193)
 	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:42)
 	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
 	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:35)
@@ -101,9 +102,9 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating root project
 	at org.gradle.internal.Factories$1.create(Factories.java:26)
 	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:189)
 	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:40)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withProjectLock(DefaultProjectStateRegistry.java:227)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:221)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:187)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withProjectLock(DefaultProjectStateRegistry.java:238)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:232)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:193)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator$EvaluateProject.run(LifecycleProjectEvaluator.java:96)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
@@ -113,10 +114,10 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating root project
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:68)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:693)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:141)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:699)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:142)
 	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:36)
-	at org.gradle.configuration.DefaultProjectsPreparer.prepareProjects(DefaultProjectsPreparer.java:53)
+	at org.gradle.configuration.DefaultProjectsPreparer.prepareProjects(DefaultProjectsPreparer.java:59)
 	at org.gradle.configuration.BuildOperatingFiringProjectsPreparer$ConfigureBuild.run(BuildOperatingFiringProjectsPreparer.java:52)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
@@ -126,10 +127,10 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating root project
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
 	at org.gradle.configuration.BuildOperatingFiringProjectsPreparer.prepareProjects(BuildOperatingFiringProjectsPreparer.java:40)
-	at org.gradle.initialization.DefaultGradleLauncher.prepareProjects(DefaultGradleLauncher.java:198)
-	at org.gradle.initialization.DefaultGradleLauncher.doClassicBuildStages(DefaultGradleLauncher.java:138)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:126)
-	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.prepareProjects(DefaultGradleLauncher.java:207)
+	at org.gradle.initialization.DefaultGradleLauncher.doClassicBuildStages(DefaultGradleLauncher.java:145)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:130)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:110)
 	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:60)
 	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:57)
 	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:85)
@@ -155,15 +156,15 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating root project
 	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:45)
 	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:50)
 	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:47)
-	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:78)
+	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:80)
 	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:47)
 	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:31)
 	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:42)
 	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:28)
 	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
 	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:52)
-	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:59)
-	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:60)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:38)
 	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:68)
 	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:38)
 	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:37)
@@ -203,14 +204,14 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating root project
 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
 	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
-Caused by: org.gradle.api.resources.MissingResourceException: Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/Android-Dependencies/dependencies.gradle' as it does not exist.
+Caused by: org.gradle.api.resources.MissingResourceException: Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/Android-Dependencies/dependencies.gradle' as it does not exist.
 	at org.gradle.internal.resource.UriTextResource.getText(UriTextResource.java:132)
 	at org.gradle.internal.resource.CachingTextResource.maybeFetch(CachingTextResource.java:101)
 	at org.gradle.internal.resource.CachingTextResource.getContentHash(CachingTextResource.java:89)
 	at org.gradle.groovy.scripts.internal.CrossBuildInMemoryCachingScriptClassCache.getOrCompile(CrossBuildInMemoryCachingScriptClassCache.java:43)
 	at org.gradle.groovy.scripts.internal.BuildScopeInMemoryCachingScriptClassCompiler.compile(BuildScopeInMemoryCachingScriptClassCompiler.java:50)
-	at org.gradle.groovy.scripts.DefaultScriptCompilerFactory$ScriptCompilerImpl.compile(DefaultScriptCompilerFactory.java:51)
-	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:199)
+	at org.gradle.groovy.scripts.DefaultScriptCompilerFactory$ScriptCompilerImpl.compile(DefaultScriptCompilerFactory.java:49)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:209)
 	at org.gradle.configuration.BuildOperationScriptPlugin$1$1.run(BuildOperationScriptPlugin.java:69)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
@@ -223,39 +224,39 @@ Caused by: org.gradle.api.resources.MissingResourceException: Could not read scr
 	at org.gradle.configuration.BuildOperationScriptPlugin$1.execute(BuildOperationScriptPlugin.java:63)
 	at org.gradle.configuration.internal.DefaultUserCodeApplicationContext.apply(DefaultUserCodeApplicationContext.java:49)
 	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:63)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.applyScript(DefaultObjectConfigurationAction.java:118)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.access$000(DefaultObjectConfigurationAction.java:38)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction$1.run(DefaultObjectConfigurationAction.java:71)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.execute(DefaultObjectConfigurationAction.java:152)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.applyScript(DefaultObjectConfigurationAction.java:151)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.access$000(DefaultObjectConfigurationAction.java:41)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction$1.run(DefaultObjectConfigurationAction.java:74)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.execute(DefaultObjectConfigurationAction.java:185)
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:49)
-	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:41)
-	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:479)
-	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
+	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:37)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:483)
+	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:195)
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:130)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:77)
-	at build_cy8qskg7nmz7lw5rmhje2bken$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/build.gradle:3)
+	at build_5xxmcnr68msbjolvwdha3o2ld$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/build.gradle:3)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
-	at org.gradle.api.internal.project.DefaultProject.buildscript(DefaultProject.java:1207)
-	at org.gradle.api.internal.project.ProjectScript.buildscript(ProjectScript.java:51)
+	at org.gradle.api.internal.project.DefaultProject.buildscript(DefaultProject.java:1225)
+	at org.gradle.api.internal.project.ProjectScript.buildscript(ProjectScript.java:47)
 	at org.gradle.api.Script$buildscript.callCurrent(Unknown Source)
-	at build_cy8qskg7nmz7lw5rmhje2bken.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/build.gradle:1)
+	at build_5xxmcnr68msbjolvwdha3o2ld.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 126 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 2s
+BUILD FAILED in 3s
 
-2019-10-22 11:14:19,614 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-22 11:14:19,614 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-22 11:14:22,943 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-10-22 11:14:22,943 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-10-22 11:14:22,943 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-10-22 11:14:22,944 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-10-22 11:14:26,454 ERROR SysUtils - Could not process external command
+2020-02-18 12:05:37,039 INFO  ProjectTaskService - Detecting possible tasks...
+2020-02-18 12:05:37,039 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-02-18 12:05:42,028 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-02-18 12:05:42,028 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-02-18 12:05:42,028 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-02-18 12:05:42,028 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-02-18 12:05:46,500 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -274,27 +275,27 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-10-22 11:14:26,454 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.6.1/userguide/gradle_daemon.html.
+2020-02-18 12:05:46,500 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.1.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/build.gradle' line: 3
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/build.gradle' line: 3
 
 * What went wrong:
 A problem occurred evaluating root project 'StreamingAndroidLogger-master'.
-> Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/Android-Dependencies/dependencies.gradle' as it does not exist.
+> Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/Android-Dependencies/dependencies.gradle' as it does not exist.
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -302,7 +303,7 @@ Run with --info or --debug option to get more log output. Run with --scan to get
 * Exception is:
 org.gradle.api.GradleScriptException: A problem occurred evaluating root project 'StreamingAndroidLogger-master'.
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:93)
-	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:200)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:210)
 	at org.gradle.configuration.BuildOperationScriptPlugin$1$1.run(BuildOperationScriptPlugin.java:69)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
@@ -317,8 +318,8 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating root project
 	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:63)
 	at org.gradle.configuration.project.BuildScriptProcessor$1.run(BuildScriptProcessor.java:45)
 	at org.gradle.internal.Factories$1.create(Factories.java:26)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:201)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:187)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:212)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:193)
 	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:42)
 	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
 	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:35)
@@ -326,9 +327,9 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating root project
 	at org.gradle.internal.Factories$1.create(Factories.java:26)
 	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:189)
 	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:40)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withProjectLock(DefaultProjectStateRegistry.java:227)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:221)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:187)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withProjectLock(DefaultProjectStateRegistry.java:238)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:232)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:193)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator$EvaluateProject.run(LifecycleProjectEvaluator.java:96)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
@@ -338,10 +339,10 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating root project
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:68)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:693)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:141)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:699)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:142)
 	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:36)
-	at org.gradle.configuration.DefaultProjectsPreparer.prepareProjects(DefaultProjectsPreparer.java:53)
+	at org.gradle.configuration.DefaultProjectsPreparer.prepareProjects(DefaultProjectsPreparer.java:59)
 	at org.gradle.configuration.BuildOperatingFiringProjectsPreparer$ConfigureBuild.run(BuildOperatingFiringProjectsPreparer.java:52)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
@@ -351,10 +352,10 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating root project
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
 	at org.gradle.configuration.BuildOperatingFiringProjectsPreparer.prepareProjects(BuildOperatingFiringProjectsPreparer.java:40)
-	at org.gradle.initialization.DefaultGradleLauncher.prepareProjects(DefaultGradleLauncher.java:198)
-	at org.gradle.initialization.DefaultGradleLauncher.doClassicBuildStages(DefaultGradleLauncher.java:138)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:126)
-	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.prepareProjects(DefaultGradleLauncher.java:207)
+	at org.gradle.initialization.DefaultGradleLauncher.doClassicBuildStages(DefaultGradleLauncher.java:145)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:130)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:110)
 	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:60)
 	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:57)
 	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:85)
@@ -380,15 +381,15 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating root project
 	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:45)
 	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:50)
 	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:47)
-	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:78)
+	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:80)
 	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:47)
 	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:31)
 	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:42)
 	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:28)
 	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
 	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:52)
-	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:59)
-	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:60)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:38)
 	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:68)
 	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:38)
 	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:37)
@@ -428,14 +429,14 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating root project
 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
 	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
-Caused by: org.gradle.api.resources.MissingResourceException: Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/Android-Dependencies/dependencies.gradle' as it does not exist.
+Caused by: org.gradle.api.resources.MissingResourceException: Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/Android-Dependencies/dependencies.gradle' as it does not exist.
 	at org.gradle.internal.resource.UriTextResource.getText(UriTextResource.java:132)
 	at org.gradle.internal.resource.CachingTextResource.maybeFetch(CachingTextResource.java:101)
 	at org.gradle.internal.resource.CachingTextResource.getContentHash(CachingTextResource.java:89)
 	at org.gradle.groovy.scripts.internal.CrossBuildInMemoryCachingScriptClassCache.getOrCompile(CrossBuildInMemoryCachingScriptClassCache.java:43)
 	at org.gradle.groovy.scripts.internal.BuildScopeInMemoryCachingScriptClassCompiler.compile(BuildScopeInMemoryCachingScriptClassCompiler.java:50)
-	at org.gradle.groovy.scripts.DefaultScriptCompilerFactory$ScriptCompilerImpl.compile(DefaultScriptCompilerFactory.java:51)
-	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:199)
+	at org.gradle.groovy.scripts.DefaultScriptCompilerFactory$ScriptCompilerImpl.compile(DefaultScriptCompilerFactory.java:49)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:209)
 	at org.gradle.configuration.BuildOperationScriptPlugin$1$1.run(BuildOperationScriptPlugin.java:69)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
@@ -448,39 +449,39 @@ Caused by: org.gradle.api.resources.MissingResourceException: Could not read scr
 	at org.gradle.configuration.BuildOperationScriptPlugin$1.execute(BuildOperationScriptPlugin.java:63)
 	at org.gradle.configuration.internal.DefaultUserCodeApplicationContext.apply(DefaultUserCodeApplicationContext.java:49)
 	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:63)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.applyScript(DefaultObjectConfigurationAction.java:118)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.access$000(DefaultObjectConfigurationAction.java:38)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction$1.run(DefaultObjectConfigurationAction.java:71)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.execute(DefaultObjectConfigurationAction.java:152)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.applyScript(DefaultObjectConfigurationAction.java:151)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.access$000(DefaultObjectConfigurationAction.java:41)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction$1.run(DefaultObjectConfigurationAction.java:74)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.execute(DefaultObjectConfigurationAction.java:185)
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:49)
-	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:41)
-	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:479)
-	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
+	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:37)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:483)
+	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:195)
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:130)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:77)
-	at build_cy8qskg7nmz7lw5rmhje2bken$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/build.gradle:3)
+	at build_5xxmcnr68msbjolvwdha3o2ld$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/build.gradle:3)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
-	at org.gradle.api.internal.project.DefaultProject.buildscript(DefaultProject.java:1207)
-	at org.gradle.api.internal.project.ProjectScript.buildscript(ProjectScript.java:51)
+	at org.gradle.api.internal.project.DefaultProject.buildscript(DefaultProject.java:1225)
+	at org.gradle.api.internal.project.ProjectScript.buildscript(ProjectScript.java:47)
 	at org.gradle.api.Script$buildscript.callCurrent(Unknown Source)
-	at build_cy8qskg7nmz7lw5rmhje2bken.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/build.gradle:1)
+	at build_5xxmcnr68msbjolvwdha3o2ld.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 126 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 2s
+BUILD FAILED in 3s
 
-2019-10-22 11:14:26,458 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-22 11:14:26,458 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-22 11:14:29,769 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-10-22 11:14:29,769 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-10-22 11:14:29,769 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-10-22 11:14:29,769 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-10-22 11:14:33,122 ERROR SysUtils - Could not process external command
+2020-02-18 12:05:46,505 INFO  ProjectTaskService - Detecting possible tasks...
+2020-02-18 12:05:46,505 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-02-18 12:05:50,043 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-02-18 12:05:50,043 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-02-18 12:05:50,043 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-02-18 12:05:50,044 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-02-18 12:05:54,112 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -499,27 +500,27 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-10-22 11:14:33,122 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.6.1/userguide/gradle_daemon.html.
+2020-02-18 12:05:54,112 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.1.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/build.gradle' line: 3
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/build.gradle' line: 3
 
 * What went wrong:
 A problem occurred evaluating root project 'StreamingAndroidLogger-master'.
-> Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/Android-Dependencies/dependencies.gradle' as it does not exist.
+> Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/Android-Dependencies/dependencies.gradle' as it does not exist.
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -527,7 +528,7 @@ Run with --info or --debug option to get more log output. Run with --scan to get
 * Exception is:
 org.gradle.api.GradleScriptException: A problem occurred evaluating root project 'StreamingAndroidLogger-master'.
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:93)
-	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:200)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:210)
 	at org.gradle.configuration.BuildOperationScriptPlugin$1$1.run(BuildOperationScriptPlugin.java:69)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
@@ -542,8 +543,8 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating root project
 	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:63)
 	at org.gradle.configuration.project.BuildScriptProcessor$1.run(BuildScriptProcessor.java:45)
 	at org.gradle.internal.Factories$1.create(Factories.java:26)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:201)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:187)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:212)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:193)
 	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:42)
 	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
 	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:35)
@@ -551,9 +552,9 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating root project
 	at org.gradle.internal.Factories$1.create(Factories.java:26)
 	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:189)
 	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:40)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withProjectLock(DefaultProjectStateRegistry.java:227)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:221)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:187)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withProjectLock(DefaultProjectStateRegistry.java:238)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:232)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:193)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator$EvaluateProject.run(LifecycleProjectEvaluator.java:96)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
@@ -563,10 +564,10 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating root project
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:68)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:693)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:141)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:699)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:142)
 	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:36)
-	at org.gradle.configuration.DefaultProjectsPreparer.prepareProjects(DefaultProjectsPreparer.java:53)
+	at org.gradle.configuration.DefaultProjectsPreparer.prepareProjects(DefaultProjectsPreparer.java:59)
 	at org.gradle.configuration.BuildOperatingFiringProjectsPreparer$ConfigureBuild.run(BuildOperatingFiringProjectsPreparer.java:52)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
@@ -576,10 +577,10 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating root project
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
 	at org.gradle.configuration.BuildOperatingFiringProjectsPreparer.prepareProjects(BuildOperatingFiringProjectsPreparer.java:40)
-	at org.gradle.initialization.DefaultGradleLauncher.prepareProjects(DefaultGradleLauncher.java:198)
-	at org.gradle.initialization.DefaultGradleLauncher.doClassicBuildStages(DefaultGradleLauncher.java:138)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:126)
-	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.prepareProjects(DefaultGradleLauncher.java:207)
+	at org.gradle.initialization.DefaultGradleLauncher.doClassicBuildStages(DefaultGradleLauncher.java:145)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:130)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:110)
 	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:60)
 	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:57)
 	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:85)
@@ -605,15 +606,15 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating root project
 	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:45)
 	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:50)
 	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:47)
-	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:78)
+	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:80)
 	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:47)
 	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:31)
 	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:42)
 	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:28)
 	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
 	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:52)
-	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:59)
-	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:60)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:38)
 	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:68)
 	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:38)
 	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:37)
@@ -653,14 +654,14 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating root project
 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
 	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
-Caused by: org.gradle.api.resources.MissingResourceException: Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/Android-Dependencies/dependencies.gradle' as it does not exist.
+Caused by: org.gradle.api.resources.MissingResourceException: Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/Android-Dependencies/dependencies.gradle' as it does not exist.
 	at org.gradle.internal.resource.UriTextResource.getText(UriTextResource.java:132)
 	at org.gradle.internal.resource.CachingTextResource.maybeFetch(CachingTextResource.java:101)
 	at org.gradle.internal.resource.CachingTextResource.getContentHash(CachingTextResource.java:89)
 	at org.gradle.groovy.scripts.internal.CrossBuildInMemoryCachingScriptClassCache.getOrCompile(CrossBuildInMemoryCachingScriptClassCache.java:43)
 	at org.gradle.groovy.scripts.internal.BuildScopeInMemoryCachingScriptClassCompiler.compile(BuildScopeInMemoryCachingScriptClassCompiler.java:50)
-	at org.gradle.groovy.scripts.DefaultScriptCompilerFactory$ScriptCompilerImpl.compile(DefaultScriptCompilerFactory.java:51)
-	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:199)
+	at org.gradle.groovy.scripts.DefaultScriptCompilerFactory$ScriptCompilerImpl.compile(DefaultScriptCompilerFactory.java:49)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:209)
 	at org.gradle.configuration.BuildOperationScriptPlugin$1$1.run(BuildOperationScriptPlugin.java:69)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
@@ -673,31 +674,31 @@ Caused by: org.gradle.api.resources.MissingResourceException: Could not read scr
 	at org.gradle.configuration.BuildOperationScriptPlugin$1.execute(BuildOperationScriptPlugin.java:63)
 	at org.gradle.configuration.internal.DefaultUserCodeApplicationContext.apply(DefaultUserCodeApplicationContext.java:49)
 	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:63)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.applyScript(DefaultObjectConfigurationAction.java:118)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.access$000(DefaultObjectConfigurationAction.java:38)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction$1.run(DefaultObjectConfigurationAction.java:71)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.execute(DefaultObjectConfigurationAction.java:152)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.applyScript(DefaultObjectConfigurationAction.java:151)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.access$000(DefaultObjectConfigurationAction.java:41)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction$1.run(DefaultObjectConfigurationAction.java:74)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.execute(DefaultObjectConfigurationAction.java:185)
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:49)
-	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:41)
-	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:479)
-	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
+	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:37)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:483)
+	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:195)
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:130)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:77)
-	at build_cy8qskg7nmz7lw5rmhje2bken$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/build.gradle:3)
+	at build_5xxmcnr68msbjolvwdha3o2ld$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/build.gradle:3)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
-	at org.gradle.api.internal.project.DefaultProject.buildscript(DefaultProject.java:1207)
-	at org.gradle.api.internal.project.ProjectScript.buildscript(ProjectScript.java:51)
+	at org.gradle.api.internal.project.DefaultProject.buildscript(DefaultProject.java:1225)
+	at org.gradle.api.internal.project.ProjectScript.buildscript(ProjectScript.java:47)
 	at org.gradle.api.Script$buildscript.callCurrent(Unknown Source)
-	at build_cy8qskg7nmz7lw5rmhje2bken.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717649001-0/src/StreamingAndroidLogger-master/build.gradle:1)
+	at build_5xxmcnr68msbjolvwdha3o2ld.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002316801-0/src/StreamingAndroidLogger-master/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 126 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 2s
+BUILD FAILED in 3s
 
-2019-10-22 11:14:33,127 ERROR FullProcessService - Project build has not produced APK file
-2019-10-22 11:14:33,131 ERROR FullProcessService - Could not find generated or existed APK file
+2020-02-18 12:05:54,117 ERROR FullProcessService - Project build has not produced APK file
+2020-02-18 12:05:54,122 ERROR FullProcessService - Could not find generated or existed APK file

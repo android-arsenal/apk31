@@ -1,40 +1,40 @@
-2019-11-27 12:48:45,511 INFO  DownloadService - Downloading "https://github.com/faruktoptas/kooldown/archive/master.zip", attempt 3
-2019-11-27 12:48:47,994 INFO  DownloadService - Downloaded https://github.com/faruktoptas/kooldown/archive/master.zip, attempt 3
-2019-11-27 12:48:47,994 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574833725507-0/master.zip": 146 KB
-2019-11-27 12:48:47,994 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-11-27 12:48:48,000 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574833725507-0/master.zip: true
-2019-11-27 12:48:48,000 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574833725507-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574833725507-0/src'.
-2019-11-27 12:48:48,019 INFO  FullProcessService - Size of directory with sources: 164 KB
-2019-11-27 12:48:48,020 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574833725507-0/src]
-2019-11-27 12:48:48,038 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574833725507-0/src/.git/
+2020-02-18 12:05:54,165 INFO  DownloadService - Downloading "https://github.com/faruktoptas/kooldown/archive/master.zip", attempt 3
+2020-02-18 12:05:54,726 INFO  DownloadService - Downloaded https://github.com/faruktoptas/kooldown/archive/master.zip, attempt 3
+2020-02-18 12:05:54,726 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002354160-0/master.zip": 146 KB
+2020-02-18 12:05:54,726 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-02-18 12:05:54,727 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002354160-0/master.zip: true
+2020-02-18 12:05:54,727 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002354160-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002354160-0/src'.
+2020-02-18 12:05:54,758 INFO  FullProcessService - Size of directory with sources: 164 KB
+2020-02-18 12:05:54,758 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002354160-0/src]
+2020-02-18 12:05:54,792 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002354160-0/src/.git/
 
-2019-11-27 12:48:48,041 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574833725507-0/src/kooldown-master/gradlew
-2019-11-27 12:48:48,044 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574833725507-0/src/kooldown-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574833725507-0/src/kooldown-master/kooldown/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574833725507-0/src/kooldown-master/build.gradle
-2019-11-27 12:48:48,047 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574833725507-0/src/kooldown-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574833725507-0/src/kooldown-master/kooldown/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574833725507-0/src/kooldown-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574833725507-0/src/kooldown-master/settings.gradle
-2019-11-27 12:48:48,047 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/wajahatkarim3/JCenter-Gradle-Scripts/master/install.gradle", attempt 3
-2019-11-27 12:48:48,281 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/wajahatkarim3/JCenter-Gradle-Scripts/master/install.gradle, attempt 3
-2019-11-27 12:48:48,281 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/wajahatkarim3/JCenter-Gradle-Scripts/master/bintray.gradle", attempt 3
-2019-11-27 12:48:48,520 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/wajahatkarim3/JCenter-Gradle-Scripts/master/bintray.gradle, attempt 3
-2019-11-27 12:48:48,521 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/wajahatkarim3/JCenter-Gradle-Scripts/master/install.gradle https://raw.githubusercontent.com/wajahatkarim3/JCenter-Gradle-Scripts/master/bintray.gradle
-2019-11-27 12:48:48,521 INFO  ProjectFixService - Fixing project...
-2019-11-27 12:48:48,530 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574833725507-0/src/kooldown-master/app/local.properties
-2019-11-27 12:48:48,531 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574833725507-0/src/kooldown-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-11-27 12:48:48,531 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574833725507-0/src/kooldown-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-11-27 12:48:48,532 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574833725507-0/src/kooldown-master/kooldown/local.properties
-2019-11-27 12:48:48,536 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574833725507-0/src/kooldown-master/kooldown/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-11-27 12:48:48,536 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574833725507-0/src/kooldown-master/kooldown/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-11-27 12:48:48,537 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574833725507-0/src/kooldown-master/local.properties
-2019-11-27 12:48:48,537 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-11-27 12:48:48,538 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-11-27 12:48:48,539 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574833725507-0/src/kooldown-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-11-27 12:48:48,539 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574833725507-0/src/kooldown-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-11-27 12:48:48,540 INFO  ProjectFixService - Project was maybe fixed
-2019-11-27 12:48:48,540 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-27 12:48:48,540 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574833725507-0/src/kooldown-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574833725507-0/src/kooldown-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-27 12:48:56,606 INFO  ProjectTaskService - Detected possible tasks: 72
-2019-11-27 12:48:56,606 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-11-27 12:48:56,607 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574833725507-0/src/kooldown-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574833725507-0/src/kooldown-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-11-27 12:49:02,644 ERROR SysUtils - Could not process external command
+2020-02-18 12:05:54,799 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002354160-0/src/kooldown-master/gradlew
+2020-02-18 12:05:54,805 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002354160-0/src/kooldown-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002354160-0/src/kooldown-master/kooldown/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002354160-0/src/kooldown-master/build.gradle
+2020-02-18 12:05:54,810 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002354160-0/src/kooldown-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002354160-0/src/kooldown-master/kooldown/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002354160-0/src/kooldown-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002354160-0/src/kooldown-master/settings.gradle
+2020-02-18 12:05:54,817 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/wajahatkarim3/JCenter-Gradle-Scripts/master/install.gradle", attempt 3
+2020-02-18 12:05:55,746 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/wajahatkarim3/JCenter-Gradle-Scripts/master/install.gradle, attempt 3
+2020-02-18 12:05:55,747 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/wajahatkarim3/JCenter-Gradle-Scripts/master/bintray.gradle", attempt 3
+2020-02-18 12:05:56,044 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/wajahatkarim3/JCenter-Gradle-Scripts/master/bintray.gradle, attempt 3
+2020-02-18 12:05:56,044 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/wajahatkarim3/JCenter-Gradle-Scripts/master/install.gradle https://raw.githubusercontent.com/wajahatkarim3/JCenter-Gradle-Scripts/master/bintray.gradle
+2020-02-18 12:05:56,044 INFO  ProjectFixService - Fixing project...
+2020-02-18 12:05:56,053 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002354160-0/src/kooldown-master/app/local.properties
+2020-02-18 12:05:56,054 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002354160-0/src/kooldown-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-02-18 12:05:56,054 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002354160-0/src/kooldown-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-02-18 12:05:56,055 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002354160-0/src/kooldown-master/kooldown/local.properties
+2020-02-18 12:05:56,056 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002354160-0/src/kooldown-master/kooldown/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-02-18 12:05:56,056 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002354160-0/src/kooldown-master/kooldown/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-02-18 12:05:56,057 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002354160-0/src/kooldown-master/local.properties
+2020-02-18 12:05:56,057 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2020-02-18 12:05:56,058 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2020-02-18 12:05:56,059 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002354160-0/src/kooldown-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-02-18 12:05:56,059 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002354160-0/src/kooldown-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-02-18 12:05:56,059 INFO  ProjectFixService - Project was maybe fixed
+2020-02-18 12:05:56,060 INFO  ProjectTaskService - Detecting possible tasks...
+2020-02-18 12:05:56,060 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002354160-0/src/kooldown-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002354160-0/src/kooldown-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-02-18 12:06:04,175 INFO  ProjectTaskService - Detected possible tasks: 72
+2020-02-18 12:06:04,175 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-02-18 12:06:04,175 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002354160-0/src/kooldown-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002354160-0/src/kooldown-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-02-18 12:06:10,849 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -53,16 +53,16 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-11-27 12:49:02,645 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-02-18 12:06:10,849 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -140,13 +140,11 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 6s
 
-2019-11-27 12:49:02,645 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-11-27 12:49:02,645 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574833725507-0/src/kooldown-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574833725507-0/src/kooldown-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-11-27 12:50:01,394 INFO  SysUtils - Configuration on demand is an incubating feature.
-Download https://raw.githubusercontent.com/wajahatkarim3/JCenter-Gradle-Scripts/master/install.gradle
-Download https://raw.githubusercontent.com/wajahatkarim3/JCenter-Gradle-Scripts/master/bintray.gradle
+2020-02-18 12:06:10,849 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2020-02-18 12:06:10,849 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002354160-0/src/kooldown-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002354160-0/src/kooldown-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-02-18 12:07:09,912 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:checkDebugClasspath
 Download https://jitpack.io/com/github/aliab/circular-music-progressbar/v1.3.0/circular-music-progressbar-v1.3.0.aar
 :app:preBuild UP-TO-DATE
@@ -287,10 +285,10 @@ D8: Stripped invalid locals information from 1 method.
 :app:assemble
 :app:lint
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/46d45fbc4abd843a5d088a1454796b9b/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-Ran lint on variant release: 3 issues found
-Ran lint on variant debug: 3 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574833725507-0/src/kooldown-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574833725507-0/src/kooldown-master/app/build/reports/lint-results.xml
+Ran lint on variant release: 4 issues found
+Ran lint on variant debug: 4 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002354160-0/src/kooldown-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002354160-0/src/kooldown-master/app/build/reports/lint-results.xml
 :app:compileDebugUnitTestKotlin
 :app:generateDebugUnitTestSources
 :app:preDebugUnitTestBuild UP-TO-DATE
@@ -312,4 +310,4 @@ Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgby
 BUILD SUCCESSFUL in 58s
 100 actionable tasks: 100 executed
 
-2019-11-27 12:50:01,473 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574833725507-0/src/kooldown-master/app/build/outputs/apk/debug/app-debug.apk
+2020-02-18 12:07:09,992 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002354160-0/src/kooldown-master/app/build/outputs/apk/debug/app-debug.apk
