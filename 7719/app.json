@@ -3,8 +3,16 @@
     "packageName" : "com.arthurivanets.sample",
     "label" : "Marvel",
     "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
-    "versionName" : "1.3.1",
-    "versionCode" : 6,
+    "versionName" : "1.4.1",
+    "versionCode" : 8,
+    "revisionCode" : null,
+    "sharedUserId" : null,
+    "sharedUserLabel" : null,
+    "split" : null,
+    "configForSplit" : null,
+    "isFeatureSplit" : false,
+    "isSplitRequired" : false,
+    "isolatedSplits" : false,
     "installLocation" : null,
     "minSdkVersion" : "21",
     "targetSdkVersion" : "29",
@@ -20,7 +28,9 @@
     "largeScreens" : false,
     "usesPermissions" : [ "android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE" ],
     "usesFeatures" : [ ],
-    "permissions" : [ ]
+    "permissions" : [ ],
+    "featureSplit" : false,
+    "splitRequired" : false
   },
   "icon" : {
     "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
@@ -28,11 +38,11 @@
     "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAFO0lEQVR42u2Ze1DUVRTHLaqpYOKP+KeZYiYgBGwfP5ZFBHR5qIQkSYWEGQ8xLLOmQhQBLWJMAVFLIwSMR6NkiQ+wGRMKbDSeq40I28CIJq+AZdklWN5zuufC3nYZcFBZd53ZO3Nm7+/87v39vp97zzn8hrtggakZcQsODjbz8vJ6zJCGGu5F+6NTZiztrvSwga6urs+KRCJrsVj8giEM340aZtJ2R/Fk4tMcJ84QCsX/CITiXkMaakAtqGkuEPQmx7lkcs5iMCbj87lsIu2RWQE0yUJIrQhAN04Sci4jxCYEQpFBDN+NGlCLQODc4+jo+Jy2Vp2GGY+/ZNBLZFIfnUQeYuiV12jgC5yVdnZ2TtpaZwRwcHCwF3JihZECLJojgHHugK2t7csmABOACcAEYAJ4sAAffxIDmZlH4NDhb2BVwGrw8JTA14cOU9+uzz4HF7EbbP7gQ3qNFhYWAZ5LJXDg4FfMl5KSBt4+K8j4JEhNS4eAgEBwW+IJcTsSIDU1ndg+6tdYSMg6SEjYCXv2pID/qlfvD+DM2WKYmJiA8fFx2LZ9B6wNCaV99NXU1MLixe5w4UIpvUbLyysAv1cCoLe3l/lwfFnZr3Dr1t/0OumLZFjp5w+3b7fC2NgYdHd3s7FoewlwU1MzDA4OQvSm9+cHAC075yhdGc01BXDzAJnsL+YrLy9nACi85eZNKhL7w8PDdExBwfcQ9HowqIeGYIhYbW0t9cvJnIaGRoiP36kfgIqLv0N+foEOgO9yP+jSWkGECQwMogCjo6Ow6b3NUF1To7PCFRUXYcuWj2i/v/9fKCo6RfsnTvxE414i8dEPQFtbG1RX1+gArH8nHJRKlc6YiMiNDCAiMgq+y81joYQmk8kgIyOT+m7caIHc3HzaP3myiOSGB80XvQCMjIzSh2oDxMbG0TDA8MD7fUolbI3dzgCIAKiTSifFtrSASqWCtvZ2qKqqor7S0jIG0N7eAZcuXYaYrdv0AzDdEACrDa5qU3MzXX0UnZKaxnKgq6uLjU9PPwCtrW2gVqthYGCA+jK+zWQAek/imQBOnz5D++fP/wJS6RXaLyz8QacKoWEVknj5QmOjTGtHR2hl0wBgNbp69U+Ii4uff4COjg724s7OTgYgvTIp+tixQiglIrF/+Y9KtgNK1WR+HMnKBmeRKw0ZzXNUqn5Y93YYA8BkdvdYBj76yIHKykpQKBR0+38rr6C+ujop9PTIp6pJPwuLdhLjmhwoKTlHQa5dq4dlEm/Iys5hALjiEi+f/5N4BgBSreYHoOTcz1BfXw9yuZyJaCFJiWEwPbRGiHAERYCYmFgKh+MiSXWKj09k465fb6C7ogFQ9PVR4YmJu+gvgpOSO4Fj7hkg52guffjx44VQTFYTV3L3l3upT60emgwTUnn27z9IPhuyqHCNQE0ZLZsKLQyzqKhoVsmKi0to3Z8tibFPSvD97cBra94gVWUfRG2Mhg1R78KnZEWD176l8+2SQFZsiftS8gfIG5KSkpkfv4FWrPSH0ND19HsHyyteJyfvpvfDwzdQANyZmb6F8L1rgt40fU6bAEwAJgATwAMHeIj/uWtvb+9grDtgY2PDmxVAc2hAKJ/nOBe5sR1w8Plcr7W1tc2sAFpHTE86OfF+JBON5ngJtTg4OJ0i2p6ayxmZmYWFxaKFC53O8nhCBU/grOILOCX+Pkhj7+RxCqKl2NzcHMPHbK4nlUj6oqWlpa+VldVqQxrRsBy1zGX1p0M8Qcyc2DMGNvMpLXd/8I7JIhKJHjek3SlhTc0Y2n9fhV7W30lU3wAAAABJRU5ErkJggg==",
     "file" : true
   },
-  "dexClasses" : 10694,
+  "dexClasses" : 11683,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
-  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"6\" android:versionName=\"1.3.1\" android:compileSdkVersion=\"29\" android:compileSdkVersionCodename=\"10\" package=\"com.arthurivanets.sample\" platformBuildVersionCode=\"29\" platformBuildVersionName=\"10\">\n\t<uses-sdk android:minSdkVersion=\"21\" android:targetSdkVersion=\"29\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<application android:theme=\"resourceId:0x7f100006\" android:label=\"Marvel\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:name=\"com.arthurivanets.sample.MarvelApplication\" android:debuggable=\"true\" android:allowBackup=\"true\" android:hardwareAccelerated=\"true\" android:largeHeap=\"true\" android:supportsRtl=\"true\" android:usesCleartextTraffic=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.arthurivanets.sample.ui.host.HostActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<meta-data android:name=\"com.bumptech.glide.integration.okhttp3.OkHttpGlideModule\" android:value=\"GlideModule\" />\n\t\t<provider android:name=\"androidx.lifecycle.ProcessLifecycleOwnerInitializer\" android:exported=\"false\" android:multiprocess=\"true\" android:authorities=\"com.arthurivanets.sample.lifecycle-process\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 7573193,
-  "crc32" : 698629905,
-  "sha256" : "536d853e2b7fb650193b71ecf67a6ede9207518f9f2dc720b79c933f5a2caea1",
-  "buildTime" : 1575125306000
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"8\" android:versionName=\"1.4.1\" android:compileSdkVersion=\"29\" android:compileSdkVersionCodename=\"10\" package=\"com.arthurivanets.sample\" platformBuildVersionCode=\"29\" platformBuildVersionName=\"10\">\n\t<uses-sdk android:minSdkVersion=\"21\" android:targetSdkVersion=\"29\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<application android:theme=\"resourceId:0x7f110007\" android:label=\"Marvel\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:name=\"com.arthurivanets.sample.MarvelApplication\" android:debuggable=\"true\" android:allowBackup=\"true\" android:hardwareAccelerated=\"true\" android:largeHeap=\"true\" android:supportsRtl=\"true\" android:usesCleartextTraffic=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.arthurivanets.sample.ui.host.HostActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<meta-data android:name=\"com.bumptech.glide.integration.okhttp3.OkHttpGlideModule\" android:value=\"GlideModule\" />\n\t\t<provider android:name=\"androidx.lifecycle.ProcessLifecycleOwnerInitializer\" android:exported=\"false\" android:multiprocess=\"true\" android:authorities=\"com.arthurivanets.sample.lifecycle-process\" />\n\t\t<service android:name=\"androidx.room.MultiInstanceInvalidationService\" android:exported=\"false\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 8188530,
+  "crc32" : 177724211,
+  "sha256" : "01bedae7234a99eea3cb34aa8e561084ead1862f66226316299216c47ea1de17",
+  "buildTime" : 1584821212000
 }

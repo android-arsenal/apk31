@@ -1,39 +1,40 @@
-2019-12-01 00:45:24,112 INFO  DownloadService - Downloading "https://github.com/adrielcafe/HAL/archive/master.zip", attempt 3
-2019-12-01 00:45:26,417 INFO  DownloadService - Downloaded https://github.com/adrielcafe/HAL/archive/master.zip, attempt 3
-2019-12-01 00:45:26,417 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135924107-0/master.zip": 243 KB
-2019-12-01 00:45:26,417 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-12-01 00:45:26,418 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135924107-0/master.zip: true
-2019-12-01 00:45:26,419 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135924107-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135924107-0/src'.
-2019-12-01 00:45:26,442 INFO  FullProcessService - Size of directory with sources: 270 KB
-2019-12-01 00:45:26,442 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135924107-0/src]
-2019-12-01 00:45:26,460 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135924107-0/src/.git/
+2020-03-22 03:02:22,344 INFO  DownloadService - Downloading "https://github.com/adrielcafe/HAL/archive/master.zip", attempt 3
+2020-03-22 03:02:23,100 INFO  DownloadService - Downloaded https://github.com/adrielcafe/HAL/archive/master.zip, attempt 3
+2020-03-22 03:02:23,100 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/master.zip": 244 KB
+2020-03-22 03:02:23,100 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-22 03:02:23,106 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/master.zip: true
+2020-03-22 03:02:23,106 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src'.
+2020-03-22 03:02:23,135 INFO  FullProcessService - Size of directory with sources: 270 KB
+2020-03-22 03:02:23,135 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src]
+2020-03-22 03:02:23,156 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/.git/
 
-2019-12-01 00:45:26,463 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135924107-0/src/HAL-master/gradlew
-2019-12-01 00:45:26,466 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135924107-0/src/HAL-master/hal-livedata/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135924107-0/src/HAL-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135924107-0/src/HAL-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135924107-0/src/HAL-master/hal-core/build.gradle
-2019-12-01 00:45:26,469 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135924107-0/src/HAL-master/hal-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135924107-0/src/HAL-master/hal-livedata/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135924107-0/src/HAL-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135924107-0/src/HAL-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135924107-0/src/HAL-master/settings.gradle
-2019-12-01 00:45:26,469 INFO  ProjectBuildService - Remote scripts: none
-2019-12-01 00:45:26,469 INFO  ProjectFixService - Fixing project...
-2019-12-01 00:45:26,479 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135924107-0/src/HAL-master/hal-livedata/local.properties
-2019-12-01 00:45:26,479 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135924107-0/src/HAL-master/hal-livedata/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-12-01 00:45:26,480 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135924107-0/src/HAL-master/hal-livedata/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-12-01 00:45:26,481 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135924107-0/src/HAL-master/sample/local.properties
-2019-12-01 00:45:26,482 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135924107-0/src/HAL-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-12-01 00:45:26,482 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135924107-0/src/HAL-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-12-01 00:45:26,482 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135924107-0/src/HAL-master/local.properties
-2019-12-01 00:45:26,483 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.5-all.zip
-2019-12-01 00:45:26,483 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.5-bin.zip)
-2019-12-01 00:45:26,484 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135924107-0/src/HAL-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-12-01 00:45:26,484 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135924107-0/src/HAL-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-12-01 00:45:26,485 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135924107-0/src/HAL-master/hal-core/local.properties
-2019-12-01 00:45:26,486 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135924107-0/src/HAL-master/hal-core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-12-01 00:45:26,486 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135924107-0/src/HAL-master/hal-core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-12-01 00:45:26,486 INFO  ProjectFixService - Project was maybe fixed
-2019-12-01 00:45:26,486 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-01 00:45:26,486 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135924107-0/src/HAL-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135924107-0/src/HAL-master/hal-livedata/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-01 00:45:46,303 INFO  ProjectTaskService - Detected possible tasks: 79
-2019-12-01 00:45:46,304 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-12-01 00:45:46,304 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135924107-0/src/HAL-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135924107-0/src/HAL-master/hal-livedata/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-12-01 00:46:09,036 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
+2020-03-22 03:02:23,160 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/gradlew
+2020-03-22 03:02:23,164 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/hal-livedata/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/hal-core/build.gradle
+2020-03-22 03:02:23,167 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/hal-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/hal-livedata/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/settings.gradle
+2020-03-22 03:02:23,168 INFO  ProjectBuildService - Remote scripts: none
+2020-03-22 03:02:23,168 INFO  ProjectFixService - Fixing project...
+2020-03-22 03:02:23,177 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/hal-livedata/local.properties
+2020-03-22 03:02:23,178 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/hal-livedata/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-03-22 03:02:23,179 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/hal-livedata/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-03-22 03:02:23,179 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/sample/local.properties
+2020-03-22 03:02:23,180 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-03-22 03:02:23,180 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-03-22 03:02:23,181 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/local.properties
+2020-03-22 03:02:23,181 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.5-all.zip
+2020-03-22 03:02:23,182 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.5-bin.zip)
+2020-03-22 03:02:23,183 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-03-22 03:02:23,183 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-03-22 03:02:23,184 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/hal-core/local.properties
+2020-03-22 03:02:23,185 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/hal-core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-03-22 03:02:23,185 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/hal-core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-03-22 03:02:23,185 INFO  ProjectFixService - Project was maybe fixed
+2020-03-22 03:02:23,185 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-22 03:02:23,185 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/hal-livedata/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-22 03:02:31,028 INFO  VirusProcessorServiceImpl - Queued project 7749 to scan viruses
+2020-03-22 03:03:16,097 INFO  ProjectTaskService - Detected possible tasks: 83
+2020-03-22 03:03:16,097 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-03-22 03:03:16,098 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/hal-livedata/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-03-22 03:03:35,723 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
 > Task :buildSrc:compileJava NO-SOURCE
 > Task :buildSrc:compileGroovy NO-SOURCE
 > Task :buildSrc:pluginDescriptors UP-TO-DATE
@@ -57,10 +58,10 @@ Configuration on demand is an incubating feature.
 > Task :hal-livedata:preDebugBuild UP-TO-DATE
 
 > Task :hal-core:compileKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135924107-0/src/HAL-master/hal-core/src/main/kotlin/cafe/adriel/hal/HAL.kt: (33, 26): This declaration is experimental and its usage should be marked with '@kotlinx.coroutines.ObsoleteCoroutinesApi' or '@UseExperimental(kotlinx.coroutines.ObsoleteCoroutinesApi::class)'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/hal-core/src/main/kotlin/cafe/adriel/hal/HAL.kt: (33, 26): This declaration is experimental and its usage should be marked with '@kotlinx.coroutines.ObsoleteCoroutinesApi' or '@UseExperimental(kotlinx.coroutines.ObsoleteCoroutinesApi::class)'
 
-> Task :hal-livedata:compileDebugAidl NO-SOURCE
 > Task :hal-core:compileJava NO-SOURCE
+> Task :hal-livedata:compileDebugAidl NO-SOURCE
 > Task :hal-core:processResources NO-SOURCE
 > Task :hal-core:classes UP-TO-DATE
 > Task :hal-core:inspectClassesForKotlinIC
@@ -136,15 +137,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.5/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 22s
+BUILD SUCCESSFUL in 19s
 49 actionable tasks: 49 executed
 
-2019-12-01 00:46:09,057 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-01 00:46:09,057 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135924107-0/src/HAL-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135924107-0/src/HAL-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-01 00:46:19,381 INFO  ProjectTaskService - Detected possible tasks: 80
-2019-12-01 00:46:19,381 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-12-01 00:46:19,381 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135924107-0/src/HAL-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135924107-0/src/HAL-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-12-01 00:47:13,023 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
+2020-03-22 03:03:35,749 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-22 03:03:35,749 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-22 03:03:44,667 INFO  ProjectTaskService - Detected possible tasks: 80
+2020-03-22 03:03:44,667 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-22 03:03:44,667 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-22 03:04:34,209 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
 > Task :buildSrc:compileJava NO-SOURCE
 > Task :buildSrc:compileGroovy NO-SOURCE
 > Task :buildSrc:pluginDescriptors UP-TO-DATE
@@ -173,13 +174,13 @@ Configuration on demand is an incubating feature.
 > Task :hal-livedata:preBuild UP-TO-DATE
 > Task :hal-livedata:preDebugBuild UP-TO-DATE
 > Task :hal-livedata:checkDebugManifest UP-TO-DATE
+> Task :hal-livedata:generateDebugBuildConfig UP-TO-DATE
 > Task :hal-livedata:compileDebugAidl NO-SOURCE
 > Task :hal-livedata:compileDebugRenderscript NO-SOURCE
-> Task :hal-livedata:generateDebugBuildConfig UP-TO-DATE
 > Task :hal-livedata:generateDebugResValues UP-TO-DATE
 > Task :hal-livedata:generateDebugResources UP-TO-DATE
-> Task :hal-livedata:processDebugManifest UP-TO-DATE
 > Task :hal-livedata:packageDebugResources UP-TO-DATE
+> Task :hal-livedata:processDebugManifest UP-TO-DATE
 > Task :hal-livedata:generateDebugRFile UP-TO-DATE
 > Task :hal-livedata:compileDebugKotlin UP-TO-DATE
 > Task :hal-livedata:prepareLintJar UP-TO-DATE
@@ -189,6 +190,15 @@ Configuration on demand is an incubating feature.
 > Task :hal-livedata:bundleLibCompileDebug
 > Task :sample:preBuild UP-TO-DATE
 > Task :hal-livedata:packageDebugRenderscript NO-SOURCE
+> Task :sample:prepareLintJar
+> Task :hal-livedata:mergeDebugShaders UP-TO-DATE
+> Task :hal-livedata:compileDebugShaders UP-TO-DATE
+> Task :hal-livedata:generateDebugAssets UP-TO-DATE
+> Task :hal-livedata:packageDebugAssets UP-TO-DATE
+> Task :hal-livedata:processDebugJavaRes NO-SOURCE
+> Task :hal-livedata:bundleLibResDebug
+> Task :hal-livedata:bundleLibRuntimeDebug
+> Task :hal-livedata:createFullJarDebug
 > Task :sample:preDebugBuild
 > Task :sample:compileDebugAidl NO-SOURCE
 > Task :sample:compileDebugRenderscript NO-SOURCE
@@ -197,28 +207,19 @@ Configuration on demand is an incubating feature.
 > Task :sample:mainApkListPersistenceDebug
 > Task :sample:generateDebugResValues
 > Task :sample:generateDebugResources
-> Task :sample:createDebugCompatibleScreenManifests
 > Task :sample:mergeDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
 > Task :sample:processDebugManifest
 > Task :sample:processDebugResources
 > Task :sample:compileDebugKotlin
-> Task :sample:prepareLintJar
 > Task :sample:generateDebugSources
 > Task :sample:javaPreCompileDebug
 > Task :sample:compileDebugJavaWithJavac
 > Task :sample:compileDebugSources
-> Task :hal-livedata:mergeDebugShaders UP-TO-DATE
-> Task :hal-livedata:compileDebugShaders UP-TO-DATE
-> Task :hal-livedata:generateDebugAssets UP-TO-DATE
-> Task :hal-livedata:packageDebugAssets UP-TO-DATE
 > Task :sample:mergeDebugShaders
 > Task :sample:compileDebugShaders
 > Task :sample:generateDebugAssets
 > Task :sample:mergeDebugAssets
-> Task :hal-livedata:processDebugJavaRes NO-SOURCE
-> Task :hal-livedata:bundleLibResDebug
-> Task :hal-livedata:bundleLibRuntimeDebug
-> Task :hal-livedata:createFullJarDebug
 > Task :sample:checkDebugDuplicateClasses
 > Task :sample:transformClassesWithDexBuilderForDebug
 > Task :sample:validateSigningDebug
@@ -261,10 +262,6 @@ Configuration on demand is an incubating feature.
 > Task :sample:processReleaseManifest
 > Task :sample:processReleaseResources
 > Task :sample:compileReleaseKotlin
-> Task :sample:mergeExtDexDebug
-> Task :sample:mergeDexDebug
-> Task :sample:packageDebug
-> Task :sample:assembleDebug
 > Task :sample:generateReleaseSources
 > Task :sample:javaPreCompileRelease
 > Task :sample:compileReleaseJavaWithJavac
@@ -274,6 +271,10 @@ Configuration on demand is an incubating feature.
 > Task :sample:lintVitalRelease
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/60f92d9723570e74c0bdf6d37fb14c65/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
+> Task :sample:mergeExtDexDebug
+> Task :sample:mergeDexDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
 > Task :hal-livedata:processReleaseJavaRes NO-SOURCE
 > Task :hal-livedata:bundleLibResRelease
 > Task :hal-livedata:bundleLibRuntimeRelease
@@ -309,7 +310,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.5/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 52s
+BUILD SUCCESSFUL in 48s
 98 actionable tasks: 63 executed, 35 up-to-date
 
-2019-12-01 00:47:13,097 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135924107-0/src/HAL-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2020-03-22 03:04:34,316 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
