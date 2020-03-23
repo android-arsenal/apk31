@@ -1,90 +1,87 @@
-2019-05-17 11:06:03,768 INFO  DownloadService - Downloading "https://github.com/skymansandy/scratchCardLayout/archive/master.zip", attempt 3
-2019-05-17 11:06:51,039 INFO  DownloadService - Downloaded https://github.com/skymansandy/scratchCardLayout/archive/master.zip, attempt 3
-2019-05-17 11:06:51,040 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558065963765-0/master.zip": 2 MB
-2019-05-17 11:06:51,040 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-17 11:06:51,042 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558065963765-0/master.zip: true
-2019-05-17 11:06:51,042 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558065963765-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558065963765-0/src'.
-2019-05-17 11:06:51,127 INFO  FullProcessService - Size of directory with sources: 8 MB
-2019-05-17 11:06:51,127 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558065963765-0/src]
-2019-05-17 11:06:51,145 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558065963765-0/src/.git/
+2020-03-24 00:36:59,285 INFO  DownloadService - Downloading "https://github.com/skymansandy/scratchCardLayout/archive/master.zip", attempt 3
+2020-03-24 00:37:02,260 INFO  DownloadService - Downloaded https://github.com/skymansandy/scratchCardLayout/archive/master.zip, attempt 3
+2020-03-24 00:37:02,261 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584985019282-0/master.zip": 2 MB
+2020-03-24 00:37:02,261 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-24 00:37:02,267 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584985019282-0/master.zip: true
+2020-03-24 00:37:02,267 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584985019282-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584985019282-0/src'.
+2020-03-24 00:37:02,352 INFO  FullProcessService - Size of directory with sources: 8 MB
+2020-03-24 00:37:02,352 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584985019282-0/src]
+2020-03-24 00:37:02,370 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584985019282-0/src/.git/
 
-2019-05-17 11:06:51,151 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558065963765-0/src/scratchCardLayout-master/gradlew
-2019-05-17 11:06:51,156 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558065963765-0/src/scratchCardLayout-master/demoscratchcardlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558065963765-0/src/scratchCardLayout-master/scratchcardlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558065963765-0/src/scratchCardLayout-master/build.gradle
-2019-05-17 11:06:51,162 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558065963765-0/src/scratchCardLayout-master/scratchcardlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558065963765-0/src/scratchCardLayout-master/demoscratchcardlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558065963765-0/src/scratchCardLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558065963765-0/src/scratchCardLayout-master/settings.gradle
-2019-05-17 11:06:51,162 INFO  ProjectBuildService - Remote scripts: none
-2019-05-17 11:06:51,162 INFO  ProjectFixService - Fixing project...
-2019-05-17 11:06:51,175 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558065963765-0/src/scratchCardLayout-master/demoscratchcardlayout/local.properties
-2019-05-17 11:06:51,176 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558065963765-0/src/scratchCardLayout-master/demoscratchcardlayout/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-05-17 11:06:51,176 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558065963765-0/src/scratchCardLayout-master/demoscratchcardlayout/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-05-17 11:06:51,177 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558065963765-0/src/scratchCardLayout-master/scratchcardlayout/local.properties
-2019-05-17 11:06:51,178 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558065963765-0/src/scratchCardLayout-master/scratchcardlayout/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-17 11:06:51,178 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558065963765-0/src/scratchCardLayout-master/scratchcardlayout/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-17 11:06:51,179 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558065963765-0/src/scratchCardLayout-master/local.properties
-2019-05-17 11:06:51,180 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-05-17 11:06:51,180 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-05-17 11:06:51,182 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558065963765-0/src/scratchCardLayout-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-17 11:06:51,182 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558065963765-0/src/scratchCardLayout-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-17 11:06:51,182 INFO  ProjectFixService - Project was maybe fixed
-2019-05-17 11:06:51,182 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-17 11:06:51,182 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558065963765-0/src/scratchCardLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558065963765-0/src/scratchCardLayout-master/demoscratchcardlayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-17 11:07:00,279 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-05-17 11:07:00,279 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-17 11:07:00,279 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558065963765-0/src/scratchCardLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558065963765-0/src/scratchCardLayout-master/demoscratchcardlayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-17 11:07:37,319 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-24 00:37:02,378 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584985019282-0/src/scratchCardLayout-master/gradlew
+2020-03-24 00:37:02,385 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584985019282-0/src/scratchCardLayout-master/demoscratchcardlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584985019282-0/src/scratchCardLayout-master/scratchcardlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584985019282-0/src/scratchCardLayout-master/build.gradle
+2020-03-24 00:37:02,391 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584985019282-0/src/scratchCardLayout-master/scratchcardlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584985019282-0/src/scratchCardLayout-master/demoscratchcardlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584985019282-0/src/scratchCardLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584985019282-0/src/scratchCardLayout-master/settings.gradle
+2020-03-24 00:37:02,392 INFO  ProjectBuildService - Remote scripts: none
+2020-03-24 00:37:02,392 INFO  ProjectFixService - Fixing project...
+2020-03-24 00:37:02,405 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584985019282-0/src/scratchCardLayout-master/demoscratchcardlayout/local.properties
+2020-03-24 00:37:02,406 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584985019282-0/src/scratchCardLayout-master/demoscratchcardlayout/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-03-24 00:37:02,406 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584985019282-0/src/scratchCardLayout-master/demoscratchcardlayout/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-03-24 00:37:02,407 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584985019282-0/src/scratchCardLayout-master/scratchcardlayout/local.properties
+2020-03-24 00:37:02,408 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584985019282-0/src/scratchCardLayout-master/scratchcardlayout/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-03-24 00:37:02,408 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584985019282-0/src/scratchCardLayout-master/scratchcardlayout/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-03-24 00:37:02,409 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584985019282-0/src/scratchCardLayout-master/local.properties
+2020-03-24 00:37:02,409 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-03-24 00:37:02,410 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-03-24 00:37:02,411 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584985019282-0/src/scratchCardLayout-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-03-24 00:37:02,412 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584985019282-0/src/scratchCardLayout-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-03-24 00:37:02,412 INFO  ProjectFixService - Project was maybe fixed
+2020-03-24 00:37:02,412 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-24 00:37:02,412 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584985019282-0/src/scratchCardLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584985019282-0/src/scratchCardLayout-master/demoscratchcardlayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-24 00:37:09,726 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-03-24 00:37:09,726 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-24 00:37:09,726 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584985019282-0/src/scratchCardLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584985019282-0/src/scratchCardLayout-master/demoscratchcardlayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-24 00:37:18,672 INFO  VirusProcessorServiceImpl - Queued project 7616 to scan viruses
+2020-03-24 00:37:56,087 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :scratchcardlayout
 WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
 It will be removed at the end of 2019.
 For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
+To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
 WARNING: API 'variantOutput.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
 It will be removed at the end of 2019.
 For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
+To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
 
 > Task :demoscratchcardlayout:preBuild UP-TO-DATE
+> Task :demoscratchcardlayout:preDebugBuild UP-TO-DATE
 > Task :scratchcardlayout:preBuild UP-TO-DATE
 > Task :scratchcardlayout:preDebugBuild UP-TO-DATE
-> Task :scratchcardlayout:checkDebugManifest
-> Task :scratchcardlayout:processDebugManifest
-> Task :demoscratchcardlayout:preDebugBuild
 > Task :scratchcardlayout:compileDebugAidl NO-SOURCE
 > Task :demoscratchcardlayout:compileDebugAidl NO-SOURCE
 > Task :scratchcardlayout:packageDebugRenderscript NO-SOURCE
-> Task :demoscratchcardlayout:compileDebugRenderscript
-> Task :demoscratchcardlayout:checkDebugManifest
+> Task :demoscratchcardlayout:compileDebugRenderscript NO-SOURCE
 > Task :demoscratchcardlayout:generateDebugBuildConfig
-> Task :demoscratchcardlayout:prepareLintJar
-> Task :demoscratchcardlayout:generateDebugSources
-> Task :scratchcardlayout:compileDebugRenderscript
 > Task :scratchcardlayout:generateDebugBuildConfig
+> Task :scratchcardlayout:compileDebugRenderscript NO-SOURCE
 > Task :scratchcardlayout:generateDebugResValues
 > Task :scratchcardlayout:generateDebugResources
 > Task :scratchcardlayout:packageDebugResources
-> Task :scratchcardlayout:generateDebugRFile
-> Task :scratchcardlayout:prepareLintJar
-> Task :scratchcardlayout:generateDebugSources
+> Task :scratchcardlayout:parseDebugLocalResources
 > Task :scratchcardlayout:javaPreCompileDebug
-> Task :scratchcardlayout:compileDebugJavaWithJavac
-> Task :scratchcardlayout:processDebugJavaRes NO-SOURCE
-> Task :scratchcardlayout:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-> Task :demoscratchcardlayout:javaPreCompileDebug
+> Task :scratchcardlayout:processDebugManifest
 > Task :demoscratchcardlayout:mainApkListPersistenceDebug
 > Task :demoscratchcardlayout:generateDebugResValues
 > Task :demoscratchcardlayout:generateDebugResources
+> Task :scratchcardlayout:generateDebugRFile
+> Task :scratchcardlayout:compileDebugJavaWithJavac
 > Task :demoscratchcardlayout:mergeDebugResources
+> Task :scratchcardlayout:bundleLibCompileDebug
+> Task :demoscratchcardlayout:javaPreCompileDebug
 > Task :demoscratchcardlayout:createDebugCompatibleScreenManifests
+> Task :demoscratchcardlayout:extractDeepLinksDebug
+> Task :scratchcardlayout:extractDeepLinksDebug
 > Task :demoscratchcardlayout:processDebugManifest
+> Task :scratchcardlayout:compileDebugLibraryResources
 > Task :demoscratchcardlayout:processDebugResources
 
 > Task :demoscratchcardlayout:compileDebugJavaWithJavac
-Gradle may disable incremental compilation as the following annotation processors are not incremental: butterknife-compiler-9.0.0-rc2.jar (com.jakewharton:butterknife-compiler:9.0.0-rc2).
+Gradle may disable incremental compilation as the following annotation processors are not incremental: jetified-butterknife-compiler-10.1.0.jar (com.jakewharton:butterknife-compiler:10.1.0).
 Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+
+> Task :demoscratchcardlayout:compileDebugSources
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-
-> Task :demoscratchcardlayout:compileDebugNdk NO-SOURCE
-> Task :demoscratchcardlayout:compileDebugSources
 > Task :demoscratchcardlayout:mergeDebugShaders
 > Task :demoscratchcardlayout:compileDebugShaders
 > Task :demoscratchcardlayout:generateDebugAssets
@@ -93,66 +90,70 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :scratchcardlayout:generateDebugAssets
 > Task :scratchcardlayout:packageDebugAssets
 > Task :demoscratchcardlayout:mergeDebugAssets
-> Task :demoscratchcardlayout:validateSigningDebug
-> Task :demoscratchcardlayout:signingConfigWriterDebug
-> Task :demoscratchcardlayout:transformClassesWithDexBuilderForDebug
-> Task :demoscratchcardlayout:transformDexArchiveWithExternalLibsDexMergerForDebug
-> Task :demoscratchcardlayout:transformDexArchiveWithDexMergerForDebug
-> Task :demoscratchcardlayout:mergeDebugJniLibFolders
-> Task :scratchcardlayout:compileDebugNdk NO-SOURCE
-> Task :scratchcardlayout:mergeDebugJniLibFolders
-> Task :scratchcardlayout:transformNativeLibsWithMergeJniLibsForDebug
-> Task :scratchcardlayout:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :scratchcardlayout:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :demoscratchcardlayout:transformNativeLibsWithMergeJniLibsForDebug
-> Task :demoscratchcardlayout:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :demoscratchcardlayout:processDebugJavaRes NO-SOURCE
-> Task :demoscratchcardlayout:transformResourcesWithMergeJavaResForDebug
-> Task :demoscratchcardlayout:packageDebug
-> Task :demoscratchcardlayout:assembleDebug
+> Task :scratchcardlayout:processDebugJavaRes NO-SOURCE
+> Task :scratchcardlayout:bundleLibResDebug
+> Task :scratchcardlayout:bundleLibRuntimeDebug
+> Task :demoscratchcardlayout:checkDebugDuplicateClasses
+> Task :demoscratchcardlayout:dexBuilderDebug
+> Task :demoscratchcardlayout:mergeDebugJavaResource
+> Task :demoscratchcardlayout:desugarDebugFileDependencies
+> Task :demoscratchcardlayout:mergeDebugJniLibFolders
+> Task :scratchcardlayout:mergeDebugJniLibFolders
+> Task :demoscratchcardlayout:validateSigningDebug
+> Task :demoscratchcardlayout:preReleaseBuild UP-TO-DATE
 > Task :scratchcardlayout:preReleaseBuild UP-TO-DATE
-> Task :scratchcardlayout:checkReleaseManifest
-> Task :scratchcardlayout:processReleaseManifest
-> Task :demoscratchcardlayout:preReleaseBuild
 > Task :scratchcardlayout:compileReleaseAidl NO-SOURCE
 > Task :demoscratchcardlayout:compileReleaseAidl NO-SOURCE
 > Task :scratchcardlayout:packageReleaseRenderscript NO-SOURCE
-> Task :demoscratchcardlayout:compileReleaseRenderscript
-> Task :demoscratchcardlayout:checkReleaseManifest
+> Task :demoscratchcardlayout:compileReleaseRenderscript NO-SOURCE
 > Task :demoscratchcardlayout:generateReleaseBuildConfig
-> Task :demoscratchcardlayout:generateReleaseSources
-> Task :scratchcardlayout:compileReleaseRenderscript
+> Task :scratchcardlayout:compileReleaseRenderscript NO-SOURCE
 > Task :scratchcardlayout:generateReleaseBuildConfig
 > Task :scratchcardlayout:generateReleaseResValues
 > Task :scratchcardlayout:generateReleaseResources
 > Task :scratchcardlayout:packageReleaseResources
-> Task :scratchcardlayout:generateReleaseRFile
-> Task :scratchcardlayout:generateReleaseSources
+> Task :scratchcardlayout:mergeDebugNativeLibs
+> Task :scratchcardlayout:stripDebugDebugSymbols
+> Task :scratchcardlayout:copyDebugJniLibsProjectOnly
+> Task :scratchcardlayout:parseReleaseLocalResources
+> Task :scratchcardlayout:processReleaseManifest
 > Task :scratchcardlayout:javaPreCompileRelease
-> Task :scratchcardlayout:compileReleaseJavaWithJavac
-> Task :scratchcardlayout:processReleaseJavaRes NO-SOURCE
-> Task :scratchcardlayout:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-> Task :demoscratchcardlayout:javaPreCompileRelease
 > Task :demoscratchcardlayout:mainApkListPersistenceRelease
 > Task :demoscratchcardlayout:generateReleaseResValues
 > Task :demoscratchcardlayout:generateReleaseResources
-> Task :demoscratchcardlayout:mergeReleaseResources
+> Task :scratchcardlayout:generateReleaseRFile
+> Task :scratchcardlayout:compileReleaseJavaWithJavac
 > Task :demoscratchcardlayout:createReleaseCompatibleScreenManifests
+> Task :demoscratchcardlayout:extractDeepLinksRelease
+> Task :scratchcardlayout:extractDeepLinksRelease
 > Task :demoscratchcardlayout:processReleaseManifest
+> Task :demoscratchcardlayout:mergeDebugNativeLibs
+> Task :demoscratchcardlayout:stripDebugDebugSymbols
+> Task :scratchcardlayout:compileReleaseLibraryResources
+> Task :demoscratchcardlayout:mergeReleaseResources
 > Task :demoscratchcardlayout:processReleaseResources
+> Task :scratchcardlayout:bundleLibCompileRelease
+> Task :demoscratchcardlayout:javaPreCompileRelease
 
 > Task :demoscratchcardlayout:compileReleaseJavaWithJavac
-Gradle may disable incremental compilation as the following annotation processors are not incremental: butterknife-compiler-9.0.0-rc2.jar (com.jakewharton:butterknife-compiler:9.0.0-rc2).
+Gradle may disable incremental compilation as the following annotation processors are not incremental: jetified-butterknife-compiler-10.1.0.jar (com.jakewharton:butterknife-compiler:10.1.0).
 Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+
+> Task :demoscratchcardlayout:compileReleaseSources
+> Task :demoscratchcardlayout:prepareLintJar
+> Task :demoscratchcardlayout:checkReleaseDuplicateClasses
+> Task :scratchcardlayout:bundleLibRuntimeRelease
+> Task :scratchcardlayout:prepareLintJarForPublish
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-
-> Task :demoscratchcardlayout:compileReleaseNdk NO-SOURCE
-> Task :demoscratchcardlayout:compileReleaseSources
-
 > Task :demoscratchcardlayout:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/d3fb6a8d0f7c7fe753639ef2918b04f8/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-
+> Task :demoscratchcardlayout:dexBuilderRelease
+> Task :demoscratchcardlayout:mergeExtDexDebug
+> Task :demoscratchcardlayout:mergeDexDebug
+> Task :demoscratchcardlayout:packageDebug
+> Task :demoscratchcardlayout:assembleDebug
+> Task :demoscratchcardlayout:desugarReleaseFileDependencies
 > Task :demoscratchcardlayout:mergeReleaseShaders
 > Task :demoscratchcardlayout:compileReleaseShaders
 > Task :demoscratchcardlayout:generateReleaseAssets
@@ -161,30 +162,25 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :scratchcardlayout:generateReleaseAssets
 > Task :scratchcardlayout:packageReleaseAssets
 > Task :demoscratchcardlayout:mergeReleaseAssets
-> Task :demoscratchcardlayout:signingConfigWriterRelease
-> Task :demoscratchcardlayout:transformClassesWithDexBuilderForRelease
-> Task :demoscratchcardlayout:transformDexArchiveWithExternalLibsDexMergerForRelease
-> Task :demoscratchcardlayout:transformDexArchiveWithDexMergerForRelease
-> Task :demoscratchcardlayout:mergeReleaseJniLibFolders
-> Task :scratchcardlayout:compileReleaseNdk NO-SOURCE
-> Task :scratchcardlayout:mergeReleaseJniLibFolders
-> Task :scratchcardlayout:transformNativeLibsWithMergeJniLibsForRelease
-> Task :scratchcardlayout:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :scratchcardlayout:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :demoscratchcardlayout:transformNativeLibsWithMergeJniLibsForRelease
-> Task :demoscratchcardlayout:transformNativeLibsWithStripDebugSymbolForRelease
 > Task :demoscratchcardlayout:processReleaseJavaRes NO-SOURCE
-> Task :demoscratchcardlayout:transformResourcesWithMergeJavaResForRelease
+> Task :scratchcardlayout:processReleaseJavaRes NO-SOURCE
+> Task :demoscratchcardlayout:mergeReleaseJniLibFolders
+> Task :scratchcardlayout:mergeReleaseJniLibFolders
+> Task :scratchcardlayout:bundleLibResRelease
+> Task :scratchcardlayout:mergeReleaseNativeLibs
+> Task :scratchcardlayout:stripReleaseDebugSymbols
+> Task :scratchcardlayout:copyReleaseJniLibsProjectOnly
+> Task :demoscratchcardlayout:mergeReleaseNativeLibs
+> Task :demoscratchcardlayout:stripReleaseDebugSymbols
+> Task :demoscratchcardlayout:mergeReleaseJavaResource
+> Task :demoscratchcardlayout:mergeExtDexRelease
+> Task :demoscratchcardlayout:mergeDexRelease
 > Task :demoscratchcardlayout:packageRelease
 > Task :demoscratchcardlayout:assembleRelease
 > Task :demoscratchcardlayout:assemble
 > Task :demoscratchcardlayout:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:command_line_warnings
+BUILD SUCCESSFUL in 45s
+90 actionable tasks: 90 executed
 
-BUILD SUCCESSFUL in 36s
-86 actionable tasks: 86 executed
-
-2019-05-17 11:07:37,418 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558065963765-0/src/scratchCardLayout-master/demoscratchcardlayout/build/outputs/apk/release/demoscratchcardlayout-release-unsigned.apk
+2020-03-24 00:37:56,153 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584985019282-0/src/scratchCardLayout-master/demoscratchcardlayout/build/outputs/apk/release/demoscratchcardlayout-release-unsigned.apk

@@ -1,45 +1,44 @@
-2020-02-16 19:36:52,998 INFO  DownloadService - Downloading "https://github.com/adrielcafe/PufferDB/archive/master.zip", attempt 3
-2020-02-16 19:36:55,005 INFO  DownloadService - Downloaded https://github.com/adrielcafe/PufferDB/archive/master.zip, attempt 3
-2020-02-16 19:36:55,006 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/master.zip": 165 KB
-2020-02-16 19:36:55,006 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-02-16 19:36:55,007 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/master.zip: true
-2020-02-16 19:36:55,007 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src'.
-2020-02-16 19:36:55,032 INFO  FullProcessService - Size of directory with sources: 209 KB
-2020-02-16 19:36:55,032 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src]
-2020-02-16 19:36:55,064 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/.git/
+2020-03-24 00:34:24,221 INFO  DownloadService - Downloading "https://github.com/adrielcafe/PufferDB/archive/master.zip", attempt 3
+2020-03-24 00:34:24,777 INFO  DownloadService - Downloaded https://github.com/adrielcafe/PufferDB/archive/master.zip, attempt 3
+2020-03-24 00:34:24,777 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/master.zip": 165 KB
+2020-03-24 00:34:24,777 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-24 00:34:24,783 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/master.zip: true
+2020-03-24 00:34:24,783 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src'.
+2020-03-24 00:34:24,810 INFO  FullProcessService - Size of directory with sources: 209 KB
+2020-03-24 00:34:24,810 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src]
+2020-03-24 00:34:24,828 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/.git/
 
-2020-02-16 19:36:55,067 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/gradlew
-2020-02-16 19:36:55,071 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/coroutines/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/rxjava/build.gradle
-2020-02-16 19:36:55,074 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/rxjava/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/coroutines/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/settings.gradle
-2020-02-16 19:36:55,074 INFO  ProjectBuildService - Remote scripts: none
-2020-02-16 19:36:55,074 INFO  ProjectFixService - Fixing project...
-2020-02-16 19:36:55,082 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/android/local.properties
-2020-02-16 19:36:55,083 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2020-02-16 19:36:55,084 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2020-02-16 19:36:55,084 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/local.properties
-2020-02-16 19:36:55,085 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-02-16 19:36:55,086 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-02-16 19:36:55,087 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/local.properties
-2020-02-16 19:36:55,087 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-bin.zip
-2020-02-16 19:36:55,089 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2020-02-16 19:36:55,089 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2020-02-16 19:36:55,089 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/core/local.properties
-2020-02-16 19:36:55,091 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2020-02-16 19:36:55,091 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2020-02-16 19:36:55,091 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/coroutines/local.properties
-2020-02-16 19:36:55,093 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/coroutines/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2020-02-16 19:36:55,093 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/coroutines/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2020-02-16 19:36:55,094 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/rxjava/local.properties
-2020-02-16 19:36:55,095 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/rxjava/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2020-02-16 19:36:55,096 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/rxjava/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2020-02-16 19:36:55,096 INFO  ProjectFixService - Project was maybe fixed
-2020-02-16 19:36:55,096 INFO  ProjectTaskService - Detecting possible tasks...
-2020-02-16 19:36:55,096 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-02-16 19:37:04,138 INFO  VirusProcessorServiceImpl - Queued project 7638 to scan viruses
-2020-02-16 19:37:27,972 INFO  ProjectTaskService - Detected possible tasks: 80
-2020-02-16 19:37:27,972 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-02-16 19:37:27,972 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-02-16 19:38:03,159 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.6.4/userguide/gradle_daemon.html.
+2020-03-24 00:34:24,833 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/gradlew
+2020-03-24 00:34:24,838 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/coroutines/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/rxjava/build.gradle
+2020-03-24 00:34:24,843 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/rxjava/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/coroutines/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/settings.gradle
+2020-03-24 00:34:24,843 INFO  ProjectBuildService - Remote scripts: none
+2020-03-24 00:34:24,843 INFO  ProjectFixService - Fixing project...
+2020-03-24 00:34:24,856 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/android/local.properties
+2020-03-24 00:34:24,858 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-03-24 00:34:24,859 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-03-24 00:34:24,859 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/sample/local.properties
+2020-03-24 00:34:24,861 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-03-24 00:34:24,861 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-03-24 00:34:24,862 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/local.properties
+2020-03-24 00:34:24,863 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-bin.zip
+2020-03-24 00:34:24,865 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-03-24 00:34:24,866 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-03-24 00:34:24,867 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/core/local.properties
+2020-03-24 00:34:24,869 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-03-24 00:34:24,869 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-03-24 00:34:24,870 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/coroutines/local.properties
+2020-03-24 00:34:24,872 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/coroutines/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-03-24 00:34:24,873 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/coroutines/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-03-24 00:34:24,873 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/rxjava/local.properties
+2020-03-24 00:34:24,875 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/rxjava/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-03-24 00:34:24,876 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/rxjava/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-03-24 00:34:24,876 INFO  ProjectFixService - Project was maybe fixed
+2020-03-24 00:34:24,876 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-24 00:34:24,876 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-24 00:34:46,334 INFO  ProjectTaskService - Detected possible tasks: 80
+2020-03-24 00:34:46,334 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-03-24 00:34:46,334 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-03-24 00:35:25,231 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.6.4/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 > Task :buildSrc:compileKotlin UP-TO-DATE
 > Task :buildSrc:compileJava NO-SOURCE
@@ -69,13 +68,13 @@ Configuration on demand is an incubating feature.
 > Task :android:compileDebugAidl NO-SOURCE
 
 > Task :core:compileKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/core/src/main/kotlin/cafe/adriel/pufferdb/core/PufferDB.kt: (42, 32): This declaration is experimental and its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@UseExperimental(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/core/src/main/kotlin/cafe/adriel/pufferdb/core/PufferDB.kt: (48, 14): This declaration is experimental and its usage should be marked with '@kotlinx.coroutines.FlowPreview' or '@UseExperimental(kotlinx.coroutines.FlowPreview::class)'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/core/src/main/kotlin/cafe/adriel/pufferdb/core/PufferDB.kt: (49, 14): This declaration is experimental and its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@UseExperimental(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/core/src/main/kotlin/cafe/adriel/pufferdb/core/PufferDB.kt: (51, 14): This declaration is experimental and its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@UseExperimental(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/core/src/main/kotlin/cafe/adriel/pufferdb/core/PufferDB.kt: (70, 26): This declaration is experimental and its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@UseExperimental(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/core/src/main/kotlin/cafe/adriel/pufferdb/core/PufferDB.kt: (84, 22): This declaration is experimental and its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@UseExperimental(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/core/src/main/kotlin/cafe/adriel/pufferdb/core/PufferDB.kt: (89, 22): This declaration is experimental and its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@UseExperimental(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/core/src/main/kotlin/cafe/adriel/pufferdb/core/PufferDB.kt: (42, 32): This declaration is experimental and its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@UseExperimental(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/core/src/main/kotlin/cafe/adriel/pufferdb/core/PufferDB.kt: (48, 14): This declaration is experimental and its usage should be marked with '@kotlinx.coroutines.FlowPreview' or '@UseExperimental(kotlinx.coroutines.FlowPreview::class)'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/core/src/main/kotlin/cafe/adriel/pufferdb/core/PufferDB.kt: (49, 14): This declaration is experimental and its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@UseExperimental(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/core/src/main/kotlin/cafe/adriel/pufferdb/core/PufferDB.kt: (51, 14): This declaration is experimental and its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@UseExperimental(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/core/src/main/kotlin/cafe/adriel/pufferdb/core/PufferDB.kt: (70, 26): This declaration is experimental and its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@UseExperimental(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/core/src/main/kotlin/cafe/adriel/pufferdb/core/PufferDB.kt: (84, 22): This declaration is experimental and its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@UseExperimental(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/core/src/main/kotlin/cafe/adriel/pufferdb/core/PufferDB.kt: (89, 22): This declaration is experimental and its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@UseExperimental(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
 
 > Task :core:compileJava
 Note: Some input files use unchecked or unsafe operations.
@@ -106,7 +105,7 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :android:generateReleaseResValues
 > Task :android:generateReleaseResources
 > Task :android:packageReleaseResources
-> Task :android:prepareLintJarForPublish
+> Task :android:parseDebugLibraryResources
 > Task :android:mergeReleaseShaders
 > Task :android:compileReleaseShaders
 > Task :android:generateReleaseAssets
@@ -115,41 +114,41 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :android:processReleaseJavaRes NO-SOURCE
 > Task :android:mergeReleaseJniLibFolders
 > Task :android:parseReleaseLibraryResources
-> Task :android:parseDebugLibraryResources
 > Task :android:processReleaseManifest
-> Task :android:mergeReleaseNativeLibs
-> Task :android:stripReleaseDebugSymbols
-> Task :android:transformNativeLibsWithSyncJniLibsForRelease
-> Task :android:processDebugManifest
 > Task :android:mergeDebugNativeLibs
 > Task :android:stripDebugDebugSymbols
 > Task :android:transformNativeLibsWithSyncJniLibsForDebug
+> Task :android:mergeReleaseNativeLibs
+> Task :android:stripReleaseDebugSymbols
+> Task :android:transformNativeLibsWithSyncJniLibsForRelease
+> Task :android:prepareLintJarForPublish
+> Task :android:processDebugManifest
 > Task :android:mergeReleaseResources
-> Task :android:generateReleaseRFile
-> Task :android:compileReleaseKotlin
-> Task :android:verifyReleaseResources
-> Task :android:javaPreCompileRelease
-> Task :android:compileReleaseJavaWithJavac
-> Task :android:extractReleaseAnnotations
-> Task :android:mergeReleaseGeneratedProguardFiles
-> Task :android:mergeReleaseConsumerProguardFiles
 > Task :android:generateDebugRFile
 > Task :android:compileDebugKotlin
-> Task :android:mergeReleaseJavaResource
-> Task :android:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :android:bundleReleaseAar
-> Task :android:compileReleaseSources
-> Task :android:assembleRelease
+> Task :android:verifyReleaseResources
 > Task :android:javaPreCompileDebug
 > Task :android:compileDebugJavaWithJavac
 > Task :android:extractDebugAnnotations
 > Task :android:mergeDebugGeneratedProguardFiles
 > Task :android:mergeDebugConsumerProguardFiles
 > Task :android:compileDebugSources
+> Task :android:generateReleaseRFile
+> Task :android:compileReleaseKotlin
 > Task :android:mergeDebugJavaResource
 > Task :android:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :android:bundleDebugAar
 > Task :android:assembleDebug
+> Task :android:javaPreCompileRelease
+> Task :android:compileReleaseJavaWithJavac
+> Task :android:extractReleaseAnnotations
+> Task :android:mergeReleaseGeneratedProguardFiles
+> Task :android:mergeReleaseConsumerProguardFiles
+> Task :android:compileReleaseSources
+> Task :android:mergeReleaseJavaResource
+> Task :android:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :android:bundleReleaseAar
+> Task :android:assembleRelease
 > Task :android:assemble
 > Task :android:build
 
@@ -157,15 +156,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.6.4/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 34s
+BUILD SUCCESSFUL in 38s
 57 actionable tasks: 57 executed
 
-2020-02-16 19:38:03,214 INFO  ProjectTaskService - Detecting possible tasks...
-2020-02-16 19:38:03,214 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-02-16 19:38:12,613 INFO  ProjectTaskService - Detected possible tasks: 81
-2020-02-16 19:38:12,613 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-02-16 19:38:12,613 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-02-16 19:39:33,336 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.6.4/userguide/gradle_daemon.html.
+2020-03-24 00:35:25,344 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-24 00:35:25,345 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-24 00:35:35,812 INFO  ProjectTaskService - Detected possible tasks: 81
+2020-03-24 00:35:35,812 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-24 00:35:35,813 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-24 00:36:55,248 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.6.4/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 > Task :buildSrc:compileKotlin UP-TO-DATE
 > Task :buildSrc:compileJava NO-SOURCE
@@ -227,8 +226,8 @@ Configuration on demand is an incubating feature.
 > Task :sample:preDebugBuild UP-TO-DATE
 > Task :sample:compileDebugAidl NO-SOURCE
 > Task :android:packageDebugRenderscript NO-SOURCE
-> Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:checkDebugManifest
+> Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:generateDebugBuildConfig
 > Task :android:bundleLibCompileDebug
 > Task :sample:mainApkListPersistenceDebug
@@ -240,10 +239,13 @@ Configuration on demand is an incubating feature.
 > Task :sample:processDebugResources
 
 > Task :sample:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/src/main/kotlin/cafe/adriel/pufferdb/sample/Benchmark.kt: (5, 27): 'PreferenceManager' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/src/main/kotlin/cafe/adriel/pufferdb/sample/Benchmark.kt: (23, 37): 'PreferenceManager' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/src/main/kotlin/cafe/adriel/pufferdb/sample/Benchmark.kt: (23, 55): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/sample/src/main/kotlin/cafe/adriel/pufferdb/sample/Benchmark.kt: (5, 27): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/sample/src/main/kotlin/cafe/adriel/pufferdb/sample/Benchmark.kt: (23, 37): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/sample/src/main/kotlin/cafe/adriel/pufferdb/sample/Benchmark.kt: (23, 55): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
 
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
 > Task :android:mergeDebugShaders UP-TO-DATE
 > Task :android:compileDebugShaders UP-TO-DATE
 > Task :android:generateDebugAssets UP-TO-DATE
@@ -252,9 +254,6 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/
 > Task :sample:compileDebugShaders
 > Task :sample:generateDebugAssets
 > Task :sample:mergeDebugAssets
-> Task :sample:javaPreCompileDebug
-> Task :sample:compileDebugJavaWithJavac
-> Task :sample:compileDebugSources
 > Task :android:processDebugJavaRes NO-SOURCE
 > Task :sample:processDebugJavaRes NO-SOURCE
 > Task :android:bundleLibResDebug
@@ -287,7 +286,6 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/
 > Task :sample:preReleaseBuild UP-TO-DATE
 > Task :sample:compileReleaseAidl NO-SOURCE
 > Task :android:packageReleaseRenderscript NO-SOURCE
-> Task :android:bundleLibCompileRelease
 > Task :sample:compileReleaseRenderscript NO-SOURCE
 > Task :sample:checkReleaseManifest
 > Task :sample:generateReleaseBuildConfig
@@ -297,19 +295,20 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/
 > Task :sample:mergeDebugNativeLibs
 
 > Task :sample:stripDebugDebugSymbols
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/build/intermediates/merged_native_libs/debug/out/lib/armeabi/libmmkv.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/build/intermediates/merged_native_libs/debug/out/lib/armeabi/libc++_shared.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/build/intermediates/merged_native_libs/debug/out/lib/armeabi/libconceal.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/sample/build/intermediates/merged_native_libs/debug/out/lib/armeabi/libmmkv.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/sample/build/intermediates/merged_native_libs/debug/out/lib/armeabi/libc++_shared.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/sample/build/intermediates/merged_native_libs/debug/out/lib/armeabi/libconceal.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
 
 > Task :sample:createReleaseCompatibleScreenManifests
-> Task :sample:processReleaseManifest
 > Task :sample:mergeReleaseResources
+> Task :sample:processReleaseManifest
 > Task :sample:processReleaseResources
+> Task :android:bundleLibCompileRelease
 
 > Task :sample:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/src/main/kotlin/cafe/adriel/pufferdb/sample/Benchmark.kt: (5, 27): 'PreferenceManager' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/src/main/kotlin/cafe/adriel/pufferdb/sample/Benchmark.kt: (23, 37): 'PreferenceManager' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/src/main/kotlin/cafe/adriel/pufferdb/sample/Benchmark.kt: (23, 55): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/sample/src/main/kotlin/cafe/adriel/pufferdb/sample/Benchmark.kt: (5, 27): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/sample/src/main/kotlin/cafe/adriel/pufferdb/sample/Benchmark.kt: (23, 37): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/sample/src/main/kotlin/cafe/adriel/pufferdb/sample/Benchmark.kt: (23, 55): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
 
 > Task :sample:javaPreCompileRelease
 > Task :sample:compileReleaseJavaWithJavac
@@ -341,14 +340,14 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :android:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :sample:mergeReleaseJniLibFolders
 > Task :android:bundleLibResRelease
-> Task :sample:mergeExtDexDebug
 > Task :sample:mergeReleaseNativeLibs
 
 > Task :sample:stripReleaseDebugSymbols
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/build/intermediates/merged_native_libs/release/out/lib/armeabi/libmmkv.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/build/intermediates/merged_native_libs/release/out/lib/armeabi/libc++_shared.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/build/intermediates/merged_native_libs/release/out/lib/armeabi/libconceal.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/sample/build/intermediates/merged_native_libs/release/out/lib/armeabi/libmmkv.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/sample/build/intermediates/merged_native_libs/release/out/lib/armeabi/libc++_shared.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/sample/build/intermediates/merged_native_libs/release/out/lib/armeabi/libconceal.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
 
+> Task :sample:mergeExtDexDebug
 > Task :sample:mergeReleaseJavaResource
 > Task :sample:mergeDexDebug
 > Task :sample:packageDebug
@@ -364,7 +363,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.6.4/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 20s
+BUILD SUCCESSFUL in 1m 18s
 108 actionable tasks: 67 executed, 41 up-to-date
 
-2020-02-16 19:39:33,463 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856612995-0/src/PufferDB-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2020-03-24 00:36:55,417 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584984864214-0/src/PufferDB-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
