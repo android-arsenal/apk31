@@ -1,133 +1,131 @@
-2020-03-24 13:49:05,871 INFO  DownloadService - Downloading "https://github.com/Dhaval2404/ImagePicker/archive/master.zip", attempt 3
-2020-03-24 13:49:10,373 INFO  DownloadService - Downloaded https://github.com/Dhaval2404/ImagePicker/archive/master.zip, attempt 3
-2020-03-24 13:49:10,373 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/master.zip": 9 MB
-2020-03-24 13:49:10,373 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-03-24 13:49:10,374 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/master.zip: true
-2020-03-24 13:49:10,374 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src'.
-2020-03-24 13:49:10,504 INFO  FullProcessService - Size of directory with sources: 9 MB
-2020-03-24 13:49:10,504 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src]
-2020-03-24 13:49:10,533 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/.git/
+2020-04-11 23:52:34,844 INFO  DownloadService - Downloading "https://github.com/Dhaval2404/ImagePicker/archive/master.zip", attempt 3
+2020-04-11 23:52:47,181 INFO  VirusProcessorServiceImpl - Queued project 7777 to scan viruses
+2020-04-11 23:52:49,450 INFO  DownloadService - Downloaded https://github.com/Dhaval2404/ImagePicker/archive/master.zip, attempt 3
+2020-04-11 23:52:49,450 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/master.zip": 9 MB
+2020-04-11 23:52:49,450 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-04-11 23:52:49,451 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/master.zip: true
+2020-04-11 23:52:49,451 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src'.
+2020-04-11 23:52:49,626 INFO  FullProcessService - Size of directory with sources: 9 MB
+2020-04-11 23:52:49,626 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src]
+2020-04-11 23:52:49,656 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/.git/
 
-2020-03-24 13:49:10,538 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/gradlew
-2020-03-24 13:49:10,544 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/imagepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/build.gradle
-2020-03-24 13:49:10,549 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/imagepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/ktlint.gradle
-2020-03-24 13:49:10,556 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2020-03-24 13:49:11,579 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2020-03-24 13:49:11,580 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2020-03-24 13:49:11,765 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2020-03-24 13:49:11,765 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2020-03-24 13:49:11,765 INFO  ProjectFixService - Fixing project...
-2020-03-24 13:49:11,782 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/imagepicker/local.properties
-2020-03-24 13:49:11,783 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/imagepicker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2020-03-24 13:49:11,784 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/imagepicker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2020-03-24 13:49:11,785 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/sample/local.properties
-2020-03-24 13:49:11,786 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2020-03-24 13:49:11,786 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2020-03-24 13:49:11,787 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/local.properties
-2020-03-24 13:49:11,788 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.5.1-all.zip
-2020-03-24 13:49:11,788 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.5.1-bin.zip)
-2020-03-24 13:49:11,790 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2020-03-24 13:49:11,790 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2020-03-24 13:49:11,791 INFO  ProjectFixService - Project was maybe fixed
-2020-03-24 13:49:11,791 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-24 13:49:11,791 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/imagepicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-24 13:49:24,345 INFO  ProjectTaskService - Detected possible tasks: 72
-2020-03-24 13:49:24,345 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-03-24 13:49:24,345 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/imagepicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-03-24 13:49:26,981 INFO  VirusProcessorServiceImpl - Queued project 7518 to scan viruses
-2020-03-24 13:49:51,309 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-04-11 23:52:49,661 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/gradlew
+2020-04-11 23:52:49,667 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/imagepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/build.gradle
+2020-04-11 23:52:49,673 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/imagepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/ktlint.gradle
+2020-04-11 23:52:49,673 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2020-04-11 23:52:49,944 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2020-04-11 23:52:49,945 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2020-04-11 23:52:50,190 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2020-04-11 23:52:50,190 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2020-04-11 23:52:50,190 INFO  ProjectFixService - Fixing project...
+2020-04-11 23:52:50,206 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/imagepicker/local.properties
+2020-04-11 23:52:50,208 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/imagepicker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2020-04-11 23:52:50,208 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/imagepicker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2020-04-11 23:52:50,209 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/sample/local.properties
+2020-04-11 23:52:50,210 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2020-04-11 23:52:50,210 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2020-04-11 23:52:50,211 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/local.properties
+2020-04-11 23:52:50,212 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.2.2-all.zip
+2020-04-11 23:52:50,212 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.2.2-bin.zip)
+2020-04-11 23:52:50,214 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2020-04-11 23:52:50,214 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2020-04-11 23:52:50,214 INFO  ProjectFixService - Project was maybe fixed
+2020-04-11 23:52:50,214 INFO  ProjectTaskService - Detecting possible tasks...
+2020-04-11 23:52:50,215 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/imagepicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-04-11 23:53:01,563 INFO  ProjectTaskService - Detected possible tasks: 76
+2020-04-11 23:53:01,563 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-04-11 23:53:01,564 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/imagepicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-04-11 23:53:40,384 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :imagepicker:preBuild UP-TO-DATE
 > Task :imagepicker:preDebugBuild UP-TO-DATE
-> Task :imagepicker:checkDebugManifest
+> Task :imagepicker:mergeDebugJniLibFolders
+> Task :imagepicker:mergeDebugNativeLibs
+> Task :imagepicker:stripDebugDebugSymbols
+> Task :imagepicker:copyDebugJniLibsProjectAndLocalJars
 > Task :imagepicker:generateDebugBuildConfig
-> Task :imagepicker:compileDebugAidl NO-SOURCE
-> Task :imagepicker:compileDebugRenderscript NO-SOURCE
 > Task :imagepicker:generateDebugResValues
-> Task :imagepicker:generateDebugResources
-> Task :imagepicker:packageDebugResources
 > Task :imagepicker:mergeDebugShaders
 > Task :imagepicker:compileDebugShaders
 > Task :imagepicker:generateDebugAssets
 > Task :imagepicker:packageDebugAssets
 > Task :imagepicker:packageDebugRenderscript NO-SOURCE
 > Task :imagepicker:processDebugJavaRes NO-SOURCE
-> Task :imagepicker:mergeDebugJniLibFolders
-> Task :imagepicker:prepareLintJarForPublish
 > Task :imagepicker:preReleaseBuild UP-TO-DATE
-> Task :imagepicker:compileReleaseAidl NO-SOURCE
-> Task :imagepicker:compileReleaseRenderscript NO-SOURCE
-> Task :imagepicker:checkReleaseManifest
+> Task :imagepicker:mergeReleaseJniLibFolders
+> Task :imagepicker:prepareLintJarForPublish
 > Task :imagepicker:generateReleaseBuildConfig
 > Task :imagepicker:generateReleaseResValues
-> Task :imagepicker:generateReleaseResources
-> Task :imagepicker:packageReleaseResources
-> Task :imagepicker:mergeDebugNativeLibs
-> Task :imagepicker:stripDebugDebugSymbols
-> Task :imagepicker:transformNativeLibsWithSyncJniLibsForDebug
 > Task :imagepicker:mergeReleaseShaders
 > Task :imagepicker:compileReleaseShaders
 > Task :imagepicker:generateReleaseAssets
 > Task :imagepicker:packageReleaseAssets
 > Task :imagepicker:packageReleaseRenderscript NO-SOURCE
 > Task :imagepicker:processReleaseJavaRes NO-SOURCE
-> Task :imagepicker:mergeReleaseJniLibFolders
-> Task :imagepicker:parseDebugLibraryResources
-> Task :imagepicker:processDebugManifest
 > Task :imagepicker:mergeReleaseNativeLibs
 > Task :imagepicker:stripReleaseDebugSymbols
-> Task :imagepicker:transformNativeLibsWithSyncJniLibsForRelease
-> Task :imagepicker:parseReleaseLibraryResources
+> Task :imagepicker:copyReleaseJniLibsProjectAndLocalJars
 > Task :imagepicker:processReleaseManifest
+> Task :imagepicker:processDebugManifest
+> Task :imagepicker:compileDebugAidl NO-SOURCE
+> Task :imagepicker:compileDebugRenderscript NO-SOURCE
+> Task :imagepicker:generateDebugResources
+> Task :imagepicker:packageDebugResources
+> Task :imagepicker:compileReleaseAidl NO-SOURCE
+> Task :imagepicker:compileReleaseRenderscript NO-SOURCE
+> Task :imagepicker:generateReleaseResources
+> Task :imagepicker:packageReleaseResources
+> Task :imagepicker:parseDebugLocalResources
+> Task :imagepicker:parseReleaseLocalResources
 > Task :imagepicker:mergeReleaseResources
-> Task :imagepicker:generateReleaseRFile
-
-> Task :imagepicker:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/imagepicker/src/main/kotlin/com/github/dhaval2404/imagepicker/provider/CameraProvider.kt: (167, 30): Parameter 'data' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/imagepicker/src/main/kotlin/com/github/dhaval2404/imagepicker/provider/CropProvider.kt: (141, 61): Parameter 'data' is never used
-
-> Task :imagepicker:verifyReleaseResources
 > Task :imagepicker:generateDebugRFile
 
 > Task :imagepicker:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/imagepicker/src/main/kotlin/com/github/dhaval2404/imagepicker/provider/CameraProvider.kt: (167, 30): Parameter 'data' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/imagepicker/src/main/kotlin/com/github/dhaval2404/imagepicker/provider/CropProvider.kt: (141, 61): Parameter 'data' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/imagepicker/src/main/kotlin/com/github/dhaval2404/imagepicker/provider/CameraProvider.kt: (183, 30): Parameter 'data' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/imagepicker/src/main/kotlin/com/github/dhaval2404/imagepicker/provider/CropProvider.kt: (148, 61): Parameter 'data' is never used
 
-> Task :imagepicker:javaPreCompileRelease
-> Task :imagepicker:compileReleaseJavaWithJavac
-> Task :imagepicker:extractReleaseAnnotations
-> Task :imagepicker:mergeReleaseGeneratedProguardFiles
-> Task :imagepicker:mergeReleaseConsumerProguardFiles
-> Task :imagepicker:compileReleaseSources
+> Task :imagepicker:generateReleaseRFile
+
+> Task :imagepicker:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/imagepicker/src/main/kotlin/com/github/dhaval2404/imagepicker/provider/CameraProvider.kt: (183, 30): Parameter 'data' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/imagepicker/src/main/kotlin/com/github/dhaval2404/imagepicker/provider/CropProvider.kt: (148, 61): Parameter 'data' is never used
+
 > Task :imagepicker:javaPreCompileDebug
 > Task :imagepicker:compileDebugJavaWithJavac
 > Task :imagepicker:extractDebugAnnotations
 > Task :imagepicker:mergeDebugGeneratedProguardFiles
 > Task :imagepicker:mergeDebugConsumerProguardFiles
 > Task :imagepicker:compileDebugSources
-> Task :imagepicker:mergeReleaseJavaResource
-> Task :imagepicker:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :imagepicker:bundleReleaseAar
-> Task :imagepicker:assembleRelease
 > Task :imagepicker:mergeDebugJavaResource
-> Task :imagepicker:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :imagepicker:syncDebugLibJars
 > Task :imagepicker:bundleDebugAar
 > Task :imagepicker:assembleDebug
+> Task :imagepicker:javaPreCompileRelease
+> Task :imagepicker:compileReleaseJavaWithJavac
+> Task :imagepicker:extractReleaseAnnotations
+> Task :imagepicker:mergeReleaseGeneratedProguardFiles
+> Task :imagepicker:mergeReleaseConsumerProguardFiles
+> Task :imagepicker:compileReleaseSources
+> Task :imagepicker:verifyReleaseResources
+> Task :imagepicker:mergeReleaseJavaResource
+> Task :imagepicker:syncReleaseLibJars
+> Task :imagepicker:bundleReleaseAar
+> Task :imagepicker:assembleRelease
 > Task :imagepicker:assemble
 > Task :imagepicker:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.5.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/6.2.2/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 26s
-49 actionable tasks: 49 executed
+BUILD SUCCESSFUL in 38s
+47 actionable tasks: 47 executed
 
-2020-03-24 13:49:51,370 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-24 13:49:51,371 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-24 13:49:58,004 INFO  ProjectTaskService - Detected possible tasks: 73
-2020-03-24 13:49:58,004 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-03-24 13:49:58,004 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-03-24 13:50:03,794 ERROR SysUtils - Could not process external command
+2020-04-11 23:53:40,444 INFO  ProjectTaskService - Detecting possible tasks...
+2020-04-11 23:53:40,445 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-04-11 23:53:48,180 INFO  ProjectTaskService - Detected possible tasks: 77
+2020-04-11 23:53:48,180 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-04-11 23:53:48,181 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-04-11 23:53:54,415 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -155,7 +153,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-03-24 13:50:03,795 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-04-11 23:53:54,415 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -167,19 +165,19 @@ Run gradlew tasks to get a list of available tasks. Run with --info or --debug o
 
 * Exception is:
 org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in project ':sample'.
-	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:116)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:117)
 	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:66)
-	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:57)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:43)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:58)
 	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$200(DefaultBuildConfigurationActionExecuter.java:26)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.run(DefaultBuildConfigurationActionExecuter.java:43)
-	at org.gradle.internal.Factories$1.create(Factories.java:25)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry.withLenientState(DefaultProjectStateRegistry.java:132)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry.withLenientState(DefaultProjectStateRegistry.java:124)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:39)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.run(DefaultBuildConfigurationActionExecuter.java:44)
+	at org.gradle.internal.Factories$1.create(Factories.java:26)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry.withLenientState(DefaultProjectStateRegistry.java:134)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry.withLenientState(DefaultProjectStateRegistry.java:126)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:40)
 	at org.gradle.initialization.DefaultTaskExecutionPreparer.prepareForTaskExecution(DefaultTaskExecutionPreparer.java:38)
-	at org.gradle.initialization.NotifyingTaskExecutionPreparer$CalculateTaskGraph.populateTaskGraph(NotifyingTaskExecutionPreparer.java:82)
-	at org.gradle.initialization.NotifyingTaskExecutionPreparer$CalculateTaskGraph.run(NotifyingTaskExecutionPreparer.java:57)
+	at org.gradle.initialization.BuildOperatingFiringTaskExecutionPreparer$CalculateTaskGraph.populateTaskGraph(BuildOperatingFiringTaskExecutionPreparer.java:123)
+	at org.gradle.initialization.BuildOperatingFiringTaskExecutionPreparer$CalculateTaskGraph.run(BuildOperatingFiringTaskExecutionPreparer.java:64)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
@@ -187,22 +185,20 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.initialization.NotifyingTaskExecutionPreparer.prepareForTaskExecution(NotifyingTaskExecutionPreparer.java:45)
-	at org.gradle.initialization.DefaultGradleLauncher.prepareTaskExecution(DefaultGradleLauncher.java:205)
-	at org.gradle.initialization.DefaultGradleLauncher.doClassicBuildStages(DefaultGradleLauncher.java:141)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:125)
-	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:105)
-	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:58)
-	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:55)
-	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:82)
-	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:75)
-	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:183)
+	at org.gradle.initialization.BuildOperatingFiringTaskExecutionPreparer.prepareForTaskExecution(BuildOperatingFiringTaskExecutionPreparer.java:52)
+	at org.gradle.initialization.DefaultGradleLauncher.prepareTaskExecution(DefaultGradleLauncher.java:225)
+	at org.gradle.initialization.DefaultGradleLauncher.doClassicBuildStages(DefaultGradleLauncher.java:159)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:140)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:120)
+	at org.gradle.internal.invocation.GradleBuildController$1.create(GradleBuildController.java:74)
+	at org.gradle.internal.invocation.GradleBuildController$1.create(GradleBuildController.java:67)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:189)
 	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:40)
-	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:75)
-	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:55)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:67)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:56)
 	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:31)
 	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
-	at org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcomeReportingBuildActionRunner.java:58)
+	at org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcomeReportingBuildActionRunner.java:63)
 	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
 	at org.gradle.launcher.exec.BuildCompletionNotifyingBuildActionRunner.run(BuildCompletionNotifyingBuildActionRunner.java:39)
 	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:51)
@@ -215,17 +211,17 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
 	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:45)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:49)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:46)
-	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:78)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:50)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:47)
+	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:80)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:47)
 	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:31)
 	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:42)
 	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:28)
 	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
 	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:52)
-	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:59)
-	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:60)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:38)
 	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:68)
 	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:38)
 	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:37)
@@ -238,19 +234,18 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:41)
 	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:48)
 	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:32)
-	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:55)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:208)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:394)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:367)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:37)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:56)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:212)
+	at org.gradle.launcher.cli.DefaultCommandLineActionFactory$ParseAndBuildAction.execute(DefaultCommandLineActionFactory.java:404)
+	at org.gradle.launcher.cli.DefaultCommandLineActionFactory$ParseAndBuildAction.execute(DefaultCommandLineActionFactory.java:376)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:38)
 	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:23)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:360)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:292)
-	at org.gradle.launcher.Main.doAction(Main.java:36)
+	at org.gradle.launcher.cli.DefaultCommandLineActionFactory$WithLogging.execute(DefaultCommandLineActionFactory.java:369)
+	at org.gradle.launcher.Main.doAction(Main.java:35)
 	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
 	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
 	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:31)
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
@@ -258,11 +253,15 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 * Get more help at https://help.gradle.org
 
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.2.2/userguide/command_line_interface.html#sec:command_line_warnings
+
 BUILD FAILED in 5s
 
-2020-03-24 13:50:03,795 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2020-03-24 13:50:03,795 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-03-24 13:51:09,286 ERROR SysUtils - Could not process external command
+2020-04-11 23:53:54,415 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2020-04-11 23:53:54,415 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-04-11 23:54:52,666 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -290,17 +289,16 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-03-24 13:51:09,287 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-04-11 23:54:52,666 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :imagepicker:preBuild UP-TO-DATE
 > Task :imagepicker:preDebugBuild UP-TO-DATE
 > Task :imagepicker:compileDebugAidl NO-SOURCE
-> Task :imagepicker:checkDebugManifest UP-TO-DATE
-> Task :imagepicker:compileDebugRenderscript NO-SOURCE
 > Task :imagepicker:generateDebugBuildConfig UP-TO-DATE
+> Task :imagepicker:compileDebugRenderscript NO-SOURCE
 > Task :imagepicker:generateDebugResValues UP-TO-DATE
 > Task :imagepicker:generateDebugResources UP-TO-DATE
 > Task :imagepicker:packageDebugResources UP-TO-DATE
-> Task :imagepicker:parseDebugLibraryResources UP-TO-DATE
+> Task :imagepicker:parseDebugLocalResources UP-TO-DATE
 > Task :imagepicker:processDebugManifest UP-TO-DATE
 > Task :imagepicker:generateDebugRFile UP-TO-DATE
 > Task :imagepicker:compileDebugKotlin UP-TO-DATE
@@ -308,24 +306,26 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :imagepicker:compileDebugJavaWithJavac UP-TO-DATE
 > Task :sample:preBuild UP-TO-DATE
 > Task :sample:preDebugBuild UP-TO-DATE
-> Task :imagepicker:packageDebugRenderscript NO-SOURCE
-> Task :sample:checkDebugManifest
 > Task :sample:compileDebugAidl NO-SOURCE
-> Task :sample:compileDebugRenderscript NO-SOURCE
+> Task :imagepicker:packageDebugRenderscript NO-SOURCE
 > Task :sample:generateDebugBuildConfig
+> Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :imagepicker:bundleLibCompileDebug
 > Task :sample:mainApkListPersistenceDebug
 > Task :sample:generateDebugResValues
 > Task :sample:generateDebugResources
+> Task :imagepicker:compileDebugLibraryResources
+> Task :imagepicker:extractDeepLinksDebug
 > Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:extractDeepLinksDebug
 > Task :sample:processDebugManifest
 > Task :sample:mergeDebugResources
 > Task :sample:processDebugResources
 
 > Task :sample:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/sample/src/main/kotlin/com.github.dhaval2404.imagepicker/sample/MainActivity.kt: (59, 26): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/sample/src/main/kotlin/com.github.dhaval2404.imagepicker/sample/MainActivity.kt: (68, 26): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/sample/src/main/kotlin/com.github.dhaval2404.imagepicker/sample/MainActivity.kt: (87, 25): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/sample/src/main/kotlin/com.github.dhaval2404.imagepicker/sample/MainActivity.kt: (60, 26): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/sample/src/main/kotlin/com.github.dhaval2404.imagepicker/sample/MainActivity.kt: (72, 26): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/sample/src/main/kotlin/com.github.dhaval2404.imagepicker/sample/MainActivity.kt: (91, 25): Parameter 'view' is never used
 
 > Task :sample:javaPreCompileDebug
 > Task :sample:compileDebugJavaWithJavac
@@ -343,25 +343,23 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/
 > Task :imagepicker:bundleLibResDebug
 > Task :imagepicker:bundleLibRuntimeDebug
 > Task :sample:checkDebugDuplicateClasses
+> Task :sample:dexBuilderDebug
 > Task :sample:mergeDebugJavaResource
-> Task :sample:transformClassesWithDexBuilderForDebug
 > Task :sample:desugarDebugFileDependencies
-> Task :sample:validateSigningDebug
-> Task :sample:signingConfigWriterDebug
 > Task :imagepicker:mergeDebugJniLibFolders UP-TO-DATE
 > Task :imagepicker:mergeDebugNativeLibs UP-TO-DATE
 > Task :imagepicker:stripDebugDebugSymbols UP-TO-DATE
-> Task :imagepicker:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :imagepicker:copyDebugJniLibsProjectOnly
 > Task :sample:mergeDebugJniLibFolders
+> Task :sample:validateSigningDebug
 > Task :imagepicker:preReleaseBuild UP-TO-DATE
 > Task :imagepicker:compileReleaseAidl NO-SOURCE
 > Task :imagepicker:compileReleaseRenderscript NO-SOURCE
-> Task :imagepicker:checkReleaseManifest UP-TO-DATE
 > Task :imagepicker:generateReleaseBuildConfig UP-TO-DATE
 > Task :imagepicker:generateReleaseResValues UP-TO-DATE
 > Task :imagepicker:generateReleaseResources UP-TO-DATE
 > Task :imagepicker:packageReleaseResources UP-TO-DATE
-> Task :imagepicker:parseReleaseLibraryResources UP-TO-DATE
+> Task :imagepicker:parseReleaseLocalResources UP-TO-DATE
 > Task :imagepicker:processReleaseManifest UP-TO-DATE
 > Task :imagepicker:generateReleaseRFile UP-TO-DATE
 > Task :imagepicker:compileReleaseKotlin UP-TO-DATE
@@ -371,38 +369,40 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/
 > Task :sample:compileReleaseAidl NO-SOURCE
 > Task :imagepicker:packageReleaseRenderscript NO-SOURCE
 > Task :sample:compileReleaseRenderscript NO-SOURCE
-> Task :sample:checkReleaseManifest
 > Task :sample:generateReleaseBuildConfig
 > Task :sample:mainApkListPersistenceRelease
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
-> Task :sample:createReleaseCompatibleScreenManifests
-> Task :sample:processReleaseManifest
-> Task :imagepicker:bundleLibCompileRelease
 > Task :sample:mergeDebugNativeLibs
 > Task :sample:stripDebugDebugSymbols
-> Task :imagepicker:prepareLintJarForPublish UP-TO-DATE
-> Task :sample:prepareLintJar
-> Task :sample:checkReleaseDuplicateClasses
-> Task :imagepicker:bundleLibRuntimeRelease
+> Task :imagepicker:extractDeepLinksRelease
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:extractDeepLinksRelease
+> Task :sample:processReleaseManifest
+> Task :imagepicker:compileReleaseLibraryResources
 > Task :sample:mergeReleaseResources
 > Task :sample:processReleaseResources
+> Task :imagepicker:bundleLibCompileRelease
 
 > Task :sample:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/sample/src/main/kotlin/com.github.dhaval2404.imagepicker/sample/MainActivity.kt: (59, 26): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/sample/src/main/kotlin/com.github.dhaval2404.imagepicker/sample/MainActivity.kt: (68, 26): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/sample/src/main/kotlin/com.github.dhaval2404.imagepicker/sample/MainActivity.kt: (87, 25): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/sample/src/main/kotlin/com.github.dhaval2404.imagepicker/sample/MainActivity.kt: (60, 26): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/sample/src/main/kotlin/com.github.dhaval2404.imagepicker/sample/MainActivity.kt: (72, 26): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/sample/src/main/kotlin/com.github.dhaval2404.imagepicker/sample/MainActivity.kt: (91, 25): Parameter 'view' is never used
 
-> Task :sample:mergeExtDexDebug
 > Task :sample:javaPreCompileRelease
 > Task :sample:compileReleaseJavaWithJavac
 > Task :sample:compileReleaseSources
+> Task :imagepicker:prepareLintJarForPublish UP-TO-DATE
+> Task :sample:prepareLintJar
 > Task :sample:lintVitalRelease SKIPPED
+> Task :sample:checkReleaseDuplicateClasses
+> Task :sample:mergeExtDexDebug
+> Task :imagepicker:bundleLibRuntimeRelease
+> Task :sample:dexBuilderRelease
 > Task :sample:mergeDexDebug
 > Task :sample:packageDebug
 > Task :sample:assembleDebug
 > Task :sample:desugarReleaseFileDependencies
-> Task :sample:transformClassesWithDexBuilderForRelease
 > Task :imagepicker:mergeReleaseShaders UP-TO-DATE
 > Task :imagepicker:compileReleaseShaders UP-TO-DATE
 > Task :imagepicker:generateReleaseAssets UP-TO-DATE
@@ -413,19 +413,18 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/
 > Task :sample:mergeReleaseAssets
 > Task :imagepicker:processReleaseJavaRes NO-SOURCE
 > Task :sample:processReleaseJavaRes NO-SOURCE
-> Task :sample:signingConfigWriterRelease
 > Task :imagepicker:mergeReleaseJniLibFolders UP-TO-DATE
 > Task :imagepicker:mergeReleaseNativeLibs UP-TO-DATE
 > Task :imagepicker:stripReleaseDebugSymbols UP-TO-DATE
-> Task :imagepicker:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :imagepicker:copyReleaseJniLibsProjectOnly
 > Task :sample:mergeReleaseJniLibFolders
 
-> Task :sample:ktlint
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/sample/src/main/kotlin/com.github.dhaval2404.imagepicker/sample/MainActivity.kt:3:1: Imports must be ordered in lexicographic order without any empty lines in-between
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/sample/src/main/kotlin/com.github.dhaval2404.imagepicker/sample/MainActivity.kt:75:32: Unnecessary space(s)
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/sample/src/main/kotlin/com.github.dhaval2404.imagepicker/sample/MainActivity.kt:75:33: Missing space after //
-
 > Task :sample:ktlint FAILED
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/sample/src/main/kotlin/com.github.dhaval2404.imagepicker/sample/MainActivity.kt:3:1: Imports must be ordered in lexicographic order without any empty lines in-between
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/sample/src/main/kotlin/com.github.dhaval2404.imagepicker/sample/MainActivity.kt:65:64: Missing spacing around "+"
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/sample/src/main/kotlin/com.github.dhaval2404.imagepicker/sample/MainActivity.kt:79:32: Unnecessary space(s)
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/sample/src/main/kotlin/com.github.dhaval2404.imagepicker/sample/MainActivity.kt:79:33: Missing space after //
+
 > Task :imagepicker:bundleLibResRelease
 
 FAILURE: Build failed with an exception.
@@ -439,24 +438,19 @@ Run with --info or --debug option to get more log output. Run with --scan to get
 
 * Exception is:
 org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':sample:ktlint'.
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$3.accept(ExecuteActionsTaskExecuter.java:148)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$3.accept(ExecuteActionsTaskExecuter.java:145)
-	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:191)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:138)
-	at org.gradle.api.internal.tasks.execution.ResolveBeforeExecutionStateTaskExecuter.execute(ResolveBeforeExecutionStateTaskExecuter.java:75)
-	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:62)
-	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:108)
-	at org.gradle.api.internal.tasks.execution.ResolveBeforeExecutionOutputsTaskExecuter.execute(ResolveBeforeExecutionOutputsTaskExecuter.java:67)
-	at org.gradle.api.internal.tasks.execution.ResolveAfterPreviousExecutionStateTaskExecuter.execute(ResolveAfterPreviousExecutionStateTaskExecuter.java:46)
-	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:94)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.lambda$executeIfValid$1(ExecuteActionsTaskExecuter.java:205)
+	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:263)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:203)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:184)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:114)
 	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:95)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:62)
 	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
 	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:56)
 	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:73)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:49)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
@@ -464,31 +458,30 @@ org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':sample:
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:49)
-	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:43)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:355)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:343)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:336)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:322)
-	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:134)
-	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:129)
-	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:202)
-	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.executeNextNode(DefaultPlanExecutor.java:193)
-	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:129)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:41)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:372)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:359)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:352)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:338)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.lambda$run$0(DefaultPlanExecutor.java:127)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:191)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.executeNextNode(DefaultPlanExecutor.java:182)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:124)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 Caused by: org.gradle.process.internal.ExecException: Process 'command '/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/bin/java'' finished with non-zero exit value 1
-	at org.gradle.process.internal.DefaultExecHandle$ExecResultImpl.assertNormalExitValue(DefaultExecHandle.java:396)
-	at org.gradle.process.internal.DefaultJavaExecAction.execute(DefaultJavaExecAction.java:38)
-	at org.gradle.api.tasks.JavaExec.exec(JavaExec.java:81)
-	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:103)
-	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:48)
-	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:41)
+	at org.gradle.process.internal.DefaultExecHandle$ExecResultImpl.assertNormalExitValue(DefaultExecHandle.java:417)
+	at org.gradle.process.internal.DefaultJavaExecAction.execute(DefaultJavaExecAction.java:40)
+	at org.gradle.api.tasks.JavaExec.exec(JavaExec.java:132)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:104)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:49)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:42)
 	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:28)
-	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:702)
-	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:669)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$5.run(ExecuteActionsTaskExecuter.java:401)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:727)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:694)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$3.run(ExecuteActionsTaskExecuter.java:568)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
@@ -496,54 +489,64 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command '/Library
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:390)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:373)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.access$200(ExecuteActionsTaskExecuter.java:79)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$TaskExecution.execute(ExecuteActionsTaskExecuter.java:210)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:553)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:536)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.access$300(ExecuteActionsTaskExecuter.java:109)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$TaskExecution.executeWithPreviousOutputFiles(ExecuteActionsTaskExecuter.java:276)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$TaskExecution.execute(ExecuteActionsTaskExecuter.java:265)
 	at org.gradle.internal.execution.steps.ExecuteStep.lambda$execute$1(ExecuteStep.java:33)
 	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:33)
 	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:26)
-	at org.gradle.internal.execution.steps.CleanupOutputsStep.execute(CleanupOutputsStep.java:58)
-	at org.gradle.internal.execution.steps.CleanupOutputsStep.execute(CleanupOutputsStep.java:35)
-	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:48)
-	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:33)
-	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:39)
+	at org.gradle.internal.execution.steps.CleanupOutputsStep.execute(CleanupOutputsStep.java:67)
+	at org.gradle.internal.execution.steps.CleanupOutputsStep.execute(CleanupOutputsStep.java:36)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:49)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:34)
+	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:43)
 	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:73)
 	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:54)
-	at org.gradle.internal.execution.steps.CatchExceptionStep.execute(CatchExceptionStep.java:35)
-	at org.gradle.internal.execution.steps.CreateOutputsStep.execute(CreateOutputsStep.java:51)
-	at org.gradle.internal.execution.steps.SnapshotOutputsStep.execute(SnapshotOutputsStep.java:45)
-	at org.gradle.internal.execution.steps.SnapshotOutputsStep.execute(SnapshotOutputsStep.java:31)
-	at org.gradle.internal.execution.steps.CacheStep.executeWithoutCache(CacheStep.java:201)
-	at org.gradle.internal.execution.steps.CacheStep.execute(CacheStep.java:70)
-	at org.gradle.internal.execution.steps.CacheStep.execute(CacheStep.java:45)
+	at org.gradle.internal.execution.steps.CatchExceptionStep.execute(CatchExceptionStep.java:34)
+	at org.gradle.internal.execution.steps.CreateOutputsStep.execute(CreateOutputsStep.java:44)
+	at org.gradle.internal.execution.steps.SnapshotOutputsStep.execute(SnapshotOutputsStep.java:54)
+	at org.gradle.internal.execution.steps.SnapshotOutputsStep.execute(SnapshotOutputsStep.java:38)
 	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:49)
-	at org.gradle.internal.execution.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:43)
-	at org.gradle.internal.execution.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:32)
+	at org.gradle.internal.execution.steps.CacheStep.executeWithoutCache(CacheStep.java:153)
+	at org.gradle.internal.execution.steps.CacheStep.execute(CacheStep.java:67)
+	at org.gradle.internal.execution.steps.CacheStep.execute(CacheStep.java:41)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:44)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:33)
 	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:38)
 	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:24)
-	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:96)
-	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$0(SkipUpToDateStep.java:89)
-	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:54)
-	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:38)
-	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:77)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:92)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$0(SkipUpToDateStep.java:85)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:55)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:39)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:76)
 	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:37)
 	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:36)
 	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:26)
-	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:90)
-	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:48)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:94)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:49)
+	at org.gradle.internal.execution.steps.CaptureStateBeforeExecutionStep.execute(CaptureStateBeforeExecutionStep.java:79)
+	at org.gradle.internal.execution.steps.CaptureStateBeforeExecutionStep.execute(CaptureStateBeforeExecutionStep.java:53)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:74)
+	at org.gradle.internal.execution.steps.SkipEmptyWorkStep.lambda$execute$2(SkipEmptyWorkStep.java:78)
+	at org.gradle.internal.execution.steps.SkipEmptyWorkStep.execute(SkipEmptyWorkStep.java:78)
+	at org.gradle.internal.execution.steps.SkipEmptyWorkStep.execute(SkipEmptyWorkStep.java:34)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.java:39)
+	at org.gradle.internal.execution.steps.LoadExecutionStateStep.execute(LoadExecutionStateStep.java:40)
+	at org.gradle.internal.execution.steps.LoadExecutionStateStep.execute(LoadExecutionStateStep.java:28)
 	at org.gradle.internal.execution.impl.DefaultWorkExecutor.execute(DefaultWorkExecutor.java:33)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:117)
-	... 35 more
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:192)
+	... 30 more
 
 
 * Get more help at https://help.gradle.org
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.5.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/6.2.2/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 1m 4s
-88 actionable tasks: 55 executed, 33 up-to-date
+BUILD FAILED in 57s
+88 actionable tasks: 57 executed, 31 up-to-date
 
-2020-03-24 13:51:09,444 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585032545867-0/src/ImagePicker-master/sample/build/outputs/apk/debug/sample-debug.apk
+2020-04-11 23:54:52,764 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586623954839-0/src/ImagePicker-master/sample/build/outputs/apk/debug/sample-debug.apk
