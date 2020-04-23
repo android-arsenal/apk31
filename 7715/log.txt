@@ -1,49 +1,50 @@
-2019-07-01 11:12:28,309 INFO  DownloadService - Downloading "https://github.com/manishkummar21/bluetoothscanning/archive/master.zip", attempt 3
-2019-07-01 11:12:30,446 INFO  DownloadService - Downloaded https://github.com/manishkummar21/bluetoothscanning/archive/master.zip, attempt 3
-2019-07-01 11:12:30,447 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954348301-0/master.zip": 297 KB
-2019-07-01 11:12:30,447 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-01 11:12:30,452 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954348301-0/master.zip: true
-2019-07-01 11:12:30,453 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954348301-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954348301-0/src'.
-2019-07-01 11:12:30,474 INFO  FullProcessService - Size of directory with sources: 325 KB
-2019-07-01 11:12:30,474 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954348301-0/src]
-2019-07-01 11:12:30,505 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954348301-0/src/.git/
+2020-04-23 19:10:18,353 INFO  DownloadService - Downloading "https://github.com/manishkummar21/bluetoothscanning/archive/master.zip", attempt 3
+2020-04-23 19:10:20,964 INFO  DownloadService - Downloaded https://github.com/manishkummar21/bluetoothscanning/archive/master.zip, attempt 3
+2020-04-23 19:10:20,964 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643818350-0/master.zip": 299 KB
+2020-04-23 19:10:20,964 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-04-23 19:10:20,965 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643818350-0/master.zip: true
+2020-04-23 19:10:20,965 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643818350-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643818350-0/src'.
+2020-04-23 19:10:20,998 INFO  FullProcessService - Size of directory with sources: 327 KB
+2020-04-23 19:10:20,999 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643818350-0/src]
+2020-04-23 19:10:21,037 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643818350-0/src/.git/
 
-2019-07-01 11:12:30,507 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954348301-0/src/bluetoothscanning-master/gradlew
-2019-07-01 11:12:30,510 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954348301-0/src/bluetoothscanning-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954348301-0/src/bluetoothscanning-master/scanning/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954348301-0/src/bluetoothscanning-master/build.gradle
-2019-07-01 11:12:30,513 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954348301-0/src/bluetoothscanning-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954348301-0/src/bluetoothscanning-master/scanning/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954348301-0/src/bluetoothscanning-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954348301-0/src/bluetoothscanning-master/settings.gradle
-2019-07-01 11:12:30,514 INFO  ProjectBuildService - Remote scripts: none
-2019-07-01 11:12:30,514 INFO  ProjectFixService - Fixing project...
-2019-07-01 11:12:30,520 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954348301-0/src/bluetoothscanning-master/app/local.properties
-2019-07-01 11:12:30,521 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954348301-0/src/bluetoothscanning-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-07-01 11:12:30,521 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954348301-0/src/bluetoothscanning-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-07-01 11:12:30,522 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954348301-0/src/bluetoothscanning-master/scanning/local.properties
-2019-07-01 11:12:30,522 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954348301-0/src/bluetoothscanning-master/scanning/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-07-01 11:12:30,522 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954348301-0/src/bluetoothscanning-master/scanning/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-07-01 11:12:30,523 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954348301-0/src/bluetoothscanning-master/local.properties
-2019-07-01 11:12:30,523 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-07-01 11:12:30,524 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-07-01 11:12:30,525 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954348301-0/src/bluetoothscanning-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-07-01 11:12:30,525 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954348301-0/src/bluetoothscanning-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-07-01 11:12:30,525 INFO  ProjectFixService - Project was maybe fixed
-2019-07-01 11:12:30,525 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-01 11:12:30,525 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954348301-0/src/bluetoothscanning-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954348301-0/src/bluetoothscanning-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-01 11:12:38,633 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-07-01 11:12:38,633 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-01 11:12:38,633 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954348301-0/src/bluetoothscanning-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954348301-0/src/bluetoothscanning-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-01 11:13:20,492 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-04-23 19:10:21,041 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643818350-0/src/bluetoothscanning-master/gradlew
+2020-04-23 19:10:21,046 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643818350-0/src/bluetoothscanning-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643818350-0/src/bluetoothscanning-master/scanning/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643818350-0/src/bluetoothscanning-master/build.gradle
+2020-04-23 19:10:21,049 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643818350-0/src/bluetoothscanning-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643818350-0/src/bluetoothscanning-master/scanning/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643818350-0/src/bluetoothscanning-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643818350-0/src/bluetoothscanning-master/settings.gradle
+2020-04-23 19:10:21,050 INFO  ProjectBuildService - Remote scripts: none
+2020-04-23 19:10:21,050 INFO  ProjectFixService - Fixing project...
+2020-04-23 19:10:21,059 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643818350-0/src/bluetoothscanning-master/app/local.properties
+2020-04-23 19:10:21,059 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643818350-0/src/bluetoothscanning-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-04-23 19:10:21,060 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643818350-0/src/bluetoothscanning-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-04-23 19:10:21,061 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643818350-0/src/bluetoothscanning-master/scanning/local.properties
+2020-04-23 19:10:21,062 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643818350-0/src/bluetoothscanning-master/scanning/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-04-23 19:10:21,062 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643818350-0/src/bluetoothscanning-master/scanning/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-04-23 19:10:21,062 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643818350-0/src/bluetoothscanning-master/local.properties
+2020-04-23 19:10:21,063 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2020-04-23 19:10:21,063 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2020-04-23 19:10:21,064 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643818350-0/src/bluetoothscanning-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-04-23 19:10:21,064 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643818350-0/src/bluetoothscanning-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-04-23 19:10:21,065 INFO  ProjectFixService - Project was maybe fixed
+2020-04-23 19:10:21,065 INFO  ProjectTaskService - Detecting possible tasks...
+2020-04-23 19:10:21,065 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643818350-0/src/bluetoothscanning-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643818350-0/src/bluetoothscanning-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-04-23 19:10:25,464 INFO  VirusProcessorServiceImpl - Queued project 7759 to scan viruses
+2020-04-23 19:11:02,588 INFO  ProjectTaskService - Detected possible tasks: 73
+2020-04-23 19:11:02,588 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-04-23 19:11:02,588 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643818350-0/src/bluetoothscanning-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643818350-0/src/bluetoothscanning-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-04-23 19:12:01,226 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :scanning:preBuild UP-TO-DATE
 > Task :scanning:preDebugBuild UP-TO-DATE
 > Task :scanning:checkDebugManifest
 > Task :scanning:processDebugManifest
+> Task :scanning:packageDebugRenderscript NO-SOURCE
+> Task :app:prepareLintJar
 > Task :scanning:compileDebugAidl NO-SOURCE
 > Task :app:preDebugBuild
 > Task :app:compileDebugAidl NO-SOURCE
-> Task :scanning:packageDebugRenderscript NO-SOURCE
-> Task :app:checkDebugManifest
 > Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
-> Task :app:prepareLintJar
 > Task :app:generateDebugSources
 > Task :app:dataBindingExportBuildInfoDebug
 > Task :app:dataBindingExportFeaturePackageIdsDebug
@@ -61,11 +62,21 @@
 > Task :app:mainApkListPersistenceDebug
 > Task :app:createDebugCompatibleScreenManifests
 > Task :app:processDebugManifest
+> Task :scanning:javaPreCompileDebug
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :scanning:mergeDebugShaders
+> Task :scanning:compileDebugShaders
+> Task :scanning:generateDebugAssets
+> Task :scanning:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :scanning:processDebugJavaRes NO-SOURCE
+> Task :app:checkDebugDuplicateClasses
 > Task :scanning:mergeDebugResources
 > Task :scanning:dataBindingGenBaseClassesDebug
 > Task :scanning:packageDebugResources
 > Task :scanning:generateDebugRFile
-> Task :scanning:javaPreCompileDebug
 
 > Task :scanning:compileDebugJavaWithJavac
 Gradle may disable incremental compilation as the following annotation processors are not incremental: databinding-compiler-3.4.1.jar (androidx.databinding:databinding-compiler:3.4.1).
@@ -86,19 +97,9 @@ Gradle may disable incremental compilation as the following annotation processor
 Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
 
 > Task :app:compileDebugSources
-> Task :app:mergeDebugShaders
-> Task :app:compileDebugShaders
-> Task :app:generateDebugAssets
-> Task :scanning:mergeDebugShaders
-> Task :scanning:compileDebugShaders
-> Task :scanning:generateDebugAssets
-> Task :scanning:packageDebugAssets
-> Task :app:mergeDebugAssets
-> Task :scanning:processDebugJavaRes NO-SOURCE
 > Task :scanning:bundleLibResDebug
 > Task :scanning:bundleLibRuntimeDebug
 > Task :scanning:createFullJarDebug
-> Task :app:checkDebugDuplicateClasses
 > Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
@@ -169,7 +170,7 @@ Consider setting the experimental feature flag android.enableSeparateAnnotationP
 > Task :scanning:prepareLintJarForPublish
 
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/29a26df1654bfac7db24fbbf73a76142/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/9263eeaba1e21ae9ce47cb99e504c23c/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 
 > Task :scanning:processReleaseJavaRes NO-SOURCE
 > Task :scanning:bundleLibResRelease
@@ -206,7 +207,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 41s
+BUILD SUCCESSFUL in 57s
 111 actionable tasks: 111 executed
 
-2019-07-01 11:13:20,604 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561954348301-0/src/bluetoothscanning-master/app/build/outputs/apk/debug/app-debug.apk
+2020-04-23 19:12:01,387 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643818350-0/src/bluetoothscanning-master/app/build/outputs/apk/debug/app-debug.apk
