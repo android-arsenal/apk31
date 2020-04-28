@@ -1,39 +1,38 @@
-2020-01-05 23:29:28,138 INFO  DownloadService - Downloading "https://github.com/tiper/MaterialSpinner/archive/master.zip", attempt 3
-2020-01-05 23:29:30,391 INFO  DownloadService - Downloaded https://github.com/tiper/MaterialSpinner/archive/master.zip, attempt 3
-2020-01-05 23:29:30,391 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/master.zip": 205 KB
-2020-01-05 23:29:30,391 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-05 23:29:30,393 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/master.zip: true
-2020-01-05 23:29:30,393 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src'.
-2020-01-05 23:29:30,413 INFO  FullProcessService - Size of directory with sources: 286 KB
-2020-01-05 23:29:30,413 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src]
-2020-01-05 23:29:30,432 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/.git/
+2020-04-28 12:50:22,294 INFO  DownloadService - Downloading "https://github.com/tiper/MaterialSpinner/archive/master.zip", attempt 3
+2020-04-28 12:50:24,789 INFO  DownloadService - Downloaded https://github.com/tiper/MaterialSpinner/archive/master.zip, attempt 3
+2020-04-28 12:50:24,789 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/master.zip": 205 KB
+2020-04-28 12:50:24,789 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-04-28 12:50:24,790 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/master.zip: true
+2020-04-28 12:50:24,791 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/src'.
+2020-04-28 12:50:24,913 INFO  FullProcessService - Size of directory with sources: 288 KB
+2020-04-28 12:50:24,914 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/src]
+2020-04-28 12:50:24,959 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/src/.git/
 
-2020-01-05 23:29:30,435 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/gradlew
-2020-01-05 23:29:30,438 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/materialspinner/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/build.gradle
-2020-01-05 23:29:30,441 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/materialspinner/build.gradle
-2020-01-05 23:29:30,447 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/Commit451/gradle-android-javadocs/1.0.0/gradle-android-javadocs.gradle", attempt 3
-2020-01-05 23:29:31,347 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/Commit451/gradle-android-javadocs/1.0.0/gradle-android-javadocs.gradle, attempt 3
-2020-01-05 23:29:31,348 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/Commit451/gradle-android-javadocs/1.0.0/gradle-android-javadocs.gradle
-2020-01-05 23:29:31,348 INFO  ProjectFixService - Fixing project...
-2020-01-05 23:29:31,357 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/materialspinner/local.properties
-2020-01-05 23:29:31,358 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/materialspinner/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
-2020-01-05 23:29:31,358 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/materialspinner/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2020-01-05 23:29:31,359 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/sample/local.properties
-2020-01-05 23:29:31,361 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
-2020-01-05 23:29:31,361 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2020-01-05 23:29:31,362 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/local.properties
-2020-01-05 23:29:31,362 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-01-05 23:29:31,363 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-01-05 23:29:31,364 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
-2020-01-05 23:29:31,364 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2020-01-05 23:29:31,365 INFO  ProjectFixService - Project was maybe fixed
-2020-01-05 23:29:31,365 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-05 23:29:31,366 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/materialspinner/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-05 23:29:39,269 INFO  VirusProcessorServiceImpl - Queued project 7867 to scan viruses
-2020-01-05 23:29:51,187 INFO  ProjectTaskService - Detected possible tasks: 79
-2020-01-05 23:29:51,188 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-01-05 23:29:51,188 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/materialspinner/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-01-05 23:30:14,622 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-04-28 12:50:24,968 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/src/MaterialSpinner-master/gradlew
+2020-04-28 12:50:24,975 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/src/MaterialSpinner-master/materialspinner/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/src/MaterialSpinner-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/src/MaterialSpinner-master/build.gradle
+2020-04-28 12:50:24,980 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/src/MaterialSpinner-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/src/MaterialSpinner-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/src/MaterialSpinner-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/src/MaterialSpinner-master/materialspinner/build.gradle
+2020-04-28 12:50:24,982 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/Commit451/gradle-android-javadocs/1.0.0/gradle-android-javadocs.gradle", attempt 3
+2020-04-28 12:50:25,198 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/Commit451/gradle-android-javadocs/1.0.0/gradle-android-javadocs.gradle, attempt 3
+2020-04-28 12:50:25,198 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/Commit451/gradle-android-javadocs/1.0.0/gradle-android-javadocs.gradle
+2020-04-28 12:50:25,198 INFO  ProjectFixService - Fixing project...
+2020-04-28 12:50:25,213 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/src/MaterialSpinner-master/materialspinner/local.properties
+2020-04-28 12:50:25,216 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/src/MaterialSpinner-master/materialspinner/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2020-04-28 12:50:25,216 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/src/MaterialSpinner-master/materialspinner/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-04-28 12:50:25,217 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/src/MaterialSpinner-master/sample/local.properties
+2020-04-28 12:50:25,219 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/src/MaterialSpinner-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2020-04-28 12:50:25,219 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/src/MaterialSpinner-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-04-28 12:50:25,221 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/src/MaterialSpinner-master/local.properties
+2020-04-28 12:50:25,221 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-04-28 12:50:25,222 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-04-28 12:50:25,224 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/src/MaterialSpinner-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2020-04-28 12:50:25,224 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/src/MaterialSpinner-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-04-28 12:50:25,225 INFO  ProjectFixService - Project was maybe fixed
+2020-04-28 12:50:25,225 INFO  ProjectTaskService - Detecting possible tasks...
+2020-04-28 12:50:25,225 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/src/MaterialSpinner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/src/MaterialSpinner-master/materialspinner/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-04-28 12:51:00,845 INFO  ProjectTaskService - Detected possible tasks: 83
+2020-04-28 12:51:00,845 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-04-28 12:51:00,846 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/src/MaterialSpinner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/src/MaterialSpinner-master/materialspinner/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-04-28 12:51:32,349 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :materialspinner:preBuild UP-TO-DATE
 > Task :materialspinner:preDebugBuild UP-TO-DATE
 > Task :materialspinner:compileDebugAidl NO-SOURCE
@@ -58,7 +57,10 @@
 > Task :materialspinner:generateReleaseResValues
 > Task :materialspinner:generateReleaseResources
 > Task :materialspinner:packageReleaseResources
-> Task :materialspinner:processDebugManifest
+> Task :materialspinner:mergeDebugNativeLibs
+> Task :materialspinner:stripDebugDebugSymbols
+> Task :materialspinner:transformNativeLibsWithSyncJniLibsForDebug
+> Task :materialspinner:prepareLintJarForPublish
 > Task :materialspinner:mergeReleaseShaders
 > Task :materialspinner:compileReleaseShaders
 > Task :materialspinner:generateReleaseAssets
@@ -66,56 +68,45 @@
 > Task :materialspinner:packageReleaseRenderscript NO-SOURCE
 > Task :materialspinner:processReleaseJavaRes NO-SOURCE
 > Task :materialspinner:mergeReleaseJniLibFolders
-> Task :materialspinner:prepareLintJarForPublish
+> Task :materialspinner:processReleaseManifest
 > Task :materialspinner:mergeReleaseResources
-> Task :materialspinner:parseDebugLibraryResources
-> Task :materialspinner:mergeDebugNativeLibs
-> Task :materialspinner:stripDebugDebugSymbols
-> Task :materialspinner:transformNativeLibsWithSyncJniLibsForDebug
-> Task :materialspinner:parseReleaseLibraryResources
+> Task :materialspinner:processDebugManifest
 > Task :materialspinner:mergeReleaseNativeLibs
 > Task :materialspinner:stripReleaseDebugSymbols
 > Task :materialspinner:transformNativeLibsWithSyncJniLibsForRelease
-> Task :materialspinner:processReleaseManifest
-> Task :materialspinner:generateDebugRFile
-
-> Task :materialspinner:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/materialspinner/src/main/kotlin/com/tiper/MaterialSpinner.kt: (437, 51): 'removeGlobalOnLayoutListener(ViewTreeObserver.OnGlobalLayoutListener!): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/materialspinner/src/main/kotlin/com/tiper/MaterialSpinner.kt: (578, 38): Parameter 'parent' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/materialspinner/src/main/kotlin/com/tiper/MaterialSpinner.kt: (578, 59): Parameter 'id' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/materialspinner/src/main/kotlin/com/tiper/MaterialSpinner.kt: (658, 59): Parameter 'parent' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/materialspinner/src/main/kotlin/com/tiper/MaterialSpinner.kt: (658, 80): Parameter 'id' is never used, could be renamed to _
-
-> Task :materialspinner:verifyReleaseResources
+> Task :materialspinner:parseReleaseLibraryResources
+> Task :materialspinner:parseDebugLibraryResources
 > Task :materialspinner:generateReleaseRFile
 
 > Task :materialspinner:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/materialspinner/src/main/kotlin/com/tiper/MaterialSpinner.kt: (437, 51): 'removeGlobalOnLayoutListener(ViewTreeObserver.OnGlobalLayoutListener!): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/materialspinner/src/main/kotlin/com/tiper/MaterialSpinner.kt: (578, 38): Parameter 'parent' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/materialspinner/src/main/kotlin/com/tiper/MaterialSpinner.kt: (578, 59): Parameter 'id' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/materialspinner/src/main/kotlin/com/tiper/MaterialSpinner.kt: (658, 59): Parameter 'parent' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/materialspinner/src/main/kotlin/com/tiper/MaterialSpinner.kt: (658, 80): Parameter 'id' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/src/MaterialSpinner-master/materialspinner/src/main/kotlin/com/tiper/MaterialSpinner.kt: (444, 51): 'removeGlobalOnLayoutListener(ViewTreeObserver.OnGlobalLayoutListener!): Unit' is deprecated. Deprecated in Java
 
-> Task :materialspinner:javaPreCompileDebug
-> Task :materialspinner:compileDebugJavaWithJavac
-> Task :materialspinner:extractDebugAnnotations
-> Task :materialspinner:mergeDebugGeneratedProguardFiles
-> Task :materialspinner:mergeDebugConsumerProguardFiles
+> Task :materialspinner:verifyReleaseResources
+> Task :materialspinner:generateDebugRFile
+
+> Task :materialspinner:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/src/MaterialSpinner-master/materialspinner/src/main/kotlin/com/tiper/MaterialSpinner.kt: (444, 51): 'removeGlobalOnLayoutListener(ViewTreeObserver.OnGlobalLayoutListener!): Unit' is deprecated. Deprecated in Java
+
 > Task :materialspinner:javaPreCompileRelease
-> Task :materialspinner:compileDebugSources
 > Task :materialspinner:compileReleaseJavaWithJavac
 > Task :materialspinner:extractReleaseAnnotations
 > Task :materialspinner:mergeReleaseGeneratedProguardFiles
 > Task :materialspinner:mergeReleaseConsumerProguardFiles
 > Task :materialspinner:compileReleaseSources
-> Task :materialspinner:mergeDebugJavaResource
-> Task :materialspinner:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :materialspinner:bundleDebugAar
-> Task :materialspinner:assembleDebug
+> Task :materialspinner:javaPreCompileDebug
+> Task :materialspinner:compileDebugJavaWithJavac
+> Task :materialspinner:extractDebugAnnotations
+> Task :materialspinner:mergeDebugGeneratedProguardFiles
+> Task :materialspinner:mergeDebugConsumerProguardFiles
+> Task :materialspinner:compileDebugSources
 > Task :materialspinner:mergeReleaseJavaResource
 > Task :materialspinner:transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :materialspinner:bundleReleaseAar
 > Task :materialspinner:assembleRelease
+> Task :materialspinner:mergeDebugJavaResource
+> Task :materialspinner:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :materialspinner:bundleDebugAar
+> Task :materialspinner:assembleDebug
 > Task :materialspinner:assemble
 > Task :materialspinner:build
 
@@ -123,15 +114,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 22s
+BUILD SUCCESSFUL in 30s
 49 actionable tasks: 49 executed
 
-2020-01-05 23:30:14,662 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-05 23:30:14,663 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-05 23:30:20,600 INFO  ProjectTaskService - Detected possible tasks: 69
-2020-01-05 23:30:20,600 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-01-05 23:30:20,601 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-01-05 23:30:25,646 ERROR SysUtils - Could not process external command
+2020-04-28 12:51:32,404 INFO  ProjectTaskService - Detecting possible tasks...
+2020-04-28 12:51:32,404 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/src/MaterialSpinner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/src/MaterialSpinner-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-04-28 12:51:38,837 INFO  ProjectTaskService - Detected possible tasks: 69
+2020-04-28 12:51:38,837 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-04-28 12:51:38,837 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/src/MaterialSpinner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/src/MaterialSpinner-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-04-28 12:51:43,809 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -148,7 +139,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
@@ -159,7 +150,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-01-05 23:30:25,646 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-04-28 12:51:43,809 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -260,9 +251,9 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 BUILD FAILED in 4s
 
-2020-01-05 23:30:25,646 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2020-01-05 23:30:25,646 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-01-05 23:31:16,668 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-04-28 12:51:43,809 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2020-04-28 12:51:43,810 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/src/MaterialSpinner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/src/MaterialSpinner-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-04-28 12:52:48,902 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :materialspinner:preBuild UP-TO-DATE
 > Task :materialspinner:preDebugBuild UP-TO-DATE
 > Task :materialspinner:compileDebugAidl NO-SOURCE
@@ -283,8 +274,8 @@ BUILD FAILED in 4s
 > Task :sample:compileDebugAidl NO-SOURCE
 > Task :materialspinner:bundleLibCompileDebug
 > Task :materialspinner:packageDebugRenderscript NO-SOURCE
-> Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:checkDebugManifest
+> Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:generateDebugBuildConfig
 > Task :sample:mainApkListPersistenceDebug
 > Task :sample:generateDebugResValues
@@ -295,7 +286,7 @@ BUILD FAILED in 4s
 > Task :sample:processDebugResources
 
 > Task :sample:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/sample/src/main/kotlin/com/tiper/materialspinner/sample/MainActivity.kt: (37, 70): Parameter 'v' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/src/MaterialSpinner-master/sample/src/main/kotlin/com/tiper/materialspinner/sample/MainActivity.kt: (37, 70): Parameter 'v' is never used, could be renamed to _
 
 > Task :sample:javaPreCompileDebug
 > Task :sample:compileDebugJavaWithJavac
@@ -345,25 +336,25 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/
 > Task :sample:mainApkListPersistenceRelease
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
-> Task :sample:createReleaseCompatibleScreenManifests
-> Task :sample:processReleaseManifest
-> Task :materialspinner:bundleLibCompileRelease
 > Task :sample:mergeDebugNativeLibs
 > Task :sample:stripDebugDebugSymbols
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
+> Task :materialspinner:prepareLintJarForPublish UP-TO-DATE
+> Task :sample:prepareLintJar
+> Task :materialspinner:bundleLibCompileRelease
+> Task :sample:checkReleaseDuplicateClasses
+> Task :materialspinner:bundleLibRuntimeRelease
 > Task :sample:mergeReleaseResources
 > Task :sample:processReleaseResources
 
 > Task :sample:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/sample/src/main/kotlin/com/tiper/materialspinner/sample/MainActivity.kt: (37, 70): Parameter 'v' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/src/MaterialSpinner-master/sample/src/main/kotlin/com/tiper/materialspinner/sample/MainActivity.kt: (37, 70): Parameter 'v' is never used, could be renamed to _
 
 > Task :sample:javaPreCompileRelease
 > Task :sample:compileReleaseJavaWithJavac
 > Task :sample:compileReleaseSources
-> Task :materialspinner:prepareLintJarForPublish UP-TO-DATE
-> Task :sample:prepareLintJar
 > Task :sample:lintVitalRelease SKIPPED
-> Task :sample:checkReleaseDuplicateClasses
-> Task :materialspinner:bundleLibRuntimeRelease
 > Task :sample:transformClassesWithDexBuilderForRelease
 > Task :materialspinner:mergeReleaseShaders UP-TO-DATE
 > Task :materialspinner:compileReleaseShaders UP-TO-DATE
@@ -383,16 +374,16 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/
 > Task :sample:mergeReleaseJniLibFolders
 
 > Task :sample:lint
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/9e614b9fcbc47534471cb4e1f94691bc/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-Ran lint on variant debug: 8 issues found
-Ran lint on variant release: 8 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/sample/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/sample/build/reports/lint-results.xml
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/442690654ea2ad05cf5211cd64691bd1/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Ran lint on variant release: 11 issues found
+Ran lint on variant debug: 11 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/src/MaterialSpinner-master/sample/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/src/MaterialSpinner-master/sample/build/reports/lint-results.xml
 
-> Task :sample:mergeExtDexDebug
 > Task :materialspinner:bundleLibResRelease
-> Task :sample:preDebugUnitTestBuild UP-TO-DATE
+> Task :sample:mergeExtDexDebug
 > Task :sample:compileDebugUnitTestKotlin NO-SOURCE
+> Task :sample:preDebugUnitTestBuild UP-TO-DATE
 > Task :sample:processDebugUnitTestJavaRes NO-SOURCE
 > Task :sample:compileReleaseUnitTestKotlin NO-SOURCE
 > Task :sample:preReleaseUnitTestBuild UP-TO-DATE
@@ -422,7 +413,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 50s
+BUILD SUCCESSFUL in 1m 4s
 94 actionable tasks: 61 executed, 33 up-to-date
 
-2020-01-05 23:31:16,774 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241768134-0/src/MaterialSpinner-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2020-04-28 12:52:49,074 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588053022286-0/src/MaterialSpinner-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
