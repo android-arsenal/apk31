@@ -1,40 +1,39 @@
-2020-03-22 03:02:22,344 INFO  DownloadService - Downloading "https://github.com/adrielcafe/HAL/archive/master.zip", attempt 3
-2020-03-22 03:02:23,100 INFO  DownloadService - Downloaded https://github.com/adrielcafe/HAL/archive/master.zip, attempt 3
-2020-03-22 03:02:23,100 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/master.zip": 244 KB
-2020-03-22 03:02:23,100 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-03-22 03:02:23,106 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/master.zip: true
-2020-03-22 03:02:23,106 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src'.
-2020-03-22 03:02:23,135 INFO  FullProcessService - Size of directory with sources: 270 KB
-2020-03-22 03:02:23,135 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src]
-2020-03-22 03:02:23,156 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/.git/
+2020-05-15 14:57:52,202 INFO  DownloadService - Downloading "https://github.com/adrielcafe/HAL/archive/master.zip", attempt 3
+2020-05-15 14:57:55,078 INFO  DownloadService - Downloaded https://github.com/adrielcafe/HAL/archive/master.zip, attempt 3
+2020-05-15 14:57:55,078 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/master.zip": 247 KB
+2020-05-15 14:57:55,078 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-05-15 14:57:55,079 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/master.zip: true
+2020-05-15 14:57:55,079 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/src'.
+2020-05-15 14:57:55,113 INFO  FullProcessService - Size of directory with sources: 278 KB
+2020-05-15 14:57:55,113 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/src]
+2020-05-15 14:57:55,144 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/src/.git/
 
-2020-03-22 03:02:23,160 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/gradlew
-2020-03-22 03:02:23,164 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/hal-livedata/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/hal-core/build.gradle
-2020-03-22 03:02:23,167 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/hal-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/hal-livedata/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/settings.gradle
-2020-03-22 03:02:23,168 INFO  ProjectBuildService - Remote scripts: none
-2020-03-22 03:02:23,168 INFO  ProjectFixService - Fixing project...
-2020-03-22 03:02:23,177 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/hal-livedata/local.properties
-2020-03-22 03:02:23,178 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/hal-livedata/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2020-03-22 03:02:23,179 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/hal-livedata/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2020-03-22 03:02:23,179 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/sample/local.properties
-2020-03-22 03:02:23,180 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2020-03-22 03:02:23,180 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2020-03-22 03:02:23,181 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/local.properties
-2020-03-22 03:02:23,181 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.5-all.zip
-2020-03-22 03:02:23,182 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.5-bin.zip)
-2020-03-22 03:02:23,183 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2020-03-22 03:02:23,183 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2020-03-22 03:02:23,184 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/hal-core/local.properties
-2020-03-22 03:02:23,185 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/hal-core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2020-03-22 03:02:23,185 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/hal-core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2020-03-22 03:02:23,185 INFO  ProjectFixService - Project was maybe fixed
-2020-03-22 03:02:23,185 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-22 03:02:23,185 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/hal-livedata/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-22 03:02:31,028 INFO  VirusProcessorServiceImpl - Queued project 7749 to scan viruses
-2020-03-22 03:03:16,097 INFO  ProjectTaskService - Detected possible tasks: 83
-2020-03-22 03:03:16,097 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-03-22 03:03:16,098 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/hal-livedata/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-03-22 03:03:35,723 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
+2020-05-15 14:57:55,149 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/src/hal-master/gradlew
+2020-05-15 14:57:55,154 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/src/hal-master/hal-livedata/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/src/hal-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/src/hal-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/src/hal-master/hal-core/build.gradle
+2020-05-15 14:57:55,160 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/src/hal-master/hal-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/src/hal-master/hal-livedata/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/src/hal-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/src/hal-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/src/hal-master/settings.gradle
+2020-05-15 14:57:55,161 INFO  ProjectBuildService - Remote scripts: none
+2020-05-15 14:57:55,161 INFO  ProjectFixService - Fixing project...
+2020-05-15 14:57:55,171 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/src/hal-master/hal-livedata/local.properties
+2020-05-15 14:57:55,173 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/src/hal-master/hal-livedata/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-05-15 14:57:55,173 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/src/hal-master/hal-livedata/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-05-15 14:57:55,175 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/src/hal-master/sample/local.properties
+2020-05-15 14:57:55,176 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/src/hal-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-05-15 14:57:55,176 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/src/hal-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-05-15 14:57:55,177 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/src/hal-master/local.properties
+2020-05-15 14:57:55,178 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.3-bin.zip
+2020-05-15 14:57:55,179 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/src/hal-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-05-15 14:57:55,179 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/src/hal-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-05-15 14:57:55,180 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/src/hal-master/hal-core/local.properties
+2020-05-15 14:57:55,182 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/src/hal-master/hal-core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-05-15 14:57:55,182 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/src/hal-master/hal-core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-05-15 14:57:55,183 INFO  ProjectFixService - Project was maybe fixed
+2020-05-15 14:57:55,183 INFO  ProjectTaskService - Detecting possible tasks...
+2020-05-15 14:57:55,183 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/src/hal-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/src/hal-master/hal-livedata/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-05-15 14:58:09,384 INFO  VirusProcessorServiceImpl - Queued project 7769 to scan viruses
+2020-05-15 14:58:26,285 INFO  ProjectTaskService - Detected possible tasks: 84
+2020-05-15 14:58:26,285 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-05-15 14:58:26,286 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/src/hal-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/src/hal-master/hal-livedata/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-05-15 14:59:00,519 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
 > Task :buildSrc:compileJava NO-SOURCE
 > Task :buildSrc:compileGroovy NO-SOURCE
 > Task :buildSrc:pluginDescriptors UP-TO-DATE
@@ -50,102 +49,105 @@
 > Task :buildSrc:processTestResources NO-SOURCE
 > Task :buildSrc:testClasses UP-TO-DATE
 > Task :buildSrc:test NO-SOURCE
-> Task :buildSrc:validateTaskProperties UP-TO-DATE
+> Task :buildSrc:validatePlugins UP-TO-DATE
 > Task :buildSrc:check UP-TO-DATE
 > Task :buildSrc:build UP-TO-DATE
 Configuration on demand is an incubating feature.
 > Task :hal-livedata:preBuild UP-TO-DATE
 > Task :hal-livedata:preDebugBuild UP-TO-DATE
+> Task :hal-livedata:mergeDebugJniLibFolders
+> Task :hal-livedata:mergeDebugNativeLibs
+> Task :hal-livedata:stripDebugDebugSymbols
+> Task :hal-livedata:copyDebugJniLibsProjectAndLocalJars
+> Task :hal-livedata:compileDebugAidl NO-SOURCE
 
 > Task :hal-core:compileKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/hal-core/src/main/kotlin/cafe/adriel/hal/HAL.kt: (33, 26): This declaration is experimental and its usage should be marked with '@kotlinx.coroutines.ObsoleteCoroutinesApi' or '@UseExperimental(kotlinx.coroutines.ObsoleteCoroutinesApi::class)'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/src/hal-master/hal-core/src/main/kotlin/cafe/adriel/hal/HAL.kt: (39, 9): This declaration is experimental and its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/src/hal-master/hal-core/src/main/kotlin/cafe/adriel/hal/HAL.kt: (43, 27): This declaration is experimental and its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/src/hal-master/hal-core/src/main/kotlin/cafe/adriel/hal/HALDsl.kt: (14, 28): This declaration is experimental and its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/src/hal-master/hal-core/src/main/kotlin/cafe/adriel/hal/HALDsl.kt: (18, 19): This declaration is experimental and its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
 
 > Task :hal-core:compileJava NO-SOURCE
-> Task :hal-livedata:compileDebugAidl NO-SOURCE
 > Task :hal-core:processResources NO-SOURCE
 > Task :hal-core:classes UP-TO-DATE
 > Task :hal-core:inspectClassesForKotlinIC
 > Task :hal-core:jar
-> Task :hal-livedata:checkDebugManifest
-> Task :hal-livedata:compileDebugRenderscript NO-SOURCE
 > Task :hal-livedata:generateDebugBuildConfig
+> Task :hal-livedata:compileDebugRenderscript NO-SOURCE
 > Task :hal-livedata:generateDebugResValues
 > Task :hal-livedata:generateDebugResources
-> Task :hal-livedata:processDebugManifest
 > Task :hal-livedata:packageDebugResources
-> Task :hal-livedata:generateDebugRFile
-> Task :hal-livedata:compileDebugKotlin
-> Task :hal-livedata:prepareLintJar
-> Task :hal-livedata:generateDebugSources
-> Task :hal-livedata:javaPreCompileDebug
-> Task :hal-livedata:compileDebugJavaWithJavac
-> Task :hal-livedata:extractDebugAnnotations
-> Task :hal-livedata:mergeDebugConsumerProguardFiles
 > Task :hal-livedata:mergeDebugShaders
 > Task :hal-livedata:compileDebugShaders
 > Task :hal-livedata:generateDebugAssets
 > Task :hal-livedata:packageDebugAssets
 > Task :hal-livedata:packageDebugRenderscript NO-SOURCE
-> Task :hal-livedata:prepareLintJarForPublish
 > Task :hal-livedata:processDebugJavaRes NO-SOURCE
-> Task :hal-livedata:transformResourcesWithMergeJavaResForDebug
-> Task :hal-livedata:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :hal-livedata:mergeDebugJniLibFolders
-> Task :hal-livedata:transformNativeLibsWithMergeJniLibsForDebug
-> Task :hal-livedata:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :hal-livedata:transformNativeLibsWithSyncJniLibsForDebug
-> Task :hal-livedata:bundleDebugAar
-> Task :hal-livedata:compileDebugSources
-> Task :hal-livedata:assembleDebug
 > Task :hal-livedata:preReleaseBuild UP-TO-DATE
 > Task :hal-livedata:compileReleaseAidl NO-SOURCE
+> Task :hal-livedata:mergeReleaseJniLibFolders
+> Task :hal-livedata:parseDebugLocalResources
 > Task :hal-livedata:compileReleaseRenderscript NO-SOURCE
-> Task :hal-livedata:checkReleaseManifest
 > Task :hal-livedata:generateReleaseBuildConfig
 > Task :hal-livedata:generateReleaseResValues
 > Task :hal-livedata:generateReleaseResources
 > Task :hal-livedata:packageReleaseResources
-> Task :hal-livedata:processReleaseManifest
-> Task :hal-livedata:generateReleaseRFile
-> Task :hal-livedata:compileReleaseKotlin
-> Task :hal-livedata:generateReleaseSources
-> Task :hal-livedata:javaPreCompileRelease
-> Task :hal-livedata:compileReleaseJavaWithJavac
-> Task :hal-livedata:extractReleaseAnnotations
-> Task :hal-livedata:mergeReleaseConsumerProguardFiles
 > Task :hal-livedata:mergeReleaseShaders
 > Task :hal-livedata:compileReleaseShaders
 > Task :hal-livedata:generateReleaseAssets
 > Task :hal-livedata:packageReleaseAssets
 > Task :hal-livedata:packageReleaseRenderscript NO-SOURCE
 > Task :hal-livedata:processReleaseJavaRes NO-SOURCE
-> Task :hal-livedata:transformResourcesWithMergeJavaResForRelease
-> Task :hal-livedata:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :hal-livedata:mergeReleaseJniLibFolders
-> Task :hal-livedata:transformNativeLibsWithMergeJniLibsForRelease
-> Task :hal-livedata:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :hal-livedata:transformNativeLibsWithSyncJniLibsForRelease
-> Task :hal-livedata:bundleReleaseAar
+> Task :hal-livedata:parseReleaseLocalResources
+> Task :hal-livedata:processReleaseManifest
+> Task :hal-livedata:mergeReleaseNativeLibs
+> Task :hal-livedata:stripReleaseDebugSymbols
+> Task :hal-livedata:copyReleaseJniLibsProjectAndLocalJars
+> Task :hal-livedata:prepareLintJarForPublish
+> Task :hal-livedata:processDebugManifest
+> Task :hal-livedata:generateReleaseRFile
+> Task :hal-livedata:compileReleaseKotlin
+> Task :hal-livedata:generateDebugRFile
+> Task :hal-livedata:compileDebugKotlin
+> Task :hal-livedata:javaPreCompileRelease
+> Task :hal-livedata:compileReleaseJavaWithJavac
+> Task :hal-livedata:extractReleaseAnnotations
+> Task :hal-livedata:mergeReleaseGeneratedProguardFiles
+> Task :hal-livedata:mergeReleaseConsumerProguardFiles
 > Task :hal-livedata:compileReleaseSources
+> Task :hal-livedata:mergeDebugJavaResource
+> Task :hal-livedata:mergeReleaseJavaResource
+> Task :hal-livedata:syncReleaseLibJars
+> Task :hal-livedata:bundleReleaseAar
 > Task :hal-livedata:mergeReleaseResources
+> Task :hal-livedata:javaPreCompileDebug
+> Task :hal-livedata:compileDebugJavaWithJavac
+> Task :hal-livedata:extractDebugAnnotations
+> Task :hal-livedata:mergeDebugGeneratedProguardFiles
+> Task :hal-livedata:mergeDebugConsumerProguardFiles
+> Task :hal-livedata:compileDebugSources
 > Task :hal-livedata:verifyReleaseResources
 > Task :hal-livedata:assembleRelease
+> Task :hal-livedata:jacocoDebug
+> Task :hal-livedata:syncDebugLibJars
+> Task :hal-livedata:bundleDebugAar
+> Task :hal-livedata:assembleDebug
 > Task :hal-livedata:assemble
 > Task :hal-livedata:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.5/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/6.3/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 19s
-49 actionable tasks: 49 executed
+BUILD SUCCESSFUL in 33s
+51 actionable tasks: 51 executed
 
-2020-03-22 03:03:35,749 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-22 03:03:35,749 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-22 03:03:44,667 INFO  ProjectTaskService - Detected possible tasks: 80
-2020-03-22 03:03:44,667 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-03-22 03:03:44,667 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-03-22 03:04:34,209 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
+2020-05-15 14:59:00,552 INFO  ProjectTaskService - Detecting possible tasks...
+2020-05-15 14:59:00,553 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/src/hal-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/src/hal-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-05-15 14:59:12,855 INFO  ProjectTaskService - Detected possible tasks: 84
+2020-05-15 14:59:12,856 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-05-15 14:59:12,856 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/src/hal-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/src/hal-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-05-15 15:00:36,261 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
 > Task :buildSrc:compileJava NO-SOURCE
 > Task :buildSrc:compileGroovy NO-SOURCE
 > Task :buildSrc:pluginDescriptors UP-TO-DATE
@@ -161,7 +163,7 @@ BUILD SUCCESSFUL in 19s
 > Task :buildSrc:processTestResources NO-SOURCE
 > Task :buildSrc:testClasses UP-TO-DATE
 > Task :buildSrc:test NO-SOURCE
-> Task :buildSrc:validateTaskProperties UP-TO-DATE
+> Task :buildSrc:validatePlugins UP-TO-DATE
 > Task :buildSrc:check UP-TO-DATE
 > Task :buildSrc:build UP-TO-DATE
 Configuration on demand is an incubating feature.
@@ -173,114 +175,103 @@ Configuration on demand is an incubating feature.
 > Task :hal-core:jar UP-TO-DATE
 > Task :hal-livedata:preBuild UP-TO-DATE
 > Task :hal-livedata:preDebugBuild UP-TO-DATE
-> Task :hal-livedata:checkDebugManifest UP-TO-DATE
 > Task :hal-livedata:generateDebugBuildConfig UP-TO-DATE
 > Task :hal-livedata:compileDebugAidl NO-SOURCE
 > Task :hal-livedata:compileDebugRenderscript NO-SOURCE
 > Task :hal-livedata:generateDebugResValues UP-TO-DATE
 > Task :hal-livedata:generateDebugResources UP-TO-DATE
 > Task :hal-livedata:packageDebugResources UP-TO-DATE
+> Task :hal-livedata:parseDebugLocalResources UP-TO-DATE
 > Task :hal-livedata:processDebugManifest UP-TO-DATE
 > Task :hal-livedata:generateDebugRFile UP-TO-DATE
 > Task :hal-livedata:compileDebugKotlin UP-TO-DATE
-> Task :hal-livedata:prepareLintJar UP-TO-DATE
-> Task :hal-livedata:generateDebugSources UP-TO-DATE
 > Task :hal-livedata:javaPreCompileDebug UP-TO-DATE
 > Task :hal-livedata:compileDebugJavaWithJavac UP-TO-DATE
-> Task :hal-livedata:bundleLibCompileDebug
 > Task :sample:preBuild UP-TO-DATE
+> Task :sample:preDebugBuild UP-TO-DATE
 > Task :hal-livedata:packageDebugRenderscript NO-SOURCE
-> Task :sample:prepareLintJar
+> Task :sample:generateDebugBuildConfig
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :sample:compileDebugRenderscript NO-SOURCE
+> Task :hal-livedata:bundleLibCompileDebug
+> Task :sample:mainApkListPersistenceDebug
+> Task :hal-livedata:compileDebugLibraryResources
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :hal-livedata:extractDeepLinksDebug
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:extractDeepLinksDebug
+> Task :sample:processDebugManifest
+> Task :sample:mergeDebugResources
+> Task :sample:processDebugResources
+> Task :sample:compileDebugKotlin
 > Task :hal-livedata:mergeDebugShaders UP-TO-DATE
 > Task :hal-livedata:compileDebugShaders UP-TO-DATE
 > Task :hal-livedata:generateDebugAssets UP-TO-DATE
 > Task :hal-livedata:packageDebugAssets UP-TO-DATE
-> Task :hal-livedata:processDebugJavaRes NO-SOURCE
-> Task :hal-livedata:bundleLibResDebug
-> Task :hal-livedata:bundleLibRuntimeDebug
-> Task :hal-livedata:createFullJarDebug
-> Task :sample:preDebugBuild
-> Task :sample:compileDebugAidl NO-SOURCE
-> Task :sample:compileDebugRenderscript NO-SOURCE
-> Task :sample:checkDebugManifest
-> Task :sample:generateDebugBuildConfig
-> Task :sample:mainApkListPersistenceDebug
-> Task :sample:generateDebugResValues
-> Task :sample:generateDebugResources
-> Task :sample:mergeDebugResources
-> Task :sample:createDebugCompatibleScreenManifests
-> Task :sample:processDebugManifest
-> Task :sample:processDebugResources
-> Task :sample:compileDebugKotlin
-> Task :sample:generateDebugSources
-> Task :sample:javaPreCompileDebug
-> Task :sample:compileDebugJavaWithJavac
-> Task :sample:compileDebugSources
 > Task :sample:mergeDebugShaders
 > Task :sample:compileDebugShaders
 > Task :sample:generateDebugAssets
 > Task :sample:mergeDebugAssets
-> Task :sample:checkDebugDuplicateClasses
-> Task :sample:transformClassesWithDexBuilderForDebug
-> Task :sample:validateSigningDebug
-> Task :sample:signingConfigWriterDebug
-> Task :hal-livedata:mergeDebugJniLibFolders UP-TO-DATE
-> Task :hal-livedata:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
-> Task :hal-livedata:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
-> Task :hal-livedata:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :sample:mergeDebugJniLibFolders
-> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
-> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
+> Task :hal-livedata:processDebugJavaRes NO-SOURCE
 > Task :sample:processDebugJavaRes NO-SOURCE
-> Task :sample:transformResourcesWithMergeJavaResForDebug
+> Task :hal-livedata:jacocoDebug UP-TO-DATE
+> Task :hal-livedata:bundleLibResDebug
+> Task :hal-livedata:bundleLibRuntimeDebug
+> Task :sample:dexBuilderDebug
+> Task :sample:checkDebugDuplicateClasses
+> Task :sample:mergeDebugJavaResource
+> Task :hal-livedata:mergeDebugJniLibFolders UP-TO-DATE
+> Task :hal-livedata:mergeDebugNativeLibs UP-TO-DATE
+> Task :hal-livedata:stripDebugDebugSymbols UP-TO-DATE
+> Task :hal-livedata:copyDebugJniLibsProjectOnly
+> Task :sample:mergeDebugJniLibFolders
+> Task :sample:validateSigningDebug
 > Task :hal-livedata:preReleaseBuild UP-TO-DATE
 > Task :hal-livedata:compileReleaseAidl NO-SOURCE
 > Task :hal-livedata:compileReleaseRenderscript NO-SOURCE
-> Task :hal-livedata:checkReleaseManifest UP-TO-DATE
 > Task :hal-livedata:generateReleaseBuildConfig UP-TO-DATE
 > Task :hal-livedata:generateReleaseResValues UP-TO-DATE
 > Task :hal-livedata:generateReleaseResources UP-TO-DATE
 > Task :hal-livedata:packageReleaseResources UP-TO-DATE
+> Task :hal-livedata:parseReleaseLocalResources UP-TO-DATE
 > Task :hal-livedata:processReleaseManifest UP-TO-DATE
 > Task :hal-livedata:generateReleaseRFile UP-TO-DATE
 > Task :hal-livedata:compileReleaseKotlin UP-TO-DATE
-> Task :hal-livedata:generateReleaseSources UP-TO-DATE
 > Task :hal-livedata:javaPreCompileRelease UP-TO-DATE
 > Task :hal-livedata:compileReleaseJavaWithJavac UP-TO-DATE
-> Task :hal-livedata:bundleLibCompileRelease
-> Task :sample:preReleaseBuild
+> Task :sample:preReleaseBuild UP-TO-DATE
 > Task :sample:compileReleaseAidl NO-SOURCE
 > Task :hal-livedata:packageReleaseRenderscript NO-SOURCE
 > Task :sample:compileReleaseRenderscript NO-SOURCE
-> Task :sample:checkReleaseManifest
 > Task :sample:generateReleaseBuildConfig
+> Task :hal-livedata:bundleLibCompileRelease
 > Task :sample:mainApkListPersistenceRelease
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
-> Task :sample:mergeReleaseResources
+> Task :hal-livedata:extractDeepLinksRelease
 > Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:extractDeepLinksRelease
 > Task :sample:processReleaseManifest
+> Task :sample:mergeReleaseResources
+> Task :sample:mergeDebugNativeLibs
+> Task :sample:stripDebugDebugSymbols
+> Task :hal-livedata:compileReleaseLibraryResources
 > Task :sample:processReleaseResources
 > Task :sample:compileReleaseKotlin
-> Task :sample:generateReleaseSources
 > Task :sample:javaPreCompileRelease
 > Task :sample:compileReleaseJavaWithJavac
 > Task :sample:compileReleaseSources
 > Task :hal-livedata:prepareLintJarForPublish UP-TO-DATE
-
+> Task :sample:prepareLintJar
 > Task :sample:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/60f92d9723570e74c0bdf6d37fb14c65/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-
 > Task :sample:mergeExtDexDebug
-> Task :sample:mergeDexDebug
-> Task :sample:packageDebug
-> Task :sample:assembleDebug
-> Task :hal-livedata:processReleaseJavaRes NO-SOURCE
-> Task :hal-livedata:bundleLibResRelease
-> Task :hal-livedata:bundleLibRuntimeRelease
-> Task :hal-livedata:createFullJarRelease
 > Task :sample:checkReleaseDuplicateClasses
-> Task :sample:transformClassesWithDexBuilderForRelease
+> Task :sample:dexBuilderRelease
+> Task :hal-livedata:bundleLibRuntimeRelease
 > Task :hal-livedata:mergeReleaseShaders UP-TO-DATE
 > Task :hal-livedata:compileReleaseShaders UP-TO-DATE
 > Task :hal-livedata:generateReleaseAssets UP-TO-DATE
@@ -289,16 +280,20 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :sample:compileReleaseShaders
 > Task :sample:generateReleaseAssets
 > Task :sample:mergeReleaseAssets
-> Task :sample:signingConfigWriterRelease
-> Task :hal-livedata:mergeReleaseJniLibFolders UP-TO-DATE
-> Task :hal-livedata:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
-> Task :hal-livedata:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
-> Task :hal-livedata:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :sample:mergeReleaseJniLibFolders
-> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
-> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :hal-livedata:processReleaseJavaRes NO-SOURCE
+> Task :sample:mergeDexDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
 > Task :sample:processReleaseJavaRes NO-SOURCE
-> Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :hal-livedata:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :hal-livedata:mergeReleaseNativeLibs UP-TO-DATE
+> Task :hal-livedata:stripReleaseDebugSymbols UP-TO-DATE
+> Task :hal-livedata:copyReleaseJniLibsProjectOnly
+> Task :sample:mergeReleaseJniLibFolders
+> Task :hal-livedata:bundleLibResRelease
+> Task :sample:mergeReleaseNativeLibs
+> Task :sample:stripReleaseDebugSymbols
+> Task :sample:mergeReleaseJavaResource
 > Task :sample:mergeExtDexRelease
 > Task :sample:mergeDexRelease
 > Task :sample:packageRelease
@@ -306,11 +301,11 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :sample:assemble
 > Task :sample:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.5/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/6.3/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 48s
-98 actionable tasks: 63 executed, 35 up-to-date
+BUILD SUCCESSFUL in 1m 22s
+96 actionable tasks: 61 executed, 35 up-to-date
 
-2020-03-22 03:04:34,316 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820942341-0/src/HAL-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2020-05-15 15:00:36,340 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529472199-0/src/hal-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
