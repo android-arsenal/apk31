@@ -1,37 +1,37 @@
-2020-03-22 20:26:16,538 INFO  DownloadService - Downloading "https://github.com/jesualex/sTooltip/archive/master.zip", attempt 3
-2020-03-22 20:26:18,783 INFO  DownloadService - Downloaded https://github.com/jesualex/sTooltip/archive/master.zip, attempt 3
-2020-03-22 20:26:18,784 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883576535-0/master.zip": 363 KB
-2020-03-22 20:26:18,784 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-03-22 20:26:18,784 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883576535-0/master.zip: true
-2020-03-22 20:26:18,784 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883576535-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883576535-0/src'.
-2020-03-22 20:26:18,828 INFO  FullProcessService - Size of directory with sources: 473 KB
-2020-03-22 20:26:18,828 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883576535-0/src]
-2020-03-22 20:26:18,895 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883576535-0/src/.git/
+2020-06-23 01:21:45,009 INFO  DownloadService - Downloading "https://github.com/jesualex/sTooltip/archive/master.zip", attempt 3
+2020-06-23 01:21:47,462 INFO  DownloadService - Downloaded https://github.com/jesualex/sTooltip/archive/master.zip, attempt 3
+2020-06-23 01:21:47,462 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592850104999-0/master.zip": 364 KB
+2020-06-23 01:21:47,462 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-06-23 01:21:47,463 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592850104999-0/master.zip: true
+2020-06-23 01:21:47,463 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592850104999-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592850104999-0/src'.
+2020-06-23 01:21:47,506 INFO  FullProcessService - Size of directory with sources: 475 KB
+2020-06-23 01:21:47,506 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592850104999-0/src]
+2020-06-23 01:21:47,887 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592850104999-0/src/.git/
 
-2020-03-22 20:26:18,900 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883576535-0/src/sTooltip-master/gradlew
-2020-03-22 20:26:18,905 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883576535-0/src/sTooltip-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883576535-0/src/sTooltip-master/stooltip/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883576535-0/src/sTooltip-master/build.gradle
-2020-03-22 20:26:18,909 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883576535-0/src/sTooltip-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883576535-0/src/sTooltip-master/stooltip/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883576535-0/src/sTooltip-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883576535-0/src/sTooltip-master/settings.gradle
-2020-03-22 20:26:18,909 INFO  ProjectBuildService - Remote scripts: none
-2020-03-22 20:26:18,910 INFO  ProjectFixService - Fixing project...
-2020-03-22 20:26:18,923 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883576535-0/src/sTooltip-master/app/local.properties
-2020-03-22 20:26:18,924 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883576535-0/src/sTooltip-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2020-03-22 20:26:18,925 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883576535-0/src/sTooltip-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2020-03-22 20:26:18,927 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883576535-0/src/sTooltip-master/stooltip/local.properties
-2020-03-22 20:26:18,928 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883576535-0/src/sTooltip-master/stooltip/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2020-03-22 20:26:18,928 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883576535-0/src/sTooltip-master/stooltip/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2020-03-22 20:26:18,929 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883576535-0/src/sTooltip-master/local.properties
-2020-03-22 20:26:18,930 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-03-22 20:26:18,931 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-03-22 20:26:18,933 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883576535-0/src/sTooltip-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2020-03-22 20:26:18,933 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883576535-0/src/sTooltip-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2020-03-22 20:26:18,935 INFO  ProjectFixService - Project was maybe fixed
-2020-03-22 20:26:18,935 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-22 20:26:18,935 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883576535-0/src/sTooltip-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883576535-0/src/sTooltip-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-22 20:26:19,212 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-03-22 20:26:19,212 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-03-22 20:26:19,212 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-03-22 20:26:19,212 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883576535-0/src/sTooltip-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883576535-0/src/sTooltip-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-03-22 20:26:19,414 ERROR SysUtils - Could not process external command
+2020-06-23 01:21:47,893 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592850104999-0/src/sTooltip-master/gradlew
+2020-06-23 01:21:47,901 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592850104999-0/src/sTooltip-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592850104999-0/src/sTooltip-master/stooltip/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592850104999-0/src/sTooltip-master/build.gradle
+2020-06-23 01:21:47,907 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592850104999-0/src/sTooltip-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592850104999-0/src/sTooltip-master/stooltip/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592850104999-0/src/sTooltip-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592850104999-0/src/sTooltip-master/settings.gradle
+2020-06-23 01:21:47,908 INFO  ProjectBuildService - Remote scripts: none
+2020-06-23 01:21:47,908 INFO  ProjectFixService - Fixing project...
+2020-06-23 01:21:47,924 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592850104999-0/src/sTooltip-master/app/local.properties
+2020-06-23 01:21:47,925 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592850104999-0/src/sTooltip-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-06-23 01:21:47,926 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592850104999-0/src/sTooltip-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-06-23 01:21:47,927 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592850104999-0/src/sTooltip-master/stooltip/local.properties
+2020-06-23 01:21:47,929 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592850104999-0/src/sTooltip-master/stooltip/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-06-23 01:21:47,929 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592850104999-0/src/sTooltip-master/stooltip/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-06-23 01:21:47,931 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592850104999-0/src/sTooltip-master/local.properties
+2020-06-23 01:21:47,932 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2020-06-23 01:21:47,932 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2020-06-23 01:21:47,934 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592850104999-0/src/sTooltip-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-06-23 01:21:47,935 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592850104999-0/src/sTooltip-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-06-23 01:21:47,936 INFO  ProjectFixService - Project was maybe fixed
+2020-06-23 01:21:47,936 INFO  ProjectTaskService - Detecting possible tasks...
+2020-06-23 01:21:47,936 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592850104999-0/src/sTooltip-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592850104999-0/src/sTooltip-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-06-23 01:21:48,605 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-06-23 01:21:48,605 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-06-23 01:21:48,605 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-06-23 01:21:48,605 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592850104999-0/src/sTooltip-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592850104999-0/src/sTooltip-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-06-23 01:21:48,957 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -52,22 +52,22 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-03-22 20:26:19,414 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2020-06-23 01:21:48,957 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2020-03-22 20:26:19,418 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-22 20:26:19,418 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883576535-0/src/sTooltip-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883576535-0/src/sTooltip-master/stooltip/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-22 20:26:19,642 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-03-22 20:26:19,643 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-03-22 20:26:19,643 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-03-22 20:26:19,643 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883576535-0/src/sTooltip-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883576535-0/src/sTooltip-master/stooltip/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-03-22 20:26:19,845 ERROR SysUtils - Could not process external command
+2020-06-23 01:21:48,964 INFO  ProjectTaskService - Detecting possible tasks...
+2020-06-23 01:21:48,964 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592850104999-0/src/sTooltip-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592850104999-0/src/sTooltip-master/stooltip/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-06-23 01:21:49,284 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-06-23 01:21:49,284 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-06-23 01:21:49,284 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-06-23 01:21:49,285 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592850104999-0/src/sTooltip-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592850104999-0/src/sTooltip-master/stooltip/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-06-23 01:21:49,645 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -88,22 +88,22 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-03-22 20:26:19,845 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2020-06-23 01:21:49,646 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2020-03-22 20:26:19,850 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-22 20:26:19,850 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883576535-0/src/sTooltip-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883576535-0/src/sTooltip-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-22 20:26:20,072 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-03-22 20:26:20,073 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-03-22 20:26:20,073 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-03-22 20:26:20,074 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883576535-0/src/sTooltip-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883576535-0/src/sTooltip-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-03-22 20:26:20,252 ERROR SysUtils - Could not process external command
+2020-06-23 01:21:49,651 INFO  ProjectTaskService - Detecting possible tasks...
+2020-06-23 01:21:49,652 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592850104999-0/src/sTooltip-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592850104999-0/src/sTooltip-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-06-23 01:21:50,068 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-06-23 01:21:50,069 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-06-23 01:21:50,069 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-06-23 01:21:50,069 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592850104999-0/src/sTooltip-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592850104999-0/src/sTooltip-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-06-23 01:21:50,489 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -124,14 +124,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-03-22 20:26:20,252 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2020-06-23 01:21:50,489 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2020-03-22 20:26:20,256 ERROR FullProcessService - Project build has not produced APK file
-2020-03-22 20:26:20,261 ERROR FullProcessService - Could not find generated or existed APK file
+2020-06-23 01:21:50,496 ERROR FullProcessService - Project build has not produced APK file
+2020-06-23 01:21:50,503 ERROR FullProcessService - Could not find generated or existed APK file
