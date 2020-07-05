@@ -1,42 +1,55 @@
-2019-10-08 13:08:12,129 INFO  DownloadService - Downloading "https://github.com/adibfara/WatchTower/archive/master.zip", attempt 3
-2019-10-08 13:08:13,515 INFO  DownloadService - Downloaded https://github.com/adibfara/WatchTower/archive/master.zip, attempt 3
-2019-10-08 13:08:13,515 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/master.zip": 1 MB
-2019-10-08 13:08:13,515 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-10-08 13:08:13,516 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/master.zip: true
-2019-10-08 13:08:13,516 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src'.
-2019-10-08 13:08:13,556 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-10-08 13:08:13,557 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src]
-2019-10-08 13:08:13,578 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/.git/
+2020-07-06 02:03:45,297 INFO  DownloadService - Downloading "https://github.com/adibfara/WatchTower/archive/master.zip", attempt 3
+2020-07-06 02:03:49,054 INFO  DownloadService - Downloaded https://github.com/adibfara/WatchTower/archive/master.zip, attempt 3
+2020-07-06 02:03:49,055 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/master.zip": 1 MB
+2020-07-06 02:03:49,055 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-07-06 02:03:49,056 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/master.zip: true
+2020-07-06 02:03:49,056 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src'.
+2020-07-06 02:03:49,103 INFO  FullProcessService - Size of directory with sources: 2 MB
+2020-07-06 02:03:49,103 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src]
+2020-07-06 02:03:49,133 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/.git/
 
-2019-10-08 13:08:13,581 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/gradlew
-2019-10-08 13:08:13,584 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/JavaApp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/interceptor-okhttp-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/interceptor-okhttp/build.gradle
-2019-10-08 13:08:13,587 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/artifactory-auth.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/interceptor-okhttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/interceptor-okhttp-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/JavaApp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/artifactory.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/settings.gradle
-2019-10-08 13:08:13,588 INFO  ProjectBuildService - Remote scripts: none
-2019-10-08 13:08:13,588 INFO  ProjectFixService - Fixing project...
-2019-10-08 13:08:13,597 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/local.properties
-2019-10-08 13:08:13,597 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.3-all.zip
-2019-10-08 13:08:13,598 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.3-bin.zip)
-2019-10-08 13:08:13,602 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-08 13:08:13,602 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-08 13:08:13,604 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/JavaApp/local.properties
-2019-10-08 13:08:13,608 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/JavaApp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-08 13:08:13,608 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/JavaApp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-08 13:08:13,609 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/core/local.properties
-2019-10-08 13:08:13,614 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-08 13:08:13,614 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-08 13:08:13,615 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/interceptor-okhttp-no-op/local.properties
-2019-10-08 13:08:13,621 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/interceptor-okhttp-no-op/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-08 13:08:13,621 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/interceptor-okhttp-no-op/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-08 13:08:13,622 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/interceptor-okhttp/local.properties
-2019-10-08 13:08:13,626 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/interceptor-okhttp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-08 13:08:13,627 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/interceptor-okhttp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-08 13:08:13,628 INFO  ProjectFixService - Project was maybe fixed
-2019-10-08 13:08:13,628 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-08 13:08:13,628 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-08 13:08:27,107 INFO  ProjectTaskService - Detected possible tasks: 51
-2019-10-08 13:08:27,107 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-10-08 13:08:27,107 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-10-08 13:08:44,628 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-07-06 02:03:49,141 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/gradlew
+2020-07-06 02:03:49,148 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/android-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/myapplication/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/JavaApp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/interceptor-okhttp-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/interceptor-okhttp/build.gradle
+2020-07-06 02:03:49,154 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/artifactory-auth.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/myapplication/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/interceptor-okhttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/interceptor-okhttp-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/JavaApp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/artifactory.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/android-no-op/build.gradle
+2020-07-06 02:03:49,155 INFO  ProjectBuildService - Remote scripts: none
+2020-07-06 02:03:49,155 INFO  ProjectFixService - Fixing project...
+2020-07-06 02:03:49,170 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/android-no-op/local.properties
+2020-07-06 02:03:49,173 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/android-no-op/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-07-06 02:03:49,173 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/android-no-op/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-07-06 02:03:49,174 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/android/local.properties
+2020-07-06 02:03:49,177 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-07-06 02:03:49,177 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-07-06 02:03:49,178 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/myapplication/local.properties
+2020-07-06 02:03:49,181 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/myapplication/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-07-06 02:03:49,181 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/myapplication/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-07-06 02:03:49,182 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/local.properties
+2020-07-06 02:03:49,182 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-07-06 02:03:49,182 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-07-06 02:03:49,186 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-07-06 02:03:49,187 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-07-06 02:03:49,187 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/JavaApp/local.properties
+2020-07-06 02:03:49,191 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/JavaApp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-07-06 02:03:49,191 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/JavaApp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-07-06 02:03:49,192 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/core/local.properties
+2020-07-06 02:03:49,196 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-07-06 02:03:49,196 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-07-06 02:03:49,196 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/interceptor-okhttp-no-op/local.properties
+2020-07-06 02:03:49,200 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/interceptor-okhttp-no-op/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-07-06 02:03:49,200 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/interceptor-okhttp-no-op/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-07-06 02:03:49,201 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/interceptor-okhttp/local.properties
+2020-07-06 02:03:49,204 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/interceptor-okhttp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-07-06 02:03:49,205 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/interceptor-okhttp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-07-06 02:03:49,205 INFO  ProjectFixService - Project was maybe fixed
+2020-07-06 02:03:49,205 INFO  ProjectTaskService - Detecting possible tasks...
+2020-07-06 02:03:49,205 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/android-no-op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-07-06 02:03:54,951 INFO  VirusProcessorServiceImpl - Queued project 7707 to scan viruses
+2020-07-06 02:04:19,280 INFO  ProjectTaskService - Detected possible tasks: 71
+2020-07-06 02:04:19,281 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-07-06 02:04:19,281 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/android-no-op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-07-06 02:04:57,514 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :android-no-op:preBuild UP-TO-DATE
+> Task :android-no-op:preDebugBuild UP-TO-DATE
+> Task :android-no-op:compileDebugAidl NO-SOURCE
 > Task :core:kaptGenerateStubsKotlin
 > Task :core:kaptKotlin
 > Task :core:compileKotlin
@@ -45,86 +58,97 @@
 > Task :core:classes UP-TO-DATE
 > Task :core:inspectClassesForKotlinIC
 > Task :core:jar
-> Task :core:assemble
-> Task :core:build
+> Task :android-no-op:compileDebugRenderscript NO-SOURCE
+> Task :android-no-op:checkDebugManifest
+> Task :android-no-op:generateDebugBuildConfig
+> Task :android-no-op:generateDebugResValues
+> Task :android-no-op:generateDebugResources
+> Task :android-no-op:packageDebugResources
+> Task :android-no-op:processDebugManifest
+> Task :android-no-op:generateDebugRFile
 
-> Task :interceptor-okhttp:compileKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/interceptor-okhttp/src/main/java/com/snakydesign/watchtower/interceptor/WatchTowerHTTPServer.kt: (26, 24): Name shadowed: session
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/interceptor-okhttp/src/main/java/com/snakydesign/watchtower/interceptor/WatchTowerInterceptor.kt: (53, 51): Parameter 'connection' is never used
+> Task :android-no-op:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/android-no-op/src/main/java/com/snakydesign/watchtower/android/WatchTowerAndroid.kt: (11, 9): Parameter 'application' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/android-no-op/src/main/java/com/snakydesign/watchtower/android/WatchTowerAndroid.kt: (12, 9): Parameter 'serverPort' is never used
 
-> Task :interceptor-okhttp:compileJava NO-SOURCE
-> Task :interceptor-okhttp:processResources
-> Task :interceptor-okhttp:classes
-> Task :interceptor-okhttp:inspectClassesForKotlinIC
-> Task :interceptor-okhttp:jar
-> Task :interceptor-okhttp:assemble
-> Task :interceptor-okhttp:build
+> Task :android-no-op:prepareLintJar
+> Task :android-no-op:generateDebugSources
+> Task :android-no-op:javaPreCompileDebug
+> Task :android-no-op:compileDebugJavaWithJavac
+> Task :android-no-op:extractDebugAnnotations
+> Task :android-no-op:mergeDebugConsumerProguardFiles
+> Task :android-no-op:mergeDebugShaders
+> Task :android-no-op:compileDebugShaders
+> Task :android-no-op:generateDebugAssets
+> Task :android-no-op:packageDebugAssets
+> Task :android-no-op:packageDebugRenderscript NO-SOURCE
+> Task :android-no-op:prepareLintJarForPublish
+> Task :android-no-op:processDebugJavaRes NO-SOURCE
+> Task :android-no-op:transformResourcesWithMergeJavaResForDebug
+> Task :android-no-op:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :android-no-op:mergeDebugJniLibFolders
+> Task :android-no-op:transformNativeLibsWithMergeJniLibsForDebug
+> Task :android-no-op:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :android-no-op:transformNativeLibsWithSyncJniLibsForDebug
+> Task :android-no-op:bundleDebugAar
+> Task :android-no-op:compileDebugSources
+> Task :android-no-op:assembleDebug
+> Task :android-no-op:preReleaseBuild UP-TO-DATE
+> Task :android-no-op:compileReleaseAidl NO-SOURCE
+> Task :android-no-op:compileReleaseRenderscript NO-SOURCE
+> Task :android-no-op:checkReleaseManifest
+> Task :android-no-op:generateReleaseBuildConfig
+> Task :android-no-op:generateReleaseResValues
+> Task :android-no-op:generateReleaseResources
+> Task :android-no-op:packageReleaseResources
+> Task :android-no-op:processReleaseManifest
+> Task :android-no-op:generateReleaseRFile
 
-> Task :interceptor-okhttp-no-op:compileKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/interceptor-okhttp-no-op/src/main/java/com/snakydesign/watchtower/interceptor/WebWatchTowerObserver.kt: (10, 29): Parameter 'port' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/interceptor-okhttp-no-op/src/main/java/com/snakydesign/watchtower/interceptor/WebWatchTowerObserver.kt: (10, 44): Parameter 'websocketPort' is never used
+> Task :android-no-op:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/android-no-op/src/main/java/com/snakydesign/watchtower/android/WatchTowerAndroid.kt: (11, 9): Parameter 'application' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/android-no-op/src/main/java/com/snakydesign/watchtower/android/WatchTowerAndroid.kt: (12, 9): Parameter 'serverPort' is never used
 
-> Task :interceptor-okhttp-no-op:compileJava NO-SOURCE
-> Task :interceptor-okhttp-no-op:processResources NO-SOURCE
-> Task :interceptor-okhttp-no-op:classes UP-TO-DATE
-> Task :interceptor-okhttp-no-op:inspectClassesForKotlinIC
-> Task :interceptor-okhttp-no-op:jar
-> Task :interceptor-okhttp-no-op:assemble
-> Task :interceptor-okhttp-no-op:build
-> Task :JavaApp:compileKotlin
+> Task :android-no-op:generateReleaseSources
+> Task :android-no-op:javaPreCompileRelease
+> Task :android-no-op:compileReleaseJavaWithJavac
+> Task :android-no-op:extractReleaseAnnotations
+> Task :android-no-op:mergeReleaseConsumerProguardFiles
+> Task :android-no-op:mergeReleaseShaders
+> Task :android-no-op:compileReleaseShaders
+> Task :android-no-op:generateReleaseAssets
+> Task :android-no-op:packageReleaseAssets
+> Task :android-no-op:packageReleaseRenderscript NO-SOURCE
+> Task :android-no-op:processReleaseJavaRes NO-SOURCE
+> Task :android-no-op:transformResourcesWithMergeJavaResForRelease
+> Task :android-no-op:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :android-no-op:mergeReleaseJniLibFolders
+> Task :android-no-op:transformNativeLibsWithMergeJniLibsForRelease
+> Task :android-no-op:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :android-no-op:transformNativeLibsWithSyncJniLibsForRelease
+> Task :android-no-op:bundleReleaseAar
+> Task :android-no-op:compileReleaseSources
+> Task :android-no-op:mergeReleaseResources
+> Task :android-no-op:verifyReleaseResources
+> Task :android-no-op:assembleRelease
+> Task :android-no-op:assemble
+> Task :android-no-op:build
 
-> Task :JavaApp:compileJava
-warning: [options] bootstrap class path not set in conjunction with -source 1.7
-1 warning
-
-> Task :JavaApp:processResources
-> Task :JavaApp:classes
-> Task :JavaApp:inspectClassesForKotlinIC
-> Task :JavaApp:jar
-> Task :JavaApp:assemble
-> Task :JavaApp:build
-
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/4.10.3/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 16s
-17 actionable tasks: 17 executed
+BUILD SUCCESSFUL in 37s
+51 actionable tasks: 51 executed
 
-2019-10-08 13:08:44,642 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-08 13:08:44,642 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/JavaApp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-08 13:08:48,146 INFO  ProjectTaskService - Detected possible tasks: 39
-2019-10-08 13:08:48,146 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
-2019-10-08 13:08:48,147 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/JavaApp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
-2019-10-08 13:08:53,403 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :core:kaptGenerateStubsKotlin UP-TO-DATE
-> Task :core:kaptKotlin UP-TO-DATE
-> Task :core:compileKotlin UP-TO-DATE
-> Task :core:compileJava NO-SOURCE
-> Task :interceptor-okhttp:compileKotlin UP-TO-DATE
-> Task :interceptor-okhttp:compileJava NO-SOURCE
-> Task :JavaApp:compileKotlin UP-TO-DATE
-> Task :JavaApp:compileJava UP-TO-DATE
-> Task :JavaApp:processResources UP-TO-DATE
-> Task :JavaApp:classes UP-TO-DATE
-> Task :JavaApp:inspectClassesForKotlinIC UP-TO-DATE
-> Task :JavaApp:jar UP-TO-DATE
-> Task :JavaApp:assemble UP-TO-DATE
-> Task :JavaApp:build
-
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/4.10.3/userguide/command_line_interface.html#sec:command_line_warnings
-
-BUILD SUCCESSFUL in 5s
-9 actionable tasks: 9 up-to-date
-
-2019-10-08 13:08:53,414 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-08 13:08:53,415 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-08 13:08:57,961 INFO  ProjectTaskService - Detected possible tasks: 50
-2019-10-08 13:08:57,961 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-10-08 13:08:57,961 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-10-08 13:09:03,062 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-07-06 02:04:57,566 INFO  ProjectTaskService - Detecting possible tasks...
+2020-07-06 02:04:57,566 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-07-06 02:05:06,451 INFO  ProjectTaskService - Detected possible tasks: 71
+2020-07-06 02:05:06,451 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-07-06 02:05:06,452 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-07-06 02:05:38,643 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :android:preBuild UP-TO-DATE
+> Task :android:preDebugBuild UP-TO-DATE
+> Task :android:compileDebugAidl NO-SOURCE
 > Task :core:kaptGenerateStubsKotlin UP-TO-DATE
 > Task :core:kaptKotlin UP-TO-DATE
 > Task :core:compileKotlin UP-TO-DATE
@@ -133,67 +157,250 @@ BUILD SUCCESSFUL in 5s
 > Task :core:classes UP-TO-DATE
 > Task :core:inspectClassesForKotlinIC UP-TO-DATE
 > Task :core:jar UP-TO-DATE
-> Task :core:assemble UP-TO-DATE
-> Task :core:build
+> Task :android:compileDebugRenderscript NO-SOURCE
+> Task :android:checkDebugManifest
+> Task :android:generateDebugBuildConfig
+> Task :android:generateDebugResValues
+> Task :android:generateDebugResources
+> Task :android:packageDebugResources
+> Task :android:processDebugManifest
+> Task :android:generateDebugRFile
+> Task :android:compileDebugKotlin
+> Task :android:prepareLintJar
+> Task :android:generateDebugSources
+> Task :android:javaPreCompileDebug
+> Task :android:compileDebugJavaWithJavac
+> Task :android:extractDebugAnnotations
+> Task :android:mergeDebugConsumerProguardFiles
+> Task :android:mergeDebugShaders
+> Task :android:compileDebugShaders
+> Task :android:generateDebugAssets
+> Task :android:packageDebugAssets
+> Task :android:packageDebugRenderscript NO-SOURCE
+> Task :android:prepareLintJarForPublish
+> Task :android:processDebugJavaRes NO-SOURCE
+> Task :android:transformResourcesWithMergeJavaResForDebug
+> Task :android:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :android:mergeDebugJniLibFolders
+> Task :android:transformNativeLibsWithMergeJniLibsForDebug
+> Task :android:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :android:transformNativeLibsWithSyncJniLibsForDebug
+> Task :android:bundleDebugAar
+> Task :android:compileDebugSources
+> Task :android:assembleDebug
+> Task :android:preReleaseBuild UP-TO-DATE
+> Task :android:compileReleaseAidl NO-SOURCE
+> Task :android:compileReleaseRenderscript NO-SOURCE
+> Task :android:checkReleaseManifest
+> Task :android:generateReleaseBuildConfig
+> Task :android:generateReleaseResValues
+> Task :android:generateReleaseResources
+> Task :android:packageReleaseResources
+> Task :android:processReleaseManifest
+> Task :android:generateReleaseRFile
+> Task :android:compileReleaseKotlin
+> Task :android:generateReleaseSources
+> Task :android:javaPreCompileRelease
+> Task :android:compileReleaseJavaWithJavac
+> Task :android:extractReleaseAnnotations
+> Task :android:mergeReleaseConsumerProguardFiles
+> Task :android:mergeReleaseShaders
+> Task :android:compileReleaseShaders
+> Task :android:generateReleaseAssets
+> Task :android:packageReleaseAssets
+> Task :android:packageReleaseRenderscript NO-SOURCE
+> Task :android:processReleaseJavaRes NO-SOURCE
+> Task :android:transformResourcesWithMergeJavaResForRelease
+> Task :android:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :android:mergeReleaseJniLibFolders
+> Task :android:transformNativeLibsWithMergeJniLibsForRelease
+> Task :android:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :android:transformNativeLibsWithSyncJniLibsForRelease
+> Task :android:bundleReleaseAar
+> Task :android:compileReleaseSources
+> Task :android:mergeReleaseResources
+> Task :android:verifyReleaseResources
+> Task :android:assembleRelease
+> Task :android:assemble
+> Task :android:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/4.10.3/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 4s
-5 actionable tasks: 5 up-to-date
+BUILD SUCCESSFUL in 31s
+51 actionable tasks: 46 executed, 5 up-to-date
 
-2019-10-08 13:09:03,075 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-08 13:09:03,075 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/interceptor-okhttp-no-op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-08 13:09:07,746 INFO  ProjectTaskService - Detected possible tasks: 50
-2019-10-08 13:09:07,746 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-10-08 13:09:07,747 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/interceptor-okhttp-no-op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-10-08 13:09:12,943 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-07-06 02:05:38,751 INFO  ProjectTaskService - Detecting possible tasks...
+2020-07-06 02:05:38,752 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/myapplication/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-07-06 02:05:46,358 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-07-06 02:05:46,358 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-07-06 02:05:46,358 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/myapplication/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-07-06 02:06:37,828 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :core:kaptGenerateStubsKotlin UP-TO-DATE
 > Task :core:kaptKotlin UP-TO-DATE
 > Task :core:compileKotlin UP-TO-DATE
 > Task :core:compileJava NO-SOURCE
-> Task :interceptor-okhttp-no-op:compileKotlin UP-TO-DATE
-> Task :interceptor-okhttp-no-op:compileJava NO-SOURCE
-> Task :interceptor-okhttp-no-op:processResources NO-SOURCE
-> Task :interceptor-okhttp-no-op:classes UP-TO-DATE
-> Task :interceptor-okhttp-no-op:inspectClassesForKotlinIC UP-TO-DATE
-> Task :interceptor-okhttp-no-op:jar UP-TO-DATE
-> Task :interceptor-okhttp-no-op:assemble UP-TO-DATE
-> Task :interceptor-okhttp-no-op:build
+> Task :core:processResources NO-SOURCE
+> Task :core:classes UP-TO-DATE
+> Task :core:inspectClassesForKotlinIC UP-TO-DATE
+> Task :core:jar UP-TO-DATE
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/4.10.3/userguide/command_line_interface.html#sec:command_line_warnings
+> Task :interceptor-okhttp:compileKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/interceptor-okhttp/src/main/java/com/snakydesign/watchtower/interceptor/WatchTowerHTTPServer.kt: (26, 24): Name shadowed: session
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/interceptor-okhttp/src/main/java/com/snakydesign/watchtower/interceptor/WatchTowerInterceptor.kt: (53, 51): Parameter 'connection' is never used
 
-BUILD SUCCESSFUL in 4s
-6 actionable tasks: 6 up-to-date
-
-2019-10-08 13:09:12,955 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-08 13:09:12,955 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/interceptor-okhttp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-08 13:09:17,533 INFO  ProjectTaskService - Detected possible tasks: 50
-2019-10-08 13:09:17,533 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-10-08 13:09:17,534 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570514892123-0/src/WatchTower-master/interceptor-okhttp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-10-08 13:09:22,725 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :core:kaptGenerateStubsKotlin UP-TO-DATE
-> Task :core:kaptKotlin UP-TO-DATE
-> Task :core:compileKotlin UP-TO-DATE
-> Task :core:compileJava NO-SOURCE
-> Task :interceptor-okhttp:compileKotlin UP-TO-DATE
 > Task :interceptor-okhttp:compileJava NO-SOURCE
-> Task :interceptor-okhttp:processResources UP-TO-DATE
-> Task :interceptor-okhttp:classes UP-TO-DATE
-> Task :interceptor-okhttp:inspectClassesForKotlinIC UP-TO-DATE
-> Task :interceptor-okhttp:jar UP-TO-DATE
-> Task :interceptor-okhttp:assemble UP-TO-DATE
-> Task :interceptor-okhttp:build
+> Task :interceptor-okhttp:processResources
+> Task :interceptor-okhttp:classes
+> Task :interceptor-okhttp:inspectClassesForKotlinIC
+> Task :interceptor-okhttp:jar
+> Task :android:preBuild UP-TO-DATE
+> Task :android:preDebugBuild UP-TO-DATE
+> Task :android:compileDebugAidl NO-SOURCE
+> Task :android:compileDebugRenderscript NO-SOURCE
+> Task :android:checkDebugManifest UP-TO-DATE
+> Task :android:generateDebugBuildConfig UP-TO-DATE
+> Task :android:generateDebugResValues UP-TO-DATE
+> Task :android:generateDebugResources UP-TO-DATE
+> Task :android:packageDebugResources UP-TO-DATE
+> Task :android:processDebugManifest UP-TO-DATE
+> Task :android:generateDebugRFile UP-TO-DATE
+> Task :android:compileDebugKotlin UP-TO-DATE
+> Task :android:prepareLintJar UP-TO-DATE
+> Task :android:generateDebugSources UP-TO-DATE
+> Task :android:javaPreCompileDebug UP-TO-DATE
+> Task :android:compileDebugJavaWithJavac UP-TO-DATE
+> Task :android:bundleLibCompileDebug
+> Task :myapplication:preBuild UP-TO-DATE
+> Task :myapplication:preDebugBuild
+> Task :myapplication:compileDebugAidl NO-SOURCE
+> Task :android:packageDebugRenderscript NO-SOURCE
+> Task :myapplication:compileDebugRenderscript NO-SOURCE
+> Task :myapplication:checkDebugManifest
+> Task :myapplication:generateDebugBuildConfig
+> Task :myapplication:mainApkListPersistenceDebug
+> Task :myapplication:generateDebugResValues
+> Task :myapplication:generateDebugResources
+> Task :myapplication:mergeDebugResources
+> Task :myapplication:createDebugCompatibleScreenManifests
+> Task :myapplication:processDebugManifest
+> Task :myapplication:processDebugResources
+> Task :myapplication:compileDebugKotlin
+> Task :myapplication:prepareLintJar
+> Task :myapplication:generateDebugSources
+> Task :myapplication:javaPreCompileDebug
+> Task :myapplication:compileDebugJavaWithJavac
+> Task :myapplication:compileDebugSources
+> Task :android:mergeDebugShaders UP-TO-DATE
+> Task :android:compileDebugShaders UP-TO-DATE
+> Task :android:generateDebugAssets UP-TO-DATE
+> Task :android:packageDebugAssets UP-TO-DATE
+> Task :myapplication:mergeDebugShaders
+> Task :myapplication:compileDebugShaders
+> Task :myapplication:generateDebugAssets
+> Task :myapplication:mergeDebugAssets
+> Task :myapplication:validateSigningDebug
+> Task :myapplication:signingConfigWriterDebug
+> Task :myapplication:checkDebugDuplicateClasses
+> Task :android:bundleLibRuntimeDebug
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.12.0/b36f4a04584c0fb0d9af2d3401cdff8dacb1ea54/okhttp-3.12.0.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `java.security.Provider okhttp3.internal.platform.ConscryptPlatform.getProvider()`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar: D8: Type `org.slf4j.impl.StaticLoggerBinder` was not found, it is required for default or static interface methods desugaring of `void org.slf4j.LoggerFactory.bind()`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar: D8: Type `org.slf4j.impl.StaticMDCBinder` was not found, it is required for default or static interface methods desugaring of `org.slf4j.spi.MDCAdapter org.slf4j.MDC.bwCompatibleGetMDCAdapterFromBinder()`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar: D8: Type `org.slf4j.impl.StaticMarkerBinder` was not found, it is required for default or static interface methods desugaring of `org.slf4j.IMarkerFactory org.slf4j.MarkerFactory.bwCompatibleGetMarkerFactoryFromBinder()`
+> Task :myapplication:transformClassesWithDexBuilderForDebug
+> Task :myapplication:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :myapplication:transformDexArchiveWithDexMergerForDebug
+> Task :android:processDebugJavaRes NO-SOURCE
+> Task :android:bundleLibResDebug
+> Task :android:mergeDebugJniLibFolders UP-TO-DATE
+> Task :android:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :android:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :android:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :myapplication:mergeDebugJniLibFolders
+> Task :myapplication:transformNativeLibsWithMergeJniLibsForDebug
+> Task :myapplication:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :myapplication:processDebugJavaRes NO-SOURCE
+> Task :myapplication:transformResourcesWithMergeJavaResForDebug
+> Task :myapplication:packageDebug
+> Task :myapplication:assembleDebug
+> Task :android:preReleaseBuild UP-TO-DATE
+> Task :android:compileReleaseAidl NO-SOURCE
+> Task :android:compileReleaseRenderscript NO-SOURCE
+> Task :android:checkReleaseManifest UP-TO-DATE
+> Task :android:generateReleaseBuildConfig UP-TO-DATE
+> Task :android:generateReleaseResValues UP-TO-DATE
+> Task :android:generateReleaseResources UP-TO-DATE
+> Task :android:packageReleaseResources UP-TO-DATE
+> Task :android:processReleaseManifest UP-TO-DATE
+> Task :android:generateReleaseRFile UP-TO-DATE
+> Task :android:compileReleaseKotlin UP-TO-DATE
+> Task :android:generateReleaseSources UP-TO-DATE
+> Task :android:javaPreCompileRelease UP-TO-DATE
+> Task :android:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :android:bundleLibCompileRelease
+> Task :myapplication:preReleaseBuild
+> Task :myapplication:compileReleaseAidl NO-SOURCE
+> Task :android:packageReleaseRenderscript NO-SOURCE
+> Task :myapplication:compileReleaseRenderscript NO-SOURCE
+> Task :myapplication:checkReleaseManifest
+> Task :myapplication:generateReleaseBuildConfig
+> Task :myapplication:mainApkListPersistenceRelease
+> Task :myapplication:generateReleaseResValues
+> Task :myapplication:generateReleaseResources
+> Task :myapplication:mergeReleaseResources
+> Task :myapplication:createReleaseCompatibleScreenManifests
+> Task :myapplication:processReleaseManifest
+> Task :myapplication:processReleaseResources
+> Task :myapplication:compileReleaseKotlin
+> Task :myapplication:generateReleaseSources
+> Task :myapplication:javaPreCompileRelease
+> Task :myapplication:compileReleaseJavaWithJavac
+> Task :myapplication:compileReleaseSources
+> Task :android:prepareLintJarForPublish UP-TO-DATE
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+> Task :myapplication:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/e19150d0a7cc611b2f8030d42ccc22ff/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+
+> Task :android:mergeReleaseShaders UP-TO-DATE
+> Task :android:compileReleaseShaders UP-TO-DATE
+> Task :android:generateReleaseAssets UP-TO-DATE
+> Task :android:packageReleaseAssets UP-TO-DATE
+> Task :myapplication:mergeReleaseShaders
+> Task :myapplication:compileReleaseShaders
+> Task :myapplication:generateReleaseAssets
+> Task :myapplication:mergeReleaseAssets
+> Task :myapplication:signingConfigWriterRelease
+> Task :myapplication:checkReleaseDuplicateClasses
+> Task :android:bundleLibRuntimeRelease
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.12.0/b36f4a04584c0fb0d9af2d3401cdff8dacb1ea54/okhttp-3.12.0.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `java.security.Provider okhttp3.internal.platform.ConscryptPlatform.getProvider()`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar: D8: Type `org.slf4j.impl.StaticLoggerBinder` was not found, it is required for default or static interface methods desugaring of `void org.slf4j.LoggerFactory.bind()`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar: D8: Type `org.slf4j.impl.StaticMDCBinder` was not found, it is required for default or static interface methods desugaring of `org.slf4j.spi.MDCAdapter org.slf4j.MDC.bwCompatibleGetMDCAdapterFromBinder()`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar: D8: Type `org.slf4j.impl.StaticMarkerBinder` was not found, it is required for default or static interface methods desugaring of `org.slf4j.IMarkerFactory org.slf4j.MarkerFactory.bwCompatibleGetMarkerFactoryFromBinder()`
+> Task :myapplication:transformClassesWithDexBuilderForRelease
+> Task :myapplication:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :myapplication:transformDexArchiveWithDexMergerForRelease
+> Task :android:processReleaseJavaRes NO-SOURCE
+> Task :android:bundleLibResRelease
+> Task :android:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :android:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :android:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :android:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :myapplication:mergeReleaseJniLibFolders
+> Task :myapplication:transformNativeLibsWithMergeJniLibsForRelease
+> Task :myapplication:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :myapplication:processReleaseJavaRes NO-SOURCE
+> Task :myapplication:transformResourcesWithMergeJavaResForRelease
+> Task :myapplication:packageRelease
+> Task :myapplication:assembleRelease
+> Task :myapplication:assemble
+> Task :myapplication:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/4.10.3/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 5s
-7 actionable tasks: 7 up-to-date
+BUILD SUCCESSFUL in 50s
+102 actionable tasks: 65 executed, 37 up-to-date
 
-2019-10-08 13:09:22,737 ERROR FullProcessService - Project build has not produced APK file
-2019-10-08 13:09:22,748 ERROR FullProcessService - Could not find generated or existed APK file
+2020-07-06 02:06:37,988 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/myapplication/build/outputs/apk/release/myapplication-release-unsigned.apk
