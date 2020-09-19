@@ -1,37 +1,37 @@
-2020-06-23 01:16:48,293 INFO  DownloadService - Downloading "https://github.com/skydoves/Submarine/archive/master.zip", attempt 3
-2020-06-23 01:16:50,953 INFO  DownloadService - Downloaded https://github.com/skydoves/Submarine/archive/master.zip, attempt 3
-2020-06-23 01:16:50,953 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592849808283-0/master.zip": 718 KB
-2020-06-23 01:16:50,953 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-06-23 01:16:50,954 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592849808283-0/master.zip: true
-2020-06-23 01:16:50,954 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592849808283-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592849808283-0/src'.
-2020-06-23 01:16:51,037 INFO  FullProcessService - Size of directory with sources: 786 KB
-2020-06-23 01:16:51,037 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592849808283-0/src]
-2020-06-23 01:16:51,184 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592849808283-0/src/.git/
+2020-09-20 02:49:36,554 INFO  DownloadService - Downloading "https://github.com/skydoves/Submarine/archive/master.zip", attempt 3
+2020-09-20 02:49:38,334 INFO  DownloadService - Downloaded https://github.com/skydoves/Submarine/archive/master.zip, attempt 3
+2020-09-20 02:49:38,335 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544976547-0/master.zip": 718 KB
+2020-09-20 02:49:38,335 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-09-20 02:49:38,340 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544976547-0/master.zip: true
+2020-09-20 02:49:38,340 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544976547-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544976547-0/src'.
+2020-09-20 02:49:38,383 INFO  FullProcessService - Size of directory with sources: 787 KB
+2020-09-20 02:49:38,383 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544976547-0/src]
+2020-09-20 02:49:38,403 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544976547-0/src/.git/
 
-2020-06-23 01:16:51,194 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592849808283-0/src/Submarine-master/gradlew
-2020-06-23 01:16:51,203 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592849808283-0/src/Submarine-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592849808283-0/src/Submarine-master/submarine/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592849808283-0/src/Submarine-master/build.gradle
-2020-06-23 01:16:51,213 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592849808283-0/src/Submarine-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592849808283-0/src/Submarine-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592849808283-0/src/Submarine-master/submarine/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592849808283-0/src/Submarine-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592849808283-0/src/Submarine-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592849808283-0/src/Submarine-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592849808283-0/src/Submarine-master/spotless.gradle
-2020-06-23 01:16:51,214 INFO  ProjectBuildService - Remote scripts: none
-2020-06-23 01:16:51,214 INFO  ProjectFixService - Fixing project...
-2020-06-23 01:16:51,234 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592849808283-0/src/Submarine-master/app/local.properties
-2020-06-23 01:16:51,240 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592849808283-0/src/Submarine-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-06-23 01:16:51,241 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592849808283-0/src/Submarine-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-06-23 01:16:51,243 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592849808283-0/src/Submarine-master/submarine/local.properties
-2020-06-23 01:16:51,252 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592849808283-0/src/Submarine-master/submarine/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-06-23 01:16:51,252 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592849808283-0/src/Submarine-master/submarine/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-06-23 01:16:51,254 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592849808283-0/src/Submarine-master/local.properties
-2020-06-23 01:16:51,255 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
-2020-06-23 01:16:51,256 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
-2020-06-23 01:16:51,261 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592849808283-0/src/Submarine-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-06-23 01:16:51,261 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592849808283-0/src/Submarine-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-06-23 01:16:51,262 INFO  ProjectFixService - Project was maybe fixed
-2020-06-23 01:16:51,263 INFO  ProjectTaskService - Detecting possible tasks...
-2020-06-23 01:16:51,263 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592849808283-0/src/Submarine-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592849808283-0/src/Submarine-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-06-23 01:17:01,226 INFO  VirusProcessorServiceImpl - Queued project 7779 to scan viruses
-2020-06-23 01:17:34,113 INFO  ProjectTaskService - Detected possible tasks: 68
-2020-06-23 01:17:34,113 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-06-23 01:17:34,113 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592849808283-0/src/Submarine-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592849808283-0/src/Submarine-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-06-23 01:21:43,065 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-09-20 02:49:38,408 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544976547-0/src/Submarine-master/gradlew
+2020-09-20 02:49:38,412 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544976547-0/src/Submarine-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544976547-0/src/Submarine-master/submarine/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544976547-0/src/Submarine-master/build.gradle
+2020-09-20 02:49:38,416 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544976547-0/src/Submarine-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544976547-0/src/Submarine-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544976547-0/src/Submarine-master/submarine/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544976547-0/src/Submarine-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544976547-0/src/Submarine-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544976547-0/src/Submarine-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544976547-0/src/Submarine-master/spotless.gradle
+2020-09-20 02:49:38,417 INFO  ProjectBuildService - Remote scripts: none
+2020-09-20 02:49:38,417 INFO  ProjectFixService - Fixing project...
+2020-09-20 02:49:38,426 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544976547-0/src/Submarine-master/app/local.properties
+2020-09-20 02:49:38,429 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544976547-0/src/Submarine-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-09-20 02:49:38,429 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544976547-0/src/Submarine-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2020-09-20 02:49:38,430 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544976547-0/src/Submarine-master/submarine/local.properties
+2020-09-20 02:49:38,432 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544976547-0/src/Submarine-master/submarine/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-09-20 02:49:38,432 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544976547-0/src/Submarine-master/submarine/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2020-09-20 02:49:38,433 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544976547-0/src/Submarine-master/local.properties
+2020-09-20 02:49:38,433 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-09-20 02:49:38,434 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-09-20 02:49:38,436 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544976547-0/src/Submarine-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-09-20 02:49:38,436 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544976547-0/src/Submarine-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2020-09-20 02:49:38,437 INFO  ProjectFixService - Project was maybe fixed
+2020-09-20 02:49:38,437 INFO  ProjectTaskService - Detecting possible tasks...
+2020-09-20 02:49:38,437 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544976547-0/src/Submarine-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544976547-0/src/Submarine-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-09-20 02:49:47,511 INFO  VirusProcessorServiceImpl - Queued project 7742 to scan viruses
+2020-09-20 02:49:50,157 INFO  ProjectTaskService - Detected possible tasks: 69
+2020-09-20 02:49:50,157 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-09-20 02:49:50,157 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544976547-0/src/Submarine-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544976547-0/src/Submarine-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-09-20 02:51:04,899 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :submarine
 WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -50,8 +50,8 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :submarine:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :submarine:packageDebugRenderscript NO-SOURCE
-> Task :app:generateDebugBuildConfig
 > Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
@@ -62,11 +62,11 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :app:createDebugCompatibleScreenManifests
 > Task :app:extractDeepLinksDebug
 > Task :submarine:extractDeepLinksDebug
-> Task :submarine:compileDebugLibraryResources
 > Task :app:mergeDebugResources
-> Task :submarine:parseDebugLocalResources
+> Task :submarine:compileDebugLibraryResources
 > Task :submarine:processDebugManifest
 > Task :app:processDebugManifest
+> Task :submarine:parseDebugLocalResources
 > Task :submarine:dataBindingMergeDependencyArtifactsDebug
 > Task :submarine:generateDebugBuildConfig
 > Task :submarine:dataBindingMergeGenClassesDebug
@@ -74,6 +74,8 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :submarine:generateDebugRFile
 > Task :app:processDebugResources
 > Task :submarine:compileDebugKotlin
+> Task :submarine:javaPreCompileDebug
+> Task :submarine:compileDebugJavaWithJavac
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
@@ -82,25 +84,20 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :submarine:generateDebugAssets
 > Task :submarine:packageDebugAssets
 > Task :app:mergeDebugAssets
-> Task :submarine:javaPreCompileDebug
-> Task :submarine:compileDebugJavaWithJavac
+> Task :submarine:bundleLibCompileDebug
+> Task :app:compileDebugKotlin
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :submarine:processDebugJavaRes NO-SOURCE
 > Task :submarine:bundleLibResDebug
 > Task :submarine:bundleLibRuntimeDebug
-> Task :submarine:bundleLibCompileDebug
-> Task :app:compileDebugKotlin
-> Task :app:checkDebugDuplicateClasses
-> Task :app:javaPreCompileDebug
-> Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugSources
 > Task :app:dexBuilderDebug
+> Task :app:checkDebugDuplicateClasses
 > Task :app:mergeDebugJavaResource
 > Task :app:mergeDebugJniLibFolders
 > Task :submarine:mergeDebugJniLibFolders
-> Task :submarine:mergeDebugNativeLibs
-> Task :submarine:stripDebugDebugSymbols
-> Task :submarine:copyDebugJniLibsProjectOnly
 > Task :app:validateSigningDebug
 > Task :app:preReleaseBuild UP-TO-DATE
 > Task :submarine:preReleaseBuild UP-TO-DATE
@@ -121,10 +118,11 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :submarine:extractDeepLinksRelease
 > Task :submarine:processReleaseManifest
 > Task :app:processReleaseManifest
+> Task :submarine:mergeDebugNativeLibs
+> Task :submarine:stripDebugDebugSymbols
+> Task :submarine:copyDebugJniLibsProjectOnly
 > Task :submarine:compileReleaseLibraryResources
 > Task :submarine:parseReleaseLocalResources
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
 > Task :submarine:dataBindingMergeDependencyArtifactsRelease
 > Task :submarine:dataBindingMergeGenClassesRelease
 > Task :submarine:dataBindingGenBaseClassesRelease
@@ -133,19 +131,22 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :submarine:compileReleaseKotlin
 > Task :app:mergeReleaseResources
 > Task :app:processReleaseResources
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
 > Task :submarine:javaPreCompileRelease
 > Task :submarine:compileReleaseJavaWithJavac
 > Task :app:prepareLintJar
 > Task :app:checkReleaseDuplicateClasses
 > Task :submarine:bundleLibRuntimeRelease
+> Task :submarine:prepareLintJarForPublish
 > Task :submarine:bundleLibCompileRelease
 > Task :app:compileReleaseKotlin
-> Task :submarine:prepareLintJarForPublish
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
 > Task :app:lintVitalRelease
 > Task :app:dexBuilderRelease
+> Task :app:mergeExtDexDebug
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
@@ -165,7 +166,6 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols
 > Task :app:mergeReleaseJavaResource
-> Task :app:mergeExtDexDebug
 > Task :app:mergeDexDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
@@ -176,7 +176,7 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 4m 7s
+BUILD SUCCESSFUL in 1m 14s
 98 actionable tasks: 98 executed
 
-2020-06-23 01:21:43,440 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592849808283-0/src/Submarine-master/app/build/outputs/apk/debug/app-debug.apk
+2020-09-20 02:51:04,962 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544976547-0/src/Submarine-master/app/build/outputs/apk/debug/app-debug.apk

@@ -1,38 +1,39 @@
-2019-07-20 11:25:55,347 INFO  DownloadService - Downloading "https://github.com/fevziomurtekin/PayView/archive/master.zip", attempt 3
-2019-07-20 11:26:03,194 INFO  DownloadService - Downloaded https://github.com/fevziomurtekin/PayView/archive/master.zip, attempt 3
-2019-07-20 11:26:03,195 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/master.zip": 7 MB
-2019-07-20 11:26:03,195 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-20 11:26:03,198 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/master.zip: true
-2019-07-20 11:26:03,198 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src'.
-2019-07-20 11:26:03,365 INFO  FullProcessService - Size of directory with sources: 8 MB
-2019-07-20 11:26:03,365 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src]
-2019-07-20 11:26:03,417 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/.git/
+2020-09-20 02:51:05,364 INFO  DownloadService - Downloading "https://github.com/fevziomurtekin/PayView/archive/master.zip", attempt 3
+2020-09-20 02:51:09,053 INFO  DownloadService - Downloaded https://github.com/fevziomurtekin/PayView/archive/master.zip, attempt 3
+2020-09-20 02:51:09,053 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/master.zip": 7 MB
+2020-09-20 02:51:09,053 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-09-20 02:51:09,054 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/master.zip: true
+2020-09-20 02:51:09,054 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src'.
+2020-09-20 02:51:09,156 INFO  FullProcessService - Size of directory with sources: 8 MB
+2020-09-20 02:51:09,157 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src]
+2020-09-20 02:51:09,187 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/.git/
 
-2019-07-20 11:26:03,425 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/app/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/gradlew
-2019-07-20 11:26:03,435 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/payview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/build.gradle
-2019-07-20 11:26:03,445 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/payview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/settings.gradle
-2019-07-20 11:26:03,446 INFO  ProjectBuildService - Remote scripts: none
-2019-07-20 11:26:03,447 INFO  ProjectFixService - Fixing project...
-2019-07-20 11:26:03,465 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/app/local.properties
-2019-07-20 11:26:03,466 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-07-20 11:26:03,467 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-07-20 11:26:03,470 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-07-20 11:26:03,470 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-07-20 11:26:03,472 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/payview/local.properties
-2019-07-20 11:26:03,473 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/payview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-07-20 11:26:03,474 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/payview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-07-20 11:26:03,475 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/local.properties
-2019-07-20 11:26:03,476 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-07-20 11:26:03,477 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-07-20 11:26:03,479 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-07-20 11:26:03,479 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-07-20 11:26:03,482 INFO  ProjectFixService - Project was maybe fixed
-2019-07-20 11:26:03,483 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-20 11:26:03,483 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/app/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-20 11:26:16,551 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-07-20 11:26:16,552 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-20 11:26:16,552 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/app/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-20 11:27:36,742 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-09-20 02:51:09,194 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/app/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/gradlew
+2020-09-20 02:51:09,200 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/payview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/build.gradle
+2020-09-20 02:51:09,206 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/payview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/settings.gradle
+2020-09-20 02:51:09,206 INFO  ProjectBuildService - Remote scripts: none
+2020-09-20 02:51:09,206 INFO  ProjectFixService - Fixing project...
+2020-09-20 02:51:09,220 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/app/local.properties
+2020-09-20 02:51:09,220 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2020-09-20 02:51:09,221 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2020-09-20 02:51:09,221 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-09-20 02:51:09,222 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-09-20 02:51:09,222 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/payview/local.properties
+2020-09-20 02:51:09,225 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/payview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-09-20 02:51:09,225 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/payview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-09-20 02:51:09,226 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/local.properties
+2020-09-20 02:51:09,226 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2020-09-20 02:51:09,226 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2020-09-20 02:51:09,227 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-09-20 02:51:09,228 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-09-20 02:51:09,228 INFO  ProjectFixService - Project was maybe fixed
+2020-09-20 02:51:09,228 INFO  ProjectTaskService - Detecting possible tasks...
+2020-09-20 02:51:09,228 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/app/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-09-20 02:51:18,315 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-09-20 02:51:18,315 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-09-20 02:51:18,315 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/app/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-09-20 02:51:20,797 INFO  VirusProcessorServiceImpl - Queued project 7725 to scan viruses
+2020-09-20 02:52:17,160 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :payview
 Kotlin plugin should be enabled before 'kotlin-android-extensions'
@@ -43,6 +44,10 @@ Kotlin plugin should be enabled before 'kotlin-android-extensions'
 > Task :payview:checkDebugManifest
 > Task :payview:processDebugManifest
 > Task :payview:packageDebugRenderscript NO-SOURCE
+> Task :payview:generateDebugResValues
+> Task :payview:generateDebugBuildConfig
+> Task :payview:prepareLintJar
+> Task :app:prepareLintJar
 > Task :payview:compileDebugAidl NO-SOURCE
 > Task :app:preDebugBuild
 > Task :app:compileDebugAidl NO-SOURCE
@@ -53,7 +58,6 @@ Kotlin plugin should be enabled before 'kotlin-android-extensions'
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
 > Task :payview:compileDebugRenderscript NO-SOURCE
-> Task :payview:generateDebugResValues
 > Task :payview:generateDebugResources
 > Task :payview:packageDebugResources
 > Task :app:mergeDebugResources
@@ -61,27 +65,26 @@ Kotlin plugin should be enabled before 'kotlin-android-extensions'
 > Task :app:processDebugManifest
 > Task :payview:generateDebugRFile
 > Task :app:processDebugResources
-> Task :payview:generateDebugBuildConfig
 
 > Task :payview:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (39, 53): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (40, 52): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (41, 47): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (105, 20): Unnecessary non-null assertion (!!) on a non-null receiver of type View
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (124, 90): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (125, 90): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (126, 87): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (197, 61): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (201, 61): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (203, 61): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (39, 53): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (40, 52): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (41, 47): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (105, 20): Unnecessary non-null assertion (!!) on a non-null receiver of type View
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (124, 90): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (125, 90): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (126, 87): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (197, 61): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (201, 61): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (203, 61): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (386, 33): Unnecessary safe call on a non-null receiver of type String?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (386, 50): Unnecessary safe call on a non-null receiver of type String
 
-> Task :payview:prepareLintJar
 > Task :payview:generateDebugSources
 > Task :payview:javaPreCompileDebug
 > Task :payview:compileDebugJavaWithJavac
 > Task :payview:bundleLibCompileDebug
 > Task :app:compileDebugKotlin
-> Task :app:prepareLintJar
 > Task :app:generateDebugSources
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
@@ -138,16 +141,18 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/
 > Task :payview:generateReleaseBuildConfig
 
 > Task :payview:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (39, 53): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (40, 52): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (41, 47): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (105, 20): Unnecessary non-null assertion (!!) on a non-null receiver of type View
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (124, 90): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (125, 90): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (126, 87): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (197, 61): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (201, 61): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (203, 61): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (39, 53): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (40, 52): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (41, 47): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (105, 20): Unnecessary non-null assertion (!!) on a non-null receiver of type View
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (124, 90): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (125, 90): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (126, 87): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (197, 61): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (201, 61): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (203, 61): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (386, 33): Unnecessary safe call on a non-null receiver of type String?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/payview/src/main/java/com/fevziomurtekin/payview/Payview.kt: (386, 50): Unnecessary safe call on a non-null receiver of type String
 
 > Task :app:mergeExtDexDebug
 > Task :app:packageDebug
@@ -162,7 +167,10 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
 > Task :payview:prepareLintJarForPublish
+
 > Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/9546d61866eea77e46740c0f3f85f214/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
 > Task :payview:processReleaseJavaRes NO-SOURCE
 > Task :payview:bundleLibResRelease
 > Task :payview:bundleLibRuntimeRelease
@@ -198,7 +206,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 19s
+BUILD SUCCESSFUL in 58s
 96 actionable tasks: 96 executed
 
-2019-07-20 11:27:36,824 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563596755342-0/src/PayView-master/app/build/outputs/apk/debug/app-debug.apk
+2020-09-20 02:52:17,264 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600545065361-0/src/PayView-master/app/build/outputs/apk/debug/app-debug.apk

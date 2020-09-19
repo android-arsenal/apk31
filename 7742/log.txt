@@ -1,253 +1,237 @@
-2020-03-22 20:24:06,306 INFO  DownloadService - Downloading "https://github.com/iamporus/BndrsntchTimer/archive/master.zip", attempt 3
-2020-03-22 20:24:09,984 INFO  DownloadService - Downloaded https://github.com/iamporus/BndrsntchTimer/archive/master.zip, attempt 3
-2020-03-22 20:24:09,984 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883446301-0/master.zip": 1 MB
-2020-03-22 20:24:09,984 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-03-22 20:24:09,984 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883446301-0/master.zip: true
-2020-03-22 20:24:09,985 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883446301-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883446301-0/src'.
-2020-03-22 20:24:10,013 INFO  FullProcessService - Size of directory with sources: 2 MB
-2020-03-22 20:24:10,013 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883446301-0/src]
-2020-03-22 20:24:10,036 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883446301-0/src/.git/
+2020-09-20 02:48:17,965 INFO  DownloadService - Downloading "https://github.com/iamporus/BndrsntchTimer/archive/master.zip", attempt 3
+2020-09-20 02:48:18,915 INFO  DownloadService - Downloaded https://github.com/iamporus/BndrsntchTimer/archive/master.zip, attempt 3
+2020-09-20 02:48:18,915 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544897962-0/master.zip": 1 MB
+2020-09-20 02:48:18,915 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-09-20 02:48:18,916 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544897962-0/master.zip: true
+2020-09-20 02:48:18,916 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544897962-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544897962-0/src'.
+2020-09-20 02:48:18,946 INFO  FullProcessService - Size of directory with sources: 2 MB
+2020-09-20 02:48:18,946 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544897962-0/src]
+2020-09-20 02:48:18,966 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544897962-0/src/.git/
 
-2020-03-22 20:24:10,039 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883446301-0/src/BndrsntchTimer-master/gradlew
-2020-03-22 20:24:10,043 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883446301-0/src/BndrsntchTimer-master/bndrsntchtimer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883446301-0/src/BndrsntchTimer-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883446301-0/src/BndrsntchTimer-master/build.gradle
-2020-03-22 20:24:10,046 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883446301-0/src/BndrsntchTimer-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883446301-0/src/BndrsntchTimer-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883446301-0/src/BndrsntchTimer-master/bndrsntchtimer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883446301-0/src/BndrsntchTimer-master/settings.gradle
-2020-03-22 20:24:10,047 INFO  ProjectBuildService - Remote scripts: none
-2020-03-22 20:24:10,047 INFO  ProjectFixService - Fixing project...
-2020-03-22 20:24:10,056 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883446301-0/src/BndrsntchTimer-master/bndrsntchtimer/local.properties
-2020-03-22 20:24:10,057 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883446301-0/src/BndrsntchTimer-master/bndrsntchtimer/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-03-22 20:24:10,057 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883446301-0/src/BndrsntchTimer-master/bndrsntchtimer/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-03-22 20:24:10,058 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883446301-0/src/BndrsntchTimer-master/sample/local.properties
-2020-03-22 20:24:10,059 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883446301-0/src/BndrsntchTimer-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-03-22 20:24:10,060 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883446301-0/src/BndrsntchTimer-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-03-22 20:24:10,061 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883446301-0/src/BndrsntchTimer-master/local.properties
-2020-03-22 20:24:10,062 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2020-03-22 20:24:10,062 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2020-03-22 20:24:10,065 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883446301-0/src/BndrsntchTimer-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-03-22 20:24:10,065 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883446301-0/src/BndrsntchTimer-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-03-22 20:24:10,066 INFO  ProjectFixService - Project was maybe fixed
-2020-03-22 20:24:10,066 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-22 20:24:10,067 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883446301-0/src/BndrsntchTimer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883446301-0/src/BndrsntchTimer-master/bndrsntchtimer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-22 20:24:19,407 INFO  ProjectTaskService - Detected possible tasks: 63
-2020-03-22 20:24:19,408 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-03-22 20:24:19,408 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883446301-0/src/BndrsntchTimer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883446301-0/src/BndrsntchTimer-master/bndrsntchtimer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-03-22 20:24:33,681 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-09-20 02:48:18,969 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544897962-0/src/BndrsntchTimer-master/gradlew
+2020-09-20 02:48:18,972 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544897962-0/src/BndrsntchTimer-master/bndrsntchtimer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544897962-0/src/BndrsntchTimer-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544897962-0/src/BndrsntchTimer-master/build.gradle
+2020-09-20 02:48:18,974 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544897962-0/src/BndrsntchTimer-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544897962-0/src/BndrsntchTimer-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544897962-0/src/BndrsntchTimer-master/bndrsntchtimer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544897962-0/src/BndrsntchTimer-master/settings.gradle
+2020-09-20 02:48:18,975 INFO  ProjectBuildService - Remote scripts: none
+2020-09-20 02:48:18,975 INFO  ProjectFixService - Fixing project...
+2020-09-20 02:48:18,981 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544897962-0/src/BndrsntchTimer-master/bndrsntchtimer/local.properties
+2020-09-20 02:48:18,982 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544897962-0/src/BndrsntchTimer-master/bndrsntchtimer/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-09-20 02:48:18,982 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544897962-0/src/BndrsntchTimer-master/bndrsntchtimer/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-09-20 02:48:18,983 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544897962-0/src/BndrsntchTimer-master/sample/local.properties
+2020-09-20 02:48:18,984 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544897962-0/src/BndrsntchTimer-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-09-20 02:48:18,984 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544897962-0/src/BndrsntchTimer-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-09-20 02:48:18,985 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544897962-0/src/BndrsntchTimer-master/local.properties
+2020-09-20 02:48:18,985 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2020-09-20 02:48:18,986 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2020-09-20 02:48:18,987 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544897962-0/src/BndrsntchTimer-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-09-20 02:48:18,987 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544897962-0/src/BndrsntchTimer-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-09-20 02:48:18,987 INFO  ProjectFixService - Project was maybe fixed
+2020-09-20 02:48:18,988 INFO  ProjectTaskService - Detecting possible tasks...
+2020-09-20 02:48:18,988 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544897962-0/src/BndrsntchTimer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544897962-0/src/BndrsntchTimer-master/bndrsntchtimer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-09-20 02:48:27,018 INFO  VirusProcessorServiceImpl - Queued project 7749 to scan viruses
+2020-09-20 02:48:27,558 INFO  ProjectTaskService - Detected possible tasks: 64
+2020-09-20 02:48:27,558 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-09-20 02:48:27,559 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544897962-0/src/BndrsntchTimer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544897962-0/src/BndrsntchTimer-master/bndrsntchtimer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-09-20 02:48:39,653 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :bndrsntchtimer:preBuild UP-TO-DATE
 > Task :bndrsntchtimer:preDebugBuild UP-TO-DATE
-> Task :bndrsntchtimer:compileDebugAidl NO-SOURCE
-> Task :bndrsntchtimer:compileDebugRenderscript NO-SOURCE
-> Task :bndrsntchtimer:checkDebugManifest
+> Task :bndrsntchtimer:mergeDebugJniLibFolders
+> Task :bndrsntchtimer:mergeDebugNativeLibs
+> Task :bndrsntchtimer:stripDebugDebugSymbols NO-SOURCE
+> Task :bndrsntchtimer:copyDebugJniLibsProjectAndLocalJars
 > Task :bndrsntchtimer:generateDebugBuildConfig
 > Task :bndrsntchtimer:generateDebugResValues
-> Task :bndrsntchtimer:generateDebugResources
-> Task :bndrsntchtimer:packageDebugResources
-> Task :bndrsntchtimer:processDebugManifest
-> Task :bndrsntchtimer:generateDebugRFile
-> Task :bndrsntchtimer:prepareLintJar
-> Task :bndrsntchtimer:generateDebugSources
-> Task :bndrsntchtimer:javaPreCompileDebug
-> Task :bndrsntchtimer:compileDebugJavaWithJavac
-> Task :bndrsntchtimer:extractDebugAnnotations
-> Task :bndrsntchtimer:mergeDebugConsumerProguardFiles
 > Task :bndrsntchtimer:mergeDebugShaders
-> Task :bndrsntchtimer:compileDebugShaders
-> Task :bndrsntchtimer:generateDebugAssets
+> Task :bndrsntchtimer:compileDebugShaders NO-SOURCE
+> Task :bndrsntchtimer:generateDebugAssets UP-TO-DATE
 > Task :bndrsntchtimer:packageDebugAssets
 > Task :bndrsntchtimer:packageDebugRenderscript NO-SOURCE
-> Task :bndrsntchtimer:prepareLintJarForPublish
+> Task :bndrsntchtimer:javaPreCompileDebug
 > Task :bndrsntchtimer:processDebugJavaRes NO-SOURCE
-> Task :bndrsntchtimer:transformResourcesWithMergeJavaResForDebug
-> Task :bndrsntchtimer:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :bndrsntchtimer:mergeDebugJniLibFolders
-> Task :bndrsntchtimer:transformNativeLibsWithMergeJniLibsForDebug
-> Task :bndrsntchtimer:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :bndrsntchtimer:transformNativeLibsWithSyncJniLibsForDebug
-> Task :bndrsntchtimer:bundleDebugAar
-> Task :bndrsntchtimer:compileDebugSources
-> Task :bndrsntchtimer:assembleDebug
+> Task :bndrsntchtimer:prepareLintJarForPublish
 > Task :bndrsntchtimer:preReleaseBuild UP-TO-DATE
-> Task :bndrsntchtimer:compileReleaseAidl NO-SOURCE
-> Task :bndrsntchtimer:compileReleaseRenderscript NO-SOURCE
-> Task :bndrsntchtimer:checkReleaseManifest
+> Task :bndrsntchtimer:mergeReleaseJniLibFolders
 > Task :bndrsntchtimer:generateReleaseBuildConfig
 > Task :bndrsntchtimer:generateReleaseResValues
-> Task :bndrsntchtimer:generateReleaseResources
-> Task :bndrsntchtimer:packageReleaseResources
-> Task :bndrsntchtimer:processReleaseManifest
-> Task :bndrsntchtimer:generateReleaseRFile
-> Task :bndrsntchtimer:generateReleaseSources
-> Task :bndrsntchtimer:javaPreCompileRelease
-> Task :bndrsntchtimer:compileReleaseJavaWithJavac
-> Task :bndrsntchtimer:extractReleaseAnnotations
-> Task :bndrsntchtimer:mergeReleaseConsumerProguardFiles
+> Task :bndrsntchtimer:mergeReleaseNativeLibs
+> Task :bndrsntchtimer:stripReleaseDebugSymbols NO-SOURCE
+> Task :bndrsntchtimer:copyReleaseJniLibsProjectAndLocalJars
 > Task :bndrsntchtimer:mergeReleaseShaders
-> Task :bndrsntchtimer:compileReleaseShaders
-> Task :bndrsntchtimer:generateReleaseAssets
+> Task :bndrsntchtimer:compileReleaseShaders NO-SOURCE
+> Task :bndrsntchtimer:generateReleaseAssets UP-TO-DATE
 > Task :bndrsntchtimer:packageReleaseAssets
 > Task :bndrsntchtimer:packageReleaseRenderscript NO-SOURCE
 > Task :bndrsntchtimer:processReleaseJavaRes NO-SOURCE
-> Task :bndrsntchtimer:transformResourcesWithMergeJavaResForRelease
-> Task :bndrsntchtimer:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :bndrsntchtimer:mergeReleaseJniLibFolders
-> Task :bndrsntchtimer:transformNativeLibsWithMergeJniLibsForRelease
-> Task :bndrsntchtimer:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :bndrsntchtimer:transformNativeLibsWithSyncJniLibsForRelease
+> Task :bndrsntchtimer:javaPreCompileRelease
+> Task :bndrsntchtimer:processDebugManifest
+> Task :bndrsntchtimer:processReleaseManifest
+> Task :bndrsntchtimer:mergeDebugJavaResource
+> Task :bndrsntchtimer:mergeReleaseJavaResource
+> Task :bndrsntchtimer:compileDebugAidl NO-SOURCE
+> Task :bndrsntchtimer:compileDebugRenderscript NO-SOURCE
+> Task :bndrsntchtimer:generateDebugResources
+> Task :bndrsntchtimer:packageDebugResources
+> Task :bndrsntchtimer:compileReleaseAidl NO-SOURCE
+> Task :bndrsntchtimer:compileReleaseRenderscript NO-SOURCE
+> Task :bndrsntchtimer:generateReleaseResources
+> Task :bndrsntchtimer:packageReleaseResources
+> Task :bndrsntchtimer:parseDebugLocalResources
+> Task :bndrsntchtimer:parseReleaseLocalResources
+> Task :bndrsntchtimer:mergeReleaseResources
+> Task :bndrsntchtimer:generateReleaseRFile
+> Task :bndrsntchtimer:compileReleaseJavaWithJavac
+> Task :bndrsntchtimer:extractReleaseAnnotations
+> Task :bndrsntchtimer:mergeReleaseGeneratedProguardFiles
+> Task :bndrsntchtimer:mergeReleaseConsumerProguardFiles
+> Task :bndrsntchtimer:syncReleaseLibJars
 > Task :bndrsntchtimer:bundleReleaseAar
 > Task :bndrsntchtimer:compileReleaseSources
-> Task :bndrsntchtimer:mergeReleaseResources
+> Task :bndrsntchtimer:generateDebugRFile
+> Task :bndrsntchtimer:compileDebugJavaWithJavac
+> Task :bndrsntchtimer:extractDebugAnnotations
+> Task :bndrsntchtimer:mergeDebugGeneratedProguardFiles
+> Task :bndrsntchtimer:mergeDebugConsumerProguardFiles
+> Task :bndrsntchtimer:syncDebugLibJars
+> Task :bndrsntchtimer:bundleDebugAar
+> Task :bndrsntchtimer:compileDebugSources
+> Task :bndrsntchtimer:assembleDebug
 > Task :bndrsntchtimer:verifyReleaseResources
 > Task :bndrsntchtimer:assembleRelease
 > Task :bndrsntchtimer:assemble
 > Task :bndrsntchtimer:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+BUILD SUCCESSFUL in 11s
+41 actionable tasks: 41 executed
 
-BUILD SUCCESSFUL in 13s
-44 actionable tasks: 44 executed
-
-2020-03-22 20:24:33,728 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-22 20:24:33,729 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883446301-0/src/BndrsntchTimer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883446301-0/src/BndrsntchTimer-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-22 20:24:42,115 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-03-22 20:24:42,115 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-03-22 20:24:42,115 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883446301-0/src/BndrsntchTimer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883446301-0/src/BndrsntchTimer-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-03-22 20:26:15,519 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-09-20 02:48:39,696 INFO  ProjectTaskService - Detecting possible tasks...
+2020-09-20 02:48:39,696 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544897962-0/src/BndrsntchTimer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544897962-0/src/BndrsntchTimer-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-09-20 02:48:46,515 INFO  ProjectTaskService - Detected possible tasks: 67
+2020-09-20 02:48:46,515 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-09-20 02:48:46,515 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544897962-0/src/BndrsntchTimer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544897962-0/src/BndrsntchTimer-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-09-20 02:49:35,983 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :bndrsntchtimer:preBuild UP-TO-DATE
 > Task :bndrsntchtimer:preDebugBuild UP-TO-DATE
 > Task :bndrsntchtimer:compileDebugAidl NO-SOURCE
-> Task :bndrsntchtimer:compileDebugRenderscript NO-SOURCE
-> Task :bndrsntchtimer:checkDebugManifest UP-TO-DATE
 > Task :bndrsntchtimer:generateDebugBuildConfig UP-TO-DATE
+> Task :bndrsntchtimer:compileDebugRenderscript NO-SOURCE
 > Task :bndrsntchtimer:generateDebugResValues UP-TO-DATE
 > Task :bndrsntchtimer:generateDebugResources UP-TO-DATE
 > Task :bndrsntchtimer:packageDebugResources UP-TO-DATE
+> Task :bndrsntchtimer:parseDebugLocalResources UP-TO-DATE
 > Task :bndrsntchtimer:processDebugManifest UP-TO-DATE
 > Task :bndrsntchtimer:generateDebugRFile UP-TO-DATE
-> Task :bndrsntchtimer:prepareLintJar UP-TO-DATE
-> Task :bndrsntchtimer:generateDebugSources UP-TO-DATE
 > Task :bndrsntchtimer:javaPreCompileDebug UP-TO-DATE
 > Task :bndrsntchtimer:compileDebugJavaWithJavac UP-TO-DATE
-> Task :bndrsntchtimer:bundleLibCompileDebug
 > Task :sample:preBuild UP-TO-DATE
-> Task :sample:preDebugBuild
+> Task :sample:preDebugBuild UP-TO-DATE
 > Task :sample:compileDebugAidl NO-SOURCE
 > Task :bndrsntchtimer:packageDebugRenderscript NO-SOURCE
 > Task :sample:compileDebugRenderscript NO-SOURCE
-> Task :sample:checkDebugManifest
 > Task :sample:generateDebugBuildConfig
-> Task :sample:prepareLintJar
-> Task :sample:generateDebugSources
 > Task :sample:javaPreCompileDebug
-> Task :sample:mainApkListPersistenceDebug
+> Task :bndrsntchtimer:bundleLibCompileToJarDebug
+> Task :bndrsntchtimer:compileDebugLibraryResources
 > Task :sample:generateDebugResValues
 > Task :sample:generateDebugResources
-> Task :sample:mergeDebugResources
+> Task :bndrsntchtimer:extractDeepLinksDebug
 > Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:extractDeepLinksDebug
 > Task :sample:processDebugManifest
+> Task :sample:mergeDebugResources
 > Task :sample:processDebugResources
 > Task :sample:compileDebugJavaWithJavac
 > Task :sample:compileDebugSources
 > Task :bndrsntchtimer:mergeDebugShaders UP-TO-DATE
-> Task :bndrsntchtimer:compileDebugShaders UP-TO-DATE
+> Task :bndrsntchtimer:compileDebugShaders NO-SOURCE
 > Task :bndrsntchtimer:generateDebugAssets UP-TO-DATE
 > Task :bndrsntchtimer:packageDebugAssets UP-TO-DATE
 > Task :sample:mergeDebugShaders
-> Task :sample:compileDebugShaders
-> Task :sample:generateDebugAssets
+> Task :sample:compileDebugShaders NO-SOURCE
+> Task :sample:generateDebugAssets UP-TO-DATE
 > Task :sample:mergeDebugAssets
 > Task :bndrsntchtimer:processDebugJavaRes NO-SOURCE
-> Task :bndrsntchtimer:bundleLibResDebug
-> Task :bndrsntchtimer:bundleLibRuntimeDebug
-> Task :bndrsntchtimer:createFullJarDebug
-> Task :sample:checkDebugDuplicateClasses
-> Task :sample:mergeExtDexDebug
-> Task :sample:transformClassesWithDexBuilderForDebug
-> Task :sample:mergeDexDebug
-> Task :sample:validateSigningDebug
-> Task :sample:signingConfigWriterDebug
-> Task :bndrsntchtimer:mergeDebugJniLibFolders UP-TO-DATE
-> Task :bndrsntchtimer:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
-> Task :bndrsntchtimer:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
-> Task :bndrsntchtimer:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :sample:mergeDebugJniLibFolders
-> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
-> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :bndrsntchtimer:bundleLibResDebug NO-SOURCE
 > Task :sample:processDebugJavaRes NO-SOURCE
-> Task :sample:transformResourcesWithMergeJavaResForDebug
-> Task :sample:packageDebug
-> Task :sample:assembleDebug
+> Task :bndrsntchtimer:bundleLibRuntimeToJarDebug
+> Task :sample:dexBuilderDebug
+> Task :sample:checkDebugDuplicateClasses
+> Task :sample:mergeDebugJavaResource
+> Task :bndrsntchtimer:mergeDebugJniLibFolders UP-TO-DATE
+> Task :bndrsntchtimer:mergeDebugNativeLibs UP-TO-DATE
+> Task :bndrsntchtimer:stripDebugDebugSymbols NO-SOURCE
+> Task :bndrsntchtimer:copyDebugJniLibsProjectOnly
+> Task :sample:mergeDebugJniLibFolders
+> Task :sample:validateSigningDebug
 > Task :bndrsntchtimer:preReleaseBuild UP-TO-DATE
 > Task :bndrsntchtimer:compileReleaseAidl NO-SOURCE
 > Task :bndrsntchtimer:compileReleaseRenderscript NO-SOURCE
-> Task :bndrsntchtimer:checkReleaseManifest UP-TO-DATE
 > Task :bndrsntchtimer:generateReleaseBuildConfig UP-TO-DATE
 > Task :bndrsntchtimer:generateReleaseResValues UP-TO-DATE
 > Task :bndrsntchtimer:generateReleaseResources UP-TO-DATE
 > Task :bndrsntchtimer:packageReleaseResources UP-TO-DATE
+> Task :bndrsntchtimer:parseReleaseLocalResources UP-TO-DATE
 > Task :bndrsntchtimer:processReleaseManifest UP-TO-DATE
 > Task :bndrsntchtimer:generateReleaseRFile UP-TO-DATE
-> Task :bndrsntchtimer:generateReleaseSources UP-TO-DATE
 > Task :bndrsntchtimer:javaPreCompileRelease UP-TO-DATE
 > Task :bndrsntchtimer:compileReleaseJavaWithJavac UP-TO-DATE
-> Task :bndrsntchtimer:bundleLibCompileRelease
-> Task :sample:preReleaseBuild
+> Task :sample:preReleaseBuild UP-TO-DATE
 > Task :sample:compileReleaseAidl NO-SOURCE
 > Task :bndrsntchtimer:packageReleaseRenderscript NO-SOURCE
 > Task :sample:compileReleaseRenderscript NO-SOURCE
-> Task :sample:checkReleaseManifest
 > Task :sample:generateReleaseBuildConfig
-> Task :sample:generateReleaseSources
+> Task :bndrsntchtimer:bundleLibCompileToJarRelease
 > Task :sample:javaPreCompileRelease
-> Task :sample:mainApkListPersistenceRelease
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
-> Task :sample:mergeReleaseResources
+> Task :bndrsntchtimer:compileReleaseLibraryResources
+> Task :bndrsntchtimer:extractDeepLinksRelease
 > Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:extractDeepLinksRelease
 > Task :sample:processReleaseManifest
+> Task :sample:mergeDebugNativeLibs
+> Task :sample:stripDebugDebugSymbols NO-SOURCE
+> Task :sample:mergeReleaseResources
 > Task :sample:processReleaseResources
 > Task :sample:compileReleaseJavaWithJavac
 > Task :sample:compileReleaseSources
 > Task :bndrsntchtimer:prepareLintJarForPublish UP-TO-DATE
-
+> Task :sample:prepareLintJar
 > Task :sample:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/f64b53e993840c0d794adde80dd2e9db/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-
-> Task :bndrsntchtimer:processReleaseJavaRes NO-SOURCE
-> Task :bndrsntchtimer:bundleLibResRelease
-> Task :bndrsntchtimer:bundleLibRuntimeRelease
-> Task :bndrsntchtimer:createFullJarRelease
 > Task :sample:checkReleaseDuplicateClasses
-> Task :sample:mergeExtDexRelease
-> Task :sample:transformClassesWithDexBuilderForRelease
-> Task :sample:mergeDexRelease
+> Task :sample:dexBuilderRelease
+> Task :bndrsntchtimer:bundleLibRuntimeToJarRelease
 > Task :bndrsntchtimer:mergeReleaseShaders UP-TO-DATE
-> Task :bndrsntchtimer:compileReleaseShaders UP-TO-DATE
+> Task :bndrsntchtimer:compileReleaseShaders NO-SOURCE
 > Task :bndrsntchtimer:generateReleaseAssets UP-TO-DATE
 > Task :bndrsntchtimer:packageReleaseAssets UP-TO-DATE
 > Task :sample:mergeReleaseShaders
-> Task :sample:compileReleaseShaders
-> Task :sample:generateReleaseAssets
+> Task :sample:compileReleaseShaders NO-SOURCE
+> Task :sample:generateReleaseAssets UP-TO-DATE
 > Task :sample:mergeReleaseAssets
-> Task :sample:signingConfigWriterRelease
-> Task :bndrsntchtimer:mergeReleaseJniLibFolders UP-TO-DATE
-> Task :bndrsntchtimer:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
-> Task :bndrsntchtimer:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
-> Task :bndrsntchtimer:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :sample:mergeReleaseJniLibFolders
-> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
-> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :bndrsntchtimer:processReleaseJavaRes NO-SOURCE
+> Task :bndrsntchtimer:bundleLibResRelease NO-SOURCE
 > Task :sample:processReleaseJavaRes NO-SOURCE
-> Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :sample:collectReleaseDependencies
+> Task :sample:sdkReleaseDependencyData
+> Task :bndrsntchtimer:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :bndrsntchtimer:mergeReleaseNativeLibs UP-TO-DATE
+> Task :bndrsntchtimer:stripReleaseDebugSymbols NO-SOURCE
+> Task :bndrsntchtimer:copyReleaseJniLibsProjectOnly
+> Task :sample:mergeReleaseJniLibFolders
+> Task :sample:mergeReleaseJavaResource
+> Task :sample:mergeReleaseNativeLibs
+> Task :sample:stripReleaseDebugSymbols NO-SOURCE
+> Task :sample:mergeExtDexDebug
+> Task :sample:mergeDexDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :sample:mergeExtDexRelease
+> Task :sample:mergeDexRelease
 > Task :sample:packageRelease
 > Task :sample:assembleRelease
 > Task :sample:assemble
 > Task :sample:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+BUILD SUCCESSFUL in 48s
+78 actionable tasks: 53 executed, 25 up-to-date
 
-BUILD SUCCESSFUL in 1m 32s
-91 actionable tasks: 61 executed, 30 up-to-date
-
-2020-03-22 20:26:15,657 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883446301-0/src/BndrsntchTimer-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2020-09-20 02:49:36,065 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544897962-0/src/BndrsntchTimer-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
