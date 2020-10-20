@@ -1,64 +1,84 @@
-2020-05-15 15:03:33,425 INFO  DownloadService - Downloading "https://github.com/arthur3486/android-mvvm/archive/master.zip", attempt 3
-2020-05-15 15:03:40,846 INFO  DownloadService - Downloaded https://github.com/arthur3486/android-mvvm/archive/master.zip, attempt 3
-2020-05-15 15:03:40,847 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/master.zip": 13 MB
-2020-05-15 15:03:40,847 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-05-15 15:03:40,854 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/master.zip: true
-2020-05-15 15:03:40,855 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src'.
-2020-05-15 15:03:41,107 INFO  FullProcessService - Size of directory with sources: 14 MB
-2020-05-15 15:03:41,107 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src]
-2020-05-15 15:03:41,139 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/.git/
+2020-10-20 14:28:59,660 INFO  DownloadService - Downloading "https://github.com/arthur3486/android-mvvm/archive/master.zip", attempt 3
+2020-10-20 14:29:14,524 INFO  VirusProcessorServiceImpl - Queued project 7725 to scan viruses
+2020-10-20 14:30:00,293 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2020-10-20 14:30:01,418 INFO  GithubDownloadService - Default branch of this repository: master
+2020-10-20 14:30:01,418 INFO  DownloadService - Downloading "https://github.com/arthur3486/android-mvvm/archive/master.zip", attempt 3
+2020-10-20 14:31:04,291 DEBUG FullProcessService - Repository https://github.com/arthur3486/android-mvvm available: true
+2020-10-20 14:31:04,291 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2020-10-20 14:31:04,291 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/arthur3486/android-mvvm, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src]
+2020-10-20 14:31:08,821 INFO  SysUtils - 
+2020-10-20 14:31:08,842 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/.git": true
+2020-10-20 14:31:08,866 INFO  FullProcessService - Size of directory with sources: 8 MB
+2020-10-20 14:31:08,866 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src]
+2020-10-20 14:31:08,886 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/.git/
 
-2020-05-15 15:03:41,163 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/gradlew
-2020-05-15 15:03:41,190 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/commons/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/data/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/domain/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/imageloading-glide/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/imageloading/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/marvel-api/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/mvvm-dagger/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/mvvm-navigation-dagger/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/mvvm-navigation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/mvvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/build.gradle
-2020-05-15 15:03:41,214 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/marvel-api/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/commons/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/gradle/script/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/mvvm-navigation-dagger/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/common/constants.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/common/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/common/utils.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/imageloading/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/mvvm-dagger/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/data/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/domain/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/imageloading-glide/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/mvvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/mvvm-navigation/build.gradle
-2020-05-15 15:03:41,216 INFO  ProjectBuildService - Remote scripts: none
-2020-05-15 15:03:41,216 INFO  ProjectFixService - Fixing project...
-2020-05-15 15:03:41,273 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/app/local.properties
-2020-05-15 15:03:41,280 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=29]
-2020-05-15 15:03:41,280 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-05-15 15:03:41,281 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/commons/local.properties
-2020-05-15 15:03:41,290 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/commons/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=29]
-2020-05-15 15:03:41,290 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/commons/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-05-15 15:03:41,291 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/data/local.properties
-2020-05-15 15:03:41,298 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/data/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=29]
-2020-05-15 15:03:41,298 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/data/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-05-15 15:03:41,299 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/domain/local.properties
-2020-05-15 15:03:41,308 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/domain/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=29]
-2020-05-15 15:03:41,308 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/domain/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-05-15 15:03:41,309 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/imageloading-glide/local.properties
-2020-05-15 15:03:41,317 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/imageloading-glide/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=29]
-2020-05-15 15:03:41,317 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/imageloading-glide/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-05-15 15:03:41,319 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/imageloading/local.properties
-2020-05-15 15:03:41,326 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/imageloading/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=29]
-2020-05-15 15:03:41,326 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/imageloading/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-05-15 15:03:41,327 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/marvel-api/local.properties
-2020-05-15 15:03:41,334 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/marvel-api/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=29]
-2020-05-15 15:03:41,335 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/marvel-api/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-05-15 15:03:41,336 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/mvvm-dagger/local.properties
-2020-05-15 15:03:41,344 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/mvvm-dagger/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=29]
-2020-05-15 15:03:41,344 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/mvvm-dagger/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-05-15 15:03:41,345 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/mvvm-navigation-dagger/local.properties
-2020-05-15 15:03:41,353 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/mvvm-navigation-dagger/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=29]
-2020-05-15 15:03:41,353 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/mvvm-navigation-dagger/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-05-15 15:03:41,354 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/mvvm-navigation/local.properties
-2020-05-15 15:03:41,361 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/mvvm-navigation/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=29]
-2020-05-15 15:03:41,362 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/mvvm-navigation/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-05-15 15:03:41,363 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/mvvm/local.properties
-2020-05-15 15:03:41,370 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/mvvm/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=29]
-2020-05-15 15:03:41,370 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/mvvm/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-05-15 15:03:41,371 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/local.properties
-2020-05-15 15:03:41,372 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-05-15 15:03:41,372 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-05-15 15:03:41,379 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=29]
-2020-05-15 15:03:41,379 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-05-15 15:03:41,380 INFO  ProjectFixService - Project was maybe fixed
-2020-05-15 15:03:41,380 INFO  ProjectTaskService - Detecting possible tasks...
-2020-05-15 15:03:41,380 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-05-15 15:03:49,678 INFO  VirusProcessorServiceImpl - Queued project 7720 to scan viruses
-2020-05-15 15:03:57,437 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-05-15 15:03:57,437 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-05-15 15:03:57,437 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-05-15 15:08:24,860 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-10-20 14:31:08,904 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/gradlew
+2020-10-20 14:31:08,930 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/commons/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/data/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/domain/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/imageloading-glide/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/imageloading/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/marvel-api/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/mvvm-dagger/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/mvvm-navigation-dagger/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/mvvm-navigation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/mvvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/build.gradle
+2020-10-20 14:31:08,948 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/marvel-api/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/commons/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/gradle/script/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/mvvm-navigation-dagger/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/common/constants.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/common/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/common/utils.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/imageloading/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/mvvm-dagger/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/data/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/domain/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/imageloading-glide/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/mvvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/mvvm-navigation/build.gradle
+2020-10-20 14:31:08,949 INFO  ProjectBuildService - Remote scripts: none
+2020-10-20 14:31:08,949 INFO  ProjectFixService - Fixing project...
+2020-10-20 14:31:08,989 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/app/local.properties
+2020-10-20 14:31:08,994 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=29]
+2020-10-20 14:31:08,995 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=29]
+2020-10-20 14:31:08,996 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/commons/local.properties
+2020-10-20 14:31:09,001 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/commons/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=29]
+2020-10-20 14:31:09,001 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/commons/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=29]
+2020-10-20 14:31:09,002 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/data/local.properties
+2020-10-20 14:31:09,008 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/data/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=29]
+2020-10-20 14:31:09,008 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/data/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=29]
+2020-10-20 14:31:09,009 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/domain/local.properties
+2020-10-20 14:31:09,015 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/domain/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=29]
+2020-10-20 14:31:09,015 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/domain/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=29]
+2020-10-20 14:31:09,016 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/imageloading-glide/local.properties
+2020-10-20 14:31:09,022 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/imageloading-glide/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=29]
+2020-10-20 14:31:09,022 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/imageloading-glide/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=29]
+2020-10-20 14:31:09,023 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/imageloading/local.properties
+2020-10-20 14:31:09,028 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/imageloading/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=29]
+2020-10-20 14:31:09,029 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/imageloading/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=29]
+2020-10-20 14:31:09,029 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/marvel-api/local.properties
+2020-10-20 14:31:09,035 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/marvel-api/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=29]
+2020-10-20 14:31:09,035 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/marvel-api/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=29]
+2020-10-20 14:31:09,036 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/mvvm-dagger/local.properties
+2020-10-20 14:31:09,042 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/mvvm-dagger/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=29]
+2020-10-20 14:31:09,042 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/mvvm-dagger/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=29]
+2020-10-20 14:31:09,043 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/mvvm-navigation-dagger/local.properties
+2020-10-20 14:31:09,049 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/mvvm-navigation-dagger/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=29]
+2020-10-20 14:31:09,049 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/mvvm-navigation-dagger/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=29]
+2020-10-20 14:31:09,049 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/mvvm-navigation/local.properties
+2020-10-20 14:31:09,055 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/mvvm-navigation/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=29]
+2020-10-20 14:31:09,055 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/mvvm-navigation/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=29]
+2020-10-20 14:31:09,056 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/mvvm/local.properties
+2020-10-20 14:31:09,062 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/mvvm/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=29]
+2020-10-20 14:31:09,062 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/mvvm/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=29]
+2020-10-20 14:31:09,063 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/local.properties
+2020-10-20 14:31:09,063 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2020-10-20 14:31:09,063 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2020-10-20 14:31:09,069 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=29]
+2020-10-20 14:31:09,069 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=29]
+2020-10-20 14:31:09,070 INFO  ProjectFixService - Project was maybe fixed
+2020-10-20 14:31:09,070 INFO  ProjectTaskService - Detecting possible tasks...
+2020-10-20 14:31:09,070 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-10-20 14:31:21,354 INFO  ProjectTaskService - Detected possible tasks: 69
+2020-10-20 14:31:21,355 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-10-20 14:31:21,355 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-10-20 14:34:24,986 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :app
+WARNING: DSL element 'android.dataBinding.enabled' is obsolete and has been replaced with 'android.buildFeatures.dataBinding'.
+It will be removed in version 5.0 of the Android Gradle plugin.
+
+> Configure project :mvvm
+WARNING: DSL element 'android.dataBinding.enabled' is obsolete and has been replaced with 'android.buildFeatures.dataBinding'.
+It will be removed in version 5.0 of the Android Gradle plugin.
+
+> Configure project :mvvm-navigation
+WARNING: DSL element 'android.dataBinding.enabled' is obsolete and has been replaced with 'android.buildFeatures.dataBinding'.
+It will be removed in version 5.0 of the Android Gradle plugin.
+
+> Configure project :mvvm-navigation-dagger
+WARNING: DSL element 'android.dataBinding.enabled' is obsolete and has been replaced with 'android.buildFeatures.dataBinding'.
+It will be removed in version 5.0 of the Android Gradle plugin.
+
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :commons:preBuild UP-TO-DATE
@@ -69,39 +89,91 @@
 > Task :marvel-api:preBuild UP-TO-DATE
 > Task :marvel-api:preDebugBuild UP-TO-DATE
 > Task :marvel-api:compileDebugAidl NO-SOURCE
-> Task :data:compileDebugAidl NO-SOURCE
 > Task :domain:preBuild UP-TO-DATE
 > Task :domain:preDebugBuild UP-TO-DATE
-> Task :domain:compileDebugAidl NO-SOURCE
 > Task :imageloading:preBuild UP-TO-DATE
 > Task :imageloading:preDebugBuild UP-TO-DATE
 > Task :imageloading:compileDebugAidl NO-SOURCE
 > Task :imageloading-glide:preBuild UP-TO-DATE
 > Task :imageloading-glide:preDebugBuild UP-TO-DATE
 > Task :imageloading-glide:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugAidl NO-SOURCE
+> Task :mvvm:preBuild UP-TO-DATE
+> Task :mvvm:preDebugBuild UP-TO-DATE
+> Task :mvvm:compileDebugAidl NO-SOURCE
+> Task :mvvm-navigation:preBuild UP-TO-DATE
+> Task :mvvm-navigation:preDebugBuild UP-TO-DATE
+> Task :data:compileDebugAidl NO-SOURCE
+> Task :domain:compileDebugAidl NO-SOURCE
+> Task :mvvm-navigation-dagger:preBuild UP-TO-DATE
+> Task :mvvm-navigation-dagger:preDebugBuild UP-TO-DATE
 > Task :commons:packageDebugRenderscript NO-SOURCE
 > Task :domain:packageDebugRenderscript NO-SOURCE
 > Task :imageloading:packageDebugRenderscript NO-SOURCE
 > Task :imageloading-glide:packageDebugRenderscript NO-SOURCE
 > Task :marvel-api:packageDebugRenderscript NO-SOURCE
+> Task :mvvm:packageDebugRenderscript NO-SOURCE
+> Task :mvvm-navigation:packageDebugRenderscript NO-SOURCE
+> Task :mvvm-navigation-dagger:packageDebugRenderscript NO-SOURCE
 > Task :app:compileDebugRenderscript NO-SOURCE
-> Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
 > Task :app:writeDebugApplicationId
 > Task :app:generateSafeArgsDebug
 > Task :app:prepareLintJar
+> Task :mvvm-navigation:compileDebugAidl NO-SOURCE
+> Task :mvvm-navigation-dagger:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
 > Task :app:prepareLintJarForPublish
 > Task :app:generateDebugSources
 > Task :app:dataBindingExportBuildInfoDebug
-> Task :app:dataBindingMergeGenClassesDebug
+> Task :mvvm:dataBindingMergeDependencyArtifactsDebug
+> Task :mvvm:generateDebugResValues
+> Task :mvvm:compileDebugRenderscript NO-SOURCE
+> Task :mvvm:generateDebugResources
+> Task :mvvm:packageDebugResources
+> Task :mvvm:dataBindingMergeGenClassesDebug
+> Task :mvvm:dataBindingGenBaseClassesDebug
+> Task :mvvm:generateDebugBuildConfig
+> Task :mvvm:prepareLintJar
+> Task :mvvm:prepareLintJarForPublish
+> Task :mvvm:generateDebugSources
+> Task :mvvm:dataBindingExportBuildInfoDebug
+> Task :mvvm:parseDebugLocalResources
+> Task :mvvm:javaPreCompileDebug
+> Task :mvvm:processDebugManifest
+> Task :mvvm-navigation:dataBindingMergeGenClassesDebug
+> Task :mvvm-navigation:generateDebugResValues
+> Task :mvvm-navigation:compileDebugRenderscript NO-SOURCE
+> Task :mvvm-navigation:generateDebugResources
+> Task :mvvm-navigation:packageDebugResources
+> Task :mvvm:generateDebugRFile
+> Task :mvvm:kaptGenerateStubsDebugKotlin
+> Task :mvvm-navigation:generateDebugBuildConfig
+> Task :mvvm-navigation:prepareLintJar
+> Task :mvvm-navigation:parseDebugLocalResources
+> Task :mvvm-navigation:prepareLintJarForPublish
+> Task :mvvm-navigation:generateDebugSources
+> Task :mvvm-navigation:dataBindingExportBuildInfoDebug
+> Task :mvvm-navigation:processDebugManifest
+> Task :mvvm-navigation:generateDebugRFile
+> Task :mvvm-navigation:javaPreCompileDebug
+> Task :mvvm-navigation-dagger:generateDebugResValues
+> Task :mvvm-navigation-dagger:compileDebugRenderscript NO-SOURCE
+> Task :mvvm-navigation-dagger:generateDebugResources
+> Task :mvvm-navigation-dagger:packageDebugResources
+> Task :mvvm-navigation-dagger:parseDebugLocalResources
+> Task :mvvm-navigation-dagger:generateDebugBuildConfig
+> Task :mvvm-navigation-dagger:prepareLintJar
+> Task :mvvm-navigation-dagger:prepareLintJarForPublish
+> Task :mvvm-navigation-dagger:generateDebugSources
+> Task :mvvm-navigation-dagger:dataBindingExportBuildInfoDebug
+> Task :mvvm-navigation-dagger:processDebugManifest
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :app:dataBindingMergeDependencyArtifactsDebug
 > Task :commons:generateDebugResValues
 > Task :commons:compileDebugRenderscript NO-SOURCE
 > Task :commons:generateDebugResources
 > Task :commons:packageDebugResources
+> Task :mvvm-navigation-dagger:generateDebugRFile
 > Task :data:generateDebugResValues
 > Task :data:compileDebugRenderscript NO-SOURCE
 > Task :data:generateDebugResources
@@ -123,200 +195,260 @@
 > Task :marvel-api:compileDebugRenderscript NO-SOURCE
 > Task :marvel-api:generateDebugResources
 > Task :marvel-api:packageDebugResources
+> Task :mvvm:kaptDebugKotlin
+
+> Task :mvvm:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/mvvm/src/main/java/com/arthurivanets/mvvm/Channel.kt: (97, 22): Type mismatch: inferred type is Runnable? but Runnable was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/mvvm/src/main/java/com/arthurivanets/mvvm/util/DataBindingExtensions.kt: (45, 29): Unchecked cast: Observable? to T
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/mvvm/src/main/java/com/arthurivanets/mvvm/util/ViewModelProviderExtensions.kt: (24, 27): 'ViewModelProviders' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/mvvm/src/main/java/com/arthurivanets/mvvm/util/ViewModelProviderExtensions.kt: (36, 12): 'ViewModelProviders' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/mvvm/src/main/java/com/arthurivanets/mvvm/util/ViewModelProviderExtensions.kt: (36, 31): 'of(FragmentActivity, ViewModelProvider.Factory?): ViewModelProvider' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/mvvm/src/main/java/com/arthurivanets/mvvm/util/ViewModelProviderExtensions.kt: (48, 12): 'ViewModelProviders' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/mvvm/src/main/java/com/arthurivanets/mvvm/util/ViewModelProviderExtensions.kt: (48, 31): 'of(Fragment, ViewModelProvider.Factory?): ViewModelProvider' is deprecated. Deprecated in Java
+
+> Task :mvvm:compileDebugJavaWithJavac
 > Task :app:mergeDebugResources
-> Task :app:dataBindingGenBaseClassesDebug
+> Task :mvvm-navigation:dataBindingMergeDependencyArtifactsDebug
+> Task :mvvm-navigation:dataBindingGenBaseClassesDebug
 > Task :app:dataBindingExportFeaturePackageIdsDebug
-> Task :app:mainApkListPersistenceDebug
+> Task :mvvm:bundleLibCompileToJarDebug
+> Task :mvvm-navigation:kaptGenerateStubsDebugKotlin
+> Task :mvvm-navigation-dagger:dataBindingMergeGenClassesDebug
 > Task :app:createDebugCompatibleScreenManifests
-> Task :commons:checkDebugManifest
-> Task :data:checkDebugManifest
-> Task :domain:checkDebugManifest
-> Task :domain:processDebugManifest
-> Task :imageloading:checkDebugManifest
+> Task :app:extractDeepLinksDebug
+> Task :commons:extractDeepLinksDebug
+> Task :data:extractDeepLinksDebug
+> Task :domain:extractDeepLinksDebug
+> Task :imageloading:extractDeepLinksDebug
+> Task :imageloading-glide:extractDeepLinksDebug
 > Task :commons:processDebugManifest
-> Task :imageloading-glide:checkDebugManifest
-> Task :marvel-api:checkDebugManifest
-> Task :data:processDebugManifest
-> Task :imageloading-glide:processDebugManifest
+> Task :marvel-api:extractDeepLinksDebug
 > Task :imageloading:processDebugManifest
+> Task :mvvm:extractDeepLinksDebug
+> Task :mvvm-navigation:extractDeepLinksDebug
+> Task :mvvm-navigation-dagger:extractDeepLinksDebug
+> Task :domain:processDebugManifest
+> Task :data:processDebugManifest
+> Task :commons:compileDebugLibraryResources
 > Task :marvel-api:processDebugManifest
+> Task :imageloading-glide:processDebugManifest
 > Task :app:processDebugManifest
-> Task :domain:parseDebugLibraryResources
-> Task :commons:parseDebugLibraryResources
-> Task :data:parseDebugLibraryResources
-> Task :marvel-api:parseDebugLibraryResources
-> Task :imageloading:parseDebugLibraryResources
+> Task :commons:parseDebugLocalResources
+> Task :data:compileDebugLibraryResources
+> Task :marvel-api:parseDebugLocalResources
+> Task :data:parseDebugLocalResources
+> Task :domain:compileDebugLibraryResources
 > Task :marvel-api:generateDebugRFile
-> Task :imageloading-glide:parseDebugLibraryResources
-> Task :commons:generateDebugBuildConfig
-> Task :imageloading:generateDebugRFile
-> Task :data:generateDebugBuildConfig
-> Task :imageloading-glide:generateDebugRFile
+> Task :imageloading:compileDebugLibraryResources
+> Task :domain:parseDebugLocalResources
+> Task :imageloading:parseDebugLocalResources
+> Task :imageloading-glide:compileDebugLibraryResources
+> Task :marvel-api:compileDebugLibraryResources
+> Task :imageloading-glide:parseDebugLocalResources
+> Task :mvvm-navigation:compileDebugLibraryResources
+> Task :mvvm:compileDebugLibraryResources
+> Task :mvvm-navigation-dagger:compileDebugLibraryResources
 > Task :commons:generateDebugRFile
+> Task :data:generateDebugRFile
+> Task :imageloading:generateDebugRFile
+> Task :commons:generateDebugBuildConfig
+> Task :commons:javaPreCompileDebug
+> Task :imageloading-glide:generateDebugRFile
+> Task :domain:generateDebugRFile
+> Task :data:generateDebugBuildConfig
+> Task :app:processDebugResources
 > Task :commons:kaptGenerateStubsDebugKotlin
+> Task :mvvm-navigation:kaptDebugKotlin
+> Task :mvvm-navigation:compileDebugKotlin
+> Task :mvvm-navigation:compileDebugJavaWithJavac
 > Task :commons:kaptDebugKotlin
 > Task :commons:compileDebugKotlin
-> Task :data:generateDebugRFile
-> Task :commons:javaPreCompileDebug
 > Task :commons:compileDebugJavaWithJavac
-> Task :domain:generateDebugRFile
-> Task :app:processDebugResources
-> Task :commons:bundleLibCompileDebug
+> Task :mvvm-navigation-dagger:dataBindingMergeDependencyArtifactsDebug
+> Task :mvvm-navigation-dagger:dataBindingGenBaseClassesDebug
+> Task :commons:bundleLibCompileToJarDebug
+> Task :mvvm-navigation:bundleLibCompileToJarDebug
+> Task :mvvm-navigation-dagger:kaptGenerateStubsDebugKotlin
+> Task :app:dataBindingMergeGenClassesDebug
 > Task :marvel-api:generateDebugBuildConfig
 > Task :marvel-api:kaptGenerateStubsDebugKotlin
 > Task :marvel-api:kaptDebugKotlin
 > Task :marvel-api:compileDebugKotlin
+> Task :mvvm-navigation-dagger:kaptDebugKotlin
+> Task :data:javaPreCompileDebug
 > Task :domain:generateDebugBuildConfig
+> Task :domain:javaPreCompileDebug
+> Task :app:dataBindingMergeDependencyArtifactsDebug
+> Task :app:dataBindingGenBaseClassesDebug
 > Task :marvel-api:javaPreCompileDebug
 > Task :marvel-api:compileDebugJavaWithJavac
 > Task :imageloading:generateDebugBuildConfig
+> Task :marvel-api:bundleLibCompileToJarDebug
+> Task :data:kaptGenerateStubsDebugKotlin
 > Task :imageloading:kaptGenerateStubsDebugKotlin
 > Task :imageloading:kaptDebugKotlin
 > Task :imageloading:compileDebugKotlin
-> Task :marvel-api:bundleLibCompileDebug
-> Task :data:kaptGenerateStubsDebugKotlin
-
-> Task :data:kaptDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/data/build/tmp/kapt3/stubs/debug/com/arthurivanets/sample/data/db/Database.java:7: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
-public abstract class Database extends androidx.room.RoomDatabase {
-                ^
-w: [kapt] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: androidx.room.RoomProcessor (DYNAMIC).
-
-> Task :data:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/data/src/main/java/com/arthurivanets/sample/data/util/TimeFormattingUtil.kt: (65, 9): Unsafe use of a nullable receiver of type Date?
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/data/src/main/java/com/arthurivanets/sample/data/util/TimeFormattingUtil.kt: (81, 9): Unsafe use of a nullable receiver of type Date?
-
 > Task :imageloading:javaPreCompileDebug
 > Task :imageloading:compileDebugJavaWithJavac
-> Task :data:javaPreCompileDebug
-> Task :data:compileDebugJavaWithJavac
-> Task :imageloading:bundleLibCompileDebug
 > Task :imageloading-glide:generateDebugBuildConfig
+> Task :mvvm-navigation-dagger:compileDebugKotlin
+> Task :imageloading:bundleLibCompileToJarDebug
+> Task :imageloading-glide:javaPreCompileDebug
+> Task :mvvm-navigation-dagger:javaPreCompileDebug
+
+> Task :data:kaptDebugKotlin
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/data/build/tmp/kapt3/stubs/debug/com/arthurivanets/sample/data/db/Database.java:7: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
+public abstract class Database extends androidx.room.RoomDatabase {
+                ^
+> Task :mvvm-navigation-dagger:compileDebugJavaWithJavac
 > Task :imageloading-glide:kaptGenerateStubsDebugKotlin
 > Task :imageloading-glide:kaptDebugKotlin
 > Task :imageloading-glide:compileDebugKotlin
-> Task :data:bundleLibCompileDebug
-> Task :domain:kaptGenerateStubsDebugKotlin
-
-> Task :domain:kaptDebugKotlin
-w: warning: unknown enum constant JsonInclude$Include.NON_NULL
-  reason: class file for com.fasterxml.jackson.annotation.JsonInclude$Include not found
-w: warning: unknown enum constant JsonInclude$Include.NON_NULL
-w: warning: unknown enum constant JsonInclude$Include.NON_NULL
-w: warning: unknown enum constant JsonInclude$Include.NON_NULL
-  reason: class file for com.fasterxml.jackson.annotation.JsonInclude$Include not found
-w: warning: unknown enum constant JsonInclude$Include.NON_NULL
-w: warning: unknown enum constant JsonInclude$Include.NON_NULL
-w: warning: unknown enum constant JsonInclude$Include.NON_NULL
-  reason: class file for com.fasterxml.jackson.annotation.JsonInclude$Include not found
-w: warning: unknown enum constant JsonInclude$Include.NON_NULL
-w: warning: unknown enum constant JsonInclude$Include.NON_NULL
-w: warning: unknown enum constant JsonInclude$Include.NON_NULL
-  reason: class file for com.fasterxml.jackson.annotation.JsonInclude$Include not found
-w: warning: unknown enum constant JsonInclude$Include.NON_NULL
-w: warning: unknown enum constant JsonInclude$Include.NON_NULL
-
-> Task :domain:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/domain/src/main/java/com/arthurivanets/sample/domain/entities/Character.kt: (33, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/domain/src/main/java/com/arthurivanets/sample/domain/entities/Character.kt: (34, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/domain/src/main/java/com/arthurivanets/sample/domain/entities/Character.kt: (35, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/domain/src/main/java/com/arthurivanets/sample/domain/entities/Comics.kt: (45, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/domain/src/main/java/com/arthurivanets/sample/domain/entities/Comics.kt: (46, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/domain/src/main/java/com/arthurivanets/sample/domain/entities/Comics.kt: (47, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/domain/src/main/java/com/arthurivanets/sample/domain/entities/Comics.kt: (48, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/domain/src/main/java/com/arthurivanets/sample/domain/entities/Comics.kt: (49, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/domain/src/main/java/com/arthurivanets/sample/domain/entities/Event.kt: (36, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/domain/src/main/java/com/arthurivanets/sample/domain/entities/Event.kt: (37, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/domain/src/main/java/com/arthurivanets/sample/domain/entities/Image.kt: (28, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
-
-> Task :imageloading-glide:javaPreCompileDebug
 > Task :imageloading-glide:compileDebugJavaWithJavac
-> Task :domain:javaPreCompileDebug
-> Task :domain:compileDebugJavaWithJavac
-> Task :imageloading-glide:bundleLibCompileDebug
+> Task :app:javaPreCompileDebug
+> Task :imageloading-glide:bundleLibCompileToJarDebug
+
+> Task :data:kaptDebugKotlin
+[WARN] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: androidx.room.RoomProcessor (DYNAMIC).
+
+> Task :data:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/data/src/main/java/com/arthurivanets/sample/data/util/TimeFormattingUtil.kt: (65, 9): Unsafe use of a nullable receiver of type Date?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/data/src/main/java/com/arthurivanets/sample/data/util/TimeFormattingUtil.kt: (81, 9): Unsafe use of a nullable receiver of type Date?
+
+> Task :data:compileDebugJavaWithJavac
+> Task :mvvm-navigation-dagger:bundleLibCompileToJarDebug
+> Task :data:bundleLibCompileToJarDebug
+> Task :domain:kaptGenerateStubsDebugKotlin
 > Task :app:mergeDebugShaders
-> Task :app:compileDebugShaders
-> Task :app:generateDebugAssets
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
 > Task :commons:mergeDebugShaders
-> Task :commons:compileDebugShaders
-> Task :commons:generateDebugAssets
+> Task :commons:compileDebugShaders NO-SOURCE
+> Task :commons:generateDebugAssets UP-TO-DATE
 > Task :commons:packageDebugAssets
 > Task :data:mergeDebugShaders
-> Task :data:compileDebugShaders
-> Task :data:generateDebugAssets
+> Task :data:compileDebugShaders NO-SOURCE
+> Task :data:generateDebugAssets UP-TO-DATE
 > Task :data:packageDebugAssets
 > Task :domain:mergeDebugShaders
-> Task :domain:compileDebugShaders
-> Task :domain:generateDebugAssets
+> Task :domain:compileDebugShaders NO-SOURCE
+> Task :domain:generateDebugAssets UP-TO-DATE
 > Task :domain:packageDebugAssets
 > Task :imageloading:mergeDebugShaders
-> Task :imageloading:compileDebugShaders
-> Task :imageloading:generateDebugAssets
+> Task :imageloading:compileDebugShaders NO-SOURCE
+> Task :imageloading:generateDebugAssets UP-TO-DATE
 > Task :imageloading:packageDebugAssets
 > Task :imageloading-glide:mergeDebugShaders
-> Task :imageloading-glide:compileDebugShaders
-> Task :imageloading-glide:generateDebugAssets
+> Task :imageloading-glide:compileDebugShaders NO-SOURCE
+> Task :imageloading-glide:generateDebugAssets UP-TO-DATE
 > Task :imageloading-glide:packageDebugAssets
 > Task :marvel-api:mergeDebugShaders
-> Task :marvel-api:compileDebugShaders
-> Task :marvel-api:generateDebugAssets
+> Task :marvel-api:compileDebugShaders NO-SOURCE
+> Task :marvel-api:generateDebugAssets UP-TO-DATE
 > Task :marvel-api:packageDebugAssets
+> Task :mvvm:mergeDebugShaders
+> Task :mvvm:compileDebugShaders NO-SOURCE
+> Task :mvvm:generateDebugAssets UP-TO-DATE
+> Task :mvvm:packageDebugAssets
+> Task :mvvm-navigation:mergeDebugShaders
+> Task :mvvm-navigation:compileDebugShaders NO-SOURCE
+> Task :mvvm-navigation:generateDebugAssets UP-TO-DATE
+> Task :mvvm-navigation:packageDebugAssets
+> Task :mvvm-navigation-dagger:mergeDebugShaders
+> Task :mvvm-navigation-dagger:compileDebugShaders NO-SOURCE
+> Task :mvvm-navigation-dagger:generateDebugAssets UP-TO-DATE
+> Task :mvvm-navigation-dagger:packageDebugAssets
 > Task :app:mergeDebugAssets
-> Task :domain:bundleLibCompileDebug
-> Task :app:kaptGenerateStubsDebugKotlin
-
-> Task :app:kaptDebugKotlin
-w: [kapt] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: android.databinding.annotationprocessor.ProcessDataBinding (DYNAMIC).
-
-> Task :app:compileDebugKotlin
-> Task :app:javaPreCompileDebug
-> Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugSources
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :commons:processDebugJavaRes NO-SOURCE
 > Task :data:processDebugJavaRes NO-SOURCE
 > Task :domain:processDebugJavaRes NO-SOURCE
 > Task :imageloading:processDebugJavaRes NO-SOURCE
 > Task :imageloading-glide:processDebugJavaRes NO-SOURCE
-> Task :commons:bundleLibResDebug
+> Task :data:bundleLibResDebug
 > Task :marvel-api:processDebugJavaRes NO-SOURCE
 > Task :imageloading:bundleLibResDebug
+> Task :mvvm:processDebugJavaRes NO-SOURCE
 > Task :imageloading-glide:bundleLibResDebug
-> Task :domain:bundleLibResDebug
-> Task :data:bundleLibResDebug
+> Task :mvvm-navigation:processDebugJavaRes NO-SOURCE
 > Task :marvel-api:bundleLibResDebug
-> Task :app:mergeDebugJavaResource
+> Task :mvvm-navigation-dagger:processDebugJavaRes NO-SOURCE
+> Task :commons:bundleLibResDebug
+> Task :mvvm-navigation:bundleLibResDebug
+> Task :mvvm:bundleLibResDebug
+> Task :mvvm-navigation-dagger:bundleLibResDebug
+
+> Task :domain:kaptDebugKotlin
+warning: unknown enum constant JsonInclude$Include.NON_NULL
+  reason: class file for com.fasterxml.jackson.annotation.JsonInclude$Include not foundwarning: unknown enum constant JsonInclude$Include.NON_NULLwarning: unknown enum constant JsonInclude$Include.NON_NULLwarning: unknown enum constant JsonInclude$Include.NON_NULL
+  reason: class file for com.fasterxml.jackson.annotation.JsonInclude$Include not foundwarning: unknown enum constant JsonInclude$Include.NON_NULLwarning: unknown enum constant JsonInclude$Include.NON_NULLwarning: unknown enum constant JsonInclude$Include.NON_NULL
+  reason: class file for com.fasterxml.jackson.annotation.JsonInclude$Include not foundwarning: unknown enum constant JsonInclude$Include.NON_NULLwarning: unknown enum constant JsonInclude$Include.NON_NULLwarning: unknown enum constant JsonInclude$Include.NON_NULL
+  reason: class file for com.fasterxml.jackson.annotation.JsonInclude$Include not foundwarning: unknown enum constant JsonInclude$Include.NON_NULLwarning: unknown enum constant JsonInclude$Include.NON_NULL
+> Task :domain:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/domain/src/main/java/com/arthurivanets/sample/domain/entities/Character.kt: (33, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/domain/src/main/java/com/arthurivanets/sample/domain/entities/Character.kt: (34, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/domain/src/main/java/com/arthurivanets/sample/domain/entities/Character.kt: (35, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/domain/src/main/java/com/arthurivanets/sample/domain/entities/Comics.kt: (45, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/domain/src/main/java/com/arthurivanets/sample/domain/entities/Comics.kt: (46, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/domain/src/main/java/com/arthurivanets/sample/domain/entities/Comics.kt: (47, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/domain/src/main/java/com/arthurivanets/sample/domain/entities/Comics.kt: (48, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/domain/src/main/java/com/arthurivanets/sample/domain/entities/Comics.kt: (49, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/domain/src/main/java/com/arthurivanets/sample/domain/entities/Event.kt: (36, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/domain/src/main/java/com/arthurivanets/sample/domain/entities/Event.kt: (37, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/domain/src/main/java/com/arthurivanets/sample/domain/entities/Image.kt: (28, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
+
+> Task :domain:compileDebugJavaWithJavac
+> Task :domain:bundleLibResDebug
+> Task :domain:bundleLibCompileToJarDebug
+> Task :app:kaptGenerateStubsDebugKotlin
+
+> Task :app:kaptDebugKotlin
+Note: [1] Wrote GeneratedAppGlideModule with: [com.bumptech.glide.integration.okhttp3.OkHttpLibraryGlideModule]
 > Task :app:checkDebugDuplicateClasses
-> Task :imageloading:bundleLibRuntimeDebug
-> Task :imageloading-glide:bundleLibRuntimeDebug
-> Task :marvel-api:bundleLibRuntimeDebug
 > Task :app:desugarDebugFileDependencies
-> Task :commons:bundleLibRuntimeDebug
-> Task :domain:bundleLibRuntimeDebug
-> Task :app:validateSigningDebug
-> Task :app:signingConfigWriterDebug
-> Task :data:bundleLibRuntimeDebug
-> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:compileDebugKotlin
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :mvvm:bundleLibRuntimeToJarDebug
+> Task :mvvm-navigation:bundleLibRuntimeToJarDebug
+> Task :commons:bundleLibRuntimeToJarDebug
+> Task :mvvm-navigation-dagger:bundleLibRuntimeToJarDebug
+> Task :marvel-api:bundleLibRuntimeToJarDebug
+> Task :domain:bundleLibRuntimeToJarDebug
+> Task :data:bundleLibRuntimeToJarDebug
+> Task :imageloading:bundleLibRuntimeToJarDebug
+> Task :imageloading-glide:bundleLibRuntimeToJarDebug
+> Task :app:dexBuilderDebug
 > Task :app:mergeLibDexDebug
 > Task :app:mergeDebugJniLibFolders
 > Task :commons:mergeDebugJniLibFolders
 > Task :data:mergeDebugJniLibFolders
-> Task :commons:mergeDebugNativeLibs
-> Task :commons:stripDebugDebugSymbols
-> Task :commons:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :domain:mergeDebugJniLibFolders
+> Task :data:mergeDebugNativeLibs
+> Task :data:stripDebugDebugSymbols NO-SOURCE
+> Task :data:copyDebugJniLibsProjectOnly
 > Task :imageloading:mergeDebugJniLibFolders
 > Task :domain:mergeDebugNativeLibs
-> Task :domain:stripDebugDebugSymbols
-> Task :domain:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :domain:stripDebugDebugSymbols NO-SOURCE
+> Task :domain:copyDebugJniLibsProjectOnly
 > Task :imageloading-glide:mergeDebugJniLibFolders
-> Task :imageloading:mergeDebugNativeLibs
-> Task :imageloading:stripDebugDebugSymbols
-> Task :imageloading:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :marvel-api:mergeDebugJniLibFolders
 > Task :imageloading-glide:mergeDebugNativeLibs
-> Task :imageloading-glide:stripDebugDebugSymbols
-> Task :imageloading-glide:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :imageloading-glide:stripDebugDebugSymbols NO-SOURCE
+> Task :imageloading-glide:copyDebugJniLibsProjectOnly
+> Task :mvvm:mergeDebugJniLibFolders
+> Task :marvel-api:mergeDebugNativeLibs
+> Task :marvel-api:stripDebugDebugSymbols NO-SOURCE
+> Task :marvel-api:copyDebugJniLibsProjectOnly
+> Task :mvvm-navigation:mergeDebugJniLibFolders
+> Task :mvvm:mergeDebugNativeLibs
+> Task :mvvm:stripDebugDebugSymbols NO-SOURCE
+> Task :mvvm:copyDebugJniLibsProjectOnly
+> Task :mvvm-navigation-dagger:mergeDebugJniLibFolders
+> Task :mvvm-navigation:mergeDebugNativeLibs
+> Task :mvvm-navigation:stripDebugDebugSymbols NO-SOURCE
+> Task :mvvm-navigation:copyDebugJniLibsProjectOnly
+> Task :app:validateSigningDebug
 > Task :app:preReleaseBuild UP-TO-DATE
 > Task :commons:preReleaseBuild UP-TO-DATE
 > Task :commons:compileReleaseAidl NO-SOURCE
@@ -330,20 +462,66 @@ w: [kapt] Incremental annotation processing requested, but support is disabled b
 > Task :imageloading:compileReleaseAidl NO-SOURCE
 > Task :imageloading-glide:preReleaseBuild UP-TO-DATE
 > Task :imageloading-glide:compileReleaseAidl NO-SOURCE
+> Task :mvvm:preReleaseBuild UP-TO-DATE
+> Task :mvvm:compileReleaseAidl NO-SOURCE
+> Task :mvvm-navigation:preReleaseBuild UP-TO-DATE
+> Task :mvvm-navigation:compileReleaseAidl NO-SOURCE
+> Task :mvvm-navigation-dagger:preReleaseBuild UP-TO-DATE
+> Task :mvvm-navigation-dagger:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :commons:packageReleaseRenderscript NO-SOURCE
 > Task :domain:packageReleaseRenderscript NO-SOURCE
 > Task :imageloading:packageReleaseRenderscript NO-SOURCE
 > Task :imageloading-glide:packageReleaseRenderscript NO-SOURCE
 > Task :marvel-api:packageReleaseRenderscript NO-SOURCE
+> Task :mvvm:packageReleaseRenderscript NO-SOURCE
+> Task :mvvm-navigation:packageReleaseRenderscript NO-SOURCE
+> Task :mvvm-navigation-dagger:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
-> Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
 > Task :app:writeReleaseApplicationId
 > Task :app:generateSafeArgsRelease
 > Task :app:generateReleaseSources
 > Task :app:dataBindingExportBuildInfoRelease
-> Task :app:dataBindingMergeDependencyArtifactsRelease
+> Task :commons:mergeDebugNativeLibs
+> Task :commons:stripDebugDebugSymbols NO-SOURCE
+> Task :commons:copyDebugJniLibsProjectOnly
+> Task :mvvm-navigation-dagger:mergeDebugNativeLibs
+> Task :mvvm-navigation-dagger:stripDebugDebugSymbols NO-SOURCE
+> Task :mvvm-navigation-dagger:copyDebugJniLibsProjectOnly
+> Task :mvvm:compileReleaseRenderscript NO-SOURCE
+> Task :mvvm:generateReleaseResValues
+> Task :mvvm:generateReleaseResources
+> Task :mvvm:packageReleaseResources
+> Task :mvvm:dataBindingMergeGenClassesRelease
+> Task :mvvm:generateReleaseBuildConfig
+> Task :mvvm:generateReleaseSources
+> Task :mvvm:dataBindingExportBuildInfoRelease
+> Task :mvvm:parseReleaseLocalResources
+> Task :mvvm-navigation:compileReleaseRenderscript NO-SOURCE
+> Task :mvvm-navigation:generateReleaseResValues
+> Task :mvvm-navigation:generateReleaseResources
+> Task :mvvm-navigation:packageReleaseResources
+> Task :imageloading:mergeDebugNativeLibs
+> Task :imageloading:stripDebugDebugSymbols NO-SOURCE
+> Task :imageloading:copyDebugJniLibsProjectOnly
+> Task :mvvm-navigation:parseReleaseLocalResources
+> Task :mvvm:dataBindingMergeDependencyArtifactsRelease
+> Task :mvvm:dataBindingGenBaseClassesRelease
+> Task :mvvm:javaPreCompileRelease
+> Task :mvvm-navigation:generateReleaseBuildConfig
+> Task :mvvm-navigation:generateReleaseSources
+> Task :mvvm-navigation:dataBindingExportBuildInfoRelease
+> Task :app:mergeDebugJavaResource
+> Task :mvvm-navigation-dagger:compileReleaseRenderscript NO-SOURCE
+> Task :mvvm-navigation-dagger:generateReleaseResValues
+> Task :mvvm-navigation-dagger:generateReleaseResources
+> Task :mvvm-navigation-dagger:packageReleaseResources
+> Task :mvvm-navigation:processReleaseManifest
+> Task :mvvm-navigation:dataBindingMergeGenClassesRelease
+> Task :mvvm-navigation-dagger:generateReleaseBuildConfig
+> Task :mvvm-navigation-dagger:generateReleaseSources
+> Task :mvvm-navigation-dagger:dataBindingExportBuildInfoRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
 > Task :commons:compileReleaseRenderscript NO-SOURCE
@@ -351,6 +529,7 @@ w: [kapt] Incremental annotation processing requested, but support is disabled b
 > Task :commons:generateReleaseResources
 > Task :commons:packageReleaseResources
 > Task :data:compileReleaseRenderscript NO-SOURCE
+> Task :mvvm-navigation-dagger:processReleaseManifest
 > Task :data:generateReleaseResValues
 > Task :data:generateReleaseResources
 > Task :data:packageReleaseResources
@@ -371,228 +550,289 @@ w: [kapt] Incremental annotation processing requested, but support is disabled b
 > Task :marvel-api:generateReleaseResValues
 > Task :marvel-api:generateReleaseResources
 > Task :marvel-api:packageReleaseResources
-> Task :app:dataBindingExportFeaturePackageIdsRelease
-> Task :app:mainApkListPersistenceRelease
+> Task :mvvm:processReleaseManifest
+> Task :mvvm-navigation:javaPreCompileRelease
+> Task :mvvm-navigation-dagger:parseReleaseLocalResources
 > Task :app:createReleaseCompatibleScreenManifests
-> Task :commons:checkReleaseManifest
-> Task :app:dataBindingMergeGenClassesRelease
-> Task :data:checkReleaseManifest
-> Task :domain:checkReleaseManifest
-> Task :data:mergeDebugNativeLibs
-> Task :data:stripDebugDebugSymbols
-> Task :data:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :imageloading:checkReleaseManifest
-> Task :domain:processReleaseManifest
-> Task :imageloading-glide:checkReleaseManifest
-> Task :app:mergeProjectDexDebug
-> Task :marvel-api:checkReleaseManifest
+> Task :app:extractDeepLinksRelease
+> Task :commons:extractDeepLinksRelease
+> Task :app:dataBindingExportFeaturePackageIdsRelease
+> Task :data:extractDeepLinksRelease
+> Task :domain:extractDeepLinksRelease
+> Task :commons:processReleaseManifest
+> Task :imageloading:extractDeepLinksRelease
 > Task :data:processReleaseManifest
+> Task :mvvm:generateReleaseRFile
+> Task :mvvm:kaptGenerateStubsReleaseKotlin
+> Task :app:mergeExtDexDebug
+> Task :imageloading-glide:extractDeepLinksRelease
 > Task :imageloading:processReleaseManifest
-> Task :marvel-api:mergeDebugNativeLibs
-> Task :marvel-api:stripDebugDebugSymbols
-> Task :marvel-api:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :marvel-api:extractDeepLinksRelease
+> Task :domain:processReleaseManifest
+> Task :mvvm:extractDeepLinksRelease
+> Task :mvvm-navigation:extractDeepLinksRelease
+> Task :mvvm-navigation-dagger:extractDeepLinksRelease
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols NO-SOURCE
 > Task :marvel-api:processReleaseManifest
-> Task :data:parseReleaseLibraryResources
-> Task :marvel-api:parseReleaseLibraryResources
-> Task :domain:parseReleaseLibraryResources
+> Task :app:mergeProjectDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :mvvm-navigation:generateReleaseRFile
 > Task :imageloading-glide:processReleaseManifest
-> Task :imageloading:parseReleaseLibraryResources
-> Task :imageloading-glide:parseReleaseLibraryResources
+> Task :app:processReleaseManifest
+> Task :commons:parseReleaseLocalResources
+> Task :data:compileReleaseLibraryResources
+> Task :mvvm-navigation-dagger:generateReleaseRFile
+> Task :commons:compileReleaseLibraryResources
+> Task :domain:compileReleaseLibraryResources
+> Task :mvvm:kaptReleaseKotlin
+
+> Task :mvvm:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/mvvm/src/main/java/com/arthurivanets/mvvm/Channel.kt: (97, 22): Type mismatch: inferred type is Runnable? but Runnable was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/mvvm/src/main/java/com/arthurivanets/mvvm/util/DataBindingExtensions.kt: (45, 29): Unchecked cast: Observable? to T
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/mvvm/src/main/java/com/arthurivanets/mvvm/util/ViewModelProviderExtensions.kt: (24, 27): 'ViewModelProviders' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/mvvm/src/main/java/com/arthurivanets/mvvm/util/ViewModelProviderExtensions.kt: (36, 12): 'ViewModelProviders' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/mvvm/src/main/java/com/arthurivanets/mvvm/util/ViewModelProviderExtensions.kt: (36, 31): 'of(FragmentActivity, ViewModelProvider.Factory?): ViewModelProvider' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/mvvm/src/main/java/com/arthurivanets/mvvm/util/ViewModelProviderExtensions.kt: (48, 12): 'ViewModelProviders' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/mvvm/src/main/java/com/arthurivanets/mvvm/util/ViewModelProviderExtensions.kt: (48, 31): 'of(Fragment, ViewModelProvider.Factory?): ViewModelProvider' is deprecated. Deprecated in Java
+
+> Task :mvvm:compileReleaseJavaWithJavac
+> Task :commons:generateReleaseRFile
+> Task :marvel-api:parseReleaseLocalResources
+> Task :imageloading:compileReleaseLibraryResources
+> Task :domain:parseReleaseLocalResources
+> Task :mvvm:bundleLibCompileToJarRelease
+> Task :mvvm-navigation:dataBindingMergeDependencyArtifactsRelease
+> Task :mvvm-navigation:dataBindingGenBaseClassesRelease
+> Task :mvvm-navigation:kaptGenerateStubsReleaseKotlin
+> Task :marvel-api:compileReleaseLibraryResources
+> Task :marvel-api:generateReleaseRFile
+> Task :imageloading-glide:compileReleaseLibraryResources
+> Task :mvvm-navigation-dagger:dataBindingMergeGenClassesRelease
+> Task :mvvm-navigation-dagger:compileReleaseLibraryResources
 > Task :commons:generateReleaseBuildConfig
+> Task :commons:kaptGenerateStubsReleaseKotlin
+> Task :imageloading-glide:parseReleaseLocalResources
+> Task :mvvm:compileReleaseLibraryResources
 > Task :data:generateReleaseBuildConfig
 > Task :marvel-api:generateReleaseBuildConfig
-> Task :domain:generateReleaseBuildConfig
-> Task :imageloading:generateReleaseBuildConfig
-> Task :imageloading-glide:generateReleaseBuildConfig
-> Task :commons:parseReleaseLibraryResources
-> Task :marvel-api:generateReleaseRFile
 > Task :marvel-api:kaptGenerateStubsReleaseKotlin
 > Task :marvel-api:kaptReleaseKotlin
 > Task :marvel-api:compileReleaseKotlin
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
-> Task :app:mergeReleaseResources
-> Task :app:dataBindingGenBaseClassesRelease
-> Task :commons:processReleaseManifest
-> Task :app:processReleaseManifest
+> Task :data:parseReleaseLocalResources
+> Task :commons:kaptReleaseKotlin
+> Task :commons:compileReleaseKotlin
+> Task :mvvm-navigation:compileReleaseLibraryResources
+> Task :domain:generateReleaseBuildConfig
+> Task :mvvm-navigation:kaptReleaseKotlin
+> Task :mvvm-navigation:compileReleaseKotlin
+> Task :mvvm-navigation:compileReleaseJavaWithJavac
+> Task :domain:javaPreCompileRelease
+> Task :marvel-api:javaPreCompileRelease
+> Task :marvel-api:compileReleaseJavaWithJavac
+> Task :commons:javaPreCompileRelease
+> Task :commons:compileReleaseJavaWithJavac
+> Task :mvvm-navigation:bundleLibCompileToJarRelease
+> Task :imageloading:generateReleaseBuildConfig
+> Task :commons:bundleLibCompileToJarRelease
+> Task :imageloading-glide:generateReleaseBuildConfig
+> Task :imageloading:javaPreCompileRelease
+> Task :marvel-api:bundleLibCompileToJarRelease
+> Task :mvvm-navigation-dagger:dataBindingMergeDependencyArtifactsRelease
+> Task :mvvm-navigation-dagger:dataBindingGenBaseClassesRelease
+> Task :mvvm-navigation-dagger:kaptGenerateStubsReleaseKotlin
+> Task :app:javaPreCompileRelease
 > Task :data:generateReleaseRFile
+> Task :imageloading-glide:javaPreCompileRelease
+> Task :data:kaptGenerateStubsReleaseKotlin
+> Task :mvvm-navigation-dagger:javaPreCompileRelease
+> Task :app:dataBindingMergeGenClassesRelease
+> Task :app:mergeReleaseResources
+> Task :imageloading:parseReleaseLocalResources
+> Task :mvvm-navigation-dagger:kaptReleaseKotlin
+> Task :mvvm-navigation-dagger:compileReleaseKotlin
+> Task :mvvm-navigation-dagger:compileReleaseJavaWithJavac
+> Task :domain:generateReleaseRFile
+> Task :data:javaPreCompileRelease
+> Task :app:dataBindingMergeDependencyArtifactsRelease
+> Task :app:dataBindingGenBaseClassesRelease
 > Task :imageloading:generateReleaseRFile
 > Task :imageloading:kaptGenerateStubsReleaseKotlin
 > Task :imageloading:kaptReleaseKotlin
 > Task :imageloading:compileReleaseKotlin
-> Task :commons:generateReleaseRFile
-> Task :imageloading:javaPreCompileRelease
-> Task :commons:kaptGenerateStubsReleaseKotlin
-> Task :commons:kaptReleaseKotlin
-> Task :commons:compileReleaseKotlin
-> Task :app:mergeExtDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
 > Task :imageloading:compileReleaseJavaWithJavac
-> Task :marvel-api:javaPreCompileRelease
-> Task :marvel-api:compileReleaseJavaWithJavac
+> Task :mvvm-navigation-dagger:bundleLibCompileToJarRelease
 > Task :imageloading-glide:generateReleaseRFile
-> Task :imageloading:bundleLibCompileRelease
+
+> Task :data:kaptReleaseKotlin
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/data/build/tmp/kapt3/stubs/release/com/arthurivanets/sample/data/db/Database.java:7: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
+public abstract class Database extends androidx.room.RoomDatabase {
+                ^[WARN] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: androidx.room.RoomProcessor (DYNAMIC).
+
+> Task :app:processReleaseResources
+
+> Task :data:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/data/src/main/java/com/arthurivanets/sample/data/util/TimeFormattingUtil.kt: (65, 9): Unsafe use of a nullable receiver of type Date?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/data/src/main/java/com/arthurivanets/sample/data/util/TimeFormattingUtil.kt: (81, 9): Unsafe use of a nullable receiver of type Date?
+
+> Task :data:compileReleaseJavaWithJavac
+> Task :imageloading:bundleLibCompileToJarRelease
 > Task :imageloading-glide:kaptGenerateStubsReleaseKotlin
 > Task :imageloading-glide:kaptReleaseKotlin
 > Task :imageloading-glide:compileReleaseKotlin
-> Task :commons:javaPreCompileRelease
-> Task :commons:compileReleaseJavaWithJavac
-> Task :marvel-api:bundleLibCompileRelease
-> Task :data:kaptGenerateStubsReleaseKotlin
-
-> Task :data:kaptReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/data/build/tmp/kapt3/stubs/release/com/arthurivanets/sample/data/db/Database.java:7: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
-public abstract class Database extends androidx.room.RoomDatabase {
-                ^
-w: [kapt] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: androidx.room.RoomProcessor (DYNAMIC).
-
-> Task :data:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/data/src/main/java/com/arthurivanets/sample/data/util/TimeFormattingUtil.kt: (65, 9): Unsafe use of a nullable receiver of type Date?
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/data/src/main/java/com/arthurivanets/sample/data/util/TimeFormattingUtil.kt: (81, 9): Unsafe use of a nullable receiver of type Date?
-
-> Task :domain:generateReleaseRFile
-> Task :app:processReleaseResources
-> Task :data:javaPreCompileRelease
-> Task :data:compileReleaseJavaWithJavac
-> Task :commons:bundleLibCompileRelease
-> Task :imageloading-glide:javaPreCompileRelease
 > Task :imageloading-glide:compileReleaseJavaWithJavac
-> Task :data:bundleLibCompileRelease
+> Task :data:bundleLibCompileToJarRelease
 > Task :domain:kaptGenerateStubsReleaseKotlin
-
-> Task :domain:kaptReleaseKotlin
-w: warning: unknown enum constant JsonInclude$Include.NON_NULL
-  reason: class file for com.fasterxml.jackson.annotation.JsonInclude$Include not found
-w: warning: unknown enum constant JsonInclude$Include.NON_NULL
-w: warning: unknown enum constant JsonInclude$Include.NON_NULL
-w: warning: unknown enum constant JsonInclude$Include.NON_NULL
-  reason: class file for com.fasterxml.jackson.annotation.JsonInclude$Include not found
-w: warning: unknown enum constant JsonInclude$Include.NON_NULL
-w: warning: unknown enum constant JsonInclude$Include.NON_NULL
-w: warning: unknown enum constant JsonInclude$Include.NON_NULL
-  reason: class file for com.fasterxml.jackson.annotation.JsonInclude$Include not found
-w: warning: unknown enum constant JsonInclude$Include.NON_NULL
-w: warning: unknown enum constant JsonInclude$Include.NON_NULL
-w: warning: unknown enum constant JsonInclude$Include.NON_NULL
-  reason: class file for com.fasterxml.jackson.annotation.JsonInclude$Include not found
-w: warning: unknown enum constant JsonInclude$Include.NON_NULL
-w: warning: unknown enum constant JsonInclude$Include.NON_NULL
-
-> Task :domain:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/domain/src/main/java/com/arthurivanets/sample/domain/entities/Character.kt: (33, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/domain/src/main/java/com/arthurivanets/sample/domain/entities/Character.kt: (34, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/domain/src/main/java/com/arthurivanets/sample/domain/entities/Character.kt: (35, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/domain/src/main/java/com/arthurivanets/sample/domain/entities/Comics.kt: (45, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/domain/src/main/java/com/arthurivanets/sample/domain/entities/Comics.kt: (46, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/domain/src/main/java/com/arthurivanets/sample/domain/entities/Comics.kt: (47, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/domain/src/main/java/com/arthurivanets/sample/domain/entities/Comics.kt: (48, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/domain/src/main/java/com/arthurivanets/sample/domain/entities/Comics.kt: (49, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/domain/src/main/java/com/arthurivanets/sample/domain/entities/Event.kt: (36, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/domain/src/main/java/com/arthurivanets/sample/domain/entities/Event.kt: (37, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/domain/src/main/java/com/arthurivanets/sample/domain/entities/Image.kt: (28, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
-
-> Task :imageloading-glide:bundleLibCompileRelease
-> Task :domain:javaPreCompileRelease
-> Task :domain:compileReleaseJavaWithJavac
-> Task :domain:bundleLibCompileRelease
-> Task :app:kaptGenerateStubsReleaseKotlin
-
-> Task :app:kaptReleaseKotlin
-w: [kapt] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: android.databinding.annotationprocessor.ProcessDataBinding (DYNAMIC).
-
-> Task :app:compileReleaseKotlin
-> Task :commons:prepareLintJarForPublish
-> Task :app:javaPreCompileRelease
-> Task :app:compileReleaseJavaWithJavac
-> Task :app:compileReleaseSources
+> Task :imageloading-glide:bundleLibCompileToJarRelease
+> Task :data:prepareLintJarForPublish
 > Task :imageloading:prepareLintJarForPublish
 > Task :imageloading-glide:prepareLintJarForPublish
-> Task :imageloading:bundleLibRuntimeRelease
+> Task :commons:prepareLintJarForPublish
+> Task :mvvm-navigation:bundleLibRuntimeToJarRelease
+> Task :commons:bundleLibRuntimeToJarRelease
 > Task :domain:prepareLintJarForPublish
-> Task :commons:bundleLibRuntimeRelease
+> Task :mvvm:bundleLibRuntimeToJarRelease
+> Task :mvvm-navigation-dagger:bundleLibRuntimeToJarRelease
+> Task :marvel-api:bundleLibRuntimeToJarRelease
+> Task :imageloading:bundleLibRuntimeToJarRelease
+> Task :data:bundleLibRuntimeToJarRelease
 > Task :marvel-api:prepareLintJarForPublish
+> Task :imageloading-glide:bundleLibRuntimeToJarRelease
 > Task :app:checkReleaseDuplicateClasses
-> Task :imageloading-glide:bundleLibRuntimeRelease
-> Task :marvel-api:bundleLibRuntimeRelease
-> Task :data:prepareLintJarForPublish
 
-> Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/e958485edbbaa2587d68f73f42764b52/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+> Task :domain:kaptReleaseKotlin
+warning: unknown enum constant JsonInclude$Include.NON_NULL
+  reason: class file for com.fasterxml.jackson.annotation.JsonInclude$Include not foundwarning: unknown enum constant JsonInclude$Include.NON_NULLwarning: unknown enum constant JsonInclude$Include.NON_NULLwarning: unknown enum constant JsonInclude$Include.NON_NULL
+  reason: class file for com.fasterxml.jackson.annotation.JsonInclude$Include not foundwarning: unknown enum constant JsonInclude$Include.NON_NULLwarning: unknown enum constant JsonInclude$Include.NON_NULLwarning: unknown enum constant JsonInclude$Include.NON_NULL
+  reason: class file for com.fasterxml.jackson.annotation.JsonInclude$Include not foundwarning: unknown enum constant JsonInclude$Include.NON_NULLwarning: unknown enum constant JsonInclude$Include.NON_NULLwarning: unknown enum constant JsonInclude$Include.NON_NULL
+  reason: class file for com.fasterxml.jackson.annotation.JsonInclude$Include not foundwarning: unknown enum constant JsonInclude$Include.NON_NULLwarning: unknown enum constant JsonInclude$Include.NON_NULL
+> Task :domain:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/domain/src/main/java/com/arthurivanets/sample/domain/entities/Character.kt: (33, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/domain/src/main/java/com/arthurivanets/sample/domain/entities/Character.kt: (34, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/domain/src/main/java/com/arthurivanets/sample/domain/entities/Character.kt: (35, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/domain/src/main/java/com/arthurivanets/sample/domain/entities/Comics.kt: (45, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/domain/src/main/java/com/arthurivanets/sample/domain/entities/Comics.kt: (46, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/domain/src/main/java/com/arthurivanets/sample/domain/entities/Comics.kt: (47, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/domain/src/main/java/com/arthurivanets/sample/domain/entities/Comics.kt: (48, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/domain/src/main/java/com/arthurivanets/sample/domain/entities/Comics.kt: (49, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/domain/src/main/java/com/arthurivanets/sample/domain/entities/Event.kt: (36, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/domain/src/main/java/com/arthurivanets/sample/domain/entities/Event.kt: (37, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/domain/src/main/java/com/arthurivanets/sample/domain/entities/Image.kt: (28, 9): Property would not be serialized into a 'Parcel'. Add '@IgnoredOnParcel' annotation to remove the warning
 
-> Task :data:bundleLibRuntimeRelease
-> Task :domain:bundleLibRuntimeRelease
+> Task :domain:compileReleaseJavaWithJavac
+> Task :domain:bundleLibCompileToJarRelease
+> Task :app:kaptGenerateStubsReleaseKotlin
+> Task :domain:bundleLibRuntimeToJarRelease
 > Task :app:desugarReleaseFileDependencies
-> Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
-> Task :app:compileReleaseShaders
-> Task :app:generateReleaseAssets
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
 > Task :commons:mergeReleaseShaders
-> Task :commons:compileReleaseShaders
-> Task :commons:generateReleaseAssets
+> Task :commons:compileReleaseShaders NO-SOURCE
+> Task :commons:generateReleaseAssets UP-TO-DATE
 > Task :commons:packageReleaseAssets
 > Task :data:mergeReleaseShaders
-> Task :data:compileReleaseShaders
-> Task :data:generateReleaseAssets
+> Task :data:compileReleaseShaders NO-SOURCE
+> Task :data:generateReleaseAssets UP-TO-DATE
 > Task :data:packageReleaseAssets
 > Task :domain:mergeReleaseShaders
-> Task :domain:compileReleaseShaders
-> Task :domain:generateReleaseAssets
+> Task :domain:compileReleaseShaders NO-SOURCE
+> Task :domain:generateReleaseAssets UP-TO-DATE
 > Task :domain:packageReleaseAssets
 > Task :imageloading:mergeReleaseShaders
-> Task :imageloading:compileReleaseShaders
-> Task :imageloading:generateReleaseAssets
+> Task :imageloading:compileReleaseShaders NO-SOURCE
+> Task :imageloading:generateReleaseAssets UP-TO-DATE
 > Task :imageloading:packageReleaseAssets
 > Task :imageloading-glide:mergeReleaseShaders
-> Task :imageloading-glide:compileReleaseShaders
-> Task :imageloading-glide:generateReleaseAssets
+> Task :imageloading-glide:compileReleaseShaders NO-SOURCE
+> Task :imageloading-glide:generateReleaseAssets UP-TO-DATE
 > Task :imageloading-glide:packageReleaseAssets
 > Task :marvel-api:mergeReleaseShaders
-> Task :marvel-api:compileReleaseShaders
-> Task :marvel-api:generateReleaseAssets
+> Task :marvel-api:compileReleaseShaders NO-SOURCE
+> Task :marvel-api:generateReleaseAssets UP-TO-DATE
 > Task :marvel-api:packageReleaseAssets
+> Task :mvvm:mergeReleaseShaders
+> Task :mvvm:compileReleaseShaders NO-SOURCE
+> Task :mvvm:generateReleaseAssets UP-TO-DATE
+> Task :mvvm:packageReleaseAssets
+> Task :mvvm-navigation:mergeReleaseShaders
+> Task :mvvm-navigation:compileReleaseShaders NO-SOURCE
+> Task :mvvm-navigation:generateReleaseAssets UP-TO-DATE
+> Task :mvvm-navigation:packageReleaseAssets
+> Task :mvvm-navigation-dagger:mergeReleaseShaders
+> Task :mvvm-navigation-dagger:compileReleaseShaders NO-SOURCE
+> Task :mvvm-navigation-dagger:generateReleaseAssets UP-TO-DATE
+> Task :mvvm-navigation-dagger:packageReleaseAssets
 > Task :app:mergeReleaseAssets
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :commons:processReleaseJavaRes NO-SOURCE
-> Task :data:processReleaseJavaRes NO-SOURCE
-> Task :domain:processReleaseJavaRes NO-SOURCE
-> Task :imageloading:processReleaseJavaRes NO-SOURCE
-> Task :imageloading-glide:processReleaseJavaRes NO-SOURCE
 > Task :commons:bundleLibResRelease
-> Task :marvel-api:processReleaseJavaRes NO-SOURCE
+> Task :data:processReleaseJavaRes NO-SOURCE
+> Task :data:bundleLibResRelease
+> Task :domain:processReleaseJavaRes NO-SOURCE
+> Task :domain:bundleLibResRelease
+> Task :imageloading:processReleaseJavaRes NO-SOURCE
 > Task :imageloading:bundleLibResRelease
-> Task :app:signingConfigWriterRelease
+> Task :imageloading-glide:processReleaseJavaRes NO-SOURCE
+> Task :imageloading-glide:bundleLibResRelease
+> Task :marvel-api:processReleaseJavaRes NO-SOURCE
+> Task :marvel-api:bundleLibResRelease
+> Task :mvvm:processReleaseJavaRes NO-SOURCE
+> Task :mvvm:bundleLibResRelease
+> Task :mvvm-navigation:processReleaseJavaRes NO-SOURCE
+> Task :mvvm-navigation:bundleLibResRelease
+> Task :mvvm-navigation-dagger:processReleaseJavaRes NO-SOURCE
+> Task :mvvm-navigation-dagger:bundleLibResRelease
+> Task :app:collectReleaseDependencies
+> Task :app:sdkReleaseDependencyData
 > Task :app:mergeReleaseJniLibFolders
 > Task :commons:mergeReleaseJniLibFolders
-> Task :imageloading-glide:bundleLibResRelease
 > Task :data:mergeReleaseJniLibFolders
-> Task :domain:bundleLibResRelease
+> Task :commons:mergeReleaseNativeLibs
+> Task :commons:stripReleaseDebugSymbols NO-SOURCE
+> Task :commons:copyReleaseJniLibsProjectOnly
 > Task :domain:mergeReleaseJniLibFolders
-> Task :data:mergeReleaseNativeLibs
-> Task :data:stripReleaseDebugSymbols
-> Task :data:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :imageloading:mergeReleaseJniLibFolders
 > Task :domain:mergeReleaseNativeLibs
-> Task :domain:stripReleaseDebugSymbols
-> Task :domain:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :domain:stripReleaseDebugSymbols NO-SOURCE
+> Task :domain:copyReleaseJniLibsProjectOnly
 > Task :imageloading-glide:mergeReleaseJniLibFolders
-> Task :imageloading:mergeReleaseNativeLibs
-> Task :imageloading:stripReleaseDebugSymbols
-> Task :imageloading:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :data:mergeReleaseNativeLibs
+> Task :data:stripReleaseDebugSymbols NO-SOURCE
+> Task :data:copyReleaseJniLibsProjectOnly
 > Task :marvel-api:mergeReleaseJniLibFolders
+> Task :imageloading:mergeReleaseNativeLibs
+> Task :imageloading:stripReleaseDebugSymbols NO-SOURCE
+> Task :imageloading:copyReleaseJniLibsProjectOnly
+> Task :mvvm:mergeReleaseJniLibFolders
 > Task :imageloading-glide:mergeReleaseNativeLibs
-> Task :imageloading-glide:stripReleaseDebugSymbols
-> Task :imageloading-glide:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :imageloading-glide:stripReleaseDebugSymbols NO-SOURCE
+> Task :imageloading-glide:copyReleaseJniLibsProjectOnly
+> Task :mvvm-navigation:mergeReleaseJniLibFolders
+> Task :mvvm:mergeReleaseNativeLibs
+> Task :mvvm:stripReleaseDebugSymbols NO-SOURCE
+> Task :mvvm:copyReleaseJniLibsProjectOnly
+> Task :mvvm-navigation-dagger:mergeReleaseJniLibFolders
 > Task :marvel-api:mergeReleaseNativeLibs
-> Task :marvel-api:bundleLibResRelease
-> Task :marvel-api:stripReleaseDebugSymbols
-> Task :marvel-api:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :commons:mergeReleaseNativeLibs
-> Task :commons:stripReleaseDebugSymbols
-> Task :commons:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :data:bundleLibResRelease
+> Task :marvel-api:stripReleaseDebugSymbols NO-SOURCE
+> Task :marvel-api:copyReleaseJniLibsProjectOnly
+> Task :mvvm-navigation:mergeReleaseNativeLibs
+> Task :mvvm-navigation:stripReleaseDebugSymbols NO-SOURCE
+> Task :mvvm-navigation:copyReleaseJniLibsProjectOnly
+> Task :mvvm-navigation-dagger:mergeReleaseNativeLibs
+> Task :mvvm-navigation-dagger:stripReleaseDebugSymbols NO-SOURCE
+> Task :mvvm-navigation-dagger:copyReleaseJniLibsProjectOnly
+
+> Task :app:kaptReleaseKotlin
+Note: [1] Wrote GeneratedAppGlideModule with: [com.bumptech.glide.integration.okhttp3.OkHttpLibraryGlideModule]
 > Task :app:mergeReleaseNativeLibs
-> Task :app:stripReleaseDebugSymbols
+> Task :app:stripReleaseDebugSymbols NO-SOURCE
+> Task :app:compileReleaseKotlin
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:lintVitalRelease
+> Task :app:dexBuilderRelease
 > Task :app:mergeReleaseJavaResource
 > Task :app:mergeExtDexRelease
 > Task :app:mergeDexRelease
@@ -601,11 +841,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:assemble
 > Task :app:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+BUILD SUCCESSFUL in 3m 2s
+481 actionable tasks: 481 executed
 
-BUILD SUCCESSFUL in 4m 26s
-343 actionable tasks: 343 executed
-
-2020-05-15 15:08:25,292 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529813421-0/src/android-mvvm-master/app/build/outputs/apk/debug/app-debug.apk
+2020-10-20 14:34:25,287 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178939651-0/src/app/build/outputs/apk/debug/app-debug.apk
