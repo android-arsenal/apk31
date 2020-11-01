@@ -1,52 +1,51 @@
-2020-07-06 02:03:45,297 INFO  DownloadService - Downloading "https://github.com/adibfara/WatchTower/archive/master.zip", attempt 3
-2020-07-06 02:03:49,054 INFO  DownloadService - Downloaded https://github.com/adibfara/WatchTower/archive/master.zip, attempt 3
-2020-07-06 02:03:49,055 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/master.zip": 1 MB
-2020-07-06 02:03:49,055 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-07-06 02:03:49,056 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/master.zip: true
-2020-07-06 02:03:49,056 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src'.
-2020-07-06 02:03:49,103 INFO  FullProcessService - Size of directory with sources: 2 MB
-2020-07-06 02:03:49,103 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src]
-2020-07-06 02:03:49,133 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/.git/
+2020-11-02 00:49:58,245 INFO  DownloadService - Downloading "https://github.com/adibfara/WatchTower/archive/master.zip", attempt 3
+2020-11-02 00:50:00,450 INFO  DownloadService - Downloaded https://github.com/adibfara/WatchTower/archive/master.zip, attempt 3
+2020-11-02 00:50:00,451 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/master.zip": 1 MB
+2020-11-02 00:50:00,451 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-11-02 00:50:00,451 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/master.zip: true
+2020-11-02 00:50:00,451 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src'.
+2020-11-02 00:50:00,513 INFO  FullProcessService - Size of directory with sources: 2 MB
+2020-11-02 00:50:00,513 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src]
+2020-11-02 00:50:00,555 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/.git/
 
-2020-07-06 02:03:49,141 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/gradlew
-2020-07-06 02:03:49,148 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/android-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/myapplication/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/JavaApp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/interceptor-okhttp-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/interceptor-okhttp/build.gradle
-2020-07-06 02:03:49,154 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/artifactory-auth.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/myapplication/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/interceptor-okhttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/interceptor-okhttp-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/JavaApp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/artifactory.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/android-no-op/build.gradle
-2020-07-06 02:03:49,155 INFO  ProjectBuildService - Remote scripts: none
-2020-07-06 02:03:49,155 INFO  ProjectFixService - Fixing project...
-2020-07-06 02:03:49,170 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/android-no-op/local.properties
-2020-07-06 02:03:49,173 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/android-no-op/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-07-06 02:03:49,173 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/android-no-op/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-07-06 02:03:49,174 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/android/local.properties
-2020-07-06 02:03:49,177 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-07-06 02:03:49,177 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-07-06 02:03:49,178 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/myapplication/local.properties
-2020-07-06 02:03:49,181 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/myapplication/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-07-06 02:03:49,181 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/myapplication/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-07-06 02:03:49,182 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/local.properties
-2020-07-06 02:03:49,182 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-07-06 02:03:49,182 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-07-06 02:03:49,186 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-07-06 02:03:49,187 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-07-06 02:03:49,187 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/JavaApp/local.properties
-2020-07-06 02:03:49,191 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/JavaApp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-07-06 02:03:49,191 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/JavaApp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-07-06 02:03:49,192 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/core/local.properties
-2020-07-06 02:03:49,196 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-07-06 02:03:49,196 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-07-06 02:03:49,196 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/interceptor-okhttp-no-op/local.properties
-2020-07-06 02:03:49,200 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/interceptor-okhttp-no-op/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-07-06 02:03:49,200 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/interceptor-okhttp-no-op/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-07-06 02:03:49,201 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/interceptor-okhttp/local.properties
-2020-07-06 02:03:49,204 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/interceptor-okhttp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-07-06 02:03:49,205 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/interceptor-okhttp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-07-06 02:03:49,205 INFO  ProjectFixService - Project was maybe fixed
-2020-07-06 02:03:49,205 INFO  ProjectTaskService - Detecting possible tasks...
-2020-07-06 02:03:49,205 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/android-no-op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-07-06 02:03:54,951 INFO  VirusProcessorServiceImpl - Queued project 7707 to scan viruses
-2020-07-06 02:04:19,280 INFO  ProjectTaskService - Detected possible tasks: 71
-2020-07-06 02:04:19,281 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-07-06 02:04:19,281 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/android-no-op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-07-06 02:04:57,514 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-11-02 00:50:00,568 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/gradlew
+2020-11-02 00:50:00,581 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/android-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/myapplication/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/JavaApp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/interceptor-okhttp-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/interceptor-okhttp/build.gradle
+2020-11-02 00:50:00,593 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/artifactory-auth.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/myapplication/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/interceptor-okhttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/interceptor-okhttp-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/JavaApp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/artifactory.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/android-no-op/build.gradle
+2020-11-02 00:50:00,596 INFO  ProjectBuildService - Remote scripts: none
+2020-11-02 00:50:00,596 INFO  ProjectFixService - Fixing project...
+2020-11-02 00:50:00,665 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/android-no-op/local.properties
+2020-11-02 00:50:00,673 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/android-no-op/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-11-02 00:50:00,674 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/android-no-op/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-11-02 00:50:00,675 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/android/local.properties
+2020-11-02 00:50:00,692 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-11-02 00:50:00,692 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-11-02 00:50:00,697 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/myapplication/local.properties
+2020-11-02 00:50:00,718 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/myapplication/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-11-02 00:50:00,718 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/myapplication/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-11-02 00:50:00,721 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/local.properties
+2020-11-02 00:50:00,722 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-11-02 00:50:00,724 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-11-02 00:50:00,740 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-11-02 00:50:00,740 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-11-02 00:50:00,742 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/JavaApp/local.properties
+2020-11-02 00:50:00,769 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/JavaApp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-11-02 00:50:00,770 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/JavaApp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-11-02 00:50:00,772 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/core/local.properties
+2020-11-02 00:50:00,788 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-11-02 00:50:00,788 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-11-02 00:50:00,793 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/interceptor-okhttp-no-op/local.properties
+2020-11-02 00:50:00,800 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/interceptor-okhttp-no-op/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-11-02 00:50:00,800 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/interceptor-okhttp-no-op/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-11-02 00:50:00,802 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/interceptor-okhttp/local.properties
+2020-11-02 00:50:00,808 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/interceptor-okhttp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-11-02 00:50:00,808 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/interceptor-okhttp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-11-02 00:50:00,809 INFO  ProjectFixService - Project was maybe fixed
+2020-11-02 00:50:00,809 INFO  ProjectTaskService - Detecting possible tasks...
+2020-11-02 00:50:00,810 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/android-no-op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-11-02 00:50:33,024 INFO  ProjectTaskService - Detected possible tasks: 71
+2020-11-02 00:50:33,024 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-11-02 00:50:33,024 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/android-no-op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-11-02 00:51:12,392 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :android-no-op:preBuild UP-TO-DATE
 > Task :android-no-op:preDebugBuild UP-TO-DATE
 > Task :android-no-op:compileDebugAidl NO-SOURCE
@@ -68,8 +67,8 @@
 > Task :android-no-op:generateDebugRFile
 
 > Task :android-no-op:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/android-no-op/src/main/java/com/snakydesign/watchtower/android/WatchTowerAndroid.kt: (11, 9): Parameter 'application' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/android-no-op/src/main/java/com/snakydesign/watchtower/android/WatchTowerAndroid.kt: (12, 9): Parameter 'serverPort' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/android-no-op/src/main/java/com/snakydesign/watchtower/android/WatchTowerAndroid.kt: (11, 9): Parameter 'application' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/android-no-op/src/main/java/com/snakydesign/watchtower/android/WatchTowerAndroid.kt: (12, 9): Parameter 'serverPort' is never used
 
 > Task :android-no-op:prepareLintJar
 > Task :android-no-op:generateDebugSources
@@ -105,8 +104,8 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/
 > Task :android-no-op:generateReleaseRFile
 
 > Task :android-no-op:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/android-no-op/src/main/java/com/snakydesign/watchtower/android/WatchTowerAndroid.kt: (11, 9): Parameter 'application' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/android-no-op/src/main/java/com/snakydesign/watchtower/android/WatchTowerAndroid.kt: (12, 9): Parameter 'serverPort' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/android-no-op/src/main/java/com/snakydesign/watchtower/android/WatchTowerAndroid.kt: (11, 9): Parameter 'application' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/android-no-op/src/main/java/com/snakydesign/watchtower/android/WatchTowerAndroid.kt: (12, 9): Parameter 'serverPort' is never used
 
 > Task :android-no-op:generateReleaseSources
 > Task :android-no-op:javaPreCompileRelease
@@ -137,15 +136,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 37s
+BUILD SUCCESSFUL in 38s
 51 actionable tasks: 51 executed
 
-2020-07-06 02:04:57,566 INFO  ProjectTaskService - Detecting possible tasks...
-2020-07-06 02:04:57,566 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-07-06 02:05:06,451 INFO  ProjectTaskService - Detected possible tasks: 71
-2020-07-06 02:05:06,451 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-07-06 02:05:06,452 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-07-06 02:05:38,643 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-11-02 00:51:12,453 INFO  ProjectTaskService - Detecting possible tasks...
+2020-11-02 00:51:12,453 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-11-02 00:51:22,185 INFO  ProjectTaskService - Detected possible tasks: 71
+2020-11-02 00:51:22,186 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-11-02 00:51:22,186 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-11-02 00:51:55,002 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :android:preBuild UP-TO-DATE
 > Task :android:preDebugBuild UP-TO-DATE
 > Task :android:compileDebugAidl NO-SOURCE
@@ -228,15 +227,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 31s
+BUILD SUCCESSFUL in 32s
 51 actionable tasks: 46 executed, 5 up-to-date
 
-2020-07-06 02:05:38,751 INFO  ProjectTaskService - Detecting possible tasks...
-2020-07-06 02:05:38,752 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/myapplication/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-07-06 02:05:46,358 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-07-06 02:05:46,358 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-07-06 02:05:46,358 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/myapplication/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-07-06 02:06:37,828 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-11-02 00:51:55,098 INFO  ProjectTaskService - Detecting possible tasks...
+2020-11-02 00:51:55,098 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/myapplication/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-11-02 00:52:05,676 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-11-02 00:52:05,676 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-11-02 00:52:05,676 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/myapplication/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-11-02 00:54:10,154 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :core:kaptGenerateStubsKotlin UP-TO-DATE
 > Task :core:kaptKotlin UP-TO-DATE
 > Task :core:compileKotlin UP-TO-DATE
@@ -245,10 +244,9 @@ BUILD SUCCESSFUL in 31s
 > Task :core:classes UP-TO-DATE
 > Task :core:inspectClassesForKotlinIC UP-TO-DATE
 > Task :core:jar UP-TO-DATE
-
 > Task :interceptor-okhttp:compileKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/interceptor-okhttp/src/main/java/com/snakydesign/watchtower/interceptor/WatchTowerHTTPServer.kt: (26, 24): Name shadowed: session
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/interceptor-okhttp/src/main/java/com/snakydesign/watchtower/interceptor/WatchTowerInterceptor.kt: (53, 51): Parameter 'connection' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/interceptor-okhttp/src/main/java/com/snakydesign/watchtower/interceptor/WatchTowerHTTPServer.kt: (26, 24): Name shadowed: session
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/interceptor-okhttp/src/main/java/com/snakydesign/watchtower/interceptor/WatchTowerInterceptor.kt: (53, 51): Parameter 'connection' is never used
 
 > Task :interceptor-okhttp:compileJava NO-SOURCE
 > Task :interceptor-okhttp:processResources
@@ -400,7 +398,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 50s
+BUILD SUCCESSFUL in 2m 3s
 102 actionable tasks: 65 executed, 37 up-to-date
 
-2020-07-06 02:06:37,988 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975825288-0/src/WatchTower-master/myapplication/build/outputs/apk/release/myapplication-release-unsigned.apk
+2020-11-02 00:54:10,495 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252998241-0/src/WatchTower-master/myapplication/build/outputs/apk/release/myapplication-release-unsigned.apk

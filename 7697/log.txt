@@ -1,37 +1,37 @@
-2020-05-18 12:56:57,767 INFO  DownloadService - Downloading "https://github.com/ParkSangGwon/TedImagePicker/archive/master.zip", attempt 3
-2020-05-18 12:57:04,942 INFO  VirusProcessorServiceImpl - Queued project 7898 to scan viruses
-2020-05-18 12:57:06,359 INFO  DownloadService - Downloaded https://github.com/ParkSangGwon/TedImagePicker/archive/master.zip, attempt 3
-2020-05-18 12:57:06,359 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/master.zip": 17 MB
-2020-05-18 12:57:06,359 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-05-18 12:57:06,360 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/master.zip: true
-2020-05-18 12:57:06,360 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/src'.
-2020-05-18 12:57:06,544 INFO  FullProcessService - Size of directory with sources: 17 MB
-2020-05-18 12:57:06,545 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/src]
-2020-05-18 12:57:06,574 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/src/.git/
+2020-11-02 00:41:38,075 INFO  DownloadService - Downloading "https://github.com/ParkSangGwon/TedImagePicker/archive/master.zip", attempt 3
+2020-11-02 00:41:44,164 INFO  DownloadService - Downloaded https://github.com/ParkSangGwon/TedImagePicker/archive/master.zip, attempt 3
+2020-11-02 00:41:44,165 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252498072-0/master.zip": 17 MB
+2020-11-02 00:41:44,165 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-11-02 00:41:44,165 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252498072-0/master.zip: true
+2020-11-02 00:41:44,165 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252498072-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252498072-0/src'.
+2020-11-02 00:41:44,344 INFO  FullProcessService - Size of directory with sources: 17 MB
+2020-11-02 00:41:44,344 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252498072-0/src]
+2020-11-02 00:41:44,369 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252498072-0/src/.git/
 
-2020-05-18 12:57:06,578 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/src/TedImagePicker-master/gradlew
-2020-05-18 12:57:06,583 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/src/TedImagePicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/src/TedImagePicker-master/tedimagepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/src/TedImagePicker-master/build.gradle
-2020-05-18 12:57:06,588 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/src/TedImagePicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/src/TedImagePicker-master/tedimagepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/src/TedImagePicker-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/src/TedImagePicker-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/src/TedImagePicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/src/TedImagePicker-master/settings.gradle
-2020-05-18 12:57:06,592 INFO  ProjectBuildService - Remote scripts: none
-2020-05-18 12:57:06,592 INFO  ProjectFixService - Fixing project...
-2020-05-18 12:57:06,606 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/src/TedImagePicker-master/app/local.properties
-2020-05-18 12:57:06,611 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/src/TedImagePicker-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-05-18 12:57:06,611 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/src/TedImagePicker-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-05-18 12:57:06,612 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/src/TedImagePicker-master/tedimagepicker/local.properties
-2020-05-18 12:57:06,617 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/src/TedImagePicker-master/tedimagepicker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-05-18 12:57:06,617 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/src/TedImagePicker-master/tedimagepicker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-05-18 12:57:06,618 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/src/TedImagePicker-master/local.properties
-2020-05-18 12:57:06,619 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-05-18 12:57:06,619 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-05-18 12:57:06,623 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/src/TedImagePicker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-05-18 12:57:06,623 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/src/TedImagePicker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-05-18 12:57:06,624 INFO  ProjectFixService - Project was maybe fixed
-2020-05-18 12:57:06,624 INFO  ProjectTaskService - Detecting possible tasks...
-2020-05-18 12:57:06,624 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/src/TedImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/src/TedImagePicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-05-18 12:57:21,884 INFO  ProjectTaskService - Detected possible tasks: 67
-2020-05-18 12:57:21,884 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-05-18 12:57:21,884 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/src/TedImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/src/TedImagePicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-05-18 12:59:42,803 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-11-02 00:41:44,373 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252498072-0/src/TedImagePicker-master/gradlew
+2020-11-02 00:41:44,378 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252498072-0/src/TedImagePicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252498072-0/src/TedImagePicker-master/tedimagepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252498072-0/src/TedImagePicker-master/build.gradle
+2020-11-02 00:41:44,382 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252498072-0/src/TedImagePicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252498072-0/src/TedImagePicker-master/tedimagepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252498072-0/src/TedImagePicker-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252498072-0/src/TedImagePicker-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252498072-0/src/TedImagePicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252498072-0/src/TedImagePicker-master/settings.gradle
+2020-11-02 00:41:44,383 INFO  ProjectBuildService - Remote scripts: none
+2020-11-02 00:41:44,383 INFO  ProjectFixService - Fixing project...
+2020-11-02 00:41:44,396 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252498072-0/src/TedImagePicker-master/app/local.properties
+2020-11-02 00:41:44,399 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252498072-0/src/TedImagePicker-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-11-02 00:41:44,399 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252498072-0/src/TedImagePicker-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2020-11-02 00:41:44,400 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252498072-0/src/TedImagePicker-master/tedimagepicker/local.properties
+2020-11-02 00:41:44,404 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252498072-0/src/TedImagePicker-master/tedimagepicker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-11-02 00:41:44,404 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252498072-0/src/TedImagePicker-master/tedimagepicker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2020-11-02 00:41:44,405 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252498072-0/src/TedImagePicker-master/local.properties
+2020-11-02 00:41:44,406 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-11-02 00:41:44,406 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-11-02 00:41:44,410 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252498072-0/src/TedImagePicker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-11-02 00:41:44,410 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252498072-0/src/TedImagePicker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2020-11-02 00:41:44,411 INFO  ProjectFixService - Project was maybe fixed
+2020-11-02 00:41:44,411 INFO  ProjectTaskService - Detecting possible tasks...
+2020-11-02 00:41:44,411 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252498072-0/src/TedImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252498072-0/src/TedImagePicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-11-02 00:41:48,338 INFO  VirusProcessorServiceImpl - Queued project 7699 to scan viruses
+2020-11-02 00:42:00,631 INFO  ProjectTaskService - Detected possible tasks: 67
+2020-11-02 00:42:00,631 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-11-02 00:42:00,632 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252498072-0/src/TedImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252498072-0/src/TedImagePicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-11-02 00:44:20,074 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :app
 app: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.github.bumptech.glide:compiler:4.9.0'.
@@ -50,8 +50,8 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :tedimagepicker:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :tedimagepicker:packageDebugRenderscript NO-SOURCE
-> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
 > Task :app:prepareLintJar
 > Task :app:prepareLintJarForPublish
@@ -72,9 +72,9 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :tedimagepicker:dataBindingGenBaseClassesDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
+> Task :tedimagepicker:parseDebugLibraryResources
 > Task :app:dataBindingExportFeaturePackageIdsDebug
 > Task :tedimagepicker:processDebugManifest
-> Task :tedimagepicker:parseDebugLibraryResources
 > Task :app:dataBindingMergeGenClassesDebug
 > Task :app:mainApkListPersistenceDebug
 > Task :app:createDebugCompatibleScreenManifests
@@ -96,10 +96,10 @@ w: warning: Binding adapter AK(android.view.View, java.lang.Integer) already exi
 w: warning: Binding adapter AK(android.view.View, java.lang.Integer) already exists for background! Overriding gun0912.tedimagepicker.binding.DataBindingAdapter.Companion#setBackgroundResource with gun0912.tedimagepicker.binding.DataBindingAdapter#setBackgroundResource
 
 > Task :tedimagepicker:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/src/TedImagePicker-master/tedimagepicker/src/main/java/gun0912/tedimagepicker/builder/TedImagePickerBaseBuilder.kt: (95, 56): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/src/TedImagePicker-master/tedimagepicker/src/main/java/gun0912/tedimagepicker/builder/TedImagePickerBaseBuilder.kt: (111, 60): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/src/TedImagePicker-master/tedimagepicker/src/main/java/gun0912/tedimagepicker/util/GalleryUtil.kt: (20, 69): 'DATA: String' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/src/TedImagePicker-master/tedimagepicker/src/main/java/gun0912/tedimagepicker/util/MediaUtil.kt: (69, 45): 'getExternalStoragePublicDirectory(String!): File!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252498072-0/src/TedImagePicker-master/tedimagepicker/src/main/java/gun0912/tedimagepicker/builder/TedImagePickerBaseBuilder.kt: (95, 56): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252498072-0/src/TedImagePicker-master/tedimagepicker/src/main/java/gun0912/tedimagepicker/builder/TedImagePickerBaseBuilder.kt: (111, 60): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252498072-0/src/TedImagePicker-master/tedimagepicker/src/main/java/gun0912/tedimagepicker/util/GalleryUtil.kt: (20, 69): 'DATA: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252498072-0/src/TedImagePicker-master/tedimagepicker/src/main/java/gun0912/tedimagepicker/util/MediaUtil.kt: (69, 45): 'getExternalStoragePublicDirectory(String!): File!' is deprecated. Deprecated in Java
 
 > Task :app:processDebugResources
 > Task :tedimagepicker:javaPreCompileDebug
@@ -135,16 +135,16 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/src/
 > Task :app:mergeDebugJniLibFolders
 > Task :tedimagepicker:mergeDebugJniLibFolders
 > Task :app:preReleaseBuild UP-TO-DATE
-> Task :tedimagepicker:mergeDebugNativeLibs
-> Task :tedimagepicker:stripDebugDebugSymbols
-> Task :tedimagepicker:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :tedimagepicker:preReleaseBuild UP-TO-DATE
 > Task :tedimagepicker:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
+> Task :tedimagepicker:mergeDebugNativeLibs
+> Task :tedimagepicker:stripDebugDebugSymbols
+> Task :tedimagepicker:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :tedimagepicker:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
-> Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:generateReleaseSources
 > Task :app:dataBindingExportBuildInfoRelease
 > Task :tedimagepicker:compileReleaseRenderscript NO-SOURCE
@@ -156,19 +156,19 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/src/
 > Task :tedimagepicker:generateReleaseResValues
 > Task :tedimagepicker:generateReleaseResources
 > Task :tedimagepicker:packageReleaseResources
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
-> Task :tedimagepicker:parseReleaseLibraryResources
 > Task :tedimagepicker:dataBindingMergeGenClassesRelease
 > Task :tedimagepicker:dataBindingGenBaseClassesRelease
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
 > Task :tedimagepicker:processReleaseManifest
+> Task :tedimagepicker:parseReleaseLibraryResources
+> Task :app:dataBindingMergeGenClassesRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
-> Task :app:dataBindingExportFeaturePackageIdsRelease
 > Task :app:mainApkListPersistenceRelease
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:processReleaseManifest
-> Task :app:dataBindingMergeGenClassesRelease
+> Task :app:dataBindingExportFeaturePackageIdsRelease
 > Task :tedimagepicker:generateReleaseRFile
 > Task :tedimagepicker:kaptGenerateStubsReleaseKotlin
 
@@ -185,16 +185,16 @@ w: warning: Binding adapter AK(android.view.View, java.lang.Integer) already exi
 w: warning: Binding adapter AK(android.view.View, java.lang.Integer) already exists for background! Overriding gun0912.tedimagepicker.binding.DataBindingAdapter.Companion#setBackgroundResource with gun0912.tedimagepicker.binding.DataBindingAdapter#setBackgroundResource
 
 > Task :tedimagepicker:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/src/TedImagePicker-master/tedimagepicker/src/main/java/gun0912/tedimagepicker/builder/TedImagePickerBaseBuilder.kt: (95, 56): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/src/TedImagePicker-master/tedimagepicker/src/main/java/gun0912/tedimagepicker/builder/TedImagePickerBaseBuilder.kt: (111, 60): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/src/TedImagePicker-master/tedimagepicker/src/main/java/gun0912/tedimagepicker/util/GalleryUtil.kt: (20, 69): 'DATA: String' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/src/TedImagePicker-master/tedimagepicker/src/main/java/gun0912/tedimagepicker/util/MediaUtil.kt: (69, 45): 'getExternalStoragePublicDirectory(String!): File!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252498072-0/src/TedImagePicker-master/tedimagepicker/src/main/java/gun0912/tedimagepicker/builder/TedImagePickerBaseBuilder.kt: (95, 56): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252498072-0/src/TedImagePicker-master/tedimagepicker/src/main/java/gun0912/tedimagepicker/builder/TedImagePickerBaseBuilder.kt: (111, 60): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252498072-0/src/TedImagePicker-master/tedimagepicker/src/main/java/gun0912/tedimagepicker/util/GalleryUtil.kt: (20, 69): 'DATA: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252498072-0/src/TedImagePicker-master/tedimagepicker/src/main/java/gun0912/tedimagepicker/util/MediaUtil.kt: (69, 45): 'getExternalStoragePublicDirectory(String!): File!' is deprecated. Deprecated in Java
 
-> Task :app:mergeReleaseResources
-> Task :app:processReleaseResources
+> Task :app:multiDexListDebug
 > Task :tedimagepicker:javaPreCompileRelease
 > Task :tedimagepicker:compileReleaseJavaWithJavac
-> Task :app:multiDexListDebug
+> Task :app:mergeReleaseResources
+> Task :app:processReleaseResources
 > Task :app:dataBindingMergeDependencyArtifactsRelease
 > Task :app:dataBindingGenBaseClassesRelease
 > Task :tedimagepicker:bundleLibCompileRelease
@@ -223,11 +223,10 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :tedimagepicker:generateReleaseAssets
 > Task :tedimagepicker:packageReleaseAssets
 > Task :app:mergeReleaseAssets
-> Task :app:processReleaseJavaRes NO-SOURCE
 > Task :tedimagepicker:bundleLibRuntimeRelease
 > Task :tedimagepicker:createFullJarRelease
-> Task :app:mergeReleaseJavaResource
 > Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
 > Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
 > Task :tedimagepicker:mergeReleaseJniLibFolders
@@ -236,6 +235,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :tedimagepicker:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols
+> Task :app:mergeReleaseJavaResource
 > Task :app:multiDexListRelease
 > Task :app:mergeDexRelease
 > Task :app:packageRelease
@@ -247,7 +247,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 2m 20s
+BUILD SUCCESSFUL in 2m 18s
 124 actionable tasks: 124 executed
 
-2020-05-18 12:59:43,044 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589781417764-0/src/TedImagePicker-master/app/build/outputs/apk/debug/app-debug.apk
+2020-11-02 00:44:20,265 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252498072-0/src/TedImagePicker-master/app/build/outputs/apk/debug/app-debug.apk

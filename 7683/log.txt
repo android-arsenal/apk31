@@ -1,77 +1,78 @@
-2019-12-02 13:00:40,036 INFO  DownloadService - Downloading "https://github.com/koushikcse/LoadingButton/archive/master.zip", attempt 3
-2019-12-02 13:00:50,565 INFO  DownloadService - Downloaded https://github.com/koushikcse/LoadingButton/archive/master.zip, attempt 3
-2019-12-02 13:00:50,566 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266440030-0/master.zip": 488 KB
-2019-12-02 13:00:50,566 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-12-02 13:00:50,571 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266440030-0/master.zip: true
-2019-12-02 13:00:50,572 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266440030-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266440030-0/src'.
-2019-12-02 13:00:50,587 INFO  FullProcessService - Size of directory with sources: 534 KB
-2019-12-02 13:00:50,587 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266440030-0/src]
-2019-12-02 13:00:50,607 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266440030-0/src/.git/
+2020-11-02 00:48:47,840 INFO  DownloadService - Downloading "https://github.com/koushikcse/LoadingButton/archive/master.zip", attempt 3
+2020-11-02 00:48:49,831 INFO  DownloadService - Downloaded https://github.com/koushikcse/LoadingButton/archive/master.zip, attempt 3
+2020-11-02 00:48:49,832 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252927837-0/master.zip": 488 KB
+2020-11-02 00:48:49,832 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-11-02 00:48:49,832 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252927837-0/master.zip: true
+2020-11-02 00:48:49,832 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252927837-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252927837-0/src'.
+2020-11-02 00:48:49,851 INFO  FullProcessService - Size of directory with sources: 534 KB
+2020-11-02 00:48:49,851 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252927837-0/src]
+2020-11-02 00:48:49,879 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252927837-0/src/.git/
 
-2019-12-02 13:00:50,609 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266440030-0/src/LoadingButton-master/gradlew
-2019-12-02 13:00:50,611 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266440030-0/src/LoadingButton-master/loadingbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266440030-0/src/LoadingButton-master/build.gradle
-2019-12-02 13:00:50,612 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266440030-0/src/LoadingButton-master/loadingbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266440030-0/src/LoadingButton-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266440030-0/src/LoadingButton-master/settings.gradle
-2019-12-02 13:00:50,613 INFO  ProjectBuildService - Remote scripts: none
-2019-12-02 13:00:50,613 INFO  ProjectFixService - Fixing project...
-2019-12-02 13:00:50,617 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266440030-0/src/LoadingButton-master/loadingbutton/local.properties
-2019-12-02 13:00:50,618 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266440030-0/src/LoadingButton-master/loadingbutton/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2019-12-02 13:00:50,618 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266440030-0/src/LoadingButton-master/loadingbutton/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2019-12-02 13:00:50,619 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266440030-0/src/LoadingButton-master/local.properties
-2019-12-02 13:00:50,620 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-12-02 13:00:50,620 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-12-02 13:00:50,621 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266440030-0/src/LoadingButton-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2019-12-02 13:00:50,622 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266440030-0/src/LoadingButton-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2019-12-02 13:00:50,622 INFO  ProjectFixService - Project was maybe fixed
-2019-12-02 13:00:50,622 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-02 13:00:50,622 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266440030-0/src/LoadingButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266440030-0/src/LoadingButton-master/loadingbutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-02 13:00:57,801 INFO  ProjectTaskService - Detected possible tasks: 63
-2019-12-02 13:00:57,801 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-12-02 13:00:57,801 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266440030-0/src/LoadingButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266440030-0/src/LoadingButton-master/loadingbutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-12-02 13:01:14,677 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-11-02 00:48:49,883 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252927837-0/src/LoadingButton-master/gradlew
+2020-11-02 00:48:49,886 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252927837-0/src/LoadingButton-master/loadingbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252927837-0/src/LoadingButton-master/build.gradle
+2020-11-02 00:48:49,889 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252927837-0/src/LoadingButton-master/loadingbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252927837-0/src/LoadingButton-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252927837-0/src/LoadingButton-master/settings.gradle
+2020-11-02 00:48:49,889 INFO  ProjectBuildService - Remote scripts: none
+2020-11-02 00:48:49,889 INFO  ProjectFixService - Fixing project...
+2020-11-02 00:48:49,896 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252927837-0/src/LoadingButton-master/loadingbutton/local.properties
+2020-11-02 00:48:49,898 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252927837-0/src/LoadingButton-master/loadingbutton/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-11-02 00:48:49,898 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252927837-0/src/LoadingButton-master/loadingbutton/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-11-02 00:48:49,900 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252927837-0/src/LoadingButton-master/local.properties
+2020-11-02 00:48:49,900 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-11-02 00:48:49,901 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-11-02 00:48:49,902 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252927837-0/src/LoadingButton-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-11-02 00:48:49,902 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252927837-0/src/LoadingButton-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-11-02 00:48:49,903 INFO  ProjectFixService - Project was maybe fixed
+2020-11-02 00:48:49,903 INFO  ProjectTaskService - Detecting possible tasks...
+2020-11-02 00:48:49,903 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252927837-0/src/LoadingButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252927837-0/src/LoadingButton-master/loadingbutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-11-02 00:48:58,425 INFO  VirusProcessorServiceImpl - Queued project 7693 to scan viruses
+2020-11-02 00:49:03,278 INFO  ProjectTaskService - Detected possible tasks: 63
+2020-11-02 00:49:03,278 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-11-02 00:49:03,278 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252927837-0/src/LoadingButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252927837-0/src/LoadingButton-master/loadingbutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-11-02 00:49:33,032 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :loadingbutton:preBuild UP-TO-DATE
 > Task :loadingbutton:preDebugBuild UP-TO-DATE
-> Task :loadingbutton:checkDebugManifest
+> Task :loadingbutton:mergeDebugJniLibFolders
+> Task :loadingbutton:mergeDebugNativeLibs
+> Task :loadingbutton:stripDebugDebugSymbols
+> Task :loadingbutton:copyDebugJniLibsProjectAndLocalJars
 > Task :loadingbutton:generateDebugBuildConfig
 > Task :loadingbutton:generateDebugResValues
-> Task :loadingbutton:processDebugManifest
 > Task :loadingbutton:mergeDebugShaders
 > Task :loadingbutton:compileDebugShaders
-> Task :loadingbutton:compileDebugAidl NO-SOURCE
-> Task :loadingbutton:compileDebugRenderscript NO-SOURCE
-> Task :loadingbutton:generateDebugResources
-> Task :loadingbutton:packageDebugResources
 > Task :loadingbutton:generateDebugAssets
 > Task :loadingbutton:packageDebugAssets
 > Task :loadingbutton:packageDebugRenderscript NO-SOURCE
 > Task :loadingbutton:processDebugJavaRes NO-SOURCE
-> Task :loadingbutton:mergeDebugJniLibFolders
+> Task :loadingbutton:prepareLintJarForPublish
 > Task :loadingbutton:preReleaseBuild UP-TO-DATE
-> Task :loadingbutton:compileReleaseAidl NO-SOURCE
-> Task :loadingbutton:compileReleaseRenderscript NO-SOURCE
-> Task :loadingbutton:checkReleaseManifest
+> Task :loadingbutton:mergeReleaseJniLibFolders
 > Task :loadingbutton:generateReleaseBuildConfig
 > Task :loadingbutton:generateReleaseResValues
-> Task :loadingbutton:generateReleaseResources
-> Task :loadingbutton:packageReleaseResources
-> Task :loadingbutton:javaPreCompileDebug
-> Task :loadingbutton:parseDebugLibraryResources
-> Task :loadingbutton:processReleaseManifest
 > Task :loadingbutton:mergeReleaseShaders
 > Task :loadingbutton:compileReleaseShaders
 > Task :loadingbutton:generateReleaseAssets
 > Task :loadingbutton:packageReleaseAssets
+> Task :loadingbutton:processReleaseManifest
+> Task :loadingbutton:mergeDebugJavaResource
 > Task :loadingbutton:packageReleaseRenderscript NO-SOURCE
 > Task :loadingbutton:processReleaseJavaRes NO-SOURCE
-> Task :loadingbutton:mergeReleaseJniLibFolders
-> Task :loadingbutton:mergeDebugNativeLibs
-> Task :loadingbutton:stripDebugDebugSymbols
-> Task :loadingbutton:transformNativeLibsWithSyncJniLibsForDebug
+> Task :loadingbutton:processDebugManifest
+> Task :loadingbutton:javaPreCompileRelease
 > Task :loadingbutton:mergeReleaseNativeLibs
 > Task :loadingbutton:stripReleaseDebugSymbols
-> Task :loadingbutton:transformNativeLibsWithSyncJniLibsForRelease
-> Task :loadingbutton:prepareLintJarForPublish
-> Task :loadingbutton:javaPreCompileRelease
-> Task :loadingbutton:parseReleaseLibraryResources
+> Task :loadingbutton:copyReleaseJniLibsProjectAndLocalJars
+> Task :loadingbutton:mergeReleaseJavaResource
+> Task :loadingbutton:javaPreCompileDebug
+> Task :loadingbutton:compileDebugAidl NO-SOURCE
+> Task :loadingbutton:compileDebugRenderscript NO-SOURCE
+> Task :loadingbutton:generateDebugResources
+> Task :loadingbutton:packageDebugResources
+> Task :loadingbutton:compileReleaseAidl NO-SOURCE
+> Task :loadingbutton:compileReleaseRenderscript NO-SOURCE
+> Task :loadingbutton:generateReleaseResources
+> Task :loadingbutton:packageReleaseResources
+> Task :loadingbutton:parseDebugLocalResources
+> Task :loadingbutton:parseReleaseLocalResources
 > Task :loadingbutton:mergeReleaseResources
 > Task :loadingbutton:generateReleaseRFile
 
@@ -82,6 +83,11 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :loadingbutton:extractReleaseAnnotations
 > Task :loadingbutton:mergeReleaseGeneratedProguardFiles
 > Task :loadingbutton:mergeReleaseConsumerProguardFiles
+> Task :loadingbutton:syncReleaseLibJars
+> Task :loadingbutton:bundleReleaseAar
+> Task :loadingbutton:compileReleaseSources
+> Task :loadingbutton:verifyReleaseResources
+> Task :loadingbutton:assembleRelease
 > Task :loadingbutton:generateDebugRFile
 
 > Task :loadingbutton:compileDebugJavaWithJavac
@@ -91,75 +97,66 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :loadingbutton:extractDebugAnnotations
 > Task :loadingbutton:mergeDebugGeneratedProguardFiles
 > Task :loadingbutton:mergeDebugConsumerProguardFiles
-> Task :loadingbutton:compileDebugSources
-> Task :loadingbutton:compileReleaseSources
-> Task :loadingbutton:mergeReleaseJavaResource
-> Task :loadingbutton:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :loadingbutton:bundleReleaseAar
-> Task :loadingbutton:mergeDebugJavaResource
-> Task :loadingbutton:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :loadingbutton:syncDebugLibJars
 > Task :loadingbutton:bundleDebugAar
+> Task :loadingbutton:compileDebugSources
 > Task :loadingbutton:assembleDebug
-> Task :loadingbutton:verifyReleaseResources
-> Task :loadingbutton:assembleRelease
 > Task :loadingbutton:assemble
 > Task :loadingbutton:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+BUILD SUCCESSFUL in 29s
+45 actionable tasks: 45 executed
 
-BUILD SUCCESSFUL in 16s
-47 actionable tasks: 47 executed
-
-2019-12-02 13:01:14,718 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-02 13:01:14,727 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266440030-0/src/LoadingButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266440030-0/src/LoadingButton-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-02 13:01:20,201 INFO  ProjectTaskService - Detected possible tasks: 63
-2019-12-02 13:01:20,201 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-12-02 13:01:20,202 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266440030-0/src/LoadingButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575266440030-0/src/LoadingButton-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-12-02 13:01:26,796 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-11-02 00:49:33,097 INFO  ProjectTaskService - Detecting possible tasks...
+2020-11-02 00:49:33,098 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252927837-0/src/LoadingButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252927837-0/src/LoadingButton-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-11-02 00:49:46,212 INFO  ProjectTaskService - Detected possible tasks: 63
+2020-11-02 00:49:46,212 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-11-02 00:49:46,212 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252927837-0/src/LoadingButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252927837-0/src/LoadingButton-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-11-02 00:49:57,708 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :loadingbutton:preBuild UP-TO-DATE
 > Task :loadingbutton:preDebugBuild UP-TO-DATE
-> Task :loadingbutton:checkDebugManifest UP-TO-DATE
+> Task :loadingbutton:mergeDebugJniLibFolders UP-TO-DATE
+> Task :loadingbutton:mergeDebugNativeLibs UP-TO-DATE
+> Task :loadingbutton:stripDebugDebugSymbols UP-TO-DATE
+> Task :loadingbutton:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
 > Task :loadingbutton:generateDebugBuildConfig UP-TO-DATE
 > Task :loadingbutton:generateDebugResValues UP-TO-DATE
 > Task :loadingbutton:processDebugManifest UP-TO-DATE
 > Task :loadingbutton:javaPreCompileDebug UP-TO-DATE
 > Task :loadingbutton:mergeDebugShaders UP-TO-DATE
-> Task :loadingbutton:compileDebugShaders UP-TO-DATE
-> Task :loadingbutton:compileDebugRenderscript NO-SOURCE
 > Task :loadingbutton:compileDebugAidl NO-SOURCE
+> Task :loadingbutton:compileDebugRenderscript NO-SOURCE
 > Task :loadingbutton:generateDebugResources UP-TO-DATE
 > Task :loadingbutton:packageDebugResources UP-TO-DATE
-> Task :loadingbutton:parseDebugLibraryResources UP-TO-DATE
+> Task :loadingbutton:parseDebugLocalResources UP-TO-DATE
 > Task :loadingbutton:generateDebugRFile UP-TO-DATE
 > Task :loadingbutton:compileDebugJavaWithJavac UP-TO-DATE
 > Task :loadingbutton:extractDebugAnnotations UP-TO-DATE
 > Task :loadingbutton:mergeDebugGeneratedProguardFiles UP-TO-DATE
 > Task :loadingbutton:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :loadingbutton:compileDebugShaders UP-TO-DATE
 > Task :loadingbutton:generateDebugAssets UP-TO-DATE
 > Task :loadingbutton:packageDebugAssets UP-TO-DATE
 > Task :loadingbutton:packageDebugRenderscript NO-SOURCE
 > Task :loadingbutton:prepareLintJarForPublish UP-TO-DATE
 > Task :loadingbutton:processDebugJavaRes NO-SOURCE
 > Task :loadingbutton:mergeDebugJavaResource UP-TO-DATE
-> Task :loadingbutton:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
-> Task :loadingbutton:mergeDebugJniLibFolders UP-TO-DATE
-> Task :loadingbutton:mergeDebugNativeLibs UP-TO-DATE
-> Task :loadingbutton:stripDebugDebugSymbols UP-TO-DATE
-> Task :loadingbutton:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :loadingbutton:syncDebugLibJars UP-TO-DATE
 > Task :loadingbutton:bundleDebugAar UP-TO-DATE
 > Task :loadingbutton:compileDebugSources UP-TO-DATE
 > Task :loadingbutton:assembleDebug UP-TO-DATE
 > Task :loadingbutton:preReleaseBuild UP-TO-DATE
 > Task :loadingbutton:compileReleaseAidl NO-SOURCE
+> Task :loadingbutton:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :loadingbutton:mergeReleaseNativeLibs UP-TO-DATE
+> Task :loadingbutton:stripReleaseDebugSymbols UP-TO-DATE
+> Task :loadingbutton:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
 > Task :loadingbutton:compileReleaseRenderscript NO-SOURCE
-> Task :loadingbutton:checkReleaseManifest UP-TO-DATE
 > Task :loadingbutton:generateReleaseBuildConfig UP-TO-DATE
 > Task :loadingbutton:generateReleaseResValues UP-TO-DATE
 > Task :loadingbutton:generateReleaseResources UP-TO-DATE
 > Task :loadingbutton:packageReleaseResources UP-TO-DATE
-> Task :loadingbutton:parseReleaseLibraryResources UP-TO-DATE
+> Task :loadingbutton:parseReleaseLocalResources UP-TO-DATE
 > Task :loadingbutton:processReleaseManifest UP-TO-DATE
 > Task :loadingbutton:generateReleaseRFile UP-TO-DATE
 > Task :loadingbutton:javaPreCompileRelease UP-TO-DATE
@@ -174,21 +171,17 @@ BUILD SUCCESSFUL in 16s
 > Task :loadingbutton:packageReleaseRenderscript NO-SOURCE
 > Task :loadingbutton:processReleaseJavaRes NO-SOURCE
 > Task :loadingbutton:mergeReleaseJavaResource UP-TO-DATE
-> Task :loadingbutton:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
-> Task :loadingbutton:mergeReleaseJniLibFolders UP-TO-DATE
-> Task :loadingbutton:mergeReleaseNativeLibs UP-TO-DATE
-> Task :loadingbutton:stripReleaseDebugSymbols UP-TO-DATE
-> Task :loadingbutton:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+> Task :loadingbutton:syncReleaseLibJars UP-TO-DATE
 > Task :loadingbutton:bundleReleaseAar UP-TO-DATE
 > Task :loadingbutton:compileReleaseSources UP-TO-DATE
 > Task :loadingbutton:mergeReleaseResources UP-TO-DATE
-> Task :loadingbutton:verifyReleaseResources UP-TO-DATE
-> Task :loadingbutton:assembleRelease UP-TO-DATE
-> Task :loadingbutton:assemble UP-TO-DATE
+> Task :loadingbutton:verifyReleaseResources
+> Task :loadingbutton:assembleRelease
+> Task :loadingbutton:assemble
 > Task :loadingbutton:build
 
-BUILD SUCCESSFUL in 6s
-47 actionable tasks: 47 up-to-date
+BUILD SUCCESSFUL in 11s
+45 actionable tasks: 1 executed, 44 up-to-date
 
-2019-12-02 13:01:26,827 ERROR FullProcessService - Project build has not produced APK file
-2019-12-02 13:01:26,854 ERROR FullProcessService - Could not find generated or existed APK file
+2020-11-02 00:49:57,775 ERROR FullProcessService - Project build has not produced APK file
+2020-11-02 00:49:57,858 ERROR FullProcessService - Could not find generated or existed APK file

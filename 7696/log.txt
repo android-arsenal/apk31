@@ -1,130 +1,165 @@
-2020-05-15 15:08:28,170 INFO  DownloadService - Downloading "https://github.com/kizitonwose/CalendarView/archive/master.zip", attempt 3
-2020-05-15 15:08:31,770 INFO  DownloadService - Downloaded https://github.com/kizitonwose/CalendarView/archive/master.zip, attempt 3
-2020-05-15 15:08:31,771 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/master.zip": 2 MB
-2020-05-15 15:08:31,771 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-05-15 15:08:31,771 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/master.zip: true
-2020-05-15 15:08:31,771 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src'.
-2020-05-15 15:08:31,843 INFO  FullProcessService - Size of directory with sources: 2 MB
-2020-05-15 15:08:31,843 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src]
-2020-05-15 15:08:31,883 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/.git/
+2020-11-02 00:44:21,539 INFO  DownloadService - Downloading "https://github.com/kizitonwose/CalendarView/archive/master.zip", attempt 3
+2020-11-02 00:44:23,965 INFO  DownloadService - Downloaded https://github.com/kizitonwose/CalendarView/archive/master.zip, attempt 3
+2020-11-02 00:44:23,966 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/master.zip": 2 MB
+2020-11-02 00:44:23,966 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-11-02 00:44:23,966 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/master.zip: true
+2020-11-02 00:44:23,967 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src'.
+2020-11-02 00:44:24,034 INFO  FullProcessService - Size of directory with sources: 2 MB
+2020-11-02 00:44:24,034 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src]
+2020-11-02 00:44:24,065 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/.git/
 
-2020-05-15 15:08:31,888 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/gradlew
-2020-05-15 15:08:31,894 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/build.gradle
-2020-05-15 15:08:31,899 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/settings.gradle
-2020-05-15 15:08:31,900 INFO  ProjectBuildService - Remote scripts: none
-2020-05-15 15:08:31,900 INFO  ProjectFixService - Fixing project...
-2020-05-15 15:08:31,912 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/library/local.properties
-2020-05-15 15:08:31,914 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-05-15 15:08:31,915 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-05-15 15:08:31,916 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/sample/local.properties
-2020-05-15 15:08:31,918 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-05-15 15:08:31,919 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-05-15 15:08:31,920 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/local.properties
-2020-05-15 15:08:31,921 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
-2020-05-15 15:08:31,921 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
-2020-05-15 15:08:31,923 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-05-15 15:08:31,923 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-05-15 15:08:31,924 INFO  ProjectFixService - Project was maybe fixed
-2020-05-15 15:08:31,924 INFO  ProjectTaskService - Detecting possible tasks...
-2020-05-15 15:08:31,925 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-05-15 15:08:41,763 INFO  ProjectTaskService - Detected possible tasks: 63
-2020-05-15 15:08:41,763 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-05-15 15:08:41,763 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-05-15 15:09:02,404 INFO  VirusProcessorServiceImpl - Queued project 7719 to scan viruses
-2020-05-15 15:09:21,781 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-11-02 00:44:24,070 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/gradlew
+2020-11-02 00:44:24,075 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/build.gradle
+2020-11-02 00:44:24,080 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/settings.gradle
+2020-11-02 00:44:24,081 INFO  ProjectBuildService - Remote scripts: none
+2020-11-02 00:44:24,081 INFO  ProjectFixService - Fixing project...
+2020-11-02 00:44:24,093 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/local.properties
+2020-11-02 00:44:24,097 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-11-02 00:44:24,097 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2020-11-02 00:44:24,098 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/sample/local.properties
+2020-11-02 00:44:24,101 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-11-02 00:44:24,101 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2020-11-02 00:44:24,103 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/local.properties
+2020-11-02 00:44:24,103 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2020-11-02 00:44:24,104 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2020-11-02 00:44:24,108 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-11-02 00:44:24,108 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2020-11-02 00:44:24,109 INFO  ProjectFixService - Project was maybe fixed
+2020-11-02 00:44:24,109 INFO  ProjectTaskService - Detecting possible tasks...
+2020-11-02 00:44:24,109 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-11-02 00:44:41,435 INFO  VirusProcessorServiceImpl - Queued project 7697 to scan viruses
+2020-11-02 00:44:42,042 INFO  ProjectTaskService - Detected possible tasks: 72
+2020-11-02 00:44:42,042 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-11-02 00:44:42,042 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-11-02 00:45:13,537 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
 > Task :library:mergeDebugJniLibFolders
 > Task :library:mergeDebugNativeLibs
-> Task :library:stripDebugDebugSymbols
+> Task :library:stripDebugDebugSymbols NO-SOURCE
 > Task :library:copyDebugJniLibsProjectAndLocalJars
 > Task :library:generateDebugBuildConfig
 > Task :library:generateDebugResValues
+> Task :library:compileDebugAidl NO-SOURCE
 > Task :library:mergeDebugShaders
-> Task :library:compileDebugShaders
-> Task :library:generateDebugAssets
+> Task :library:compileDebugRenderscript NO-SOURCE
+> Task :library:generateDebugResources
+> Task :library:packageDebugResources
+> Task :library:compileDebugShaders NO-SOURCE
+> Task :library:generateDebugAssets UP-TO-DATE
 > Task :library:packageDebugAssets
 > Task :library:packageDebugRenderscript NO-SOURCE
+> Task :library:processDebugManifest
 > Task :library:processDebugJavaRes NO-SOURCE
 > Task :library:preReleaseBuild UP-TO-DATE
+> Task :library:compileReleaseAidl NO-SOURCE
 > Task :library:mergeReleaseJniLibFolders
+> Task :library:compileReleaseRenderscript NO-SOURCE
 > Task :library:generateReleaseBuildConfig
 > Task :library:generateReleaseResValues
+> Task :library:generateReleaseResources
+> Task :library:packageReleaseResources
+> Task :library:parseDebugLocalResources
+> Task :library:mergeReleaseNativeLibs
+> Task :library:stripReleaseDebugSymbols NO-SOURCE
+> Task :library:copyReleaseJniLibsProjectAndLocalJars
+> Task :library:parseReleaseLocalResources
 > Task :library:prepareLintJarForPublish
 > Task :library:mergeReleaseShaders
-> Task :library:compileReleaseShaders
-> Task :library:generateReleaseAssets
+> Task :library:compileReleaseShaders NO-SOURCE
+> Task :library:generateReleaseAssets UP-TO-DATE
 > Task :library:packageReleaseAssets
 > Task :library:packageReleaseRenderscript NO-SOURCE
 > Task :library:processReleaseJavaRes NO-SOURCE
-> Task :library:processReleaseManifest
-> Task :library:processDebugManifest
-> Task :library:mergeReleaseNativeLibs
-> Task :library:stripReleaseDebugSymbols
-> Task :library:copyReleaseJniLibsProjectAndLocalJars
-> Task :library:compileDebugRenderscript NO-SOURCE
-> Task :library:compileDebugAidl NO-SOURCE
-> Task :library:generateDebugResources
-> Task :library:packageDebugResources
-> Task :library:compileReleaseAidl NO-SOURCE
-> Task :library:compileReleaseRenderscript NO-SOURCE
-> Task :library:generateReleaseResources
-> Task :library:packageReleaseResources
-> Task :library:mergeReleaseResources
-> Task :library:parseReleaseLocalResources
-> Task :library:parseDebugLocalResources
-> Task :library:generateReleaseRFile
+> Task :library:javaPreCompileDebug
 > Task :library:generateDebugRFile
-> Task :library:verifyReleaseResources
 
 > Task :library:compileDebugKotlin
 w: Argument -module-name is passed multiple times. Only the last value will be used: com.github.kizitonwose.CalendarView
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/ui/CalendarAdapter.kt: (122, 28): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/utils/Extensions.kt: (15, 10): Expected performance impact from inlining is insignificant. Inlining works best for functions with parameters of functional types
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/utils/Extensions.kt: (17, 10): Expected performance impact from inlining is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/CalendarView.kt: (238, 34): 'DAY_SIZE_SQUARE: Int' is deprecated. The new `daySize` property clarifies how cell sizing should be done.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/CalendarView.kt: (294, 48): 'DAY_SIZE_SQUARE: Int' is deprecated. The new `daySize` property clarifies how cell sizing should be done.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/CalendarView.kt: (318, 25): 'DAY_SIZE_SQUARE: Int' is deprecated. The new `daySize` property clarifies how cell sizing should be done.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/CalendarView.kt: (322, 35): 'dayHeight: Int' is deprecated. The new `daySize` property clarifies how cell sizing should be done.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/CalendarView.kt: (337, 26): 'DAY_SIZE_SQUARE: Int' is deprecated. The new `daySize` property clarifies how cell sizing should be done.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/CalendarView.kt: (341, 28): 'dayWidth: Int' is deprecated. The new `daySize` property clarifies how cell sizing should be done.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/CalendarView.kt: (355, 67): 'DAY_SIZE_SQUARE: Int' is deprecated. The new `daySize` property clarifies how cell sizing should be done.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/CalendarView.kt: (589, 9): 'setter for monthPaddingStart: Int' is deprecated. Directly setting this along with related properties causes repeated invalidation of view holders.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/CalendarView.kt: (590, 9): 'setter for monthPaddingTop: Int' is deprecated. Directly setting this along with related properties causes repeated invalidation of view holders.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/CalendarView.kt: (591, 9): 'setter for monthPaddingEnd: Int' is deprecated. Directly setting this along with related properties causes repeated invalidation of view holders.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/CalendarView.kt: (592, 9): 'setter for monthPaddingBottom: Int' is deprecated. Directly setting this along with related properties causes repeated invalidation of view holders.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/CalendarView.kt: (609, 9): 'setter for monthMarginStart: Int' is deprecated. Directly setting this along with related properties causes repeated invalidation of view holders.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/CalendarView.kt: (610, 9): 'setter for monthMarginTop: Int' is deprecated. Directly setting this along with related properties causes repeated invalidation of view holders.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/CalendarView.kt: (611, 9): 'setter for monthMarginEnd: Int' is deprecated. Directly setting this along with related properties causes repeated invalidation of view holders.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/CalendarView.kt: (612, 9): 'setter for monthMarginBottom: Int' is deprecated. Directly setting this along with related properties causes repeated invalidation of view holders.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/CalendarView.kt: (969, 32): 'DAY_SIZE_SQUARE: Int' is deprecated. The new `daySize` property clarifies how cell sizing should be done.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/CalendarView.kt: (969, 49): 'DAY_SIZE_SQUARE: Int' is deprecated. The new `daySize` property clarifies how cell sizing should be done.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/CalendarView.kt: (975, 51): 'DAY_SIZE_SQUARE: Int' is deprecated. The new `daySize` property clarifies how cell sizing should be done.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/utils/Extensions.kt: (17, 10): Expected performance impact from inlining is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/utils/Extensions.kt: (19, 10): Expected performance impact from inlining is insignificant. Inlining works best for functions with parameters of functional types
+
+> Task :library:compileDebugJavaWithJavac
+> Task :library:extractDebugAnnotations
+> Task :library:mergeDebugGeneratedProguardFiles
+> Task :library:mergeDebugConsumerProguardFiles
+> Task :library:compileDebugSources
+> Task :library:processReleaseManifest
+> Task :library:javaPreCompileRelease
+> Task :library:mergeReleaseResources
+> Task :library:mergeDebugJavaResource
+> Task :library:syncDebugLibJars
+> Task :library:bundleDebugAar
+> Task :library:assembleDebug
+> Task :library:generateReleaseRFile
 
 > Task :library:compileReleaseKotlin
 w: Argument -module-name is passed multiple times. Only the last value will be used: com.github.kizitonwose.CalendarView
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/ui/CalendarAdapter.kt: (122, 28): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/utils/Extensions.kt: (15, 10): Expected performance impact from inlining is insignificant. Inlining works best for functions with parameters of functional types
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/utils/Extensions.kt: (17, 10): Expected performance impact from inlining is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/CalendarView.kt: (238, 34): 'DAY_SIZE_SQUARE: Int' is deprecated. The new `daySize` property clarifies how cell sizing should be done.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/CalendarView.kt: (294, 48): 'DAY_SIZE_SQUARE: Int' is deprecated. The new `daySize` property clarifies how cell sizing should be done.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/CalendarView.kt: (318, 25): 'DAY_SIZE_SQUARE: Int' is deprecated. The new `daySize` property clarifies how cell sizing should be done.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/CalendarView.kt: (322, 35): 'dayHeight: Int' is deprecated. The new `daySize` property clarifies how cell sizing should be done.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/CalendarView.kt: (337, 26): 'DAY_SIZE_SQUARE: Int' is deprecated. The new `daySize` property clarifies how cell sizing should be done.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/CalendarView.kt: (341, 28): 'dayWidth: Int' is deprecated. The new `daySize` property clarifies how cell sizing should be done.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/CalendarView.kt: (355, 67): 'DAY_SIZE_SQUARE: Int' is deprecated. The new `daySize` property clarifies how cell sizing should be done.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/CalendarView.kt: (589, 9): 'setter for monthPaddingStart: Int' is deprecated. Directly setting this along with related properties causes repeated invalidation of view holders.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/CalendarView.kt: (590, 9): 'setter for monthPaddingTop: Int' is deprecated. Directly setting this along with related properties causes repeated invalidation of view holders.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/CalendarView.kt: (591, 9): 'setter for monthPaddingEnd: Int' is deprecated. Directly setting this along with related properties causes repeated invalidation of view holders.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/CalendarView.kt: (592, 9): 'setter for monthPaddingBottom: Int' is deprecated. Directly setting this along with related properties causes repeated invalidation of view holders.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/CalendarView.kt: (609, 9): 'setter for monthMarginStart: Int' is deprecated. Directly setting this along with related properties causes repeated invalidation of view holders.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/CalendarView.kt: (610, 9): 'setter for monthMarginTop: Int' is deprecated. Directly setting this along with related properties causes repeated invalidation of view holders.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/CalendarView.kt: (611, 9): 'setter for monthMarginEnd: Int' is deprecated. Directly setting this along with related properties causes repeated invalidation of view holders.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/CalendarView.kt: (612, 9): 'setter for monthMarginBottom: Int' is deprecated. Directly setting this along with related properties causes repeated invalidation of view holders.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/CalendarView.kt: (969, 32): 'DAY_SIZE_SQUARE: Int' is deprecated. The new `daySize` property clarifies how cell sizing should be done.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/CalendarView.kt: (969, 49): 'DAY_SIZE_SQUARE: Int' is deprecated. The new `daySize` property clarifies how cell sizing should be done.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/CalendarView.kt: (975, 51): 'DAY_SIZE_SQUARE: Int' is deprecated. The new `daySize` property clarifies how cell sizing should be done.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/utils/Extensions.kt: (17, 10): Expected performance impact from inlining is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/library/src/main/java/com/kizitonwose/calendarview/utils/Extensions.kt: (19, 10): Expected performance impact from inlining is insignificant. Inlining works best for functions with parameters of functional types
 
-> Task :library:mergeDebugJavaResource
-> Task :library:javaPreCompileDebug
-> Task :library:compileDebugJavaWithJavac
-> Task :library:extractDebugAnnotations
-> Task :library:mergeReleaseJavaResource
-> Task :library:mergeDebugGeneratedProguardFiles
-> Task :library:mergeDebugConsumerProguardFiles
-> Task :library:syncDebugLibJars
-> Task :library:bundleDebugAar
-> Task :library:compileDebugSources
-> Task :library:assembleDebug
-> Task :library:javaPreCompileRelease
 > Task :library:compileReleaseJavaWithJavac
 > Task :library:extractReleaseAnnotations
 > Task :library:mergeReleaseGeneratedProguardFiles
 > Task :library:mergeReleaseConsumerProguardFiles
+> Task :library:verifyReleaseResources
+> Task :library:compileReleaseSources
+> Task :library:mergeReleaseJavaResource
 > Task :library:syncReleaseLibJars
 > Task :library:bundleReleaseAar
-> Task :library:compileReleaseSources
 > Task :library:assembleRelease
 > Task :library:assemble
 > Task :library:build
 
-BUILD SUCCESSFUL in 39s
-47 actionable tasks: 47 executed
+BUILD SUCCESSFUL in 30s
+43 actionable tasks: 43 executed
 
-2020-05-15 15:09:21,830 INFO  ProjectTaskService - Detecting possible tasks...
-2020-05-15 15:09:21,830 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-05-15 15:09:30,965 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-05-15 15:09:30,966 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-05-15 15:09:30,966 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-05-15 15:11:19,773 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-11-02 00:45:13,581 INFO  ProjectTaskService - Detecting possible tasks...
+2020-11-02 00:45:13,581 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-11-02 00:45:21,909 INFO  ProjectTaskService - Detected possible tasks: 75
+2020-11-02 00:45:21,909 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-11-02 00:45:21,909 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-11-02 00:47:14,291 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
-> Task :library:compileDebugAidl NO-SOURCE
 > Task :library:generateDebugBuildConfig UP-TO-DATE
+> Task :library:compileDebugAidl NO-SOURCE
 > Task :library:compileDebugRenderscript NO-SOURCE
 > Task :library:generateDebugResValues UP-TO-DATE
 > Task :library:generateDebugResources UP-TO-DATE
@@ -139,37 +174,89 @@ BUILD SUCCESSFUL in 39s
 > Task :sample:preDebugBuild UP-TO-DATE
 > Task :sample:compileDebugAidl NO-SOURCE
 > Task :library:packageDebugRenderscript NO-SOURCE
-> Task :sample:generateDebugBuildConfig
 > Task :sample:compileDebugRenderscript NO-SOURCE
-> Task :library:bundleLibCompileDebug
-> Task :sample:mainApkListPersistenceDebug
-> Task :library:compileDebugLibraryResources
+> Task :sample:dataBindingMergeDependencyArtifactsDebug
+> Task :library:bundleLibCompileToJarDebug
+> Task :sample:dataBindingMergeGenClassesDebug
 > Task :sample:generateDebugResValues
 > Task :sample:generateDebugResources
+> Task :sample:generateDebugBuildConfig
+> Task :library:compileDebugLibraryResources
 > Task :library:extractDeepLinksDebug
 > Task :sample:createDebugCompatibleScreenManifests
 > Task :sample:extractDeepLinksDebug
 > Task :sample:processDebugManifest
 > Task :sample:mergeDebugResources
-> Task :sample:processDebugResources
-
-> Task :sample:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Example1Fragment.kt: (51, 55): Name shadowed: view
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Example1Fragment.kt: (151, 42): Name shadowed: animator
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Example2Fragment.kt: (44, 55): Name shadowed: view
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Example4Fragment.kt: (73, 55): Name shadowed: view
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Extensions.kt: (41, 10): Expected performance impact from inlining is insignificant. Inlining works best for functions with parameters of functional types
-
+> Task :sample:dataBindingGenBaseClassesDebug
 > Task :sample:javaPreCompileDebug
-> Task :sample:compileDebugJavaWithJavac
-> Task :sample:compileDebugSources
 > Task :library:mergeDebugShaders UP-TO-DATE
-> Task :library:compileDebugShaders UP-TO-DATE
+> Task :library:compileDebugShaders NO-SOURCE
 > Task :library:generateDebugAssets UP-TO-DATE
 > Task :library:packageDebugAssets UP-TO-DATE
 > Task :sample:mergeDebugShaders
-> Task :sample:compileDebugShaders
-> Task :sample:generateDebugAssets
+> Task :sample:compileDebugShaders NO-SOURCE
+> Task :sample:generateDebugAssets UP-TO-DATE
+> Task :sample:processDebugResources
+
+> Transform artifact desugar_jdk_libs_configuration-1.0.10.jar (com.android.tools:desugar_jdk_libs_configuration:1.0.10) with L8DexDesugarLibTransform
+Warning: Type `j$.util.DesugarTimeZone` was not found, it is required for default or static interface methods desugaring of `j$.time.ZoneId j$.$r8$backportedMethods$utility$TimeZone$toZoneId$dispatchHolder.toZoneId(java.util.TimeZone)`
+Warning: Type `j$.util.Optional` was not found, it is required for default or static interface methods desugaring of `j$.util.Optional j$.util.OptionalConversions.convert(java.util.Optional)`
+Warning: Type `j$.util.OptionalDouble` was not found, it is required for default or static interface methods desugaring of `j$.util.OptionalDouble j$.util.OptionalConversions.convert(java.util.OptionalDouble)`
+Warning: Type `j$.util.OptionalLong` was not found, it is required for default or static interface methods desugaring of `j$.util.OptionalLong j$.util.OptionalConversions.convert(java.util.OptionalLong)`
+Warning: Type `j$.util.OptionalInt` was not found, it is required for default or static interface methods desugaring of `j$.util.OptionalInt j$.util.OptionalConversions.convert(java.util.OptionalInt)`
+Warning: Type `j$.time.ZonedDateTime` was not found, it is required for default or static interface methods desugaring of `j$.time.ZonedDateTime j$.time.TimeConversions.convert(java.time.ZonedDateTime)`
+Warning: Type `j$.time.ZoneId` was not found, it is required for default or static interface methods desugaring of `j$.time.ZoneId j$.time.TimeConversions.convert(java.time.ZoneId)`
+Warning: Type `j$.time.MonthDay` was not found, it is required for default or static interface methods desugaring of `j$.time.MonthDay j$.time.TimeConversions.convert(java.time.MonthDay)`
+Warning: Type `j$.time.Instant` was not found, it is required for default or static interface methods desugaring of `j$.time.Instant j$.time.TimeConversions.convert(java.time.Instant)`
+Warning: Type `j$.time.LocalDate` was not found, it is required for default or static interface methods desugaring of `j$.time.LocalDate j$.time.TimeConversions.convert(java.time.LocalDate)`
+Warning: Type `j$.time.Duration` was not found, it is required for default or static interface methods desugaring of `j$.time.Duration j$.time.TimeConversions.convert(java.time.Duration)`
+Warning: Type `j$.util.DesugarGregorianCalendar` was not found, it is required for default or static interface methods desugaring of `j$.time.ZonedDateTime j$.$r8$backportedMethods$utility$GregorianCalendar$toZonedDateTime$dispatchHolder.toZonedDateTime(java.util.GregorianCalendar)`
+Warning: Type `j$.util.DesugarDate` was not found, it is required for default or static interface methods desugaring of `j$.time.Instant j$.$r8$backportedMethods$utility$Date$toInstant$dispatchHolder.toInstant(java.util.Date)`
+
+> Transform artifact desugar_jdk_libs-1.0.10.jar (com.android.tools:desugar_jdk_libs:1.0.10) with L8DexDesugarLibTransform
+Warning in /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.tools/desugar_jdk_libs/1.0.10/61bd346a9d026c92028eb8c8c29e09368b22633c/desugar_jdk_libs-1.0.10.jar:java/util/concurrent/ConcurrentHashMap$EntrySetView.class:
+  Type `j$.$r8$wrapper$java$util$Spliterator$-WRP` was not found, it is required for default or static interface methods desugaring of `$-vivified-$.java.util.Spliterator java.util.concurrent.ConcurrentHashMap$EntrySetView.spliterator()`
+Warning in /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.tools/desugar_jdk_libs/1.0.10/61bd346a9d026c92028eb8c8c29e09368b22633c/desugar_jdk_libs-1.0.10.jar:java/util/concurrent/ConcurrentHashMap$EntrySetView.class:
+  Type `j$.$r8$wrapper$java$util$function$Consumer$-V-WRP` was not found, it is required for default or static interface methods desugaring of `void java.util.concurrent.ConcurrentHashMap$EntrySetView.forEach($-vivified-$.java.util.function.Consumer)`
+Warning in /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.tools/desugar_jdk_libs/1.0.10/61bd346a9d026c92028eb8c8c29e09368b22633c/desugar_jdk_libs-1.0.10.jar:java/util/stream/Collectors$Partition$1.class:
+  Type `j$.$r8$wrapper$java$util$stream$Stream$-WRP` was not found, it is required for default or static interface methods desugaring of `$-vivified-$.java.util.stream.Stream java.util.stream.Collectors$Partition$1.parallelStream()`
+Warning in /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.tools/desugar_jdk_libs/1.0.10/61bd346a9d026c92028eb8c8c29e09368b22633c/desugar_jdk_libs-1.0.10.jar:java/util/stream/Collectors$Partition$1.class:
+  Type `j$.$r8$wrapper$java$util$function$Predicate$-V-WRP` was not found, it is required for default or static interface methods desugaring of `boolean java.util.stream.Collectors$Partition$1.removeIf($-vivified-$.java.util.function.Predicate)`
+Warning in /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.tools/desugar_jdk_libs/1.0.10/61bd346a9d026c92028eb8c8c29e09368b22633c/desugar_jdk_libs-1.0.10.jar:java/util/stream/Collectors$Partition$1.class:
+  Type `j$.$r8$wrapper$java$util$function$IntFunction$-V-WRP` was not found, it is required for default or static interface methods desugaring of `java.lang.Object[] java.util.stream.Collectors$Partition$1.toArray($-vivified-$.java.util.function.IntFunction)`
+Warning in synthesized for lambda desugaring:
+  Type `j$.$r8$wrapper$java$util$function$Function$-V-WRP` was not found, it is required for default or static interface methods desugaring of `java.util.Comparator java.util.-$$Lambda$Comparator$4V5k8aLimtS0VsEILEAqQ9UGZYo.thenComparing($-vivified-$.java.util.function.Function, java.util.Comparator)`
+Warning in synthesized for lambda desugaring:
+  Type `j$.$r8$wrapper$java$util$function$ToIntFunction$-V-WRP` was not found, it is required for default or static interface methods desugaring of `java.util.Comparator java.util.-$$Lambda$Comparator$4V5k8aLimtS0VsEILEAqQ9UGZYo.thenComparingInt($-vivified-$.java.util.function.ToIntFunction)`
+Warning in synthesized for lambda desugaring:
+  Type `j$.$r8$wrapper$java$util$function$ToDoubleFunction$-V-WRP` was not found, it is required for default or static interface methods desugaring of `java.util.Comparator java.util.-$$Lambda$Comparator$4V5k8aLimtS0VsEILEAqQ9UGZYo.thenComparingDouble($-vivified-$.java.util.function.ToDoubleFunction)`
+Warning in synthesized for lambda desugaring:
+  Type `j$.$r8$wrapper$java$util$function$ToLongFunction$-V-WRP` was not found, it is required for default or static interface methods desugaring of `java.util.Comparator java.util.-$$Lambda$Comparator$4V5k8aLimtS0VsEILEAqQ9UGZYo.thenComparingLong($-vivified-$.java.util.function.ToLongFunction)`
+Warning in /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.tools/desugar_jdk_libs/1.0.10/61bd346a9d026c92028eb8c8c29e09368b22633c/desugar_jdk_libs-1.0.10.jar:java/util/DesugarCollections$SynchronizedMap.class:
+  Type `j$.$r8$wrapper$java$util$function$BiFunction$-V-WRP` was not found, it is required for default or static interface methods desugaring of `void java.util.DesugarCollections$SynchronizedMap.replaceAll($-vivified-$.java.util.function.BiFunction)`
+Warning in /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.tools/desugar_jdk_libs/1.0.10/61bd346a9d026c92028eb8c8c29e09368b22633c/desugar_jdk_libs-1.0.10.jar:java/util/DesugarCollections$SynchronizedMap.class:
+  Type `j$.$r8$wrapper$java$util$function$BiConsumer$-V-WRP` was not found, it is required for default or static interface methods desugaring of `void java.util.DesugarCollections$SynchronizedMap.forEach($-vivified-$.java.util.function.BiConsumer)`
+Warning in /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.tools/desugar_jdk_libs/1.0.10/61bd346a9d026c92028eb8c8c29e09368b22633c/desugar_jdk_libs-1.0.10.jar:java/util/concurrent/ThreadLocalRandom.class:
+  Type `j$.$r8$wrapper$java$util$stream$IntStream$-WRP` was not found, it is required for default or static interface methods desugaring of `$-vivified-$.java.util.stream.IntStream java.util.concurrent.ThreadLocalRandom.ints()`
+Warning in /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.tools/desugar_jdk_libs/1.0.10/61bd346a9d026c92028eb8c8c29e09368b22633c/desugar_jdk_libs-1.0.10.jar:java/util/concurrent/ThreadLocalRandom.class:
+  Type `j$.$r8$wrapper$java$util$stream$LongStream$-WRP` was not found, it is required for default or static interface methods desugaring of `$-vivified-$.java.util.stream.LongStream java.util.concurrent.ThreadLocalRandom.longs()`
+Warning in /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.tools/desugar_jdk_libs/1.0.10/61bd346a9d026c92028eb8c8c29e09368b22633c/desugar_jdk_libs-1.0.10.jar:java/util/concurrent/ThreadLocalRandom.class:
+  Type `j$.$r8$wrapper$java$util$stream$DoubleStream$-WRP` was not found, it is required for default or static interface methods desugaring of `$-vivified-$.java.util.stream.DoubleStream java.util.concurrent.ThreadLocalRandom.doubles(long)`
+Warning: Type `j$.util.OptionalConversions` was not found, it is required for default or static interface methods desugaring of `java.util.OptionalLong j$.$r8$wrapper$java$util$stream$LongStream$-WRP.reduce(java.util.function.LongBinaryOperator)`
+Warning: Type `j$.util.LongSummaryStatisticsConversions` was not found, it is required for default or static interface methods desugaring of `java.util.LongSummaryStatistics j$.$r8$wrapper$java$util$stream$LongStream$-WRP.summaryStatistics()`
+Warning: Type `j$.util.DoubleSummaryStatisticsConversions` was not found, it is required for default or static interface methods desugaring of `java.util.DoubleSummaryStatistics j$.$r8$wrapper$java$util$stream$DoubleStream$-WRP.summaryStatistics()`
+Warning: Type `j$.util.IntSummaryStatisticsConversions` was not found, it is required for default or static interface methods desugaring of `java.util.IntSummaryStatistics j$.$r8$wrapper$java$util$stream$IntStream$-WRP.summaryStatistics()`
+
+> Task :sample:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Example1Fragment.kt: (44, 68): Name shadowed: view
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Example1Fragment.kt: (142, 42): Name shadowed: animator
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Example2Fragment.kt: (43, 68): Name shadowed: view
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Example4Fragment.kt: (71, 68): Name shadowed: view
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Example4Fragment.kt: (261, 13): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Extensions.kt: (47, 10): Expected performance impact from inlining is insignificant. Inlining works best for functions with parameters of functional types
+
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
 > Task :sample:mergeDebugAssets
 > Task :library:processDebugJavaRes NO-SOURCE
 > Task :sample:processDebugJavaRes NO-SOURCE
@@ -177,12 +264,12 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/
 > Task :sample:mergeDebugJavaResource
 > Task :sample:checkDebugDuplicateClasses
 > Task :sample:desugarDebugFileDependencies
-> Task :library:bundleLibRuntimeDebug
+> Task :library:bundleLibRuntimeToJarDebug
 > Task :sample:dexBuilderDebug
 > Task :sample:mergeLibDexDebug
 > Task :library:mergeDebugJniLibFolders UP-TO-DATE
 > Task :library:mergeDebugNativeLibs UP-TO-DATE
-> Task :library:stripDebugDebugSymbols UP-TO-DATE
+> Task :library:stripDebugDebugSymbols NO-SOURCE
 > Task :library:copyDebugJniLibsProjectOnly
 > Task :sample:mergeDebugJniLibFolders
 > Task :sample:validateSigningDebug
@@ -199,73 +286,109 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/
 > Task :library:compileReleaseKotlin UP-TO-DATE
 > Task :library:javaPreCompileRelease UP-TO-DATE
 > Task :library:compileReleaseJavaWithJavac UP-TO-DATE
-> Task :library:bundleLibCompileRelease
+> Task :library:bundleLibCompileToJarRelease
 > Task :sample:preReleaseBuild UP-TO-DATE
 > Task :sample:compileReleaseAidl NO-SOURCE
 > Task :library:packageReleaseRenderscript NO-SOURCE
 > Task :sample:compileReleaseRenderscript NO-SOURCE
-> Task :sample:generateReleaseBuildConfig
-> Task :library:compileReleaseLibraryResources
-> Task :sample:mainApkListPersistenceRelease
+> Task :sample:dataBindingMergeDependencyArtifactsRelease
+> Task :sample:dataBindingMergeGenClassesRelease
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
-> Task :sample:mergeDebugNativeLibs
-> Task :sample:stripDebugDebugSymbols
+> Task :sample:generateReleaseBuildConfig
+> Task :library:compileReleaseLibraryResources
 > Task :library:extractDeepLinksRelease
 > Task :sample:createReleaseCompatibleScreenManifests
 > Task :sample:extractDeepLinksRelease
 > Task :sample:processReleaseManifest
-> Task :sample:mergeProjectDexDebug
+> Task :sample:mergeDebugNativeLibs
+> Task :sample:stripDebugDebugSymbols NO-SOURCE
+> Task :sample:javaPreCompileRelease
 > Task :sample:mergeReleaseResources
+> Task :sample:dataBindingGenBaseClassesRelease
 > Task :sample:processReleaseResources
 
 > Task :sample:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Example1Fragment.kt: (51, 55): Name shadowed: view
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Example1Fragment.kt: (151, 42): Name shadowed: animator
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Example2Fragment.kt: (44, 55): Name shadowed: view
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Example4Fragment.kt: (73, 55): Name shadowed: view
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Extensions.kt: (41, 10): Expected performance impact from inlining is insignificant. Inlining works best for functions with parameters of functional types
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Example1Fragment.kt: (44, 68): Name shadowed: view
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Example1Fragment.kt: (142, 42): Name shadowed: animator
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Example2Fragment.kt: (43, 68): Name shadowed: view
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Example4Fragment.kt: (71, 68): Name shadowed: view
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Example4Fragment.kt: (261, 13): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/sample/src/main/java/com/kizitonwose/calendarviewsample/Extensions.kt: (47, 10): Expected performance impact from inlining is insignificant. Inlining works best for functions with parameters of functional types
 
-> Task :sample:javaPreCompileRelease
 > Task :sample:compileReleaseJavaWithJavac
 > Task :sample:compileReleaseSources
+> Task :sample:mergeProjectDexDebug
 > Task :library:prepareLintJarForPublish UP-TO-DATE
 > Task :sample:prepareLintJar
 > Task :sample:lintVitalRelease
-> Task :sample:checkReleaseDuplicateClasses
 > Task :sample:mergeExtDexDebug
 > Task :sample:packageDebug
 > Task :sample:assembleDebug
-> Task :library:bundleLibRuntimeRelease
-> Task :sample:dexBuilderRelease
 > Task :sample:desugarReleaseFileDependencies
+> Task :library:bundleLibRuntimeToJarRelease
+> Task :sample:dexBuilderRelease
+> Task :sample:checkReleaseDuplicateClasses
 > Task :library:mergeReleaseShaders UP-TO-DATE
-> Task :library:compileReleaseShaders UP-TO-DATE
+> Task :library:compileReleaseShaders NO-SOURCE
 > Task :library:generateReleaseAssets UP-TO-DATE
 > Task :library:packageReleaseAssets UP-TO-DATE
 > Task :sample:mergeReleaseShaders
-> Task :sample:compileReleaseShaders
-> Task :sample:generateReleaseAssets
+> Task :sample:compileReleaseShaders NO-SOURCE
+> Task :sample:generateReleaseAssets UP-TO-DATE
 > Task :sample:mergeReleaseAssets
 > Task :library:processReleaseJavaRes NO-SOURCE
-> Task :library:bundleLibResRelease
 > Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:collectReleaseDependencies
+> Task :sample:sdkReleaseDependencyData
 > Task :library:mergeReleaseJniLibFolders UP-TO-DATE
 > Task :library:mergeReleaseNativeLibs UP-TO-DATE
-> Task :library:stripReleaseDebugSymbols UP-TO-DATE
+> Task :library:stripReleaseDebugSymbols NO-SOURCE
 > Task :library:copyReleaseJniLibsProjectOnly
 > Task :sample:mergeReleaseJniLibFolders
+> Task :library:bundleLibResRelease
 > Task :sample:mergeReleaseNativeLibs
-> Task :sample:stripReleaseDebugSymbols
+> Task :sample:stripReleaseDebugSymbols NO-SOURCE
 > Task :sample:mergeReleaseJavaResource
 > Task :sample:mergeExtDexRelease
+
+> Task :sample:l8DexDesugarLibRelease
+Warning in synthesized for lambda desugaring:
+  Type `j$.$r8$wrapper$java$util$function$Function$-V-WRP` was not found, it is required for default or static interface methods desugaring of `java.util.Comparator java.util.-$$Lambda$Map$Entry$zJtjVuaqJl6rzQLvCcTd4dnXnnw.thenComparing($-vivified-$.java.util.function.Function)`
+Warning in synthesized for lambda desugaring:
+  Type `j$.$r8$wrapper$java$util$function$ToDoubleFunction$-V-WRP` was not found, it is required for default or static interface methods desugaring of `java.util.Comparator java.util.-$$Lambda$Map$Entry$zJtjVuaqJl6rzQLvCcTd4dnXnnw.thenComparingDouble($-vivified-$.java.util.function.ToDoubleFunction)`
+Warning in synthesized for lambda desugaring:
+  Type `j$.$r8$wrapper$java$util$function$ToLongFunction$-V-WRP` was not found, it is required for default or static interface methods desugaring of `java.util.Comparator java.util.-$$Lambda$Map$Entry$zJtjVuaqJl6rzQLvCcTd4dnXnnw.thenComparingLong($-vivified-$.java.util.function.ToLongFunction)`
+Warning in synthesized for lambda desugaring:
+  Type `j$.$r8$wrapper$java$util$function$ToIntFunction$-V-WRP` was not found, it is required for default or static interface methods desugaring of `java.util.Comparator java.util.-$$Lambda$Map$Entry$zJtjVuaqJl6rzQLvCcTd4dnXnnw.thenComparingInt($-vivified-$.java.util.function.ToIntFunction)`
+Warning in /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.tools/desugar_jdk_libs/1.0.10/61bd346a9d026c92028eb8c8c29e09368b22633c/desugar_jdk_libs-1.0.10.jar:java/util/Spliterators$1Adapter.class:
+  Type `j$.$r8$wrapper$java$util$function$Consumer$-V-WRP` was not found, it is required for default or static interface methods desugaring of `void java.util.Spliterators$1Adapter.forEachRemaining($-vivified-$.java.util.function.Consumer)`
+Warning in /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.tools/desugar_jdk_libs/1.0.10/61bd346a9d026c92028eb8c8c29e09368b22633c/desugar_jdk_libs-1.0.10.jar:java/util/concurrent/ConcurrentHashMap$EntrySetView.class:
+  Type `j$.$r8$wrapper$java$util$Spliterator$-WRP` was not found, it is required for default or static interface methods desugaring of `$-vivified-$.java.util.Spliterator java.util.concurrent.ConcurrentHashMap$EntrySetView.spliterator()`
+Warning in /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.tools/desugar_jdk_libs/1.0.10/61bd346a9d026c92028eb8c8c29e09368b22633c/desugar_jdk_libs-1.0.10.jar:java/util/DesugarCollections$SynchronizedMap.class:
+  Type `j$.$r8$wrapper$java$util$function$BiFunction$-V-WRP` was not found, it is required for default or static interface methods desugaring of `void java.util.DesugarCollections$SynchronizedMap.replaceAll($-vivified-$.java.util.function.BiFunction)`
+Warning in /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.tools/desugar_jdk_libs/1.0.10/61bd346a9d026c92028eb8c8c29e09368b22633c/desugar_jdk_libs-1.0.10.jar:java/util/DesugarCollections$SynchronizedMap.class:
+  Type `j$.$r8$wrapper$java$util$function$BiConsumer$-V-WRP` was not found, it is required for default or static interface methods desugaring of `void java.util.DesugarCollections$SynchronizedMap.forEach($-vivified-$.java.util.function.BiConsumer)`
+Warning in /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.tools/desugar_jdk_libs/1.0.10/61bd346a9d026c92028eb8c8c29e09368b22633c/desugar_jdk_libs-1.0.10.jar:java/util/concurrent/ConcurrentHashMap$CollectionView.class:
+  Type `j$.$r8$wrapper$java$util$stream$Stream$-WRP` was not found, it is required for default or static interface methods desugaring of `$-vivified-$.java.util.stream.Stream java.util.concurrent.ConcurrentHashMap$CollectionView.parallelStream()`
+Warning in /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.tools/desugar_jdk_libs/1.0.10/61bd346a9d026c92028eb8c8c29e09368b22633c/desugar_jdk_libs-1.0.10.jar:java/util/concurrent/ConcurrentHashMap$CollectionView.class:
+  Type `j$.$r8$wrapper$java$util$function$Predicate$-V-WRP` was not found, it is required for default or static interface methods desugaring of `boolean java.util.concurrent.ConcurrentHashMap$CollectionView.removeIf($-vivified-$.java.util.function.Predicate)`
+Warning in /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.tools/desugar_jdk_libs/1.0.10/61bd346a9d026c92028eb8c8c29e09368b22633c/desugar_jdk_libs-1.0.10.jar:java/util/concurrent/ConcurrentHashMap$CollectionView.class:
+  Type `j$.$r8$wrapper$java$util$function$IntFunction$-V-WRP` was not found, it is required for default or static interface methods desugaring of `java.lang.Object[] java.util.concurrent.ConcurrentHashMap$CollectionView.toArray($-vivified-$.java.util.function.IntFunction)`
+Warning in /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.tools/desugar_jdk_libs/1.0.10/61bd346a9d026c92028eb8c8c29e09368b22633c/desugar_jdk_libs-1.0.10.jar:java/util/concurrent/ThreadLocalRandom.class:
+  Type `j$.$r8$wrapper$java$util$stream$IntStream$-WRP` was not found, it is required for default or static interface methods desugaring of `$-vivified-$.java.util.stream.IntStream java.util.concurrent.ThreadLocalRandom.ints()`
+Warning in /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.tools/desugar_jdk_libs/1.0.10/61bd346a9d026c92028eb8c8c29e09368b22633c/desugar_jdk_libs-1.0.10.jar:java/util/concurrent/ThreadLocalRandom.class:
+  Type `j$.$r8$wrapper$java$util$stream$LongStream$-WRP` was not found, it is required for default or static interface methods desugaring of `$-vivified-$.java.util.stream.LongStream java.util.concurrent.ThreadLocalRandom.longs()`
+Warning in /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.tools/desugar_jdk_libs/1.0.10/61bd346a9d026c92028eb8c8c29e09368b22633c/desugar_jdk_libs-1.0.10.jar:java/util/concurrent/ThreadLocalRandom.class:
+  Type `j$.$r8$wrapper$java$util$stream$DoubleStream$-WRP` was not found, it is required for default or static interface methods desugaring of `$-vivified-$.java.util.stream.DoubleStream java.util.concurrent.ThreadLocalRandom.doubles(long)`
+
 > Task :sample:mergeDexRelease
 > Task :sample:packageRelease
 > Task :sample:assembleRelease
 > Task :sample:assemble
 > Task :sample:build
 
-BUILD SUCCESSFUL in 1m 47s
-95 actionable tasks: 64 executed, 31 up-to-date
+BUILD SUCCESSFUL in 1m 51s
+94 actionable tasks: 67 executed, 27 up-to-date
 
-2020-05-15 15:11:19,884 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589530108166-0/src/CalendarView-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2020-11-02 00:47:14,393 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604252661533-0/src/CalendarView-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
